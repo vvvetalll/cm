@@ -6,6 +6,7 @@
     "test": "node e2e/plugin.test.mjs"
   },
   "devDependencies": {
-    "playwright-core": "1.56.1"
+    "playwright-core": "1.56.1",
+    "pngjs": "7.0.0"
   }
 }

@@ -1,17 +1,16 @@
-// v0.2.1 styling: theme classes, site-wide defaults, two-layer stylesheets, and the proposed theme patch.
+// Styling: theme classes, site-wide defaults, the site stylesheet layer, and the proposed theme patch.
+// (Default look vs. the real site buttons: cm-buttons.test.mjs.)
 // Usage: SITE_DIR=... node e2e/styling.test.mjs   (needs a site built by env/bootstrap.sh)
 import fs from 'node:fs';
 import path from 'node:path';
-import { execFileSync } from 'node:child_process';
 import { BASE, SITE, HERE, OUT, launch, watch, check, section, summary, setFlag, clearFlags, wpEval, debugLog, clearDebugLog } from './lib.mjs';
 
-const PLUGIN_CSS = path.join(SITE, 'wp-content/plugins/cm-zip-checker/assets/zip-checker.css');
 const CUSTOM = path.join(SITE, 'wp-content/uploads/cm-zip-checker/custom.css');
-const STARTER = path.resolve(HERE, '../../cm-zip-checker/starter/chicagomounting.css');
 const GREEN = 'rgb(99, 182, 0)', HOVER_THEME = 'rgb(63, 129, 4)', WHITE = 'rgb(255, 255, 255)', DARK = 'rgb(41, 43, 38)';
 const LIFT = 'matrix(1, 0, 0, 1, 0, -2)';
 const PROPS = ['display', 'backgroundColor', 'color', 'borderTopWidth', 'borderTopStyle', 'borderTopColor', 'borderTopLeftRadius', 'fontFamily', 'fontSize', 'fontWeight', 'lineHeight', 'textTransform', 'textDecorationLine', 'whiteSpace', 'minHeight', 'height', 'paddingTop', 'paddingLeft', 'marginTop', 'marginLeft', 'boxShadow', 'transform', 'opacity', 'cursor', 'outlineStyle', 'outlineWidth', 'outlineColor'];
 
+const SITE_CSS = '.cm-zip,.cm-zip-trigger,.cm-zip-modal{--cmz-primary:#123456;--cmz-primary-hover:#0a1f33}.cm-zip .cm-zip__button{border-radius:0}.cm-zip .cm-zip__heading{color:rgb(1, 2, 3)}';
 const browser = await launch();
 const issues = [];
 clearFlags();
@@ -45,32 +44,15 @@ async function tabTo(page, sel) {
 const same = (a, b, keys = PROPS) => keys.filter(k => a[k] !== b[k]).map(k => `${k}: ${a[k]} → ${b[k]}`);
 
 // ------------------------------------------------------------------------------------------------
-section('1. Existing look preserved (no theme classes, no site stylesheet)');
-const DEFAULT_PARTS = { box: inst('plain'), heading: `${inst('plain')} .cm-zip__heading`, input: `${inst('plain')} .cm-zip__input`, button: `${inst('plain')} .cm-zip__button`, result: `${inst('plain')} .cm-zip__result`, cta: `${inst('plain')} .cm-zip__cta`, local: `${inst('plain')} .cm-zip__local` };
-async function defaultSnapshot() {
+section('1. Default markup (no theme classes, no site stylesheet)');
+{
   const page = await open('/styling/');
   await runCheck(page, 'plain', '60601');
-  await page.mouse.move(1, 1); await page.waitForTimeout(400);
-  const out = {};
-  for (const [k, sel] of Object.entries(DEFAULT_PARTS)) out[k] = await css(page, sel);
-  out.buttonHover = await hovered(page, DEFAULT_PARTS.button);
-  out.html = await page.content();
+  const html1 = await page.content();
+  check('Default markup: functional classes only', html1.includes('class="cm-zip__button" type="submit"') && html1.includes('class="cm-zip__input" type="text"') && /class="cm-zip__cta" href/.test(html1));
+  check('No site stylesheet → only base layer printed', (html1.match(/zip-checker\.css/g) || []).length === 1 && !html1.includes('cm-zip-checker-custom-css'));
   await page.context().close();
-  return out;
 }
-const v021 = await defaultSnapshot();
-const v021Css = fs.readFileSync(PLUGIN_CSS, 'utf8');
-fs.writeFileSync(PLUGIN_CSS, execFileSync('git', ['-C', path.resolve(HERE, '../..'), 'show', '6773cea:cm-zip-checker/assets/zip-checker.css']));
-const v020 = await defaultSnapshot();
-fs.writeFileSync(PLUGIN_CSS, v021Css);
-const IGNORE_FOCUS = PROPS.filter(p => !p.startsWith('outline'));
-for (const part of [...Object.keys(DEFAULT_PARTS), 'buttonHover']) {
-  const diff = same(v020[part], v021[part], IGNORE_FOCUS);
-  check(`Default ${part} computed style identical to v0.2.0`, diff.length === 0, diff.join('; '));
-}
-check('Default button: plugin green, white, 46px, 8px radius, 15px/700', v021.button.backgroundColor === GREEN && v021.button.color === WHITE && v021.button.minHeight === '46px' && v021.button.borderTopLeftRadius === '8px' && v021.button.fontSize === '15px' && v021.button.fontWeight === '700');
-check('Default markup: functional classes only', v021.html.includes('class="cm-zip__button" type="submit"') && v021.html.includes('class="cm-zip__input" type="text"') && /class="cm-zip__cta" href/.test(v021.html));
-check('No site stylesheet → only base layer printed', (v021.html.match(/zip-checker\.css/g) || []).length === 1 && !v021.html.includes('cm-zip-checker-custom-css'));
 
 // ------------------------------------------------------------------------------------------------
 section('2. Theme class attributes (escaping, sanitising, functional classes kept)');
@@ -157,7 +139,7 @@ check('Mouse click does not leave the button lifted', (await css(page, '#r-btn-p
 await page.context().close();
 
 section('5. Plugin CSS does not change theme / Elementor buttons');
-useCustom(fs.readFileSync(STARTER, 'utf8'));
+useCustom(SITE_CSS);
 for (const [label, vp, mobile] of [['desktop', { width: 1280, height: 900 }, false], ['mobile-375', { width: 375, height: 812 }, true]]) {
   const without = await regSnapshot('/theme-regression/', vp, mobile);
   const withPlugin = await regSnapshot('/theme-regression-plugin/', vp, mobile);
@@ -203,50 +185,24 @@ await page.context().close();
 clearFlags();
 
 // ------------------------------------------------------------------------------------------------
-section('8. Site stylesheet layer (starter for Chicago Mounting)');
-check('Starter has no !important', !fs.readFileSync(STARTER, 'utf8').replace(/\/\*[\s\S]*?\*\//g, '').includes('!important'));
-useCustom(fs.readFileSync(STARTER, 'utf8'));
+section('8. Site stylesheet layer (other sites / own tweaks)');
+useCustom(SITE_CSS);
 page = await open('/styling/');
 html = await page.content();
 const mtime = Math.floor(fs.statSync(CUSTOM).mtimeMs / 1000);
 check('Site stylesheet loaded after base, cache-busted by file time', html.indexOf('cm-zip-checker-base-css') > -1 && html.indexOf('cm-zip-checker-base-css') < html.indexOf('cm-zip-checker-custom-css') && html.includes(`custom.css?ver=${mtime}`));
 b = await css(page, `${inst('plain')} .cm-zip__button`);
-check('Overrides defaults without !important (uppercase, 14px/600, 52px, 2px border)', b.textTransform === 'uppercase' && b.fontSize === '14px' && b.fontWeight === '600' && b.minHeight === '52px' && b.borderTopWidth === '2px' && b.backgroundColor === GREEN, JSON.stringify(b));
+check('Tokens and same-selector rules override the base without !important', b.backgroundColor === 'rgb(18, 52, 86)' && b.borderTopLeftRadius === '0px' && (await css(page, `${inst('plain')} .cm-zip__heading`)).color === 'rgb(1, 2, 3)', JSON.stringify(b));
 const sh = await hovered(page, `${inst('plain')} .cm-zip__button`);
-check('Hover: #3F8104 and lift', sh.backgroundColor === HOVER_THEME && sh.transform === LIFT);
-check('Input 52px', (await css(page, `${inst('plain')} .cm-zip__input`)).height === '52px');
-check('Heading uses secondary colour, 700', (await css(page, `${inst('plain')} .cm-zip__heading`)).color === DARK && (await css(page, `${inst('plain')} .cm-zip__heading`)).fontWeight === '700');
-await runCheck(page, 'plain', '60601');
-check('Result panel colour', (await css(page, `${inst('plain')} .cm-zip__result`)).backgroundColor === 'rgb(242, 246, 239)');
-const inf = await tabTo(page, `${inst('plain')} .cm-zip__input`);
-check('Keyboard focus ring on input (dark, 2px)', inf.outlineStyle === 'solid' && inf.outlineWidth === '2px' && inf.outlineColor === DARK);
+check('Overridden hover colour', sh.backgroundColor === 'rgb(10, 31, 51)');
+check('Themed controls are not restyled by the site stylesheet', (await css(page, `${inst('themed')} .cm-zip__button`)).backgroundColor !== 'rgb(18, 52, 86)');
 const btf = await tabTo(page, `${inst('plain')} .cm-zip__button`);
-check('Keyboard focus ring on button', btf.outlineStyle === 'solid' && btf.outlineWidth === '2px');
-check('Themed controls are not restyled by the site stylesheet', (await css(page, `${inst('themed')} .cm-zip__button`)).backgroundColor !== GREEN && (await css(page, `${inst('themed')} .cm-zip__button`)).minHeight !== '52px');
-await page.addStyleTag({ content: ':root{--e-global-color-accent:#123456}' });
-await page.mouse.move(1, 1);
-await page.waitForTimeout(400); // pointer off the button + background-color transition
-const acc = await css(page, `${inst('plain')} .cm-zip__button`);
-check('Follows the Elementor global accent colour when present', acc.backgroundColor === 'rgb(18, 52, 86)', `${acc.backgroundColor} ${acc.transform} ${acc.outlineStyle}`);
-await page.click('[data-cm-zip-open]');
-check('Popup panel and trigger use the site stylesheet', (await css(page, '#cm-zip-modal .cm-zip')).boxShadow === 'none' && (await css(page, '.cm-zip-trigger')).backgroundColor !== GREEN);
-await page.context().close();
-page = await open('/styling/', { width: 375, height: 812 }, true);
-const ms = await page.evaluate(sel => { const q = s => document.querySelector(s); const b = q(sel + ' .cm-zip__button'), i = q(sel + ' .cm-zip__input'); return { bw: Math.round(b.getBoundingClientRect().width), iw: Math.round(i.getBoundingClientRect().width), bh: getComputedStyle(b).minHeight, r: getComputedStyle(b).borderTopLeftRadius, fs: getComputedStyle(b).fontSize, ifs: getComputedStyle(i).fontSize, overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth }; }, inst('plain'));
-check('Mobile: 46px controls, 4px radius, 13px label, 16px input text, full width, no overflow', ms.bh === '46px' && ms.r === '4px' && ms.fs === '13px' && ms.ifs === '16px' && Math.abs(ms.bw - ms.iw) <= 2 && ms.overflow <= 0, JSON.stringify(ms));
-await page.screenshot({ path: path.join(OUT, 'starter-375.png'), fullPage: true });
-await page.context().close();
-page = await open('/styling/');
-await page.screenshot({ path: path.join(OUT, 'starter-1280.png'), fullPage: true });
+check('Keyboard focus ring kept', btf.outlineStyle === 'solid' && btf.outlineWidth === '2px');
 await page.context().close();
 const plain = await (await fetch(BASE + '/theme-regression/')).text();
 check('Not loaded on pages without the checker', !plain.includes('zip-checker.css') && !plain.includes('custom.css'));
 const sim = await (await fetch(BASE + '/elementor-cache-sim/')).text();
 check('Elementor cache hit (enqueue by handle) loads base + site layers', sim.includes('cm-zip-checker-base-css') && sim.includes('cm-zip-checker-custom-css'));
-useCustom('.cm-zip{--cmz-primary:#123456}.cm-zip .cm-zip__heading{color:rgb(1, 2, 3)}');
-page = await open('/styling/');
-check('Own rules and tokens override base without !important', (await css(page, `${inst('plain')} .cm-zip__button`)).backgroundColor === 'rgb(18, 52, 86)' && (await css(page, `${inst('plain')} .cm-zip__heading`)).color === 'rgb(1, 2, 3)');
-await page.context().close();
 useCustom(null);
 page = await open('/styling/');
 check('Missing site stylesheet: base only, checker works', !(await page.content()).includes('cm-zip-checker-custom-css') && (await runCheck(page, 'plain', '60601'), (await page.locator(`${inst('plain')} .cm-zip__result strong`).innerText()).startsWith('Great news')));

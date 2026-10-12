@@ -1,33 +1,79 @@
-/* CM ZIP Checker — base layer: layout, states, accessibility and the default look.
-   Customise in the site stylesheet (default wp-content/uploads/cm-zip-checker/custom.css), loaded after this file:
-   set the --cmz-* properties below, or add rules scoped to .cm-zip. No !important needed.
-   Controls given theme classes (button_class / cta_class / input_class) carry .cm-zip-themed and get layout only. */
-:root{
-  --cmz-primary:#63b600;--cmz-primary-hover:#4c8f00;--cmz-on-primary:#fff;
+/* CM ZIP Checker — base styles.
+   Default look = the chicagomounting.com button system ("btn btn-primary btn-md"), so the checker matches the site
+   right after install. Selectors use two classes so theme `button{}` rules and Elementor kit "Buttons"/"Form Fields"
+   styles (.elementor-kit-N button = 0-1-1, .elementor-kit-N input:not(…):not(…) = 0-3-1) cannot override them.
+   Other sites: override tokens or rules in the optional site stylesheet (wp-content/uploads/cm-zip-checker/custom.css,
+   loaded after this file; use the same selectors, no !important needed), or give controls theme classes
+   (button_class / cta_class / input_class): those controls get .cm-zip-themed and keep only layout rules here. */
+
+/* Tokens live on the components (not :root) so Elementor's --e-global-color-accent, set on <body>, resolves. */
+.cm-zip,.cm-zip-trigger,.cm-zip-modal{
+  --cmz-primary:var(--e-global-color-accent,#63b600);--cmz-primary-hover:#3f8104;--cmz-on-primary:#fff;
   --cmz-text:#292b26;--cmz-muted:#525c4c;--cmz-surface:#fff;--cmz-border:#e2e7de;
   --cmz-radius:14px;--cmz-padding:24px;--cmz-padding-compact:16px;--cmz-padding-minimal:12px;--cmz-padding-mobile:18px;
-  --cmz-gap:10px;--cmz-control-height:46px;--cmz-control-radius:8px;
+  --cmz-gap:10px;--cmz-control-height:52px;--cmz-control-radius:8px;
   --cmz-input-border:#aeb5aa;--cmz-input-bg:#fff;--cmz-input-text:#292b26;--cmz-input-font-size:16px;
-  --cmz-button-padding:12px 17px;--cmz-button-font-size:15px;--cmz-button-weight:700;
+  --cmz-button-padding:0 30px;--cmz-button-font-size:14px;--cmz-button-weight:600;
   --cmz-result-bg:#f1f8ea;--cmz-focus:#292b26;
 }
+/* Mobile sizes of btn-md on chicagomounting.com (theme breakpoint 767px). */
+@media(max-width:767px){.cm-zip,.cm-zip-trigger,.cm-zip-modal{--cmz-control-height:42px;--cmz-control-radius:4px;--cmz-button-padding:0 18px;--cmz-button-font-size:13px}}
+
 .cm-zip{box-sizing:border-box;padding:var(--cmz-padding);border:1px solid var(--cmz-border);border-radius:var(--cmz-radius);background:var(--cmz-surface);color:var(--cmz-text);font:inherit;font-family:var(--cmz-font,inherit);max-width:100%}
 .cm-zip *, .cm-zip *::before,.cm-zip *::after{box-sizing:border-box}
 .cm-zip__heading{margin:0 0 8px;font-size:clamp(22px,3vw,30px);line-height:1.2}
 .cm-zip__intro{margin:0 0 18px;color:var(--cmz-muted);font-size:15px}
 .cm-zip__form{display:flex;gap:var(--cmz-gap);align-items:end}
 .cm-zip__label{flex:1;display:flex;flex-direction:column;gap:5px;font-size:13px;font-weight:600}
+
+/* ZIP field: same height and radius as the button. */
 .cm-zip__input{width:100%}
-.cm-zip__input:not(:where(.cm-zip-themed)){height:var(--cmz-control-height);border:1px solid var(--cmz-input-border);border-radius:var(--cmz-control-radius);background:var(--cmz-input-bg);color:var(--cmz-input-text);padding:0 12px;font-size:var(--cmz-input-font-size);line-height:1.4}
-.cm-zip__input:not(:where(.cm-zip-themed)):focus{outline:2px solid var(--cmz-primary);outline-offset:2px}
-.cm-zip__button:not(:where(.cm-zip-themed)),.cm-zip__cta:not(:where(.cm-zip-themed)),.cm-zip-trigger:not(:where(.cm-zip-themed)){background:var(--cmz-primary);color:var(--cmz-on-primary)!important;border:0;border-radius:var(--cmz-control-radius);min-height:var(--cmz-control-height);padding:var(--cmz-button-padding);font:inherit;font-family:var(--cmz-font,inherit);font-size:var(--cmz-button-font-size);font-weight:var(--cmz-button-weight);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;text-decoration:none!important}
-.cm-zip__button:not(:where(.cm-zip-themed)):hover,.cm-zip__cta:not(:where(.cm-zip-themed)):hover,.cm-zip-trigger:not(:where(.cm-zip-themed)):hover{background:var(--cmz-primary-hover);color:var(--cmz-on-primary)!important}
-/* The CTA is a link: theme link rules such as `.elementor-widget-text-editor a{color:…!important}` would make its label
-   invisible, so colour/decoration are !important at .cm-zip scope. Change them through --cmz-on-primary. */
-.cm-zip .cm-zip__cta:not(:where(.cm-zip-themed)),.cm-zip .cm-zip__cta:not(:where(.cm-zip-themed)):hover{color:var(--cmz-on-primary)!important;text-decoration:none!important}
-.cm-zip__button:disabled{opacity:.65;cursor:wait}
+.cm-zip .cm-zip__form .cm-zip__label .cm-zip__input:not(:where(.cm-zip-themed)){
+  height:var(--cmz-control-height);margin:0;padding:0 12px;
+  border:1px solid var(--cmz-input-border);border-radius:var(--cmz-control-radius);background:var(--cmz-input-bg);box-shadow:none;
+  color:var(--cmz-input-text);font:inherit;font-size:var(--cmz-input-font-size);line-height:1.4;
+  transition:border-color .2s ease;
+}
+.cm-zip .cm-zip__form .cm-zip__label .cm-zip__input:not(:where(.cm-zip-themed)):focus{border-color:var(--cmz-primary);background:var(--cmz-input-bg);outline:2px solid var(--cmz-focus);outline-offset:2px}
+
+/* Buttons: Check button, result CTA (a link) and popup trigger = "btn btn-primary btn-md".
+   :focus is listed so Elementor's kit `button:focus` styles do not restyle the button after a mouse click. */
+.cm-zip .cm-zip__button:not(:where(.cm-zip-themed)),
+.cm-zip .cm-zip__button:not(:where(.cm-zip-themed)):focus,
+.cm-zip .cm-zip__cta:not(:where(.cm-zip-themed)),
+.cm-zip .cm-zip__cta:not(:where(.cm-zip-themed)):focus,
+.cm-zip-trigger.cm-zip-trigger:not(:where(.cm-zip-themed)),
+.cm-zip-trigger.cm-zip-trigger:not(:where(.cm-zip-themed)):focus{
+  display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;
+  min-height:var(--cmz-control-height);margin:0;padding:var(--cmz-button-padding);
+  background:var(--cmz-primary);border:2px solid var(--cmz-primary);border-radius:var(--cmz-control-radius);box-shadow:none;
+  color:var(--cmz-on-primary);
+  font:inherit;font-family:var(--cmz-font,inherit);font-size:var(--cmz-button-font-size);font-weight:var(--cmz-button-weight);line-height:1.2;
+  letter-spacing:inherit;word-spacing:inherit;text-align:center;text-decoration:none;text-shadow:none;text-transform:uppercase;white-space:nowrap;
+  cursor:pointer;
+  transition:background-color .25s ease,border-color .25s ease,color .25s ease,transform .25s ease;
+}
+/* Hover, and keyboard focus (the site's links use :hover/:focus; :focus-visible avoids a "stuck" lift after a click). */
+.cm-zip .cm-zip__button:not(:where(.cm-zip-themed)):hover,
+.cm-zip .cm-zip__button:not(:where(.cm-zip-themed)):focus-visible,
+.cm-zip .cm-zip__cta:not(:where(.cm-zip-themed)):hover,
+.cm-zip .cm-zip__cta:not(:where(.cm-zip-themed)):focus-visible,
+.cm-zip-trigger.cm-zip-trigger:not(:where(.cm-zip-themed)):hover,
+.cm-zip-trigger.cm-zip-trigger:not(:where(.cm-zip-themed)):focus-visible{
+  background:var(--cmz-primary-hover);border-color:var(--cmz-primary-hover);color:var(--cmz-on-primary);transform:translateY(-2px);
+}
+/* The CTA is a link: theme rules such as `.elementor-widget-text-editor a{color:…!important}` would recolour its label,
+   so colour/decoration are !important here. Change them through --cmz-on-primary. */
+.cm-zip .cm-zip__cta:not(:where(.cm-zip-themed)),
+.cm-zip .cm-zip__cta:not(:where(.cm-zip-themed)):hover,
+.cm-zip .cm-zip__cta:not(:where(.cm-zip-themed)):focus,
+.cm-zip .cm-zip__cta:not(:where(.cm-zip-themed)):visited,
+.cm-zip .cm-zip__cta:not(:where(.cm-zip-themed)):active{color:var(--cmz-on-primary)!important;text-decoration:none!important}
+.cm-zip .cm-zip__button:disabled,.cm-zip .cm-zip__button:disabled:hover{opacity:.65;cursor:wait;transform:none}
 /* Visible keyboard focus for every control, also when a theme removes outlines (e.g. a.btn:focus{outline:none}). */
 .cm-zip .cm-zip__button:focus-visible,.cm-zip .cm-zip__cta:focus-visible,.cm-zip .cm-zip__input:focus-visible,.cm-zip .cm-zip__local:focus-visible,.cm-zip-trigger:focus-visible{outline:2px solid var(--cmz-focus);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){.cm-zip .cm-zip__button,.cm-zip .cm-zip__cta,.cm-zip-trigger{transition:none}.cm-zip .cm-zip__button:hover,.cm-zip .cm-zip__cta:hover,.cm-zip-trigger:hover,.cm-zip .cm-zip__button:focus-visible,.cm-zip .cm-zip__cta:focus-visible,.cm-zip-trigger:focus-visible{transform:none}}
+
 .cm-zip__result{padding:15px;margin-top:15px;border-radius:var(--cmz-control-radius);background:var(--cmz-result-bg);border-left:4px solid var(--cmz-primary);font-size:15px}
 .cm-zip__result[hidden]{display:none!important}
 .cm-zip__result strong{display:block;font-size:17px}
@@ -40,5 +86,6 @@
 .cm-zip-modal[hidden]{display:none!important}.cm-zip-modal{position:fixed;inset:0;z-index:999999;display:flex;align-items:center;justify-content:center;padding:16px}
 .cm-zip-modal__backdrop{position:absolute;inset:0;background:rgba(0,0,0,.65)}
 .cm-zip-modal__panel{position:relative;background:var(--cmz-surface);border-radius:15px;padding:28px 12px 12px;max-width:550px;width:100%;max-height:90vh;overflow:auto}
-.cm-zip-modal__close{position:absolute;top:0;right:7px;border:0;background:transparent;color:var(--cmz-text);font-size:30px;cursor:pointer}
-@media(max-width:600px){.cm-zip__form{flex-direction:column;align-items:stretch}.cm-zip__button{width:100%}.cm-zip{padding:var(--cmz-padding-mobile)}}
+.cm-zip-modal .cm-zip-modal__close{position:absolute;top:0;right:7px;width:auto;min-height:0;margin:0;padding:0 4px;border:0;border-radius:0;background:transparent;box-shadow:none;color:var(--cmz-text);font-size:30px;line-height:1.2;text-transform:none;cursor:pointer}
+.cm-zip-modal .cm-zip-modal__close:hover,.cm-zip-modal .cm-zip-modal__close:focus{border:0;background:transparent;color:var(--cmz-text)}
+@media(max-width:600px){.cm-zip__form{flex-direction:column;align-items:stretch}.cm-zip .cm-zip__button{width:100%}.cm-zip{padding:var(--cmz-padding-mobile)}}

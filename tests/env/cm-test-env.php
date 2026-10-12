@@ -57,6 +57,14 @@ add_action( 'wp_enqueue_scripts', static function () use ( $cm_flags ) {
 	}
 }, 5 );
 
+// Elementor kit global Buttons / Form Fields styles (stress fixture) on body.elementor-kit-8.
+if ( file_exists( "$cm_flags/kit-globals" ) ) {
+	add_filter( 'body_class', static function ( $classes ) { $classes[] = 'elementor-kit-8'; return $classes; } );
+	add_action( 'wp_enqueue_scripts', static function () {
+		wp_enqueue_style( 'cm-test-kit-globals', content_url( 'mu-plugins/cm-test-theme/elementor-kit-globals.css' ), [], null );
+	}, 6 );
+}
+
 // Site-wide theme classes, as a site would set them in a snippet: JSON {"button": "...", "cta": "...", ...}.
 if ( file_exists( "$cm_flags/default-classes.json" ) ) {
 	add_filter( 'cm_zip_checker_default_classes', static function ( $classes ) use ( $cm_flags ) {

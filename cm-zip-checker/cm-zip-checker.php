@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Chicago Mounting ZIP Checker
  * Description: Reusable ZIP service-area checker with a CSV-managed list and Elementor-compatible shortcodes.
- * Version: 0.2.1
+ * Version: 0.2.2
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * Text Domain: cm-zip-checker
@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) { exit; }
 
 final class CM_Zip_Checker {
     const OPTION = 'cm_zip_checker_records';
-    const VERSION = '0.2.1';
+    const VERSION = '0.2.2';
     const CLASS_KEYS = ['button', 'cta', 'input', 'trigger'];
     const IMPORT_LIMIT = 5000;
     private static $popup_source_rendered = false;
@@ -124,7 +124,7 @@ final class CM_Zip_Checker {
         $custom = self::custom_css();
         echo '<h2>Appearance</h2><p>'.($custom
             ? 'Site stylesheet loaded after the base styles: <code>'.esc_html($custom['path']).'</code>'
-            : 'No site stylesheet. To customise the look, create <code>wp-content/uploads/cm-zip-checker/custom.css</code> (starter: <code>'.esc_html(plugin_dir_path(__FILE__)).'starter/chicagomounting.css</code>). It is kept on plugin updates.').'</p>';
+            : 'Default look (Chicago Mounting buttons). Optional overrides: <code>wp-content/uploads/cm-zip-checker/custom.css</code>, kept on plugin updates.').'</p>';
         echo '<h2>CSV Import / Export</h2><p>Header: <code>zip,city,state,status,landing_page,note</code>. Existing ZIP records with matching codes are updated. Invalid rows are skipped. Landing pages are stored as site-relative paths. Import limit: '.esc_html(number_format_i18n(self::IMPORT_LIMIT)).' rows.</p>';
         echo '<form method="post" enctype="multipart/form-data" action="'.esc_url(admin_url('admin-post.php')).'">';
         wp_nonce_field('cm_zip_import'); echo '<input type="hidden" name="action" value="cm_zip_import"><input type="file" name="csv" accept=".csv,text/csv" required> ';

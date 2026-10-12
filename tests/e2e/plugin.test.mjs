@@ -173,10 +173,10 @@ async function runCheck(i, zip) {
 }
 let r = await runCheck(0, '60601');
 check('Served: message', (await r.locator('strong').innerText()) === 'Great news! We serve Chicago, IL.');
-check('Served: quote CTA carries ZIP and city', await r.locator('.cm-zip__cta').getAttribute('href') === BASE + '/quote/?zip=60601&city=Chicago' && await r.locator('.cm-zip__cta').innerText() === 'Get a Free Quote');
+check('Served: quote CTA carries ZIP and city', await r.locator('.cm-zip__cta').getAttribute('href') === BASE + '/quote/?zip=60601&city=Chicago' && await r.locator('.cm-zip__cta').textContent() === 'Get a Free Quote');
 check('Served: local page link', await r.locator('.cm-zip__local').getAttribute('href') === '/tv-installation-in-chicago/' && await r.locator('.cm-zip__local').innerText() === 'Explore TV installation in Chicago');
 r = await runCheck(1, '60025');
-check('Conditional: message + CTA, no local link', (await r.locator('strong').innerText()) === 'Service may be available in your area.' && await r.locator('.cm-zip__cta').innerText() === 'Request Availability' && await r.locator('.cm-zip__local').count() === 0);
+check('Conditional: message + CTA, no local link', (await r.locator('strong').innerText()) === 'Service may be available in your area.' && await r.locator('.cm-zip__cta').textContent() === 'Request Availability' && await r.locator('.cm-zip__local').count() === 0);
 check('Conditional: CTA carries city', await r.locator('.cm-zip__cta').getAttribute('href') === BASE + '/quote/?zip=60025&city=Glenview');
 r = await runCheck(2, '99999');
 check('Unknown (unlisted): message + "Contact Us", ZIP only in URL', (await r.locator('strong').innerText()) === "Let's check your location." && await r.locator('.cm-zip__cta').getAttribute('href') === BASE + '/quote/?zip=99999');
@@ -319,7 +319,7 @@ for (const vp of [{ name: 'mobile-375', width: 375, height: 812, mobile: true },
   });
   check(`${vp.name}: no horizontal page overflow`, metrics.overflow <= 0 && metrics.secRight <= metrics.vw, JSON.stringify(metrics));
   if (vp.width <= 600) {
-    check(`${vp.name}: form stacks, full-width button, 46px+ tap target`, metrics.stacked && Math.abs(metrics.btnW - metrics.inpW) <= 2 && metrics.btnH >= 44);
+    check(`${vp.name}: form stacks, full-width button, 42px+ tap target (site btn-md mobile size)`, metrics.stacked && Math.abs(metrics.btnW - metrics.inpW) <= 2 && metrics.btnH >= 42);
     check(`${vp.name}: input font-size >= 16px (no iOS zoom)`, metrics.font >= 16);
   } else {
     check(`${vp.name}: form inline`, !metrics.stacked);

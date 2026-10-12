@@ -1,0 +1,8 @@
+/* STRESS FIXTURE — Elementor Site Settings → Buttons / Form Fields output, using Elementor 4.0.8's exact selectors
+   (core/kits/documents/tabs/theme-style-buttons.php, theme-style-form-fields.php). Values are deliberately loud so any
+   leak into the ZIP Checker is visible. The real chicagomounting.com kit values are unknown. */
+.elementor-kit-8 button,.elementor-kit-8 input[type="button"],.elementor-kit-8 input[type="submit"],.elementor-kit-8 .elementor-button{background-color:#1E3A8A;font-family:Georgia,serif;font-size:18px;font-weight:400;text-transform:none;line-height:2;letter-spacing:3px;color:#FFEB3B;border-style:solid;border-width:4px;border-color:#FF0000;border-radius:30px;padding:20px 40px;box-shadow:0 0 10px #000;}
+.elementor-kit-8 button:hover,.elementor-kit-8 button:focus,.elementor-kit-8 input[type="button"]:hover,.elementor-kit-8 input[type="button"]:focus,.elementor-kit-8 input[type="submit"]:hover,.elementor-kit-8 input[type="submit"]:focus,.elementor-kit-8 .elementor-button:hover,.elementor-kit-8 .elementor-button:focus{background-color:#000000;color:#00FF00;border-color:#0000FF;}
+.elementor-kit-8 label{color:#FF00FF;font-size:20px;}
+.elementor-kit-8 input:not([type="button"]):not([type="submit"]),.elementor-kit-8 textarea,.elementor-kit-8 .elementor-field-textual{background-color:#FFFFE0;color:#8B0000;border-style:dashed;border-width:3px;border-color:#0000FF;border-radius:0;padding:20px;font-size:12px;box-shadow:inset 0 0 5px #f00;}
+.elementor-kit-8 input:focus:not([type="button"]):not([type="submit"]),.elementor-kit-8 textarea:focus,.elementor-kit-8 .elementor-field-textual:focus{background-color:#FFE4E1;border-color:#FF0000;}
