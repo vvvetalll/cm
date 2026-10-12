@@ -1,0 +1,199 @@
+
+## CM theme — desktop-1280
+PASS  full button computes like the site's btn btn-primary btn-md
+PASS  full button hover = site hover (#3F8104 + 2px lift)
+PASS  compact button computes like the site's btn btn-primary btn-md
+PASS  compact button hover = site hover (#3F8104 + 2px lift)
+PASS  minimal button computes like the site's btn btn-primary btn-md
+PASS  minimal button hover = site hover (#3F8104 + 2px lift)
+PASS  trigger button computes like the site's btn btn-primary btn-md
+PASS  trigger button hover = site hover (#3F8104 + 2px lift)
+PASS  popup (modal) button computes like the site button
+PASS  Modal close (×) stays a plain icon button  — rgba(0, 0, 0, 0) none none
+PASS  Result CTA computes like the site button
+PASS  Result CTA hover = site hover
+PASS  Keyboard focus: hover look + visible 2px ring  —  outline=solid 2px
+PASS  After a mouse click the button returns to normal (no stuck hover)
+PASS  Disabled while checking: dimmed, no lift, wait cursor  — 0.65 none wait
+PASS  ZIP field height = button height, no horizontal overflow  — {"ih":52,"bh":52,"stacked":false,"bw":207,"iw":378,"overflow":0}
+PASS  Wider screens: field and button side by side
+PASS  Pixel match: Check button vs site button "Check Service Area"  — 208x52 vs 208x52, 0.00% pixels differ (sub-pixel offsets 0.50,-0.50 / 0.25,0.88)
+PASS  Pixel match: result CTA vs site button "Get a Free Quote"  — 186x52 vs 186x52, 0.00% pixels differ (sub-pixel offsets 0.00,0.50 / 0.50,0.67)
+
+## CM theme — tablet-768
+PASS  full button computes like the site's btn btn-primary btn-md
+PASS  full button hover = site hover (#3F8104 + 2px lift)
+PASS  compact button computes like the site's btn btn-primary btn-md
+PASS  compact button hover = site hover (#3F8104 + 2px lift)
+PASS  minimal button computes like the site's btn btn-primary btn-md
+PASS  minimal button hover = site hover (#3F8104 + 2px lift)
+PASS  trigger button computes like the site's btn btn-primary btn-md
+PASS  trigger button hover = site hover (#3F8104 + 2px lift)
+PASS  popup (modal) button computes like the site button
+PASS  Modal close (×) stays a plain icon button  — rgba(0, 0, 0, 0) none none
+PASS  Result CTA computes like the site button
+PASS  Result CTA hover = site hover
+PASS  Keyboard focus: hover look + visible 2px ring  —  outline=solid 2px
+PASS  After a mouse click the button returns to normal (no stuck hover)
+PASS  Disabled while checking: dimmed, no lift, wait cursor  — 0.65 none wait
+PASS  ZIP field height = button height, no horizontal overflow  — {"ih":52,"bh":52,"stacked":false,"bw":207,"iw":378,"overflow":0}
+PASS  Wider screens: field and button side by side
+PASS  Pixel match: Check button vs site button "Check Service Area"  — 208x52 vs 208x52, 0.00% pixels differ (sub-pixel offsets 0.50,0.36 / 0.25,0.39)
+PASS  Pixel match: result CTA vs site button "Get a Free Quote"  — 186x52 vs 186x52, 0.00% pixels differ (sub-pixel offsets 0.61,0.36 / 0.50,0.19)
+
+## CM theme — mobile-375
+PASS  full button computes like the site's btn btn-primary btn-md
+PASS  full button hover = site hover (#3F8104 + 2px lift)
+PASS  compact button computes like the site's btn btn-primary btn-md
+PASS  compact button hover = site hover (#3F8104 + 2px lift)
+PASS  minimal button computes like the site's btn btn-primary btn-md
+PASS  minimal button hover = site hover (#3F8104 + 2px lift)
+PASS  trigger button computes like the site's btn btn-primary btn-md
+PASS  trigger button hover = site hover (#3F8104 + 2px lift)
+PASS  popup (modal) button computes like the site button
+PASS  Modal close (×) stays a plain icon button  — rgba(0, 0, 0, 0) none none
+PASS  Result CTA computes like the site button
+PASS  Result CTA hover = site hover
+PASS  Keyboard focus: hover look + visible 2px ring  —  outline=solid 2px
+PASS  After a mouse click the button returns to normal (no stuck hover)
+PASS  Disabled while checking: dimmed, no lift, wait cursor  — 0.65 none wait
+PASS  ZIP field height = button height, no horizontal overflow  — {"ih":42,"bh":42,"stacked":true,"bw":277,"iw":277,"overflow":0}
+PASS  Phone: form stacked, Check button full width
+PASS  Pixel match: result CTA vs site button "Get a Free Quote"  — 154x42 vs 154x42, 0.00% pixels differ (sub-pixel offsets 0.00,-0.78 / 0.00,0.58)
+
+## CM theme + Elementor kit button/field globals — desktop-1280
+PASS  Kit fixture is active (plain <button> restyled by Elementor globals)
+PASS  full button computes like the site's btn btn-primary btn-md
+PASS  full button hover = site hover (#3F8104 + 2px lift)
+PASS  compact button computes like the site's btn btn-primary btn-md
+PASS  compact button hover = site hover (#3F8104 + 2px lift)
+PASS  minimal button computes like the site's btn btn-primary btn-md
+PASS  minimal button hover = site hover (#3F8104 + 2px lift)
+PASS  trigger button computes like the site's btn btn-primary btn-md
+PASS  trigger button hover = site hover (#3F8104 + 2px lift)
+PASS  popup (modal) button computes like the site button
+PASS  Modal close (×) stays a plain icon button  — rgba(0, 0, 0, 0) none none
+PASS  Result CTA computes like the site button
+PASS  Result CTA hover = site hover
+PASS  Keyboard focus: hover look + visible 2px ring  —  outline=solid 2px
+PASS  After a mouse click the button returns to normal (no stuck hover)
+PASS  Disabled while checking: dimmed, no lift, wait cursor  — 0.65 none wait
+PASS  ZIP field height = button height, no horizontal overflow  — {"ih":52,"bh":52,"stacked":false,"bw":207,"iw":378,"overflow":0}
+PASS  Wider screens: field and button side by side
+
+## CM theme + Elementor kit button/field globals — tablet-768
+PASS  Kit fixture is active (plain <button> restyled by Elementor globals)
+PASS  full button computes like the site's btn btn-primary btn-md
+PASS  full button hover = site hover (#3F8104 + 2px lift)
+PASS  compact button computes like the site's btn btn-primary btn-md
+PASS  compact button hover = site hover (#3F8104 + 2px lift)
+PASS  minimal button computes like the site's btn btn-primary btn-md
+PASS  minimal button hover = site hover (#3F8104 + 2px lift)
+PASS  trigger button computes like the site's btn btn-primary btn-md
+PASS  trigger button hover = site hover (#3F8104 + 2px lift)
+PASS  popup (modal) button computes like the site button
+PASS  Modal close (×) stays a plain icon button  — rgba(0, 0, 0, 0) none none
+PASS  Result CTA computes like the site button
+PASS  Result CTA hover = site hover
+PASS  Keyboard focus: hover look + visible 2px ring  —  outline=solid 2px
+PASS  After a mouse click the button returns to normal (no stuck hover)
+PASS  Disabled while checking: dimmed, no lift, wait cursor  — 0.65 none wait
+PASS  ZIP field height = button height, no horizontal overflow  — {"ih":52,"bh":52,"stacked":false,"bw":207,"iw":378,"overflow":0}
+PASS  Wider screens: field and button side by side
+
+## CM theme + Elementor kit button/field globals — mobile-375
+PASS  Kit fixture is active (plain <button> restyled by Elementor globals)
+PASS  full button computes like the site's btn btn-primary btn-md
+PASS  full button hover = site hover (#3F8104 + 2px lift)
+PASS  compact button computes like the site's btn btn-primary btn-md
+PASS  compact button hover = site hover (#3F8104 + 2px lift)
+PASS  minimal button computes like the site's btn btn-primary btn-md
+PASS  minimal button hover = site hover (#3F8104 + 2px lift)
+PASS  trigger button computes like the site's btn btn-primary btn-md
+PASS  trigger button hover = site hover (#3F8104 + 2px lift)
+PASS  popup (modal) button computes like the site button
+PASS  Modal close (×) stays a plain icon button  — rgba(0, 0, 0, 0) none none
+PASS  Result CTA computes like the site button
+PASS  Result CTA hover = site hover
+PASS  Keyboard focus: hover look + visible 2px ring  —  outline=solid 2px
+PASS  After a mouse click the button returns to normal (no stuck hover)
+PASS  Disabled while checking: dimmed, no lift, wait cursor  — 0.65 none wait
+PASS  ZIP field height = button height, no horizontal overflow  — {"ih":42,"bh":42,"stacked":true,"bw":277,"iw":277,"overflow":0}
+PASS  Phone: form stacked, Check button full width
+
+## no theme CSS (other site) — desktop-1280
+PASS  full button computes like the site's btn btn-primary btn-md
+PASS  full button hover = site hover (#3F8104 + 2px lift)
+PASS  compact button computes like the site's btn btn-primary btn-md
+PASS  compact button hover = site hover (#3F8104 + 2px lift)
+PASS  minimal button computes like the site's btn btn-primary btn-md
+PASS  minimal button hover = site hover (#3F8104 + 2px lift)
+PASS  trigger button computes like the site's btn btn-primary btn-md
+PASS  trigger button hover = site hover (#3F8104 + 2px lift)
+PASS  popup (modal) button computes like the site button
+PASS  Modal close (×) stays a plain icon button  — rgba(0, 0, 0, 0) none none
+PASS  Result CTA computes like the site button
+PASS  Result CTA hover = site hover
+PASS  Keyboard focus: hover look + visible 2px ring  —  outline=solid 2px
+PASS  After a mouse click the button returns to normal (no stuck hover)
+PASS  Disabled while checking: dimmed, no lift, wait cursor  — 0.65 none wait
+PASS  ZIP field height = button height, no horizontal overflow  — {"ih":52,"bh":52,"stacked":false,"bw":207,"iw":378,"overflow":0}
+PASS  Wider screens: field and button side by side
+
+## no theme CSS (other site) — tablet-768
+PASS  full button computes like the site's btn btn-primary btn-md
+PASS  full button hover = site hover (#3F8104 + 2px lift)
+PASS  compact button computes like the site's btn btn-primary btn-md
+PASS  compact button hover = site hover (#3F8104 + 2px lift)
+PASS  minimal button computes like the site's btn btn-primary btn-md
+PASS  minimal button hover = site hover (#3F8104 + 2px lift)
+PASS  trigger button computes like the site's btn btn-primary btn-md
+PASS  trigger button hover = site hover (#3F8104 + 2px lift)
+PASS  popup (modal) button computes like the site button
+PASS  Modal close (×) stays a plain icon button  — rgba(0, 0, 0, 0) none none
+PASS  Result CTA computes like the site button
+PASS  Result CTA hover = site hover
+PASS  Keyboard focus: hover look + visible 2px ring  —  outline=solid 2px
+PASS  After a mouse click the button returns to normal (no stuck hover)
+PASS  Disabled while checking: dimmed, no lift, wait cursor  — 0.65 none wait
+PASS  ZIP field height = button height, no horizontal overflow  — {"ih":52,"bh":52,"stacked":false,"bw":207,"iw":378,"overflow":0}
+PASS  Wider screens: field and button side by side
+
+## no theme CSS (other site) — mobile-375
+PASS  full button computes like the site's btn btn-primary btn-md
+PASS  full button hover = site hover (#3F8104 + 2px lift)
+PASS  compact button computes like the site's btn btn-primary btn-md
+PASS  compact button hover = site hover (#3F8104 + 2px lift)
+PASS  minimal button computes like the site's btn btn-primary btn-md
+PASS  minimal button hover = site hover (#3F8104 + 2px lift)
+PASS  trigger button computes like the site's btn btn-primary btn-md
+PASS  trigger button hover = site hover (#3F8104 + 2px lift)
+PASS  popup (modal) button computes like the site button
+PASS  Modal close (×) stays a plain icon button  — rgba(0, 0, 0, 0) none none
+PASS  Result CTA computes like the site button
+PASS  Result CTA hover = site hover
+PASS  Keyboard focus: hover look + visible 2px ring  —  outline=solid 2px
+PASS  After a mouse click the button returns to normal (no stuck hover)
+PASS  Disabled while checking: dimmed, no lift, wait cursor  — 0.65 none wait
+PASS  ZIP field height = button height, no horizontal overflow  — {"ih":42,"bh":42,"stacked":true,"bw":277,"iw":277,"overflow":0}
+PASS  Phone: form stacked, Check button full width
+
+## Elementor kit globals do not leak into the checker
+PASS  desktop-1280: buttons identical with and without kit globals
+PASS  desktop-1280: ZIP field identical with and without kit globals  — solid 1px rgb(174, 181, 170) rgb(255, 255, 255) 16px vs solid 1px rgb(174, 181, 170) rgb(255, 255, 255) 16px
+PASS  desktop-1280: same look without the theme CSS (self-contained plugin)
+PASS  tablet-768: buttons identical with and without kit globals
+PASS  tablet-768: ZIP field identical with and without kit globals  — solid 1px rgb(174, 181, 170) rgb(255, 255, 255) 16px vs solid 1px rgb(174, 181, 170) rgb(255, 255, 255) 16px
+PASS  tablet-768: same look without the theme CSS (self-contained plugin)
+PASS  mobile-375: buttons identical with and without kit globals
+PASS  mobile-375: ZIP field identical with and without kit globals  — solid 1px rgb(174, 181, 170) rgb(255, 255, 255) 16px vs solid 1px rgb(174, 181, 170) rgb(255, 255, 255) 16px
+PASS  mobile-375: same look without the theme CSS (self-contained plugin)
+
+## Brand colour follows the Elementor global accent
+PASS  Accent set on <body> (as Elementor does) reaches site and plugin buttons alike  — rgb(18, 52, 86) / rgb(18, 52, 86)
+
+## Console and debug.log
+PASS  No console errors/warnings
+PASS  debug.log empty
+
+173 passed, 0 failed

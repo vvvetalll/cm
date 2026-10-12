@@ -38,7 +38,7 @@ check('v0.1.0 stored an absolute URL', wpEval("echo get_option('cm_zip_checker_r
 
 out = await upload(newZip);
 check('New ZIP replaces v0.1.0 ("Replace current with uploaded")', /successfully/i.test(out), out.split('\n').filter(Boolean).slice(-3).join(' | '));
-check('Upgraded plugin version and still active', version() === `${process.env.NEW_VERSION || '0.2.1'}|active`, version());
+check('Upgraded plugin version and still active', version() === `${process.env.NEW_VERSION || '0.2.2'}|active`, version());
 check('Records preserved across upgrade', wpEval("echo count(get_option('cm_zip_checker_records'));").trim() === '1');
 
 const front = await (await browser.newContext()).newPage();

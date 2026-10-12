@@ -55,11 +55,14 @@ async function runCheck(page, loc, zip) {
 // 48/255. The two elements sit at different sub-pixel offsets on the page, so the best of ±1px shifts is used.
 async function pixels(page, selA, selB, name) {
   await rest(page);
+  // Snap both elements to whole pixels (relative offset only) so text anti-aliasing is comparable.
+  const snap = sel => page.locator(sel).first().evaluate(el => { el.style.position = 'relative'; el.style.left = el.style.top = '0px'; const r = el.getBoundingClientRect(); el.style.left = (Math.round(r.x) - r.x) + 'px'; el.style.top = (Math.round(r.y) - r.y) + 'px'; return [r.x % 1, r.y % 1].map(v => v.toFixed(2)).join(','); });
+  const frac = `${await snap(selA)} / ${await snap(selB)}`;
   const a = PNG.sync.read(await page.locator(selA).first().screenshot({ animations: 'disabled' }));
   const b = PNG.sync.read(await page.locator(selB).first().screenshot({ animations: 'disabled' }));
   fs.writeFileSync(path.join(OUT, `${name}-site.png`), PNG.sync.write(a));
   fs.writeFileSync(path.join(OUT, `${name}-plugin.png`), PNG.sync.write(b));
-  if (Math.abs(a.width - b.width) > 1 || Math.abs(a.height - b.height) > 1) return { ok: false, info: `size ${a.width}x${a.height} vs ${b.width}x${b.height}` };
+  if (Math.abs(a.width - b.width) > 1 || Math.abs(a.height - b.height) > 1) return { ok: false, info: `size ${a.width}x${a.height} vs ${b.width}x${b.height} (sub-pixel offsets ${frac})` };
   const w = Math.min(a.width, b.width) - 2, h = Math.min(a.height, b.height) - 2;
   let best = Infinity;
   for (const dx of [-1, 0, 1]) for (const dy of [-1, 0, 1]) {
@@ -70,7 +73,9 @@ async function pixels(page, selA, selB, name) {
     }
     best = Math.min(best, 100 * bad / (w * h));
   }
-  return { ok: best < 1, info: `${a.width}x${a.height} vs ${b.width}x${b.height}, ${best.toFixed(2)}% pixels differ` };
+  const restore = sel => page.locator(sel).first().evaluate(el => { el.style.position = el.style.left = el.style.top = ''; });
+  await restore(selA); await restore(selB);
+  return { ok: best < 1, info: `${a.width}x${a.height} vs ${b.width}x${b.height}, ${best.toFixed(2)}% pixels differ (sub-pixel offsets ${frac})` };
 }
 
 const snapshots = {};

@@ -1,7 +1,8 @@
-# Chicago Mounting ZIP Checker — v0.2.1 (pilot)
+# Chicago Mounting ZIP Checker — v0.2.2 (pilot)
 
 This is a **pilot build for staging/testing**, not a production-certified plugin. v0.2.0 fixed the defects found in the
-independent review of v0.1.0 (see `docs/REVIEW-REPORT.md` in the repository); v0.2.1 adds the styling system below.
+independent review of v0.1.0 (see `docs/REVIEW-REPORT.md` in the repository). Since v0.2.2 the buttons look like the
+chicagomounting.com buttons straight after install — no files to copy, no shortcode attributes needed.
 
 ## Installation and safe testing
 
@@ -35,34 +36,32 @@ Any element (e.g. an Elementor Button with a link to `/find-near-me/`) can open 
 
 ## Styling
 
-Two layers, both loaded only on pages that show the checker:
+**Default (no setup):** the Check button, the result button and the popup button use the chicagomounting.com
+button design — `btn btn-primary btn-md` from the theme: brand green from the Elementor global accent colour
+(fallback `#63b600`), 2px border, uppercase 14px/600, 52px high, `0 30px` padding, 8px radius, hover `#3F8104` with a
+2px lift, 0.25s transitions; on screens ≤767px 42px high, `0 18px`, 13px, 4px radius. The ZIP field matches the button
+height and radius. All variants (full, compact, minimal, popup) use it. Selectors are strong enough that theme
+`button{}` rules and Elementor *Site Settings → Buttons / Form Fields* do not change the checker.
 
-1. **Base** (`assets/zip-checker.css`, part of the plugin): layout, states, accessibility and the default look, driven by `--cmz-*` custom properties.
-2. **Site stylesheet** (optional, outside the plugin): `wp-content/uploads/cm-zip-checker/custom.css`. Loaded after the base, cache-busted by its modification time. Plugin updates never touch it. If the file does not exist, nothing extra loads and the default look is used.
+Differences from the theme's link buttons, on purpose: the lift also shows on keyboard focus (`:focus-visible`), not
+after a mouse click; keyboard focus has a visible 2px ring (the theme removes outlines); a disabled state while checking.
 
-To customise: copy `starter/chicagomounting.css` from this plugin to `wp-content/uploads/cm-zip-checker/custom.css` (SFTP or the host's file manager), then edit it. Set tokens, or add rules scoped to `.cm-zip` — no `!important` needed. WP Admin → CM ZIP Checker shows whether the file is loaded. Move or disable it with a filter:
+**Other sites / own tweaks (optional):** put CSS in `wp-content/uploads/cm-zip-checker/custom.css`. It loads after the
+plugin styles, only on pages that show the checker, and plugin updates never touch it. Use the same selectors as the
+plugin or set the tokens — no `!important` needed:
 
-```php
-// Example: keep it in the child theme instead (or return false to disable).
-add_filter( 'cm_zip_checker_custom_css', fn() => [
-	'path' => get_stylesheet_directory() . '/cm-zip-checker.css',
-	'url'  => get_stylesheet_directory_uri() . '/cm-zip-checker.css',
-] );
+```css
+.cm-zip, .cm-zip-trigger, .cm-zip-modal { --cmz-primary: #0a66c2; --cmz-primary-hover: #084d92; }
+.cm-zip .cm-zip__button, .cm-zip .cm-zip__cta, .cm-zip-trigger.cm-zip-trigger { border-radius: 999px; text-transform: none; }
 ```
 
-| Token | Default | Used for |
-|---|---|---|
-| `--cmz-primary` / `--cmz-primary-hover` / `--cmz-on-primary` | `#63b600` / `#4c8f00` / `#fff` | Buttons, CTA, result accent / hover / button text |
-| `--cmz-text`, `--cmz-muted` | `#292b26`, `#525c4c` | Text, intro text |
-| `--cmz-surface`, `--cmz-border`, `--cmz-result-bg` | `#fff`, `#e2e7de`, `#f1f8ea` | Box and popup panel, box border, result panel |
-| `--cmz-font` | theme font | Font family of box and buttons |
-| `--cmz-radius`, `--cmz-control-radius` | `14px`, `8px` | Box radius; input, button and result radius |
-| `--cmz-padding`, `--cmz-padding-compact`, `--cmz-padding-minimal`, `--cmz-padding-mobile`, `--cmz-gap` | `24px`, `16px`, `12px`, `18px`, `10px` | Spacing |
-| `--cmz-control-height`, `--cmz-button-padding`, `--cmz-button-font-size`, `--cmz-button-weight` | `46px`, `12px 17px`, `15px`, `700` | Input/button size and button text |
-| `--cmz-input-border`, `--cmz-input-bg`, `--cmz-input-text`, `--cmz-input-font-size` | `#aeb5aa`, `#fff`, `#292b26`, `16px` | Input (keep ≥16px on mobile to avoid iOS zoom) |
-| `--cmz-focus` | `#292b26` | Keyboard focus ring |
-
-Set tokens on `.cm-zip, .cm-zip-trigger, .cm-zip-modal` (as the starter does) or on `:root`.
+Tokens (set on `.cm-zip, .cm-zip-trigger, .cm-zip-modal`): `--cmz-primary`, `--cmz-primary-hover`, `--cmz-on-primary`,
+`--cmz-text`, `--cmz-muted`, `--cmz-surface`, `--cmz-border`, `--cmz-result-bg`, `--cmz-font`, `--cmz-radius`,
+`--cmz-control-radius`, `--cmz-control-height`, `--cmz-button-padding`, `--cmz-button-font-size`, `--cmz-button-weight`,
+`--cmz-padding`, `--cmz-padding-compact`, `--cmz-padding-minimal`, `--cmz-padding-mobile`, `--cmz-gap`,
+`--cmz-input-border`, `--cmz-input-bg`, `--cmz-input-text`, `--cmz-input-font-size` (keep ≥16px against iOS zoom),
+`--cmz-focus`. Move or disable the file with the `cm_zip_checker_custom_css` filter
+(`['path' => …, 'url' => …]` or `false`).
 
 ### Theme classes (optional)
 Instead of the plugin look, a control can use the theme's own classes. The plugin class stays first (JavaScript relies on it), `cm-zip-themed` switches off the plugin look for that control, then your classes follow:
@@ -90,7 +89,7 @@ add_filter( 'cm_zip_checker_default_classes', function ( $classes ) {
 
 Class names must be plain CSS class tokens (`A-Z a-z 0-9 _ -`); anything `sanitize_html_class()` would alter (e.g. Tailwind `hover:…`, `w-1/2`) is dropped. Up to 20 per control. A keyboard focus ring is kept on themed controls even if the theme removes outlines.
 
-On chicagomounting.com the `.btn` system is written for links (`a.btn`) and Elementor buttons only, so `button_class` on the Check button needs the theme patch in `docs/theme-patch/` of the repository (not applied; needs approval). `cta_class` works without it. The theme has no input styles, so leave `input_class` empty there. The site stylesheet route needs no theme change.
+Not needed on chicagomounting.com (the default already matches). If used there: the theme's `.btn` system covers links (`a.btn`) and Elementor buttons only, so `button_class` on a `<button>` needs the theme patch in `docs/theme-patch/` of the repository (not applied).
 
 ## Admin and coverage model
 CSV columns: `zip,city,state,status,landing_page,note`. Status must be `served` or `conditional`. Absent ZIP returns `unlisted`. A quoted ZIP is **not** confirmation of a scheduled appointment.
@@ -138,12 +137,18 @@ Document event: `cmzip:selection` contains the selected ZIP for first-party site
 - No rate limiting on the public lookup (it is read-only and returns only status, city, state and landing page).
 - Public lookup has no nonce on purpose (it broke on page-cached pages in v0.1.0); nothing is written, so there is no CSRF risk.
 - The plugin modal does not lock page scroll while open.
-- Brand green `#63b600` with white text has a contrast ratio of about 2.5:1 (below WCAG AA). `#4c8f00` (the hover colour) is about 4.0:1; a darker green is needed for 4.5:1.
+- Brand green `#63b600` with white text has a contrast ratio of about 2.5:1 (below WCAG AA); the site's own buttons have the same. The hover colour `#3F8104` is about 4.8:1 (passes AA).
 - Texts are English only (not translatable yet).
 - Event mappings for GA4/GTM need review before publishing tags.
 - Requires PHP 7.4+ (static compatibility check 7.4–8.4; runtime tested on PHP 8.3 / WordPress 7.1.3 only).
 
 ## Changelog
+### 0.2.2
+- Fixed: the Check button, result CTA and popup button did not look like the site's buttons. The default design is now the chicagomounting.com `btn btn-primary btn-md` (normal, hover, keyboard focus, disabled, ≤767px sizes), verified pixel-identical against the theme's own button in tests. ZIP field height/radius match the button.
+- Fixed: Elementor *Site Settings → Buttons / Form Fields* (`.elementor-kit-N button`, `.elementor-kit-N input:not(…)`) and theme `button{}` rules could override the checker's button, ZIP field and modal close button. Selectors now outrank them.
+- Fixed: CTA label colour also protected for `:visited`, `:focus`, `:active` inside Elementor Text Editor widgets.
+- Removed: `starter/chicagomounting.css` (no longer needed). The optional site stylesheet and theme classes remain for other sites.
+
 ### 0.2.1
 - Added: two-layer styling — base stylesheet driven by `--cmz-*` custom properties, plus an optional site stylesheet in `wp-content/uploads/cm-zip-checker/custom.css` (survives updates, loaded after the base only where the checker is shown, cache-busted by file time; relocatable via `cm_zip_checker_custom_css`). Starter for chicagomounting.com in `starter/chicagomounting.css`. Admin page shows whether it is loaded.
 - Added: `button_class`, `cta_class`, `input_class` on `[cm_zip_checker]`, `button_class` on `[cm_zip_popup_button]`, and site-wide defaults via `cm_zip_checker_default_classes`. Controls with theme classes get `cm-zip-themed` and only layout rules from the plugin.
