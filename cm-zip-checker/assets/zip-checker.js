@@ -1,24 +1,44 @@
 (() => {
   'use strict';
   const cfg = window.CMZipCheckerConfig || {};
+  const GENERIC_ERROR = 'We could not check your ZIP code right now. Please try again or contact us.';
   let lastSelection = null;
+  let previousFocus = null;
+  // Errors whose message is safe and meaningful to show to visitors.
+  class LookupError extends Error {}
   const escapeHTML = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const quoteLink = zip => {
+  const quoteLink = (zip, city) => {
     const u = new URL(cfg.quoteUrl || '/quote/', window.location.href);
     u.searchParams.set('zip', zip);
+    if (city) u.searchParams.set('city', city);
     return u.href;
   };
-  const fire = (name, detail) => {
+  const isLocalUrl = url => {
+    try { return !!url && new URL(url, window.location.href).origin === window.location.origin; } catch (e) { return false; }
+  };
+  const storedSelection = () => {
+    if (lastSelection) return {...lastSelection};
+    try { return JSON.parse(sessionStorage.getItem('cm_zip_selection') || 'null'); } catch (e) { return null; }
+  };
+  const fire = (name, detail, toDataLayer = true) => {
     document.dispatchEvent(new CustomEvent('cmzip:' + name, {detail}));
-    // GTM only. Do not additionally call gtag.
-    if (Array.isArray(window.dataLayer)) window.dataLayer.push({event:'cm_zip_' + name, component_variant:detail.variant || '', component_location:detail.location || '', coverage_status:detail.status || ''});
+    // GTM only. Do not additionally call gtag. ZIP and city are never pushed to the dataLayer.
+    if (toDataLayer && Array.isArray(window.dataLayer)) window.dataLayer.push({event:'cm_zip_' + name, component_variant:detail.variant || '', component_location:detail.location || '', coverage_status:detail.status || ''});
   };
   const lookup = async zip => {
-    if (!/^\d{5}$/.test(zip)) throw new Error('Please enter a valid 5-digit ZIP code.');
-    const data = new URLSearchParams({action:'cm_zip_lookup', nonce:cfg.nonce, zip});
-    const res = await fetch(cfg.ajaxUrl, {method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded;charset=UTF-8'}, body:data.toString(), credentials:'same-origin'});
-    const json = await res.json();
-    if (!res.ok || !json.success) throw new Error(json?.data?.message || 'Could not check the service area.');
+    if (!/^\d{5}$/.test(zip)) throw new LookupError('Please enter a valid 5-digit ZIP code.');
+    const data = new URLSearchParams({action:'cm_zip_lookup', zip});
+    const ctrl = typeof AbortController === 'function' ? new AbortController() : null;
+    const timer = ctrl ? setTimeout(() => ctrl.abort(), 15000) : 0;
+    let res, json;
+    try {
+      res = await fetch(cfg.ajaxUrl, {method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded;charset=UTF-8'}, body:data.toString(), credentials:'same-origin', signal:ctrl ? ctrl.signal : undefined});
+      json = await res.json();
+    } catch (e) {
+      // Network failure, timeout, or a non-JSON reply (WAF/CDN challenge page, PHP notice output).
+      throw new LookupError(GENERIC_ERROR);
+    } finally { clearTimeout(timer); }
+    if (!res.ok || !json || !json.success) throw new LookupError(json?.data?.message || GENERIC_ERROR);
     return json.data;
   };
   function resultHTML(data, zip) {
@@ -29,9 +49,9 @@
       unlisted: ["Let's check your location.", "Your ZIP code is not in our confirmed coverage list. Contact us and we'll check whether we can help.", 'Contact Us']
     };
     const [title, message, cta] = statuses[data.status] || statuses.unlisted;
-    let html = `<strong>${escapeHTML(title)}</strong><p>${escapeHTML(message)}</p><a class="cm-zip__cta" href="${escapeHTML(quoteLink(zip))}">${escapeHTML(cta)}</a>`;
-    if (data.status === 'served' && data.landing_page && new URL(data.landing_page, window.location.href).origin === window.location.origin) {
-      html += ` <a class="cm-zip__local" href="${escapeHTML(data.landing_page)}">Explore TV installation in ${escapeHTML(data.city)}</a>`;
+    let html = `<strong>${escapeHTML(title)}</strong><p>${escapeHTML(message)}</p><a class="cm-zip__cta" href="${escapeHTML(quoteLink(zip, data.city))}">${escapeHTML(cta)}</a>`;
+    if (data.status === 'served' && isLocalUrl(data.landing_page)) {
+      html += ` <a class="cm-zip__local" href="${escapeHTML(data.landing_page)}">Explore TV installation in ${escapeHTML(data.city || 'your area')}</a>`;
     }
     return html;
   }
@@ -48,17 +68,19 @@
     result.textContent = 'Checking service area…';
     try {
       const data = await lookup(zip);
-      // Don't show a stale request result if input has changed.
-      if (input.value.trim() !== zip) return;
+      // Don't show a stale request result if input has changed; clear the "Checking…" text instead.
+      if (input.value.trim() !== zip) { result.textContent = ''; result.hidden = true; return; }
       result.innerHTML = resultHTML(data, zip);
+      root.dataset.status = data.status;
       lastSelection = {zip, status:data.status, city:data.city, state:data.state};
       try { sessionStorage.setItem('cm_zip_selection', JSON.stringify(lastSelection)); } catch (e) { /* Storage unavailable */ }
       const detail = {status:data.status, variant:root.dataset.variant, location:root.dataset.location};
       fire('check', detail);
       fire('check_' + data.status, detail);
-      fire('selection', {...lastSelection});
+      // Contains the ZIP: document event for first-party scripts only, not pushed to the dataLayer.
+      fire('selection', {...lastSelection}, false);
     } catch (e) {
-      result.textContent = e.message || 'Unable to check. Please try again.';
+      result.textContent = e instanceof LookupError ? e.message : GENERIC_ERROR;
     } finally { button.disabled = false; }
   }
   document.addEventListener('submit', e => {
@@ -68,12 +90,14 @@
   });
   document.addEventListener('input', e => {
     if (!e.target.matches('.cm-zip__input')) return;
-    e.target.value = e.target.value.replace(/\D/g, '').slice(0, 5);
+    const digits = e.target.value.replace(/\D/g, '').slice(0, 5);
+    if (digits !== e.target.value) e.target.value = digits;
   });
   function closeModal() {
     const modal = document.getElementById('cm-zip-modal');
     if (modal) { modal.hidden = true; modal.setAttribute('aria-hidden','true'); }
-    if (window.cmZipPreviousFocus) window.cmZipPreviousFocus.focus();
+    if (previousFocus && typeof previousFocus.focus === 'function') previousFocus.focus();
+    previousFocus = null;
   }
   function openModal() {
     let modal = document.getElementById('cm-zip-modal');
@@ -87,17 +111,18 @@
       modal.querySelector('.cm-zip-modal__panel').appendChild(source);
       document.body.appendChild(modal);
     }
-    window.cmZipPreviousFocus = document.activeElement;
+    previousFocus = document.activeElement;
     modal.hidden = false; modal.setAttribute('aria-hidden','false');
     modal.querySelector('input')?.focus();
     fire('popup_open', {variant:'popup', location:'trigger'});
     return true;
   }
   document.addEventListener('click', e => {
-    if (e.target.closest('[data-cm-zip-open]')) { e.preventDefault(); openModal(); }
+    // Only cancel the click when the modal opened, so a trigger that is a link still navigates as a fallback.
+    if (e.target.closest('[data-cm-zip-open]') && openModal()) e.preventDefault();
     if (e.target.closest('[data-cm-zip-close]')) { e.preventDefault(); closeModal(); }
     const quote = e.target.closest('.cm-zip__cta');
-    if (quote) { const root = quote.closest('[data-cm-zip]'); fire('quote_click', {variant:root?.dataset.variant, location:root?.dataset.location, status:lastSelection?.status}); }
+    if (quote) { const root = quote.closest('[data-cm-zip]'); fire('quote_click', {variant:root?.dataset.variant, location:root?.dataset.location, status:root?.dataset.status}); }
   });
   document.addEventListener('keydown', e => {
     const modal = document.getElementById('cm-zip-modal');
@@ -111,10 +136,39 @@
       else if (!e.shiftKey && document.activeElement===last) {e.preventDefault();first.focus();}
     }
   });
+  // Optional quote-form prefill (enabled only when the site supplies field selectors, see README).
+  // Fills empty fields once; never overwrites what the visitor or browser autofill entered.
+  function fillField(selector, value, events) {
+    let fields = [];
+    try { fields = document.querySelectorAll(selector); } catch (e) { return; }
+    fields.forEach(el => {
+      if (!('value' in el) || String(el.value).trim() !== '' || el.dataset.cmZipPrefilled) return;
+      el.value = value;
+      el.dataset.cmZipPrefilled = '1';
+      if (events) { el.dispatchEvent(new Event('input', {bubbles:true})); el.dispatchEvent(new Event('change', {bubbles:true})); }
+    });
+  }
+  function prefillQuote() {
+    const p = cfg.prefill;
+    if (!p || !p.zip) return;
+    const params = new URLSearchParams(window.location.search);
+    const stored = storedSelection();
+    let zip = params.get('zip') || '';
+    let city = params.get('city') || '';
+    if (!/^\d{5}$/.test(zip)) { zip = stored?.zip || ''; city = stored?.city || ''; }
+    else if (!city && stored?.zip === zip) { city = stored.city || ''; }
+    if (!/^\d{5}$/.test(zip)) return;
+    city = String(city).replace(/[^\p{L}\p{M} .'-]/gu, '').trim().slice(0, 60);
+    fillField(p.zip, zip, p.events);
+    if (p.city && city) fillField(p.city, city, p.events);
+  }
+  prefillQuote();
+  // Second pass for forms that render late (e.g. builder/calculator scripts); filled or edited fields are skipped.
+  window.addEventListener('load', prefillQuote, {once:true});
   window.CMZipChecker = {
     open: openModal,
     check: async zip => lookup(String(zip)),
-    getSelection: () => { if(lastSelection) return {...lastSelection}; try {return JSON.parse(sessionStorage.getItem('cm_zip_selection') || 'null');} catch (e) {return null;} },
-    clear: () => { lastSelection=null; try {sessionStorage.removeItem('cm_zip_selection');} catch(e) {} }
+    getSelection: storedSelection,
+    clear: () => { lastSelection=null; try {sessionStorage.removeItem('cm_zip_selection');} catch(e) { /* Storage unavailable */ } }
   };
 })();

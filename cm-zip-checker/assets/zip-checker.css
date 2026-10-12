@@ -16,6 +16,8 @@
 .cm-zip__local{display:inline-block;margin:10px;font-weight:600}
 .cm-zip--compact{padding:16px}.cm-zip--compact .cm-zip__heading{font-size:22px}
 .cm-zip--minimal{padding:12px}
+/* The popup variant is only a source for the modal: hidden in page flow, shown once moved into the modal. */
+.cm-zip--popup{display:none}.cm-zip-modal .cm-zip--popup{display:block}
 .cm-zip-modal[hidden]{display:none!important}.cm-zip-modal{position:fixed;inset:0;z-index:999999;display:flex;align-items:center;justify-content:center;padding:16px}
 .cm-zip-modal__backdrop{position:absolute;inset:0;background:rgba(0,0,0,.65)}
 .cm-zip-modal__panel{position:relative;background:#fff;border-radius:15px;padding:28px 12px 12px;max-width:550px;width:100%;max-height:90vh;overflow:auto}

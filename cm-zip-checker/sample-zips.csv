@@ -1,4 +1,4 @@
 zip,city,state,status,landing_page,note
-60025,Glenview,IL,conditional,https://chicagomounting.com/tv-installation-in-glenview/,Sample only - verify actual coverage
-60091,Wilmette,IL,conditional,https://chicagomounting.com/tv-installation-in-wilmette/,Sample only - verify actual coverage
-60201,Evanston,IL,conditional,https://chicagomounting.com/tv-installation-in-evanston/,Sample only - verify actual coverage
+60025,Glenview,IL,conditional,/tv-installation-in-glenview/,Sample only - verify actual coverage
+60091,Wilmette,IL,conditional,/tv-installation-in-wilmette/,Sample only - verify actual coverage
+60201,Evanston,IL,conditional,/tv-installation-in-evanston/,Sample only - verify actual coverage

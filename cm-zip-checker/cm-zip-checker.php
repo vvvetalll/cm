@@ -2,7 +2,8 @@
 /**
  * Plugin Name: Chicago Mounting ZIP Checker
  * Description: Reusable ZIP service-area checker with a CSV-managed list and Elementor-compatible shortcodes.
- * Version: 0.1.0
+ * Version: 0.2.0
+ * Requires at least: 5.8
  * Requires PHP: 7.4
  * Text Domain: cm-zip-checker
  */
@@ -10,7 +11,10 @@ if (!defined('ABSPATH')) { exit; }
 
 final class CM_Zip_Checker {
     const OPTION = 'cm_zip_checker_records';
-    const VERSION = '0.1.0';
+    const VERSION = '0.2.0';
+    const IMPORT_LIMIT = 5000;
+    private static $popup_source_rendered = false;
+    private static $popup_location = 'popup';
     public static function init() {
         add_action('admin_menu', [__CLASS__, 'admin_menu']);
         add_action('admin_post_cm_zip_import', [__CLASS__, 'import_csv']);
@@ -21,6 +25,9 @@ final class CM_Zip_Checker {
         add_shortcode('cm_zip_popup_button', [__CLASS__, 'popup_trigger_shortcode']);
         add_action('wp_ajax_cm_zip_lookup', [__CLASS__, 'lookup']);
         add_action('wp_ajax_nopriv_cm_zip_lookup', [__CLASS__, 'lookup']);
+        add_action('wp_enqueue_scripts', [__CLASS__, 'frontend_assets']);
+        // Elementor editor renders newly added widgets via AJAX, so load the assets in the preview up front.
+        add_action('elementor/preview/enqueue_scripts', [__CLASS__, 'enqueue']);
     }
     private static function records() {
         $records = get_option(self::OPTION, []);
@@ -40,36 +47,79 @@ final class CM_Zip_Checker {
         $city = sanitize_text_field($raw['city'] ?? '');
         $state = strtoupper(sanitize_text_field($raw['state'] ?? 'IL'));
         if (!preg_match('/^[A-Z]{2}$/D', $state)) { return null; }
-        $url = esc_url_raw($raw['landing_page'] ?? '');
-        if ($url && !self::safe_page_url($url)) { return null; }
+        $url = self::local_page_path($raw['landing_page'] ?? '');
+        if ($url === null) { return null; }
         return ['zip'=>$zip,'city'=>$city,'state'=>$state,'status'=>$status,
             'landing_page'=>$url,'note'=>sanitize_text_field($raw['note'] ?? '')];
     }
-    private static function safe_page_url($url) {
-        if (!$url) { return true; }
-        $host = wp_parse_url($url, PHP_URL_HOST);
-        $site_host = wp_parse_url(home_url(), PHP_URL_HOST);
-        return !$host || (strtolower($host) === strtolower($site_host));
+    /**
+     * Landing pages are stored as root-relative paths ("/tv-installation-in-glenview/") so the same
+     * records work on staging and production. Absolute URLs are accepted only for this site's host
+     * (www and non-www) or hosts added via the cm_zip_checker_allowed_hosts filter.
+     * Returns '' for empty input and null for anything that is not a local page.
+     */
+    private static function local_page_path($value) {
+        $value = trim((string) $value);
+        if ($value === '') { return ''; }
+        $is_relative = $value[0] === '/' && substr($value, 0, 2) !== '//';
+        $url = $is_relative ? $value : esc_url_raw($value, ['http', 'https']);
+        $parts = $url ? wp_parse_url($url) : false;
+        if (!$parts) { return null; }
+        if (!$is_relative && (empty($parts['host']) || !self::is_site_host($parts['host']))) { return null; }
+        $path = '/' . ltrim($parts['path'] ?? '', '/');
+        if (isset($parts['query'])) { $path .= '?' . $parts['query']; }
+        if (isset($parts['fragment'])) { $path .= '#' . $parts['fragment']; }
+        $path = esc_url_raw($path);
+        return ($path !== '' && $path[0] === '/') ? $path : null;
+    }
+    private static function is_site_host($host) {
+        $normalize = static function ($h) { return preg_replace('/^www\./', '', strtolower((string) $h)); };
+        $allowed = (array) apply_filters('cm_zip_checker_allowed_hosts', [wp_parse_url(home_url(), PHP_URL_HOST)]);
+        return in_array($normalize($host), array_map($normalize, $allowed), true);
     }
     public static function admin_menu() {
         add_menu_page('CM ZIP Checker', 'CM ZIP Checker', 'manage_options', 'cm-zip-checker', [__CLASS__, 'admin_page'], 'dashicons-location-alt', 81);
     }
-    private static function redirect_admin($message) {
-        wp_safe_redirect(add_query_arg(['page'=>'cm-zip-checker','cm_msg'=>$message], admin_url('admin.php')));
+    private static function redirect_admin($message, $args = []) {
+        wp_safe_redirect(add_query_arg(['page'=>'cm-zip-checker','cm_msg'=>$message] + $args, admin_url('admin.php')));
         exit;
+    }
+    // Admin notices are looked up by code so a crafted link cannot place arbitrary text in the admin screen.
+    private static function admin_message() {
+        // phpcs:disable WordPress.Security.NonceVerification.Recommended -- display-only status codes.
+        $code = isset($_GET['cm_msg']) ? sanitize_key(wp_unslash($_GET['cm_msg'])) : '';
+        $messages = [
+            'saved' => 'ZIP saved.',
+            'deleted' => 'ZIP deleted.',
+            'invalid_record' => 'Invalid ZIP, status, state, or landing page. Landing pages must be pages on this site, e.g. /tv-installation-in-glenview/.',
+            'invalid_zip' => 'Invalid ZIP.',
+            'bad_file' => 'Invalid file or file larger than 1MB.',
+            'unreadable' => 'Cannot read CSV.',
+            'no_header' => 'Missing CSV header.',
+            'bad_header' => 'CSV is missing required headers.',
+        ];
+        if ($code === 'imported') {
+            $text = sprintf('Imported/updated %d ZIP records; skipped %d invalid rows (bad ZIP, status, state, or non-local landing page).',
+                isset($_GET['added']) ? absint($_GET['added']) : 0, isset($_GET['skipped']) ? absint($_GET['skipped']) : 0);
+            if (!empty($_GET['truncated'])) { $text .= sprintf(' Import stopped at the %s-row limit; split the file and import the rest.', number_format_i18n(self::IMPORT_LIMIT)); }
+            return $text;
+        }
+        // phpcs:enable
+        return $messages[$code] ?? '';
     }
     public static function admin_page() {
         if (!current_user_can('manage_options')) { wp_die('Not authorized.'); }
         $records = self::records();
         ksort($records, SORT_STRING);
         echo '<div class="wrap"><h1>Chicago Mounting ZIP Checker</h1><p>Coverage must be verified before marking ZIP codes Served. An unlisted ZIP is treated as unknown.</p>';
-        if (isset($_GET['cm_msg'])) { echo '<div class="notice notice-info"><p>'.esc_html(sanitize_text_field(wp_unslash($_GET['cm_msg']))).'</p></div>'; }
+        $message = self::admin_message();
+        if ($message !== '') { echo '<div class="notice notice-info"><p>'.esc_html($message).'</p></div>'; }
         echo '<h2>Add / Update ZIP</h2><form method="post" action="'.esc_url(admin_url('admin-post.php')).'">';
         wp_nonce_field('cm_zip_save');
         echo '<input type="hidden" name="action" value="cm_zip_save"><p><label>ZIP <input name="zip" maxlength="5" pattern="[0-9]{5}" required></label> <label>City <input name="city" maxlength="120"></label> <label>State <input name="state" value="IL" maxlength="2" size="2" required></label> <label>Status <select name="status"><option value="conditional">Conditional</option><option value="served">Served</option></select></label></p>';
-        echo '<p><label>Local page URL <input type="url" name="landing_page" size="55" placeholder="https://chicagomounting.com/..."></label> <label>Private note <input name="note" size="35"></label></p>';
+        echo '<p><label>Local page <input type="text" name="landing_page" size="55" placeholder="/tv-installation-in-glenview/"></label> <label>Private note <input name="note" size="35"></label></p>';
         submit_button('Save ZIP'); echo '</form>';
-        echo '<h2>CSV Import / Export</h2><p>Header: <code>zip,city,state,status,landing_page,note</code>. Existing ZIP records with matching codes are updated. Invalid rows are skipped. Import limit: 5,000 lines.</p>';
+        echo '<h2>CSV Import / Export</h2><p>Header: <code>zip,city,state,status,landing_page,note</code>. Existing ZIP records with matching codes are updated. Invalid rows are skipped. Landing pages are stored as site-relative paths. Import limit: '.esc_html(number_format_i18n(self::IMPORT_LIMIT)).' rows.</p>';
         echo '<form method="post" enctype="multipart/form-data" action="'.esc_url(admin_url('admin-post.php')).'">';
         wp_nonce_field('cm_zip_import'); echo '<input type="hidden" name="action" value="cm_zip_import"><input type="file" name="csv" accept=".csv,text/csv" required> ';
         submit_button('Import CSV', 'secondary', 'submit', false); echo '</form>';
@@ -91,40 +141,47 @@ final class CM_Zip_Checker {
         self::admin_guard('cm_zip_save');
         $raw = wp_unslash($_POST);
         $r = self::clean_record($raw);
-        if (!$r) { self::redirect_admin('Invalid ZIP, status, state, or landing URL.'); }
+        if (!$r) { self::redirect_admin('invalid_record'); }
         $records = self::records(); $records[$r['zip']] = $r;
         update_option(self::OPTION, $records, false);
-        self::redirect_admin('ZIP saved.');
+        self::redirect_admin('saved');
     }
     public static function delete_record() {
         $zip = isset($_POST['zip']) ? sanitize_text_field(wp_unslash($_POST['zip'])) : '';
         self::admin_guard('cm_zip_delete_'.$zip);
-        if (!self::valid_zip($zip)) { self::redirect_admin('Invalid ZIP.'); }
+        if (!self::valid_zip($zip)) { self::redirect_admin('invalid_zip'); }
         $records = self::records(); unset($records[$zip]); update_option(self::OPTION, $records, false);
-        self::redirect_admin('ZIP deleted.');
+        self::redirect_admin('deleted');
     }
     public static function import_csv() {
         self::admin_guard('cm_zip_import');
         if (empty($_FILES['csv']['tmp_name']) || !is_uploaded_file($_FILES['csv']['tmp_name']) || (int)$_FILES['csv']['size'] > 1024*1024) {
-            self::redirect_admin('Invalid file or file larger than 1MB.');
+            self::redirect_admin('bad_file');
         }
         $f = fopen($_FILES['csv']['tmp_name'], 'r');
-        if (!$f) { self::redirect_admin('Cannot read CSV.'); }
-        $header = fgetcsv($f);
-        if (!$header) { fclose($f); self::redirect_admin('Missing CSV header.'); }
-        $header = array_map(static function($v) { return strtolower(trim(preg_replace('/^\xEF\xBB\xBF/', '', $v))); }, $header);
+        if (!$f) { self::redirect_admin('unreadable'); }
+        // Explicit RFC 4180 settings: identical parsing on PHP 7.4-8.4+ and no PHP 8.4 "$escape" deprecation.
+        $header = fgetcsv($f, 0, ',', '"', '');
+        if (!$header || $header === [null]) { fclose($f); self::redirect_admin('no_header'); }
+        $header = array_map(static function($v) { return strtolower(trim(preg_replace('/^\xEF\xBB\xBF/', '', (string) $v))); }, $header);
         $required = ['zip','city','state','status'];
-        if (array_diff($required, $header)) { fclose($f); self::redirect_admin('CSV is missing required headers.'); }
-        $records = self::records(); $added=0; $skipped=0; $lines=0;
-        while (($data = fgetcsv($f)) !== false && $lines < 5000) {
+        if (array_diff($required, $header)) { fclose($f); self::redirect_admin('bad_header'); }
+        $records = self::records(); $added=0; $skipped=0; $lines=0; $truncated=false;
+        while (($data = fgetcsv($f, 0, ',', '"', '')) !== false) {
+            if ($data === [null]) { continue; } // Blank line.
+            if ($lines >= self::IMPORT_LIMIT) { $truncated = true; break; }
             $lines++;
             if (count($header) !== count($data)) { $skipped++; continue; }
-            $r = self::clean_record(array_combine($header, $data));
+            $r = self::clean_record(array_combine($header, array_map([__CLASS__, 'unguard_csv_value'], $data)));
             if (!$r) { $skipped++; continue; }
             $records[$r['zip']] = $r; $added++;
         }
         fclose($f); update_option(self::OPTION, $records, false);
-        self::redirect_admin('Imported/updated '.$added.' ZIP records; skipped '.$skipped.' rows.');
+        self::redirect_admin('imported', ['added'=>$added,'skipped'=>$skipped,'truncated'=>$truncated ? 1 : 0]);
+    }
+    // Reverses the export formula guard below so an export -> import round trip keeps values unchanged.
+    private static function unguard_csv_value($v) {
+        return preg_replace('/^\'(?=\s*[=+@\-])/', '', (string) $v);
     }
     public static function export_csv() {
         self::admin_guard('cm_zip_export');
@@ -133,7 +190,7 @@ final class CM_Zip_Checker {
         header('Content-Disposition: attachment; filename="cm-zip-checker.csv"');
         $out = fopen('php://output', 'w');
         $columns = ['zip','city','state','status','landing_page','note'];
-        fputcsv($out, $columns);
+        fputcsv($out, $columns, ',', '"', '');
         foreach (self::records() as $r) {
             $row = [];
             foreach ($columns as $col) {
@@ -142,27 +199,54 @@ final class CM_Zip_Checker {
                 if ($v !== '' && preg_match('/^[\s]*[=+@\-]/', $v)) { $v = "'".$v; }
                 $row[] = $v;
             }
-            fputcsv($out, $row);
+            fputcsv($out, $row, ',', '"', '');
         }
         fclose($out); exit;
     }
-    private static function enqueue() {
-        wp_enqueue_style('cm-zip-checker', plugins_url('assets/zip-checker.css', __FILE__), [], self::VERSION);
-        wp_enqueue_script('cm-zip-checker', plugins_url('assets/zip-checker.js', __FILE__), [], self::VERSION, true);
-        wp_localize_script('cm-zip-checker', 'CMZipCheckerConfig', [
-            'ajaxUrl'=>admin_url('admin-ajax.php'),
-            'nonce'=>wp_create_nonce('cm_zip_lookup'),
-            'quoteUrl'=>home_url('/quote/'),
-        ]);
+    private static function quote_url() {
+        return (string) apply_filters('cm_zip_checker_quote_url', home_url('/quote/'));
     }
-    public static function shortcode($atts) {
-        $atts = shortcode_atts(['style'=>'full','location'=>'unspecified','heading'=>'Do We Serve Your Area?'], $atts, 'cm_zip_checker');
-        $style = in_array($atts['style'], ['full','compact','minimal','popup'], true) ? $atts['style'] : 'full';
-        $location = sanitize_key($atts['location']);
-        self::enqueue();
+    /**
+     * Optional quote-form prefill. Disabled unless field selectors are supplied, e.g.:
+     * add_filter('cm_zip_checker_quote_prefill', fn() => ['zip' => '#form-field-zip', 'city' => '#form-field-city']);
+     * Set 'events' => true only if the quote calculator must react to the prefilled value.
+     */
+    private static function prefill_config() {
+        $p = apply_filters('cm_zip_checker_quote_prefill', []);
+        if (!is_array($p) || empty($p['zip']) || !is_string($p['zip'])) { return null; }
+        return ['zip'=>$p['zip'], 'city'=>(isset($p['city']) && is_string($p['city'])) ? $p['city'] : '', 'events'=>!empty($p['events'])];
+    }
+    private static function is_quote_page() {
+        $quote = untrailingslashit((string) wp_parse_url(self::quote_url(), PHP_URL_PATH));
+        $current = isset($_SERVER['REQUEST_URI']) ? untrailingslashit((string) wp_parse_url(esc_url_raw(wp_unslash($_SERVER['REQUEST_URI'])), PHP_URL_PATH)) : '';
+        return $quote !== '' && $quote === $current;
+    }
+    // Registered once with its config so Elementor's element cache (which re-enqueues by handle) and multiple instances work.
+    private static function register_assets() {
+        if (wp_script_is('cm-zip-checker', 'registered')) { return; }
+        wp_register_style('cm-zip-checker', plugins_url('assets/zip-checker.css', __FILE__), [], self::VERSION);
+        wp_register_script('cm-zip-checker', plugins_url('assets/zip-checker.js', __FILE__), [], self::VERSION, true);
+        $config = ['ajaxUrl'=>admin_url('admin-ajax.php'), 'quoteUrl'=>self::quote_url()];
+        $prefill = self::prefill_config();
+        if ($prefill) { $config['prefill'] = $prefill; }
+        wp_localize_script('cm-zip-checker', 'CMZipCheckerConfig', $config);
+    }
+    public static function frontend_assets() {
+        self::register_assets();
+        // Sitewide mode: any element with data-cm-zip-open (e.g. an Elementor button) can open the modal on every page.
+        if (apply_filters('cm_zip_checker_always_enqueue', false)) { self::enqueue(); add_action('wp_footer', [__CLASS__, 'footer_popup_source'], 5); }
+        elseif (self::prefill_config() && self::is_quote_page()) { wp_enqueue_script('cm-zip-checker'); }
+    }
+    public static function enqueue() {
+        self::register_assets();
+        wp_enqueue_style('cm-zip-checker');
+        wp_enqueue_script('cm-zip-checker');
+    }
+    private static function render_checker($style, $location, $heading) {
+        if ($style === 'popup') { self::$popup_source_rendered = true; }
         ob_start(); ?>
         <section class="cm-zip cm-zip--<?php echo esc_attr($style); ?>" data-cm-zip data-location="<?php echo esc_attr($location); ?>" data-variant="<?php echo esc_attr($style); ?>">
-          <?php if ($style !== 'minimal'): ?><h2 class="cm-zip__heading"><?php echo esc_html($atts['heading']); ?></h2><p class="cm-zip__intro">Enter your ZIP code to check whether Chicago Mounting serves your location.</p><?php endif; ?>
+          <?php if ($style !== 'minimal'): ?><h2 class="cm-zip__heading"><?php echo esc_html($heading); ?></h2><p class="cm-zip__intro">Enter your ZIP code to check whether Chicago Mounting serves your location.</p><?php endif; ?>
           <form class="cm-zip__form" novalidate>
             <label class="cm-zip__label">ZIP Code <input class="cm-zip__input" type="text" name="zip" inputmode="numeric" autocomplete="postal-code" pattern="[0-9]{5}" maxlength="5" placeholder="Enter ZIP Code" required></label>
             <button class="cm-zip__button" type="submit">Check Service Area</button>
@@ -171,14 +255,32 @@ final class CM_Zip_Checker {
         </section>
         <?php return ob_get_clean();
     }
-    public static function popup_trigger_shortcode($atts) {
-        $atts = shortcode_atts(['label'=>'Check Service Area'], $atts, 'cm_zip_popup_button');
+    public static function shortcode($atts) {
+        $atts = shortcode_atts(['style'=>'full','location'=>'unspecified','heading'=>'Do We Serve Your Area?'], $atts, 'cm_zip_checker');
+        $style = in_array($atts['style'], ['full','compact','minimal','popup'], true) ? $atts['style'] : 'full';
         self::enqueue();
+        return self::render_checker($style, sanitize_key($atts['location']), $atts['heading']);
+    }
+    public static function popup_trigger_shortcode($atts) {
+        $atts = shortcode_atts(['label'=>'Check Service Area','location'=>'popup'], $atts, 'cm_zip_popup_button');
+        self::enqueue();
+        // The modal reuses a popup-variant checker. If the page has none, a hidden one is printed in the
+        // footer, so the button also works on its own (e.g. in a header template).
+        if (!has_action('wp_footer', [__CLASS__, 'footer_popup_source'])) {
+            self::$popup_location = sanitize_key($atts['location']);
+            add_action('wp_footer', [__CLASS__, 'footer_popup_source'], 5);
+        }
         return '<button type="button" class="cm-zip-trigger" data-cm-zip-open>'.esc_html($atts['label']).'</button>';
     }
+    public static function footer_popup_source() {
+        if (self::$popup_source_rendered) { return; }
+        echo self::render_checker('popup', self::$popup_location, 'Do We Serve Your Area?'); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped in render_checker().
+    }
     public static function lookup() {
-        if (!check_ajax_referer('cm_zip_lookup', 'nonce', false)) { wp_send_json_error(['message'=>'Security token expired. Refresh the page.'], 403); }
-        $zip = isset($_POST['zip']) ? sanitize_text_field(wp_unslash($_POST['zip'])) : '';
+        // Public, read-only lookup: intentionally no nonce. Pages with the checker are normally
+        // page-cached, so a nonce baked into the HTML expires (12-24h) and never matches logged-in
+        // visitors, which made every check fail with 403. Nothing is written, so there is no CSRF risk.
+        $zip = isset($_POST['zip']) ? sanitize_text_field(wp_unslash($_POST['zip'])) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Missing
         if (!self::valid_zip($zip)) { wp_send_json_error(['message'=>'Please enter a valid 5-digit ZIP code.'], 400); }
         $records = self::records();
         if (!isset($records[$zip])) { wp_send_json_success(['status'=>'unlisted','city'=>'','state'=>'','landing_page'=>'']); }
