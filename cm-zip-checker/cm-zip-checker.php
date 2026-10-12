@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Chicago Mounting ZIP Checker
  * Description: Reusable ZIP service-area checker with a CSV-managed list and Elementor-compatible shortcodes.
- * Version: 0.2.0
+ * Version: 0.2.1
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * Text Domain: cm-zip-checker
@@ -11,10 +11,12 @@ if (!defined('ABSPATH')) { exit; }
 
 final class CM_Zip_Checker {
     const OPTION = 'cm_zip_checker_records';
-    const VERSION = '0.2.0';
+    const VERSION = '0.2.1';
+    const CLASS_KEYS = ['button', 'cta', 'input', 'trigger'];
     const IMPORT_LIMIT = 5000;
     private static $popup_source_rendered = false;
     private static $popup_location = 'popup';
+    private static $custom_css = false;
     public static function init() {
         add_action('admin_menu', [__CLASS__, 'admin_menu']);
         add_action('admin_post_cm_zip_import', [__CLASS__, 'import_csv']);
@@ -119,6 +121,10 @@ final class CM_Zip_Checker {
         echo '<input type="hidden" name="action" value="cm_zip_save"><p><label>ZIP <input name="zip" maxlength="5" pattern="[0-9]{5}" required></label> <label>City <input name="city" maxlength="120"></label> <label>State <input name="state" value="IL" maxlength="2" size="2" required></label> <label>Status <select name="status"><option value="conditional">Conditional</option><option value="served">Served</option></select></label></p>';
         echo '<p><label>Local page <input type="text" name="landing_page" size="55" placeholder="/tv-installation-in-glenview/"></label> <label>Private note <input name="note" size="35"></label></p>';
         submit_button('Save ZIP'); echo '</form>';
+        $custom = self::custom_css();
+        echo '<h2>Appearance</h2><p>'.($custom
+            ? 'Site stylesheet loaded after the base styles: <code>'.esc_html($custom['path']).'</code>'
+            : 'No site stylesheet. To customise the look, create <code>wp-content/uploads/cm-zip-checker/custom.css</code> (starter: <code>'.esc_html(plugin_dir_path(__FILE__)).'starter/chicagomounting.css</code>). It is kept on plugin updates.').'</p>';
         echo '<h2>CSV Import / Export</h2><p>Header: <code>zip,city,state,status,landing_page,note</code>. Existing ZIP records with matching codes are updated. Invalid rows are skipped. Landing pages are stored as site-relative paths. Import limit: '.esc_html(number_format_i18n(self::IMPORT_LIMIT)).' rows.</p>';
         echo '<form method="post" enctype="multipart/form-data" action="'.esc_url(admin_url('admin-post.php')).'">';
         wp_nonce_field('cm_zip_import'); echo '<input type="hidden" name="action" value="cm_zip_import"><input type="file" name="csv" accept=".csv,text/csv" required> ';
@@ -224,7 +230,16 @@ final class CM_Zip_Checker {
     // Registered once with its config so Elementor's element cache (which re-enqueues by handle) and multiple instances work.
     private static function register_assets() {
         if (wp_script_is('cm-zip-checker', 'registered')) { return; }
-        wp_register_style('cm-zip-checker', plugins_url('assets/zip-checker.css', __FILE__), [], self::VERSION);
+        // Two layers: plugin base styles, then the optional site stylesheet. 'cm-zip-checker' is an alias that pulls
+        // both in order, so anything enqueuing that handle (shortcodes, Elementor's element cache) gets both.
+        wp_register_style('cm-zip-checker-base', plugins_url('assets/zip-checker.css', __FILE__), [], self::VERSION);
+        $layers = ['cm-zip-checker-base'];
+        $custom = self::custom_css();
+        if ($custom) {
+            wp_register_style('cm-zip-checker-custom', set_url_scheme($custom['url']), ['cm-zip-checker-base'], (string) filemtime($custom['path']));
+            $layers[] = 'cm-zip-checker-custom';
+        }
+        wp_register_style('cm-zip-checker', false, $layers, self::VERSION);
         wp_register_script('cm-zip-checker', plugins_url('assets/zip-checker.js', __FILE__), [], self::VERSION, true);
         $config = ['ajaxUrl'=>admin_url('admin-ajax.php'), 'quoteUrl'=>self::quote_url()];
         $prefill = self::prefill_config();
@@ -242,27 +257,70 @@ final class CM_Zip_Checker {
         wp_enqueue_style('cm-zip-checker');
         wp_enqueue_script('cm-zip-checker');
     }
-    private static function render_checker($style, $location, $heading) {
+    /**
+     * Site stylesheet, loaded after the base styles on pages that show the checker. It lives outside the
+     * plugin (default: wp-content/uploads/cm-zip-checker/custom.css) so plugin updates never overwrite it.
+     * Relocate or disable with the cm_zip_checker_custom_css filter (['path' => ..., 'url' => ...] or false).
+     */
+    private static function custom_css() {
+        if (self::$custom_css !== false) { return self::$custom_css; }
+        $uploads = wp_upload_dir(null, false);
+        $default = empty($uploads['error']) ? [
+            'path' => trailingslashit($uploads['basedir']).'cm-zip-checker/custom.css',
+            'url' => trailingslashit($uploads['baseurl']).'cm-zip-checker/custom.css',
+        ] : null;
+        $css = apply_filters('cm_zip_checker_custom_css', $default);
+        $valid = is_array($css) && !empty($css['path']) && !empty($css['url']) && is_string($css['path']) && is_string($css['url'])
+            && substr($css['path'], -4) === '.css' && is_file($css['path']) && is_readable($css['path']);
+        self::$custom_css = $valid ? ['path'=>$css['path'], 'url'=>$css['url']] : null;
+        return self::$custom_css;
+    }
+    /**
+     * Optional theme classes for the controls, e.g. "btn btn-primary". Site-wide defaults come from the
+     * cm_zip_checker_default_classes filter; shortcode attributes override them (an empty value turns them off).
+     * Tokens that sanitize_html_class() would alter are dropped, duplicates removed.
+     */
+    private static function theme_classes($overrides = []) {
+        $defaults = apply_filters('cm_zip_checker_default_classes', array_fill_keys(self::CLASS_KEYS, ''));
+        $classes = [];
+        foreach (self::CLASS_KEYS as $key) {
+            $value = array_key_exists($key, $overrides) && $overrides[$key] !== null ? $overrides[$key] : ($defaults[$key] ?? '');
+            $classes[$key] = self::sanitize_classes($value);
+        }
+        return $classes;
+    }
+    private static function sanitize_classes($value) {
+        $tokens = preg_split('/\s+/', is_string($value) ? $value : '', -1, PREG_SPLIT_NO_EMPTY);
+        $valid = array_filter($tokens, static function ($t) { return $t === sanitize_html_class($t); });
+        return implode(' ', array_slice(array_values(array_unique($valid)), 0, 20));
+    }
+    // Plugin class first (JS hooks), then the marker that switches off the plugin look, then theme classes.
+    private static function control_class($base, $theme) {
+        return $theme === '' ? $base : $base.' cm-zip-themed '.$theme;
+    }
+    private static function render_checker($style, $location, $heading, $classes) {
         if ($style === 'popup') { self::$popup_source_rendered = true; }
         ob_start(); ?>
-        <section class="cm-zip cm-zip--<?php echo esc_attr($style); ?>" data-cm-zip data-location="<?php echo esc_attr($location); ?>" data-variant="<?php echo esc_attr($style); ?>">
+        <section class="cm-zip cm-zip--<?php echo esc_attr($style); ?>" data-cm-zip data-location="<?php echo esc_attr($location); ?>" data-variant="<?php echo esc_attr($style); ?>"<?php if ($classes['cta'] !== '') { echo ' data-cta-class="'.esc_attr($classes['cta']).'"'; } ?>>
           <?php if ($style !== 'minimal'): ?><h2 class="cm-zip__heading"><?php echo esc_html($heading); ?></h2><p class="cm-zip__intro">Enter your ZIP code to check whether Chicago Mounting serves your location.</p><?php endif; ?>
           <form class="cm-zip__form" novalidate>
-            <label class="cm-zip__label">ZIP Code <input class="cm-zip__input" type="text" name="zip" inputmode="numeric" autocomplete="postal-code" pattern="[0-9]{5}" maxlength="5" placeholder="Enter ZIP Code" required></label>
-            <button class="cm-zip__button" type="submit">Check Service Area</button>
+            <label class="cm-zip__label">ZIP Code <input class="<?php echo esc_attr(self::control_class('cm-zip__input', $classes['input'])); ?>" type="text" name="zip" inputmode="numeric" autocomplete="postal-code" pattern="[0-9]{5}" maxlength="5" placeholder="Enter ZIP Code" required></label>
+            <button class="<?php echo esc_attr(self::control_class('cm-zip__button', $classes['button'])); ?>" type="submit">Check Service Area</button>
           </form>
           <div class="cm-zip__result" role="status" aria-live="polite" aria-atomic="true" hidden></div>
         </section>
         <?php return ob_get_clean();
     }
     public static function shortcode($atts) {
-        $atts = shortcode_atts(['style'=>'full','location'=>'unspecified','heading'=>'Do We Serve Your Area?'], $atts, 'cm_zip_checker');
+        $atts = shortcode_atts(['style'=>'full','location'=>'unspecified','heading'=>'Do We Serve Your Area?',
+            'button_class'=>null,'cta_class'=>null,'input_class'=>null], $atts, 'cm_zip_checker');
         $style = in_array($atts['style'], ['full','compact','minimal','popup'], true) ? $atts['style'] : 'full';
         self::enqueue();
-        return self::render_checker($style, sanitize_key($atts['location']), $atts['heading']);
+        $classes = self::theme_classes(['button'=>$atts['button_class'], 'cta'=>$atts['cta_class'], 'input'=>$atts['input_class']]);
+        return self::render_checker($style, sanitize_key($atts['location']), $atts['heading'], $classes);
     }
     public static function popup_trigger_shortcode($atts) {
-        $atts = shortcode_atts(['label'=>'Check Service Area','location'=>'popup'], $atts, 'cm_zip_popup_button');
+        $atts = shortcode_atts(['label'=>'Check Service Area','location'=>'popup','button_class'=>null], $atts, 'cm_zip_popup_button');
         self::enqueue();
         // The modal reuses a popup-variant checker. If the page has none, a hidden one is printed in the
         // footer, so the button also works on its own (e.g. in a header template).
@@ -270,11 +328,12 @@ final class CM_Zip_Checker {
             self::$popup_location = sanitize_key($atts['location']);
             add_action('wp_footer', [__CLASS__, 'footer_popup_source'], 5);
         }
-        return '<button type="button" class="cm-zip-trigger" data-cm-zip-open>'.esc_html($atts['label']).'</button>';
+        $classes = self::theme_classes(['trigger'=>$atts['button_class']]);
+        return '<button type="button" class="'.esc_attr(self::control_class('cm-zip-trigger', $classes['trigger'])).'" data-cm-zip-open>'.esc_html($atts['label']).'</button>';
     }
     public static function footer_popup_source() {
         if (self::$popup_source_rendered) { return; }
-        echo self::render_checker('popup', self::$popup_location, 'Do We Serve Your Area?'); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped in render_checker().
+        echo self::render_checker('popup', self::$popup_location, 'Do We Serve Your Area?', self::theme_classes()); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped in render_checker().
     }
     public static function lookup() {
         // Public, read-only lookup: intentionally no nonce. Pages with the checker are normally

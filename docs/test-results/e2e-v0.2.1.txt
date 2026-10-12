@@ -1,0 +1,164 @@
+
+## 1. Plugin activation and deactivation
+PASS  Plugin deactivates from Plugins screen
+PASS  Admin menu removed when inactive
+PASS  Front end while inactive: no plugin assets, shortcode left as text (WordPress default)
+PASS  Plugin activates without errors
+PASS  Admin menu "CM ZIP Checker" present
+
+## 2. ZIP database management (admin form)
+PASS  Save served ZIP with site-relative page
+PASS  Saved row shows path
+PASS  Absolute same-site URL is stored as a path
+PASS  Off-site landing URL rejected with explanation  — Invalid ZIP, status, state, or landing page. Landing pages must be pages on this site, e.g. /tv-installation-in-glenview/.
+PASS  Invalid ZIP rejected server-side (HTML5 validation bypassed)
+PASS  Invalid state rejected server-side
+PASS  Re-saving same ZIP updates the record (no duplicate)
+PASS  Delete removes the record
+PASS  Arbitrary cm_msg text is not displayed (no admin notice spoofing)
+
+## 2b. Permissions and CSRF
+PASS  Admin POST without nonce is refused (403)  — HTTP 403
+PASS  Editor role cannot open the admin page  — HTTP 403
+PASS  Editor role cannot export CSV  — HTTP 403
+PASS  Logged-out visitor cannot export CSV  — HTTP 400
+
+## 3. CSV import / export
+PASS  Bundled sample-zips.csv imports on a non-production host  — Imported/updated 3 ZIP records; skipped 0 invalid rows (bad ZIP, status, state, or non-local landing page).
+PASS  Sample records are conditional (not falsely served)
+PASS  v0.1.0 sample (production URLs) is rejected on another host, with reason  — Imported/updated 0 ZIP records; skipped 3 invalid rows (bad ZIP, status, state, or non-local landing page).
+PASS  cm_zip_checker_allowed_hosts lets staging import production URLs (stored as paths)  — Imported/updated 3 ZIP records; skipped 0 invalid rows (bad ZIP, status, state, or non-local landing page).
+PASS  Edge-case CSV: 6 valid rows imported, 6 invalid skipped, blank line ignored  — Imported/updated 6 ZIP records; skipped 6 invalid rows (bad ZIP, status, state, or non-local landing page).
+PASS  UTF-8 BOM + mixed-case header + "Served" status accepted
+PASS  Same-site absolute URL with query/fragment stored as path  — /tv-installation-in-chicago/?ref=zip#top
+PASS  www variant of site host accepted
+PASS  Lowercase state normalised
+PASS  Quoted field with comma and quotes parsed  — Note, with comma and "quotes"
+PASS  HTML tags stripped from city  — Chicago
+PASS  Whitespace around ZIP/status trimmed
+PASS  Invalid row 6060 not imported
+PASS  Invalid row 60604 not imported
+PASS  Invalid row 60605 not imported
+PASS  Invalid row 60606 not imported
+PASS  Invalid row 60607 not imported
+PASS  Invalid row 60608 not imported
+PASS  Wrong delimiter / header rejected  — CSV is missing required headers.
+PASS  5,010-row CSV: imports 5,000 and reports the limit  — Imported/updated 5000 ZIP records; skipped 0 invalid rows (bad ZIP, status, state, or non-local landing page). Import stopped at the 5,000-row limit; split the file and import the rest. (4922 ms)
+PASS  Admin page renders with ~5,000 records  — 1887 ms, 2837 KB HTML
+PASS  Lookup with ~5,000 records responds  — admin-ajax times ms: 38, 33, 24, 25, 28 (PHP built-in server + SQLite, indicative only)
+PASS  File over 1 MB rejected  — Invalid file or file larger than 1MB.
+PASS  Export: filename and header  — cm-zip-checker.csv
+PASS  Export: one line per record  — 5 records
+PASS  Export: formula-like values are neutralised
+PASS  Export: no PHP notices/deprecations inside the file
+PASS  Export -> import round trip keeps values unchanged  — -call first | =HYPERLINK("http://evil.example")
+
+## 4-6. Results, validation and shortcode variants
+PASS  All variants render (full, compact, minimal, popup, invalid style -> full)
+PASS  location attribute sanitised
+PASS  heading attribute escaped (no HTML injection)
+PASS  minimal variant has no heading
+PASS  Popup variant hidden in page flow until opened
+PASS  Script, style and config printed once for 6 shortcodes
+PASS  No nonce in public config
+PASS  No duplicate element IDs on the page
+PASS  Footer popup source not added when page has an explicit one
+PASS  Served: message
+PASS  Served: quote CTA carries ZIP and city
+PASS  Served: local page link
+PASS  Conditional: message + CTA, no local link
+PASS  Conditional: CTA carries city
+PASS  Unknown (unlisted): message + "Contact Us", ZIP only in URL
+PASS  Served without city: no dangling "in " text
+PASS  Earlier instance results stay independent
+
+## 5. Invalid ZIP validation
+PASS  Non-digits stripped while typing
+PASS  Short ZIP: client message, no request sent
+PASS  Empty ZIP: client message
+PASS  Server rejects invalid ZIP with 400 JSON
+PASS  Server handles array input without PHP error
+PASS  Lookup response does not expose private notes
+
+## 7. Multiple instances, analytics events, JS API
+PASS  dataLayer: check + check_<status> per lookup, no selection event  — cm_zip_check,cm_zip_check_served,cm_zip_check,cm_zip_check_conditional,cm_zip_check,cm_zip_check_unlisted,cm_zip_check,cm_zip_check_served
+PASS  dataLayer never contains ZIP or city
+PASS  dataLayer carries variant/location
+PASS  cmzip:selection document event carries ZIP for site scripts
+PASS  quote_click reports the clicked instance status (served), not the last check  — {"event":"cm_zip_quote_click","component_variant":"full","component_location":"test_full","coverage_status":"served"}
+PASS  Selection stored in sessionStorage
+PASS  CMZipChecker.check() resolves
+PASS  CMZipChecker.check() rejects invalid ZIP
+PASS  CMZipChecker.getSelection()/clear()
+
+## 7b. Failure handling
+PASS  HTML/WAF response: friendly message, not a raw JS error  — We could not check your ZIP code right now. Please try again or contact us.
+PASS  Network failure: friendly message
+PASS  Button disabled while checking (no double submit)
+PASS  Input changed mid-request: stale "Checking…" cleared
+PASS  Hung request times out with friendly message (~15 s)  — 15067 ms
+
+## 8. Popup opening and closing
+PASS  Trigger opens modal
+PASS  Modal uses the page's popup checker
+PASS  Focus moves to ZIP input
+PASS  popup_open pushed to dataLayer
+PASS  Tab / Shift+Tab stay inside the modal
+PASS  Escape closes modal and returns focus to trigger
+PASS  Close button closes modal
+PASS  Backdrop click closes modal
+PASS  Lookup works inside the modal (Enter key)
+PASS  Only one modal element after repeated opens
+PASS  Trigger-only page: hidden popup source printed in footer
+PASS  Trigger-only page: modal opens (e.g. header button)
+PASS  Trigger before explicit popup shortcode: explicit one used, no duplicate
+PASS  Link trigger without popup source still navigates (graceful fallback)
+PASS  Page without shortcodes: no plugin CSS/JS/markup by default
+PASS  Link with data-cm-zip-open on a page without the plugin: plain navigation
+PASS  cm_zip_checker_always_enqueue: link opens the modal on any page
+PASS  always_enqueue: no extra popup source when the page has one
+
+## 9. Mobile responsiveness
+PASS  mobile-375: no horizontal page overflow  — {"overflow":0,"stacked":true,"btnW":277,"inpW":277,"btnH":46,"font":16,"secRight":345,"vw":375}
+PASS  mobile-375: form stacks, full-width button, 46px+ tap target
+PASS  mobile-375: input font-size >= 16px (no iOS zoom)
+PASS  mobile-375: modal panel fits viewport  — {"x":16,"y":257.203125,"width":343,"height":297.578125}
+PASS  mobile-320: no horizontal page overflow  — {"overflow":0,"stacked":true,"btnW":222,"inpW":222,"btnH":46,"font":16,"secRight":290,"vw":320}
+PASS  mobile-320: form stacks, full-width button, 46px+ tap target
+PASS  mobile-320: input font-size >= 16px (no iOS zoom)
+PASS  mobile-320: modal panel fits viewport  — {"x":16,"y":147.515625,"width":288,"height":344.96875}
+PASS  tablet-768: no horizontal page overflow  — {"overflow":0,"stacked":false,"btnW":174,"inpW":411,"btnH":46,"font":16,"secRight":707,"vw":768}
+PASS  tablet-768: form inline
+PASS  tablet-768: modal panel fits viewport  — {"x":97,"y":384.578125,"width":574,"height":254.84375}
+PASS  desktop-1366: no horizontal page overflow  — {"overflow":0,"stacked":false,"btnW":174,"inpW":411,"btnH":46,"font":16,"secRight":1006,"vw":1366}
+PASS  desktop-1366: form inline
+PASS  desktop-1366: modal panel fits viewport  — {"x":396,"y":318.40625,"width":574,"height":263.1875}
+
+## 12. Quote URL parameter passing and optional prefill
+PASS  Prefill OFF by default: plugin JS not loaded on /quote/
+PASS  Prefill OFF: quote fields untouched, calculator received no events
+PASS  Prefill ON: JS (only) loaded on /quote/
+PASS  Prefill ON: ZIP and city filled from URL
+PASS  Prefill ON (events:false): calculator not triggered
+PASS  Existing value (autofill/manual) never overwritten
+PASS  Visitor edit before window load is preserved
+PASS  Hostile city parameter neutralised  — img srcx onerroralertChicago
+PASS  Invalid ZIP parameter ignored
+PASS  Navigation from another page without parameters uses stored selection
+PASS  CTA click lands on /quote/ with fields prefilled
+PASS  events:true notifies calculator once per field  — {"input":2,"change":2}
+PASS  Invalid selector config fails silently (no JS error)
+
+## Page caching and Elementor element cache
+PASS  Logged-in visitor served a cached logged-out page can still check
+PASS  Check still works after nonce lifetime would have expired
+PASS  Cache-sim page stores rendered markup only (no shortcode to run)
+PASS  Enqueue by handle only (Elementor cache hit) prints script, style and config
+PASS  Cached checker markup works
+
+## 10-11. JavaScript console and WordPress debug log
+PASS  Deactivate/reactivate cycle keeps data
+PASS  No JavaScript console errors/warnings or uncaught exceptions
+PASS  WordPress debug.log empty (WP_DEBUG on, E_ALL)
+
+136 passed, 0 failed

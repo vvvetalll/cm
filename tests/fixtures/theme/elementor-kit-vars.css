@@ -1,0 +1,8 @@
+/* TEST ASSUMPTION — the real Elementor kit (Site Settings → Global Colors) values were not available.
+   Elementor prints these on .elementor-kit-N; :root is used here so they apply to the test pages. */
+:root {
+    --e-global-color-primary: #292B26;
+    --e-global-color-secondary: #292B26;
+    --e-global-color-text: #525C4C;
+    --e-global-color-accent: #63B600;
+}

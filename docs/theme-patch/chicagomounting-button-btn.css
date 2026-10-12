@@ -1,0 +1,202 @@
+/* ==================================================
+   NATIVE <button> SUPPORT FOR THE BUTTON SYSTEM
+   PROPOSED PATCH — NOT APPLIED. Needs approval.
+
+   Where: append to the end of the chicagomounting theme style.css
+   (or Elementor → Site Settings → Custom CSS).
+
+   What: lets <button class="btn btn-primary btn-md"> look like
+   <a class="btn btn-primary btn-md">. Additive only: no existing
+   rule is edited, and only <button> elements that carry the .btn
+   class are affected. Links, Elementor Button widgets, Elementor
+   form buttons, WooCommerce buttons and plain <button>s are not
+   matched by any selector below.
+
+   Differences from the a.btn rules, on purpose:
+   - font-family / margin / padding reset (buttons do not inherit
+     them like links do);
+   - hover state also on :focus-visible instead of :focus, so a
+     mouse-clicked button does not stay "lifted";
+   - a visible keyboard focus ring (a.btn removes the outline);
+   - a disabled state (links cannot be disabled).
+   ================================================== */
+
+button.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    cursor: pointer;
+
+    border-radius: 8px;
+
+    transition:
+        background-color 0.25s ease,
+        border-color 0.25s ease,
+        color 0.25s ease,
+        transform 0.25s ease;
+}
+
+
+/* Sizes */
+
+button.btn.btn-sm {
+    min-height: 40px;
+    padding: 0 18px;
+
+    font-size: 12px;
+}
+
+button.btn.btn-md {
+    min-height: 52px;
+    padding: 0 30px;
+
+    font-size: 14px;
+}
+
+button.btn.btn-lg {
+    min-height: 58px;
+    padding: 0 38px;
+
+    font-size: 16px;
+}
+
+
+/* Primary */
+
+button.btn.btn-primary {
+    background-color: var(--e-global-color-accent);
+    border: 2px solid var(--e-global-color-accent);
+
+    color: #FFFFFF;
+}
+
+button.btn.btn-primary:hover,
+button.btn.btn-primary:focus-visible {
+    background-color: #3F8104;
+    border-color: #3F8104;
+
+    color: #FFFFFF;
+
+    transform: translateY(-2px);
+}
+
+
+/* Outline */
+
+button.btn.btn-outline {
+    background-color: transparent;
+    border: 2px solid var(--e-global-color-accent);
+
+    color: var(--e-global-color-accent);
+}
+
+button.btn.btn-outline:hover,
+button.btn.btn-outline:focus-visible {
+    background-color: var(--e-global-color-accent);
+    border-color: var(--e-global-color-accent);
+
+    color: #FFFFFF;
+
+    transform: translateY(-2px);
+}
+
+
+/* Light outline (dark backgrounds only) */
+
+button.btn.btn-outline-light {
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+
+    color: #FFFFFF;
+}
+
+button.btn.btn-outline-light:hover,
+button.btn.btn-outline-light:focus-visible {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+
+    color: var(--e-global-color-primary);
+
+    transform: translateY(-2px);
+}
+
+
+/* Keyboard focus */
+
+button.btn:focus-visible {
+    outline: 2px solid var(--e-global-color-secondary, #292B26);
+    outline-offset: 2px;
+}
+
+
+/* Disabled */
+
+button.btn:disabled,
+button.btn:disabled:hover {
+    opacity: 0.65;
+
+    cursor: not-allowed;
+
+    transform: none;
+}
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+    button.btn {
+        border-radius: 4px;
+    }
+
+    button.btn.btn-sm {
+        min-height: 36px;
+        padding: 0 14px;
+
+        font-size: 12px;
+    }
+
+    button.btn.btn-md {
+        min-height: 42px;
+        padding: 0 18px;
+
+        font-size: 13px;
+    }
+
+    button.btn.btn-lg {
+        min-height: 46px;
+        padding: 0 22px;
+
+        font-size: 14px;
+    }
+}
+
+
+/* Reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+
+    button.btn {
+        transition: none;
+    }
+
+    button.btn:hover,
+    button.btn:focus-visible {
+        transform: none;
+    }
+}

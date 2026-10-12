@@ -1,0 +1,189 @@
+/* ==================================================
+   CM ZIP CHECKER — SITE STYLESHEET (starter for chicagomounting.com)
+
+   Copy this file to:  wp-content/uploads/cm-zip-checker/custom.css
+   The plugin loads it after its base styles, only on pages that show the checker,
+   and never overwrites it on update. Edit it over SFTP / the host's file manager.
+
+   Colours follow the Elementor global colours when present (Site Settings → Global Colors);
+   the fallbacks after the comma are used elsewhere. No !important is needed anywhere here.
+   Controls that use theme classes (button_class / cta_class / input_class) are left to the theme.
+   ================================================== */
+
+
+/* ==================================================
+   TOKENS
+   ================================================== */
+
+.cm-zip,
+.cm-zip-trigger,
+.cm-zip-modal {
+    --cmz-primary: var(--e-global-color-accent, #63B600);
+    --cmz-primary-hover: #3F8104;
+    --cmz-on-primary: #FFFFFF;
+
+    --cmz-text: var(--e-global-color-secondary, #292B26);
+    --cmz-muted: var(--e-global-color-text, #525C4C);
+    --cmz-surface: #FFFFFF;
+    --cmz-border: rgba(41, 43, 38, 0.08);
+    --cmz-result-bg: #F2F6EF;
+
+    /* Dark ring: green on white is below the 3:1 contrast needed for focus indicators. */
+    --cmz-focus: var(--e-global-color-secondary, #292B26);
+
+    --cmz-radius: 14px;
+    --cmz-padding: 28px;
+    --cmz-padding-compact: 20px;
+    --cmz-padding-minimal: 14px;
+    --cmz-padding-mobile: 20px;
+    --cmz-gap: 12px;
+
+    --cmz-control-height: 52px;
+    --cmz-control-radius: 8px;
+
+    --cmz-input-border: rgba(41, 43, 38, 0.18);
+    --cmz-input-bg: #FFFFFF;
+    --cmz-input-text: var(--e-global-color-secondary, #292B26);
+
+    --cmz-button-padding: 0 30px;
+    --cmz-button-font-size: 14px;
+    --cmz-button-weight: 600;
+}
+
+
+/* ==================================================
+   BOX
+   Same card language as the pricing cards
+   ================================================== */
+
+.cm-zip {
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.06),
+        0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.cm-zip-modal .cm-zip {
+    box-shadow: none;
+}
+
+.cm-zip .cm-zip__heading {
+    color: var(--cmz-text);
+
+    font-weight: 700;
+}
+
+.cm-zip .cm-zip__label {
+    color: var(--cmz-text);
+}
+
+
+/* ==================================================
+   BUTTONS
+   Matches "btn btn-primary btn-md": uppercase, 600, 2px border, lift on hover
+   ================================================== */
+
+.cm-zip .cm-zip__button:not(.cm-zip-themed),
+.cm-zip .cm-zip__cta:not(.cm-zip-themed),
+.cm-zip-trigger:not(.cm-zip-themed) {
+    border: 2px solid var(--cmz-primary);
+
+    line-height: 1.2;
+
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    transition:
+        background-color 0.25s ease,
+        border-color 0.25s ease,
+        color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.cm-zip .cm-zip__button:not(.cm-zip-themed):hover,
+.cm-zip .cm-zip__cta:not(.cm-zip-themed):hover,
+.cm-zip-trigger:not(.cm-zip-themed):hover {
+    border-color: var(--cmz-primary-hover);
+
+    transform: translateY(-2px);
+}
+
+.cm-zip .cm-zip__button:disabled,
+.cm-zip .cm-zip__button:disabled:hover {
+    transform: none;
+}
+
+
+/* ==================================================
+   INPUT
+   ================================================== */
+
+.cm-zip .cm-zip__input:not(.cm-zip-themed) {
+    transition: border-color 0.2s ease;
+}
+
+.cm-zip .cm-zip__input:not(.cm-zip-themed):focus {
+    border-color: var(--cmz-primary);
+
+    outline: 2px solid var(--cmz-focus);
+    outline-offset: 2px;
+}
+
+
+/* ==================================================
+   RESULT
+   ================================================== */
+
+.cm-zip .cm-zip__result {
+    color: var(--cmz-text);
+}
+
+.cm-zip .cm-zip__local {
+    color: var(--cmz-text);
+
+    text-decoration-color: var(--cmz-primary);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+
+.cm-zip .cm-zip__local:hover {
+    color: var(--cmz-primary-hover);
+}
+
+
+/* ==================================================
+   MOBILE
+   Theme breakpoint 767px, radius 4px
+   ================================================== */
+
+@media (max-width: 767px) {
+
+    .cm-zip,
+    .cm-zip-trigger,
+    .cm-zip-modal {
+        --cmz-radius: 10px;
+        --cmz-control-height: 46px;
+        --cmz-control-radius: 4px;
+        --cmz-button-padding: 0 18px;
+        --cmz-button-font-size: 13px;
+    }
+}
+
+
+/* ==================================================
+   ACCESSIBILITY
+   ================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .cm-zip .cm-zip__button:not(.cm-zip-themed),
+    .cm-zip .cm-zip__cta:not(.cm-zip-themed),
+    .cm-zip-trigger:not(.cm-zip-themed) {
+        transition: none;
+    }
+
+    .cm-zip .cm-zip__button:not(.cm-zip-themed):hover,
+    .cm-zip .cm-zip__cta:not(.cm-zip-themed):hover,
+    .cm-zip-trigger:not(.cm-zip-themed):hover {
+        transform: none;
+    }
+}

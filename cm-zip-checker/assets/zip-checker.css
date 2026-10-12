@@ -1,25 +1,44 @@
-.cm-zip{--cmz-green:#63b600;--cmz-hover:#4c8f00;--cmz-dark:#292b26;box-sizing:border-box;padding:24px;border:1px solid #e2e7de;border-radius:14px;background:#fff;color:var(--cmz-dark);font:inherit;max-width:100%}
+/* CM ZIP Checker — base layer: layout, states, accessibility and the default look.
+   Customise in the site stylesheet (default wp-content/uploads/cm-zip-checker/custom.css), loaded after this file:
+   set the --cmz-* properties below, or add rules scoped to .cm-zip. No !important needed.
+   Controls given theme classes (button_class / cta_class / input_class) carry .cm-zip-themed and get layout only. */
+:root{
+  --cmz-primary:#63b600;--cmz-primary-hover:#4c8f00;--cmz-on-primary:#fff;
+  --cmz-text:#292b26;--cmz-muted:#525c4c;--cmz-surface:#fff;--cmz-border:#e2e7de;
+  --cmz-radius:14px;--cmz-padding:24px;--cmz-padding-compact:16px;--cmz-padding-minimal:12px;--cmz-padding-mobile:18px;
+  --cmz-gap:10px;--cmz-control-height:46px;--cmz-control-radius:8px;
+  --cmz-input-border:#aeb5aa;--cmz-input-bg:#fff;--cmz-input-text:#292b26;--cmz-input-font-size:16px;
+  --cmz-button-padding:12px 17px;--cmz-button-font-size:15px;--cmz-button-weight:700;
+  --cmz-result-bg:#f1f8ea;--cmz-focus:#292b26;
+}
+.cm-zip{box-sizing:border-box;padding:var(--cmz-padding);border:1px solid var(--cmz-border);border-radius:var(--cmz-radius);background:var(--cmz-surface);color:var(--cmz-text);font:inherit;font-family:var(--cmz-font,inherit);max-width:100%}
 .cm-zip *, .cm-zip *::before,.cm-zip *::after{box-sizing:border-box}
 .cm-zip__heading{margin:0 0 8px;font-size:clamp(22px,3vw,30px);line-height:1.2}
-.cm-zip__intro{margin:0 0 18px;color:#525c4c;font-size:15px}
-.cm-zip__form{display:flex;gap:10px;align-items:end}
+.cm-zip__intro{margin:0 0 18px;color:var(--cmz-muted);font-size:15px}
+.cm-zip__form{display:flex;gap:var(--cmz-gap);align-items:end}
 .cm-zip__label{flex:1;display:flex;flex-direction:column;gap:5px;font-size:13px;font-weight:600}
-.cm-zip__input{width:100%;height:46px;border:1px solid #aeb5aa;border-radius:8px;background:#fff;color:#292b26;padding:0 12px;font-size:16px;line-height:1.4}
-.cm-zip__input:focus{outline:2px solid #63b600;outline-offset:2px}
-.cm-zip__button,.cm-zip__cta,.cm-zip-trigger{background:#63b600;color:#fff!important;border:0;border-radius:8px;min-height:46px;padding:12px 17px;font:inherit;font-size:15px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;text-decoration:none!important}
-.cm-zip__button:hover,.cm-zip__cta:hover,.cm-zip-trigger:hover{background:#4c8f00;color:#fff!important}
+.cm-zip__input{width:100%}
+.cm-zip__input:not(:where(.cm-zip-themed)){height:var(--cmz-control-height);border:1px solid var(--cmz-input-border);border-radius:var(--cmz-control-radius);background:var(--cmz-input-bg);color:var(--cmz-input-text);padding:0 12px;font-size:var(--cmz-input-font-size);line-height:1.4}
+.cm-zip__input:not(:where(.cm-zip-themed)):focus{outline:2px solid var(--cmz-primary);outline-offset:2px}
+.cm-zip__button:not(:where(.cm-zip-themed)),.cm-zip__cta:not(:where(.cm-zip-themed)),.cm-zip-trigger:not(:where(.cm-zip-themed)){background:var(--cmz-primary);color:var(--cmz-on-primary)!important;border:0;border-radius:var(--cmz-control-radius);min-height:var(--cmz-control-height);padding:var(--cmz-button-padding);font:inherit;font-family:var(--cmz-font,inherit);font-size:var(--cmz-button-font-size);font-weight:var(--cmz-button-weight);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;text-decoration:none!important}
+.cm-zip__button:not(:where(.cm-zip-themed)):hover,.cm-zip__cta:not(:where(.cm-zip-themed)):hover,.cm-zip-trigger:not(:where(.cm-zip-themed)):hover{background:var(--cmz-primary-hover);color:var(--cmz-on-primary)!important}
+/* The CTA is a link: theme link rules such as `.elementor-widget-text-editor a{color:…!important}` would make its label
+   invisible, so colour/decoration are !important at .cm-zip scope. Change them through --cmz-on-primary. */
+.cm-zip .cm-zip__cta:not(:where(.cm-zip-themed)),.cm-zip .cm-zip__cta:not(:where(.cm-zip-themed)):hover{color:var(--cmz-on-primary)!important;text-decoration:none!important}
 .cm-zip__button:disabled{opacity:.65;cursor:wait}
-.cm-zip__result{padding:15px;margin-top:15px;border-radius:8px;background:#f1f8ea;border-left:4px solid #63b600;font-size:15px}
+/* Visible keyboard focus for every control, also when a theme removes outlines (e.g. a.btn:focus{outline:none}). */
+.cm-zip .cm-zip__button:focus-visible,.cm-zip .cm-zip__cta:focus-visible,.cm-zip .cm-zip__input:focus-visible,.cm-zip .cm-zip__local:focus-visible,.cm-zip-trigger:focus-visible{outline:2px solid var(--cmz-focus);outline-offset:2px}
+.cm-zip__result{padding:15px;margin-top:15px;border-radius:var(--cmz-control-radius);background:var(--cmz-result-bg);border-left:4px solid var(--cmz-primary);font-size:15px}
 .cm-zip__result[hidden]{display:none!important}
 .cm-zip__result strong{display:block;font-size:17px}
 .cm-zip__result p{margin:8px 0 15px}
 .cm-zip__local{display:inline-block;margin:10px;font-weight:600}
-.cm-zip--compact{padding:16px}.cm-zip--compact .cm-zip__heading{font-size:22px}
-.cm-zip--minimal{padding:12px}
+.cm-zip--compact{padding:var(--cmz-padding-compact)}.cm-zip--compact .cm-zip__heading{font-size:22px}
+.cm-zip--minimal{padding:var(--cmz-padding-minimal)}
 /* The popup variant is only a source for the modal: hidden in page flow, shown once moved into the modal. */
 .cm-zip--popup{display:none}.cm-zip-modal .cm-zip--popup{display:block}
 .cm-zip-modal[hidden]{display:none!important}.cm-zip-modal{position:fixed;inset:0;z-index:999999;display:flex;align-items:center;justify-content:center;padding:16px}
 .cm-zip-modal__backdrop{position:absolute;inset:0;background:rgba(0,0,0,.65)}
-.cm-zip-modal__panel{position:relative;background:#fff;border-radius:15px;padding:28px 12px 12px;max-width:550px;width:100%;max-height:90vh;overflow:auto}
-.cm-zip-modal__close{position:absolute;top:0;right:7px;border:0;background:transparent;color:#292b26;font-size:30px;cursor:pointer}
-@media(max-width:600px){.cm-zip__form{flex-direction:column;align-items:stretch}.cm-zip__button{width:100%}.cm-zip{padding:18px}}
+.cm-zip-modal__panel{position:relative;background:var(--cmz-surface);border-radius:15px;padding:28px 12px 12px;max-width:550px;width:100%;max-height:90vh;overflow:auto}
+.cm-zip-modal__close{position:absolute;top:0;right:7px;border:0;background:transparent;color:var(--cmz-text);font-size:30px;cursor:pointer}
+@media(max-width:600px){.cm-zip__form{flex-direction:column;align-items:stretch}.cm-zip__button{width:100%}.cm-zip{padding:var(--cmz-padding-mobile)}}

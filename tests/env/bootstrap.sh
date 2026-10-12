@@ -20,6 +20,8 @@ sed -e "s#{SQLITE_IMPLEMENTATION_FOLDER_PATH}#$SQ#" -e "s#{SQLITE_PLUGIN}#sqlite
 mkdir -p "$SITE/wp-content/database" "$SITE/wp-content/mu-plugins"
 cp "$HERE/wp-config.php" "$SITE/wp-config.php"
 cp "$HERE/cm-test-env.php" "$SITE/wp-content/mu-plugins/cm-test-env.php"
+mkdir -p "$SITE/wp-content/mu-plugins/cm-test-theme"
+cp "$HERE/../fixtures/theme/"*.css "$HERE/../../docs/theme-patch/chicagomounting-button-btn.css" "$SITE/wp-content/mu-plugins/cm-test-theme/"
 cp -a "$PLUGIN" "$SITE/wp-content/plugins/cm-zip-checker"
 php "$HERE/install.php" "$SITE"
 php "$HERE/setup-content.php" "$SITE"

@@ -1,0 +1,341 @@
+/* Verbatim excerpt of the chicagomounting theme style.css (provided 2026-10-12): every section that
+   styles links, <button>, inputs or the .btn system. Other sections only target classes not used in tests. */
+
+/* ==================================================
+   GLOBAL
+   ================================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.akcent {
+    color: var(--e-global-color-accent);
+}
+
+/* ==================================================
+   TEXT LINKS
+   ================================================== */
+
+.elementor-widget-text-editor a,
+.elementor-widget-text-editor a:visited,
+.elementor-widget-text-editor a:active {
+    color: var(--e-global-color-accent) !important;
+
+    font-weight: 700;
+    text-decoration: underline !important;
+}
+
+.elementor-widget-text-editor a:hover,
+.elementor-widget-text-editor a:focus {
+    color: var(--e-global-color-secondary) !important;
+
+    text-decoration: underline !important;
+}
+
+
+/* ==================================================
+   BUTTON TEXT
+   Uppercase across the site
+   ================================================== */
+
+.elementor-button,
+a.btn,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+    text-transform: uppercase;
+}
+
+
+/* ==================================================
+   BUTTON RADIUS
+   Desktop 8px / Mobile 4px
+   ================================================== */
+
+.elementor-button,
+a.btn,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+    border-radius: 8px;
+}
+
+@media (max-width: 767px) {
+
+    .elementor-button,
+    a.btn,
+    button,
+    input[type="button"],
+    input[type="submit"],
+    input[type="reset"],
+    .woocommerce a.button,
+    .woocommerce button.button,
+    .woocommerce input.button {
+        border-radius: 4px;
+    }
+}
+
+
+/* ==================================================
+   BUTTON SYSTEM
+   Elementor Button widget + HTML links
+
+   btn btn-primary       = green filled
+   btn btn-outline       = green outline
+   btn btn-outline-light = white outline for dark backgrounds
+   ================================================== */
+
+.elementor .elementor-element.btn .elementor-button,
+a.btn,
+a.btn:visited {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    cursor: pointer;
+
+    border-radius: 8px;
+
+    transition:
+        background-color 0.25s ease,
+        border-color 0.25s ease,
+        color 0.25s ease,
+        transform 0.25s ease;
+}
+
+
+/* Sizes */
+
+.elementor .elementor-element.btn.btn-sm .elementor-button,
+a.btn.btn-sm {
+    min-height: 40px;
+    padding: 0 18px;
+
+    font-size: 12px;
+}
+
+.elementor .elementor-element.btn.btn-md .elementor-button,
+a.btn.btn-md {
+    min-height: 52px;
+    padding: 0 30px;
+
+    font-size: 14px;
+}
+
+.elementor .elementor-element.btn.btn-lg .elementor-button,
+a.btn.btn-lg {
+    min-height: 58px;
+    padding: 0 38px;
+
+    font-size: 16px;
+}
+
+
+/* Primary
+   Brand green filled button
+*/
+
+.elementor .elementor-element.btn.btn-primary .elementor-button,
+.elementor .elementor-element.btn.btn-primary .elementor-button:visited,
+a.btn.btn-primary,
+a.btn.btn-primary:visited {
+    background-color: var(--e-global-color-accent);
+    border: 2px solid var(--e-global-color-accent);
+
+    color: #FFFFFF;
+}
+
+.elementor .elementor-element.btn.btn-primary .elementor-button:hover,
+.elementor .elementor-element.btn.btn-primary .elementor-button:focus,
+a.btn.btn-primary:hover,
+a.btn.btn-primary:focus {
+    background-color: #3F8104;
+    border-color: #3F8104;
+
+    color: #FFFFFF;
+
+    transform: translateY(-2px);
+}
+
+
+/* Outline
+   Brand green outline for light backgrounds
+*/
+
+.elementor .elementor-element.btn.btn-outline .elementor-button,
+.elementor .elementor-element.btn.btn-outline .elementor-button:visited,
+a.btn.btn-outline,
+a.btn.btn-outline:visited {
+    background-color: transparent;
+    border: 2px solid var(--e-global-color-accent);
+
+    color: var(--e-global-color-accent);
+}
+
+.elementor .elementor-element.btn.btn-outline .elementor-button:hover,
+.elementor .elementor-element.btn.btn-outline .elementor-button:focus,
+a.btn.btn-outline:hover,
+a.btn.btn-outline:focus {
+    background-color: var(--e-global-color-accent);
+    border-color: var(--e-global-color-accent);
+
+    color: #FFFFFF;
+
+    transform: translateY(-2px);
+}
+
+
+/* Light Outline
+   White outline for dark backgrounds only
+*/
+
+.elementor .elementor-element.btn.btn-outline-light .elementor-button,
+.elementor .elementor-element.btn.btn-outline-light .elementor-button:visited,
+a.btn.btn-outline-light,
+a.btn.btn-outline-light:visited {
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+
+    color: #FFFFFF;
+}
+
+.elementor .elementor-element.btn.btn-outline-light .elementor-button:hover,
+.elementor .elementor-element.btn.btn-outline-light .elementor-button:focus,
+a.btn.btn-outline-light:hover,
+a.btn.btn-outline-light:focus {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+
+    color: var(--e-global-color-primary);
+
+    transform: translateY(-2px);
+}
+
+
+/* Focus */
+
+.elementor .elementor-element.btn .elementor-button:focus,
+.elementor .elementor-element.btn .elementor-button:active,
+a.btn:focus,
+a.btn:active {
+    outline: none;
+}
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+    .elementor .elementor-element.btn .elementor-button,
+    a.btn {
+        border-radius: 4px;
+    }
+
+    .elementor .elementor-element.btn.btn-sm .elementor-button,
+    a.btn.btn-sm {
+        min-height: 36px;
+        padding: 0 14px;
+
+        font-size: 12px;
+    }
+
+    .elementor .elementor-element.btn.btn-md .elementor-button,
+    a.btn.btn-md {
+        min-height: 42px;
+        padding: 0 18px;
+
+        font-size: 13px;
+    }
+
+    .elementor .elementor-element.btn.btn-lg .elementor-button,
+    a.btn.btn-lg {
+        min-height: 46px;
+        padding: 0 22px;
+
+        font-size: 14px;
+    }
+}
+
+
+/* ==================================================
+   READ MORE BUTTON
+   Uses the existing button system
+   Class: btn btn-readmore
+   ================================================== */
+
+.elementor .elementor-element.btn.btn-readmore .elementor-button,
+a.btn.btn-readmore,
+a.btn.btn-readmore:visited {
+    padding: 0;
+    gap: 6px;
+
+    background: transparent;
+    border: 0;
+
+    color: var(--e-global-color-accent);
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    transform: none;
+}
+
+
+.elementor .elementor-element.btn.btn-readmore .elementor-button:hover,
+.elementor .elementor-element.btn.btn-readmore .elementor-button:focus,
+a.btn.btn-readmore:hover,
+a.btn.btn-readmore:focus {
+    background: transparent;
+    border: 0;
+
+    color: var(--e-global-color-secondary);
+
+    transform: none;
+}
+
+
+.elementor .elementor-element.btn.btn-readmore .elementor-button:hover::after,
+.elementor .elementor-element.btn.btn-readmore .elementor-button:focus::after,
+a.btn.btn-readmore:hover::after,
+a.btn.btn-readmore:focus::after {
+    transform: translateX(4px);
+}
+
+.elementor .elementor-element.btn.btn-readmore .elementor-button::after,
+a.btn.btn-readmore::after {
+    content: "→";
+
+    position: relative;
+    top: -1px;
+
+    margin-left: 2px;
+
+    font-size: 16px;
+    line-height: 1;
+
+    transition: transform 0.25s ease;
+}

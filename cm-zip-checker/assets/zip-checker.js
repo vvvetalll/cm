@@ -13,6 +13,11 @@
     if (city) u.searchParams.set('city', city);
     return u.href;
   };
+  // Theme classes for the result CTA (set by the shortcode); same token rule as sanitize_html_class().
+  const ctaClass = root => {
+    const extra = String(root.dataset.ctaClass || '').split(/\s+/).filter(c => /^[A-Za-z0-9_-]+$/.test(c)).join(' ');
+    return extra ? 'cm-zip__cta cm-zip-themed ' + extra : 'cm-zip__cta';
+  };
   const isLocalUrl = url => {
     try { return !!url && new URL(url, window.location.href).origin === window.location.origin; } catch (e) { return false; }
   };
@@ -41,7 +46,7 @@
     if (!res.ok || !json || !json.success) throw new LookupError(json?.data?.message || GENERIC_ERROR);
     return json.data;
   };
-  function resultHTML(data, zip) {
+  function resultHTML(data, zip, ctaClasses) {
     const city = [data.city, data.state].filter(Boolean).join(', ');
     const statuses = {
       served: [`Great news! We serve ${city || 'your area'}.`, 'TV mounting services are available in your area. Contact us to confirm appointment availability.', 'Get a Free Quote'],
@@ -49,7 +54,7 @@
       unlisted: ["Let's check your location.", "Your ZIP code is not in our confirmed coverage list. Contact us and we'll check whether we can help.", 'Contact Us']
     };
     const [title, message, cta] = statuses[data.status] || statuses.unlisted;
-    let html = `<strong>${escapeHTML(title)}</strong><p>${escapeHTML(message)}</p><a class="cm-zip__cta" href="${escapeHTML(quoteLink(zip, data.city))}">${escapeHTML(cta)}</a>`;
+    let html = `<strong>${escapeHTML(title)}</strong><p>${escapeHTML(message)}</p><a class="${escapeHTML(ctaClasses)}" href="${escapeHTML(quoteLink(zip, data.city))}">${escapeHTML(cta)}</a>`;
     if (data.status === 'served' && isLocalUrl(data.landing_page)) {
       html += ` <a class="cm-zip__local" href="${escapeHTML(data.landing_page)}">Explore TV installation in ${escapeHTML(data.city || 'your area')}</a>`;
     }
@@ -70,7 +75,7 @@
       const data = await lookup(zip);
       // Don't show a stale request result if input has changed; clear the "Checking…" text instead.
       if (input.value.trim() !== zip) { result.textContent = ''; result.hidden = true; return; }
-      result.innerHTML = resultHTML(data, zip);
+      result.innerHTML = resultHTML(data, zip, ctaClass(root));
       root.dataset.status = data.status;
       lastSelection = {zip, status:data.status, city:data.city, state:data.state};
       try { sessionStorage.setItem('cm_zip_selection', JSON.stringify(lastSelection)); } catch (e) { /* Storage unavailable */ }

@@ -45,6 +45,25 @@ if ( file_exists( "$cm_flags/always-enqueue" ) ) {
 	add_filter( 'cm_zip_checker_always_enqueue', '__return_true' );
 }
 
+// Chicago Mounting theme CSS (verbatim excerpt) + assumed Elementor kit colours, optionally with the proposed patch.
+add_action( 'wp_enqueue_scripts', static function () use ( $cm_flags ) {
+	$base = content_url( 'mu-plugins/cm-test-theme/' );
+	if ( file_exists( "$cm_flags/theme-css" ) ) {
+		wp_enqueue_style( 'cm-test-kit', $base . 'elementor-kit-vars.css', [], null );
+		wp_enqueue_style( 'cm-test-theme', $base . 'chicagomounting-style-excerpt.css', [ 'cm-test-kit' ], null );
+		if ( file_exists( "$cm_flags/theme-patch" ) ) {
+			wp_enqueue_style( 'cm-test-theme-patch', $base . 'chicagomounting-button-btn.css', [ 'cm-test-theme' ], null );
+		}
+	}
+}, 5 );
+
+// Site-wide theme classes, as a site would set them in a snippet: JSON {"button": "...", "cta": "...", ...}.
+if ( file_exists( "$cm_flags/default-classes.json" ) ) {
+	add_filter( 'cm_zip_checker_default_classes', static function ( $classes ) use ( $cm_flags ) {
+		return array_merge( $classes, (array) json_decode( (string) file_get_contents( "$cm_flags/default-classes.json" ), true ) );
+	} );
+}
+
 // Elementor element-cache hit simulation: Elementor does not run the widget (so not the shortcode);
 // it re-enqueues the script/style handles recorded when the cache was built (core/base/document.php).
 add_action( 'wp_enqueue_scripts', static function () {
