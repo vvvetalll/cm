@@ -1,0 +1,25 @@
+activated: true
+D-import sample CSV on non-production host: Imported/updated 0 ZIP records; skipped 3 rows.
+save 60601 served: ZIP saved.
+save 60025 conditional: ZIP saved.
+D-cm_msg spoofing (text shown in admin notice): Session expired. Re-enter your password at https://evil.example
+export CSV: "zip,city,state,status,landing_page,note\n60601,Chicago,IL,served,http://127.0.0.1:8899/tv-installation-in-chicago/,\"'-call first\"\n60025,Glenview,IL,conditional,,\"'-call first\"\n"
+D-note after export->import round trip (was "-call first"): "'-call first"
+D-CMZipCheckerConfig localized N times in HTML: 6
+D-popup variant visible inline before opening: true
+instances on page: 5
+served (full): Great news! We serve Chicago, IL. TV mounting services are available in your area. Contact us to confirm appointment availability. Get a Free Quote Explore TV installation in Chicago
+unlisted (compact): Let's check your location. Your ZIP code is not in our confirmed coverage list. Contact us and we'll check whether we can help. Contact Us
+quote href (full): http://127.0.0.1:8899/quote/?zip=60601
+dataLayer events: cm_zip_check,cm_zip_check_served,cm_zip_selection,cm_zip_check,cm_zip_check_unlisted,cm_zip_selection,cm_zip_quote_click
+D-quote_click from "served" instance reports coverage_status: unlisted
+D-message on HTML 403 response: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+D-result text after input changed mid-request: "Checking service area…"
+D-trigger-only page: modal exists after click: 0
+modal visible after click: true
+focus in modal input: true
+modal hidden after Escape: true
+D-logged-in visitor using cached page: HTTP 403 {"success":false,"data":{"message":"Security token expired. Refresh the page."}}
+D-cached page after nonce lifetime: HTTP 403 {"success":false,"data":{"message":"Security token expired. Refresh the page."}}
+D-Elementor cache hit loads script+config: false
+console/page errors: ["[console.error] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://127.0.0.1:8899/zip-test/"]

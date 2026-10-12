@@ -1,0 +1,11 @@
+{
+  "name": "cm-zip-checker-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node e2e/plugin.test.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "1.56.1"
+  }
+}

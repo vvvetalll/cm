@@ -1,0 +1,25 @@
+activated: true
+D-import sample CSV on non-production host: Imported/updated 3 ZIP records; skipped 0 invalid rows (bad ZIP, status, state, or non-local landing page).
+save 60601 served: ZIP saved.
+save 60025 conditional: ZIP saved.
+D-cm_msg spoofing (text shown in admin notice): (no notice)
+export CSV: "zip,city,state,status,landing_page,note\n60025,Glenview,IL,conditional,,\"'-call first\"\n60091,Wilmette,IL,conditional,/tv-installation-in-wilmette/,\"Sample only - verify actual coverage\"\n60201,Evanston,IL,conditional,/tv-installation-in-evanston/,\"Sample only - verify actual coverage\"\n60601,Chicago,IL,served,/tv-installation-in-chicago/,\"'-call first\"\n"
+D-note after export->import round trip (was "-call first"): "-call first"
+D-CMZipCheckerConfig localized N times in HTML: 1
+D-popup variant visible inline before opening: false
+instances on page: 5
+served (full): Great news! We serve Chicago, IL. TV mounting services are available in your area. Contact us to confirm appointment availability. Get a Free Quote Explore TV installation in Chicago
+unlisted (compact): Let's check your location. Your ZIP code is not in our confirmed coverage list. Contact us and we'll check whether we can help. Contact Us
+quote href (full): http://127.0.0.1:8899/quote/?zip=60601&city=Chicago
+dataLayer events: cm_zip_check,cm_zip_check_served,cm_zip_check,cm_zip_check_unlisted,cm_zip_quote_click
+D-quote_click from "served" instance reports coverage_status: served
+D-message on HTML 403 response: We could not check your ZIP code right now. Please try again or contact us.
+D-result text after input changed mid-request: ""
+D-trigger-only page: modal exists after click: 1
+modal visible after click: true
+focus in modal input: true
+modal hidden after Escape: true
+D-logged-in visitor using cached page: HTTP 200 {"success":true,"data":{"status":"served","city":"Chicago","state":"IL","landing_page":"\/tv-installation-in-chicago\/"}}
+D-cached page after nonce lifetime: HTTP 200 {"success":true,"data":{"status":"served","city":"Chicago","state":"IL","landing_page":"\/tv-installation-in-chicago\/"}}
+D-Elementor cache hit loads script+config: true
+console/page errors: ["[console.error] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://127.0.0.1:8899/zip-test/"]

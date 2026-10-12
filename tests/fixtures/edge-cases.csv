@@ -1,0 +1,14 @@
+﻿ZIP,City,State,Status,Landing_Page,Note
+60601,Chicago,IL,Served,/tv-installation-in-chicago/,Downtown
+60602,Chicago,il,served,http://127.0.0.1:8899/tv-installation-in-chicago/?ref=zip#top,"Note, with comma and ""quotes"""
+60603,Chicago,IL,conditional,http://www.127.0.0.1:8899/loop/,"=HYPERLINK(""http://evil.example"")"
+
+6060,Short,IL,served,,bad zip
+60604,Chicago,IL,not_served,,bad status
+60605,Chicago,Illinois,served,,bad state
+60606,Chicago,IL,served,https://evil.example/tv/,off-site url
+60607,Chicago,IL,served,javascript:alert(1),js url
+60608,Chicago,IL,served
+46320,Hammond,IN,conditional,,NW Indiana
+60609,<script>alert(1)</script>Chicago,IL,served,,tags stripped
+ 60610 , Chicago ,IL, SERVED ,,whitespace
