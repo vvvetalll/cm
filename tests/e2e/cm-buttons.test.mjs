@@ -99,12 +99,26 @@ for (const [scenario, flags] of [['CM theme', ['theme-css']], ['CM theme + Eleme
       const dh = diff(refHover, h, STATE);
       check(`${name} button hover = site hover (#3F8104 + 2px lift)`, dh.length === 0, dh.join('; '));
     }
+    // Title: same typography as the site's own <h2> (theme / Elementor global H2).
+    const H2 = ['fontFamily', 'fontSize', 'fontWeight', 'fontStyle', 'lineHeight', 'letterSpacing', 'textTransform'];
+    const h2css = sel => page.locator(sel).first().evaluate((el, keys) => { const c = getComputedStyle(el); return Object.fromEntries(keys.map(k => [k, c[k]])); }, [...H2, 'color']);
+    const refH2 = await h2css('#ref-h2');
+    for (const loc of ['m_full', 'm_compact']) {
+      const h = await h2css(`${inst(loc)} .cm-zip__heading`);
+      const keys = flags.includes('kit-globals') ? [...H2, 'color'] : H2;
+      const dh2 = diff(refH2, h, keys);
+      check(`${loc} title uses the site's h2 style${keys.includes('color') ? ' (incl. colour)' : ''}`, dh2.length === 0, dh2.join('; '));
+    }
+    check('heading="" intro="" leaves out title and intro', await page.locator(`${inst('m_noheading')} .cm-zip__heading, ${inst('m_noheading')} .cm-zip__intro`).count() === 0 && await page.locator(`${inst('m_noheading')} .cm-zip__button`).count() === 1);
     // Popup variant: open the modal and compare its Check button.
     await page.click('.cm-zip-trigger');
     await page.waitForTimeout(400);
     const pop = await css(page, '#cm-zip-modal .cm-zip__button');
     const dp = diff(ref, pop);
     check('popup (modal) button computes like the site button', dp.length === 0, dp.join('; '));
+    const popH2 = await h2css('#cm-zip-modal .cm-zip__heading');
+    const dpop = diff(refH2, popH2, flags.includes('kit-globals') ? [...H2, 'color'] : H2);
+    check('popup title uses the site\'s h2 style', dpop.length === 0, dpop.join('; '));
     const closeBtn = await css(page, '#cm-zip-modal .cm-zip-modal__close');
     check('Modal close (×) stays a plain icon button', closeBtn.backgroundColor === 'rgba(0, 0, 0, 0)' && closeBtn.borderTopStyle === 'none' && closeBtn.boxShadow === 'none', `${closeBtn.backgroundColor} ${closeBtn.borderTopStyle} ${closeBtn.boxShadow}`);
     await page.keyboard.press('Escape');

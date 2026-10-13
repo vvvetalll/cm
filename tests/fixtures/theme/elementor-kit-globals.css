@@ -6,3 +6,4 @@
 .elementor-kit-8 label{color:#FF00FF;font-size:20px;}
 .elementor-kit-8 input:not([type="button"]):not([type="submit"]),.elementor-kit-8 textarea,.elementor-kit-8 .elementor-field-textual{background-color:#FFFFE0;color:#8B0000;border-style:dashed;border-width:3px;border-color:#0000FF;border-radius:0;padding:20px;font-size:12px;box-shadow:inset 0 0 5px #f00;}
 .elementor-kit-8 input:focus:not([type="button"]):not([type="submit"]),.elementor-kit-8 textarea:focus,.elementor-kit-8 .elementor-field-textual:focus{background-color:#FFE4E1;border-color:#FF0000;}
+.elementor-kit-8 h2{font-family:Georgia,serif;font-size:40px;font-weight:300;line-height:1.1;letter-spacing:2px;text-transform:uppercase;color:#AA00AA;}

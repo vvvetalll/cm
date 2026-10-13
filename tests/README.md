@@ -18,7 +18,7 @@ npm install
 SITE_DIR=/tmp/cmzip-work/site OUT_DIR=/tmp/cmzip-out CHROMIUM_PATH=/path/to/chrome node e2e/plugin.test.mjs
 SITE_DIR=/tmp/cmzip-work/site node e2e/cm-buttons.test.mjs
 SITE_DIR=/tmp/cmzip-work/site node e2e/styling.test.mjs
-SITE_DIR=/tmp/cmzip-work/site node e2e/upgrade.test.mjs <cm-zip-checker-v0.1.0.zip> ../dist/cm-zip-checker-v0.2.2.zip
+SITE_DIR=/tmp/cmzip-work/site node e2e/upgrade.test.mjs <cm-zip-checker-v0.1.0.zip> ../dist/cm-zip-checker-v0.2.3.zip
 SITE_DIR=/tmp/cmzip-work/site node e2e/repro-findings.mjs     # prints the behaviour behind each review finding
 ```
 
@@ -31,7 +31,7 @@ Login: `admin` / `admin-pass-123` (editor: `editor` / `editor-pass-123`). Local 
 | `env/cm-test-env.php` | **Test-only** mu-plugin: disables update checks (no network), flag files for scenarios (short nonce life, quote prefill config, allowed hosts), Elementor cache-hit simulation |
 | `env/setup-content.php` | Test pages: all shortcode variants, popup cases, mock `/quote/` form with a mock calculator, Elementor cache page |
 | `e2e/plugin.test.mjs` | Full suite (activation, admin CRUD, permissions/CSRF, CSV, results, validation, multiple instances, popup, mobile, console, debug.log, quote URL/prefill, caching) |
-| `e2e/cm-buttons.test.mjs` | Default buttons vs the site's own `btn btn-primary btn-md` (computed styles, hover, keyboard focus, click, disabled, all variants, 1280/768/375, Elementor kit globals stress, no-theme, pixel comparison) |
+| `e2e/cm-buttons.test.mjs` | Default buttons vs the site's own `btn btn-primary btn-md`, title vs the site's `<h2>` (computed styles, hover, keyboard focus, click, disabled, all variants, 1280/768/375, Elementor kit globals stress, no-theme, pixel comparison) |
 | `e2e/styling.test.mjs` | Theme class attributes and sanitising, site-wide defaults, proposed theme patch regression, Text Editor link rule, site stylesheet layer |
 | `e2e/upgrade.test.mjs` | Install via *Upload Plugin*, upgrade from v0.1.0 with *Replace current with uploaded* |
 | `e2e/repro-findings.mjs` | Before/after evidence for the review findings |

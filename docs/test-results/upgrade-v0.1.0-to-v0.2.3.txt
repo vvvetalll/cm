@@ -1,0 +1,14 @@
+
+## Package install and upgrade from v0.1.0
+PASS  v0.1.0 ZIP installs via Upload Plugin  — 0.1.0|active
+PASS  v0.1.0 active  — 0.1.0|active
+PASS  v0.1.0 stored an absolute URL
+PASS  New ZIP replaces v0.1.0 ("Replace current with uploaded")  — Removing the current plugin… | Plugin updated successfully. | Go to Plugin Installer
+PASS  Upgraded plugin version and still active  — 0.2.3|active
+PASS  Records preserved across upgrade
+PASS  Legacy absolute landing URL still produces the local link
+PASS  Re-saving a legacy record normalises it to a path
+PASS  No console errors
+PASS  debug.log empty
+
+10 passed, 0 failed

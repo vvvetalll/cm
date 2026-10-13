@@ -4,8 +4,8 @@ WordPress plugin: ZIP service-area checker with CSV-managed coverage list, Eleme
 
 | Path | What |
 |---|---|
-| `cm-zip-checker/` | Plugin source (current: v0.2.2). The first commit holds v0.1.0 exactly as received, so `git diff` shows every change. |
-| `dist/cm-zip-checker-v0.2.2.zip` | Installable package (Plugins → Add New → Upload Plugin). Older packages kept for rollback. |
+| `cm-zip-checker/` | Plugin source (current: v0.2.3). The first commit holds v0.1.0 exactly as received, so `git diff` shows every change. |
+| `dist/cm-zip-checker-v0.2.3.zip` | Installable package (Plugins → Add New → Upload Plugin). Older packages kept for rollback. |
 | `docs/RELEASE-v0.2.2.md` | v0.2.2: buttons match the site out of the box — changes, test results, limitations. |
 | `docs/RELEASE-v0.2.1.md` | v0.2.1 styling release (theme classes, site stylesheet). |
 | `docs/theme-patch/` | Optional theme CSS patch for `<button class="btn">` — **not applied**, not needed for the checker since v0.2.2. |

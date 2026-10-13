@@ -1,0 +1,95 @@
+
+## 1. Default markup (no theme classes, no site stylesheet)
+PASS  Default markup: functional classes only
+PASS  No site stylesheet → only base layer printed
+
+## 2. Theme class attributes (escaping, sanitising, functional classes kept)
+PASS  button_class appended after plugin class + marker
+PASS  input_class appended
+PASS  cta_class passed to the instance
+PASS  Attribute injection neutralised (no onclick, no alert)
+PASS  Invalid tokens (markup, "hover:", quotes) dropped, duplicates removed
+PASS  Empty input_class = no theme class
+PASS  Popup button_class on trigger
+PASS  Without theme CSS, themed controls drop the plugin look (no fight)
+PASS  Served CTA gets cta_class
+PASS  Conditional CTA gets cta_class
+PASS  Unlisted CTA gets cta_class
+PASS  Sanitised cta_class on CTA
+PASS  Lookup, events and quote_click unaffected  — cm_zip_check:served:themed,cm_zip_check_served:served:themed,cm_zip_check:conditional:themed,cm_zip_check_conditional:conditional:themed,cm_zip_check:unlisted:themed,cm_zip_check_unlisted:unlisted:themed,cm_zip_check:served:evil,cm_zip_check_served:served:evil,cm_zip_quote_click:unlisted:themed
+PASS  Themed trigger still opens the popup
+
+## 3. Site-wide defaults (cm_zip_checker_default_classes)
+PASS  Defaults applied to an instance without attributes
+PASS  Shortcode attributes override defaults
+PASS  Empty attribute opts an instance out of a default
+PASS  Trigger and footer popup source use defaults
+PASS  Popup opens and checks with default classes
+
+## 4. Proposed theme patch (button.btn) — regression
+PASS  desktop: patch leaves #r-link-primary unchanged
+PASS  desktop: patch leaves #r-link-outline unchanged
+PASS  desktop: patch leaves #r-link-light unchanged
+PASS  desktop: patch leaves #r-link-readmore unchanged
+PASS  desktop: patch leaves #r-el-primary unchanged
+PASS  desktop: patch leaves #r-el-plain unchanged
+PASS  desktop: patch leaves #r-el-submit unchanged
+PASS  desktop: patch leaves #r-plain unchanged
+PASS  desktop: patch leaves #r-submit unchanged
+PASS  desktop: patch leaves #r-woo unchanged
+PASS  desktop: patch leaves #r-woo-btn unchanged
+PASS  desktop: without patch <button class="btn btn-primary"> is not styled
+PASS  desktop: button.btn.btn-primary.btn-md matches a.btn.btn-primary.btn-md
+PASS  desktop: button.btn.btn-outline.btn-sm matches a.btn.btn-outline.btn-sm
+PASS  desktop: disabled button dimmed
+PASS  mobile-375: patch leaves #r-link-primary unchanged
+PASS  mobile-375: patch leaves #r-link-outline unchanged
+PASS  mobile-375: patch leaves #r-link-light unchanged
+PASS  mobile-375: patch leaves #r-link-readmore unchanged
+PASS  mobile-375: patch leaves #r-el-primary unchanged
+PASS  mobile-375: patch leaves #r-el-plain unchanged
+PASS  mobile-375: patch leaves #r-el-submit unchanged
+PASS  mobile-375: patch leaves #r-plain unchanged
+PASS  mobile-375: patch leaves #r-submit unchanged
+PASS  mobile-375: patch leaves #r-woo unchanged
+PASS  mobile-375: patch leaves #r-woo-btn unchanged
+PASS  mobile-375: without patch <button class="btn btn-primary"> is not styled
+PASS  mobile-375: button.btn.btn-primary.btn-md matches a.btn.btn-primary.btn-md
+PASS  mobile-375: button.btn.btn-outline.btn-sm matches a.btn.btn-outline.btn-sm
+PASS  mobile-375: disabled button dimmed
+PASS  Hover: button matches link (#3F8104, lifted)
+PASS  Hover on disabled button: no lift
+PASS  Keyboard focus on button.btn: visible 2px ring  — solid 2px rgb(41, 43, 38)
+PASS  Mouse click does not leave the button lifted
+
+## 5. Plugin CSS does not change theme / Elementor buttons
+PASS  desktop: theme, Elementor and WooCommerce controls identical with checker + site stylesheet on the page
+PASS  mobile-375: theme, Elementor and WooCommerce controls identical with checker + site stylesheet on the page
+
+## 6. Theme classes with Chicago Mounting theme CSS + patch
+PASS  Check button takes theme btn-primary btn-md (accent, 52px, uppercase 14px/600, 8px)  — {"display":"flex","backgroundColor":"rgb(99, 182, 0)","color":"rgb(255, 255, 255)","borderTopWidth":"2px","borderTopStyle":"solid","borderTopColor":"rgb(99, 182, 0)","borderTopLeftRadius":"8px","fontFamily":"Manrope, sans-serif","fontSize":"14px","fontWeight":"600","lineHeight":"16.8px","textTransform":"uppercase","textDecorationLine":"none","whiteSpace":"nowrap","minHeight":"52px","height":"52px","paddingTop":"0px","paddingLeft":"30px","marginTop":"0px","marginLeft":"0px","boxShadow":"none","transform":"none","opacity":"1","cursor":"pointer","outlineStyle":"none","outlineWidth":"0px","outlineColor":"rgb(255, 255, 255)"}
+PASS  Theme hover on check button
+PASS  CTA takes theme btn-outline btn-md  — {"display":"inline-flex","backgroundColor":"rgba(0, 0, 0, 0)","color":"rgb(99, 182, 0)","borderTopWidth":"2px","borderTopStyle":"solid","borderTopColor":"rgb(99, 182, 0)","borderTopLeftRadius":"8px","fontFamily":"Manrope, sans-serif","fontSize":"14px","fontWeight":"600","lineHeight":"16.8px","textTransform":"uppercase","textDecorationLine":"none","whiteSpace":"nowrap","minHeight":"52px","height":"52px","paddingTop":"0px","paddingLeft":"30px","marginTop":"0px","marginLeft":"0px","boxShadow":"none","transform":"none","opacity":"1","cursor":"pointer","outlineStyle":"none","outlineWidth":"0px","outlineColor":"rgb(99, 182, 0)"}
+PASS  Keyboard focus visible on themed CTA although theme sets a.btn:focus{outline:none}
+PASS  Disabled state while checking  — 0.65
+PASS  Mobile: themed button full width, theme mobile size (42px, 4px), no overflow  — {"b":277,"i":277,"overflow":0,"minH":"42px","radius":"4px"}
+
+## 7. Elementor Text Editor link rule vs. CTA
+PASS  Default CTA inside Text Editor stays readable (white, no underline) despite theme !important link rule  — rgb(255, 255, 255) none
+PASS  Themed CTA in Shortcode widget uses theme button colours
+
+## 8. Site stylesheet layer (other sites / own tweaks)
+PASS  Site stylesheet loaded after base, cache-busted by file time
+PASS  Tokens and same-selector rules override the base without !important  — {"display":"flex","backgroundColor":"rgb(18, 52, 86)","color":"rgb(255, 255, 255)","borderTopWidth":"2px","borderTopStyle":"solid","borderTopColor":"rgb(18, 52, 86)","borderTopLeftRadius":"0px","fontFamily":"Manrope, sans-serif","fontSize":"14px","fontWeight":"600","lineHeight":"16.8px","textTransform":"uppercase","textDecorationLine":"none","whiteSpace":"nowrap","minHeight":"52px","height":"52px","paddingTop":"0px","paddingLeft":"30px","marginTop":"0px","marginLeft":"0px","boxShadow":"none","transform":"none","opacity":"1","cursor":"pointer","outlineStyle":"none","outlineWidth":"0px","outlineColor":"rgb(255, 255, 255)"}
+PASS  Overridden hover colour
+PASS  Themed controls are not restyled by the site stylesheet
+PASS  Keyboard focus ring kept
+PASS  Not loaded on pages without the checker
+PASS  Elementor cache hit (enqueue by handle) loads base + site layers
+PASS  Missing site stylesheet: base only, checker works
+
+## 9. Console and debug.log
+PASS  No console errors/warnings
+PASS  debug.log empty
+
+75 passed, 0 failed

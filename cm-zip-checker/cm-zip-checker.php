@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Chicago Mounting ZIP Checker
  * Description: Reusable ZIP service-area checker with a CSV-managed list and Elementor-compatible shortcodes.
- * Version: 0.2.2
+ * Version: 0.2.3
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * Text Domain: cm-zip-checker
@@ -11,7 +11,8 @@ if (!defined('ABSPATH')) { exit; }
 
 final class CM_Zip_Checker {
     const OPTION = 'cm_zip_checker_records';
-    const VERSION = '0.2.2';
+    const VERSION = '0.2.3';
+    const INTRO = 'Enter your ZIP code to check whether Chicago Mounting serves your location.';
     const CLASS_KEYS = ['button', 'cta', 'input', 'trigger'];
     const IMPORT_LIMIT = 5000;
     private static $popup_source_rendered = false;
@@ -298,11 +299,13 @@ final class CM_Zip_Checker {
     private static function control_class($base, $theme) {
         return $theme === '' ? $base : $base.' cm-zip-themed '.$theme;
     }
-    private static function render_checker($style, $location, $heading, $classes) {
+    // An empty heading or intro is left out, e.g. to use an Elementor Heading widget above the checker instead.
+    private static function render_checker($style, $location, $heading, $classes, $intro = self::INTRO) {
         if ($style === 'popup') { self::$popup_source_rendered = true; }
         ob_start(); ?>
         <section class="cm-zip cm-zip--<?php echo esc_attr($style); ?>" data-cm-zip data-location="<?php echo esc_attr($location); ?>" data-variant="<?php echo esc_attr($style); ?>"<?php if ($classes['cta'] !== '') { echo ' data-cta-class="'.esc_attr($classes['cta']).'"'; } ?>>
-          <?php if ($style !== 'minimal'): ?><h2 class="cm-zip__heading"><?php echo esc_html($heading); ?></h2><p class="cm-zip__intro">Enter your ZIP code to check whether Chicago Mounting serves your location.</p><?php endif; ?>
+          <?php if ($style !== 'minimal' && trim($heading) !== ''): ?><h2 class="cm-zip__heading"><?php echo esc_html($heading); ?></h2><?php endif; ?>
+          <?php if ($style !== 'minimal' && trim($intro) !== ''): ?><p class="cm-zip__intro"><?php echo esc_html($intro); ?></p><?php endif; ?>
           <form class="cm-zip__form" novalidate>
             <label class="cm-zip__label">ZIP Code <input class="<?php echo esc_attr(self::control_class('cm-zip__input', $classes['input'])); ?>" type="text" name="zip" inputmode="numeric" autocomplete="postal-code" pattern="[0-9]{5}" maxlength="5" placeholder="Enter ZIP Code" required></label>
             <button class="<?php echo esc_attr(self::control_class('cm-zip__button', $classes['button'])); ?>" type="submit">Check Service Area</button>
@@ -312,12 +315,12 @@ final class CM_Zip_Checker {
         <?php return ob_get_clean();
     }
     public static function shortcode($atts) {
-        $atts = shortcode_atts(['style'=>'full','location'=>'unspecified','heading'=>'Do We Serve Your Area?',
+        $atts = shortcode_atts(['style'=>'full','location'=>'unspecified','heading'=>'Do We Serve Your Area?','intro'=>self::INTRO,
             'button_class'=>null,'cta_class'=>null,'input_class'=>null], $atts, 'cm_zip_checker');
         $style = in_array($atts['style'], ['full','compact','minimal','popup'], true) ? $atts['style'] : 'full';
         self::enqueue();
         $classes = self::theme_classes(['button'=>$atts['button_class'], 'cta'=>$atts['cta_class'], 'input'=>$atts['input_class']]);
-        return self::render_checker($style, sanitize_key($atts['location']), $atts['heading'], $classes);
+        return self::render_checker($style, sanitize_key($atts['location']), (string) $atts['heading'], $classes, (string) $atts['intro']);
     }
     public static function popup_trigger_shortcode($atts) {
         $atts = shortcode_atts(['label'=>'Check Service Area','location'=>'popup','button_class'=>null], $atts, 'cm_zip_popup_button');

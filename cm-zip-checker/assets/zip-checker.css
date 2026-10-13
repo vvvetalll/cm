@@ -21,7 +21,8 @@
 
 .cm-zip{box-sizing:border-box;padding:var(--cmz-padding);border:1px solid var(--cmz-border);border-radius:var(--cmz-radius);background:var(--cmz-surface);color:var(--cmz-text);font:inherit;font-family:var(--cmz-font,inherit);max-width:100%}
 .cm-zip *, .cm-zip *::before,.cm-zip *::after{box-sizing:border-box}
-.cm-zip__heading{margin:0 0 8px;font-size:clamp(22px,3vw,30px);line-height:1.2}
+/* The title keeps the site's own h2 style (theme / Elementor Site Settings → Typography); only spacing is set here. */
+.cm-zip .cm-zip__heading{margin:0 0 8px}
 .cm-zip__intro{margin:0 0 18px;color:var(--cmz-muted);font-size:15px}
 .cm-zip__form{display:flex;gap:var(--cmz-gap);align-items:end}
 .cm-zip__label{flex:1;display:flex;flex-direction:column;gap:5px;font-size:13px;font-weight:600}
@@ -79,7 +80,7 @@
 .cm-zip__result strong{display:block;font-size:17px}
 .cm-zip__result p{margin:8px 0 15px}
 .cm-zip__local{display:inline-block;margin:10px;font-weight:600}
-.cm-zip--compact{padding:var(--cmz-padding-compact)}.cm-zip--compact .cm-zip__heading{font-size:22px}
+.cm-zip--compact{padding:var(--cmz-padding-compact)}
 .cm-zip--minimal{padding:var(--cmz-padding-minimal)}
 /* The popup variant is only a source for the modal: hidden in page flow, shown once moved into the modal. */
 .cm-zip--popup{display:none}.cm-zip-modal .cm-zip--popup{display:block}

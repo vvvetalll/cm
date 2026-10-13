@@ -1,4 +1,4 @@
-# Chicago Mounting ZIP Checker — v0.2.2 (pilot)
+# Chicago Mounting ZIP Checker — v0.2.3 (pilot)
 
 This is a **pilot build for staging/testing**, not a production-certified plugin. v0.2.0 fixed the defects found in the
 independent review of v0.1.0 (see `docs/REVIEW-REPORT.md` in the repository). Since v0.2.2 the buttons look like the
@@ -45,6 +45,15 @@ height and radius. All variants (full, compact, minimal, popup) use it. Selector
 
 Differences from the theme's link buttons, on purpose: the lift also shows on keyboard focus (`:focus-visible`), not
 after a mouse click; keyboard focus has a visible 2px ring (the theme removes outlines); a disabled state while checking.
+
+**Title:** "Do We Serve Your Area?" uses your site's own `<h2>` style (theme / Elementor *Site Settings → Typography*);
+the plugin sets only its spacing. Change the text with `heading="…"`, or leave it out with `heading=""` and put your own
+Elementor Heading widget above the checker. Same for the line under it: `intro="…"` / `intro=""`.
+
+```
+[cm_zip_checker style="full" location="find_near_me" heading="Check Your ZIP Code"]
+[cm_zip_checker style="compact" location="homepage" heading="" intro=""]
+```
 
 **Other sites / own tweaks (optional):** put CSS in `wp-content/uploads/cm-zip-checker/custom.css`. It loads after the
 plugin styles, only on pages that show the checker, and plugin updates never touch it. Use the same selectors as the
@@ -143,6 +152,10 @@ Document event: `cmzip:selection` contains the selected ZIP for first-party site
 - Requires PHP 7.4+ (static compatibility check 7.4–8.4; runtime tested on PHP 8.3 / WordPress 7.1.3 only).
 
 ## Changelog
+### 0.2.3
+- Changed: the title no longer has its own font size/line height; it uses the site's `<h2>` style (theme / Elementor global typography), in all variants including the popup. Verified against a plain `<h2>` on the same page.
+- Added: `intro` attribute; `heading=""` / `intro=""` leave the title / intro out (e.g. to use an Elementor Heading widget instead).
+
 ### 0.2.2
 - Fixed: the Check button, result CTA and popup button did not look like the site's buttons. The default design is now the chicagomounting.com `btn btn-primary btn-md` (normal, hover, keyboard focus, disabled, ≤767px sizes), verified pixel-identical against the theme's own button in tests. ZIP field height/radius match the button.
 - Fixed: Elementor *Site Settings → Buttons / Form Fields* (`.elementor-kit-N button`, `.elementor-kit-N input:not(…)`) and theme `button{}` rules could override the checker's button, ZIP field and modal close button. Selectors now outrank them.
