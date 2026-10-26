@@ -43,3 +43,6 @@ Videos explicitly titled Chicago/Park Ridge/Plainfield must retain their actual 
 - Premium: already has CorXHd53U5M. A second distinct premium installation may be appropriate, e.g. Samsung Frame Pro/MantelMount, if confirmed by page review.
 - Glenview/Evanston: do not fill a second slot using a project from another city presented as local.
 - Website playback, hover/focus and mobile QA of new placements are still pending.
+
+## Recovery completed — 2026-10-26
+Winnetka duplicate d108f5d set to https://www.youtube.com/watch?v=CorXHd53U5M and published. Live page DOM confirms two distinct Video widgets: kO1vrsAiCkw and CorXHd53U5M. Editor layout measurements: desktop two 590px siblings in a 1200px row with 20px gap; mobile 300px wide vertically stacked widgets. Full playback/keyboard testing not completed. Earlier interrupted-edit instructions above are superseded for Winnetka only. Browser connection failed again before Wilmette inspection; Wilmette and Premium additions remain pending.
