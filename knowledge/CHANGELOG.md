@@ -26,3 +26,6 @@ New request: after completing placement, investigate redesign history and assess
 
 ## 2026-10-26 — Results assessment started
 Reviewed original GSC Aug/Sep and GA4 three reporting periods through 19 Oct. Identified aggregate traffic distortion, limited geo improvement and insufficient conversion evidence. Direct current GSC blocked by browser connection failure before selecting Chicago Mounting. No analytics/site settings changed. Added AUDIT-2026-10-26.md with limits and next steps; no private email/analytics exports published.
+
+## 2026-10-26 — Current GSC and Ahrefs review
+Read live GSC Web comparison for equal 28-day periods ending 24 Oct and 26 Sep, page table including all four target cities, current index summary and crawled-not-indexed examples. Read Ahrefs target overview, organic keywords and referring-domain sample. Recorded mixed signals, concentrated homepage/hub losses, geo impression growth, tool estimation limits and technical improvements. BrightLocal blocked by sign-in; retained tab. No production changes. Detailed private figures were not published to public repo.
