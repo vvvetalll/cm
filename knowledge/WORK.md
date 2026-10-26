@@ -33,3 +33,8 @@ Started: original GSC monthly and GA4 email reports reviewed. Partial conclusion
 ## Direct SEO review progress — 2026-10-26
 GSC comparison completed at aggregate and page level for 27 Sep–24 Oct vs 30 Aug–26 Sep; all four cities reviewed. Indexing summary/current examples inspected. Ahrefs overview, organic keyword table and referring-domain sample inspected. Findings appended to AUDIT-2026-10-26.md.
 BrightLocal remains at sign-in wall; tab retained for user login. No local grid/rank trend verdict yet. No settings or website content changed.
+
+## BrightLocal reviewed — 2026-10-26
+Login blocker resolved. Read Rank Tracker, regional Local Search Grid, its prior run/settings, Citation Tracker and linked Analytics Summary/Conversions/Events. No changes saved and no paid/manual runs triggered.
+Latest ranking/grid report visible: 16 Oct; citation report 23 Oct. Specialty local visibility improved; current aggregate organic clicks in GSC declined. Exact causal/business impact remains unproven. See AUDIT-2026-10-26.md.
+Next: inspect real GA4 property/event definitions and late Direct traffic anomaly; attribute homepage/find-near-me query losses; retain the grid configuration when collecting next snapshot.
