@@ -29,3 +29,6 @@ Reviewed original GSC Aug/Sep and GA4 three reporting periods through 19 Oct. Id
 
 ## 2026-10-26 — Current GSC and Ahrefs review
 Read live GSC Web comparison for equal 28-day periods ending 24 Oct and 26 Sep, page table including all four target cities, current index summary and crawled-not-indexed examples. Read Ahrefs target overview, organic keywords and referring-domain sample. Recorded mixed signals, concentrated homepage/hub losses, geo impression growth, tool estimation limits and technical improvements. BrightLocal blocked by sign-in; retained tab. No production changes. Detailed private figures were not published to public repo.
+
+## 2026-10-26 — BrightLocal access and assessment
+Read Chicago Mounting location's latest available Rank Tracker/Grid (16 Oct), prior grid timeline, grid settings (36 selected points, 1-mile spacing), Citation Tracker (23 Oct), linked Google Analytics summary/conversion/event reports. Recorded local specialty improvement, broad-query weakness, data freshness/configuration limits, directory mismatch caveats and analytics-validation needs. No settings changes, submissions, citation edits or manual scan/credit spend. Public repo contains qualitative findings, not private analytics exports.
