@@ -55,3 +55,7 @@ CM native tools absent from current session. One filtered plugins GET and one MC
 
 ## 2026-11-06 — Native CM connection confirmed
 Verified current session loads chicago-mounting-elementor and successfully reads Winnetka9888 through its native get-page-structure tool. Both local configurations read back consistently; secrets excluded. No site writes. Prior native-loading blocker resolved; remaining inventory/staging/backup checks unchanged. Saved records verified by GitHub readback.
+
+
+## 2026-11-06 — Concrete CM case/geo implementation plan
+Research only. Read remaining city structures,18-post inventory, templates, four geo HTML pages and bounded plugin inventory; reviewed current GCPRO model/facet/history records. Confirmed Kit8, Elementor4.3.6/Pro4.3.3, ACF6.8.11 and existing Filter Everything PRO1.9.8. Selected existing Posts + Case Studies, Location/Installation Type taxonomies, single source term→Page links, one new Case Single/Card/catalogue; no CPT migration or WPGB purchase proposed. Detailed classification, preservation policy, Winnetka source candidates, empty states and staging acceptance in SEO-CONTENT.md; WORK.md updated. No site/code/plugin changes or runtime compatibility claims. GitHub SHA-guarded writes and remote content readback verify records; commit links in file history.
