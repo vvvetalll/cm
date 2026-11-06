@@ -207,17 +207,19 @@
       "type": "single-post",
       "title": "CM — Single Case — Draft",
       "edit_url": "https://chicagomounting.com/wp-admin/post.php?post=15714&action=elementor",
-      "post_status": "draft",
-      "has_conditions": false,
+      "post_status": "publish",
+      "has_conditions": true,
       "is_active": false,
-      "conditions": []
+      "conditions": [
+        "include/singular/post/15731"
+      ]
     },
     {
       "id": 15715,
       "type": "loop-item",
       "title": "CM — Case Card — Draft",
       "edit_url": "https://chicagomounting.com/wp-admin/post.php?post=15715&action=elementor",
-      "post_status": "draft",
+      "post_status": "publish",
       "has_conditions": false,
       "is_active": false,
       "conditions": []
@@ -236,16 +238,16 @@
     }
   ],
   "results": {
-    "single": "Draft with reused CM page Hero; dynamic title/excerpt/featured image/body; no conditions",
-    "card": "Existing draft repaired/rendered; native Save Draft succeeds and reopen persists; MCP save-error remains",
-    "catalogue": "Draft layout and native Loop Grid shell; draft card not returned by template picker; no working filters or results",
-    "sample": "Draft Post15731; video kO1vrsAiCkw title supports Winnetka Frame on tile; photo9963 temporary, attribution unverified",
+    "single": "Published; exact include/singular/post/15731; frontend verified; Article4432 unchanged",
+    "card": "Published loop-item; used by catalogue Loop Grid52200b7",
+    "catalogue": "Published noindex technical demo; verified Location + Installation Type, Clear Filters, zero results and dynamic Card15715",
+    "sample": "Published noindex Post15731; temporary photo9963 attribution remains unverified",
     "backup": "unverified",
-    "activation": false
+    "activation": true
   },
   "sample": {
     "id": 15731,
-    "status": "draft",
+    "status": "publish",
     "video": "https://www.youtube.com/watch?v=kO1vrsAiCkw",
     "temporary_featured_media": 9963,
     "photo_attribution": "UNVERIFIED; user explicitly allowed temporary draft photo; existing media alt is not independent evidence",
@@ -267,7 +269,7 @@
       "TV Wall Mounting",
       "Frame TV Installation"
     ],
-    "classification_status": "not assigned; taxonomies not registered",
+    "classification_status": "Assigned category144, cm_location145, cm_installation_type147 and146",
     "geo_page_mapping_pending": 9888
   },
   "hero": {
@@ -290,7 +292,7 @@
   },
   "compositions_note": "Historical attempted compositions below are superseded by draft snapshot source files; do not replay them as latest layouts.",
   "catalogue_filtering": {
-    "status": "PREPARED SPECIFICATION ONLY — NOT SAVED TO WORDPRESS OR ACTIVATED",
+    "status": "ACTIVE TECHNICAL DEMO — VERIFIED ON DESKTOP AND MOBILE",
     "scope": {
       "page_id": 15716,
       "loop_widget_id": "52200b7",
@@ -380,19 +382,12 @@
       ]
     },
     "acceptance_pending": [
-      "Combined filters, reset and pagination on actual WordPress query",
-      "Case links use original post URLs",
-      "Browser back/forward and refresh retain selection",
-      "Mobile and keyboard operation with visible labels/focus",
-      "No results leak from ordinary blog posts or products",
-      "Existing product filter sets11019/10773/10596 unchanged",
-      "Draft/private cases remain inaccessible anonymously"
+      "Final content/photo approval",
+      "Pagination with multiple cases",
+      "Future shared category-wide Single conditions"
     ],
     "activation_gates": [
-      "Completed recoverable Hostinger files+database backup and restore access verified",
-      "Approval for taxonomy registration; draft page does not isolate registration",
-      "Approved reusable Card availability and Single Case conditions; no publication to bypass draft picker",
-      "Resolve exact category term and intended filter/query mapping"
+      "Superseded for scoped technical demo by explicit user permission; Hostinger backup remains unverified"
     ],
     "rollback": "Before approved activation export affected object settings; keep catalogue unpublished. Revert only catalogue/filter-set changes to captured state. Disabling taxonomy registration does not delete term data; retain data and verified backup. Do not change existing product sets.",
     "evidence": {
@@ -402,8 +397,40 @@
         "https://filtereverything.pro/resources/filter/",
         "https://wordpress.org/support/topic/inquiry-about-filter-everything-integration-with-elementor-loop-grid/"
       ],
-      "limitations": "Vendor support establishes integration path, not a successful runtime test on CM."
+      "limitations": "Vendor support establishes integration path, not a successful runtime test on CM.",
+      "runtime_checks": [
+        "Desktop and mobile: baseline1, combined Winnetka+Frame1, Outdoor0, Clear1",
+        "Anonymous HTTP: noindex catalogue and case; combined1, Outdoor0",
+        "Frontend uses Card15715 and Single15714"
+      ]
     },
-    "checkpoint": "User requested no unrelated file/site changes and then asked to commit. Only this existing preparation manifest updated in this stage. WORK/SEO/CHANGELOG deliberately not rewritten under that narrowed file scope."
+    "checkpoint": "Implemented and verified; see latest WORK/SEO/CHANGELOG entry. Earlier proposal fields describe intended behavior unless overridden by active_configuration.",
+    "active_configuration": {
+      "filter_set_id": 15744,
+      "acf_taxonomy_records": {
+        "cm_location": 15751,
+        "cm_installation_type": 15752
+      },
+      "category_id": 144,
+      "terms": {
+        "winnetka": 145,
+        "tv_wall_mounting": 146,
+        "frame_tv_installation": 147,
+        "outdoor_tv_installation": 148
+      },
+      "query": "fa84d59b7d802e8b71ff685edca5380a",
+      "query_label": "Posts list «Posts #1» - Elementor",
+      "results_container": "#video",
+      "shortcode_widget": "111a2a4",
+      "noindex": true,
+      "custom_php": false,
+      "custom_js": false,
+      "clear_filters": "Persistent link to base catalogue URL + #video; full navigation reset",
+      "mobile": "Existing Filter Everything mobile expander; stacked native dropdowns",
+      "empty_terms": "Never hide",
+      "single_condition": "include/singular/post/15731",
+      "sample_hide_title": "yes",
+      "authorization": "User explicitly authorized technical activation/publication and temporary demo appearance in blog"
+    }
   }
 }
