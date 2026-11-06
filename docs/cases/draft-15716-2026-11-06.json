@@ -1,6 +1,6 @@
 {
   "id": 15716,
-  "status": "draft",
+  "status": "publish",
   "title": "Installation Case Studies \u2014 Draft",
   "elements": [
     {
@@ -321,6 +321,23 @@
       "version": "0.0"
     },
     {
+      "id": "e4712ff",
+      "elType": "container",
+      "settings": [],
+      "elements": [
+        {
+          "id": "111a2a4",
+          "elType": "widget",
+          "settings": {
+            "shortcode": "[fe_widget id=\"15744\" horizontal=\"yes\" columns=\"2\"]\n<a href=\"https://chicagomounting.com/installation-case-studies-draft/#video\" class=\"cm-cases-clear\">Clear Filters</a>\n[fe_chips id=\"15744\" mobile=\"yes\" reset=\"no\"]"
+          },
+          "elements": [],
+          "widgetType": "shortcode"
+        }
+      ],
+      "isInner": false
+    },
+    {
       "id": "c692a81",
       "elType": "container",
       "settings": {
@@ -342,7 +359,16 @@
             "pagination_next_label": "Next",
             "text": "Load More",
             "load_more_no_posts_custom_message": "No more posts to show",
-            "nothing_found_message_text": "It seems we can\u2019t find what you\u2019re looking for."
+            "nothing_found_message_text": "No installations match these filters.",
+            "template_id": "15715",
+            "post_query_include": [
+              "terms"
+            ],
+            "post_query_include_term_ids": [
+              "144"
+            ],
+            "posts_per_page": 9,
+            "enable_nothing_found_message": "yes"
           },
           "elements": [],
           "widgetType": "loop-grid"
