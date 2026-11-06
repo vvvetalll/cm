@@ -1,0 +1,246 @@
+{
+  "date": "2026-11-06",
+  "config": {
+    "status": "OFFLINE DRAFT - NOT IMPORTED",
+    "category": {
+      "name": "Case Studies",
+      "slug": "case-studies"
+    },
+    "taxonomies": [
+      {
+        "key": "cm_location",
+        "object_type": [
+          "post"
+        ],
+        "single_assignment": true,
+        "publicly_queryable": false,
+        "rewrite": false,
+        "show_in_rest": true
+      },
+      {
+        "key": "cm_installation_type",
+        "object_type": [
+          "post"
+        ],
+        "multiple_assignment": true,
+        "publicly_queryable": false,
+        "rewrite": false,
+        "show_in_rest": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "field_cm_mounting_surface",
+        "name": "cm_mounting_surface",
+        "label": "Mounting Surface",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "drywall": "Drywall",
+          "brick": "Brick",
+          "tile": "Tile",
+          "stone": "Stone",
+          "other": "Other",
+          "unknown": "Unknown"
+        },
+        "allow_null": 1
+      },
+      {
+        "key": "field_cm_video_url",
+        "name": "cm_video_url",
+        "label": "Video URL",
+        "type": "url",
+        "required": 0
+      },
+      {
+        "key": "field_cm_tv_size",
+        "name": "cm_tv_size",
+        "label": "TV size",
+        "type": "text",
+        "required": 0
+      },
+      {
+        "key": "field_cm_tv_model",
+        "name": "cm_tv_model",
+        "label": "TV model",
+        "type": "text",
+        "required": 0
+      },
+      {
+        "key": "field_cm_mount_model",
+        "name": "cm_mount_model",
+        "label": "Mount model",
+        "type": "text",
+        "required": 0
+      },
+      {
+        "key": "field_cm_cable_concealment",
+        "name": "cm_cable_concealment",
+        "label": "Cable concealment",
+        "type": "text",
+        "required": 0
+      },
+      {
+        "key": "field_cm_recessed_box",
+        "name": "cm_recessed_box",
+        "label": "Recessed box",
+        "type": "text",
+        "required": 0
+      }
+    ],
+    "relationships": {
+      "cm_location": {
+        "field": "cm_geo_page",
+        "type": "post_object",
+        "post_type": [
+          "page"
+        ],
+        "return_format": "id",
+        "multiple": 0
+      },
+      "cm_installation_type": {
+        "field": "cm_service_page",
+        "type": "post_object",
+        "post_type": [
+          "page"
+        ],
+        "return_format": "id",
+        "multiple": 0
+      }
+    },
+    "phase": "shared system only; no page insertions",
+    "validation": "JSON design manifest, not a native ACF import export; taxonomy enforcement and scoped field locations require implementation"
+  },
+  "compositions": [
+    {
+      "post_id": 15714,
+      "xml_structure": "<e-div-block configuration-id=\"Case\"><e-heading configuration-id=\"Title\"/><e-paragraph configuration-id=\"Summary\"/><e-div-block configuration-id=\"Body\"><theme-post-content configuration-id=\"Post Content\"/></e-div-block></e-div-block>",
+      "element_config": {
+        "Case": {
+          "tag": "article"
+        },
+        "Title": {
+          "tag": "h1",
+          "title": {
+            "name": "post-title",
+            "settings": {}
+          }
+        },
+        "Summary": {
+          "paragraph": {
+            "name": "post-excerpt",
+            "settings": {
+              "apply_to_post_content": false
+            }
+          }
+        }
+      },
+      "style": {
+        "Case": "max-width: 75rem; margin: 0 auto; padding: 3rem 1.25rem;",
+        "Title": "font-family: Kanit; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.2; margin-bottom: 1rem;",
+        "Summary": "font-size: 1.125rem; line-height: 1.6;",
+        "Body": "padding: 2rem 0;"
+      }
+    },
+    {
+      "post_id": 15715,
+      "xml_structure": "<e-div-block configuration-id=\"Card\"><e-heading configuration-id=\"Title\"/><e-paragraph configuration-id=\"Summary\"/><e-paragraph configuration-id=\"Link\"/></e-div-block>",
+      "element_config": {
+        "Card": {
+          "tag": "article"
+        },
+        "Title": {
+          "tag": "h3",
+          "title": {
+            "name": "post-title",
+            "settings": {}
+          }
+        },
+        "Summary": {
+          "paragraph": {
+            "name": "post-excerpt",
+            "settings": {
+              "apply_to_post_content": false,
+              "max_length": 24
+            }
+          }
+        },
+        "Link": {
+          "paragraph": "View installation",
+          "link": {
+            "destination": {
+              "name": "post-url",
+              "settings": {}
+            },
+            "tag": "a"
+          }
+        }
+      },
+      "style": {
+        "Card": "padding: 1.25rem;",
+        "Title": "font-family: Kanit; font-size: 1.5rem; line-height: 1.3; margin-bottom: 0.75rem;",
+        "Summary": "line-height: 1.6;",
+        "Link": "display: block; margin-top: 1rem; text-decoration: underline; &:focus { outline: 2px solid currentColor; }"
+      }
+    },
+    {
+      "post_id": 15716,
+      "xml_structure": "<e-div-block configuration-id=\"Catalogue\"><e-heading configuration-id=\"Title\"/><e-paragraph configuration-id=\"Intro\"/></e-div-block>",
+      "element_config": {
+        "Title": {
+          "tag": "h1",
+          "title": "Installation Case Studies"
+        },
+        "Intro": {
+          "paragraph": "Explore real TV installations by location and installation type."
+        }
+      },
+      "style": {
+        "Catalogue": "max-width: 75rem; margin: 0 auto; padding: 3rem 1.25rem;",
+        "Title": "font-family: Kanit; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.2; margin-bottom: 1rem;"
+      }
+    }
+  ],
+  "verified_parts": [
+    {
+      "id": 15714,
+      "type": "single-post",
+      "title": "CM — Single Case — Draft",
+      "edit_url": "https://chicagomounting.com/wp-admin/post.php?post=15714&action=elementor",
+      "post_status": "draft",
+      "has_conditions": false,
+      "is_active": false,
+      "conditions": []
+    },
+    {
+      "id": 15715,
+      "type": "loop-item",
+      "title": "CM — Case Card — Draft",
+      "edit_url": "https://chicagomounting.com/wp-admin/post.php?post=15715&action=elementor",
+      "post_status": "draft",
+      "has_conditions": false,
+      "is_active": false,
+      "conditions": []
+    },
+    {
+      "id": 4432,
+      "type": "single-post",
+      "title": "Article",
+      "edit_url": "https://chicagomounting.com/wp-admin/post.php?post=4432&action=elementor",
+      "post_status": "publish",
+      "has_conditions": true,
+      "is_active": false,
+      "conditions": [
+        "include/singular/post"
+      ]
+    }
+  ],
+  "results": {
+    "single": "body saved, incomplete design",
+    "card": "draft created; composition failed: Could not save document",
+    "catalogue": "intro saved; no loop/filters",
+    "sample": "not created; photo provenance unresolved",
+    "backup": "unverified",
+    "activation": false
+  }
+}
