@@ -51,3 +51,7 @@ Readiness: NOT READY for first Winnetka staging pilot. Staging URL/access, backu
 
 ## 2026-11-06 — Checkpoint continued, maintenance confirmed
 CM native tools absent from current session. One filtered plugins GET and one MCP initialize POST each returned HTTP503 wp_die: “Briefly unavailable for scheduled maintenance. Check back in a minute.” Stopped retries. No site/configuration writes. Recorded exact requests, remaining Kit/plugin/template checks, staging/backup evidence gap and pilot reuse/create boundaries in WORK.md and SEO-CONTENT.md. Historical deployment instructions do not prove staging or backup exists. Documentation saved with SHA guards and verified by remote readback; commit links available in file history.
+
+
+## 2026-11-06 — Native CM connection confirmed
+Verified current session loads chicago-mounting-elementor and successfully reads Winnetka9888 through its native get-page-structure tool. Both local configurations read back consistently; secrets excluded. No site writes. Prior native-loading blocker resolved; remaining inventory/staging/backup checks unchanged. Saved records verified by GitHub readback.
