@@ -32,3 +32,10 @@ Read live GSC Web comparison for equal 28-day periods ending 24 Oct and 26 Sep, 
 
 ## 2026-10-26 — BrightLocal access and assessment
 Read Chicago Mounting location's latest available Rank Tracker/Grid (16 Oct), prior grid timeline, grid settings (36 selected points, 1-mile spacing), Citation Tracker (23 Oct), linked Google Analytics summary/conversion/event reports. Recorded local specialty improvement, broad-query weakness, data freshness/configuration limits, directory mismatch caveats and analytics-validation needs. No settings changes, submissions, citation edits or manual scan/credit spend. Public repo contains qualitative findings, not private analytics exports.
+
+## 2026-11-06 — GCPRO-style geo/project system assessment
+Request: inspect cm and determine how to begin a geo-page, case and filter system like GCPRO.
+Read current default branch claude/chicago-mounting-zip-review-szeoup, AGENTS/README/project/work and all six topic/log files; inspected complete CM path inventory and relevant current GCPRO project/facet records.
+Checked fresh anonymous CM HTTP: coverage hub and four existing geo routes 200/self-canonical, /projects/ 404, MantelMount case 200/self-canonical and public Post10089. Public REST types/taxonomies expose no project model. Current hub H1 differs from older notes. No authenticated inventory or UI behavior certified.
+Changed only knowledge/SEO-CONTENT.md (evidence, proposed model and staged rollout), knowledge/WORK.md (status/next step), and this log. Preserve original geo/article URLs; pilot one shared project system and automatic Winnetka/service selections. No website/plugin/code/migration changes or private customer data.
+Limitations: GCPRO behavior sourced from its repository, not rerun; CM plugin licenses/versions, hidden types, staging access, template bindings, visual/filter/gallery tests pending. Next step is authenticated inventory before staging implementation. Commit is this entry's Git history; remote content readback is the save verification.
