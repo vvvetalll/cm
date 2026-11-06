@@ -288,5 +288,122 @@
     ],
     "source_unchanged": true
   },
-  "compositions_note": "Historical attempted compositions below are superseded by draft snapshot source files; do not replay them as latest layouts."
+  "compositions_note": "Historical attempted compositions below are superseded by draft snapshot source files; do not replay them as latest layouts.",
+  "catalogue_filtering": {
+    "status": "PREPARED SPECIFICATION ONLY — NOT SAVED TO WORDPRESS OR ACTIVATED",
+    "scope": {
+      "page_id": 15716,
+      "loop_widget_id": "52200b7",
+      "card_template_id": 15715,
+      "post_type": "post",
+      "category_slug": "case-studies",
+      "unrelated_queries": "unchanged",
+      "hero": "unchanged in this stage"
+    },
+    "implementation": "Use existing Filter Everything PRO native page/query targeting and Elementor Loop Grid. No new plugin, theme file edits or global query hook. This is not a native plugin import.",
+    "controls": [
+      {
+        "label": "Location",
+        "taxonomy": "cm_location",
+        "view": "Dropdown",
+        "selection": "single",
+        "all_label": "All locations",
+        "proposed_url_prefix": "case-location"
+      },
+      {
+        "label": "Installation Type",
+        "taxonomy": "cm_installation_type",
+        "view": "Dropdown",
+        "selection": "single",
+        "all_label": "All installation types",
+        "proposed_url_prefix": "case-installation"
+      }
+    ],
+    "logic": {
+      "between_filters": "AND",
+      "case_assignment": "One verified Location; multiple Installation Types allowed. A single filter selection matches cases containing that term.",
+      "clear": "Use native reset/chips reset control labelled Clear Filters; remove both case filters and reset pagination, retain catalogue base URL.",
+      "defaults": "No selected filters; all eligible cases, not all posts.",
+      "empty": "No installations match these filters.",
+      "initial_empty": "No case studies available yet.",
+      "missing_category_or_taxonomy": "Do not activate or fall back to an unrestricted Posts query.",
+      "unknown_term": "Return no matches, never broaden silently."
+    },
+    "query": {
+      "source": "Posts",
+      "include": "Only verified Case Studies category; resolve actual term ID before configuration",
+      "public_post_status": "publish only",
+      "order": "date DESC",
+      "page_size": 9,
+      "columns": {
+        "desktop": 3,
+        "tablet": 2,
+        "mobile": 1
+      },
+      "pagination": "Native numbered pagination; reset to page 1 on filtering",
+      "preview": "Draft sample15731 must not be exposed publicly or made queryable via an anonymous preview hack."
+    },
+    "plugin_configuration": {
+      "post_type": "Posts",
+      "where_to_filter": "Pages → catalogue15716 only",
+      "what_to_filter": "Actual Loop Grid52200b7 query as detected by plugin; do not guess Main Query or a query number",
+      "controls_position": "Directly below existing Hero; grid immediately after controls",
+      "empty_terms": "Hide terms without eligible cases; confirm behavior after selection",
+      "parent_filter": "none; Location and Installation Type independently usable",
+      "clear_filters": "Native widget reset behavior and label need installed-version UI verification",
+      "results_container": "Resolve rendered loop container after Card binding; keep filter controls outside replacement target",
+      "url_prefixes": "Proposed only; check collisions with existing slugs and filter prefixes before saving",
+      "global_settings": "No AJAX, permalinks, caching, SEO, WooCommerce or global styling changes"
+    },
+    "attributes_not_filters": [
+      "Mounting Surface",
+      "TV size/model",
+      "bracket",
+      "cable concealment",
+      "recessed box"
+    ],
+    "sample_acceptance": {
+      "post_id": 15731,
+      "location": "Winnetka",
+      "types": [
+        "TV Wall Mounting",
+        "Frame TV Installation"
+      ],
+      "surface": "Tile (attribute)",
+      "photo": "9963 is temporary, unverified attribution",
+      "checks": [
+        "Winnetka + Frame matches this case once",
+        "Winnetka + TV Wall Mounting matches this same case once",
+        "Unassigned installation type does not match",
+        "Clear Filters restores eligible baseline",
+        "A case assigned multiple types never duplicates"
+      ]
+    },
+    "acceptance_pending": [
+      "Combined filters, reset and pagination on actual WordPress query",
+      "Case links use original post URLs",
+      "Browser back/forward and refresh retain selection",
+      "Mobile and keyboard operation with visible labels/focus",
+      "No results leak from ordinary blog posts or products",
+      "Existing product filter sets11019/10773/10596 unchanged",
+      "Draft/private cases remain inaccessible anonymously"
+    ],
+    "activation_gates": [
+      "Completed recoverable Hostinger files+database backup and restore access verified",
+      "Approval for taxonomy registration; draft page does not isolate registration",
+      "Approved reusable Card availability and Single Case conditions; no publication to bypass draft picker",
+      "Resolve exact category term and intended filter/query mapping"
+    ],
+    "rollback": "Before approved activation export affected object settings; keep catalogue unpublished. Revert only catalogue/filter-set changes to captured state. Disabling taxonomy registration does not delete term data; retain data and verified backup. Do not change existing product sets.",
+    "evidence": {
+      "native_mcp": "Catalogue15716 read succeeded; Hero3d9b938 and Loop Grid52200b7 present. No site writes this stage.",
+      "vendor_sources": [
+        "https://filtereverything.pro/resources/quick-start/",
+        "https://filtereverything.pro/resources/filter/",
+        "https://wordpress.org/support/topic/inquiry-about-filter-everything-integration-with-elementor-loop-grid/"
+      ],
+      "limitations": "Vendor support establishes integration path, not a successful runtime test on CM."
+    },
+    "checkpoint": "User requested no unrelated file/site changes and then asked to commit. Only this existing preparation manifest updated in this stage. WORK/SEO/CHANGELOG deliberately not rewritten under that narrowed file scope."
+  }
 }
