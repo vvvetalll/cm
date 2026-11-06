@@ -236,11 +236,57 @@
     }
   ],
   "results": {
-    "single": "body saved, incomplete design",
-    "card": "draft created; composition failed: Could not save document",
-    "catalogue": "intro saved; no loop/filters",
-    "sample": "not created; photo provenance unresolved",
+    "single": "Draft with reused CM page Hero; dynamic title/excerpt/featured image/body; no conditions",
+    "card": "Existing draft repaired/rendered; native Save Draft succeeds and reopen persists; MCP save-error remains",
+    "catalogue": "Draft layout and native Loop Grid shell; draft card not returned by template picker; no working filters or results",
+    "sample": "Draft Post15731; video kO1vrsAiCkw title supports Winnetka Frame on tile; photo9963 temporary, attribution unverified",
     "backup": "unverified",
     "activation": false
-  }
+  },
+  "sample": {
+    "id": 15731,
+    "status": "draft",
+    "video": "https://www.youtube.com/watch?v=kO1vrsAiCkw",
+    "temporary_featured_media": 9963,
+    "photo_attribution": "UNVERIFIED; user explicitly allowed temporary draft photo; existing media alt is not independent evidence",
+    "confirmed_scope": [
+      "Samsung Frame TV",
+      "tile surface",
+      "Winnetka, IL"
+    ],
+    "unknown": [
+      "TV size",
+      "exact model/year",
+      "bracket",
+      "cable concealment",
+      "recessed box",
+      "fireplace scope"
+    ],
+    "planned_location": "Winnetka",
+    "planned_installation_types": [
+      "TV Wall Mounting",
+      "Frame TV Installation"
+    ],
+    "classification_status": "not assigned; taxonomies not registered",
+    "geo_page_mapping_pending": 9888
+  },
+  "hero": {
+    "source_page": 9888,
+    "source_element": "5631e52e",
+    "draft_template": 15714,
+    "draft_element": "0bae6cd",
+    "dynamic_title": "59cad9c",
+    "dynamic_excerpt": "0981606",
+    "divider": "bd34524",
+    "cta_reference": {
+      "element": "607f408",
+      "template": 12415
+    },
+    "style_dependencies": [
+      "Kit8",
+      "existing cm-hero, cm-hero__title, cm-hero_line, cm-hero__subtitle CSS"
+    ],
+    "source_unchanged": true
+  },
+  "compositions_note": "Historical attempted compositions below are superseded by draft snapshot source files; do not replay them as latest layouts."
 }
