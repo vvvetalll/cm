@@ -207,3 +207,14 @@ Requested change: only Shortcode111a2a4 Clear Filters href from https://chicagom
 ### 2026-11-07 — Clear Filters URL fixed and verified
 Following explicit user approval to use Elementor editor after MCP legacy-V3 rejection, edited only widget111a2a4 shortcode href: removed#video from https://chicagomounting.com/installation-case-studies-draft/. Applied and saved existing page15716. Recursive before/after element-tree comparison confirms exactly the intended shortcode value change (editor reordered JSON object keys only); page settings unchanged. Filter Everything result selector#video untouched.
 Browser acceptance: selected Location Glenview150 plus Installation Outdoor148; AJAX showed1 case. Clicking Clear Filters reset both native values to0, restored4 cases within#video, and browser URL was exactly https://chicagomounting.com/installation-case-studies-draft/ with empty hash. No styling, content, taxonomy, filter-settings or template edits.
+
+### 2026-11-07 — Saved WordPress recovery audit and corrected preview publication policy
+Request: take control of the Case Studies work after previous Work session failed to commit current WordPress changes and generated extra previews. Source: user-supplied authenticated read-only Work audit; status of live WP objects is attributed to that audit rather than independently verified by this GitHub recorder.
+
+Actions: verified current GitHub default branch and write access; read AGENTS.md, README.md, PROJECT.md, WORK.md, relevant SEO and history files; created docs/cases/RECOVERY-AUDIT-2026-11-07.md (GitHub commit cf3e539289c27583618815f3dd6a8248e735120b) and verified its remote content. Recorded all sixteen post IDs, editorial groups, canonical and additional Elementor IDs, media data, indexing gap, template mismatch and scalability issues.
+
+User clarification: Work was allowed to publish all sixteen cases for reviewing the real catalogue, with noindex. This overrides prior draft-only advice. No WP objects were edited, unpublished, deleted, published or created by this checkpoint.
+
+Reported issues to address separately: missing noindex on 15791/15792/15793; 12 missing Location terms; mixed Single15714/Article4432; duplicate H1; broken 15791 video; fixed 16-post query; media/alt inconsistencies; draft prototype 15781, draft Single15839 and static review15878 need deliberate decisions, not automatic deletion.
+
+Verification/limits: GitHub remote report readback passed; no authenticated WP edits or frontend regression tests performed by the recorder. Next: use the existing authenticated Work environment for minimal ID-scoped repairs, verify frontend then record every actual change in GitHub.
