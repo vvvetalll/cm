@@ -22,7 +22,7 @@ Reuse this exact plugin. Do not create another connection merely because directo
 
 - **Verified direct cloud API access:** initialize HTTP200, Elementor MCP v1.0.0, negotiated protocol2025-11-25; notifications/initialized202; tools/list200 with22 tools; Page15716 structure200 with isError=false. The returned structure includes Catalogue7cb19457, HERO3d9b938, Shortcode111a2a4 and Loop Grid52200b7.
 - **Saved in ChatGPT:** the private plugin above, including the exact existing endpoint and API-key/basic authentication declaration. Stored manifest and MCP configuration were read back successfully. No credentials were packaged.
-- **Not yet confirmed:** installation, secure Basic credential entry/retention by the host, native tool activation and access from a separate ChatGPT Work chat. An installation/connection offer was provided; this is not evidence of completed installation.
+- **Installation attempt failed (user-provided ChatGPT screenshot, 2026-11-07):** the host displayed `Failed to install plugin` and `Couldn't connect` for the canonical plugin. The exact underlying cause was not exposed. This supersedes the previous mere 'not yet confirmed' install state; package creation and direct API read do not establish successful plugin installation or credentials persistence. Do not retry Install blindly or claim permanent access. Secure Basic credential retention, native tool activation and access from a separate Work chat remain unverified.
 - **Separate unresolved issue:** the earlier OAuth route returned `Unknown OAuth client`. OAuth is not the selected method and must not be used as a fallback.
 - No website changes, installed-plugin source access, security weakening or GCPRO edits occurred.
 
@@ -30,7 +30,7 @@ The 22-tool response proves authenticated direct protocol access; it does not pr
 
 ## Finish host setup and verify a new chat
 
-1. Open the canonical plugin link in the same workspace and complete installation if it is not installed.
+1. The most recent installation attempt showed `Failed to install plugin` / `Couldn't connect`. Before retrying, inspect the existing plugin's ChatGPT installation/connection diagnostics and whether this host supports a secure Basic-credential entry for this package. Do not create another plugin.
 2. If the host offers a supported secure HTTP Basic credential setup, complete it there. Never put credentials into plugin JSON, project instructions, a repository, or ordinary chat text.
 3. If secure Basic setup is absent or unsupported, record that exact host limitation and stop. Do not select OAuth, mark the server unauthenticated, embed an Authorization header in the package, or create a proxy without separate authorization.
 4. Start a separate ChatGPT Work chat, select the installed Chicago Mounting Elementor plugin, and provide this repository.
