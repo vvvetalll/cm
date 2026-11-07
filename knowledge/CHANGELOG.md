@@ -89,3 +89,6 @@ Next: obtain an authenticated Hostinger File Manager or SFTP/SSH session for CM.
 
 ## 2026-11-07 — Prohibit access to installed WordPress plugin files
 Request: user forbids agents from entering, reading or editing files of existing installed WordPress plugins. Added explicit protection and escalation rule to AGENTS.md; updated knowledge/WORK.md and this log. This supersedes the earlier proposed WP Rocket/CimdResolver.php inspection or patch. No website, plugin, WordPress configuration, credentials or OAuth server files accessed or changed in this stage. Verification: GitHub protected-SHA update and remote readback of these records. Current OAuth blocker and next supported non-file approach are in WORK.md. No connection/authentication success claimed.
+
+## 2026-11-07 — GCPRO MCP comparison and cloud auth blocker
+Compared GCPRO AGENTS.md staging MCP configuration with Elementor official connection documentation and OpenAI plugin OAuth documentation. Documented the Basic Auth vs cloud OAuth mismatch, the unverified status of CM OAuth Elementor tools, and a non-approved third-party plugin alternative. GitHub documentation changes only; no site, plugin, credential or connection changes. Browser/WordPress admin and authenticated tool tests unavailable in this session. Next steps and file access restrictions recorded in WORK.md.
