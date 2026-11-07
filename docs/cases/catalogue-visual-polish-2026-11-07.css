@@ -92,3 +92,7 @@ body.page-id-15716 .wpc-filter-set-15744 .select2-selection__rendered { line-hei
 
 body.page-id-15716 .wpc-filter-set-15744 .select2-selection__rendered { align-items:center!important; height:auto!important; min-height:0!important; }
 body.page-id-15716 .elementor-15715 .cm-case-meta { margin:0 10px 14px!important; }
+
+/* Center the floating panel on the Hero background boundary. */
+body.page-id-15716 .elementor-element-e4712ff { margin-top:0!important; transform:translateY(-50%); margin-bottom:-60px; }
+@media(max-width:767px) { body.page-id-15716 .elementor-element-e4712ff { margin-bottom:-115px; } }

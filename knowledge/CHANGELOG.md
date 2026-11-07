@@ -117,3 +117,7 @@ Implemented on published noindex catalogue Page15716, https://chicagomounting.co
 - Limitations: one demo record, so pagination with multiple records and draft-exclusion were not retested. Full mobile touch/keyboard journey, screen-reader audit, video playback and full-site recovery remain unverified. Latest badge/base-line refinements inspected on desktop; earlier mobile check covered the panel/card layout. No standalone result count added; existing per-option counts retained. Photo attribution remains unverified. No claim of full-site backup.
 Source: docs/cases/catalogue-visual-polish-2026-11-07.css and visual-polish-after-2026-11-07.json. CSS is owned by Page15716 custom_css and is scoped to that page; future catalogue reuse should deliberately adopt the styles rather than assume global propagation. No custom filtering JavaScript/PHP, plugin file changes, or new plugins.
 Next: user visual/content review; real additional cases needed for multi-card pagination acceptance. Do not re-run completed checks or expand to city/service pages without a new task.
+
+
+### 2026-11-07 — Center filter panel on background boundary
+User clarified that the green/white Hero boundary must bisect the floating panel. Updated only Page15716 custom CSS: zero top margin and translateY(-50%), with spacing compensation below. Desktop browser measured Hero bottom178px and panel center178px (top118px,height120px): exact0px difference. Filtering untouched. This follow-up did not repeat mobile interaction testing. Previous source snapshot remains the rollback reference.
