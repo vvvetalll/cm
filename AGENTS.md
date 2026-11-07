@@ -6,6 +6,19 @@
 3. Preserve existing ZIP Checker source, releases, reports and tests. Read nested AGENTS.md files if present.
 4. Use the simplest change that fully solves the requested task. No unrequested architecture, dependencies or features.
 
+## Direct Elementor MCP access — standing user instruction (2026-11-07)
+
+For Chicago Mounting WordPress tasks, use **direct authenticated HTTPS** to `https://chicagomounting.com/wp-json/elementor/mcp/` through **ANY available runtime**, including local Windows with Node.js `fetch` or PowerShell. **Cloud runtime is not required.** The user explicitly authorized read-only connection verification from the current local runtime: do not ask for this same authorization again.
+
+1. Use HTTP Basic with the WordPress username and Application Password available in the authorized session context. Do not output, log or save credentials or Authorization headers.
+2. MCP sequence: `initialize` → preserve the returned `Mcp-Session-Id` → `notifications/initialized` → `tools/list` → `elementor-get-page-structure` with `post_id: 15716` (or the task-relevant read).
+3. **Attempt the actual HTTPS request before claiming access is blocked**, unless no HTTP-capable runtime or authorized credentials are available. Missing native tools or a ChatGPT-plugin `not_installed` status is NOT a direct-HTTP failure.
+4. Do not use OAuth, ChatGPT plugins, alternative servers, proxies, or local MCP configuration files for this workflow. Do not access installed WordPress plugin files.
+5. Only report connected/readiness after a successful read in the **current** session. User shared a separate Work result on 2026-11-07: direct local Node.js fetch → HTTP 200 → 22 tools → Page 15716 read. This prior result does not substitute for current verification.
+6. Standing authorization covers the **read-only connection check**, not unrestricted production edits. Obtain authorization for changes according to the current task scope.
+
+See `knowledge/MCP-CONNECTION.md`. This instruction supersedes older cloud-only and plugin-install connection instructions.
+
 ## Accuracy
 - Never invent facts, locations, test results, completed work or production readiness.
 - Record evidence, date and limits. Distinguish verified live observations, user decisions, repository documentation, historical reports and proposals.
