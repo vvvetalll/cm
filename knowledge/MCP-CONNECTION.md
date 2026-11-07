@@ -2,7 +2,18 @@
 
 Updated: 2026-11-07 (America/Chicago).
 
-## Canonical connection
+## Default workflow — user decision, 2026-11-07
+
+Use direct authenticated MCP from the Work cloud runtime as the standard method for Chicago Mounting. The user explicitly confirmed this method after reviewing the earlier successful 22-tool / Page15716 session. This decision supersedes plugin-installation or OAuth troubleshooting as a prerequisite for ordinary CM work.
+
+- Connect to the existing production endpoint using HTTP Basic and the authorized WordPress Application Password source. Keep credentials and session values in memory only.
+- Follow initialize → retain Mcp-Session-Id → notifications/initialized → tools/list → one relevant read. Use Page15716 for the connection check when no more specific page is requested.
+- Do not restart plugin discovery, request another installation, switch to OAuth, create duplicate connections, create local MCP configuration files, or access installed WordPress plugin files merely because native tools are absent.
+- If the current runtime lacks an authorized secure credential source or network access, state that precise blocker. This preference does not itself provide or persist credentials. Do not retrieve secrets from repository files, browser storage or old artifacts, or ask for a WordPress admin password.
+- Reuse an existing valid MCP session where available; initialize a new one when needed. Verify the relevant read before edits. Never describe an earlier successful read as a current-session test.
+- Preserve GCPRO and all unrelated settings. Package/host diagnostics are a separate task only when specifically requested.
+
+## Existing connection metadata
 
 | Setting | Value |
 |---|---|
@@ -16,19 +27,23 @@ Updated: 2026-11-07 (America/Chicago).
 | Authentication | WordPress Application Password / HTTP Basic |
 | Read-only check | `elementor-get-page-structure`, arguments `{"post_id":15716}` |
 
-Reuse this exact plugin. Do not create another connection merely because directory search does not return it. Direct metadata retrieval and file readback verified the saved plugin; directory search returned no match even after creation.
+The package below remains an existing optional host connection, not a prerequisite for direct MCP access. Preserve it and do not create duplicates. Direct metadata/file readback verified the saved package; directory-search absence did not establish that it was missing.
 
 ## Verified status and remaining gate
 
 - **Verified direct cloud API access:** initialize HTTP200, Elementor MCP v1.0.0, negotiated protocol2025-11-25; notifications/initialized202; tools/list200 with22 tools; Page15716 structure200 with isError=false. The returned structure includes Catalogue7cb19457, HERO3d9b938, Shortcode111a2a4 and Loop Grid52200b7.
 - **Saved in ChatGPT:** the private plugin above, including the exact existing endpoint and API-key/basic authentication declaration. Stored manifest and MCP configuration were read back successfully. No credentials were packaged.
-- **Installation attempt failed (user-provided ChatGPT screenshot, 2026-11-07):** the host displayed `Failed to install plugin` and `Couldn't connect` for the canonical plugin. The exact underlying cause was not exposed. This supersedes the previous mere 'not yet confirmed' install state; package creation and direct API read do not establish successful plugin installation or credentials persistence. Do not retry Install blindly or claim permanent access. Secure Basic credential retention, native tool activation and access from a separate Work chat remain unverified.
+- **Latest user screenshot (2026-11-07):** the cube-icon workspace package appears under Installed, with an installation-success toast and its MCP switch enabled. This supersedes the earlier failed-install screenshot as the latest visible installation state. It does not establish successful authentication or tools in this chat. The separately tagged personal App-backed entry `plugin_asdk_app_6aef42332bac8191b4bdfd8e7658be2b` has a different verified identity. Neither existing entry was changed; credentials persistence and a current-session read remain unverified.
 - **Separate unresolved issue:** the earlier OAuth route returned `Unknown OAuth client`. OAuth is not the selected method and must not be used as a fallback.
 - No website changes, installed-plugin source access, security weakening or GCPRO edits occurred.
 
 The 22-tool response proves authenticated direct protocol access; it does not prove a permanent account-level connection. A new Python process or MCP session is not a new ChatGPT Work chat.
 
-## Finish host setup and verify a new chat
+## Historical host setup route — superseded for routine work
+
+Do not follow this route as a prerequisite for CM work. The direct-MCP default above is the latest user decision. Retain these steps only as historical context for a separately requested host-connection task.
+
+### Previously proposed host verification
 
 1. The most recent installation attempt showed `Failed to install plugin` / `Couldn't connect`. Before retrying, inspect the existing plugin's ChatGPT installation/connection diagnostics and whether this host supports a secure Basic-credential entry for this package. Do not create another plugin.
 2. If the host offers a supported secure HTTP Basic credential setup, complete it there. Never put credentials into plugin JSON, project instructions, a repository, or ordinary chat text.
@@ -61,19 +76,18 @@ Do not switch to OAuth, create duplicate plugins/servers, install WordPress plug
 ## Text for ChatGPT Project Instructions
 
 ```text
-For Chicago Mounting, read AGENTS.md and knowledge/MCP-CONNECTION.md in https://github.com/vvvetalll/cm on the current default branch before connection work.
+For Chicago Mounting, read AGENTS.md and knowledge/MCP-CONNECTION.md in https://github.com/vvvetalll/cm on the current default branch.
 
-Reuse the existing ChatGPT plugin "Chicago Mounting Elementor":
-https://chatgpt.com/plugins/Plugin_a1c0a0614b8881918b7e232cb4cd7ff3
-Server: chicago-mounting-elementor
+Default to the previously verified direct MCP method from the Work cloud runtime:
 Endpoint: https://chicagomounting.com/wp-json/elementor/mcp/
-Authentication: WordPress Application Password over HTTP Basic. Do not switch to OAuth, create duplicate connections, install WordPress plugins, or access installed plugin source files.
+Server: chicago-mounting-elementor
+Authentication: WordPress Application Password over HTTP Basic, from an authorized secure credential source, kept in memory.
 
-First check whether the existing plugin's tools are available. Verify access with one read-only request for Page 15716. If native tools are absent but an authorized secure credential source is available, use the documented direct MCP protocol and retain Mcp-Session-Id from initialize. Plugin-list absence alone does not prove the endpoint is unavailable.
+Initialize, retain Mcp-Session-Id, send notifications/initialized, discover tools and perform one relevant read (Page15716 for a connection check). Reuse a valid session where available. A native plugin is not a prerequisite for this direct transport.
 
-Keep credentials outside chat drafts, repository files, instructions and plugin packages. Do not create local MCP configuration files. If secure credentials or host connection setup are unavailable, state the exact blocker; do not restart broad connection research or claim success.
+Do not restart plugin setup or discovery, switch to OAuth, create duplicate connections or local MCP configuration files, install WordPress plugins, or access installed plugin source files. Do not extract passwords from browser storage or previous artifacts. Keep secrets out of chat, repositories, project instructions and plugin packages.
 
-Distinguish saved plugin metadata, completed authorization, successful direct API access, and verified access from a new ChatGPT Work chat. Proceed to the requested site task only after the relevant read succeeds. Preserve GCPRO and all unrelated settings.
+If secure credentials or network access are unavailable in the current runtime, report the exact blocker without claiming the endpoint is down or that old successful tests were repeated. This workflow preference does not prove credentials persist across chats. Verify a relevant read before website changes. Preserve GCPRO and unrelated settings.
 ```
 
 ## Official references
