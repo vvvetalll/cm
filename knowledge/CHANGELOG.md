@@ -161,3 +161,7 @@ Added an 18px decorative SVG television icon before the installation-type label 
 
 ### 2026-11-07 — User-authorized transfer to working catalogue15716
 User clarified /installation-case-studies-draft/ is the working draft and explicitly approved applying the desktop design there. Applied desktop card CSS to page15716 custom_css and the existing display mapping script in page-local HTML widget d7c8102. No new drafts created;15781 remains an unpublished prior test. Hero tree, filter widgets/query settings and shared template15715 unchanged. Browser verified the actual catalogue URL now renders the larger image, Winnetka, IL location pin, Frame TV television icon, updated excerpt and outline CTA; native filter controls remain visible. New rules are desktop-only. Filter interaction/AJAX rerender, mobile and multi-card tests were not repeated; existing primary-type mapping limitations remain. This changes the already-published noindex page15716; no status transition was performed.
+
+
+### 2026-11-07 — Three desktop columns
+User selected three cards per row. Changed only page15716 desktop grid from two to three equal columns;32px gap retained. Browser computed tracks:372px 372px 372px. Mobile, Hero, filters and card content unchanged. Multi-record visual test remains pending.

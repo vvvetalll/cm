@@ -100,7 +100,7 @@ body.page-id-15716 .elementor-element-e4712ff { margin-top:0!important; transfor
 /* Desktop-only pilot. No changes below 1025px. Existing dynamic Loop Card15715 retained. */
 @media (min-width:1025px) {
 body.page-id-15716 #video { max-width:1180px; margin-top:48px; margin-bottom:80px; }
-body.page-id-15716 #video .elementor-loop-container { grid-template-columns:repeat(2,minmax(0,1fr)); gap:32px; }
+body.page-id-15716 #video .elementor-loop-container { grid-template-columns:repeat(3,minmax(0,1fr)); gap:32px; }
 body.page-id-15716 .elementor-15715 article { position:relative; padding:0 0 28px; border:1px solid #e1e6dc; border-radius:22px; box-shadow:0 8px 28px rgba(41,43,38,.065); overflow:hidden; }
 body.page-id-15716 .elementor-15715 .elementor-widget-theme-post-featured-image { margin:0 0 26px; }
 body.page-id-15716 .elementor-15715 img { aspect-ratio:3/2; border-radius:21px 21px 0 0; width:100%; height:auto; object-fit:cover; }
