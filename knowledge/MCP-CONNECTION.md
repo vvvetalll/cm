@@ -2,9 +2,39 @@
 
 Updated: 2026-11-07 (America/Chicago).
 
-## Default workflow — user decision, 2026-11-07
+## Current accepted connection instruction — any runtime (2026-11-07)
 
-Use direct authenticated MCP from the Work cloud runtime as the standard method for Chicago Mounting. The user explicitly confirmed this method after reviewing the earlier successful 22-tool / Page15716 session. This decision supersedes plugin-installation or OAuth troubleshooting as a prerequisite for ordinary CM work.
+**Supersedes the cloud-only limitation in older notes.** Direct HTTPS may execute from **any available runtime**, including local Windows with Node.js `fetch` (and PowerShell where supported). The user has already authorized read-only MCP connection and page verification from the current local runtime. Do not ask again solely because cloud execution is unavailable. Do not block on ChatGPT plugin `not_installed` or missing native tools; try direct HTTPS.
+
+```text
+Chicago Mounting: connect directly to
+https://chicagomounting.com/wp-json/elementor/mcp/
+
+Use HTTP Basic authentication with the supplied credentials.
+Use ANY available runtime, including local Windows and Node.js fetch.
+Cloud runtime is NOT required.
+
+Sequence:
+1. initialize
+2. Preserve Mcp-Session-Id.
+3. notifications/initialized
+4. tools/list
+5. elementor-get-page-structure with post_id: 15716
+
+Attempt the actual HTTPS request before reporting a blocker.
+Do not use OAuth, alternative plugins, proxies, or local MCP configuration files.
+Never output or save credentials or Authorization headers.
+Confirm readiness only after successful page reading.
+
+User-reported verification on November 7, 2026:
+Direct Node.js fetch → HTTP 200 → 22 tools → Page 15716 read successfully.
+```
+
+The user provided a successful Work report on 2026-11-07 (local Node.js fetch, HTTP 200, 22 tools and Page 15716). **This is user-supplied Work output, not a new connection test performed while editing this repository.** Always verify access in each new runtime/session. Use only authorized credentials accessible to the current agent; credentials stored by the user in private Project Instructions must never be copied into this public repository, printed, logged or sent elsewhere. If credentials or an HTTP-capable environment are genuinely unavailable, report that exact blocker; if HTTP requests fail, report the actual response. Standing permission is for read-only access checks, not arbitrary production changes.
+
+## Previous workflow — historical note, 2026-11-07
+
+Use direct authenticated MCP from any available runtime as the standard method for Chicago Mounting (cloud or local Windows/Node.js). The user explicitly confirmed this method after reviewing the earlier successful 22-tool / Page15716 session. This decision supersedes plugin-installation or OAuth troubleshooting as a prerequisite for ordinary CM work.
 
 - Connect to the existing production endpoint using HTTP Basic and the authorized WordPress Application Password source. Keep credentials and session values in memory only.
 - Follow initialize → retain Mcp-Session-Id → notifications/initialized → tools/list → one relevant read. Use Page15716 for the connection check when no more specific page is requested.
@@ -78,7 +108,7 @@ Do not switch to OAuth, create duplicate plugins/servers, install WordPress plug
 ```text
 For Chicago Mounting, read AGENTS.md and knowledge/MCP-CONNECTION.md in https://github.com/vvvetalll/cm on the current default branch.
 
-Default to the previously verified direct MCP method from the Work cloud runtime:
+Default to direct MCP from ANY available runtime (including local Windows with Node.js fetch; Work cloud is not required):
 Endpoint: https://chicagomounting.com/wp-json/elementor/mcp/
 Server: chicago-mounting-elementor
 Authentication: WordPress Application Password over HTTP Basic, from an authorized secure credential source, kept in memory.
