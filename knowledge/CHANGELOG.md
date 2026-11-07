@@ -153,3 +153,7 @@ Styling ownership: consolidated into the existing page-local HTML widget (one na
 Verified rendered desktop: two 574px columns; loaded original image; location exactly Winnetka, IL; one Frame TV pill; unchanged dynamic title in Kanit; new video excerpt; CTA URL https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/. Screenshot visually reviewed. Draft status and protected object comparisons passed. No new records were created. Longer-text/multiple-card rendered fixtures, alternative taxonomy rendering, keyboard journey, mobile and filtering integration remain unverified. An attempted isolated resolver execution was blocked by runtime code-generation restrictions; it is not reported as a passing test.
 
 Review: https://chicagomounting.com/?page_id=15781&preview=true#video (WordPress editor login required). Nothing published.
+
+
+### 2026-11-07 — Desktop badge icon follow-up
+Added an 18px decorative SVG television icon before the installation-type label in draft15781's existing scoped style widget d7c8101. Existing green location pin remains. Verified both icons visually in desktop preview with Winnetka, IL and Frame TV. Status remains draft; no publication, shared-template, filter or mobile changes. Previous data-model and testing limitations remain.
