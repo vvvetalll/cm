@@ -1,0 +1,31 @@
+
+<script>
+(() => {
+function addLayoutSamples(){
+if(!document.body.classList.contains('page-id-15716') || !matchMedia('(min-width:1025px)').matches) return;
+const grid=document.querySelector('#video .elementor-loop-container');
+const source=grid?.querySelector('.e-loop-item');
+if(!source || grid.querySelector('[data-cm-layout-sample]')) return;
+['Wilmette','Glenview','Evanston'].forEach(city=>{
+const card=source.cloneNode(true);
+card.dataset.cmLayoutSample='true';
+card.classList.remove('e-loop-item-15731');
+card.querySelectorAll('[id]').forEach(el=>el.removeAttribute('id'));
+const location=card.querySelector('.elementor-repeater-item-c7a91e3 .elementor-post-info__terms-list-item');
+if(location) location.textContent=city+', IL';
+const type=card.querySelector('.elementor-repeater-item-c7a91e4');
+if(type) type.hidden=true;
+const title=card.querySelector('h3');
+if(title) title.textContent=city+' — layout sample';
+const excerpt=card.querySelector('[data-id="158ecb5"]');
+if(excerpt) excerpt.textContent='Design sample only. Reused image; installation details have not been supplied.';
+const image=card.querySelector('img');
+if(image) image.alt='Reused image for layout testing — not a verified '+city+' installation';
+const cta=card.querySelector('[data-id="6ba5141c"] a');
+if(cta){cta.removeAttribute('href');cta.setAttribute('aria-disabled','true');cta.textContent='SAMPLE — DETAILS PENDING';}
+grid.append(card);
+});
+}
+if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',addLayoutSamples,{once:true});else addLayoutSamples();
+})();
+</script>

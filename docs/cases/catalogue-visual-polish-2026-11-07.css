@@ -100,7 +100,7 @@ body.page-id-15716 .elementor-element-e4712ff { margin-top:0!important; transfor
 /* Desktop-only pilot. No changes below 1025px. Existing dynamic Loop Card15715 retained. */
 @media (min-width:1025px) {
 body.page-id-15716 #video { max-width:1180px; margin-top:48px; margin-bottom:80px; }
-body.page-id-15716 #video .elementor-loop-container { grid-template-columns:repeat(3,minmax(0,1fr)); gap:32px; }
+body.page-id-15716 #video .elementor-loop-container { grid-template-columns:repeat(4,minmax(0,1fr)); gap:24px; }
 body.page-id-15716 .elementor-15715 article { position:relative; padding:0 0 28px; border:1px solid #e1e6dc; border-radius:22px; box-shadow:0 8px 28px rgba(41,43,38,.065); overflow:hidden; }
 body.page-id-15716 .elementor-15715 .elementor-widget-theme-post-featured-image { margin:0 0 26px; }
 body.page-id-15716 .elementor-15715 img { aspect-ratio:3/2; border-radius:21px 21px 0 0; width:100%; height:auto; object-fit:cover; }
@@ -138,3 +138,5 @@ content:"";display:inline-block;width:18px;height:18px;margin-right:8px;vertical
 mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='3' y='4' width='18' height='13' rx='2' fill='none' stroke='black' stroke-width='2'/%3E%3Cpath d='M8 21h8m-4-4v4' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E") center/contain no-repeat;
 }
 }
+
+@media(min-width:1025px){body.page-id-15716 .elementor-15715 h3{font-size:24px;margin-left:20px;margin-right:20px}body.page-id-15716 .elementor-15715 [data-id="158ecb5"],body.page-id-15716 .elementor-15715 [data-id="6ba5141c"]{margin-left:20px;margin-right:20px}body.page-id-15716 .elementor-15715 .cm-case-meta{inset:12px 12px auto}body.page-id-15716 .cm-case-meta .elementor-post-info__terms-list-item{padding:8px;font-size:11px}body.page-id-15716 [data-cm-layout-sample] [aria-disabled]{opacity:.65;cursor:default}}

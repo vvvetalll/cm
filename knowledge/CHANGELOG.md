@@ -165,3 +165,7 @@ User clarified /installation-case-studies-draft/ is the working draft and explic
 
 ### 2026-11-07 — Three desktop columns
 User selected three cards per row. Changed only page15716 desktop grid from two to three equal columns;32px gap retained. Browser computed tracks:372px 372px 372px. Mobile, Hero, filters and card content unchanged. Multi-record visual test remains pending.
+
+
+### 2026-11-07 — Four-card desktop layout preview
+User requested three additional city cases and four cards per row for design work. Added explicitly labeled layout samples for Wilmette, Glenview and Evanston in page15716 HTML widget d7c8103, alongside real Winnetka card. Samples reuse the image with explicit sample descriptions/alt text; CTA disabled. No fabricated installation records or taxonomy assignments created. Samples are browser-only desktop fixtures, not filterable database cases; filtering integration is not claimed. Grid now four columns with24px gap,24px titles and20px content insets. Desktop screenshot verified four cards in one row. Hero/filter settings unchanged; mobile not worked on. Remove d7c8103 when real case data is available; do not treat these samples as published project evidence.
