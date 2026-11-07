@@ -24,6 +24,12 @@
 - Never leave a duplicated widget with an unchanged video URL and report it as complete.
 - Existing production/staging cautions in ZIP Checker reports remain until specifically resolved with evidence.
 
+## Installed plugin files — strict no-access rule (user decision, 2026-11-07)
+- **Do not open, read, browse, edit, patch, replace, delete or otherwise access files inside existing installed WordPress plugin directories** on Chicago Mounting, including WP Rocket, Elementor/Elementor Pro, WooCommerce, ACF, Filter Everything and other installed plugins. This applies to WordPress Plugin File Editor, Hostinger File Manager, SSH/SFTP, browser tools, agent commands and other access paths.
+- Do not patch any vendor/library/dependency files inside installed plugins, including `wp-rocket/vendor/wp-media/mcp-oauth/`. Do not disable security checks, authentication or updates to work around MCP issues.
+- For diagnosis, use only plugin admin settings, public documentation, supported APIs, HTTP responses and non-filesystem metadata. Existing repository documentation may be read, but do not inspect installed plugin source on the website.
+- **This restriction supersedes the previously considered OAuth resolver-file inspection/patch.** Stop that path. If a future task truly requires installed plugin file access, first explain the exact reason and obtain a new explicit authorization from the user. Do not treat any prior authorization as sufficient.
+
 ## Required project record after each meaningful task
 - Update knowledge/WORK.md with the current task status, exact next step, blocker and affected URLs/files.
 - Append a dated entry to knowledge/CHANGELOG.md: request, actual changes, verification, limitations, commit/link and remaining work.
