@@ -238,3 +238,18 @@ Implemented on published noindex catalogue Page15716, https://chicagomounting.co
 - Limitations: one demo record, so pagination with multiple records and draft-exclusion were not retested. Full mobile touch/keyboard journey, screen-reader audit, video playback and full-site recovery remain unverified. Latest badge/base-line refinements inspected on desktop; earlier mobile check covered the panel/card layout. No standalone result count added; existing per-option counts retained. Photo attribution remains unverified. No claim of full-site backup.
 Source: docs/cases/catalogue-visual-polish-2026-11-07.css and visual-polish-after-2026-11-07.json. CSS is owned by Page15716 custom_css and is scoped to that page; future catalogue reuse should deliberately adopt the styles rather than assume global propagation. No custom filtering JavaScript/PHP, plugin file changes, or new plugins.
 Next: user visual/content review; real additional cases needed for multi-card pagination acceptance. Do not re-run completed checks or expand to city/service pages without a new task.
+
+
+## 2026-11-07 — Unpublished desktop card design test
+
+Created draft page **15781** (CM Case Studies — Desktop Card Design Test) from catalogue 15716. Nothing published. Existing live catalogue 15716 and shared Loop Card template 15715 have byte-equivalent REST metadata before/after this task; Hero and filter configuration were not changed.
+
+Draft-only CSS at min-width 1025px tests a two-column grid (32px gap), larger 3:2 featured image, white location pill with green pin, dark primary-type pill over the image, stronger title, spaced excerpt, and full-width outline CTA. Existing dynamic template 15715 and Winnetka post 15731 are reused. The confirmed Illinois suffix and suppression of secondary type badges are scoped only to pilot post 15731; its first rendered term is Frame TV Installation. General primary-type mapping remains pending before scaling to arbitrary cases.
+
+Verified in authenticated desktop preview: one dynamic Winnetka card, loaded image measuring 572×381px, two 574px grid tracks, title/excerpt, and CTA href to the existing Winnetka case. Readback confirms page 15781 remains draft. Mobile overrides were not added or tested; mobile styling is pending. Multi-card, keyboard, pagination, and filter regression tests were not repeated.
+
+Limitation: Filter Everything set 15744 targets original page 15716 and does not render dropdowns in the new draft. Reset still points to the original catalogue. This is a card-design preview, not a functional replacement catalogue. Original filtering remains untouched. Draft uses a scoped inline-style HTML widget d7c8101 because the unpublished page stylesheet was not generated; remove this preview fallback when approved styling is integrated. No publication is authorized.
+
+Preview (WordPress login required): https://chicagomounting.com/?page_id=15781&preview=true#video
+
+Sources: `docs/cases/desktop-card-test-2026-11-07.css` and `docs/cases/desktop-card-test-2026-11-07.json`.

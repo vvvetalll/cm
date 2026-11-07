@@ -1,0 +1,24 @@
+
+/* Desktop-only pilot. No changes below 1025px. Existing dynamic Loop Card15715 retained. */
+@media (min-width:1025px) {
+body.elementor-page-15781 #video { max-width:1180px; margin-top:48px; margin-bottom:80px; }
+body.elementor-page-15781 #video .elementor-loop-container { grid-template-columns:repeat(2,minmax(0,1fr)); gap:32px; }
+body.elementor-page-15781 .elementor-15715 article { position:relative; padding:0 0 28px; border:1px solid #e1e6dc; border-radius:22px; box-shadow:0 8px 28px rgba(41,43,38,.065); overflow:hidden; }
+body.elementor-page-15781 .elementor-15715 .elementor-widget-theme-post-featured-image { margin:0 0 26px; }
+body.elementor-page-15781 .elementor-15715 img { aspect-ratio:3/2; border-radius:21px 21px 0 0; width:100%; height:auto; object-fit:cover; }
+body.elementor-page-15781 .elementor-15715 .cm-case-meta { position:absolute; inset:20px 20px auto; margin:0!important; z-index:2; pointer-events:none; }
+body.elementor-page-15781 .cm-case-meta .elementor-icon-list-items { display:flex; flex-direction:row; justify-content:space-between; align-items:flex-start; gap:16px; width:100%; }
+body.elementor-page-15781 .cm-case-meta .elementor-icon-list-item { max-width:55%; }
+body.elementor-page-15781 .cm-case-meta .elementor-post-info__terms-list-item { margin:0; padding:10px 15px; border:0; font:600 13px/1.35 Inter,sans-serif; box-shadow:0 3px 12px rgba(0,0,0,.14); }
+body.elementor-page-15781 .cm-case-meta .elementor-repeater-item-c7a91e3 .elementor-post-info__terms-list-item { background:#fff; color:#292b26; border-radius:999px; }
+body.elementor-page-15781 .e-loop-item-15731 .elementor-repeater-item-c7a91e3 .elementor-post-info__terms-list-item::after { content:', IL'; }
+body.elementor-page-15781 .cm-case-meta .elementor-repeater-item-c7a91e3 .elementor-post-info__terms-list-item::before { content:''; display:inline-block; width:12px; height:15px; margin-right:8px; vertical-align:-2px; background:#438907; clip-path:path('M6 0C2.7 0 0 2.7 0 6c0 4 6 9 6 9s6-5 6-9c0-3.3-2.7-6-6-6zm0 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6'); }
+body.elementor-page-15781 .cm-case-meta .elementor-repeater-item-c7a91e4 { margin-left:auto; }
+body.elementor-page-15781 .cm-case-meta .elementor-repeater-item-c7a91e4 .elementor-post-info__terms-list-item { background:rgba(41,43,38,.94); color:#fff; border-radius:9px; }
+/* Pilot-specific primary classification: existing confirmed Frame TV term is first in this case's rendered list. No general primary-term rule is introduced. */
+body.elementor-page-15781 .e-loop-item-15731 .elementor-repeater-item-c7a91e4 .elementor-post-info__terms-list-item:not(:first-child) { display:none; }
+body.elementor-page-15781 .elementor-15715 h3 { margin:0 28px 14px; font:500 30px/1.15 Kanit,sans-serif; letter-spacing:-.02em; text-wrap:balance; }
+body.elementor-page-15781 .elementor-15715 [data-id="158ecb5"] { margin:0 28px 26px; font:400 15px/1.65 Inter,sans-serif; color:#60675a; max-width:44ch; }
+body.elementor-page-15781 .elementor-15715 [data-id="6ba5141c"] { margin:auto 28px 0; padding:0; }
+body.elementor-page-15781 .elementor-15715 [data-id="6ba5141c"] a { min-height:48px; padding:13px 18px; border-radius:9px; }
+}
