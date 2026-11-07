@@ -19,6 +19,15 @@ For Chicago Mounting WordPress tasks, use **direct authenticated HTTPS** to `htt
 
 See `knowledge/MCP-CONNECTION.md`. This instruction supersedes older cloud-only and plugin-install connection instructions.
 
+## Case Studies — canonical object guardrails (2026-11-07)
+
+- Existing Case Studies production objects: catalogue Page **15716**, Loop Card template **15715**, Single Case **15714**, Filter Everything set **15744**, Case Studies Posts in category term **144**. Additional draft/review objects: catalogue experiment **15781**, proposed Single **15839**, static 4x4 editorial review **15878**. General Article **4432** currently serves twelve cases and should not be treated as the intended Case Studies Single.
+- **Do not create new pages, posts, templates, previews, duplicate filters or CSS/JS architectures for a case-design iteration unless the user explicitly approves a new object after inventorying the existing IDs.** Reuse the existing canonical objects and draft previews. Do not delete or republish prototypes by guess.
+- **User-approved status:** all sixteen case posts were intentionally published for visual catalogue review; retain publication, but keep them **noindex** until approved. A separate read-only audit found missing noindex on posts **15791, 15792, 15793**. Fix only those via supported WP admin/SEO settings and verify anonymous HTML before considering indexing protection complete.
+- Scaling goal: adding future case posts should require populating content, media and taxonomy, **not** new Elementor templates or per-post PHP/CSS/JS. Resolve hardcoded Single display conditions and catalogue's fixed posts_per_page=16 safely via existing Elementor/plugin controls; protect working AJAX filters and mobile responsive design.
+- The four editorial city groups in draft **15878** are proposed placements, not independently verified actual job cities. Do not present editorial mappings as proved geographic facts. Never overwrite confirmed taxonomy locations to fit a design experiment.
+- Work handoff and evidence: `docs/cases/RECOVERY-AUDIT-2026-11-07.md`. Records there are Work-reported as of 2026-11-07, not a guarantee of the future live state. Before any site edit, inspect actual current WordPress state, change the minimum necessary objects and perform before/after tests. After the edit, record exact IDs, settings, checks, limits and GitHub commit.
+
 ## Accuracy
 - Never invent facts, locations, test results, completed work or production readiness.
 - Record evidence, date and limits. Distinguish verified live observations, user decisions, repository documentation, historical reports and proposals.
