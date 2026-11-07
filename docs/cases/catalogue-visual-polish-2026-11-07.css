@@ -140,3 +140,25 @@ mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='
 }
 
 @media(min-width:1025px){body.page-id-15716 .elementor-15715 h3{font-size:24px;margin-left:20px;margin-right:20px}body.page-id-15716 .elementor-15715 [data-id="158ecb5"],body.page-id-15716 .elementor-15715 [data-id="6ba5141c"]{margin-left:20px;margin-right:20px}body.page-id-15716 .elementor-15715 .cm-case-meta{inset:12px 12px auto}body.page-id-15716 .cm-case-meta .elementor-post-info__terms-list-item{padding:8px;font-size:11px}body.page-id-15716 [data-cm-layout-sample] [aria-disabled]{opacity:.65;cursor:default}}
+@media(min-width:1025px){body.page-id-15716 .cm-case-meta .elementor-post-info__terms-list-item{display:inline-flex;align-items:center;gap:6px}body.page-id-15716 .cm-case-meta .elementor-post-info__terms-list-item::before{flex-shrink:0;margin-right:0!important}}
+/* Compact type badge: taxonomy data stays unchanged. */
+body.page-id-15716 .cm-case-meta .elementor-repeater-item-c7a91e4 .elementor-post-info__terms-list-item::before{display:none!important;content:none!important}
+@media(min-width:1025px){
+body.page-id-15716 .cm-case-meta .elementor-icon-list-items{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;align-items:start}
+body.page-id-15716 .cm-case-meta .elementor-icon-list-item{max-width:100%;min-width:0;width:100%}
+body.page-id-15716 .cm-case-meta .elementor-repeater-item-c7a91e4{text-align:right;margin-left:0}
+body.page-id-15716 .cm-case-meta .elementor-icon-list-text,body.page-id-15716 .cm-case-meta .elementor-post-info__terms-list{display:block;min-width:0;max-width:100%}
+body.page-id-15716 .cm-case-meta .elementor-repeater-item-c7a91e4 .elementor-post-info__terms-list-item{display:inline-block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;padding:9px 10px;line-height:1.3;box-sizing:border-box;vertical-align:top}
+body.page-id-15716 .cm-case-meta .elementor-repeater-item-c7a91e3 .elementor-post-info__terms-list-item{max-width:100%;box-sizing:border-box}
+}
+
+@media(min-width:1025px){
+body.page-id-15716 .cm-case-meta .elementor-icon-list-items{margin:0!important;padding:0!important;align-items:start}
+body.page-id-15716 .cm-case-meta .elementor-icon-list-item{margin:0!important;padding:0!important;align-items:flex-start!important;line-height:1}
+body.page-id-15716 .cm-case-meta .elementor-icon-list-text{margin:0!important;padding:0!important}
+body.page-id-15716 .cm-case-meta .elementor-post-info__terms-list{line-height:0;margin:0!important;padding:0!important}
+body.page-id-15716 .cm-case-meta .elementor-post-info__terms-list-item{height:32px!important;box-sizing:border-box!important;margin:0!important;padding:0 10px!important;font-size:11px!important;line-height:32px!important;vertical-align:top!important}
+body.page-id-15716 .cm-case-meta .elementor-repeater-item-c7a91e3 .elementor-post-info__terms-list-item{display:inline-flex!important;align-items:center;gap:6px;white-space:nowrap}
+body.page-id-15716 .cm-case-meta .elementor-repeater-item-c7a91e3 .elementor-post-info__terms-list-item::before{width:12px;height:15px;flex:0 0 12px;margin:0!important;vertical-align:initial}
+body.page-id-15716 .cm-case-meta .elementor-repeater-item-c7a91e4 .elementor-post-info__terms-list-item{display:inline-block!important;line-height:32px!important}
+}
