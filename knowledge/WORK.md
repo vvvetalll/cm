@@ -194,3 +194,20 @@ Limitation: Filter Everything set 15744 targets original page 15716 and does not
 Preview (WordPress login required): https://chicagomounting.com/?page_id=15781&preview=true#video
 
 Sources: `docs/cases/desktop-card-test-2026-11-07.css` and `docs/cases/desktop-card-test-2026-11-07.json`.
+
+
+## 2026-11-07 — Desktop draft card refinement (unpublished)
+
+Continued from b0d63a2 on existing draft 15781. Only its existing HTML widget d7c8101 and page custom_css setting changed. No new page, template, plugin or taxonomy field. Live catalogue15716, shared Loop Card15715 and case15731 were read back unchanged; draft Hero/other Elementor tree branches match the prior checkpoint exactly. Status remains draft.
+
+Preserved approved 3:2 photo, two-column desktop grid, white location pill/pin, dark type pill, Kanit title, white bordered/shadow card and green outline CTA. Added stretch/flex card sizing, minimum two-line title/excerpt space, consistent 16/28px content gaps and bottom-aligned CTA; long labels wrap rather than truncate. All new behavior targets desktop >=1025px. Removed every post-specific CSS selector and the CSS-generated Illinois suffix.
+
+Draft-only JavaScript reads the existing dynamic Post Info terms and case URL. Exact display mapping: Winnetka -> Winnetka, IL (confirmed case content); Frame TV Installation -> Frame TV; Outdoor TV Installation -> Outdoor TV. Unknown locations/types retain their actual text, without an invented state. Duplicate type labels are suppressed. One unique assigned type resolves automatically. Multiple types require an explicit editorial selection; unresolved ambiguity hides the primary pill rather than choosing alphabetical/first-term order. Existing approved Winnetka selection is recorded by its case URL as Frame TV Installation. This is an explicit preview override, not a new primary-taxonomy field or fully automated primary classification. Current REST post and term data expose no primary/state field (ACF empty); broader automatic city/state and primary resolution remain limited by that data model.
+
+Preview-only excerpt: “Watch the installation video for a closer look at this tile-surface TV mounting project.” Supported by the existing post's tile-surface description and YouTube embed. Published post excerpt is unchanged. Other cases retain their native dynamic excerpt. New display code restores native metadata/excerpt below desktop breakpoint; mobile was not tested or redesigned. Filter integration/AJAX re-render support is deferred, as requested.
+
+Styling ownership: consolidated into the existing page-local HTML widget (one named style block plus small display script); removed duplicated page-settings custom_css. A supported MCP page-settings save invalidated Elementor's stale render cache without publishing. This retains the dependable unpublished-preview path rather than introducing global settings or dependencies. The CSS file now includes the complete scoped baseline plus desktop refinements; JS is versioned separately.
+
+Verified rendered desktop: two 574px columns; loaded original image; location exactly Winnetka, IL; one Frame TV pill; unchanged dynamic title in Kanit; new video excerpt; CTA URL https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/. Screenshot visually reviewed. Draft status and protected object comparisons passed. No new records were created. Longer-text/multiple-card rendered fixtures, alternative taxonomy rendering, keyboard journey, mobile and filtering integration remain unverified. An attempted isolated resolver execution was blocked by runtime code-generation restrictions; it is not reported as a passing test.
+
+Review: https://chicagomounting.com/?page_id=15781&preview=true#video (WordPress editor login required). Nothing published.
