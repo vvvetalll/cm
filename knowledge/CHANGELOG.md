@@ -101,3 +101,6 @@ User requested persistent CM Basic-auth access, GitHub instructions and a Projec
 
 ## 2026-11-07 — Record ChatGPT plugin install failure
 Verified existing canonical MCP-CONNECTION.md on the current default branch and recorded user-provided ChatGPT screenshot: saved CM Basic plugin install failed with `Failed to install plugin` / `Couldn't connect`; exact root cause not determined. Documentation-only correction to MCP-CONNECTION.md and WORK.md, no plugin/account configuration change and no WordPress or GCPRO writes. Remaining gate: supported host installation and secure credential setup, then new-chat read of Page15716.
+
+## 2026-11-07 — Permanent direct MCP any-runtime instruction
+Recorded user's successful Work session report: direct local Windows Node.js fetch, HTTP 200, 22 Elementor tools and read of Page 15716. Updated AGENTS.md, knowledge/MCP-CONNECTION.md and WORK.md: direct authenticated HTTPS can use any available runtime; do not demand Work cloud, plugin or OAuth; standing authorization for read-only connectivity checks; retry connection via direct HTTP before claiming blocker. Documentation-only; no site writes or credentials saved, no new authenticated request performed in this documentation task. GitHub remote write verified after update.
