@@ -1,0 +1,88 @@
+{
+  "cases": [
+    {
+      "city": "Wilmette",
+      "status": 201,
+      "id": 15791,
+      "postStatus": "draft",
+      "term": 149,
+      "media": 0,
+      "preview": "https://chicagomounting.com/?p=15791&preview=true"
+    },
+    {
+      "city": "Glenview",
+      "status": 201,
+      "id": 15792,
+      "postStatus": "draft",
+      "term": 150,
+      "media": 9974,
+      "preview": "https://chicagomounting.com/?p=15792&preview=true"
+    },
+    {
+      "city": "Evanston",
+      "status": 201,
+      "id": 15793,
+      "postStatus": "draft",
+      "term": 151,
+      "media": 10248,
+      "preview": "https://chicagomounting.com/?p=15793&preview=true"
+    }
+  ],
+  "verified": [
+    {
+      "id": 15791,
+      "status": "draft",
+      "title": "TV Wall Mounting in Wilmette",
+      "featured_media": 0,
+      "location": [
+        149
+      ],
+      "type": [
+        146
+      ],
+      "content": "<p>This TV installation in a Wilmette home is documented in the video below, originally featured on our Wilmette service page.</p>\n<!-- wp:embed {\"url\":\"https://www.youtube.com/watch?v=CPoIAAo42LI\",\"type\":\"video\",\"providerNameSlug\":\"youtube\",\"responsive\":true} --><figure class=\"wp-block-embed is-type-video is-provider-youtube\"><div class=\"wp-block-embed__wrapper\">https://www.youtube.com/watch?v=CPoIAAo42LI</div></figure><!-- /wp:embed --><p><a href=\"https://chicagomounting.com/tv-installation-in-wilmette/\">TV installation in Wilmette</a></p>"
+    },
+    {
+      "id": 15792,
+      "status": "draft",
+      "title": "Outdoor TV Installation on Brick in Glenview",
+      "featured_media": 9974,
+      "location": [
+        150
+      ],
+      "type": [
+        148
+      ],
+      "content": "<p>This outdoor TV installation in Glenview, Illinois includes a wall-mounted television and soundbar on a brick wall.</p><p>The installation is documented in the existing Chicago Mounting media library and Glenview project gallery.</p><p><a href=\"https://chicagomounting.com/tv-installation-in-glenview/\">TV installation in Glenview</a></p>"
+    },
+    {
+      "id": 15793,
+      "status": "draft",
+      "title": "85-Inch Samsung Neo QLED Installation in Evanston",
+      "featured_media": 10248,
+      "location": [
+        151
+      ],
+      "type": [
+        146
+      ],
+      "content": "<p>This Evanston, Illinois installation features an 85-inch Samsung Neo QLED TV mounted with a recessed media box and concealed wiring.</p><p>The existing installation photograph documents the finished setup.</p><p><a href=\"https://chicagomounting.com/tv-installation-in-evanston/\">TV installation in Evanston</a></p>"
+    }
+  ],
+  "sources": [
+    {
+      "city": "Wilmette",
+      "page": 9701,
+      "video": "https://www.youtube.com/watch?v=CPoIAAo42LI",
+      "note": "No verified matching featured photograph selected."
+    },
+    {
+      "city": "Glenview",
+      "media": 9974
+    },
+    {
+      "city": "Evanston",
+      "media": 10248
+    }
+  ]
+}
