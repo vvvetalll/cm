@@ -215,3 +215,7 @@ Review: https://chicagomounting.com/?page_id=15781&preview=true#video (WordPress
 
 ### 2026-11-07 — Desktop badge icon follow-up
 Added an 18px decorative SVG television icon before the installation-type label in draft15781's existing scoped style widget d7c8101. Existing green location pin remains. Verified both icons visually in desktop preview with Winnetka, IL and Frame TV. Status remains draft; no publication, shared-template, filter or mobile changes. Previous data-model and testing limitations remain.
+
+
+### 2026-11-07 — User-authorized transfer to working catalogue15716
+User clarified /installation-case-studies-draft/ is the working draft and explicitly approved applying the desktop design there. Applied desktop card CSS to page15716 custom_css and the existing display mapping script in page-local HTML widget d7c8102. No new drafts created;15781 remains an unpublished prior test. Hero tree, filter widgets/query settings and shared template15715 unchanged. Browser verified the actual catalogue URL now renders the larger image, Winnetka, IL location pin, Frame TV television icon, updated excerpt and outline CTA; native filter controls remain visible. New rules are desktop-only. Filter interaction/AJAX rerender, mobile and multi-card tests were not repeated; existing primary-type mapping limitations remain. This changes the already-published noindex page15716; no status transition was performed.
