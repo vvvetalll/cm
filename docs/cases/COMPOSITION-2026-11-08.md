@@ -51,7 +51,7 @@ Native Loop Grid queries category144 AND existing tag/type,4 items per section, 
 | Fireplace/Specialty |3281|type156|15832,15830,15828,15814; fifth via View All|
 | General TV |1682|all category144|latest four; all via catalogue|
 
-Native View All buttons link to existing filtered catalogue URLs. Native responsive4/2/1 columns. All11 inspected at1440px and390px before removal: one selection per page, expected IDs, no excerpts,16:9,17px headings at that time (subsequently user changed final typography as above),52px CTA, no overflow. Existing product loops, galleries, videos and sections preserved.
+Native View All buttons link to existing filtered catalogue URLs. Native responsive4/2/1 columns. All11 inspected at1440px and390px before removal: one selection per page, expected IDs, no excerpts,16:9,then-current18px desktop/17px mobile headings (subsequently user changed final typography to17/16px as above),52px CTA, no overflow. Existing product loops, galleries, videos and sections preserved.
 
 City copy explicitly labels editorial examples and states card cities are collection labels, not verified job locations. Single facts continue using actual cm_location only. Service queries use PRIMARY installation classification; they are not an exhaustive multi-service inventory. Twelve newer actual cities remain unknown;15731 photo provenance conflict remains flagged.
 
