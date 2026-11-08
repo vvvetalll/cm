@@ -360,3 +360,14 @@ Updated existing Single15714 only for CSS sticky facts aside (desktop>=1025,top8
 Actual desktop catalogue pages1/2 all16 thumbnails reviewed; mobile both-page dimensions/no overflow and representative views; Single Hero/two-to-one-column gallery verified. Desktop lightbox opens7/Next/Escape; mobile opens9/Close. All16 guest pages200/noindex/Single15714/CTA3092, all12 group counts; status/URLs/taxonomies/approved prose/excerpts preserved. Not exhaustive keyboard/every-gallery manual certification. City/service blocks remain withdrawn under final-launch hold. Viewports reset.
 
 Inventory/recovery: docs/cases/image-inventory-2026-11-08.json (591f1ef8). Exact report/current requirements/maintenance: docs/cases/IMAGES-STICKY-2026-11-08.md (39934304). Remaining: high-resolution sources15792/15793, suitable photo15791, older gallery mappings and15731 provenance. Completed MCP/filter work not repeated. Remote readback verifies checkpoint persistence.
+
+
+## 2026-11-08 — Global Single heading roles, ordered photo narratives and actual locations
+
+Single15714 applies existing Kit8 H1/78732fe,H2/4b3367a,H3/c569f17; local bodyH2 weight400 replaced by existing variable references, facts/related nativeH2 bindings explicit. SharedCard15715/Kit/service pages unchanged. Actual computedKanit700/600/600 verified desktop1280/tablet820/mobile390, responsive line heights/no overflow; oneH1/all16.
+
+Every80 gallery photos visually reviewed;12 galleries reordered only (figures/media/alt/grouping intact). Exact per-image stages, final sequences and uncertainty saved.4 original cases no galleries;15820 lacks separate fullTV final,15830 only packaging/prep extras; Hero not duplicated. Desktop/mobile representative displayed order/Next/Close and last completed view checked.
+
+Native cm_location row plus native introductory PostInfo now show city, IL only with actual terms.3 source-backed publisher assertions:15791 Wilmette videoCPoIAAo42LI;15792 Glenview media9974;15793 Evanston media10248.12 newer unknown.15731 photo conflict remains unresolved: removed actual term145 and geographic phrase from overview/title/excerpt; URL/editorialtag preserved. Actual-term names normalized city, IL; IDs/slugs unchanged. No filename/editorial inference or new per-case hardcoded city text. Publisher attribution does not mean new address/GPS confirmation.
+
+All16 final anonymous pages200/noindex/publish/oneH1;3 show actual Location/intro,13 omit; FeaturedIDs/URLs/editorialtags unchanged. Native desktop sticky/bottom boundary withLocation and mobile static/unknown omission verified; viewports reset. Final city/service launch HOLD preserved. Exact recovery/current16-case evidence: docs/cases/SINGLE-REFINEMENTS-2026-11-08.md, docs/cases/refinements-sequence-location-2026-11-08.json. WORK/SEO-CONTENT updated; remote readback verifies persistence.
