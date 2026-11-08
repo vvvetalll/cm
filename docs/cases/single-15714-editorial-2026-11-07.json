@@ -1,0 +1,1155 @@
+{
+  "post_id": 15714,
+  "before": {
+    "elements": [
+      {
+        "id": "6d6ca67c",
+        "elType": "e-div-block",
+        "settings": {
+          "classes": {
+            "$$type": "classes",
+            "value": [
+              "e-59df797c-6d8e"
+            ]
+          },
+          "tag": {
+            "$$type": "string",
+            "value": "article"
+          }
+        },
+        "elements": [
+          {
+            "id": "592c353d",
+            "elType": "widget",
+            "settings": {
+              "__dynamic__": {
+                "image": "[elementor-tag id=\"58e6cb4\" name=\"post-featured-image\" settings=\"%7B%22fallback%22%3A%7B%22url%22%3A%22%22%2C%22id%22%3A%22%22%2C%22size%22%3A%22%22%7D%7D\"]"
+              },
+              "width": {
+                "unit": "%",
+                "size": 100
+              },
+              "space": {
+                "unit": "%",
+                "size": 100
+              },
+              "_css_classes": "cm-case-cover",
+              "image_size": "full",
+              "height": {
+                "unit": "px",
+                "size": 620
+              },
+              "height_mobile": {
+                "unit": "px",
+                "size": 400
+              },
+              "object-fit": "contain"
+            },
+            "elements": [],
+            "widgetType": "theme-post-featured-image"
+          },
+          {
+            "id": "0bae6cd",
+            "elType": "container",
+            "settings": {
+              "flex_direction": "column",
+              "min_height": {
+                "unit": "vh",
+                "size": "",
+                "sizes": []
+              },
+              "__globals__": {
+                "background_color": ""
+              },
+              "min_height_mobile": {
+                "unit": "vh",
+                "size": "",
+                "sizes": []
+              },
+              "flex_justify_content_mobile": "center",
+              "flex_align_items": "flex-start",
+              "_flex_align_self": "center",
+              "flex_justify_content": "center",
+              "css_classes": "cm-case-heading",
+              "min_height_tablet": {
+                "unit": "vh",
+                "size": "",
+                "sizes": []
+              },
+              "flex_gap": {
+                "column": "",
+                "row": "",
+                "isLinked": true,
+                "unit": "px",
+                "size": null
+              },
+              "flex_gap_mobile": {
+                "column": "",
+                "row": "",
+                "isLinked": true,
+                "unit": "px",
+                "size": null
+              },
+              "_title": "HERO",
+              "padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": true
+              }
+            },
+            "elements": [
+              {
+                "id": "cmcb001",
+                "elType": "widget",
+                "settings": {
+                  "icon_list": [
+                    {
+                      "type": "terms",
+                      "selected_icon": {
+                        "value": "far fa-user-circle",
+                        "library": "fa-regular"
+                      },
+                      "custom_date_format": "F j, Y",
+                      "custom_time_format": "g:i a",
+                      "taxonomy": "cm_location",
+                      "show_icon": "none",
+                      "_id": "246c9a4",
+                      "link": ""
+                    }
+                  ],
+                  "_element_width_mobile": "inherit",
+                  "_element_custom_width": {
+                    "unit": "%",
+                    "size": 100
+                  },
+                  "_element_custom_width_mobile": {
+                    "unit": "px",
+                    "size": 100,
+                    "sizes": []
+                  },
+                  "_css_classes": "cm-case-location"
+                },
+                "elements": [],
+                "widgetType": "post-info"
+              },
+              {
+                "id": "59cad9c",
+                "elType": "widget",
+                "settings": {
+                  "title": "Project title",
+                  "align_mobile": "left",
+                  "__globals__": [],
+                  "header_size": "h1",
+                  "align_tablet": "center",
+                  "_flex_align_self_tablet": "center",
+                  "_css_classes": "cm-case-title",
+                  "animation_duration": "slow",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Kanit",
+                  "typography_font_size": {
+                    "unit": "custom",
+                    "size": "clamp(30px, 3.5vw, 48px)"
+                  },
+                  "typography_font_weight": "600",
+                  "typography_text_transform": "none",
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.05,
+                    "sizes": []
+                  },
+                  "typography_line_height_mobile": {
+                    "unit": "em",
+                    "size": 1.2,
+                    "sizes": []
+                  },
+                  "_background_color_stop_tablet": {
+                    "unit": "%",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_color_stop_mobile": {
+                    "unit": "%",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_color_b_stop_tablet": {
+                    "unit": "%",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_color_b_stop_mobile": {
+                    "unit": "%",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_gradient_angle_tablet": {
+                    "unit": "deg",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_gradient_angle_mobile": {
+                    "unit": "deg",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_hover_color_stop_tablet": {
+                    "unit": "%",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_hover_color_stop_mobile": {
+                    "unit": "%",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_hover_color_b_stop_tablet": {
+                    "unit": "%",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_hover_color_b_stop_mobile": {
+                    "unit": "%",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_hover_gradient_angle_tablet": {
+                    "unit": "deg",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_hover_gradient_angle_mobile": {
+                    "unit": "deg",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "__dynamic__": {
+                    "title": "[elementor-tag id=\"632191f\" name=\"post-title\" settings=\"%7B%7D\"]"
+                  },
+                  "align": "left"
+                },
+                "elements": [],
+                "widgetType": "heading"
+              },
+              {
+                "id": "0981606",
+                "elType": "widget",
+                "settings": {
+                  "title": "Project summary",
+                  "header_size": "div",
+                  "align_mobile": "left",
+                  "__globals__": [],
+                  "align_tablet": "center",
+                  "_element_width_tablet": "initial",
+                  "_element_custom_width_tablet": {
+                    "unit": "%",
+                    "size": 80,
+                    "sizes": []
+                  },
+                  "_element_custom_width_mobile": {
+                    "unit": "%",
+                    "size": 90,
+                    "sizes": []
+                  },
+                  "_css_classes": "cm-case-summary",
+                  "animation_duration": "slow",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Inter",
+                  "typography_font_size": {
+                    "unit": "custom",
+                    "size": "clamp(16px, 1vw, 18px)",
+                    "sizes": []
+                  },
+                  "typography_font_weight": "400",
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.5,
+                    "sizes": []
+                  },
+                  "_background_color_stop_tablet": {
+                    "unit": "%",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_color_stop_mobile": {
+                    "unit": "%",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_color_b_stop_tablet": {
+                    "unit": "%",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_color_b_stop_mobile": {
+                    "unit": "%",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_gradient_angle_tablet": {
+                    "unit": "deg",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_gradient_angle_mobile": {
+                    "unit": "deg",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_hover_color_stop_tablet": {
+                    "unit": "%",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_hover_color_stop_mobile": {
+                    "unit": "%",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_hover_color_b_stop_tablet": {
+                    "unit": "%",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_hover_color_b_stop_mobile": {
+                    "unit": "%",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_hover_gradient_angle_tablet": {
+                    "unit": "deg",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "_background_hover_gradient_angle_mobile": {
+                    "unit": "deg",
+                    "size": "",
+                    "sizes": []
+                  },
+                  "__dynamic__": {
+                    "title": "[elementor-tag id=\"3992dcb\" name=\"post-excerpt\" settings=\"%7B%7D\"]"
+                  },
+                  "align": "left"
+                },
+                "elements": [],
+                "widgetType": "heading"
+              }
+            ],
+            "isInner": false
+          },
+          {
+            "id": "398064b9",
+            "elType": "container",
+            "settings": {
+              "content_width": "full",
+              "flex_direction": "row",
+              "css_classes": "cm-case-body"
+            },
+            "elements": [
+              {
+                "id": "cmcm001",
+                "elType": "container",
+                "settings": {
+                  "content_width": "full",
+                  "flex_direction": "column",
+                  "css_classes": "cm-case-main"
+                },
+                "elements": [
+                  {
+                    "id": "5870cef0",
+                    "elType": "widget",
+                    "settings": [],
+                    "elements": [],
+                    "widgetType": "theme-post-content"
+                  }
+                ],
+                "isInner": true
+              },
+              {
+                "id": "cmcs001",
+                "elType": "container",
+                "settings": {
+                  "content_width": "full",
+                  "flex_direction": "column",
+                  "css_classes": "cm-case-sidebar",
+                  "html_tag": "aside"
+                },
+                "elements": [
+                  {
+                    "id": "cmcs002",
+                    "elType": "widget",
+                    "settings": {
+                      "title": "Project details",
+                      "_css_classes": "cm-case-sidebar-title"
+                    },
+                    "elements": [],
+                    "widgetType": "heading"
+                  },
+                  {
+                    "id": "83d0898",
+                    "elType": "widget",
+                    "settings": {
+                      "icon_list": [
+                        {
+                          "type": "terms",
+                          "selected_icon": {
+                            "value": "far fa-user-circle",
+                            "library": "fa-regular"
+                          },
+                          "_id": "71a83a7",
+                          "custom_date_format": "F j, Y",
+                          "custom_time_format": "g:i a",
+                          "taxonomy": "cm_installation_type",
+                          "text_prefix": "Installation: ",
+                          "show_icon": "none",
+                          "link": ""
+                        },
+                        {
+                          "type": "terms",
+                          "selected_icon": {
+                            "value": "far fa-user-circle",
+                            "library": "fa-regular"
+                          },
+                          "custom_date_format": "F j, Y",
+                          "custom_time_format": "g:i a",
+                          "taxonomy": "cm_location",
+                          "text_prefix": "Location: ",
+                          "show_icon": "none",
+                          "_id": "246c9a4",
+                          "link": ""
+                        }
+                      ],
+                      "_element_width_mobile": "inherit",
+                      "_element_custom_width": {
+                        "unit": "%",
+                        "size": 100
+                      },
+                      "_element_custom_width_mobile": {
+                        "unit": "px",
+                        "size": 100,
+                        "sizes": []
+                      },
+                      "_css_classes": "cm-case-facts"
+                    },
+                    "elements": [],
+                    "widgetType": "post-info"
+                  },
+                  {
+                    "id": "cmcs003",
+                    "elType": "widget",
+                    "settings": {
+                      "editor": "<p>Planning a similar installation? Tell us about your TV, wall surface and equipment.</p>"
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                  },
+                  {
+                    "id": "cmcs004",
+                    "elType": "widget",
+                    "settings": {
+                      "text": "Get a Free Quote",
+                      "link": {
+                        "url": "https://chicagomounting.com/quote/",
+                        "is_external": "",
+                        "nofollow": ""
+                      },
+                      "_css_classes": "cm-case-quote",
+                      "align": "justify"
+                    },
+                    "elements": [],
+                    "widgetType": "button"
+                  }
+                ],
+                "isInner": true
+              }
+            ],
+            "isInner": false
+          }
+        ],
+        "isInner": false,
+        "styles": {
+          "e-59df797c-6d8e": {
+            "id": "e-59df797c-6d8e",
+            "label": "local",
+            "type": "class",
+            "variants": [
+              {
+                "meta": {
+                  "breakpoint": "desktop",
+                  "state": null
+                },
+                "props": {
+                  "max-width": {
+                    "$$type": "size",
+                    "value": {
+                      "size": 75,
+                      "unit": "rem"
+                    }
+                  },
+                  "padding": {
+                    "$$type": "dimensions",
+                    "value": {
+                      "block-start": {
+                        "$$type": "size",
+                        "value": {
+                          "size": 0,
+                          "unit": "px"
+                        }
+                      },
+                      "inline-end": {
+                        "$$type": "size",
+                        "value": {
+                          "size": 1.25,
+                          "unit": "rem"
+                        }
+                      },
+                      "block-end": {
+                        "$$type": "size",
+                        "value": {
+                          "size": 3,
+                          "unit": "rem"
+                        }
+                      },
+                      "inline-start": {
+                        "$$type": "size",
+                        "value": {
+                          "size": 1.25,
+                          "unit": "rem"
+                        }
+                      }
+                    }
+                  },
+                  "margin": {
+                    "$$type": "dimensions",
+                    "value": {
+                      "block-start": {
+                        "$$type": "size",
+                        "value": {
+                          "size": 0,
+                          "unit": "px"
+                        }
+                      },
+                      "inline-end": {
+                        "$$type": "size",
+                        "value": {
+                          "size": "",
+                          "unit": "auto"
+                        }
+                      },
+                      "block-end": {
+                        "$$type": "size",
+                        "value": {
+                          "size": 0,
+                          "unit": "px"
+                        }
+                      },
+                      "inline-start": {
+                        "$$type": "size",
+                        "value": {
+                          "size": "",
+                          "unit": "auto"
+                        }
+                      }
+                    }
+                  }
+                },
+                "custom_css": null
+              }
+            ]
+          }
+        },
+        "editor_settings": {
+          "title": "Case"
+        },
+        "version": "0.0"
+      }
+    ],
+    "settings": {
+      "preview_id": "15731",
+      "custom_css": "/* Canonical Case Single: template-owned layout only. No per-post selectors. */\nselector{font-family:Inter,sans-serif;color:#343434}\nselector>.e-div-block-base,selector article.e-div-block-base{display:block;max-width:1200px;margin:0 auto;padding:36px 24px 72px;box-sizing:border-box}\nselector .cm-case-cover{width:100%;margin:0 0 36px!important;background:#f3f5f0;border-radius:8px;overflow:hidden}\nselector .cm-case-cover img{display:block;width:100%;height:620px;max-height:68vh;object-fit:contain;object-position:center;border-radius:8px}\nselector .cm-case-heading{display:flex;align-items:flex-start;gap:16px;padding:0 0 36px!important;margin:0;border-bottom:1px solid #e1e5dd}\nselector .cm-case-title .elementor-heading-title{font-family:Kanit,sans-serif;font-size:clamp(30px,3.5vw,48px);font-weight:600;line-height:1.12;text-transform:none;letter-spacing:-.02em;color:#292b26;max-width:1000px;margin:0;text-wrap:balance}\nselector .cm-case-summary{width:100%!important;max-width:850px}\nselector .cm-case-summary .elementor-heading-title{font:400 18px/1.65 Inter,sans-serif;color:#62685e;text-transform:none;margin:0}\nselector .cm-case-location:not(:has(.elementor-post-info__terms-list-item)){display:none}\nselector .cm-case-location .elementor-icon-list-items{margin:0;padding:0;list-style:none}\nselector .cm-case-location .elementor-post-info__terms-list-item{display:inline-flex;padding:6px 12px;border:1px solid #d9e4d0;border-radius:4px;background:#f1f6ea;color:#397504;font:600 13px/1.4 Inter,sans-serif}\nselector .cm-case-body{display:grid!important;grid-template-columns:minmax(0,1fr) 300px;gap:56px;padding:40px 0 0!important;align-items:start}\nselector .cm-case-main{display:block;min-width:0;padding:0!important}\nselector .cm-case-main .elementor-widget-theme-post-content{width:100%;font:400 16px/1.75 Inter,sans-serif}\nselector .cm-case-main h2{font:500 clamp(24px,2.2vw,30px)/1.2 Kanit,sans-serif;color:#292b26;margin:36px 0 14px}\nselector .cm-case-main h2:first-child{margin-top:0}\nselector .cm-case-main p{margin:0 0 20px}\nselector .cm-case-main ul{padding-left:22px;margin:0 0 24px}\nselector .cm-case-main a{color:#397504;text-underline-offset:3px}\nselector .cm-case-main .gallery{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:20px 0 36px!important}\nselector .cm-case-main .gallery-item{float:none!important;width:100%!important;max-width:none!important;margin:0!important;padding:0!important;min-width:0}\nselector .cm-case-main .gallery-icon{margin:0}\nselector .cm-case-main .gallery img{display:block;width:100%!important;height:auto!important;aspect-ratio:4/3;object-fit:contain;background:#f3f5f0;border:0!important;border-radius:6px}\nselector .cm-case-main .gallery br{display:none}\nselector .cm-case-main iframe{display:block;width:100%;max-width:100%;aspect-ratio:16/9;height:auto;border:0;border-radius:6px}\nselector .cm-case-sidebar{width:auto!important;min-width:0;padding:24px!important;border:1px solid #e1e5dd;border-top:3px solid #4e9d05;border-radius:6px;gap:20px;background:#fafbf8}\nselector .cm-case-sidebar-title .elementor-heading-title{font:500 25px/1.2 Kanit,sans-serif;margin:0;color:#292b26}\nselector .cm-case-facts .elementor-icon-list-items{display:flex;flex-direction:column;align-items:flex-start;gap:16px;margin:0;padding:0}\nselector .cm-case-facts .elementor-icon-list-item{padding:0!important;margin:0!important;width:100%}\nselector .cm-case-facts .elementor-icon-list-item:not(:has(.elementor-post-info__terms-list-item)){display:none}\nselector .cm-case-facts .elementor-icon-list-text{font:500 14px/1.6 Inter,sans-serif;color:#51594b}\nselector .cm-case-sidebar p{font:400 14px/1.7 Inter,sans-serif;margin:0;color:#62685e}\nselector .cm-case-quote,selector .cm-case-quote .elementor-button-wrapper{width:100%}\nselector .cm-case-quote .elementor-button{display:flex;justify-content:center;align-items:center;min-height:52px;padding:12px 18px;border:2px solid #4e9d05;border-radius:8px;background:#4e9d05;color:#fff;font:600 14px/1.3 Inter,sans-serif;text-transform:uppercase;text-decoration:none;transition:background .2s,border-color .2s}\nselector .cm-case-quote .elementor-button:hover{background:#397504;border-color:#397504;color:#fff}\nselector a:focus-visible{outline:2px solid #397504;outline-offset:4px}\n@media(max-width:1024px){selector .cm-case-body{grid-template-columns:minmax(0,1fr) 260px;gap:28px}selector .cm-case-cover img{height:520px;max-height:65vh}}\n@media(max-width:767px){selector>.e-div-block-base,selector article.e-div-block-base{padding:24px 20px 48px}selector .cm-case-cover{margin-bottom:28px!important}selector .cm-case-cover img{height:400px;max-height:55vh}selector .cm-case-heading{padding-bottom:28px!important;gap:14px}selector .cm-case-summary .elementor-heading-title{font-size:16px;line-height:1.65}selector .cm-case-body{grid-template-columns:minmax(0,1fr);gap:32px;padding-top:28px!important}selector .cm-case-sidebar{padding:22px!important}selector .cm-case-main .gallery{gap:12px}selector .cm-case-main .gallery img{aspect-ratio:3/4}selector .cm-case-main h2{margin-top:28px}}\n@media(prefers-reduced-motion:reduce){selector .elementor-button{transition:none}}\n"
+    },
+    "conditions": [
+      "include/singular/in_category/144"
+    ]
+  },
+  "after": {
+    "elements": [
+      {
+        "id": "6d6ca67c",
+        "elType": "e-div-block",
+        "settings": {
+          "classes": {
+            "$$type": "classes",
+            "value": [
+              "e-59df797c-6d8e"
+            ]
+          },
+          "tag": {
+            "$$type": "string",
+            "value": "article"
+          }
+        },
+        "elements": [
+          {
+            "id": "592c353d",
+            "elType": "widget",
+            "settings": {
+              "__dynamic__": {
+                "image": "[elementor-tag id=\"58e6cb4\" name=\"post-featured-image\" settings=\"%7B%22fallback%22%3A%7B%22url%22%3A%22%22%2C%22id%22%3A%22%22%2C%22size%22%3A%22%22%7D%7D\"]"
+              },
+              "width": {
+                "unit": "%",
+                "size": 100
+              },
+              "space": {
+                "unit": "%",
+                "size": 100
+              },
+              "_css_classes": "cm-case-cover",
+              "image_size": "full",
+              "height": {
+                "unit": "px",
+                "size": ""
+              },
+              "height_mobile": {
+                "unit": "px",
+                "size": ""
+              },
+              "object-fit": "contain",
+              "image_border_radius": {
+                "unit": "px",
+                "top": "4",
+                "right": "4",
+                "bottom": "4",
+                "left": "4",
+                "isLinked": false
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "32",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": [],
+            "widgetType": "theme-post-featured-image"
+          },
+          {
+            "id": "0bae6cd",
+            "elType": "container",
+            "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "flex_align_items": "flex-start",
+              "flex_gap": {
+                "unit": "px",
+                "row": "16",
+                "column": "16",
+                "isLinked": true
+              },
+              "padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "32",
+                "left": "0",
+                "isLinked": false
+              },
+              "css_classes": "cm-case-heading"
+            },
+            "elements": [
+              {
+                "id": "59cad9c",
+                "elType": "widget",
+                "settings": {
+                  "title": "Project title",
+                  "header_size": "h1",
+                  "__dynamic__": {
+                    "title": "[elementor-tag id=\"632191f\" name=\"post-title\" settings=\"%7B%7D\"]"
+                  },
+                  "_css_classes": "cm-case-title",
+                  "align": "left",
+                  "align_tablet": "left",
+                  "align_mobile": "left",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Kanit",
+                  "typography_font_weight": "400",
+                  "typography_font_size": {
+                    "unit": "custom",
+                    "size": "clamp(26px, 2.8vw, 38px)"
+                  },
+                  "typography_text_transform": "uppercase",
+                  "typography_letter_spacing": {
+                    "unit": "em",
+                    "size": 0.025
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.15
+                  },
+                  "__globals__": {
+                    "title_color": "globals/colors?id=primary"
+                  }
+                },
+                "elements": [],
+                "widgetType": "heading"
+              },
+              {
+                "id": "0981606",
+                "elType": "widget",
+                "settings": {
+                  "title": "Project summary",
+                  "header_size": "div",
+                  "__dynamic__": {
+                    "title": "[elementor-tag id=\"3992dcb\" name=\"post-excerpt\" settings=\"%7B%7D\"]"
+                  },
+                  "_css_classes": "cm-case-summary",
+                  "align": "left",
+                  "__globals__": {
+                    "typography_typography": "globals/typography?id=4229e4b",
+                    "title_color": "globals/colors?id=text"
+                  },
+                  "_element_width": "initial",
+                  "_element_custom_width": {
+                    "unit": "px",
+                    "size": 820
+                  }
+                },
+                "elements": [],
+                "widgetType": "heading"
+              }
+            ],
+            "isInner": false
+          },
+          {
+            "id": "398064b9",
+            "elType": "container",
+            "settings": {
+              "content_width": "full",
+              "flex_direction": "row",
+              "flex_direction_mobile": "column",
+              "flex_wrap": "nowrap",
+              "flex_gap": {
+                "unit": "px",
+                "row": "48",
+                "column": "48",
+                "isLinked": true
+              },
+              "flex_gap_tablet": {
+                "unit": "px",
+                "row": "32",
+                "column": "32",
+                "isLinked": true
+              },
+              "flex_gap_mobile": {
+                "unit": "px",
+                "row": "32",
+                "column": "32",
+                "isLinked": true
+              },
+              "flex_align_items": "flex-start",
+              "padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              },
+              "css_classes": "cm-case-body"
+            },
+            "elements": [
+              {
+                "id": "cmcs001",
+                "elType": "container",
+                "settings": {
+                  "content_width": "full",
+                  "flex_direction": "column",
+                  "width": {
+                    "unit": "%",
+                    "size": 24
+                  },
+                  "width_tablet": {
+                    "unit": "%",
+                    "size": 28
+                  },
+                  "width_mobile": {
+                    "unit": "%",
+                    "size": 100
+                  },
+                  "flex_gap": {
+                    "unit": "px",
+                    "row": "20",
+                    "column": "20",
+                    "isLinked": true
+                  },
+                  "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                  },
+                  "css_classes": "cm-case-facts-column",
+                  "html_tag": "aside"
+                },
+                "elements": [
+                  {
+                    "id": "cmcs002",
+                    "elType": "widget",
+                    "settings": {
+                      "title": "Project facts",
+                      "__globals__": {
+                        "typography_typography": "globals/typography?id=b4aface",
+                        "title_color": "globals/colors?id=primary"
+                      }
+                    },
+                    "elements": [],
+                    "widgetType": "heading"
+                  },
+                  {
+                    "id": "cmcb001",
+                    "elType": "widget",
+                    "settings": {
+                      "icon_list": [
+                        {
+                          "type": "terms",
+                          "selected_icon": {
+                            "value": "far fa-user-circle",
+                            "library": "fa-regular"
+                          },
+                          "custom_date_format": "F j, Y",
+                          "custom_time_format": "g:i a",
+                          "taxonomy": "cm_location",
+                          "show_icon": "none",
+                          "_id": "246c9a4",
+                          "link": "",
+                          "text_prefix": "Location: "
+                        }
+                      ],
+                      "_element_width_mobile": "inherit",
+                      "_element_custom_width": {
+                        "unit": "%",
+                        "size": 100
+                      },
+                      "_element_custom_width_mobile": {
+                        "unit": "px",
+                        "size": 100,
+                        "sizes": []
+                      },
+                      "_css_classes": "cm-case-location",
+                      "_margin": {
+                        "unit": "px",
+                        "top": "0",
+                        "right": "0",
+                        "bottom": "0",
+                        "left": "0",
+                        "isLinked": false
+                      },
+                      "_element_width": "inherit"
+                    },
+                    "elements": [],
+                    "widgetType": "post-info"
+                  },
+                  {
+                    "id": "83d0898",
+                    "elType": "widget",
+                    "settings": {
+                      "icon_list": [
+                        {
+                          "type": "terms",
+                          "selected_icon": {
+                            "value": "far fa-user-circle",
+                            "library": "fa-regular"
+                          },
+                          "_id": "71a83a7",
+                          "custom_date_format": "F j, Y",
+                          "custom_time_format": "g:i a",
+                          "taxonomy": "cm_installation_type",
+                          "text_prefix": "Installation: ",
+                          "show_icon": "none",
+                          "link": ""
+                        }
+                      ],
+                      "_element_width_mobile": "inherit",
+                      "_element_custom_width": {
+                        "unit": "%",
+                        "size": 100
+                      },
+                      "_element_custom_width_mobile": {
+                        "unit": "px",
+                        "size": 100,
+                        "sizes": []
+                      },
+                      "_css_classes": "cm-case-facts"
+                    },
+                    "elements": [],
+                    "widgetType": "post-info"
+                  },
+                  {
+                    "id": "cmcs003",
+                    "elType": "widget",
+                    "settings": {
+                      "editor": "<p>Planning a similar installation?</p>"
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                  },
+                  {
+                    "id": "cmcs004",
+                    "elType": "widget",
+                    "settings": {
+                      "text": "Get a Free Quote",
+                      "link": {
+                        "url": "https://chicagomounting.com/quote/"
+                      },
+                      "_css_classes": "cm-case-quote btn btn-md btn-outline",
+                      "align": "left",
+                      "__globals__": {
+                        "typography_typography": "globals/typography?id=d0e77c2"
+                      }
+                    },
+                    "elements": [],
+                    "widgetType": "button"
+                  }
+                ],
+                "isInner": true
+              },
+              {
+                "id": "cmcm001",
+                "elType": "container",
+                "settings": {
+                  "content_width": "full",
+                  "flex_direction": "column",
+                  "width": {
+                    "unit": "%",
+                    "size": 70
+                  },
+                  "width_tablet": {
+                    "unit": "%",
+                    "size": 66
+                  },
+                  "width_mobile": {
+                    "unit": "%",
+                    "size": 100
+                  },
+                  "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                  },
+                  "css_classes": "cm-case-main"
+                },
+                "elements": [
+                  {
+                    "id": "5870cef0",
+                    "elType": "widget",
+                    "settings": {
+                      "__globals__": {
+                        "text_color": "globals/colors?id=text",
+                        "typography_typography": "globals/typography?id=132a2a3"
+                      }
+                    },
+                    "elements": [],
+                    "widgetType": "theme-post-content"
+                  }
+                ],
+                "isInner": true
+              }
+            ],
+            "isInner": false
+          }
+        ],
+        "isInner": false,
+        "styles": {
+          "e-59df797c-6d8e": {
+            "id": "e-59df797c-6d8e",
+            "label": "local",
+            "type": "class",
+            "variants": [
+              {
+                "meta": {
+                  "breakpoint": "desktop",
+                  "state": null
+                },
+                "props": {
+                  "max-width": {
+                    "$$type": "size",
+                    "value": {
+                      "size": 75,
+                      "unit": "rem"
+                    }
+                  },
+                  "padding": {
+                    "$$type": "dimensions",
+                    "value": {
+                      "block-start": {
+                        "$$type": "size",
+                        "value": {
+                          "size": 32,
+                          "unit": "px"
+                        }
+                      },
+                      "inline-end": {
+                        "$$type": "size",
+                        "value": {
+                          "size": 1.25,
+                          "unit": "rem"
+                        }
+                      },
+                      "block-end": {
+                        "$$type": "size",
+                        "value": {
+                          "size": 64,
+                          "unit": "rem"
+                        }
+                      },
+                      "inline-start": {
+                        "$$type": "size",
+                        "value": {
+                          "size": 1.25,
+                          "unit": "rem"
+                        }
+                      }
+                    }
+                  },
+                  "margin": {
+                    "$$type": "dimensions",
+                    "value": {
+                      "block-start": {
+                        "$$type": "size",
+                        "value": {
+                          "size": 0,
+                          "unit": "px"
+                        }
+                      },
+                      "inline-end": {
+                        "$$type": "size",
+                        "value": {
+                          "size": "",
+                          "unit": "auto"
+                        }
+                      },
+                      "block-end": {
+                        "$$type": "size",
+                        "value": {
+                          "size": 0,
+                          "unit": "px"
+                        }
+                      },
+                      "inline-start": {
+                        "$$type": "size",
+                        "value": {
+                          "size": "",
+                          "unit": "auto"
+                        }
+                      }
+                    }
+                  },
+                  "display": {
+                    "$$type": "string",
+                    "value": "block"
+                  }
+                },
+                "custom_css": null
+              }
+            ]
+          }
+        },
+        "editor_settings": {
+          "title": "Case"
+        },
+        "version": "0.0"
+      }
+    ],
+    "settings": {
+      "preview_id": "15731",
+      "custom_css": "/* Native layout; only intrinsic media, WordPress content and focus need scoped rules. */\n.elementor-15714 .cm-case-cover img{display:block;width:auto!important;height:auto!important;max-width:100%;max-height:72vh;margin-inline:auto}\n.elementor-15714 .cm-case-main h2{font-family:Kanit,sans-serif;font-size:clamp(20px,1.8vw,26px);font-weight:400;line-height:1.2;letter-spacing:.025em;text-transform:uppercase;margin:32px 0 16px}\n.elementor-15714 .cm-case-main h2:first-child{margin-top:0}\n.elementor-15714 .cm-case-main .gallery img{border:0!important;width:100%;height:auto}\n.elementor-15714 .cm-case-main iframe{width:100%;height:auto;aspect-ratio:16/9;border:0}\n.elementor-15714 .elementor-icon-list-item:not(:has(.elementor-post-info__terms-list-item)){display:none}\n.elementor-15714 .btn .elementor-button:focus-visible{outline:2px solid var(--e-global-color-accent);outline-offset:4px}\n"
+    },
+    "conditions": [
+      "include/singular/in_category/144"
+    ]
+  },
+  "galleryChanges": [
+    {
+      "id": 15832,
+      "featured": 15850,
+      "before": "<h2>Project Overview</h2><p>We installed a 65-inch Samsung S95H OLED television and Bose soundbar above a fireplace using a Sanus 4D Advanced mount.</p><h2>Installation Details</h2><p>Two wood studs were located behind the stone. Both the television and soundbar were attached to those studs, making the concealed supporting structure an important part of this installation.</p><h2>Project Gallery</h2>\n[gallery ids=\"15850,15861\" columns=\"2\" size=\"large\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/fireplace-or-brick-wall-mounting/\">Explore fireplace TV mounting</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>",
+      "after": "<h2>Project Overview</h2><p>We installed a 65-inch Samsung S95H OLED television and Bose soundbar above a fireplace using a Sanus 4D Advanced mount.</p><h2>Installation Details</h2><p>Two wood studs were located behind the stone. Both the television and soundbar were attached to those studs, making the concealed supporting structure an important part of this installation.</p><h2>Project Gallery</h2>\n[gallery ids=\"15861\" columns=\"1\" size=\"full\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/fireplace-or-brick-wall-mounting/\">Explore fireplace TV mounting</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>"
+    },
+    {
+      "id": 15830,
+      "featured": 15849,
+      "before": "<h2>Project Overview</h2><p>A two-person team installed an 85-inch Neo QLED television and soundbar above a brick fireplace. We supplied a Sanus 4D Advanced mount for the project.</p><h2>Installation Details</h2><p>The brick mounting surface required masonry drill bits and anchors. The project combined large-screen mounting with soundbar installation in the fireplace area.</p><h2>Project Gallery</h2>\n[gallery ids=\"15849,15860\" columns=\"2\" size=\"large\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/fireplace-or-brick-wall-mounting/\">Explore fireplace TV mounting</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>",
+      "after": "<h2>Project Overview</h2><p>A two-person team installed an 85-inch Neo QLED television and soundbar above a brick fireplace. We supplied a Sanus 4D Advanced mount for the project.</p><h2>Installation Details</h2><p>The brick mounting surface required masonry drill bits and anchors. The project combined large-screen mounting with soundbar installation in the fireplace area.</p><h2>Project Gallery</h2>\n[gallery ids=\"15860\" columns=\"1\" size=\"full\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/fireplace-or-brick-wall-mounting/\">Explore fireplace TV mounting</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>"
+    },
+    {
+      "id": 15828,
+      "featured": 15848,
+      "before": "<h2>Project Overview</h2><p>We installed a 77-inch LG W6 above a fireplace with a recessed media box and a mount for a Sonos Arc Ultra.</p><h2>Installation Details</h2><p>The television was fitted close to the wall. The wireless LG Zero Connect Box remained in the same room, while the recessed media box supports the installation behind the screen.</p><h2>Project Gallery</h2>\n[gallery ids=\"15848,15859\" columns=\"2\" size=\"large\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/fireplace-or-brick-wall-mounting/\">Explore fireplace TV mounting</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>",
+      "after": "<h2>Project Overview</h2><p>We installed a 77-inch LG W6 above a fireplace with a recessed media box and a mount for a Sonos Arc Ultra.</p><h2>Installation Details</h2><p>The television was fitted close to the wall. The wireless LG Zero Connect Box remained in the same room, while the recessed media box supports the installation behind the screen.</p><h2>Project Gallery</h2>\n[gallery ids=\"15859\" columns=\"1\" size=\"full\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/fireplace-or-brick-wall-mounting/\">Explore fireplace TV mounting</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>"
+    },
+    {
+      "id": 15826,
+      "featured": 15847,
+      "before": "<h2>Project Overview</h2><p>This installation combined an 85-inch Samsung Frame TV with a Sanus Preferred full-motion mount. The mounting surface was drywall with wood studs.</p><h2>Installation Details</h2><p>The full-motion mount provides an adjustable screen position. The wood studs behind the drywall provide the supporting wall structure documented for this installation.</p><h2>Project Gallery</h2>\n[gallery ids=\"15847,15858\" columns=\"2\" size=\"large\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/frame-tv-mounting-chicago/\">Explore Frame TV installation</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>",
+      "after": "<h2>Project Overview</h2><p>This installation combined an 85-inch Samsung Frame TV with a Sanus Preferred full-motion mount. The mounting surface was drywall with wood studs.</p><h2>Installation Details</h2><p>The full-motion mount provides an adjustable screen position. The wood studs behind the drywall provide the supporting wall structure documented for this installation.</p><h2>Project Gallery</h2>\n[gallery ids=\"15858\" columns=\"1\" size=\"full\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/frame-tv-mounting-chicago/\">Explore Frame TV installation</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>"
+    },
+    {
+      "id": 15824,
+      "featured": 15846,
+      "before": "<h2>Project Overview</h2><p>We installed a 65-inch Samsung Frame Pro above a fireplace and connected the television to a Sonos Amp located in the basement.</p><h2>Installation Details</h2><p>The regular outlet was replaced with a recessed outlet to allow the television to sit close to the wall. The audio connection integrates the screen with the existing Sonos equipment.</p><h2>Project Gallery</h2>\n[gallery ids=\"15846,15857\" columns=\"2\" size=\"large\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/frame-tv-mounting-chicago/\">Explore Frame TV installation</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>",
+      "after": "<h2>Project Overview</h2><p>We installed a 65-inch Samsung Frame Pro above a fireplace and connected the television to a Sonos Amp located in the basement.</p><h2>Installation Details</h2><p>The regular outlet was replaced with a recessed outlet to allow the television to sit close to the wall. The audio connection integrates the screen with the existing Sonos equipment.</p><h2>Project Gallery</h2>\n[gallery ids=\"15857\" columns=\"1\" size=\"full\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/frame-tv-mounting-chicago/\">Explore Frame TV installation</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>"
+    },
+    {
+      "id": 15822,
+      "featured": 15845,
+      "before": "<h2>Project Overview</h2><p>We installed a 100-inch LG QNED84B television using a Sanus static mount and connected it to the home audio system.</p><h2>Installation Details</h2><p>The screen was positioned centrally between the speakers. The static mount keeps the installation focused on a fixed viewing position, while the existing audio system provides the sound connection.</p><h2>Project Gallery</h2>\n[gallery ids=\"15845,15856\" columns=\"2\" size=\"large\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/home-theatre-mounting/\">Explore home theater installation</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>",
+      "after": "<h2>Project Overview</h2><p>We installed a 100-inch LG QNED84B television using a Sanus static mount and connected it to the home audio system.</p><h2>Installation Details</h2><p>The screen was positioned centrally between the speakers. The static mount keeps the installation focused on a fixed viewing position, while the existing audio system provides the sound connection.</p><h2>Project Gallery</h2>\n[gallery ids=\"15856\" columns=\"1\" size=\"full\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/home-theatre-mounting/\">Explore home theater installation</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>"
+    },
+    {
+      "id": 15820,
+      "featured": 15844,
+      "before": "<h2>Project Overview</h2><p>This project involved mounting a 65-inch Samsung Frame Pro. The existing outlet and power connection needed adjustment to achieve the intended close-to-wall fit.</p><h2>Installation Details</h2><p>We replaced the regular outlet with a recessed outlet and supplied a different power cord to reduce the gap behind the television.</p><h2>Project Gallery</h2>\n[gallery ids=\"15844,15855\" columns=\"2\" size=\"large\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/frame-tv-mounting-chicago/\">Explore Frame TV installation</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>",
+      "after": "<h2>Project Overview</h2><p>This project involved mounting a 65-inch Samsung Frame Pro. The existing outlet and power connection needed adjustment to achieve the intended close-to-wall fit.</p><h2>Installation Details</h2><p>We replaced the regular outlet with a recessed outlet and supplied a different power cord to reduce the gap behind the television.</p><h2>Project Gallery</h2>\n[gallery ids=\"15855\" columns=\"1\" size=\"full\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/frame-tv-mounting-chicago/\">Explore Frame TV installation</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>"
+    },
+    {
+      "id": 15818,
+      "featured": 15843,
+      "before": "<h2>Project Overview</h2><p>We installed an 85-inch Sony BRAVIA television and a Sonos Arc Ultra soundbar. The cables between the TV and soundbar were concealed.</p><h2>Installation Details</h2><p>Plumbing and air-conditioning pipes inside the wall prevented installation of a recessed media box. The completed scope therefore focused on mounting the television and soundbar and concealing the cables between them.</p><h2>Project Gallery</h2>\n[gallery ids=\"15843,15854\" columns=\"2\" size=\"large\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/soundbar-installation/\">Explore soundbar installation</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>",
+      "after": "<h2>Project Overview</h2><p>We installed an 85-inch Sony BRAVIA television and a Sonos Arc Ultra soundbar. The cables between the TV and soundbar were concealed.</p><h2>Installation Details</h2><p>Plumbing and air-conditioning pipes inside the wall prevented installation of a recessed media box. The completed scope therefore focused on mounting the television and soundbar and concealing the cables between them.</p><h2>Project Gallery</h2>\n[gallery ids=\"15854\" columns=\"1\" size=\"full\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/soundbar-installation/\">Explore soundbar installation</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>"
+    },
+    {
+      "id": 15816,
+      "featured": 15842,
+      "before": "<h2>Project Overview</h2><p>We installed a 77-inch LG G6 with a Legrand recessed media box. The box provides clearance for the connections behind the television.</p><h2>Installation Details</h2><p>The box was positioned toward the left side to align with the TV’s HDMI input location. This placement supports a close-to-wall setup without placing the connection hardware directly behind the screen.</p><h2>Project Gallery</h2>\n[gallery ids=\"15842,15853\" columns=\"2\" size=\"large\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/premium-large-tv-installation/\">Explore premium TV installation</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>",
+      "after": "<h2>Project Overview</h2><p>We installed a 77-inch LG G6 with a Legrand recessed media box. The box provides clearance for the connections behind the television.</p><h2>Installation Details</h2><p>The box was positioned toward the left side to align with the TV’s HDMI input location. This placement supports a close-to-wall setup without placing the connection hardware directly behind the screen.</p><h2>Project Gallery</h2>\n[gallery ids=\"15853\" columns=\"1\" size=\"full\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/premium-large-tv-installation/\">Explore premium TV installation</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>"
+    },
+    {
+      "id": 15814,
+      "featured": 15838,
+      "before": "<h2>Project Overview</h2><p>This installation paired a 55-inch Samsung OLED television with a MantelMount MAX1 above a tiled fireplace.</p><h2>Installation Details</h2><p>Preparing the tile required precise positioning to protect the finish and accommodate the mount. The MAX1 allows the television to move vertically while remaining close to the fireplace.</p><h2>Project Gallery</h2>\n[gallery ids=\"15838,15852\" columns=\"2\" size=\"large\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/fireplace-or-brick-wall-mounting/\">Explore fireplace TV mounting</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>",
+      "after": "<h2>Project Overview</h2><p>This installation paired a 55-inch Samsung OLED television with a MantelMount MAX1 above a tiled fireplace.</p><h2>Installation Details</h2><p>Preparing the tile required precise positioning to protect the finish and accommodate the mount. The MAX1 allows the television to move vertically while remaining close to the fireplace.</p><h2>Project Gallery</h2>\n[gallery ids=\"15852\" columns=\"1\" size=\"full\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/fireplace-or-brick-wall-mounting/\">Explore fireplace TV mounting</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>"
+    },
+    {
+      "id": 15812,
+      "featured": 15837,
+      "before": "<h2>Project Overview</h2><p>We installed a 77-inch LG C6 television and a Samsung Q990H soundbar system. The installation included a recessed box for the outlet and surge protector.</p><h2>Installation Details</h2><p>Cables between the television and soundbar were concealed to keep the connection area clear. The recessed box provides space for the power equipment behind the TV.</p><h2>Project Gallery</h2>\n[gallery ids=\"15837,15851\" columns=\"2\" size=\"large\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/soundbar-installation/\">Explore TV and soundbar installation</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>",
+      "after": "<h2>Project Overview</h2><p>We installed a 77-inch LG C6 television and a Samsung Q990H soundbar system. The installation included a recessed box for the outlet and surge protector.</p><h2>Installation Details</h2><p>Cables between the television and soundbar were concealed to keep the connection area clear. The recessed box provides space for the power equipment behind the TV.</p><h2>Project Gallery</h2>\n[gallery ids=\"15851\" columns=\"1\" size=\"full\" link=\"file\"]\n<h2>Plan a Similar Installation</h2><p><a href=\"https://chicagomounting.com/soundbar-installation/\">Explore TV and soundbar installation</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>"
+    },
+    {
+      "id": 15810,
+      "featured": 15834,
+      "before": "<h2>Project Overview</h2>\n<p>We installed a 77-inch LG G6 above a fireplace faced with stone veneer. A recessed media box provides space for the outlet, surge protector and Apple TV behind the television, allowing the screen to sit close to the stone surface.</p>\n<h2>Installation Details</h2>\n<p>The stone veneer required diamond drill bits and a diamond grinder disc during preparation. The recessed box keeps the supporting equipment behind the TV rather than on a separate shelf.</p>\n<ul><li>TV: 77-inch LG G6</li><li>Mounting surface: stone veneer above a fireplace</li><li>Equipment: recessed media box, outlet, surge protector and Apple TV</li></ul>\n<h2>Installation Gallery</h2>\n[gallery ids=\"15834,15835\" columns=\"2\" size=\"large\" link=\"file\"]\n<h2>Plan a Similar Installation</h2>\n<p><a href=\"https://chicagomounting.com/fireplace-or-brick-wall-mounting/\">Explore fireplace TV mounting</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>",
+      "after": "<h2>Project Overview</h2>\n<p>We installed a 77-inch LG G6 above a fireplace faced with stone veneer. A recessed media box provides space for the outlet, surge protector and Apple TV behind the television, allowing the screen to sit close to the stone surface.</p>\n<h2>Installation Details</h2>\n<p>The stone veneer required diamond drill bits and a diamond grinder disc during preparation. The recessed box keeps the supporting equipment behind the TV rather than on a separate shelf.</p>\n<ul><li>TV: 77-inch LG G6</li><li>Mounting surface: stone veneer above a fireplace</li><li>Equipment: recessed media box, outlet, surge protector and Apple TV</li></ul>\n<h2>Installation Gallery</h2>\n[gallery ids=\"15835\" columns=\"1\" size=\"full\" link=\"file\"]\n<h2>Plan a Similar Installation</h2>\n<p><a href=\"https://chicagomounting.com/fireplace-or-brick-wall-mounting/\">Explore fireplace TV mounting</a> or <a href=\"https://chicagomounting.com/quote/\">get a free quote</a>.</p>"
+    }
+  ]
+}

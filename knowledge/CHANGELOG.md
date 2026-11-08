@@ -241,3 +241,12 @@ Verified all sixteen rendered badges across catalogue pages 1/2 at desktop1718px
 Location filter15758 in set15744 still uses actual cm_location; it returns one confirmed case per city, not four editorial selections. To return four per city it must deliberately switch to editorial tags and be relabeled/documented accordingly. It was NOT changed. Badge is editorial placement, not verified installation provenance. Native Post Info Tags displays all assigned tags; currently each case has exactly one editorial tag. Keep unrelated tags off case records or deliberately revise the data model before adding them.
 
 Implementation snapshots: docs/cases/card-15715-editorial-badges-2026-11-07.json and editorial-city-terms-2026-11-07.json.
+
+
+## 2026-11-07 — Single15714 editorial redesign; awaiting visual review
+
+User rejected previous boxed/generic Single design. Reworked existing15714 only: intrinsic photo with no gray background, Kanit400 uppercase title26–38px,native narrow facts-left/wide-story-right layout,mobile stacking,unboxed facts and existing theme btn btn-md btn-outline CTA. Inspected Kit8,wp-custom-css,active theme public stylesheet,template CSS and GitHub style records. Kit/theme/Additional CSS unchanged. Replaced5191-character Single custom CSS with892-character scoped residual rules; native controls own layout/typography,theme owns buttons. No new stylesheet,page,template,prototype or plugin.
+
+Twelve newer post gallery shortcodes remove featured-image repetition and keep the additional photo in one native column with full responsive source; all media/featured relationships and written story preserved. Original4 content unchanged. All16 verified publish/noindex,200,oneH1 and Single15714. Portrait15810 and landscape15791 inspected desktop1718/tablet820/mobile390; natural aspect ratios,no horizontal overflow; square15731 desktop also checked. Actual viewport screenshots shown in chat,not successfully saved as repository files after final browser timeout. Final gallery source large→full checked in source/HTML,not repeated visual pass. User visual approval pending.
+
+Actual implementation/rollback snapshot: docs/cases/single-15714-editorial-2026-11-07.json. Exact styling ownership/tests/limitations: docs/cases/SINGLE-EDITORIAL-2026-11-07.md. Verification: docs/cases/single-editorial-verification-2026-11-07.json.

@@ -1,0 +1,224 @@
+{
+  "date": "2026-11-07 America/Chicago",
+  "cases": [
+    {
+      "id": 15832,
+      "status": "publish",
+      "http": 200,
+      "noindex": true,
+      "h1": 1,
+      "single": true,
+      "titleUnchanged": true,
+      "featuredUnchanged": true,
+      "locationUnchanged": true,
+      "gallery": [
+        "[gallery ids=\"15861\" columns=\"1\" size=\"full\" link=\"file\"]"
+      ]
+    },
+    {
+      "id": 15830,
+      "status": "publish",
+      "http": 200,
+      "noindex": true,
+      "h1": 1,
+      "single": true,
+      "titleUnchanged": true,
+      "featuredUnchanged": true,
+      "locationUnchanged": true,
+      "gallery": [
+        "[gallery ids=\"15860\" columns=\"1\" size=\"full\" link=\"file\"]"
+      ]
+    },
+    {
+      "id": 15828,
+      "status": "publish",
+      "http": 200,
+      "noindex": true,
+      "h1": 1,
+      "single": true,
+      "titleUnchanged": true,
+      "featuredUnchanged": true,
+      "locationUnchanged": true,
+      "gallery": [
+        "[gallery ids=\"15859\" columns=\"1\" size=\"full\" link=\"file\"]"
+      ]
+    },
+    {
+      "id": 15826,
+      "status": "publish",
+      "http": 200,
+      "noindex": true,
+      "h1": 1,
+      "single": true,
+      "titleUnchanged": true,
+      "featuredUnchanged": true,
+      "locationUnchanged": true,
+      "gallery": [
+        "[gallery ids=\"15858\" columns=\"1\" size=\"full\" link=\"file\"]"
+      ]
+    },
+    {
+      "id": 15824,
+      "status": "publish",
+      "http": 200,
+      "noindex": true,
+      "h1": 1,
+      "single": true,
+      "titleUnchanged": true,
+      "featuredUnchanged": true,
+      "locationUnchanged": true,
+      "gallery": [
+        "[gallery ids=\"15857\" columns=\"1\" size=\"full\" link=\"file\"]"
+      ]
+    },
+    {
+      "id": 15822,
+      "status": "publish",
+      "http": 200,
+      "noindex": true,
+      "h1": 1,
+      "single": true,
+      "titleUnchanged": true,
+      "featuredUnchanged": true,
+      "locationUnchanged": true,
+      "gallery": [
+        "[gallery ids=\"15856\" columns=\"1\" size=\"full\" link=\"file\"]"
+      ]
+    },
+    {
+      "id": 15820,
+      "status": "publish",
+      "http": 200,
+      "noindex": true,
+      "h1": 1,
+      "single": true,
+      "titleUnchanged": true,
+      "featuredUnchanged": true,
+      "locationUnchanged": true,
+      "gallery": [
+        "[gallery ids=\"15855\" columns=\"1\" size=\"full\" link=\"file\"]"
+      ]
+    },
+    {
+      "id": 15818,
+      "status": "publish",
+      "http": 200,
+      "noindex": true,
+      "h1": 1,
+      "single": true,
+      "titleUnchanged": true,
+      "featuredUnchanged": true,
+      "locationUnchanged": true,
+      "gallery": [
+        "[gallery ids=\"15854\" columns=\"1\" size=\"full\" link=\"file\"]"
+      ]
+    },
+    {
+      "id": 15816,
+      "status": "publish",
+      "http": 200,
+      "noindex": true,
+      "h1": 1,
+      "single": true,
+      "titleUnchanged": true,
+      "featuredUnchanged": true,
+      "locationUnchanged": true,
+      "gallery": [
+        "[gallery ids=\"15853\" columns=\"1\" size=\"full\" link=\"file\"]"
+      ]
+    },
+    {
+      "id": 15814,
+      "status": "publish",
+      "http": 200,
+      "noindex": true,
+      "h1": 1,
+      "single": true,
+      "titleUnchanged": true,
+      "featuredUnchanged": true,
+      "locationUnchanged": true,
+      "gallery": [
+        "[gallery ids=\"15852\" columns=\"1\" size=\"full\" link=\"file\"]"
+      ]
+    },
+    {
+      "id": 15812,
+      "status": "publish",
+      "http": 200,
+      "noindex": true,
+      "h1": 1,
+      "single": true,
+      "titleUnchanged": true,
+      "featuredUnchanged": true,
+      "locationUnchanged": true,
+      "gallery": [
+        "[gallery ids=\"15851\" columns=\"1\" size=\"full\" link=\"file\"]"
+      ]
+    },
+    {
+      "id": 15810,
+      "status": "publish",
+      "http": 200,
+      "noindex": true,
+      "h1": 1,
+      "single": true,
+      "titleUnchanged": true,
+      "featuredUnchanged": true,
+      "locationUnchanged": true,
+      "gallery": [
+        "[gallery ids=\"15835\" columns=\"1\" size=\"full\" link=\"file\"]"
+      ]
+    },
+    {
+      "id": 15793,
+      "status": "publish",
+      "http": 200,
+      "noindex": true,
+      "h1": 1,
+      "single": true,
+      "titleUnchanged": true,
+      "featuredUnchanged": true,
+      "locationUnchanged": true,
+      "gallery": null
+    },
+    {
+      "id": 15791,
+      "status": "publish",
+      "http": 200,
+      "noindex": true,
+      "h1": 1,
+      "single": true,
+      "titleUnchanged": true,
+      "featuredUnchanged": true,
+      "locationUnchanged": true,
+      "gallery": null
+    },
+    {
+      "id": 15792,
+      "status": "publish",
+      "http": 200,
+      "noindex": true,
+      "h1": 1,
+      "single": true,
+      "titleUnchanged": true,
+      "featuredUnchanged": true,
+      "locationUnchanged": true,
+      "gallery": null
+    },
+    {
+      "id": 15731,
+      "status": "publish",
+      "http": 200,
+      "noindex": true,
+      "h1": 1,
+      "single": true,
+      "titleUnchanged": true,
+      "featuredUnchanged": true,
+      "locationUnchanged": true,
+      "gallery": null
+    }
+  ],
+  "globalKitUnchanged": true,
+  "visualApproval": "Pending user review",
+  "screenshots": "Emitted in chat; not persisted to repository"
+}
