@@ -315,3 +315,12 @@ User rejected previous boxed/generic Single design. Reworked existing15714 only:
 Twelve newer post gallery shortcodes remove featured-image repetition and keep the additional photo in one native column with full responsive source; all media/featured relationships and written story preserved. Original4 content unchanged. All16 verified publish/noindex,200,oneH1 and Single15714. Portrait15810 and landscape15791 inspected desktop1718/tablet820/mobile390; natural aspect ratios,no horizontal overflow; square15731 desktop also checked. Actual viewport screenshots shown in chat,not successfully saved as repository files after final browser timeout. Final gallery source large→full checked in source/HTML,not repeated visual pass. User visual approval pending.
 
 Actual implementation/rollback snapshot: docs/cases/single-15714-editorial-2026-11-07.json. Exact styling ownership/tests/limitations: docs/cases/SINGLE-EDITORIAL-2026-11-07.md. Verification: docs/cases/single-editorial-verification-2026-11-07.json.
+
+
+## 2026-11-08 — Actual locations audited; conflict withdrawn from cm_location
+
+Supersedes historical statements treating15731 as a confirmed Winnetka installation. Current source-backed actual terms:15791 Wilmette, IL (official Chicago Mounting videoCPoIAAo42LI title/author);15792 Glenview, IL (original media9974 caption/description);15793 Evanston, IL (original10248 caption/description). These are existing publisher assertions, not a new customer-address/GPS verification. Do not infer from filenames or editorial placement.
+
+15731 remains unresolved: same photo7316/9963 has Streeterville/Winnetka assertions. Cleared its actual cm_location145 assignment, retained the term and editorial tag, removed city phrase from overview/title/excerpt, preserved URL. Do not set Streeterville without resolving the installation identity. Actual location remains unspecified on all12 newer15810–15832 cases. Thus3 source-backed /13 unknown-or-conflicted.
+
+Single15714 uses native cm_location Post Info for Location: city, IL in facts and Installation in city, IL in introduction; both omitted when empty. Four existing actual term names include IL; IDs/slugs preserved. No per-case hardcoded location text introduced. City/service blocks stay withdrawn until final launch approval. Full16-case evidence/sequence/typography/verification and rollback: docs/cases/SINGLE-REFINEMENTS-2026-11-08.md and refinements-sequence-location-2026-11-08.json.
