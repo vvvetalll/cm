@@ -349,3 +349,14 @@ Real reversible tag test exposed stale guest output. Added12 targeted entries to
 Catalogue mobile390 final regression: Glenview+Frame15826; empty mismatch; reset8; native pages1/2 union16 unique; no excerpts/overflow. Final title17px desktop/16px mobile,500 uppercase. Arrow native spans/right alignment verified. Focused keyboard checks retained; exhaustive accessibility/playback/new-case publish test not claimed.
 
 Recovery: docs/cases/composition-before-2026-11-08.json (bdc7d00). Final canonical snapshot/checks: composition-after-2026-11-08.json (4b97cb0). Full exact report, prepared query matrix, cache fix and launch boundaries: COMPOSITION-2026-11-08.md. Preserve noindex and provenance flags. Next: continue canonical review; do not restore public integrations until final-launch authorization. No generic copy approval gate.
+
+
+## 2026-11-08 — Individually cropped images, grouped galleries and sticky Project Facts
+
+Updated existing Single15714 only for CSS sticky facts aside (desktop>=1025,top88/admin120,section-bounded); existing native tablet columns stack, mobile/static preserved. Actual long15810 and short15793 scroll checks, parent overflow, tablet820/mobile390 passed. Existing CTA3092 reused through native Template widget; no global/header/sourceCTA edit.
+
+123 originals accessible;92 verified12-case sources converted with original SHA256 unchanged.15 reviewed Featured replacements (13x1920×1080,15793=1600×900,15792=736×414), no upscale/generation.15791 existing video still retained as unsuitable-source limitation.15731 existing-image crop does not validate geography.80 gallery photos across12 cases,14 attachments reused/66 gallery uploads; Hero source excluded. Natural ratio/max1600 WebP84, descriptive alt/filenames, lazy/WordPress srcset, native grouped Elementor lightbox. No31 unverified photos assigned, no new WordPress structural objects.
+
+Actual desktop catalogue pages1/2 all16 thumbnails reviewed; mobile both-page dimensions/no overflow and representative views; Single Hero/two-to-one-column gallery verified. Desktop lightbox opens7/Next/Escape; mobile opens9/Close. All16 guest pages200/noindex/Single15714/CTA3092, all12 group counts; status/URLs/taxonomies/approved prose/excerpts preserved. Not exhaustive keyboard/every-gallery manual certification. City/service blocks remain withdrawn under final-launch hold. Viewports reset.
+
+Inventory/recovery: docs/cases/image-inventory-2026-11-08.json (591f1ef8). Exact report/current requirements/maintenance: docs/cases/IMAGES-STICKY-2026-11-08.md (39934304). Remaining: high-resolution sources15792/15793, suitable photo15791, older gallery mappings and15731 provenance. Completed MCP/filter work not repeated. Remote readback verifies checkpoint persistence.
