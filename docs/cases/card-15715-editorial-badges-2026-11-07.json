@@ -129,23 +129,30 @@
                     },
                     "font-weight": {
                       "$$type": "string",
-                      "value": "600"
+                      "value": "400"
                     },
                     "font-size": {
                       "$$type": "size",
                       "value": {
-                        "size": "clamp(1rem, 1.5vw, 1.375rem)",
-                        "unit": "custom"
+                        "size": 18,
+                        "unit": "px"
                       }
                     },
                     "color": {
                       "$$type": "color",
                       "value": "#292B26"
                     },
+                    "letter-spacing": {
+                      "$$type": "size",
+                      "value": {
+                        "size": 0.02,
+                        "unit": "em"
+                      }
+                    },
                     "line-height": {
                       "$$type": "size",
                       "value": {
-                        "size": "1.15",
+                        "size": "1.2",
                         "unit": "custom"
                       }
                     },
@@ -163,6 +170,22 @@
                             "unit": "rem"
                           }
                         }
+                      }
+                    }
+                  },
+                  "custom_css": null
+                },
+                {
+                  "meta": {
+                    "breakpoint": "mobile",
+                    "state": null
+                  },
+                  "props": {
+                    "font-size": {
+                      "$$type": "size",
+                      "value": {
+                        "size": 17,
+                        "unit": "px"
                       }
                     }
                   },
@@ -421,5 +444,43 @@
   ],
   "settings": {
     "custom_css": "/* CM case card metadata visual polish, 2026-11-07. Catalogue styling is scoped to Page 15716. */"
+  },
+  "verification": {
+    "date": "2026-11-07",
+    "visualApproval": "pending",
+    "desktop": {
+      "viewport": 1718,
+      "font": "Kanit",
+      "weight": 400,
+      "size": 18,
+      "lineHeight": 21.6,
+      "letterSpacing": 0.36,
+      "textTransform": "uppercase",
+      "image": [
+        275,
+        154.6875
+      ]
+    },
+    "mobile": {
+      "viewport": 390,
+      "font": "Kanit",
+      "weight": 400,
+      "size": 17,
+      "lineHeight": 20.4,
+      "letterSpacing": 0.34,
+      "textTransform": "uppercase",
+      "image": [
+        312,
+        175.5
+      ]
+    },
+    "coverage": "All 16 headings/images across both catalogue pages",
+    "imageFit": "cover",
+    "imagePosition": "50% 50%",
+    "replacementCandidates": [
+      15824,
+      15814
+    ],
+    "finalAjaxReset": "Unverified: browser timeout"
   }
 }
