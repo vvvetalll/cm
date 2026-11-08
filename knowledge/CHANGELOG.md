@@ -404,3 +404,16 @@ Existing Single15714 only: native breadcrumbs a4a0776 and return button b717bf4 
 Existing gallery CSS source changed to1:1 cover thumbnails; originals/order/alt/lightbox links untouched. Complete crop/lightbox review ongoing under the expanded final-content task, not yet claimed complete. Four native city-filter results match existing4x4 editorial matrix, including15731 Winnetka. No city tag/filter/launch changes. Unsolicited geographic removals were stopped by owner and all ten affected records restored to prior title/body/SEO/location. Current preserved assignments are not new source verification. AGENTS boundary updated without overwriting concurrent image-standard addition.
 
 Exact implementation/current verification/limits: docs/cases/NAVIGATION-FACTS-THUMBNAILS-2026-11-08.md (23bad23). Remaining active authorized work: rewrite16 stories, remove internal/unstyled links, verify older missing-gallery source candidates and full responsive galleries, then final checkpoint.
+
+
+## 2026-11-08 — Sixteen final case stories and verified galleries/source limits
+
+Rewrote all16 Post Content stories; removed internal Media Library/documentation/source notes and unstyled standalone city/service link paragraphs. Twelve technical stories87–97 words; four evidence-limited stories shorter. Native saved-body readback16/16 and actual public-page checks16/16. Preserved approved H1,SEO/location/excerpt/URL/noindex,original video blocks,three related cards,native CTA,navigation and global Kanit.
+
+Re-audited31 original-source photos in folders13–16 and actual Media Library outdoor14/Evanston10/Wilmette3/tile15 result grids. No additional verified photos for15792/15793/15791/15731; gallery0 retained without unrelated media/duplicate Hero. No uploads. All80 photos in existing12 galleries preserved with original markup/order/alt/srcset/file links, except three presentation-only object-position attributes for subject-aware square crops.
+
+Existing scoped Single gallery rule now1:1 cover. Actual desktop1366/tablet768/mobile390:396/344/350px square boxes,16:9 Hero,no overflow,unchanged #EFF2EF/20px Facts with10px radius,sticky desktop/static smaller. Desktop5-photo lightbox Next and mobile10-photo Next/Close verified; full3:4 originals/contain. No exhaustive playback/keyboard/device or anonymous-cache certification.
+
+Earlier unsolicited geographic removals were restored per owner; final copy task preserved current assignments/headings/metadata.4x4 editorial matrix unchanged,15731 Winnetka editorial; source-label disagreement is not an editorial blocker. No city/service integration publication or global/filter/new-object changes.
+
+Per-case issues/changes/counts/sources/uncertainties and verification: docs/cases/FINAL-CONTENT-GALLERIES-2026-11-08.md (7afb4ba). WORK and SEO-CONTENT updated. Remaining original4 photo gaps and prior Featured-resolution/source limits explicitly retained.
