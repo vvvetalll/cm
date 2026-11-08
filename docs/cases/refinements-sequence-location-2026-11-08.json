@@ -1,0 +1,1911 @@
+{
+  "date": "2026-11-08",
+  "supersedes": "Earlier2026-11-08 image inventory remains a media/crop snapshot; this file owns the latest gallery order, location evidence and typography.",
+  "typography": {
+    "kitId": 8,
+    "kitUnchanged": true,
+    "roles": [
+      {
+        "_id": "78732fe",
+        "title": "XL H1 Title",
+        "typography_typography": "custom",
+        "typography_font_family": "Kanit",
+        "typography_font_size": {
+          "unit": "custom",
+          "size": "clamp(30px, 3vw, 42px)",
+          "sizes": []
+        },
+        "typography_font_weight": "bold",
+        "typography_text_transform": "uppercase",
+        "typography_line_height": {
+          "unit": "em",
+          "size": 1.05,
+          "sizes": []
+        },
+        "typography_line_height_mobile": {
+          "unit": "em",
+          "size": 1.2,
+          "sizes": []
+        }
+      },
+      {
+        "_id": "4b3367a",
+        "title": "L H2 Title",
+        "typography_typography": "custom",
+        "typography_font_family": "Kanit",
+        "typography_font_size": {
+          "unit": "custom",
+          "size": "clamp(22px, 1.8vw, 28px);",
+          "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_line_height": {
+          "unit": "em",
+          "size": 1.1,
+          "sizes": []
+        }
+      },
+      {
+        "_id": "c569f17",
+        "title": "M H3 Title",
+        "typography_typography": "custom",
+        "typography_font_family": "Kanit",
+        "typography_font_size": {
+          "unit": "custom",
+          "size": "clamp(16px, 1.5vw, 22px)",
+          "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_line_height": {
+          "unit": "em",
+          "size": 1.15,
+          "sizes": []
+        }
+      },
+      {
+        "_id": "b4aface",
+        "title": "S H4 Title",
+        "typography_typography": "custom",
+        "typography_font_family": "Kanit",
+        "typography_font_size": {
+          "unit": "custom",
+          "size": "clamp(18px, 1.25vw, 24px)",
+          "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_text_transform": "uppercase",
+        "typography_line_height": {
+          "unit": "em",
+          "size": 1.2,
+          "sizes": []
+        }
+      },
+      {
+        "_id": "1f5663e",
+        "title": "XS H5 Title",
+        "typography_typography": "custom",
+        "typography_font_family": "Kanit",
+        "typography_font_size": {
+          "unit": "custom",
+          "size": "clamp(16px, 1vw, 20px)",
+          "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_text_transform": "uppercase",
+        "typography_line_height": {
+          "unit": "em",
+          "size": 1.25,
+          "sizes": []
+        }
+      },
+      {
+        "_id": "7def6ec",
+        "title": "XXS H6 Title",
+        "typography_typography": "custom",
+        "typography_font_family": "Kanit",
+        "typography_font_size": {
+          "unit": "custom",
+          "size": "clamp(14px, 0.9vw, 18px)",
+          "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_text_transform": "uppercase",
+        "typography_line_height": {
+          "unit": "em",
+          "size": 1.3,
+          "sizes": []
+        }
+      }
+    ],
+    "nativeBindings": {
+      "h1": "59cad9c ->78732fe",
+      "factsH2": "cmcs002 ->4b3367a",
+      "relatedH2": "b33e9d6 ->4b3367a"
+    },
+    "variableOnlyCss": [
+      "Post Content H2 ->4b3367a (Post Content schema exposes no heading controls)",
+      "Single reused Card H3 ->c569f17; Card15715 unchanged"
+    ],
+    "computed": {
+      "desktop1280": {
+        "h1": {
+          "size": 38.4,
+          "weight": 700,
+          "lineHeight": 40.32
+        },
+        "h2": {
+          "size": 23.04,
+          "weight": 600,
+          "lineHeight": 25.344
+        },
+        "h3": {
+          "size": 19.2,
+          "weight": 600,
+          "lineHeight": 22.08
+        }
+      },
+      "tablet820": {
+        "h1": {
+          "size": 30,
+          "weight": 700,
+          "lineHeight": 31.5
+        },
+        "h2": {
+          "size": 22,
+          "weight": 600,
+          "lineHeight": 24.2
+        },
+        "h3": {
+          "size": 16,
+          "weight": 600,
+          "lineHeight": 18.4
+        }
+      },
+      "mobile390": {
+        "h1": {
+          "size": 30,
+          "weight": 700,
+          "lineHeight": 36
+        },
+        "h2": {
+          "size": 22,
+          "weight": 600,
+          "lineHeight": 24.2
+        },
+        "h3": {
+          "size": 16,
+          "weight": 600,
+          "lineHeight": 18.4
+        }
+      }
+    },
+    "beforeBodyH2Weight": 400,
+    "bodyHeadingMargins": "First H2 0top/16bottom; later32top/16bottom; no new font values"
+  },
+  "cases": [
+    {
+      "postId": 15832,
+      "title": "65-Inch Samsung OLED and Bose Soundbar on Stone",
+      "url": "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+      "location": {
+        "status": "UNVERIFIED",
+        "termIds": [],
+        "label": null,
+        "evidence": "Existing audited source mapping/client material has not established an actual installation city. Editorial tag is excluded as evidence.",
+        "limit": null
+      },
+      "previousGalleryOrder": [
+        16067,
+        15850,
+        16073,
+        15861,
+        16064,
+        16066,
+        16071,
+        16070,
+        16069
+      ],
+      "gallery": [
+        {
+          "position": 1,
+          "mediaId": 16070,
+          "auditIndex": 90,
+          "stage": "before",
+          "alt": "Samsung S95H OLED packaging marked 65 inches beside Bose equipment",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8826.webp"
+        },
+        {
+          "position": 2,
+          "mediaId": 16073,
+          "auditIndex": 85,
+          "stage": "before",
+          "alt": "Stone fireplace wall before the television was fitted",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8831.webp"
+        },
+        {
+          "position": 3,
+          "mediaId": 16069,
+          "auditIndex": 91,
+          "stage": "preparation",
+          "alt": "Rear-side view of the television while prepared for mounting",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8840.webp"
+        },
+        {
+          "position": 4,
+          "mediaId": 16067,
+          "auditIndex": 83,
+          "stage": "preparation",
+          "alt": "Stone fireplace wall with the mounting bracket prepared",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8846.webp"
+        },
+        {
+          "position": 5,
+          "mediaId": 15861,
+          "auditIndex": 86,
+          "stage": "preparation",
+          "alt": "Close view of the wall bracket secured to the stone-faced fireplace area",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-wall-bracket.webp"
+        },
+        {
+          "position": 6,
+          "mediaId": 16064,
+          "auditIndex": 87,
+          "stage": "installation-process",
+          "alt": "Installer adjusting the Samsung OLED and soundbar above the stone mantel",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8850.webp"
+        },
+        {
+          "position": 7,
+          "mediaId": 16071,
+          "auditIndex": 89,
+          "stage": "mounted-result/detail",
+          "alt": "Right-side profile of the Samsung OLED and Bose soundbar",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8866.webp"
+        },
+        {
+          "position": 8,
+          "mediaId": 16066,
+          "auditIndex": 88,
+          "stage": "mounted-result/detail",
+          "alt": "Left-side profile of the Samsung OLED and Bose soundbar",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8868.webp"
+        },
+        {
+          "position": 9,
+          "mediaId": 15850,
+          "auditIndex": 84,
+          "stage": "mounted-result/detail",
+          "alt": "Wide room view of the completed Samsung OLED fireplace installation",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-bose-stone-fireplace.webp"
+        }
+      ],
+      "orderingNote": "No gallery exists and no additional source-to-case mapping is verified; nothing to reorder.",
+      "hasSeparateFullTvFinal": true
+    },
+    {
+      "postId": 15830,
+      "title": "85-Inch Neo QLED and Soundbar on a Brick Fireplace",
+      "url": "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+      "location": {
+        "status": "UNVERIFIED",
+        "termIds": [],
+        "label": null,
+        "evidence": "Existing audited source mapping/client material has not established an actual installation city. Editorial tag is excluded as evidence.",
+        "limit": null
+      },
+      "previousGalleryOrder": [
+        16068,
+        15860,
+        16065
+      ],
+      "gallery": [
+        {
+          "position": 1,
+          "mediaId": 16068,
+          "auditIndex": 79,
+          "stage": "before",
+          "alt": "Samsung Neo QLED packaging marked QN70F and 85 inches",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/neo-qled-brick-fireplace-img-9560.webp"
+        },
+        {
+          "position": 2,
+          "mediaId": 16065,
+          "auditIndex": 81,
+          "stage": "preparation",
+          "alt": "Installer measuring the mounting position on the brick fireplace wall",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/neo-qled-brick-fireplace-img-9565.webp"
+        },
+        {
+          "position": 3,
+          "mediaId": 15860,
+          "auditIndex": 80,
+          "stage": "preparation",
+          "alt": "TV wall bracket installed above the brick fireplace mantel",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/neo-qled-brick-fireplace-bracket.webp"
+        }
+      ],
+      "orderingNote": "Only three additional photographs exist: packaging, measuring work and prepared bracket. Completed TV78 is Hero only. No separate final installation image can close this gallery without duplicating Hero.",
+      "hasSeparateFullTvFinal": false
+    },
+    {
+      "postId": 15828,
+      "title": "77-Inch LG W6 Fireplace Installation with Sonos Arc Ultra",
+      "url": "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+      "location": {
+        "status": "UNVERIFIED",
+        "termIds": [],
+        "label": null,
+        "evidence": "Existing audited source mapping/client material has not established an actual installation city. Editorial tag is excluded as evidence.",
+        "limit": null
+      },
+      "previousGalleryOrder": [
+        16062,
+        16063,
+        16061,
+        16060,
+        15859,
+        16058,
+        16059
+      ],
+      "gallery": [
+        {
+          "position": 1,
+          "mediaId": 16060,
+          "auditIndex": 73,
+          "stage": "before",
+          "alt": "LG W6 packaging showing the 77-inch screen size",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9593.webp"
+        },
+        {
+          "position": 2,
+          "mediaId": 16063,
+          "auditIndex": 71,
+          "stage": "preparation",
+          "alt": "LG wall-mount hardware laid out before the fireplace installation",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9615.webp"
+        },
+        {
+          "position": 3,
+          "mediaId": 16058,
+          "auditIndex": 76,
+          "stage": "preparation",
+          "alt": "Rear edge of the LG W6 during preparation",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9603.webp"
+        },
+        {
+          "position": 4,
+          "mediaId": 16062,
+          "auditIndex": 70,
+          "stage": "preparation",
+          "alt": "Installer preparing the LG W6 mounting positions above the fireplace",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9624.webp"
+        },
+        {
+          "position": 5,
+          "mediaId": 16061,
+          "auditIndex": 72,
+          "stage": "installation-process",
+          "alt": "LG W6 television above the fireplace during installation",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9597.webp"
+        },
+        {
+          "position": 6,
+          "mediaId": 16059,
+          "auditIndex": 77,
+          "stage": "installation-process",
+          "alt": "Side view of the fitted LG W6 showing its close wall position",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9634.webp"
+        },
+        {
+          "position": 7,
+          "mediaId": 15859,
+          "auditIndex": 75,
+          "stage": "mounted-result/detail",
+          "alt": "Close side profile of the LG W6 screen above the Sonos soundbar",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-slim-side-profile.webp"
+        }
+      ],
+      "orderingNote": "72 has TV mounted but packaging in front;77 shows gloved contact. Both precede the unobstructed final side profile75.",
+      "hasSeparateFullTvFinal": true
+    },
+    {
+      "postId": 15826,
+      "title": "85-Inch Samsung Frame TV on a Full-Motion Mount",
+      "url": "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+      "location": {
+        "status": "UNVERIFIED",
+        "termIds": [],
+        "label": null,
+        "evidence": "Existing audited source mapping/client material has not established an actual installation city. Editorial tag is excluded as evidence.",
+        "limit": null
+      },
+      "previousGalleryOrder": [
+        16056,
+        16055,
+        16053,
+        16057,
+        15858,
+        16054
+      ],
+      "gallery": [
+        {
+          "position": 1,
+          "mediaId": 16055,
+          "auditIndex": 64,
+          "stage": "before",
+          "alt": "Packaging for the Sanus full-motion TV wall mount",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-9699.webp"
+        },
+        {
+          "position": 2,
+          "mediaId": 16053,
+          "auditIndex": 65,
+          "stage": "preparation",
+          "alt": "Installer preparing the wall for the 85-inch Samsung Frame TV",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-9682.webp"
+        },
+        {
+          "position": 3,
+          "mediaId": 16056,
+          "auditIndex": 63,
+          "stage": "preparation",
+          "alt": "Wall bracket in the marked Samsung Frame installation area",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-9687.webp"
+        },
+        {
+          "position": 4,
+          "mediaId": 16054,
+          "auditIndex": 69,
+          "stage": "installation-process",
+          "alt": "Installer adjusting the Samsung Frame television after mounting",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-0487.webp"
+        },
+        {
+          "position": 5,
+          "mediaId": 15858,
+          "auditIndex": 67,
+          "stage": "mounted-result/detail",
+          "alt": "Side view of the Samsung Frame extended on the full-motion mount",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-side-view.webp"
+        },
+        {
+          "position": 6,
+          "mediaId": 16057,
+          "auditIndex": 66,
+          "stage": "mounted-result/detail",
+          "alt": "Completed Samsung Frame installation displaying the setup screen",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-9706.webp"
+        }
+      ],
+      "orderingNote": "Extended mount67 is grouped with finished functional details after installer adjustment69; retracted front view66 closes the gallery. Setup screen does not establish final configuration.",
+      "hasSeparateFullTvFinal": true
+    },
+    {
+      "postId": 15824,
+      "title": "Samsung Frame Pro Fireplace Installation with Sonos Amp",
+      "url": "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+      "location": {
+        "status": "UNVERIFIED",
+        "termIds": [],
+        "label": null,
+        "evidence": "Existing audited source mapping/client material has not established an actual installation city. Editorial tag is excluded as evidence.",
+        "limit": null
+      },
+      "previousGalleryOrder": [
+        16051,
+        16049,
+        16046,
+        16050,
+        16052,
+        15857
+      ],
+      "gallery": [
+        {
+          "position": 1,
+          "mediaId": 16049,
+          "auditIndex": 57,
+          "stage": "before",
+          "alt": "Samsung Frame packaging showing the 65-inch screen size",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9793.webp"
+        },
+        {
+          "position": 2,
+          "mediaId": 16046,
+          "auditIndex": 58,
+          "stage": "before",
+          "alt": "Room and fireplace wall before the Samsung Frame Pro was mounted",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9789.webp"
+        },
+        {
+          "position": 3,
+          "mediaId": 15857,
+          "auditIndex": 62,
+          "stage": "preparation",
+          "alt": "Wide view of the fireplace mounting preparation and ladder",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/frame-pro-fireplace-wall-preparation.webp"
+        },
+        {
+          "position": 4,
+          "mediaId": 16052,
+          "auditIndex": 61,
+          "stage": "preparation",
+          "alt": "Two mounting plates and prepared connection area above the fireplace",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9797.webp"
+        },
+        {
+          "position": 5,
+          "mediaId": 16050,
+          "auditIndex": 60,
+          "stage": "installation-process",
+          "alt": "Installer working on the Samsung Frame Pro above the fireplace",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9803.webp"
+        },
+        {
+          "position": 6,
+          "mediaId": 16051,
+          "auditIndex": 56,
+          "stage": "mounted-result/detail",
+          "alt": "Samsung Frame Pro above the white fireplace during final setup",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9804.webp"
+        }
+      ],
+      "orderingNote": "Last additional mounted-TV view still includes a ladder; clean completed view59 remains Hero only. Exact setup chronology is uncertain.",
+      "hasSeparateFullTvFinal": true
+    },
+    {
+      "postId": 15822,
+      "title": "100-Inch LG QNED Installation with Home Audio",
+      "url": "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+      "location": {
+        "status": "UNVERIFIED",
+        "termIds": [],
+        "label": null,
+        "evidence": "Existing audited source mapping/client material has not established an actual installation city. Editorial tag is excluded as evidence.",
+        "limit": null
+      },
+      "previousGalleryOrder": [
+        16042,
+        15856,
+        16047,
+        16048
+      ],
+      "gallery": [
+        {
+          "position": 1,
+          "mediaId": 16042,
+          "auditIndex": 51,
+          "stage": "before",
+          "alt": "LG QNED packaging and mounting equipment in the room before installation",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-qned-home-audio-img-9812.webp"
+        },
+        {
+          "position": 2,
+          "mediaId": 16048,
+          "auditIndex": 55,
+          "stage": "before",
+          "alt": "LG QNED packaging in front of the existing speaker wall",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-qned-home-audio-img-9811.webp"
+        },
+        {
+          "position": 3,
+          "mediaId": 15856,
+          "auditIndex": 52,
+          "stage": "preparation",
+          "alt": "Wall bracket and cable opening between the existing in-wall speakers",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/100-inch-qned-wall-bracket.webp"
+        },
+        {
+          "position": 4,
+          "mediaId": 16047,
+          "auditIndex": 54,
+          "stage": "mounted-result/detail",
+          "alt": "LG QNED mounted and displaying its initial setup screen",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-qned-home-audio-img-9836.webp"
+        }
+      ],
+      "orderingNote": "Last image shows mounted TV powered to a setup screen; full configuration is not established.",
+      "hasSeparateFullTvFinal": true
+    },
+    {
+      "postId": 15820,
+      "title": "65-Inch Samsung Frame Pro with a Recessed Outlet",
+      "url": "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+      "location": {
+        "status": "UNVERIFIED",
+        "termIds": [],
+        "label": null,
+        "evidence": "Existing audited source mapping/client material has not established an actual installation city. Editorial tag is excluded as evidence.",
+        "limit": null
+      },
+      "previousGalleryOrder": [
+        16041,
+        16043,
+        16045,
+        15855
+      ],
+      "gallery": [
+        {
+          "position": 1,
+          "mediaId": 16045,
+          "auditIndex": 48,
+          "stage": "before",
+          "alt": "Rear of the Samsung Frame television and its packaging before mounting",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-recessed-outlet-img-0160.webp"
+        },
+        {
+          "position": 2,
+          "mediaId": 16041,
+          "auditIndex": 46,
+          "stage": "preparation",
+          "alt": "Installer measuring the Frame TV position while the display is prepared nearby",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-recessed-outlet-img-0164.webp"
+        },
+        {
+          "position": 3,
+          "mediaId": 16043,
+          "auditIndex": 47,
+          "stage": "preparation",
+          "alt": "Installer checking the mounting height on the textured wall",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-recessed-outlet-img-0162.webp"
+        },
+        {
+          "position": 4,
+          "mediaId": 15855,
+          "auditIndex": 50,
+          "stage": "mounted-result/detail",
+          "alt": "Recessed outlet and connected power cord behind the Samsung Frame Pro",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/frame-pro-recessed-power-outlet.webp"
+        }
+      ],
+      "orderingNote": "No additional completed-TV photograph apart from excluded Hero49. Last image is the installed recessed-outlet detail, not a full completed-TV view. Do not duplicate Hero to fabricate a final gallery image.",
+      "hasSeparateFullTvFinal": false
+    },
+    {
+      "postId": 15818,
+      "title": "85-Inch Sony BRAVIA and Sonos Arc Ultra Installation",
+      "url": "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+      "location": {
+        "status": "UNVERIFIED",
+        "termIds": [],
+        "label": null,
+        "evidence": "Existing audited source mapping/client material has not established an actual installation city. Editorial tag is excluded as evidence.",
+        "limit": null
+      },
+      "previousGalleryOrder": [
+        15854,
+        16034,
+        16036,
+        16040,
+        16044
+      ],
+      "gallery": [
+        {
+          "position": 1,
+          "mediaId": 16034,
+          "auditIndex": 41,
+          "stage": "before",
+          "alt": "Sony television packaging and equipment before installation",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0218.webp"
+        },
+        {
+          "position": 2,
+          "mediaId": 15854,
+          "auditIndex": 40,
+          "stage": "preparation",
+          "alt": "Mounting rails secured to the rear of the Sony BRAVIA television",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-mounting-rails.webp"
+        },
+        {
+          "position": 3,
+          "mediaId": 16044,
+          "auditIndex": 45,
+          "stage": "mounted-result/detail",
+          "alt": "Side profile of the Sony BRAVIA and Sonos Arc Ultra installation",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0234.webp"
+        },
+        {
+          "position": 4,
+          "mediaId": 16040,
+          "auditIndex": 44,
+          "stage": "mounted-result/detail",
+          "alt": "Angled close view of the Sony BRAVIA screen and Sonos soundbar",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0230.webp"
+        },
+        {
+          "position": 5,
+          "mediaId": 16036,
+          "auditIndex": 43,
+          "stage": "mounted-result/detail",
+          "alt": "Completed Sony BRAVIA and Sonos soundbar arrangement on the wall",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0240.webp"
+        }
+      ],
+      "orderingNote": "All final views show TV/soundbar mounted; supporting cables/equipment remain visible. Cleanup/completion of that equipment is not proven.",
+      "hasSeparateFullTvFinal": true
+    },
+    {
+      "postId": 15816,
+      "title": "77-Inch LG G6 with a Legrand Recessed Media Box",
+      "url": "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+      "location": {
+        "status": "UNVERIFIED",
+        "termIds": [],
+        "label": null,
+        "evidence": "Existing audited source mapping/client material has not established an actual installation city. Editorial tag is excluded as evidence.",
+        "limit": null
+      },
+      "previousGalleryOrder": [
+        16030,
+        16033,
+        16028,
+        16032,
+        16029,
+        16031,
+        16038,
+        15842,
+        16039,
+        16037,
+        16035,
+        15853
+      ],
+      "gallery": [
+        {
+          "position": 1,
+          "mediaId": 16031,
+          "auditIndex": 32,
+          "stage": "before",
+          "alt": "LG OLED packaging in the room before installation",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0683.webp"
+        },
+        {
+          "position": 2,
+          "mediaId": 16039,
+          "auditIndex": 36,
+          "stage": "preparation",
+          "alt": "Installer preparing the recessed media box opening",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0689.webp"
+        },
+        {
+          "position": 3,
+          "mediaId": 16029,
+          "auditIndex": 31,
+          "stage": "preparation",
+          "alt": "Recessed media box and LG mounting plate before the screen was fitted",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0693.webp"
+        },
+        {
+          "position": 4,
+          "mediaId": 15853,
+          "auditIndex": 39,
+          "stage": "preparation",
+          "alt": "Legrand recessed media box positioned to the left of the mounting plate",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-legrand-box-and-mount.webp"
+        },
+        {
+          "position": 5,
+          "mediaId": 16037,
+          "auditIndex": 37,
+          "stage": "preparation",
+          "alt": "Mounting hardware on the rear of the LG television",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0688.webp"
+        },
+        {
+          "position": 6,
+          "mediaId": 16035,
+          "auditIndex": 38,
+          "stage": "installation-process",
+          "alt": "Wide view of the wall mounting plate and recessed box during preparation",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0697.webp"
+        },
+        {
+          "position": 7,
+          "mediaId": 16038,
+          "auditIndex": 34,
+          "stage": "installation-process",
+          "alt": "LG G6 installation viewed from the right side",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0700.webp"
+        },
+        {
+          "position": 8,
+          "mediaId": 15842,
+          "auditIndex": 35,
+          "stage": "installation-process",
+          "alt": "Close side view of the LG G6 operating after installation",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-flush-wall-installation.webp"
+        },
+        {
+          "position": 9,
+          "mediaId": 16030,
+          "auditIndex": 27,
+          "stage": "mounted-result/detail",
+          "alt": "Edge view of the LG G6 fitted close to the wall",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0707.webp"
+        },
+        {
+          "position": 10,
+          "mediaId": 16033,
+          "auditIndex": 28,
+          "stage": "mounted-result/detail",
+          "alt": "Angled side view of the LG G6 and soundbar below",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0706.webp"
+        },
+        {
+          "position": 11,
+          "mediaId": 16028,
+          "auditIndex": 29,
+          "stage": "mounted-result/detail",
+          "alt": "Front-side view of the LG G6 above the existing cabinet",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0705.webp"
+        },
+        {
+          "position": 12,
+          "mediaId": 16032,
+          "auditIndex": 30,
+          "stage": "mounted-result/detail",
+          "alt": "LG G6 screen operating after mounting",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0702.webp"
+        }
+      ],
+      "orderingNote": "Installer remains visible in34/35; these setup images precede unoccupied finished views. Relative chronology of preparation close-ups is uncertain.",
+      "hasSeparateFullTvFinal": true
+    },
+    {
+      "postId": 15814,
+      "title": "55-Inch Samsung OLED on Tile with MantelMount MAX1",
+      "url": "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+      "location": {
+        "status": "UNVERIFIED",
+        "termIds": [],
+        "label": null,
+        "evidence": "Existing audited source mapping/client material has not established an actual installation city. Editorial tag is excluded as evidence.",
+        "limit": null
+      },
+      "previousGalleryOrder": [
+        16018,
+        16017,
+        16020,
+        16023,
+        16025,
+        16026,
+        16027,
+        16024,
+        16022,
+        15852
+      ],
+      "gallery": [
+        {
+          "position": 1,
+          "mediaId": 16022,
+          "auditIndex": 25,
+          "stage": "before",
+          "alt": "Tiled fireplace wall before the television mounting hardware was installed",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0936.webp"
+        },
+        {
+          "position": 2,
+          "mediaId": 16017,
+          "auditIndex": 17,
+          "stage": "before",
+          "alt": "Packaged MantelMount equipment and tools before installation",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0940.webp"
+        },
+        {
+          "position": 3,
+          "mediaId": 16025,
+          "auditIndex": 21,
+          "stage": "preparation",
+          "alt": "MantelMount assembly prepared beside the television",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0941.webp"
+        },
+        {
+          "position": 4,
+          "mediaId": 16018,
+          "auditIndex": 16,
+          "stage": "preparation",
+          "alt": "MantelMount assembly fixed above the tiled fireplace before fitting the TV",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0951.webp"
+        },
+        {
+          "position": 5,
+          "mediaId": 16027,
+          "auditIndex": 23,
+          "stage": "preparation",
+          "alt": "Front view of the MantelMount bracket secured to the tiled surface",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0943.webp"
+        },
+        {
+          "position": 6,
+          "mediaId": 15852,
+          "auditIndex": 26,
+          "stage": "preparation",
+          "alt": "Side view of the MantelMount MAX1 assembly on the tile wall",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/mantelmount-max1-tile-bracket.webp"
+        },
+        {
+          "position": 7,
+          "mediaId": 16023,
+          "auditIndex": 20,
+          "stage": "installation-process",
+          "alt": "Samsung OLED television mounted above the tiled fireplace",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0956.webp"
+        },
+        {
+          "position": 8,
+          "mediaId": 16020,
+          "auditIndex": 18,
+          "stage": "mounted-result/detail",
+          "alt": "Wide view of the Samsung OLED lowered on the MantelMount MAX1",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0967.webp"
+        },
+        {
+          "position": 9,
+          "mediaId": 16026,
+          "auditIndex": 22,
+          "stage": "mounted-result/detail",
+          "alt": "Angled view of the Samsung OLED and soundbar above the tile fireplace",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0964.webp"
+        },
+        {
+          "position": 10,
+          "mediaId": 16024,
+          "auditIndex": 24,
+          "stage": "mounted-result/detail",
+          "alt": "Room view of the Samsung OLED in its raised position above the fireplace",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0965.webp"
+        }
+      ],
+      "orderingNote": "20 has mounted TV, protective sticker and ladder; treated as positioning/setup. Lowered/retracted finished views are functional positions, not a proven chronological sequence.",
+      "hasSeparateFullTvFinal": true
+    },
+    {
+      "postId": 15812,
+      "title": "77-Inch LG C6 and Samsung Q990H Soundbar Installation",
+      "url": "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+      "location": {
+        "status": "UNVERIFIED",
+        "termIds": [],
+        "label": null,
+        "evidence": "Existing audited source mapping/client material has not established an actual installation city. Editorial tag is excluded as evidence.",
+        "limit": null
+      },
+      "previousGalleryOrder": [
+        16013,
+        16012,
+        15851,
+        16010,
+        16021,
+        16016,
+        16019
+      ],
+      "gallery": [
+        {
+          "position": 1,
+          "mediaId": 16013,
+          "auditIndex": 8,
+          "stage": "before",
+          "alt": "Samsung Q990H soundbar system and components before installation",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0836.webp"
+        },
+        {
+          "position": 2,
+          "mediaId": 16021,
+          "auditIndex": 12,
+          "stage": "before",
+          "alt": "Samsung soundbar, speakers and connection accessories laid out before installation",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0840.webp"
+        },
+        {
+          "position": 3,
+          "mediaId": 16016,
+          "auditIndex": 13,
+          "stage": "before",
+          "alt": "Wall marked for the LG C6 installation before mounting",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0830.webp"
+        },
+        {
+          "position": 4,
+          "mediaId": 16012,
+          "auditIndex": 9,
+          "stage": "preparation",
+          "alt": "Installer preparing the recessed box and wall hardware for the LG C6",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0845.webp"
+        },
+        {
+          "position": 5,
+          "mediaId": 16019,
+          "auditIndex": 15,
+          "stage": "preparation",
+          "alt": "Installer measuring the marked TV position on the wall",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0843.webp"
+        },
+        {
+          "position": 6,
+          "mediaId": 15851,
+          "auditIndex": 10,
+          "stage": "preparation",
+          "alt": "Wall bracket beside the recessed media box before the LG C6 was fitted",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-recessed-media-box.webp"
+        },
+        {
+          "position": 7,
+          "mediaId": 16010,
+          "auditIndex": 11,
+          "stage": "mounted-result/detail",
+          "alt": "Angled view of the LG C6 television and Samsung soundbar on the wall",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0858.webp"
+        }
+      ],
+      "orderingNote": "No gallery exists and no additional source-to-case mapping is verified; nothing to reorder.",
+      "hasSeparateFullTvFinal": true
+    },
+    {
+      "postId": 15810,
+      "title": "77-Inch LG G6 Installation on a Stone Fireplace",
+      "url": "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+      "location": {
+        "status": "UNVERIFIED",
+        "termIds": [],
+        "label": null,
+        "evidence": "Existing audited source mapping/client material has not established an actual installation city. Editorial tag is excluded as evidence.",
+        "limit": null
+      },
+      "previousGalleryOrder": [
+        15835,
+        16007,
+        16008,
+        16009,
+        16014,
+        16015,
+        16011
+      ],
+      "gallery": [
+        {
+          "position": 1,
+          "mediaId": 16007,
+          "auditIndex": 1,
+          "stage": "before",
+          "alt": "Packaged LG OLED television before the stone-fireplace installation",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0756.webp"
+        },
+        {
+          "position": 2,
+          "mediaId": 16014,
+          "auditIndex": 5,
+          "stage": "preparation",
+          "alt": "Wide view of the mounting plate and recessed box above the stone fireplace",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0763.webp"
+        },
+        {
+          "position": 3,
+          "mediaId": 15835,
+          "auditIndex": 0,
+          "stage": "preparation",
+          "alt": "Mounting plate and recessed media box prepared in the stone veneer above the fireplace",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-recessed-box.webp"
+        },
+        {
+          "position": 4,
+          "mediaId": 16008,
+          "auditIndex": 3,
+          "stage": "preparation",
+          "alt": "Rear of the LG television with mounting hardware during preparation",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0758.webp"
+        },
+        {
+          "position": 5,
+          "mediaId": 16009,
+          "auditIndex": 4,
+          "stage": "mounted-result/detail",
+          "alt": "Side profile showing the LG G6 fitted close to the stone veneer",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0782.webp"
+        },
+        {
+          "position": 6,
+          "mediaId": 16015,
+          "auditIndex": 6,
+          "stage": "mounted-result/detail",
+          "alt": "Angled view of the LG G6 mounted above the stone fireplace",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0778.webp"
+        },
+        {
+          "position": 7,
+          "mediaId": 16011,
+          "auditIndex": 7,
+          "stage": "mounted-result/detail",
+          "alt": "Front view of the completed LG G6 fireplace installation",
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0767.webp"
+        }
+      ],
+      "orderingNote": "No gallery exists and no additional source-to-case mapping is verified; nothing to reorder.",
+      "hasSeparateFullTvFinal": true
+    },
+    {
+      "postId": 15793,
+      "title": "85-Inch Samsung Neo QLED Installation in Evanston",
+      "url": "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/",
+      "location": {
+        "status": "SOURCE_BACKED_PUBLISHER_ASSERTION",
+        "termIds": [
+          151
+        ],
+        "label": "Evanston, IL",
+        "evidence": "Original attachment10248 caption and description explicitly identify Evanston, IL. No location inferred from filename.",
+        "limit": "Publisher/source attribution retained; not a new customer-address or geolocation verification."
+      },
+      "previousGalleryOrder": [],
+      "gallery": [],
+      "orderingNote": "No gallery exists and no additional source-to-case mapping is verified; nothing to reorder.",
+      "hasSeparateFullTvFinal": false
+    },
+    {
+      "postId": 15791,
+      "title": "TV Wall Mounting in Wilmette",
+      "url": "https://chicagomounting.com/tv-wall-mounting-case-wilmette/",
+      "location": {
+        "status": "SOURCE_BACKED_PUBLISHER_ASSERTION",
+        "termIds": [
+          149
+        ],
+        "label": "Wilmette, IL",
+        "evidence": "Official Chicago Mounting YouTube oEmbed HTTP200: CPoIAAo42LI, title TV Installation in Wilmette, IL | Clean Wall Mount; author Chicago Mounting.",
+        "limit": "Publisher/source attribution retained; not a new customer-address or geolocation verification."
+      },
+      "previousGalleryOrder": [],
+      "gallery": [],
+      "orderingNote": "No gallery exists and no additional source-to-case mapping is verified; nothing to reorder.",
+      "hasSeparateFullTvFinal": false
+    },
+    {
+      "postId": 15792,
+      "title": "Outdoor TV Installation on Brick in Glenview",
+      "url": "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/",
+      "location": {
+        "status": "SOURCE_BACKED_PUBLISHER_ASSERTION",
+        "termIds": [
+          150
+        ],
+        "label": "Glenview, IL",
+        "evidence": "Original attachment9974 caption and description explicitly identify Glenview, IL. No location inferred from image appearance/filename.",
+        "limit": "Publisher/source attribution retained; not a new customer-address or geolocation verification."
+      },
+      "previousGalleryOrder": [],
+      "gallery": [],
+      "orderingNote": "No gallery exists and no additional source-to-case mapping is verified; nothing to reorder.",
+      "hasSeparateFullTvFinal": false
+    },
+    {
+      "postId": 15731,
+      "title": "Samsung Frame TV Installation on Tile",
+      "url": "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/",
+      "location": {
+        "status": "UNRESOLVED_CONFLICT",
+        "termIds": [],
+        "label": null,
+        "evidence": "Source audit: same photograph7316/9963 has Streeterville versus Winnetka assertions; actual-location term145 withheld pending reconciliation.",
+        "limit": null
+      },
+      "previousGalleryOrder": [],
+      "gallery": [],
+      "orderingNote": "No gallery exists and no additional source-to-case mapping is verified; nothing to reorder.",
+      "hasSeparateFullTvFinal": false
+    }
+  ],
+  "locationChanges": {
+    "nativeRow": "cmcb001, Post Info cm_location, prefix Location:",
+    "nativeIntro": "cmgeoint, Post Info cm_location, prefix Installation in; no per-case hardcoded location prose",
+    "terms": [
+      {
+        "id": 151,
+        "name": "Evanston, IL",
+        "slug": "evanston"
+      },
+      {
+        "id": 150,
+        "name": "Glenview, IL",
+        "slug": "glenview"
+      },
+      {
+        "id": 149,
+        "name": "Wilmette, IL",
+        "slug": "wilmette"
+      },
+      {
+        "id": 145,
+        "name": "Winnetka, IL",
+        "slug": "winnetka"
+      }
+    ],
+    "removedUnverifiedAssignment": {
+      "post": 15731,
+      "previousTerm": 145
+    },
+    "contentGeographyEdits": [
+      {
+        "id": 15731,
+        "removed": " on a tile surface in Winnetka, Illinois.",
+        "replacement": " on a tile surface.",
+        "priorLocation": [
+          145
+        ],
+        "location": []
+      },
+      {
+        "id": 15791,
+        "removed": "This TV installation in a Wilmette home is documented",
+        "replacement": "This TV installation is documented",
+        "priorLocation": [
+          149
+        ],
+        "location": [
+          149
+        ]
+      },
+      {
+        "id": 15792,
+        "removed": "This outdoor TV installation in Glenview, Illinois includes",
+        "replacement": "This outdoor TV installation includes",
+        "priorLocation": [
+          150
+        ],
+        "location": [
+          150
+        ]
+      },
+      {
+        "id": 15793,
+        "removed": "This Evanston, Illinois installation features",
+        "replacement": "This installation features",
+        "priorLocation": [
+          151
+        ],
+        "location": [
+          151
+        ]
+      }
+    ],
+    "conflictTitleExcerpt": {
+      "post": 15731,
+      "beforeTitle": "Samsung Frame TV Installation on Tile in Winnetka",
+      "afterTitle": "Samsung Frame TV Installation on Tile",
+      "beforeExcerpt": "A Samsung Frame TV installation on a tile surface in Winnetka, Illinois.",
+      "afterExcerpt": "A Samsung Frame TV installation on a tile surface.",
+      "urlPreserved": true
+    }
+  },
+  "verification": {
+    "kitUnchanged": true,
+    "galleryChecks": [
+      {
+        "id": 15810,
+        "rawMatches": true,
+        "order": [
+          16007,
+          16014,
+          15835,
+          16008,
+          16009,
+          16015,
+          16011
+        ]
+      },
+      {
+        "id": 15812,
+        "rawMatches": true,
+        "order": [
+          16013,
+          16021,
+          16016,
+          16012,
+          16019,
+          15851,
+          16010
+        ]
+      },
+      {
+        "id": 15814,
+        "rawMatches": true,
+        "order": [
+          16022,
+          16017,
+          16025,
+          16018,
+          16027,
+          15852,
+          16023,
+          16020,
+          16026,
+          16024
+        ]
+      },
+      {
+        "id": 15816,
+        "rawMatches": true,
+        "order": [
+          16031,
+          16039,
+          16029,
+          15853,
+          16037,
+          16035,
+          16038,
+          15842,
+          16030,
+          16033,
+          16028,
+          16032
+        ]
+      },
+      {
+        "id": 15818,
+        "rawMatches": true,
+        "order": [
+          16034,
+          15854,
+          16044,
+          16040,
+          16036
+        ]
+      },
+      {
+        "id": 15820,
+        "rawMatches": true,
+        "order": [
+          16045,
+          16041,
+          16043,
+          15855
+        ]
+      },
+      {
+        "id": 15822,
+        "rawMatches": true,
+        "order": [
+          16042,
+          16048,
+          15856,
+          16047
+        ]
+      },
+      {
+        "id": 15824,
+        "rawMatches": true,
+        "order": [
+          16049,
+          16046,
+          15857,
+          16052,
+          16050,
+          16051
+        ]
+      },
+      {
+        "id": 15826,
+        "rawMatches": true,
+        "order": [
+          16055,
+          16053,
+          16056,
+          16054,
+          15858,
+          16057
+        ]
+      },
+      {
+        "id": 15828,
+        "rawMatches": true,
+        "order": [
+          16060,
+          16063,
+          16058,
+          16062,
+          16061,
+          16059,
+          15859
+        ]
+      },
+      {
+        "id": 15830,
+        "rawMatches": true,
+        "order": [
+          16068,
+          16065,
+          15860
+        ]
+      },
+      {
+        "id": 15832,
+        "rawMatches": true,
+        "order": [
+          16070,
+          16073,
+          16069,
+          16067,
+          15861,
+          16064,
+          16071,
+          16066,
+          15850
+        ]
+      }
+    ],
+    "guestChecks": [
+      {
+        "id": 15832,
+        "http": 200,
+        "noindex": true,
+        "h1": 1,
+        "locationWidget": false,
+        "introWidget": false,
+        "galleryOrder": [
+          16070,
+          16073,
+          16069,
+          16067,
+          15861,
+          16064,
+          16071,
+          16066,
+          15850
+        ],
+        "expectedLocation": [],
+        "published": true,
+        "featuredUnchanged": true,
+        "urlUnchanged": true,
+        "editorialUnchanged": true,
+        "rawImageReferences": 18,
+        "galleryOrderMatches": true
+      },
+      {
+        "id": 15830,
+        "http": 200,
+        "noindex": true,
+        "h1": 1,
+        "locationWidget": false,
+        "introWidget": false,
+        "galleryOrder": [
+          16068,
+          16065,
+          15860
+        ],
+        "expectedLocation": [],
+        "published": true,
+        "featuredUnchanged": true,
+        "urlUnchanged": true,
+        "editorialUnchanged": true,
+        "rawImageReferences": 6,
+        "galleryOrderMatches": true
+      },
+      {
+        "id": 15828,
+        "http": 200,
+        "noindex": true,
+        "h1": 1,
+        "locationWidget": false,
+        "introWidget": false,
+        "galleryOrder": [
+          16060,
+          16063,
+          16058,
+          16062,
+          16061,
+          16059,
+          15859
+        ],
+        "expectedLocation": [],
+        "published": true,
+        "featuredUnchanged": true,
+        "urlUnchanged": true,
+        "editorialUnchanged": true,
+        "rawImageReferences": 14,
+        "galleryOrderMatches": true
+      },
+      {
+        "id": 15826,
+        "http": 200,
+        "noindex": true,
+        "h1": 1,
+        "locationWidget": false,
+        "introWidget": false,
+        "galleryOrder": [
+          16055,
+          16053,
+          16056,
+          16054,
+          15858,
+          16057
+        ],
+        "expectedLocation": [],
+        "published": true,
+        "featuredUnchanged": true,
+        "urlUnchanged": true,
+        "editorialUnchanged": true,
+        "rawImageReferences": 12,
+        "galleryOrderMatches": true
+      },
+      {
+        "id": 15824,
+        "http": 200,
+        "noindex": true,
+        "h1": 1,
+        "locationWidget": false,
+        "introWidget": false,
+        "galleryOrder": [
+          16049,
+          16046,
+          15857,
+          16052,
+          16050,
+          16051
+        ],
+        "expectedLocation": [],
+        "published": true,
+        "featuredUnchanged": true,
+        "urlUnchanged": true,
+        "editorialUnchanged": true,
+        "rawImageReferences": 12,
+        "galleryOrderMatches": true
+      },
+      {
+        "id": 15822,
+        "http": 200,
+        "noindex": true,
+        "h1": 1,
+        "locationWidget": false,
+        "introWidget": false,
+        "galleryOrder": [
+          16042,
+          16048,
+          15856,
+          16047
+        ],
+        "expectedLocation": [],
+        "published": true,
+        "featuredUnchanged": true,
+        "urlUnchanged": true,
+        "editorialUnchanged": true,
+        "rawImageReferences": 8,
+        "galleryOrderMatches": true
+      },
+      {
+        "id": 15820,
+        "http": 200,
+        "noindex": true,
+        "h1": 1,
+        "locationWidget": false,
+        "introWidget": false,
+        "galleryOrder": [
+          16045,
+          16041,
+          16043,
+          15855
+        ],
+        "expectedLocation": [],
+        "published": true,
+        "featuredUnchanged": true,
+        "urlUnchanged": true,
+        "editorialUnchanged": true,
+        "rawImageReferences": 8,
+        "galleryOrderMatches": true
+      },
+      {
+        "id": 15818,
+        "http": 200,
+        "noindex": true,
+        "h1": 1,
+        "locationWidget": false,
+        "introWidget": false,
+        "galleryOrder": [
+          16034,
+          15854,
+          16044,
+          16040,
+          16036
+        ],
+        "expectedLocation": [],
+        "published": true,
+        "featuredUnchanged": true,
+        "urlUnchanged": true,
+        "editorialUnchanged": true,
+        "rawImageReferences": 10,
+        "galleryOrderMatches": true
+      },
+      {
+        "id": 15816,
+        "http": 200,
+        "noindex": true,
+        "h1": 1,
+        "locationWidget": false,
+        "introWidget": false,
+        "galleryOrder": [
+          16031,
+          16039,
+          16029,
+          15853,
+          16037,
+          16035,
+          16038,
+          15842,
+          16030,
+          16033,
+          16028,
+          16032
+        ],
+        "expectedLocation": [],
+        "published": true,
+        "featuredUnchanged": true,
+        "urlUnchanged": true,
+        "editorialUnchanged": true,
+        "rawImageReferences": 24,
+        "galleryOrderMatches": true
+      },
+      {
+        "id": 15814,
+        "http": 200,
+        "noindex": true,
+        "h1": 1,
+        "locationWidget": false,
+        "introWidget": false,
+        "galleryOrder": [
+          16022,
+          16017,
+          16025,
+          16018,
+          16027,
+          15852,
+          16023,
+          16020,
+          16026,
+          16024
+        ],
+        "expectedLocation": [],
+        "published": true,
+        "featuredUnchanged": true,
+        "urlUnchanged": true,
+        "editorialUnchanged": true,
+        "rawImageReferences": 20,
+        "galleryOrderMatches": true
+      },
+      {
+        "id": 15812,
+        "http": 200,
+        "noindex": true,
+        "h1": 1,
+        "locationWidget": false,
+        "introWidget": false,
+        "galleryOrder": [
+          16013,
+          16021,
+          16016,
+          16012,
+          16019,
+          15851,
+          16010
+        ],
+        "expectedLocation": [],
+        "published": true,
+        "featuredUnchanged": true,
+        "urlUnchanged": true,
+        "editorialUnchanged": true,
+        "rawImageReferences": 14,
+        "galleryOrderMatches": true
+      },
+      {
+        "id": 15810,
+        "http": 200,
+        "noindex": true,
+        "h1": 1,
+        "locationWidget": false,
+        "introWidget": false,
+        "galleryOrder": [
+          16007,
+          16014,
+          15835,
+          16008,
+          16009,
+          16015,
+          16011
+        ],
+        "expectedLocation": [],
+        "published": true,
+        "featuredUnchanged": true,
+        "urlUnchanged": true,
+        "editorialUnchanged": true,
+        "rawImageReferences": 14,
+        "galleryOrderMatches": true
+      },
+      {
+        "id": 15793,
+        "http": 200,
+        "noindex": true,
+        "h1": 1,
+        "locationWidget": true,
+        "introWidget": true,
+        "galleryOrder": [],
+        "expectedLocation": [
+          151
+        ],
+        "published": true,
+        "featuredUnchanged": true,
+        "urlUnchanged": true,
+        "editorialUnchanged": true,
+        "rawImageReferences": 0,
+        "galleryOrderMatches": true
+      },
+      {
+        "id": 15791,
+        "http": 200,
+        "noindex": true,
+        "h1": 1,
+        "locationWidget": true,
+        "introWidget": true,
+        "galleryOrder": [],
+        "expectedLocation": [
+          149
+        ],
+        "published": true,
+        "featuredUnchanged": true,
+        "urlUnchanged": true,
+        "editorialUnchanged": true,
+        "rawImageReferences": 0,
+        "galleryOrderMatches": true
+      },
+      {
+        "id": 15792,
+        "http": 200,
+        "noindex": true,
+        "h1": 1,
+        "locationWidget": true,
+        "introWidget": true,
+        "galleryOrder": [],
+        "expectedLocation": [
+          150
+        ],
+        "published": true,
+        "featuredUnchanged": true,
+        "urlUnchanged": true,
+        "editorialUnchanged": true,
+        "rawImageReferences": 0,
+        "galleryOrderMatches": true
+      },
+      {
+        "id": 15731,
+        "http": 200,
+        "noindex": true,
+        "h1": 1,
+        "locationWidget": false,
+        "introWidget": false,
+        "galleryOrder": [],
+        "expectedLocation": [],
+        "published": true,
+        "featuredUnchanged": true,
+        "urlUnchanged": true,
+        "editorialUnchanged": true,
+        "rawImageReferences": 0,
+        "galleryOrderMatches": true
+      }
+    ]
+  },
+  "browserChecks": {
+    "gallery": "Desktop15810: first packaging, Next prepared wall, group ending completed installation; mobile15832: first packaging, Next bare wall, last wide completed view, Close. Transition animation required fresh reads; no blanket keyboard certification.",
+    "location": "Desktop15791: native Location/intro WilmetteIL; scrollY1080 sidebarTop120, bottom374.84375 while sectionBottom604.25; later sidebarBottom=sectionBottom244.25. Mobile15792: nativeGlenviewIL/static/no overflow. Unknown15731: row/intro absent desktop+mobile.",
+    "typography": "Actual service3398 computed roles match Single; visuals desktop1280/tablet820/mobile390, no overflow; temporary viewport reset."
+  },
+  "recovery": {
+    "singleBefore": {
+      "id": 15714,
+      "date": "2026-11-06T16:28:47",
+      "date_gmt": "2026-11-06T22:28:47",
+      "modified": "2026-11-08T10:12:05",
+      "modified_gmt": "2026-11-08T16:12:05",
+      "password": "",
+      "slug": "cm-single-case-draft",
+      "status": "publish",
+      "type": "elementor_library",
+      "link": "https://chicagomounting.com/?elementor_library=cm-single-case-draft",
+      "title": {
+        "raw": "CM — Single Case",
+        "rendered": "CM — Single Case"
+      },
+      "author": 1,
+      "featured_media": 0,
+      "template": "",
+      "meta": {
+        "_acf_changed": false,
+        "_elementor_edit_mode": "builder",
+        "_elementor_template_type": "single-post",
+        "_elementor_data": "[{\"id\":\"6d6ca67c\",\"elType\":\"e-div-block\",\"settings\":{\"classes\":{\"$$type\":\"classes\",\"value\":[\"e-59df797c-6d8e\"]},\"tag\":{\"$$type\":\"string\",\"value\":\"article\"}},\"elements\":[{\"id\":\"b2f7e81\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<nav aria-label=\\\"Breadcrumb\\\"><a href=\\\"https://chicagomounting.com/installation-case-studies-draft/\\\">Case Studies</a> / Installation Details</nav>\",\"_css_classes\":\"cm-case-breadcrumb\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"0bae6cd\",\"elType\":\"container\",\"settings\":{\"content_width\":\"full\",\"flex_direction\":\"column\",\"flex_align_items\":\"flex-start\",\"flex_gap\":{\"unit\":\"px\",\"row\":\"16\",\"column\":\"16\",\"isLinked\":true},\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"32\",\"left\":\"0\",\"isLinked\":false},\"css_classes\":\"cm-case-heading\"},\"elements\":[{\"id\":\"59cad9c\",\"elType\":\"widget\",\"settings\":{\"title\":\"Project title\",\"header_size\":\"h1\",\"__dynamic__\":{\"title\":\"[elementor-tag id=\\\"632191f\\\" name=\\\"post-title\\\" settings=\\\"%7B%7D\\\"]\"},\"_css_classes\":\"cm-case-title\",\"align\":\"left\",\"align_tablet\":\"left\",\"align_mobile\":\"left\",\"__globals__\":{\"title_color\":\"globals/colors?id=primary\",\"typography_typography\":\"globals/typography?id=78732fe\"}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"0981606\",\"elType\":\"widget\",\"settings\":{\"title\":\"Project summary\",\"header_size\":\"div\",\"__dynamic__\":{\"title\":\"[elementor-tag id=\\\"3992dcb\\\" name=\\\"post-excerpt\\\" settings=\\\"%7B%7D\\\"]\"},\"_css_classes\":\"cm-case-summary\",\"align\":\"left\",\"__globals__\":{\"typography_typography\":\"globals/typography?id=4229e4b\",\"title_color\":\"globals/colors?id=text\"},\"_element_width\":\"initial\",\"_element_custom_width\":{\"unit\":\"px\",\"size\":820}},\"elements\":[],\"widgetType\":\"heading\"}],\"isInner\":false},{\"id\":\"592c353d\",\"elType\":\"widget\",\"settings\":{\"__dynamic__\":{\"image\":\"[elementor-tag id=\\\"58e6cb4\\\" name=\\\"post-featured-image\\\" settings=\\\"%7B%22fallback%22%3A%7B%22url%22%3A%22%22%2C%22id%22%3A%22%22%2C%22size%22%3A%22%22%7D%7D\\\"]\"},\"width\":{\"unit\":\"%\",\"size\":100},\"space\":{\"unit\":\"%\",\"size\":100},\"_css_classes\":\"cm-case-cover\",\"image_size\":\"full\",\"height\":{\"unit\":\"px\",\"size\":\"\"},\"height_mobile\":{\"unit\":\"px\",\"size\":\"\"},\"object-fit\":\"contain\",\"image_border_radius\":{\"unit\":\"px\",\"top\":\"4\",\"right\":\"4\",\"bottom\":\"4\",\"left\":\"4\",\"isLinked\":false},\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"32\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"theme-post-featured-image\"},{\"id\":\"398064b9\",\"elType\":\"container\",\"settings\":{\"content_width\":\"full\",\"flex_direction\":\"row\",\"flex_direction_mobile\":\"column\",\"flex_wrap\":\"nowrap\",\"flex_gap\":{\"unit\":\"px\",\"row\":\"48\",\"column\":\"48\",\"isLinked\":true},\"flex_gap_tablet\":{\"unit\":\"px\",\"row\":\"32\",\"column\":\"32\",\"isLinked\":true},\"flex_gap_mobile\":{\"unit\":\"px\",\"row\":\"32\",\"column\":\"32\",\"isLinked\":true},\"flex_align_items\":\"flex-start\",\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"css_classes\":\"cm-case-body\",\"flex_direction_tablet\":\"column\"},\"elements\":[{\"id\":\"cmcs001\",\"elType\":\"container\",\"settings\":{\"content_width\":\"full\",\"flex_direction\":\"column\",\"width\":{\"unit\":\"%\",\"size\":24},\"width_tablet\":{\"unit\":\"%\",\"size\":100},\"width_mobile\":{\"unit\":\"%\",\"size\":100},\"flex_gap\":{\"unit\":\"px\",\"row\":\"20\",\"column\":\"20\",\"isLinked\":true},\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"css_classes\":\"cm-case-facts-column\",\"html_tag\":\"aside\"},\"elements\":[{\"id\":\"cmcs002\",\"elType\":\"widget\",\"settings\":{\"title\":\"Project facts\",\"__globals__\":{\"typography_typography\":\"globals/typography?id=c569f17\",\"title_color\":\"globals/colors?id=primary\"}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"cmcb001\",\"elType\":\"widget\",\"settings\":{\"icon_list\":[{\"type\":\"terms\",\"selected_icon\":{\"value\":\"far fa-user-circle\",\"library\":\"fa-regular\"},\"custom_date_format\":\"F j, Y\",\"custom_time_format\":\"g:i a\",\"taxonomy\":\"cm_location\",\"show_icon\":\"none\",\"_id\":\"246c9a4\",\"link\":\"\",\"text_prefix\":\"Location: \"}],\"_element_width_mobile\":\"inherit\",\"_element_custom_width\":{\"unit\":\"%\",\"size\":100},\"_element_custom_width_mobile\":{\"unit\":\"px\",\"size\":100,\"sizes\":[]},\"_css_classes\":\"cm-case-location\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_element_width\":\"inherit\"},\"elements\":[],\"widgetType\":\"post-info\"},{\"id\":\"83d0898\",\"elType\":\"widget\",\"settings\":{\"icon_list\":[{\"type\":\"terms\",\"selected_icon\":{\"value\":\"far fa-user-circle\",\"library\":\"fa-regular\"},\"_id\":\"71a83a7\",\"custom_date_format\":\"F j, Y\",\"custom_time_format\":\"g:i a\",\"taxonomy\":\"cm_installation_type\",\"text_prefix\":\"Installation: \",\"show_icon\":\"none\",\"link\":\"\"}],\"_element_width_mobile\":\"inherit\",\"_element_custom_width\":{\"unit\":\"%\",\"size\":100},\"_element_custom_width_mobile\":{\"unit\":\"px\",\"size\":100,\"sizes\":[]},\"_css_classes\":\"cm-case-facts\"},\"elements\":[],\"widgetType\":\"post-info\"},{\"id\":\"cmcs003\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Planning a similar installation?</p>\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"cmcs004\",\"elType\":\"widget\",\"settings\":{\"text\":\"Get a Free Quote\",\"link\":{\"url\":\"https://chicagomounting.com/quote/\"},\"_css_classes\":\"cm-case-quote btn btn-md btn-outline\",\"align\":\"left\",\"__globals__\":{\"typography_typography\":\"globals/typography?id=d0e77c2\"}},\"elements\":[],\"widgetType\":\"button\"}],\"isInner\":true},{\"id\":\"cmcm001\",\"elType\":\"container\",\"settings\":{\"content_width\":\"full\",\"flex_direction\":\"column\",\"width\":{\"unit\":\"%\",\"size\":70},\"width_tablet\":{\"unit\":\"%\",\"size\":100},\"width_mobile\":{\"unit\":\"%\",\"size\":100},\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"css_classes\":\"cm-case-main\"},\"elements\":[{\"id\":\"5870cef0\",\"elType\":\"widget\",\"settings\":{\"__globals__\":{\"text_color\":\"globals/colors?id=text\",\"typography_typography\":\"globals/typography?id=132a2a3\"}},\"elements\":[],\"widgetType\":\"theme-post-content\"}],\"isInner\":true}],\"isInner\":false},{\"id\":\"2771544\",\"elType\":\"container\",\"settings\":{\"content_width\":\"full\",\"flex_direction\":\"column\",\"flex_gap\":{\"unit\":\"px\",\"row\":\"24\",\"column\":\"24\",\"isLinked\":true},\"_title\":\"More installation case studies\",\"css_classes\":\"cm-case-related\",\"padding\":{\"unit\":\"px\",\"top\":\"48\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"b33e9d6\",\"elType\":\"widget\",\"settings\":{\"title\":\"More Installation Case Studies\",\"__globals__\":{\"typography_typography\":\"globals/typography?id=4b3367a\",\"title_color\":\"globals/colors?id=secondary\"}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"b0668c1\",\"elType\":\"widget\",\"settings\":{\"template_id\":\"15715\",\"post_query_include\":[\"terms\"],\"post_query_include_term_ids\":[\"144\"],\"posts_per_page\":3,\"columns\":3,\"columns_tablet\":2,\"columns_mobile\":1,\"column_gap\":{\"unit\":\"px\",\"size\":24},\"row_gap\":{\"unit\":\"px\",\"size\":24},\"pagination_page_limit\":\"\",\"enable_nothing_found_message\":\"yes\",\"nothing_found_message_text\":\"More installation case studies will be added here.\",\"post_query_exclude\":[\"current_post\"],\"post_query_orderby\":\"date\",\"alternate_templates\":[{\"template_id\":null,\"_id\":\"8fb73f9\"}],\"pagination_prev_label\":\"Previous\",\"pagination_next_label\":\"Next\",\"text\":\"Load More\",\"load_more_no_posts_custom_message\":\"No more posts to show\"},\"elements\":[],\"widgetType\":\"loop-grid\"}],\"isInner\":false},{\"id\":\"748f7af\",\"elType\":\"container\",\"settings\":{\"content_width\":\"full\",\"flex_direction\":\"column\",\"flex_gap\":{\"unit\":\"px\",\"row\":\"24\",\"column\":\"24\",\"isLinked\":true},\"_title\":\"Final quote CTA\",\"css_classes\":\"cm-case-final\",\"padding\":{\"unit\":\"px\",\"top\":\"48\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"cmct3092\",\"elType\":\"widget\",\"widgetType\":\"template\",\"settings\":{\"template_id\":\"3092\"},\"elements\":[]}],\"isInner\":false}],\"isInner\":false,\"styles\":{\"e-59df797c-6d8e\":{\"id\":\"e-59df797c-6d8e\",\"label\":\"local\",\"type\":\"class\",\"variants\":[{\"meta\":{\"breakpoint\":\"desktop\",\"state\":null},\"props\":{\"max-width\":{\"$$type\":\"size\",\"value\":{\"size\":75,\"unit\":\"rem\"}},\"padding\":{\"$$type\":\"dimensions\",\"value\":{\"block-start\":{\"$$type\":\"size\",\"value\":{\"size\":32,\"unit\":\"px\"}},\"inline-end\":{\"$$type\":\"size\",\"value\":{\"size\":1.25,\"unit\":\"rem\"}},\"block-end\":{\"$$type\":\"size\",\"value\":{\"size\":64,\"unit\":\"px\"}},\"inline-start\":{\"$$type\":\"size\",\"value\":{\"size\":1.25,\"unit\":\"rem\"}}}},\"margin\":{\"$$type\":\"dimensions\",\"value\":{\"block-start\":{\"$$type\":\"size\",\"value\":{\"size\":0,\"unit\":\"px\"}},\"inline-end\":{\"$$type\":\"size\",\"value\":{\"size\":\"\",\"unit\":\"auto\"}},\"block-end\":{\"$$type\":\"size\",\"value\":{\"size\":0,\"unit\":\"px\"}},\"inline-start\":{\"$$type\":\"size\",\"value\":{\"size\":\"\",\"unit\":\"auto\"}}}},\"display\":{\"$$type\":\"string\",\"value\":\"block\"}},\"custom_css\":null}]}},\"editor_settings\":{\"title\":\"Case\"},\"version\":\"0.0\"}]",
+        "_elementor_page_settings": {
+          "custom_css": "/* Native layout; only intrinsic media, WordPress content and focus need scoped rules. */\n.elementor-15714 .cm-case-cover img{display:block;width:100%!important;height:auto!important;aspect-ratio:16/9;object-fit:cover;object-position:center center;max-width:100%;max-height:none;margin-inline:auto}\n.elementor-15714 .cm-case-main h2{font-family:Kanit,sans-serif;font-size:clamp(20px,1.8vw,26px);font-weight:400;line-height:1.2;letter-spacing:.025em;text-transform:uppercase;margin:32px 0 16px}\n.elementor-15714 .cm-case-main h2:first-child{margin-top:0}\n.elementor-15714 .cm-case-main .gallery img{border:0!important;width:100%;height:auto}\n.elementor-15714 .cm-case-main iframe{width:100%;height:auto;aspect-ratio:16/9;border:0}\n.elementor-15714 .elementor-icon-list-item:not(:has(.elementor-post-info__terms-list-item)){display:none}\n.elementor-15714 .btn .elementor-button:focus-visible{outline:2px solid var(--e-global-color-accent);outline-offset:4px}\n\n.elementor-15714 .cm-case-breadcrumb{margin:0 0 20px;font-size:14px}\n.elementor-15714 .cm-case-breadcrumb a{color:inherit;text-decoration:underline}\n.elementor-15714 .cm-case-related .elementor-loop-container{align-items:stretch}\n.elementor-15714 .cm-case-final{border-top:1px solid #e1e6dc;margin-top:48px}\n.elementor-15714 .cm-case-final .elementor-widget-text-editor{max-width:65ch}\n.elementor-15714 .cm-case-breadcrumb a:focus-visible{outline:2px solid var(--e-global-color-accent);outline-offset:4px}\n\n/* Project facts: native CSS sticky is bounded by the existing content section. */\n@media (min-width:1025px){\n.elementor-15714 .cm-case-facts-column{position:sticky;top:88px;align-self:flex-start}\nbody.admin-bar .elementor-15714 .cm-case-facts-column{top:120px}\n}\n@media (max-width:1024px){.elementor-15714 .cm-case-facts-column{position:static;top:auto}}\n\n/* Natural-ratio, arbitrary-length WordPress galleries; Elementor owns the lightbox. */\n.elementor-15714 .cm-case-main .gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin:0}\n.elementor-15714 .cm-case-main .gallery .gallery-item{width:100%;max-width:none;float:none;margin:0}\n.elementor-15714 .cm-case-main .gallery br{display:none}\n.elementor-15714 .cm-case-main .gallery a{display:block}\n.elementor-15714 .cm-case-main .gallery img{display:block;border-radius:8px}\n@media(max-width:767px){.elementor-15714 .cm-case-main .gallery{grid-template-columns:minmax(0,1fr);gap:16px}}\n"
+        },
+        "_elementor_conditions": [
+          "include/singular/in_category/144"
+        ]
+      },
+      "permalink_template": "https://chicagomounting.com/?elementor_library=cm-single-case-draft",
+      "generated_slug": "cm-single-case",
+      "class_list": [
+        "post-15714",
+        "elementor_library",
+        "type-elementor_library",
+        "status-publish",
+        "hentry"
+      ],
+      "acf": []
+    },
+    "termsBefore": [
+      {
+        "id": 151,
+        "name": "Evanston",
+        "slug": "evanston"
+      },
+      {
+        "id": 150,
+        "name": "Glenview",
+        "slug": "glenview"
+      },
+      {
+        "id": 149,
+        "name": "Wilmette",
+        "slug": "wilmette"
+      },
+      {
+        "id": 145,
+        "name": "Winnetka",
+        "slug": "winnetka"
+      }
+    ],
+    "old15731": {
+      "title": "Samsung Frame TV Installation on Tile in Winnetka",
+      "excerpt": "A Samsung Frame TV installation on a tile surface in Winnetka, Illinois.",
+      "cm_location": [
+        145
+      ]
+    },
+    "contentReplacements": [
+      {
+        "id": 15731,
+        "removed": " on a tile surface in Winnetka, Illinois.",
+        "replacement": " on a tile surface.",
+        "priorLocation": [
+          145
+        ],
+        "location": []
+      },
+      {
+        "id": 15791,
+        "removed": "This TV installation in a Wilmette home is documented",
+        "replacement": "This TV installation is documented",
+        "priorLocation": [
+          149
+        ],
+        "location": [
+          149
+        ]
+      },
+      {
+        "id": 15792,
+        "removed": "This outdoor TV installation in Glenview, Illinois includes",
+        "replacement": "This outdoor TV installation includes",
+        "priorLocation": [
+          150
+        ],
+        "location": [
+          150
+        ]
+      },
+      {
+        "id": 15793,
+        "removed": "This Evanston, Illinois installation features",
+        "replacement": "This installation features",
+        "priorLocation": [
+          151
+        ],
+        "location": [
+          151
+        ]
+      }
+    ]
+  }
+}
