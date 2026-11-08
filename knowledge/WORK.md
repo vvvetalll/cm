@@ -492,3 +492,14 @@ Final representative1366/768/390 actual responsive checks:396/344/350px square t
 All16 retain breadcrumbs, Back to All Case Studies,three related cards and native complete bottom CTA. Canonical objects/global Kit/filter configuration unchanged. Existing4x4 editorial memberships previously tested;15731 remains Winnetka editorial. City/service integration sections remain unpublished.
 
 Exact per-case prior issues, actual rewrite scope, gallery before/after counts, source evidence, missing-photo reasons, crop values, tests and limitations: docs/cases/FINAL-CONTENT-GALLERIES-2026-11-08.md (7afb4ba). This supersedes the in-progress final-copy/crop statements in the preceding checkpoint. Remaining: genuine additional photos for original4 and prior Featured-source/resolution limits, later owner content/factual/photo refinement and explicit integration launch.
+
+
+## 2026-11-08 — Physical breadcrumb order, native Facts and second editorial correction
+
+Updated existing Single15714: breadcrumb a4a0776 physically before H1/summary; native Facts16px gap, explicit20px padding/10px radius on smaller breakpoints, existing Light green/Kanit roles, green18px TV/map icons and Installation Type label; sidebar Quote/invitation hidden mobile via native controls. Optional Equipment omitted: no existing structured field; equipment stays in copy. Existing desktop sticky/static smaller rules retained.
+
+Rewrote all16 stories to remove filler/redundant section splits; retained Installation Details only15810/15818. All16 saves exact; figure/video markup compare unchanged with before backup. Titles/excerpts/URLs/featured/taxonomies/tags and SEO unchanged (only automatic SEO timestamps differ). Rechecked folders13–16 contact sheets against original4 references; no matching additional photos. Existing80 photos/12 galleries retained; older15731/15791/15792/15793 gallery0 remains an evidence limit.
+
+Found real stale public background CSS with padding0; existing Hostinger clear-cache API returned200/purged=true. Plain public page then served regenerated Light green/20px/10px/16px-gap/18px-icon CSS. All16 anonymous URLs200/noindex/oneH1/current prose/breadcrumb-first/TV icon/mobile-hidden Quote, no internal text or standalone story links. All16 publish.15731 existing unassigned actual location preserved; editorial Winnetka unchanged.
+
+**Not visually certified:** browser sandbox startup and Windows helper failed. No new all-breakpoint rendered/overflow/sticky-scroll/lightbox/keyboard/CTA-visibility QA; CSS/HTML inspection is not that test. Full completion remains blocked on functioning browser. Integrations remain unpublished. Detailed exact changes, source limits, checks and next action: docs/cases/BREADCRUMBS-FACTS-COPY-2026-11-08.md. Backup committed before writes96cd96f. This supersedes prior story wording, not existing image mappings or launch hold.
