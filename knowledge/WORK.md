@@ -464,3 +464,14 @@ Exact IDs, native CTA tree, fifteen-location table, source/provenance decision, 
 ## 2026-11-08 — Global image presentation standard saved (documentation only)
 
 User approved a standing visual rule: uniform thumbnail ratios within each grid, square 1:1 for case galleries, 16:9 for case cards, existing approved ratios elsewhere; subject-aware crops; complete uncropped images in lightbox. Added to AGENTS.md for all future Chicago Mounting work. This is a **documentation-only** stage: no WordPress pages, images, templates, media, or CSS were edited or visually tested. Next: apply these rules during authorized gallery/card work and verify rendered responsive results. Existing city/service launch hold and case noindex remain unchanged.
+
+
+## 2026-11-08 — Navigation, responsive Facts and thumbnail checkpoint; final copy in progress
+
+Single15714 native breadcrumbs a4a0776 and Back to All Case Studies button b717bf4 implemented and actual catalogue transitions verified. Facts native bg #EFF2EF/padding20px already consistent; white mobile state not reproduced. Added native10px radius matching CM cards; measured desktop1366/sidebar278.390625, tablet768/full708, mobile390/full350, same color/padding/radius; desktop sticky, smaller static, no overflow.
+
+Approved editorial matrix tested through existing native post_tag Location filter15958/Set15744: four cases per city, exact GitHub memberships,15731 included in Winnetka. No tags/filter configuration/integration blocks changed. Owner stopped an unsolicited provenance cleanup; ten affected records restored to their exact prior title/overview/SEO/location. Preserve current H1/location/metadata; editorial membership is not source proof.
+
+Single's original scoped gallery rule now renders square1:1 cover thumbnails (396x396 desktop observed), preserving original-ratio file links,80 photographs/order/alt/srcset. Crop review still in progress; no all80/lightbox completion claim yet. AGENTS image standards were concurrently saved by another documentation stage; preserved that addition and appended final editorial/preservation boundary.
+
+Completed/intermediate details: docs/cases/NAVIGATION-FACTS-THUMBNAILS-2026-11-08.md (23bad23). Expanded latest task is now all16 professional Post Content rewrites, internal/link cleanup, older4 missing-gallery source re-investigation and final actual verification. Current source originals123/31 unmapped accessible locally. Original folders13–16 visually rechecked against older reference photos; no assignment made yet. No city/service launch; all cases remain published/noindex.
