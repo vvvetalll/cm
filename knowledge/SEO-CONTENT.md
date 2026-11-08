@@ -324,3 +324,14 @@ Supersedes historical statements treating15731 as a confirmed Winnetka installat
 15731 remains unresolved: same photo7316/9963 has Streeterville/Winnetka assertions. Cleared its actual cm_location145 assignment, retained the term and editorial tag, removed city phrase from overview/title/excerpt, preserved URL. Do not set Streeterville without resolving the installation identity. Actual location remains unspecified on all12 newer15810–15832 cases. Thus3 source-backed /13 unknown-or-conflicted.
 
 Single15714 uses native cm_location Post Info for Location: city, IL in facts and Installation in city, IL in introduction; both omitted when empty. Four existing actual term names include IL; IDs/slugs preserved. No per-case hardcoded location text introduced. City/service blocks stay withdrawn until final launch approval. Full16-case evidence/sequence/typography/verification and rollback: docs/cases/SINGLE-REFINEMENTS-2026-11-08.md and refinements-sequence-location-2026-11-08.json.
+
+
+## 2026-11-08 — Owner-confirmed cities supersede newer-case unknown status
+
+The owner explicitly confirmed using the existing catalogue city tags as actual job locations and requested location-aware headings, descriptions and SEO. This is new owner attribution, not a new finding in original client notes or a photo/filename inference.
+
+Saved existing cm_location terms for twelve newer cases: Glenview15832/15826/15816; Wilmette15830/15822/15820; Winnetka15828/15818/15810; Evanston15824/15814/15812. Original15791 Wilmette,15792 Glenview,15793 Evanston retained. Fifteen Post Titles/H1 and AIOSEO title/meta descriptions now include their city; overview mentions it naturally. Hero excerpts and original URLs unchanged. Editorial tags and cm_location remain distinct data stores. The owner specifically rejected the separate Installation in city Hero line: native cmgeoint removed from15714. Facts cmcb001 still dynamically displays actual Location with native green pin.
+
+Automatic review rejected applying the general confirmation to conflicted15731 because the earlier explicit Winnetka/Streeterville hold requires specific confirmation. No location/title/SEO update executed for15731. Its actual location stays empty; obtain exact-case owner confirmation before changing it.
+
+All16 final public pages retain noindex;15 expected H1/Location/pin and exact title/meta matches verified. No integration blocks republished. Full implementation and limitations: docs/cases/OWNER-LOCATIONS-SINGLE-2026-11-08.md.
