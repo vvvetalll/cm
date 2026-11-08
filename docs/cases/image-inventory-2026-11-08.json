@@ -1,0 +1,2122 @@
+{
+  "date": "2026-11-08",
+  "policy": {
+    "featured": "Individually reviewed 16:9 WebP; target 1920x1080 without upscaling",
+    "gallery": "Verified original aspect ratio; longest side <=1600; quality84 WebP; native Elementor grouped lightbox",
+    "launchHold": "City/service integration sections remain withdrawn until explicit final launch approval"
+  },
+  "cases": [
+    {
+      "postId": 15832,
+      "url": "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+      "previousFeaturedId": 15850,
+      "featured": {
+        "mediaId": 16081,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8861-featured-16x9-1.webp",
+        "width": 1920,
+        "height": 1080,
+        "format": "webp",
+        "source": {
+          "auditIndex": 82,
+          "filename": "IMG_8861.HEIC",
+          "sha256": "8f97ab7ab7a08bbac0e994e2e1689532b85982a163b066f73602418b7281ddef",
+          "width": 4284,
+          "height": 5712
+        },
+        "crop": {
+          "left": 6,
+          "top": 1255,
+          "width": 4272,
+          "height": 2403
+        },
+        "review": "Visually inspected",
+        "limitation": null
+      },
+      "gallery": [
+        {
+          "auditIndex": 83,
+          "sourceFilename": "IMG_8846.HEIC",
+          "sourceSha256": "d004006995dd18e1854be99bbff780a8a51a5d591f16ed84edd333d6e34eb159",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16067,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8846.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Stone fireplace wall with the mounting bracket prepared",
+          "reused": false,
+          "bytes": 358894
+        },
+        {
+          "auditIndex": 84,
+          "sourceFilename": "IMG_8871.HEIC",
+          "sourceSha256": "461ef03e44e7a4581ce0235056ad06aace08a101903728e9f0212e79b063274a",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 15850,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-bose-stone-fireplace.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Wide room view of the completed Samsung OLED fireplace installation",
+          "reused": true,
+          "bytes": null
+        },
+        {
+          "auditIndex": 85,
+          "sourceFilename": "IMG_8831.HEIC",
+          "sourceSha256": "af5438cb36fa49ddafa7071f8b49544ebb2108f3edfade4f1f92b0389488e24b",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16073,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8831.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Stone fireplace wall before the television was fitted",
+          "reused": false,
+          "bytes": 370440
+        },
+        {
+          "auditIndex": 86,
+          "sourceFilename": "IMG_8847.HEIC",
+          "sourceSha256": "0dd3bb99e9c663290c9a3f06eec9d9c326c322502226bd5c6fef9a8f0cd596c8",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 15861,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-wall-bracket.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Close view of the wall bracket secured to the stone-faced fireplace area",
+          "reused": true,
+          "bytes": null
+        },
+        {
+          "auditIndex": 87,
+          "sourceFilename": "IMG_8850.HEIC",
+          "sourceSha256": "381b2cab8a0f4eff97fc7f6099aec0bf10142f6aaa8ae5752590142bd686970b",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16064,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8850.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Installer adjusting the Samsung OLED and soundbar above the stone mantel",
+          "reused": false,
+          "bytes": 243870
+        },
+        {
+          "auditIndex": 88,
+          "sourceFilename": "IMG_8868.HEIC",
+          "sourceSha256": "7e1b257a4ced78d2304a4461c1f9c81cb40f82f2476ed9b5a42c744393e470b3",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16066,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8868.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Left-side profile of the Samsung OLED and Bose soundbar",
+          "reused": false,
+          "bytes": 164120
+        },
+        {
+          "auditIndex": 89,
+          "sourceFilename": "IMG_8866.HEIC",
+          "sourceSha256": "ac9055edc3fbfb102ba67b0fbf2d48bc0445c11f895ae47bb8668e4da760ba28",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16071,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8866.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Right-side profile of the Samsung OLED and Bose soundbar",
+          "reused": false,
+          "bytes": 156558
+        },
+        {
+          "auditIndex": 90,
+          "sourceFilename": "IMG_8826.HEIC",
+          "sourceSha256": "961554b32b77894317652ee080227d2332ce1ff164d4dda377e44fc98a462cf8",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16070,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8826.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Samsung S95H OLED packaging marked 65 inches beside Bose equipment",
+          "reused": false,
+          "bytes": 185908
+        },
+        {
+          "auditIndex": 91,
+          "sourceFilename": "IMG_8840.HEIC",
+          "sourceSha256": "fc7b6b9422a4d13ad56d421c720cf532592ca8090efd38ddaf48f93633162b0a",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16069,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8840.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Rear-side view of the television while prepared for mounting",
+          "reused": false,
+          "bytes": 98032
+        }
+      ]
+    },
+    {
+      "postId": 15830,
+      "url": "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+      "previousFeaturedId": 15849,
+      "featured": {
+        "mediaId": 16082,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/11/neo-qled-brick-fireplace-img-9578-featured-16x9-1.webp",
+        "width": 1920,
+        "height": 1080,
+        "format": "webp",
+        "source": {
+          "auditIndex": 78,
+          "filename": "IMG_9578.HEIC",
+          "sha256": "6610a53fea77957e79abaa1265165d98160a92145cf8e31a39ef8678931fd465",
+          "width": 4284,
+          "height": 5712
+        },
+        "crop": {
+          "left": 6,
+          "top": 1026,
+          "width": 4272,
+          "height": 2403
+        },
+        "review": "Visually inspected",
+        "limitation": null
+      },
+      "gallery": [
+        {
+          "auditIndex": 79,
+          "sourceFilename": "IMG_9560.HEIC",
+          "sourceSha256": "49a45d2a4fc2d597838e06a28122f7bd47016541cb979a6ceb0985059c38695c",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16068,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/neo-qled-brick-fireplace-img-9560.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Samsung Neo QLED packaging marked QN70F and 85 inches",
+          "reused": false,
+          "bytes": 314986
+        },
+        {
+          "auditIndex": 80,
+          "sourceFilename": "IMG_9575.HEIC",
+          "sourceSha256": "10183e1483c0db3bd3055bbf6d71c65286d2bfe7816048445443848d49379487",
+          "sourceWidth": 3024,
+          "sourceHeight": 4032,
+          "mediaId": 15860,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/neo-qled-brick-fireplace-bracket.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "TV wall bracket installed above the brick fireplace mantel",
+          "reused": true,
+          "bytes": null
+        },
+        {
+          "auditIndex": 81,
+          "sourceFilename": "IMG_9565.HEIC",
+          "sourceSha256": "57b0b936ccc5639c3b1986007bc851846018da2553a0964a985e8f2434f143ed",
+          "sourceWidth": 3024,
+          "sourceHeight": 4032,
+          "mediaId": 16065,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/neo-qled-brick-fireplace-img-9565.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Installer measuring the mounting position on the brick fireplace wall",
+          "reused": false,
+          "bytes": 150424
+        }
+      ]
+    },
+    {
+      "postId": 15828,
+      "url": "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+      "previousFeaturedId": 15848,
+      "featured": {
+        "mediaId": 16085,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9643-featured-16x9-1.webp",
+        "width": 1920,
+        "height": 1080,
+        "format": "webp",
+        "source": {
+          "auditIndex": 74,
+          "filename": "IMG_9643.heic",
+          "sha256": "ece263d63528fd034bf6f25b44cba74733db2a5a077619201d88d2b3b82ac082",
+          "width": 4284,
+          "height": 5712
+        },
+        "crop": {
+          "left": 6,
+          "top": 1226,
+          "width": 4272,
+          "height": 2403
+        },
+        "review": "Visually inspected",
+        "limitation": null
+      },
+      "gallery": [
+        {
+          "auditIndex": 70,
+          "sourceFilename": "IMG_9624.HEIC",
+          "sourceSha256": "29b21ade7ddd961ccd755722dc591bad9e8eb489b82ae4fc285eb72d651fb7d2",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16062,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9624.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Installer preparing the LG W6 mounting positions above the fireplace",
+          "reused": false,
+          "bytes": 101166
+        },
+        {
+          "auditIndex": 71,
+          "sourceFilename": "IMG_9615.heic",
+          "sourceSha256": "8527ae102cc272985f469890850897a867dce7fb93c5e463d2a0a7cc427c8a59",
+          "sourceWidth": 4284,
+          "sourceHeight": 4284,
+          "mediaId": 16063,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9615.webp",
+          "width": 1600,
+          "height": 1600,
+          "alt": "LG wall-mount hardware laid out before the fireplace installation",
+          "reused": false,
+          "bytes": 550370
+        },
+        {
+          "auditIndex": 72,
+          "sourceFilename": "IMG_9597.HEIC",
+          "sourceSha256": "54b9abb74d66598ca6f29f95d855d28bacc39658c742edd6d2ac3dbe7b6c1d6e",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16061,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9597.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "LG W6 television above the fireplace during installation",
+          "reused": false,
+          "bytes": 131970
+        },
+        {
+          "auditIndex": 73,
+          "sourceFilename": "IMG_9593.heic",
+          "sourceSha256": "75d91f329d0782b89871846a13c624a166e50e310adfae4d808999239824f1f5",
+          "sourceWidth": 4284,
+          "sourceHeight": 4284,
+          "mediaId": 16060,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9593.webp",
+          "width": 1600,
+          "height": 1600,
+          "alt": "LG W6 packaging showing the 77-inch screen size",
+          "reused": false,
+          "bytes": 259060
+        },
+        {
+          "auditIndex": 75,
+          "sourceFilename": "IMG_9639.HEIC",
+          "sourceSha256": "64fe36e4086fc5cc52f34ffe893e2a9be5b2629cba40f6151df9173dae5d06ad",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 15859,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-slim-side-profile.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Close side profile of the LG W6 screen above the Sonos soundbar",
+          "reused": true,
+          "bytes": null
+        },
+        {
+          "auditIndex": 76,
+          "sourceFilename": "IMG_9603.heic",
+          "sourceSha256": "8a6af6c7316e6ba42b2fadd53fd8682c2804063c2b01a3f2cbe0dce5efe9496f",
+          "sourceWidth": 3024,
+          "sourceHeight": 3024,
+          "mediaId": 16058,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9603.webp",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Rear edge of the LG W6 during preparation",
+          "reused": false,
+          "bytes": 131722
+        },
+        {
+          "auditIndex": 77,
+          "sourceFilename": "IMG_9634.HEIC",
+          "sourceSha256": "3d4d9b32b6aae36c08aa28631b6513ce34686cdd320b17a8f13f21574074102c",
+          "sourceWidth": 3024,
+          "sourceHeight": 4032,
+          "mediaId": 16059,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9634.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Side view of the fitted LG W6 showing its close wall position",
+          "reused": false,
+          "bytes": 83730
+        }
+      ]
+    },
+    {
+      "postId": 15826,
+      "url": "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+      "previousFeaturedId": 15847,
+      "featured": {
+        "mediaId": 16083,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-0485-featured-16x9-1.webp",
+        "width": 1920,
+        "height": 1080,
+        "format": "webp",
+        "source": {
+          "auditIndex": 68,
+          "filename": "IMG_0485.HEIC",
+          "sha256": "4d0779144fb6c2c174e693c89f68cefe7d4ea766caa2bf5f34497902f11196b9",
+          "width": 3024,
+          "height": 4032
+        },
+        "crop": {
+          "left": 0,
+          "top": 1246,
+          "width": 3024,
+          "height": 1701
+        },
+        "review": "Visually inspected",
+        "limitation": null
+      },
+      "gallery": [
+        {
+          "auditIndex": 63,
+          "sourceFilename": "IMG_9687.heic",
+          "sourceSha256": "c10c839dfcfb76db13193f9ab574443e0f091a93e1ef684ff32e8879c67fab15",
+          "sourceWidth": 1685,
+          "sourceHeight": 2247,
+          "mediaId": 16056,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-9687.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Wall bracket in the marked Samsung Frame installation area",
+          "reused": false,
+          "bytes": 171068
+        },
+        {
+          "auditIndex": 64,
+          "sourceFilename": "IMG_9699.HEIC",
+          "sourceSha256": "17893196585d7eed3282e8c66333a1baa0873757df33acb3613d893abd8056df",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16055,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-9699.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Packaging for the Sanus full-motion TV wall mount",
+          "reused": false,
+          "bytes": 222290
+        },
+        {
+          "auditIndex": 65,
+          "sourceFilename": "IMG_9682.HEIC",
+          "sourceSha256": "6576dae09dd1889e7b06d9145df32d6fd8ddf6d006b617d509a2b5238d29b024",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16053,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-9682.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Installer preparing the wall for the 85-inch Samsung Frame TV",
+          "reused": false,
+          "bytes": 203416
+        },
+        {
+          "auditIndex": 66,
+          "sourceFilename": "IMG_9706.HEIC",
+          "sourceSha256": "68ff98c4110843acdb56b2f8601dcbdef2f7255f3b3ab581e3e80f5a478f65f3",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16057,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-9706.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Completed Samsung Frame installation displaying the setup screen",
+          "reused": false,
+          "bytes": 106848
+        },
+        {
+          "auditIndex": 67,
+          "sourceFilename": "IMG_9692.HEIC",
+          "sourceSha256": "ad1cba7a2525571ad4c2e2a7a928efd83f3630494e64dfab8ffff592b10bee85",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 15858,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-side-view.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Side view of the Samsung Frame extended on the full-motion mount",
+          "reused": true,
+          "bytes": null
+        },
+        {
+          "auditIndex": 69,
+          "sourceFilename": "IMG_0487.HEIC",
+          "sourceSha256": "d73dfc16b9bf842f8c08505f6c43430be234863f11c10effef1312439bd2fb22",
+          "sourceWidth": 3024,
+          "sourceHeight": 4032,
+          "mediaId": 16054,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-0487.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Installer adjusting the Samsung Frame television after mounting",
+          "reused": false,
+          "bytes": 88944
+        }
+      ]
+    },
+    {
+      "postId": 15824,
+      "url": "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+      "previousFeaturedId": 15846,
+      "featured": {
+        "mediaId": 16084,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9810-featured-16x9-1.webp",
+        "width": 1920,
+        "height": 1080,
+        "format": "webp",
+        "source": {
+          "auditIndex": 59,
+          "filename": "IMG_9810.HEIC",
+          "sha256": "9e3ad1882e9e8f4f0c1208f264f1e5c607a43b3ea81f780ad396c5d2baab5462",
+          "width": 4284,
+          "height": 5712
+        },
+        "crop": {
+          "left": 6,
+          "top": 1198,
+          "width": 4272,
+          "height": 2403
+        },
+        "review": "Visually inspected",
+        "limitation": null
+      },
+      "gallery": [
+        {
+          "auditIndex": 56,
+          "sourceFilename": "IMG_9804.HEIC",
+          "sourceSha256": "53f0336040d9b04e96691f9fbbed22e37f4340d8dbecc636796a85b59e9ff7b9",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16051,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9804.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Samsung Frame Pro above the white fireplace during final setup",
+          "reused": false,
+          "bytes": 150812
+        },
+        {
+          "auditIndex": 57,
+          "sourceFilename": "IMG_9793.HEIC",
+          "sourceSha256": "178ddd85525a1370cb58a9be8663e5bb1b38b9d6c5729d668cf8cd9dfb97c2e6",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16049,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9793.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Samsung Frame packaging showing the 65-inch screen size",
+          "reused": false,
+          "bytes": 91490
+        },
+        {
+          "auditIndex": 58,
+          "sourceFilename": "IMG_9789.HEIC",
+          "sourceSha256": "7629ea7382b525df78ec47bc4616d75695d86329d20ca4760c0bb3977a6bff2c",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16046,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9789.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Room and fireplace wall before the Samsung Frame Pro was mounted",
+          "reused": false,
+          "bytes": 134132
+        },
+        {
+          "auditIndex": 60,
+          "sourceFilename": "IMG_9803.HEIC",
+          "sourceSha256": "826d10831cfd024142669e95b6ccf49d786d0ba7885bb43ea086cd2a47d93560",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16050,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9803.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Installer working on the Samsung Frame Pro above the fireplace",
+          "reused": false,
+          "bytes": 174884
+        },
+        {
+          "auditIndex": 61,
+          "sourceFilename": "IMG_9797.HEIC",
+          "sourceSha256": "da94a4b0fb5afacd106e1edd1efccdd78565c1ad15559fb7c3265f996fb27256",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16052,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9797.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Two mounting plates and prepared connection area above the fireplace",
+          "reused": false,
+          "bytes": 154040
+        },
+        {
+          "auditIndex": 62,
+          "sourceFilename": "IMG_9799.HEIC",
+          "sourceSha256": "7e60e0d8aab85b7c09b42f2dd77ac07cf28e3a8c968cd4087271611bdb419f50",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 15857,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/frame-pro-fireplace-wall-preparation.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Wide view of the fireplace mounting preparation and ladder",
+          "reused": true,
+          "bytes": null
+        }
+      ]
+    },
+    {
+      "postId": 15822,
+      "url": "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+      "previousFeaturedId": 15845,
+      "featured": {
+        "mediaId": 16077,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-qned-home-audio-img-9846-featured-16x9-1.webp",
+        "width": 1920,
+        "height": 1080,
+        "format": "webp",
+        "source": {
+          "auditIndex": 53,
+          "filename": "IMG_9846.HEIC",
+          "sha256": "5a0a912520bcad3b6a8c72b42f3c810c42e20d2d6b5af3ddbc3adfb1e6d73da6",
+          "width": 4284,
+          "height": 5712
+        },
+        "crop": {
+          "left": 6,
+          "top": 1426,
+          "width": 4272,
+          "height": 2403
+        },
+        "review": "Visually inspected",
+        "limitation": null
+      },
+      "gallery": [
+        {
+          "auditIndex": 51,
+          "sourceFilename": "IMG_9812.HEIC",
+          "sourceSha256": "8170f86f59a2e978afbe1e22710bfd840fd25f0befffdddec92eaeada2ccab1e",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16042,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-qned-home-audio-img-9812.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "LG QNED packaging and mounting equipment in the room before installation",
+          "reused": false,
+          "bytes": 196836
+        },
+        {
+          "auditIndex": 52,
+          "sourceFilename": "IMG_9830.HEIC",
+          "sourceSha256": "a026f4b69d089de1bfa1ee875ed4c3cfb4a11244483cb3a41762b2f09de9e933",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 15856,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/100-inch-qned-wall-bracket.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Wall bracket and cable opening between the existing in-wall speakers",
+          "reused": true,
+          "bytes": null
+        },
+        {
+          "auditIndex": 54,
+          "sourceFilename": "IMG_9836.HEIC",
+          "sourceSha256": "44aac3aa963b862e4ccfd7809ffe2a2a9be28131d2f0262abaec3038e808e8c4",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16047,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-qned-home-audio-img-9836.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "LG QNED mounted and displaying its initial setup screen",
+          "reused": false,
+          "bytes": 80886
+        },
+        {
+          "auditIndex": 55,
+          "sourceFilename": "IMG_9811.HEIC",
+          "sourceSha256": "7a4f6b9e828ab268f9af3e4bcc7517606c1ae8fbd62534f4ca851d3f6099f5d3",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16048,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-qned-home-audio-img-9811.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "LG QNED packaging in front of the existing speaker wall",
+          "reused": false,
+          "bytes": 161806
+        }
+      ]
+    },
+    {
+      "postId": 15820,
+      "url": "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+      "previousFeaturedId": 15844,
+      "featured": {
+        "mediaId": 16079,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-recessed-outlet-img-0173-featured-16x9-1.webp",
+        "width": 1920,
+        "height": 1080,
+        "format": "webp",
+        "source": {
+          "auditIndex": 49,
+          "filename": "IMG_0173.heic",
+          "sha256": "17c9afb4a82f512bc45a759597221d8c3419f3bbdd1da56ec44bd9f93bca206f",
+          "width": 3458,
+          "height": 3458
+        },
+        "crop": {
+          "left": 1,
+          "top": 861,
+          "width": 3456,
+          "height": 1944
+        },
+        "review": "Visually inspected",
+        "limitation": null
+      },
+      "gallery": [
+        {
+          "auditIndex": 46,
+          "sourceFilename": "IMG_0164.heic",
+          "sourceSha256": "689a3ce8ee517bb496bb17edcf04d7439bbbd5f17cbce475530d6927db6e5e71",
+          "sourceWidth": 4284,
+          "sourceHeight": 4284,
+          "mediaId": 16041,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-recessed-outlet-img-0164.webp",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Installer measuring the Frame TV position while the display is prepared nearby",
+          "reused": false,
+          "bytes": 244204
+        },
+        {
+          "auditIndex": 47,
+          "sourceFilename": "IMG_0162.HEIC",
+          "sourceSha256": "371eda859122d739a0ab2a0dca73430cf2a7012609445eee05dae7e0fded7945",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16043,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-recessed-outlet-img-0162.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Installer checking the mounting height on the textured wall",
+          "reused": false,
+          "bytes": 240398
+        },
+        {
+          "auditIndex": 48,
+          "sourceFilename": "IMG_0160.HEIC",
+          "sourceSha256": "de0214f0385cf9db7d776fb26dff88f73126c8ac390909ba33ec34b45eb10610",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16045,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-recessed-outlet-img-0160.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Rear of the Samsung Frame television and its packaging before mounting",
+          "reused": false,
+          "bytes": 235354
+        },
+        {
+          "auditIndex": 50,
+          "sourceFilename": "IMG_0169.HEIC",
+          "sourceSha256": "79ac3cb52466c6a232f9895ae514e7f2300bd3f6ccebf0036acc1776f8fa7af2",
+          "sourceWidth": 3024,
+          "sourceHeight": 4032,
+          "mediaId": 15855,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/frame-pro-recessed-power-outlet.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Recessed outlet and connected power cord behind the Samsung Frame Pro",
+          "reused": true,
+          "bytes": null
+        }
+      ]
+    },
+    {
+      "postId": 15818,
+      "url": "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+      "previousFeaturedId": 15843,
+      "featured": {
+        "mediaId": 16076,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0237-featured-16x9-1.webp",
+        "width": 1920,
+        "height": 1080,
+        "format": "webp",
+        "source": {
+          "auditIndex": 42,
+          "filename": "IMG_0237.HEIC",
+          "sha256": "c0aa7033f70dc7c00d040f090c66b80677b852a96bde342cfe803bd0d78eb59f",
+          "width": 4284,
+          "height": 5712
+        },
+        "crop": {
+          "left": 6,
+          "top": 1769,
+          "width": 4272,
+          "height": 2403
+        },
+        "review": "Visually inspected",
+        "limitation": null
+      },
+      "gallery": [
+        {
+          "auditIndex": 40,
+          "sourceFilename": "IMG_0219.HEIC",
+          "sourceSha256": "23abdd526b494a668615e02c00fea451e3e6c4d4183e61e3b59f779b01b3c5da",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 15854,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-mounting-rails.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Mounting rails secured to the rear of the Sony BRAVIA television",
+          "reused": true,
+          "bytes": null
+        },
+        {
+          "auditIndex": 41,
+          "sourceFilename": "IMG_0218.HEIC",
+          "sourceSha256": "0a0a695801a006f1e6a6329e3705a2d0f9eb65e22f12fa10aff76936e1addcaf",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16034,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0218.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Sony television packaging and equipment before installation",
+          "reused": false,
+          "bytes": 176668
+        },
+        {
+          "auditIndex": 43,
+          "sourceFilename": "IMG_0240.HEIC",
+          "sourceSha256": "91f22fa77c2853f2d1a61e690407cd284ba8a38d3f9f5132d659e7d1fbf7f045",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16036,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0240.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Completed Sony BRAVIA and Sonos soundbar arrangement on the wall",
+          "reused": false,
+          "bytes": 135060
+        },
+        {
+          "auditIndex": 44,
+          "sourceFilename": "IMG_0230.HEIC",
+          "sourceSha256": "8aa538212e08b633f9be73cecf7dfeb59a7c7b4bc620ba9049ec6b3c048ff0ed",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16040,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0230.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Angled close view of the Sony BRAVIA screen and Sonos soundbar",
+          "reused": false,
+          "bytes": 142664
+        },
+        {
+          "auditIndex": 45,
+          "sourceFilename": "IMG_0234.HEIC",
+          "sourceSha256": "72dca676959575ae0076fedaab79bedf1acb3d3a4fe8d56a82fd37a695aaa828",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16044,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0234.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Side profile of the Sony BRAVIA and Sonos Arc Ultra installation",
+          "reused": false,
+          "bytes": 150102
+        }
+      ]
+    },
+    {
+      "postId": 15816,
+      "url": "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+      "previousFeaturedId": 15842,
+      "featured": {
+        "mediaId": 16078,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0704-featured-16x9-1.webp",
+        "width": 1920,
+        "height": 1080,
+        "format": "webp",
+        "source": {
+          "auditIndex": 33,
+          "filename": "IMG_0704.HEIC",
+          "sha256": "cc65927612712566ce60b36cc55a40293d78458ffaac5d8532d7bb9d39c2c8f1",
+          "width": 4284,
+          "height": 5712
+        },
+        "crop": {
+          "left": 6,
+          "top": 1957,
+          "width": 4272,
+          "height": 2403
+        },
+        "review": "Visually inspected",
+        "limitation": null
+      },
+      "gallery": [
+        {
+          "auditIndex": 27,
+          "sourceFilename": "IMG_0707.HEIC",
+          "sourceSha256": "5f386146f25cf80947bda12701cc77c500851dd2f35801dd531ef32c2f82a38a",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16030,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0707.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Edge view of the LG G6 fitted close to the wall",
+          "reused": false,
+          "bytes": 79528
+        },
+        {
+          "auditIndex": 28,
+          "sourceFilename": "IMG_0706.HEIC",
+          "sourceSha256": "9f8f1270df3897a3eb6e67cb25158eeb8aac46fad2fdab105cb29b9f9fb60b4d",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16033,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0706.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Angled side view of the LG G6 and soundbar below",
+          "reused": false,
+          "bytes": 81434
+        },
+        {
+          "auditIndex": 29,
+          "sourceFilename": "IMG_0705.HEIC",
+          "sourceSha256": "d7b85d098bbb9e6ac2b35b7e7302abfe6728ffdd9aa572aae56bdeffda40aacb",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16028,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0705.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Front-side view of the LG G6 above the existing cabinet",
+          "reused": false,
+          "bytes": 83344
+        },
+        {
+          "auditIndex": 30,
+          "sourceFilename": "IMG_0702.HEIC",
+          "sourceSha256": "0b4c09d063e6488e8d6f73f5aae3bde3333d70f0ae9dcdc2097042d18ec8151d",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16032,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0702.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "LG G6 screen operating after mounting",
+          "reused": false,
+          "bytes": 103016
+        },
+        {
+          "auditIndex": 31,
+          "sourceFilename": "IMG_0693.HEIC",
+          "sourceSha256": "6adb55782907eda83a5380cf77ad605aa5d4755f8caf2dc93a2f3267a271e14e",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16029,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0693.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Recessed media box and LG mounting plate before the screen was fitted",
+          "reused": false,
+          "bytes": 73962
+        },
+        {
+          "auditIndex": 32,
+          "sourceFilename": "IMG_0683.HEIC",
+          "sourceSha256": "ccb59864cc409e12a8c9c49700cd2b96acd328140f180adaec8ed0fadfbb0ee8",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16031,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0683.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "LG OLED packaging in the room before installation",
+          "reused": false,
+          "bytes": 84880
+        },
+        {
+          "auditIndex": 34,
+          "sourceFilename": "IMG_0700.HEIC",
+          "sourceSha256": "e5b8ef473f065fa4b953370157cdc6492cd830c1033206125d57e8a386cea59d",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16038,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0700.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "LG G6 installation viewed from the right side",
+          "reused": false,
+          "bytes": 92304
+        },
+        {
+          "auditIndex": 35,
+          "sourceFilename": "IMG_0701.HEIC",
+          "sourceSha256": "05a1daa244dd0229dd7e72ac55afd6cc9f6fe573af7933413fb66bb1d9b9731b",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 15842,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-flush-wall-installation.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Close side view of the LG G6 operating after installation",
+          "reused": true,
+          "bytes": null
+        },
+        {
+          "auditIndex": 36,
+          "sourceFilename": "IMG_0689.HEIC",
+          "sourceSha256": "98893132f96487ba75ebf0dd339c56c099cc6c340dddb955313ed0f9df6843e9",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16039,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0689.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Installer preparing the recessed media box opening",
+          "reused": false,
+          "bytes": 53016
+        },
+        {
+          "auditIndex": 37,
+          "sourceFilename": "IMG_0688.HEIC",
+          "sourceSha256": "e076e1882ce0a192cd10910a57f4fdbb62fb7c2ce58d289713c91fe9680147e8",
+          "sourceWidth": 3024,
+          "sourceHeight": 4032,
+          "mediaId": 16037,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0688.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Mounting hardware on the rear of the LG television",
+          "reused": false,
+          "bytes": 42938
+        },
+        {
+          "auditIndex": 38,
+          "sourceFilename": "IMG_0697.HEIC",
+          "sourceSha256": "3605b4c1706a5abc6565a767c1f7faf8e1e5ce83f66254b196b1ea5356f53d16",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16035,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0697.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Wide view of the wall mounting plate and recessed box during preparation",
+          "reused": false,
+          "bytes": 63214
+        },
+        {
+          "auditIndex": 39,
+          "sourceFilename": "IMG_0699.heic",
+          "sourceSha256": "fcd8ae0bf90f04b68a015ef2101ac5e07a74a3664cdcac96e0117f91b2d6295a",
+          "sourceWidth": 3947,
+          "sourceHeight": 3947,
+          "mediaId": 15853,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-legrand-box-and-mount.webp",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Legrand recessed media box positioned to the left of the mounting plate",
+          "reused": true,
+          "bytes": null
+        }
+      ]
+    },
+    {
+      "postId": 15814,
+      "url": "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+      "previousFeaturedId": 15838,
+      "featured": {
+        "mediaId": 16074,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0969-featured-16x9-1.webp",
+        "width": 1920,
+        "height": 1080,
+        "format": "webp",
+        "source": {
+          "auditIndex": 19,
+          "filename": "IMG_0969.heic",
+          "sha256": "3268a6b9d8f09780fed4e86249ccc3d85f7835e6735b4fe1d1927bb22b67ad6c",
+          "width": 3486,
+          "height": 3486
+        },
+        "crop": {
+          "left": 7,
+          "top": 1150,
+          "width": 3472,
+          "height": 1953
+        },
+        "review": "Visually inspected",
+        "limitation": null
+      },
+      "gallery": [
+        {
+          "auditIndex": 16,
+          "sourceFilename": "IMG_0951.HEIC",
+          "sourceSha256": "d0a96d9681f2986d84435246e71d3fcfd3aea9672df43e2dee0555595599a651",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16018,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0951.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "MantelMount assembly fixed above the tiled fireplace before fitting the TV",
+          "reused": false,
+          "bytes": 152590
+        },
+        {
+          "auditIndex": 17,
+          "sourceFilename": "IMG_0940.HEIC",
+          "sourceSha256": "af181baad291a853daa9e83d8bc493db9baec52caa7ff844391942522bfd1def",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16017,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0940.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Packaged MantelMount equipment and tools before installation",
+          "reused": false,
+          "bytes": 314732
+        },
+        {
+          "auditIndex": 18,
+          "sourceFilename": "IMG_0967.HEIC",
+          "sourceSha256": "1405d32e1ce449da2d26c217f6cf4d6d0a0337a22a4b3cf63dab4e7debfbf741",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16020,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0967.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Wide view of the Samsung OLED lowered on the MantelMount MAX1",
+          "reused": false,
+          "bytes": 164420
+        },
+        {
+          "auditIndex": 20,
+          "sourceFilename": "IMG_0956.HEIC",
+          "sourceSha256": "49f9ecd500e6d525838394da9482f3c32b196fa60e42928aa50ade5379609cb5",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16023,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0956.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Samsung OLED television mounted above the tiled fireplace",
+          "reused": false,
+          "bytes": 145494
+        },
+        {
+          "auditIndex": 21,
+          "sourceFilename": "IMG_0941.HEIC",
+          "sourceSha256": "7f788f16cea0d594479bb2d3e84957e701ef2370c67173c65e83ae7781222c82",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16025,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0941.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "MantelMount assembly prepared beside the television",
+          "reused": false,
+          "bytes": 430016
+        },
+        {
+          "auditIndex": 22,
+          "sourceFilename": "IMG_0964.HEIC",
+          "sourceSha256": "8986fc5c3c2a9e65b8708800a9ac4d81ee5ea912f689999acbf2d24df97a8823",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16026,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0964.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Angled view of the Samsung OLED and soundbar above the tile fireplace",
+          "reused": false,
+          "bytes": 167378
+        },
+        {
+          "auditIndex": 23,
+          "sourceFilename": "IMG_0943.HEIC",
+          "sourceSha256": "bbbc6ac0f122164abc374acd0dc86b12ee8823dd170880e775bf7cf5291861d2",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16027,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0943.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Front view of the MantelMount bracket secured to the tiled surface",
+          "reused": false,
+          "bytes": 180888
+        },
+        {
+          "auditIndex": 24,
+          "sourceFilename": "IMG_0965.HEIC",
+          "sourceSha256": "6d481d5d0bf39c4a8bd7bf2995af82b4a7c90686b8450352f336c78bd43ed6a1",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16024,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0965.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Room view of the Samsung OLED in its raised position above the fireplace",
+          "reused": false,
+          "bytes": 165564
+        },
+        {
+          "auditIndex": 25,
+          "sourceFilename": "IMG_0936.HEIC",
+          "sourceSha256": "f6676af0bf942209eed9598b491280c2f6b7027e3a4c08a2736b4ab60598e282",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16022,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0936.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Tiled fireplace wall before the television mounting hardware was installed",
+          "reused": false,
+          "bytes": 102352
+        },
+        {
+          "auditIndex": 26,
+          "sourceFilename": "IMG_0949.HEIC",
+          "sourceSha256": "f38aa43d8e500cd64effd9bd69e7bdf7c5eb925bf2bae97aa6e026a5c946d6da",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 15852,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/mantelmount-max1-tile-bracket.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Side view of the MantelMount MAX1 assembly on the tile wall",
+          "reused": true,
+          "bytes": null
+        }
+      ]
+    },
+    {
+      "postId": 15812,
+      "url": "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+      "previousFeaturedId": 15837,
+      "featured": {
+        "mediaId": 16075,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0862-featured-16x9-1.webp",
+        "width": 1920,
+        "height": 1080,
+        "format": "webp",
+        "source": {
+          "auditIndex": 14,
+          "filename": "IMG_0862.heic",
+          "sha256": "6d310e9577461184e14504767bc1a280b024b7235e40e5a82fc1bfc2eb2d07fb",
+          "width": 4284,
+          "height": 4284
+        },
+        "crop": {
+          "left": 6,
+          "top": 298,
+          "width": 4272,
+          "height": 2403
+        },
+        "review": "Visually inspected",
+        "limitation": null
+      },
+      "gallery": [
+        {
+          "auditIndex": 8,
+          "sourceFilename": "IMG_0836.HEIC",
+          "sourceSha256": "10cf0c94cdc2f8882f31a06b3a3482a862e65cd5d07dc4b717e6206639bb9419",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16013,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0836.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Samsung Q990H soundbar system and components before installation",
+          "reused": false,
+          "bytes": 207478
+        },
+        {
+          "auditIndex": 9,
+          "sourceFilename": "IMG_0845.HEIC",
+          "sourceSha256": "c61303622e73ac5584bafd77f09bb31a3c72fd0abb9a38681636659a38fb78f7",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16012,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0845.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Installer preparing the recessed box and wall hardware for the LG C6",
+          "reused": false,
+          "bytes": 50058
+        },
+        {
+          "auditIndex": 10,
+          "sourceFilename": "IMG_0846.HEIC",
+          "sourceSha256": "db6db2b4efbb30af65d4092fbd315fd555def930dc5d5b80477f8a838e5aa6fa",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 15851,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-recessed-media-box.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Wall bracket beside the recessed media box before the LG C6 was fitted",
+          "reused": true,
+          "bytes": null
+        },
+        {
+          "auditIndex": 11,
+          "sourceFilename": "IMG_0858.HEIC",
+          "sourceSha256": "fea33637e803d1632fe82221a96c86b1ac360663cbbb4f79e12c645dd5411101",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16010,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0858.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Angled view of the LG C6 television and Samsung soundbar on the wall",
+          "reused": false,
+          "bytes": 70700
+        },
+        {
+          "auditIndex": 12,
+          "sourceFilename": "IMG_0840.heic",
+          "sourceSha256": "7f3bff83b916051240375c49fb8121a3119f9d8ea187c2703971bf957cd9238d",
+          "sourceWidth": 4284,
+          "sourceHeight": 4284,
+          "mediaId": 16021,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0840.webp",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Samsung soundbar, speakers and connection accessories laid out before installation",
+          "reused": false,
+          "bytes": 409736
+        },
+        {
+          "auditIndex": 13,
+          "sourceFilename": "IMG_0830.HEIC",
+          "sourceSha256": "ad87727a0d1b382a44fbf2203727a38a5f5740a37c6740f1eba358c4ed990d66",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16016,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0830.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Wall marked for the LG C6 installation before mounting",
+          "reused": false,
+          "bytes": 69658
+        },
+        {
+          "auditIndex": 15,
+          "sourceFilename": "IMG_0843.heic",
+          "sourceSha256": "f0c98a3fe579f622b4ab1c232d8b484feaaace60ade8ff090a7e1143eefcd0a1",
+          "sourceWidth": 3024,
+          "sourceHeight": 3024,
+          "mediaId": 16019,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0843.webp",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Installer measuring the marked TV position on the wall",
+          "reused": false,
+          "bytes": 220116
+        }
+      ]
+    },
+    {
+      "postId": 15810,
+      "url": "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+      "previousFeaturedId": 15834,
+      "featured": {
+        "mediaId": 16072,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0802-featured-16x9-1.webp",
+        "width": 1920,
+        "height": 1080,
+        "format": "webp",
+        "source": {
+          "auditIndex": 2,
+          "filename": "IMG_0802.HEIC",
+          "sha256": "706da8ed9fa2274a02e29c29cd575920ff13bba6796ed9583cfb94a3ea4357d5",
+          "width": 4284,
+          "height": 5712
+        },
+        "crop": {
+          "left": 6,
+          "top": 798,
+          "width": 4272,
+          "height": 2403
+        },
+        "review": "Visually inspected",
+        "limitation": null
+      },
+      "gallery": [
+        {
+          "auditIndex": 0,
+          "sourceFilename": "IMG_0766.HEIC",
+          "sourceSha256": "c6d1ef41b3a7f782849c4d494fde829f40c62ca44e1d47de91321af7185470eb",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 15835,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-recessed-box.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Mounting plate and recessed media box prepared in the stone veneer above the fireplace",
+          "reused": true,
+          "bytes": null
+        },
+        {
+          "auditIndex": 1,
+          "sourceFilename": "IMG_0756.HEIC",
+          "sourceSha256": "b0edcbf8b35b4d6b6be403aad31c0b937c0f444bbf8710f7e56c79dfac150f98",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16007,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0756.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Packaged LG OLED television before the stone-fireplace installation",
+          "reused": false,
+          "bytes": 120514
+        },
+        {
+          "auditIndex": 3,
+          "sourceFilename": "IMG_0758.HEIC",
+          "sourceSha256": "fc022c0dc66c884df1b42ffec1f6089c3cc3e70b61a33a7bcb6c5b5478a856ce",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16008,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0758.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Rear of the LG television with mounting hardware during preparation",
+          "reused": false,
+          "bytes": 233594
+        },
+        {
+          "auditIndex": 4,
+          "sourceFilename": "IMG_0782.HEIC",
+          "sourceSha256": "caa82e3c4d1a365b888724f462202695b64a9391ef09d4be4f88cae778887a92",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16009,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0782.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Side profile showing the LG G6 fitted close to the stone veneer",
+          "reused": false,
+          "bytes": 31832
+        },
+        {
+          "auditIndex": 5,
+          "sourceFilename": "IMG_0763.HEIC",
+          "sourceSha256": "0628b53473668b4f85cf81423e1a0b16ddfc8184987d925eafc2728fa0c0048b",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16014,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0763.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Wide view of the mounting plate and recessed box above the stone fireplace",
+          "reused": false,
+          "bytes": 253370
+        },
+        {
+          "auditIndex": 6,
+          "sourceFilename": "IMG_0778.HEIC",
+          "sourceSha256": "e1e914afaef77bd6ced2b812068f7d51d24bd010704429dd30a3ebde03c19549",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16015,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0778.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Angled view of the LG G6 mounted above the stone fireplace",
+          "reused": false,
+          "bytes": 168370
+        },
+        {
+          "auditIndex": 7,
+          "sourceFilename": "IMG_0767.HEIC",
+          "sourceSha256": "7fab6efca9dfe23437ba00c8d8bf8bf30480cc073be824f291645abea0348828",
+          "sourceWidth": 4284,
+          "sourceHeight": 5712,
+          "mediaId": 16011,
+          "url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0767.webp",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Front view of the completed LG G6 fireplace installation",
+          "reused": false,
+          "bytes": 130470
+        }
+      ]
+    },
+    {
+      "postId": 15793,
+      "url": "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/",
+      "previousFeaturedId": 10248,
+      "featured": {
+        "mediaId": 16080,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/11/case-15793-tv-installation-16x9-1.webp",
+        "width": 1600,
+        "height": 900,
+        "format": "webp",
+        "source": {
+          "previousAttachmentId": 10248
+        },
+        "crop": {
+          "left": 0,
+          "top": 374,
+          "width": 1600,
+          "height": 900
+        },
+        "review": "Visually inspected",
+        "limitation": "Native-resolution1600x900 crop from1600x1600; no upscale. Higher-resolution original needed for1920x1080."
+      },
+      "gallery": []
+    },
+    {
+      "postId": 15791,
+      "url": "https://chicagomounting.com/tv-wall-mounting-case-wilmette/",
+      "previousFeaturedId": 15888,
+      "featured": {
+        "mediaId": 15888,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/11/wilmette-installation-video-hd-CPoIAAo42LI.jpg",
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "source": {
+          "previousAttachmentId": 15888
+        },
+        "crop": null,
+        "review": "Visually inspected",
+        "limitation": "Retained existing video still: no suitable verified original; blurred side panels, 1280x720 JPEG. Replacement pending."
+      },
+      "gallery": []
+    },
+    {
+      "postId": 15792,
+      "url": "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/",
+      "previousFeaturedId": 9974,
+      "featured": {
+        "mediaId": 16087,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/11/case-15792-tv-installation-16x9-1.webp",
+        "width": 736,
+        "height": 414,
+        "format": "webp",
+        "source": {
+          "previousAttachmentId": 9974
+        },
+        "crop": {
+          "left": 7,
+          "top": 363,
+          "width": 736,
+          "height": 414
+        },
+        "review": "Visually inspected",
+        "limitation": "Native-resolution 736x414 crop from750x1000; no upscale. Higher-resolution original needed for1920x1080."
+      },
+      "gallery": []
+    },
+    {
+      "postId": 15731,
+      "url": "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/",
+      "previousFeaturedId": 9963,
+      "featured": {
+        "mediaId": 16086,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/11/case-15731-tv-installation-16x9-1.webp",
+        "width": 1920,
+        "height": 1080,
+        "format": "webp",
+        "source": {
+          "previousAttachmentId": 9963
+        },
+        "crop": {
+          "left": 0,
+          "top": 498,
+          "width": 2000,
+          "height": 1125
+        },
+        "review": "Visually inspected",
+        "limitation": "Reframed only existing assigned image9963; Winnetka/Streeterville attribution conflict remains unresolved. No new source-to-project assignment."
+      },
+      "gallery": []
+    }
+  ],
+  "verification": {
+    "integrity": [
+      {
+        "id": 15832,
+        "published": true,
+        "urlUnchanged": true,
+        "taxonomiesUnchanged": true,
+        "copyUnchanged": true,
+        "excerptUnchanged": true
+      },
+      {
+        "id": 15830,
+        "published": true,
+        "urlUnchanged": true,
+        "taxonomiesUnchanged": true,
+        "copyUnchanged": true,
+        "excerptUnchanged": true
+      },
+      {
+        "id": 15828,
+        "published": true,
+        "urlUnchanged": true,
+        "taxonomiesUnchanged": true,
+        "copyUnchanged": true,
+        "excerptUnchanged": true
+      },
+      {
+        "id": 15826,
+        "published": true,
+        "urlUnchanged": true,
+        "taxonomiesUnchanged": true,
+        "copyUnchanged": true,
+        "excerptUnchanged": true
+      },
+      {
+        "id": 15824,
+        "published": true,
+        "urlUnchanged": true,
+        "taxonomiesUnchanged": true,
+        "copyUnchanged": true,
+        "excerptUnchanged": true
+      },
+      {
+        "id": 15822,
+        "published": true,
+        "urlUnchanged": true,
+        "taxonomiesUnchanged": true,
+        "copyUnchanged": true,
+        "excerptUnchanged": true
+      },
+      {
+        "id": 15820,
+        "published": true,
+        "urlUnchanged": true,
+        "taxonomiesUnchanged": true,
+        "copyUnchanged": true,
+        "excerptUnchanged": true
+      },
+      {
+        "id": 15818,
+        "published": true,
+        "urlUnchanged": true,
+        "taxonomiesUnchanged": true,
+        "copyUnchanged": true,
+        "excerptUnchanged": true
+      },
+      {
+        "id": 15816,
+        "published": true,
+        "urlUnchanged": true,
+        "taxonomiesUnchanged": true,
+        "copyUnchanged": true,
+        "excerptUnchanged": true
+      },
+      {
+        "id": 15814,
+        "published": true,
+        "urlUnchanged": true,
+        "taxonomiesUnchanged": true,
+        "copyUnchanged": true,
+        "excerptUnchanged": true
+      },
+      {
+        "id": 15812,
+        "published": true,
+        "urlUnchanged": true,
+        "taxonomiesUnchanged": true,
+        "copyUnchanged": true,
+        "excerptUnchanged": true
+      },
+      {
+        "id": 15810,
+        "published": true,
+        "urlUnchanged": true,
+        "taxonomiesUnchanged": true,
+        "copyUnchanged": true,
+        "excerptUnchanged": true
+      },
+      {
+        "id": 15793,
+        "published": true,
+        "urlUnchanged": true,
+        "taxonomiesUnchanged": true,
+        "copyUnchanged": true,
+        "excerptUnchanged": true
+      },
+      {
+        "id": 15791,
+        "published": true,
+        "urlUnchanged": true,
+        "taxonomiesUnchanged": true,
+        "copyUnchanged": true,
+        "excerptUnchanged": true
+      },
+      {
+        "id": 15792,
+        "published": true,
+        "urlUnchanged": true,
+        "taxonomiesUnchanged": true,
+        "copyUnchanged": true,
+        "excerptUnchanged": true
+      },
+      {
+        "id": 15731,
+        "published": true,
+        "urlUnchanged": true,
+        "taxonomiesUnchanged": true,
+        "copyUnchanged": true,
+        "excerptUnchanged": true
+      }
+    ],
+    "guestChecks": [
+      {
+        "id": 15832,
+        "http": 200,
+        "noindex": true,
+        "single": true,
+        "galleryGroupCount": 9,
+        "srcsetCount": 26,
+        "cta": true
+      },
+      {
+        "id": 15830,
+        "http": 200,
+        "noindex": true,
+        "single": true,
+        "galleryGroupCount": 3,
+        "srcsetCount": 14,
+        "cta": true
+      },
+      {
+        "id": 15828,
+        "http": 200,
+        "noindex": true,
+        "single": true,
+        "galleryGroupCount": 7,
+        "srcsetCount": 22,
+        "cta": true
+      },
+      {
+        "id": 15826,
+        "http": 200,
+        "noindex": true,
+        "single": true,
+        "galleryGroupCount": 6,
+        "srcsetCount": 20,
+        "cta": true
+      },
+      {
+        "id": 15824,
+        "http": 200,
+        "noindex": true,
+        "single": true,
+        "galleryGroupCount": 6,
+        "srcsetCount": 20,
+        "cta": true
+      },
+      {
+        "id": 15822,
+        "http": 200,
+        "noindex": true,
+        "single": true,
+        "galleryGroupCount": 4,
+        "srcsetCount": 16,
+        "cta": true
+      },
+      {
+        "id": 15820,
+        "http": 200,
+        "noindex": true,
+        "single": true,
+        "galleryGroupCount": 4,
+        "srcsetCount": 16,
+        "cta": true
+      },
+      {
+        "id": 15818,
+        "http": 200,
+        "noindex": true,
+        "single": true,
+        "galleryGroupCount": 5,
+        "srcsetCount": 18,
+        "cta": true
+      },
+      {
+        "id": 15816,
+        "http": 200,
+        "noindex": true,
+        "single": true,
+        "galleryGroupCount": 12,
+        "srcsetCount": 32,
+        "cta": true
+      },
+      {
+        "id": 15814,
+        "http": 200,
+        "noindex": true,
+        "single": true,
+        "galleryGroupCount": 10,
+        "srcsetCount": 28,
+        "cta": true
+      },
+      {
+        "id": 15812,
+        "http": 200,
+        "noindex": true,
+        "single": true,
+        "galleryGroupCount": 7,
+        "srcsetCount": 22,
+        "cta": true
+      },
+      {
+        "id": 15810,
+        "http": 200,
+        "noindex": true,
+        "single": true,
+        "galleryGroupCount": 7,
+        "srcsetCount": 22,
+        "cta": true
+      },
+      {
+        "id": 15793,
+        "http": 200,
+        "noindex": true,
+        "single": true,
+        "galleryGroupCount": 0,
+        "srcsetCount": 8,
+        "cta": true
+      },
+      {
+        "id": 15791,
+        "http": 200,
+        "noindex": true,
+        "single": true,
+        "galleryGroupCount": 0,
+        "srcsetCount": 8,
+        "cta": true
+      },
+      {
+        "id": 15792,
+        "http": 200,
+        "noindex": true,
+        "single": true,
+        "galleryGroupCount": 0,
+        "srcsetCount": 8,
+        "cta": true
+      },
+      {
+        "id": 15731,
+        "http": 200,
+        "noindex": true,
+        "single": true,
+        "galleryGroupCount": 0,
+        "srcsetCount": 8,
+        "cta": true
+      }
+    ],
+    "sourceFilesAccessible": 123,
+    "verifiedSourcesConverted": 92,
+    "originalSha256Unchanged": 92,
+    "galleryImages": 80,
+    "reusedGalleryAttachments": 14,
+    "newGalleryUploads": 66,
+    "newFeaturedUploads": 15,
+    "excludedUnverifiedSources": 31,
+    "desktopCatalogue": "Both pages visually reviewed;16 complete thumbnails, 275x154.6875 at1280 viewport; nativePage2 link tested",
+    "mobileCatalogue": "390px: both pages responsive;336x189 cards, no horizontal overflow; representative scroll views inspected",
+    "single": "Desktop15810 1160x652.5 Hero/two gallery columns; mobile15832 330x185.625 Hero/one gallery column/no overflow",
+    "lightbox": "Desktop15810 opens7-image group, Next changes caption, Escape closes; mobile15832 opens9-image group and closes. Keyboard ArrowRight transition was not established; no exhaustive accessibility certification.",
+    "sticky": {
+      "desktopOffset": 88,
+      "adminOffset": 120,
+      "breakpoint": 1025,
+      "parentOverflow": "All ancestors visible; section aligns flex-start",
+      "longCase": "15810: top120 while section scrolls; sidebar bottom equals section bottom after boundary",
+      "shortCase": "15793: 276.8125px section/251.578125px sidebar remains bounded; no forced pinning beyond section",
+      "tablet": "820px: static, stacked, no overflow",
+      "mobile": "390px: static, stacked, no overflow"
+    },
+    "cta": "Existing template3092 embedded; shared source untouched; quote URL and bookingPopup5890 retained",
+    "limitations": [
+      "No new galleries assigned to original four cases:31 source images remain unverified.",
+      "No exhaustive manual interaction test on every one of12 galleries; count/group markup verified on all12 anonymous pages.",
+      "Full-resolution outputs visually reviewed forFeatured; gallery quality sampled across packaging, screen detail and side profile.",
+      "A bulk media-read request returned non-JSONHTML; no root cause asserted. Follow-up bounded reads/posts and all16 guest pages succeeded."
+    ]
+  },
+  "recovery": {
+    "singleBefore": {
+      "pageSettings": {
+        "custom_css": "/* Native layout; only intrinsic media, WordPress content and focus need scoped rules. */\n.elementor-15714 .cm-case-cover img{display:block;width:100%!important;height:auto!important;aspect-ratio:16/9;object-fit:cover;object-position:center 22%;max-width:100%;max-height:none;margin-inline:auto}\n.elementor-15714 .cm-case-main h2{font-family:Kanit,sans-serif;font-size:clamp(20px,1.8vw,26px);font-weight:400;line-height:1.2;letter-spacing:.025em;text-transform:uppercase;margin:32px 0 16px}\n.elementor-15714 .cm-case-main h2:first-child{margin-top:0}\n.elementor-15714 .cm-case-main .gallery img{border:0!important;width:100%;height:auto}\n.elementor-15714 .cm-case-main iframe{width:100%;height:auto;aspect-ratio:16/9;border:0}\n.elementor-15714 .elementor-icon-list-item:not(:has(.elementor-post-info__terms-list-item)){display:none}\n.elementor-15714 .btn .elementor-button:focus-visible{outline:2px solid var(--e-global-color-accent);outline-offset:4px}\n\n.elementor-15714 .cm-case-breadcrumb{margin:0 0 20px;font-size:14px}\n.elementor-15714 .cm-case-breadcrumb a{color:inherit;text-decoration:underline}\n.elementor-15714 .cm-case-related .elementor-loop-container{align-items:stretch}\n.elementor-15714 .cm-case-final{border-top:1px solid #e1e6dc;margin-top:48px}\n.elementor-15714 .cm-case-final .elementor-widget-text-editor{max-width:65ch}\n.elementor-15714 .cm-case-breadcrumb a:focus-visible{outline:2px solid var(--e-global-color-accent);outline-offset:4px}\n"
+      },
+      "contentSectionSettings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_direction_mobile": "column",
+        "flex_wrap": "nowrap",
+        "flex_gap": {
+          "unit": "px",
+          "row": "48",
+          "column": "48",
+          "isLinked": true
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "row": "32",
+          "column": "32",
+          "isLinked": true
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "row": "32",
+          "column": "32",
+          "isLinked": true
+        },
+        "flex_align_items": "flex-start",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "css_classes": "cm-case-body"
+      },
+      "factsSettings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 24
+        },
+        "width_tablet": {
+          "unit": "%",
+          "size": 28
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_gap": {
+          "unit": "px",
+          "row": "20",
+          "column": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "css_classes": "cm-case-facts-column",
+        "html_tag": "aside"
+      },
+      "mainSettings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 70
+        },
+        "width_tablet": {
+          "unit": "%",
+          "size": 66
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "css_classes": "cm-case-main"
+      },
+      "finalCta": {
+        "id": "748f7af",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+            "unit": "px",
+            "row": "24",
+            "column": "24",
+            "isLinked": true
+          },
+          "_title": "Final quote CTA",
+          "css_classes": "cm-case-final",
+          "padding": {
+            "unit": "px",
+            "top": "48",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "48d0998",
+            "elType": "widget",
+            "settings": {
+              "title": "Plan Your Installation",
+              "__globals__": {
+                "typography_typography": "globals/typography?id=4b3367a",
+                "title_color": "globals/colors?id=secondary"
+              }
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "4469234",
+            "elType": "widget",
+            "settings": {
+              "editor": "<p>Tell us about your TV, mounting surface and setup. We’ll help you plan the next step.</p>"
+            },
+            "elements": [],
+            "widgetType": "text-editor"
+          },
+          {
+            "id": "ab3e147",
+            "elType": "widget",
+            "settings": {
+              "text": "Get a Free Quote",
+              "link": {
+                "url": "https://chicagomounting.com/quote/"
+              },
+              "_css_classes": "cm-case-quote btn btn-md btn-outline",
+              "align": "left",
+              "__globals__": {
+                "typography_typography": "globals/typography?id=d0e77c2"
+              }
+            },
+            "elements": [],
+            "widgetType": "button"
+          }
+        ],
+        "isInner": false
+      }
+    },
+    "cases": [
+      {
+        "postId": 15832,
+        "featuredMedia": 15850,
+        "galleryShortcode": "[gallery ids=\"15861\" columns=\"1\" size=\"full\" link=\"file\"]"
+      },
+      {
+        "postId": 15830,
+        "featuredMedia": 15849,
+        "galleryShortcode": "[gallery ids=\"15860\" columns=\"1\" size=\"full\" link=\"file\"]"
+      },
+      {
+        "postId": 15828,
+        "featuredMedia": 15848,
+        "galleryShortcode": "[gallery ids=\"15859\" columns=\"1\" size=\"full\" link=\"file\"]"
+      },
+      {
+        "postId": 15826,
+        "featuredMedia": 15847,
+        "galleryShortcode": "[gallery ids=\"15858\" columns=\"1\" size=\"full\" link=\"file\"]"
+      },
+      {
+        "postId": 15824,
+        "featuredMedia": 15846,
+        "galleryShortcode": "[gallery ids=\"15857\" columns=\"1\" size=\"full\" link=\"file\"]"
+      },
+      {
+        "postId": 15822,
+        "featuredMedia": 15845,
+        "galleryShortcode": "[gallery ids=\"15856\" columns=\"1\" size=\"full\" link=\"file\"]"
+      },
+      {
+        "postId": 15820,
+        "featuredMedia": 15844,
+        "galleryShortcode": "[gallery ids=\"15855\" columns=\"1\" size=\"full\" link=\"file\"]"
+      },
+      {
+        "postId": 15818,
+        "featuredMedia": 15843,
+        "galleryShortcode": "[gallery ids=\"15854\" columns=\"1\" size=\"full\" link=\"file\"]"
+      },
+      {
+        "postId": 15816,
+        "featuredMedia": 15842,
+        "galleryShortcode": "[gallery ids=\"15853\" columns=\"1\" size=\"full\" link=\"file\"]"
+      },
+      {
+        "postId": 15814,
+        "featuredMedia": 15838,
+        "galleryShortcode": "[gallery ids=\"15852\" columns=\"1\" size=\"full\" link=\"file\"]"
+      },
+      {
+        "postId": 15812,
+        "featuredMedia": 15837,
+        "galleryShortcode": "[gallery ids=\"15851\" columns=\"1\" size=\"full\" link=\"file\"]"
+      },
+      {
+        "postId": 15810,
+        "featuredMedia": 15834,
+        "galleryShortcode": "[gallery ids=\"15835\" columns=\"1\" size=\"full\" link=\"file\"]"
+      },
+      {
+        "postId": 15793,
+        "featuredMedia": 10248,
+        "galleryShortcode": null
+      },
+      {
+        "postId": 15791,
+        "featuredMedia": 15888,
+        "galleryShortcode": null
+      },
+      {
+        "postId": 15792,
+        "featuredMedia": 9974,
+        "galleryShortcode": null
+      },
+      {
+        "postId": 15731,
+        "featuredMedia": 9963,
+        "galleryShortcode": null
+      }
+    ]
+  }
+}
