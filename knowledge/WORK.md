@@ -460,3 +460,7 @@ Final public read of all16:15 expected H1 cities/Location pins and exact SEO met
 15731 exception: automatic review rejected setting Winnetka because the earlier explicit Winnetka/Streeterville conflict hold requires case-specific confirmation. No15731 geography/title/SEO edit executed; actual location remains empty. Request explicit owner confirmation for this exact case. Other fifteen completed and publicly verified. No city/service integration blocks published; noindex and prior media-source limitations remain.
 
 Exact IDs, native CTA tree, fifteen-location table, source/provenance decision, tests and limitations: docs/cases/OWNER-LOCATIONS-SINGLE-2026-11-08.md. Prior blocked3d4 checkpoint superseded for browser access and completed corrections, not for15731 or full visual approval.
+
+## 2026-11-08 — Global image presentation standard saved (documentation only)
+
+User approved a standing visual rule: uniform thumbnail ratios within each grid, square 1:1 for case galleries, 16:9 for case cards, existing approved ratios elsewhere; subject-aware crops; complete uncropped images in lightbox. Added to AGENTS.md for all future Chicago Mounting work. This is a **documentation-only** stage: no WordPress pages, images, templates, media, or CSS were edited or visually tested. Next: apply these rules during authorized gallery/card work and verify rendered responsive results. Existing city/service launch hold and case noindex remain unchanged.
