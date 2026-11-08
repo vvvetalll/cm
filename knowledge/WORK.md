@@ -1,5 +1,5 @@
 # Work — current state
-Updated: 2026-10-26. Read AGENTS.md before acting.
+Updated: 2026-11-08. Read AGENTS.md before acting.
 
 | Task | Status | Next action / evidence needed |
 |---|---|---|
@@ -410,3 +410,16 @@ Real reversible tag test exposed stale guest output. Added12 targeted entries to
 Catalogue mobile390 final regression: Glenview+Frame15826; empty mismatch; reset8; native pages1/2 union16 unique; no excerpts/overflow. Final title17px desktop/16px mobile,500 uppercase. Arrow native spans/right alignment verified. Focused keyboard checks retained; exhaustive accessibility/playback/new-case publish test not claimed.
 
 Recovery: docs/cases/composition-before-2026-11-08.json (bdc7d00). Final canonical snapshot/checks: composition-after-2026-11-08.json (4b97cb0). Full exact report, prepared query matrix, cache fix and launch boundaries: COMPOSITION-2026-11-08.md. Preserve noindex and provenance flags. Next: continue canonical review; do not restore public integrations until final-launch authorization. No generic copy approval gate.
+
+
+## 2026-11-08 — Images, complete verified galleries and desktop sticky facts
+
+Latest image instruction supersedes manual Featured preparation: assistant handles all images with individual TV-centered16:9 crops; target1920×1080 WebP without upscaling. Original sources preserved.123 originals accessible;92 verified sources processed for12 newer cases, SHA256 unchanged.31 unmapped files not assigned.
+
+15 Featured replacements:13 at1920×1080,15793 native1600×900,15792 native736×414.15791 retains1280×720 JPEG video still pending a suitable verified source.15731 reframes only existing9963; geographic conflict remains flagged.12 galleries now contain80 additional photos, excluding each Hero source;14 existing suitable attachments reused,66 gallery uploads. Natural ratios/max1600 WebP, lazy/srcset, native grouped Elementor lightbox; no custom scripts/plugins. Existing final CTA3092 reused in Single; source unchanged.
+
+Single15714 existing facts aside is sticky desktop>=1025,top88px/120px with admin bar, bounded by content section. Parent/ancestors visible overflow and flex-start inspected. Native tablet settings now stack at100%; <=1024 static. Long15810 and short15793 actual scroll/bottom boundary tested; tablet820/mobile390 static/stacked/no overflow. Quote/type/facts remain together; header unchanged.
+
+Desktop catalogue both pages visually inspected (all16 loaded,16:9). Mobile390 both page layouts/ratios/no overflow checked with representative views; Single desktop15810/mobile15832 Hero/gallery/CTA verified. Desktop7-photo lightbox opens/Next/Escape; mobile9-photo opens/Close. Not exhaustive keyboard/every-gallery/manual mobile-card certification. All16 anonymous pages200/noindex/Single15714/CTA3092; gallery group counts all12 correct; all16 still publish, URL/taxonomy/prose/excerpt comparison unchanged. Temporary viewport reset. Completed filters not re-mutated. City/service integration launch HOLD remains unchanged; no blocks restored.
+
+Details, requirements, real limitations and maintenance pattern: docs/cases/IMAGES-STICKY-2026-11-08.md. Full public inventory, dimensions, source hashes, attachment IDs, crops, verification and exact rollback settings: docs/cases/image-inventory-2026-11-08.json. No private Drive IDs/original customer files/credentials committed. Remaining: suitable source for15791, higher-resolution originals for15792/15793, original4 gallery mappings and15731 provenance, eventual explicitly authorized integration launch. No need to repeat completed MCP setup/filter work.
