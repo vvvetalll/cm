@@ -71,3 +71,10 @@ See `knowledge/MCP-CONNECTION.md`. This instruction supersedes older cloud-only 
 
 ## SEO continuation
 Read knowledge/SEO-REPORT.md before further SEO strategy work. Preserve the September redesign. Treat the October baseline and recovered report as historical; obtain current comparable measurements. Do not change production SEO/analytics settings outside the specifically authorized scope.
+
+## Image presentation standards — user decision (2026-11-08)
+
+- Across Chicago Mounting, keep image thumbnails within each grid/group at a consistent aspect ratio, size and gap. Case Study catalogue cards use 16:9; project gallery thumbnails use square 1:1 by default. Other grids follow their existing approved section design; Hero images retain their approved ratio.
+- Crop thumbnail **presentation**, not original image files. Use cover and case-appropriate focal positioning so the TV, mounting work, equipment or other key subject remains visible; do not blindly center-crop, stretch or distort. Preserve the full original aspect ratio in gallery lightboxes and retain image order, optimized WebP, responsive sources and truthful alt text.
+- Prefer existing native Elementor image and layout controls. Avoid unnecessary per-image files, plugins, scripts and CSS overrides. Check real desktop/tablet/mobile appearance, focal crops, lightbox and overflow after changes.
+- Apply these standards to all **new work**. For existing pages, inspect first and correct inconsistent grids only within the authorized task scope; this decision does **not** authorize site-wide redesign or unreviewed production edits.
