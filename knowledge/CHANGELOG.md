@@ -380,3 +380,14 @@ User rejects current15714 visual result and Template-widgetCTA. Fresh public des
 Reread all12 ORIGINAL client descriptions: no actual city/state/address/jobsite identifier. Source13–16 contain31 images/no descriptions. No new locations assigned;13 unknown/conflicted remain. Existing three source-supported attributions are prior checkpoint evidence. Raw/private materials excluded.
 
 Authenticated execution was rejected by automatic safety review because Application Password embedded in shell command risks logs/history exposure. Anonymous MCP HEAD401 proves reachable endpoint only; anonymous native REST403, no cause invented. Current secure credential context/edit session unavailable; public browser unsigned-in/no responsive viewport capability. No WordPress edits or corrected desktop/tablet/mobile QA claimed. Detailed correction manifest/evidence/unblock: docs/cases/SINGLE-CORRECTION-BLOCKED-2026-11-08.md (013d2f4). WORK updated;16 published/noindex/media/taxonomy/URLs and unpublished integration hold untouched by this continuation. Remote readback verifies record.
+
+
+## 2026-11-08 — Native Single corrections; fifteen owner-confirmed location/SEO updates
+
+Through the existing authorized browser UI, removed redundant Plan a Similar Installation from all16 bodies;15714 now contains complete native service CTA structure (outer ec86d3a, no Template widget), source3398/3092 unchanged. Corrected source story-spacing rules using existing spacing variables, retained global Kanit roles, added native Facts padding/Global Light green/Text M and green Accent location pin. Kept bounded desktop sticky and tablet/mobile stacking.
+
+Owner confirmed catalogue tags as actual cities: twelve newer cm_location assignments saved, three prior locations retained.15 case Post Titles/H1, overview where needed and AIOSEO title/meta description updated; excerpts, original URLs, photos/order preserved. Removed separate cmgeoint Hero line after the owner's follow-up; location belongs in H1/Facts. Noindex retained on all16; no integration blocks published.
+
+Final all16 public DOM checks:15 expected H1/actual Location pins and exact SEO title/meta strings match; no Plan block or extra Hero geography line;80 gallery links preserved. Mobile390/tablet768 layouts and global Kanit inspected, no overflow/static Facts. Source/copy desktop CTA geometry and mobile composition compared; sticky bottom boundary before Related Cases. Lightbox opens9 images; fresh Next/Close interrupted, not claimed. No saved screenshot archive or exhaustive accessibility/filter re-certification.
+
+Case15731 geography/title/SEO unchanged: automatic action review rejected applying general tag confirmation to the explicit historical Winnetka/Streeterville conflict; needs specific owner confirmation. Full exact IDs/provenance/verification/limitations: docs/cases/OWNER-LOCATIONS-SINGLE-2026-11-08.md (4a22879). WORK and SEO-CONTENT updated.
