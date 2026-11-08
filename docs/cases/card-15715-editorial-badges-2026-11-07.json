@@ -1,0 +1,425 @@
+{
+  "post_id": 15715,
+  "elements": [
+    {
+      "id": "24dcf2a7",
+      "elType": "e-div-block",
+      "settings": {
+        "classes": {
+          "$$type": "classes",
+          "value": [
+            "e-6f31a5fa-7501"
+          ]
+        },
+        "tag": {
+          "$$type": "string",
+          "value": "article"
+        }
+      },
+      "elements": [
+        {
+          "id": "72ff773",
+          "elType": "widget",
+          "settings": {
+            "__dynamic__": {
+              "image": "[elementor-tag id=\"58e6cb4\" name=\"post-featured-image\" settings=\"%7B%22fallback%22%3A%7B%22url%22%3A%22%22%2C%22id%22%3A%22%22%2C%22size%22%3A%22%22%7D%7D\"]"
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "image_border_radius": {
+              "top": "0.625",
+              "right": "0.625",
+              "bottom": "0.625",
+              "left": "0.625",
+              "unit": "rem",
+              "isLinked": true
+            },
+            "custom_css": "selector { margin-bottom: 1.25rem; }"
+          },
+          "elements": [],
+          "widgetType": "theme-post-featured-image"
+        },
+        {
+          "id": "c7a91e2",
+          "elType": "widget",
+          "settings": {
+            "_css_classes": "cm-case-meta",
+            "icon_list": [
+              {
+                "_id": "c7a91e3",
+                "type": "terms",
+                "taxonomy": "post_tag",
+                "show_icon": "none",
+                "link": "",
+                "custom_date_format": "F j, Y",
+                "custom_time_format": "g:i a"
+              },
+              {
+                "_id": "c7a91e4",
+                "type": "terms",
+                "taxonomy": "cm_installation_type",
+                "show_icon": "none",
+                "link": "",
+                "custom_date_format": "F j, Y",
+                "custom_time_format": "g:i a"
+              }
+            ],
+            "space_between": {
+              "unit": "px",
+              "size": 8
+            },
+            "icon_color": "#5b6e4b",
+            "text_color": "#5b6e4b",
+            "view": ""
+          },
+          "elements": [],
+          "widgetType": "post-info"
+        },
+        {
+          "id": "1462210c",
+          "elType": "widget",
+          "settings": {
+            "classes": {
+              "$$type": "classes",
+              "value": [
+                "e-5b170ef5-bb0b"
+              ]
+            },
+            "tag": {
+              "$$type": "string",
+              "value": "h3"
+            },
+            "title": {
+              "$$type": "dynamic",
+              "value": {
+                "name": "post-title",
+                "group": "post",
+                "settings": {
+                  "before": {
+                    "$$type": "string",
+                    "value": ""
+                  },
+                  "after": {
+                    "$$type": "string",
+                    "value": ""
+                  }
+                }
+              }
+            }
+          },
+          "elements": [],
+          "widgetType": "e-heading",
+          "styles": {
+            "e-5b170ef5-bb0b": {
+              "id": "e-5b170ef5-bb0b",
+              "label": "local",
+              "type": "class",
+              "variants": [
+                {
+                  "meta": {
+                    "breakpoint": "desktop",
+                    "state": null
+                  },
+                  "props": {
+                    "font-family": {
+                      "$$type": "font-family",
+                      "value": "Kanit"
+                    },
+                    "font-weight": {
+                      "$$type": "string",
+                      "value": "600"
+                    },
+                    "font-size": {
+                      "$$type": "size",
+                      "value": {
+                        "size": "clamp(1rem, 1.5vw, 1.375rem)",
+                        "unit": "custom"
+                      }
+                    },
+                    "color": {
+                      "$$type": "color",
+                      "value": "#292B26"
+                    },
+                    "line-height": {
+                      "$$type": "size",
+                      "value": {
+                        "size": "1.15",
+                        "unit": "custom"
+                      }
+                    },
+                    "text-transform": {
+                      "$$type": "string",
+                      "value": "uppercase"
+                    },
+                    "margin": {
+                      "$$type": "dimensions",
+                      "value": {
+                        "block-end": {
+                          "$$type": "size",
+                          "value": {
+                            "size": 0.75,
+                            "unit": "rem"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "custom_css": null
+                }
+              ]
+            }
+          },
+          "editor_settings": {
+            "title": "Title"
+          },
+          "version": "0.0"
+        },
+        {
+          "id": "158ecb5",
+          "elType": "widget",
+          "settings": {
+            "classes": {
+              "$$type": "classes",
+              "value": [
+                "e-50c3e249-d7d3"
+              ]
+            },
+            "paragraph": {
+              "$$type": "dynamic",
+              "value": {
+                "name": "post-excerpt",
+                "group": "post",
+                "settings": {
+                  "max_length": {
+                    "$$type": "number",
+                    "value": 28
+                  },
+                  "apply_to_post_content": {
+                    "$$type": "boolean",
+                    "value": true
+                  },
+                  "before": {
+                    "$$type": "string",
+                    "value": ""
+                  },
+                  "after": {
+                    "$$type": "string",
+                    "value": ""
+                  }
+                }
+              }
+            }
+          },
+          "elements": [],
+          "widgetType": "e-paragraph",
+          "styles": {
+            "e-50c3e249-d7d3": {
+              "id": "e-50c3e249-d7d3",
+              "label": "local",
+              "type": "class",
+              "variants": [
+                {
+                  "meta": {
+                    "breakpoint": "desktop",
+                    "state": null
+                  },
+                  "props": {
+                    "font-family": {
+                      "$$type": "font-family",
+                      "value": "Inter"
+                    },
+                    "font-size": {
+                      "$$type": "size",
+                      "value": {
+                        "size": 1,
+                        "unit": "rem"
+                      }
+                    },
+                    "color": {
+                      "$$type": "color",
+                      "value": "#343434"
+                    },
+                    "line-height": {
+                      "$$type": "size",
+                      "value": {
+                        "size": "1.5",
+                        "unit": "custom"
+                      }
+                    }
+                  },
+                  "custom_css": null
+                }
+              ]
+            }
+          },
+          "editor_settings": {
+            "title": "Summary"
+          },
+          "version": "0.0"
+        },
+        {
+          "id": "6ba5141c",
+          "elType": "widget",
+          "settings": {
+            "classes": {
+              "$$type": "classes",
+              "value": [
+                "e-1468a62-ecae"
+              ]
+            },
+            "paragraph": {
+              "$$type": "escaped-html",
+              "value": "View case study"
+            },
+            "link": {
+              "$$type": "link",
+              "value": {
+                "destination": {
+                  "$$type": "dynamic",
+                  "value": {
+                    "name": "post-url",
+                    "group": "post",
+                    "settings": []
+                  }
+                },
+                "tag": {
+                  "$$type": "string",
+                  "value": "a"
+                }
+              }
+            }
+          },
+          "elements": [],
+          "widgetType": "e-paragraph",
+          "styles": {
+            "e-1468a62-ecae": {
+              "id": "e-1468a62-ecae",
+              "label": "local",
+              "type": "class",
+              "variants": [
+                {
+                  "meta": {
+                    "breakpoint": "desktop",
+                    "state": "focus"
+                  },
+                  "props": {
+                    "outline-width": {
+                      "$$type": "size",
+                      "value": {
+                        "size": 2,
+                        "unit": "px"
+                      }
+                    },
+                    "outline-color": {
+                      "$$type": "color",
+                      "value": "currentColor"
+                    },
+                    "outline-style": {
+                      "$$type": "string",
+                      "value": "solid"
+                    },
+                    "outline-offset": {
+                      "$$type": "size",
+                      "value": {
+                        "size": 3,
+                        "unit": "px"
+                      }
+                    }
+                  },
+                  "custom_css": null
+                },
+                {
+                  "meta": {
+                    "breakpoint": "desktop",
+                    "state": null
+                  },
+                  "props": {
+                    "font-family": {
+                      "$$type": "font-family",
+                      "value": "Inter"
+                    },
+                    "font-weight": {
+                      "$$type": "string",
+                      "value": "600"
+                    },
+                    "font-size": {
+                      "$$type": "size",
+                      "value": {
+                        "size": 0.9375,
+                        "unit": "rem"
+                      }
+                    },
+                    "color": {
+                      "$$type": "color",
+                      "value": "#4E9D05"
+                    },
+                    "text-decoration": {
+                      "$$type": "string",
+                      "value": "underline"
+                    },
+                    "margin": {
+                      "$$type": "dimensions",
+                      "value": {
+                        "block-start": {
+                          "$$type": "size",
+                          "value": {
+                            "size": 1.25,
+                            "unit": "rem"
+                          }
+                        }
+                      }
+                    },
+                    "display": {
+                      "$$type": "string",
+                      "value": "block"
+                    }
+                  },
+                  "custom_css": null
+                }
+              ]
+            }
+          },
+          "editor_settings": {
+            "title": "Read case"
+          },
+          "version": "0.0"
+        }
+      ],
+      "isInner": false,
+      "styles": {
+        "e-6f31a5fa-7501": {
+          "id": "e-6f31a5fa-7501",
+          "label": "local",
+          "type": "class",
+          "variants": [
+            {
+              "meta": {
+                "breakpoint": "desktop",
+                "state": null
+              },
+              "props": {
+                "padding": {
+                  "$$type": "size",
+                  "value": {
+                    "size": 1.25,
+                    "unit": "rem"
+                  }
+                }
+              },
+              "custom_css": null
+            }
+          ]
+        }
+      },
+      "editor_settings": {
+        "title": "Card"
+      },
+      "version": "0.0"
+    }
+  ],
+  "settings": {
+    "custom_css": "/* CM case card metadata visual polish, 2026-11-07. Catalogue styling is scoped to Page 15716. */"
+  }
+}

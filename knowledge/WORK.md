@@ -291,3 +291,14 @@ Implemented in the existing production objects; all 16 existing case records rem
 - Wilmette 15791 now has a real YouTube iframe; player rendered. Higher-resolution original video thumbnail attachment 15888 (1280x720 JPEG) replaces 480x360 featured 15794; old media preserved. Attachment 15861 alt corrected. Source-supported overview/service links improved.
 - Remaining: equipment remains in body content, not a structured sidebar field; attempted optional native ACF import could not be verified after its browser tab crashed and was not activated as a completed feature. Original four cases lack comparable galleries where additional verified photos were unavailable. New thumbnail 15888 is JPEG, not WebP. Playback and exhaustive keyboard/hover audits were not completed. No live geographic/service page widgets were added; native editorial tags are ready for dynamic queries.
 - Keep drafts 15781, 15839 and 15878 unchanged. Recommend 15781 and 15839 for later cleanup approval; retain 15878 until editorial signoff. Nothing deleted.
+
+
+## 2026-11-07 — Native editorial city badges fixed
+
+Loop Card 15715 Post Info c7a91e2, repeater c7a91e3: changed native taxonomy from cm_location to post_tag. This is the only element-tree change. Existing tags 152–155 renamed Glenview, IL / Evanston, IL / Wilmette, IL / Winnetka, IL; IDs, slugs, descriptions and memberships unchanged (four each). No JavaScript, CSS, new components or case edits. Catalogue 15716 tree/settings unchanged; all sixteen case content/tags/actual locations/types/status unchanged.
+
+Verified all sixteen rendered badges across catalogue pages 1/2 at desktop1718px and mobile390px: white background,999px pill radius,green pin rgb(67,137,7),12px inset from image top-left,no horizontal overflow. AJAX TV filter retains8+4 badges and native numeric pagination; Frame filter4 and Outdoor1 badges checked desktop/mobile. Combined Winnetka+TV returns original15731 with badge. Clear resets both selects to0,baseURL without fragment,8 cases and page2.
+
+Location filter15758 in set15744 still uses actual cm_location; it returns one confirmed case per city, not four editorial selections. To return four per city it must deliberately switch to editorial tags and be relabeled/documented accordingly. It was NOT changed. Badge is editorial placement, not verified installation provenance. Native Post Info Tags displays all assigned tags; currently each case has exactly one editorial tag. Keep unrelated tags off case records or deliberately revise the data model before adding them.
+
+Implementation snapshots: docs/cases/card-15715-editorial-badges-2026-11-07.json and editorial-city-terms-2026-11-07.json.

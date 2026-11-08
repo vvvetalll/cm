@@ -1,0 +1,30 @@
+[
+  {
+    "id": 153,
+    "count": 4,
+    "description": "Editorial selection for the Evanston city page. This placement does not establish the actual installation location.",
+    "name": "Evanston, IL",
+    "slug": "featured-city-evanston"
+  },
+  {
+    "id": 152,
+    "count": 4,
+    "description": "Editorial selection for the Glenview city page. This placement does not establish the actual installation location.",
+    "name": "Glenview, IL",
+    "slug": "featured-city-glenview"
+  },
+  {
+    "id": 154,
+    "count": 4,
+    "description": "Editorial selection for the Wilmette city page. This placement does not establish the actual installation location.",
+    "name": "Wilmette, IL",
+    "slug": "featured-city-wilmette"
+  },
+  {
+    "id": 155,
+    "count": 4,
+    "description": "Editorial selection for the Winnetka city page. This placement does not establish the actual installation location.",
+    "name": "Winnetka, IL",
+    "slug": "featured-city-winnetka"
+  }
+]
