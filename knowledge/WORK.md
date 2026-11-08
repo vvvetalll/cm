@@ -365,3 +365,18 @@ No WordPress mutation, CSS/JS deployment,new WP object,template/card change or p
 ## 2026-11-07 — Complete client-photo audit and Single/copy review (not implemented)
 
 Read-only source audit:123 original images/12 client notes,16 posts and646 media metadata records reviewed.92 images match12 newer cases;68 of these are absent from current case media.31 images in folders13–16 remain unassigned. Found conflicting Winnetka/Streeterville labels for the same photo9963/7316 and unreliable media parent assignments. Prepared a simple desktop/mobile preview with all5 photos for15822,16 copy drafts (12 source-supported,4 evidence-limited),and detailed per-case completeness/hero/gallery/alt review. No WordPress changes,uploads,templates,production CSS/JS or publication. See docs/cases/SOURCE-AUDIT-DESIGN-REVIEW-2026-11-07.md. Await design/copy approval; resolve older source mappings/location conflict.
+
+
+## 2026-11-08 — Native Installation Type dropdown fixed; continuation checkpoint
+
+User approved the sixteen prepared case texts for now; do not block technical development on copy approval. This does not verify disputed locations, equipment/customer claims or photo assignments. Preserve case noindex; latest separate design proposal is distinct from this copy approval.
+
+Changed only existing Filter15759 in Set15744 via native editor: exclude obsolete Installation Type146 (TV Wall Mounting), include=no. No new filters/sets/pages/templates/posts/plugins; no taxonomy assignment, Hero, Card15715, Single15714, CSS, SEO or publication changes. Saved selection and native update notice verified. Exclusion permits future legitimate terms without maintaining a seven-item whitelist.
+
+Current read: all16 cases remain published with one primary type each; twelve newer actual locations empty; original four terms unchanged. Single15714 MCP read succeeds. Catalogue remains category144/Card15715,8 per page,numeric pagination,no limit. Source-audit Winnetka15731 photo/location conflict remains unresolved.
+
+Actual desktop1718 browser checks after save/reload: seven useful type choices (counts4/1/5/2/2/1/1), obsolete146 absent; Frame AJAX returns15826/15824/15820/15731; Glenview+Frame returns15826 with native combined URL. Zero-count alternatives remain selectable. Base page1 eight published wrappers; no desktop horizontal overflow.
+
+Interrupted before fresh empty-result/reset/page2/mobile/keyboard checks: Work browser process exited after permission-environment update with invalid filesystem-path handling. One recovery attempt failed; command runtime also rejects file:///workspace on Windows before process launch; Node HTTP tool disappeared from available tools. This is a runtime blocker, not a website/auth/MCP failure. No temporary viewport override set, no screenshot saved. No current-session case noindex HTML retest, new-case publish test, geo/service placement or Single design implementation claimed.
+
+Next: finish pending native filter tests after Work runtime recovers, then inspect existing city/service consumers and continue canonical Single15714 using established design/16:9 requirement, without new prototypes or treating editorial city groups as actual job provenance. Do not rerun successful connection setup or completed checks without a concrete failure/change. Full record: docs/cases/IMPLEMENTATION-2026-11-07.md, continuation commit091b10f06502790e7ba83a42ea77754e77155258.
