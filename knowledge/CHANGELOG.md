@@ -428,3 +428,12 @@ Rewrote all16 stories to remove filler/redundant section splits; retained Instal
 Found real stale public background CSS with padding0; existing Hostinger clear-cache API returned200/purged=true. Plain public page then served regenerated Light green/20px/10px/16px-gap/18px-icon CSS. All16 anonymous URLs200/noindex/oneH1/current prose/breadcrumb-first/TV icon/mobile-hidden Quote, no internal text or standalone story links. All16 publish.15731 existing unassigned actual location preserved; editorial Winnetka unchanged.
 
 **Not visually certified:** browser sandbox startup and Windows helper failed. No new all-breakpoint rendered/overflow/sticky-scroll/lightbox/keyboard/CTA-visibility QA; CSS/HTML inspection is not that test. Full completion remains blocked on functioning browser. Integrations remain unpublished. Detailed exact changes, source limits, checks and next action: docs/cases/BREADCRUMBS-FACTS-COPY-2026-11-08.md. Backup committed before writes96cd96f. This supersedes prior story wording, not existing image mappings or launch hold.
+
+
+## 2026-11-08 — Project Facts visual refinement verified
+
+Refined existing15714 Facts only: native24px padding, retained Light green/10px radius/24% width, compact existing Kanit H3 typography for semantic H2, separate uppercase labels and dynamic values using Text S, aligned16px green icons,12px row gap, subtle native separators. Existing post-info IDs/bindings preserved inside native rows. Grouped supporting CTA intro/button with divider and full-width quote; mobile CTA group hidden, global fixed CTA unchanged. No new CSS/fields/templates/global Kit changes.
+
+Actual before/after15830 screenshots inspected; desktop1366/default,tablet768,mobile390 verified. Background/padding/radius consistent; no overflow; mobile fixed CTA visible and sidebar CTA hidden. Desktop sticky at120px;15731 empty Location whole-row omitted, bottom boundary stops before Related (Facts bottom=Related section top235.953125). Temporary viewports reset.
+
+Readback exact; other template tree/page settings unchanged; all16 anonymous URLs200/noindex/dynamic rows. No Post Content/media/taxonomy/SEO edits. Backup89cbd82 before mutation; exact controls/IDs/tests/limits in docs/cases/PROJECT-FACTS-REFINEMENT-2026-11-08.md. Focused refinement complete; older broader launch/source limits remain unchanged.
