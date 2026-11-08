@@ -78,3 +78,13 @@ Read knowledge/SEO-REPORT.md before further SEO strategy work. Preserve the Sept
 - Crop thumbnail **presentation**, not original image files. Use cover and case-appropriate focal positioning so the TV, mounting work, equipment or other key subject remains visible; do not blindly center-crop, stretch or distort. Preserve the full original aspect ratio in gallery lightboxes and retain image order, optimized WebP, responsive sources and truthful alt text.
 - Prefer existing native Elementor image and layout controls. Avoid unnecessary per-image files, plugins, scripts and CSS overrides. Check real desktop/tablet/mobile appearance, focal crops, lightbox and overflow after changes.
 - Apply these standards to all **new work**. For existing pages, inspect first and correct inconsistent grids only within the authorized task scope; this decision does **not** authorize site-wide redesign or unreviewed production edits.
+
+
+## Final editorial-city boundary — owner decision (2026-11-08)
+
+- Preserve the approved four-by-four editorial matrix: Glenview/tag152=15792,15826,15816,15832; Evanston/tag153=15793,15824,15814,15812; Wilmette/tag154=15791,15820,15830,15822; Winnetka/tag155=15731,15818,15810,15828.
+-15731 belongs to the Winnetka editorial group. Historical photo-label disagreement does not block editorial filters, badges or future city selections.
+- Editorial placement is not verified installation provenance. Never derive factual job-city claims from tags, filenames or folder order.
+- The owner explicitly stopped unsolicited changes/removal of existing location assignments, approved H1 and SEO metadata. Preserve these during the authorized content/gallery cleanup; do not silently change them to enforce a provenance interpretation. Existing taxonomy values alone are not fresh source verification.
+- Latest authorized copy task: rewrite all16 Post Content stories from evidence, remove internal Media Library/development language and standalone unstyled SEO links; preserve H1,URLs,locations,SEO,noindex,photos and canonical Single15714.
+- City/service integration sections stay unpublished until final authorization.
