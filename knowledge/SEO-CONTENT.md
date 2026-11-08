@@ -277,3 +277,21 @@ User decision: all sixteen Case Studies posts may remain **published for reviewi
 Twelve new posts 15810–15832 have no Location terms in current reported WordPress data. The 4×4 grouping in static draft preview15878 is an editorial proposed distribution: Glenview 15792/15826/15816/15832; Evanston 15793/15824/15814/15812; Wilmette 15791/15820/15830/15822; Winnetka 15731/15818/15810/15828. It is not verified geographic provenance; avoid statements that actual installations occurred in those cities without adequate evidence. User wants four diverse case examples per city in an easy-to-maintain system, not individual templates per city. See docs/cases/RECOVERY-AUDIT-2026-11-07.md for 16-post inventory and technical defects.
 
 No WordPress edits made by this documentation stage. Future changes require directly checking the current site, with one canonical catalogue15716, Loop Card15715, Filter Set15744 and one existing reusable Single (selection pending).
+
+
+## 2026-11-07 — Published review cases and editorial placement
+
+All 16 category-144 cases remain published for review with rendered noindex. Catalogue 15716 is also noindex. Only 15791, 15792 and 15793 required noindex corrections; global indexing was not changed. Editorial tag archives also render noindex.
+
+Native WP Tags represent editorial selections separately from actual cm_location:
+
+| Tag ID | Editorial city | Case IDs |
+|---|---|---|
+| 152 | Glenview | 15792, 15826, 15816, 15832 |
+| 153 | Evanston | 15793, 15824, 15814, 15812 |
+| 154 | Wilmette | 15791, 15820, 15830, 15822 |
+| 155 | Winnetka | 15731, 15818, 15810, 15828 |
+
+Slugs are featured-city-glenview, featured-city-evanston, featured-city-wilmette and featured-city-winnetka. These are editorial selections, not evidence of installation location. Actual locations remain Winnetka/15731, Wilmette/15791, Glenview/15792, Evanston/15793; newer twelve remain unassigned pending verified source information. Existing draft review 15878 already matches this matrix and was not edited. No geographic/service page placements were implemented in this checkpoint; future native queries can use these tags. Relevant existing service links were added to case bodies without inventing product/location claims.
+
+All case pages now use Single 15714 through native category 144 condition. Do not publish draft 15839 as a competing Single. Do not remove review noindex until approval. See docs/cases/IMPLEMENTATION-2026-11-07.md for media limitations and verification scope.

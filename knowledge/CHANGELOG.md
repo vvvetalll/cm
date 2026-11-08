@@ -221,3 +221,12 @@ Verification/limits: GitHub remote report readback passed; no authenticated WP e
 
 ### 2026-11-07 — Verified sixteen live catalogue links in connected browser (read-only)
 Independent check: read current connected browser's already-open catalogue tab at https://chicagomounting.com/installation-case-studies-draft/. Matched all sixteen case URL slugs against the rendered link text (16/16); filter option labels and Clear Filters appeared in the tab content. This was a **read-only browser snapshot**, not functional or robots-meta QA. External direct HTTP fetch through the available web tool failed, so no new noindex claim was independently established. No WordPress changes. GitHub report and project guidance were updated separately. Next: targeted authenticated WordPress edits and checks in an editing-capable Work environment; preserve existing posts/templates.
+
+
+## 2026-11-07 — Unified Case Studies implementation
+
+- Updated existing Single 15714 to automatically cover category 144, with dynamic Featured Project design and responsive content/sidebar. Header 9516 now excludes case category; Article 4432 remains in use for unrelated articles.
+- Preserved 16 published cases; corrected missing noindex on 15791/15792/15793 and verified noindex/one H1/shared Single on every case.
+- Added native editorial-city tags 152–155 (four cases each), preserving actual locations. Updated supported case descriptions/service links, embedded Wilmette video, corrected media 15861 alt, and added original-resolution thumbnail 15888 for 15791.
+- Updated catalogue 15716 to native numeric pagination (8/page, unlimited page count). Preserved Card 15715 and Filter Set 15744; removed obsolete hardcoded catalogue JavaScript and unused styles. Verified 8+8 base results, 8+4 TV-filter results, empty state and clean reset.
+- Inspected original and newer cases at desktop/mobile, original at tablet, catalogue mobile and unrelated Article 10089 desktop/mobile. Equipment sidebar field, four original galleries, JPEG-to-WebP conversion, video playback and complete keyboard/hover audit remain outstanding. No new page/post/template/plugin; no deletions. See docs/cases/IMPLEMENTATION-2026-11-07.md.
