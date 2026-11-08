@@ -335,3 +335,14 @@ Saved existing cm_location terms for twelve newer cases: Glenview15832/15826/158
 Automatic review rejected applying the general confirmation to conflicted15731 because the earlier explicit Winnetka/Streeterville hold requires specific confirmation. No location/title/SEO update executed for15731. Its actual location stays empty; obtain exact-case owner confirmation before changing it.
 
 All16 final public pages retain noindex;15 expected H1/Location/pin and exact title/meta matches verified. No integration blocks republished. Full implementation and limitations: docs/cases/OWNER-LOCATIONS-SINGLE-2026-11-08.md.
+
+
+## 2026-11-08 — Final editorial distinction and completed case-copy cleanup
+
+The owner's final decision defines the unchanged4x4 tag matrix as editorial/SEO grouping, not physical-job proof. Glenview152=15792/15826/15816/15832; Evanston153=15793/15824/15814/15812; Wilmette154=15791/15820/15830/15822; Winnetka155=15731/15818/15810/15828. Existing catalogue post_tag filter and badges match four per city.15731's photo-label issue does not block its editorial membership or future city query.
+
+Supersedes the prior broad statement that tag confirmation independently verifies actual job cities. The owner explicitly stopped unsolicited removal of existing location/H1/SEO values; ten attempted changes were restored before final content work. Preserve current assignments/approved headings/metadata. Existing cm_location values must not be cited as new source confirmation. No automatic editorial-to-factual rewriting.
+
+All16 Post Content descriptions now use professional we-voice stories and documented technical scope. No internal Media Library/upload/documentation language or standalone unstyled SEO links remains. New stories add no physical city claim based on editorial placement; source-backed older city mentions retain their existing evidence. All approved H1,SEO metadata,locations,URLs and noindex were preserved and checked; useful city/service navigation stays in styled template components.
+
+Four older galleries remain0 after source/Media Library re-audit: no additional verified job photographs. Existing12 galleries retain80 files/order/alt with square presentation and full original-ratio lightbox. Completed implementation/limits: docs/cases/FINAL-CONTENT-GALLERIES-2026-11-08.md. City/service integration launch remains unpublished until explicit authorization.
