@@ -120,3 +120,37 @@ Limits: browser timed out during final mobile Wilmette selection/reset; one reco
 Installation taxonomy already appeared reclassified in current frontend markup before this task changed any cases: Frame4, Fireplace/Specialty5, Large/Premium2, TV/Soundbar2, Outdoor1, Recessed1, Standard1; each of16 card wrappers had one primary cm_installation_type class matching the proposed IDs. Obsolete TV Wall Mounting146 remains a visible zero-count option because15759/set retain Never hide. No reclassification is claimed as a mutation by this task; source-description verification and restricting15759 to seven useful choices remain pending.
 
 Next: restore browser availability/reset the temporary viewport, finish Location-first native ordering if needed, verify individual noindex only if required, and finish the separate Installation Type dropdown/description checks. No new pages,posts,templates,plugins,filter sets or installed-plugin file access.
+
+
+## 2026-11-08 — Installation Type dropdown continuation
+
+### User decision
+The sixteen prepared case texts are approved for now. Copy approval is no longer a development gate. Factual details, customer claims, actual locations and photo assignments remain subject to later review; approval is not verification of those details. Preserve all review noindex settings. The latest separate Single design proposal is not recorded as visually approved by this copy decision.
+
+### Current-session reads
+GitHub default branch verified as claude/chicago-mounting-zip-review-szeoup. Read AGENTS, README, PROJECT, WORK, CHANGELOG, SEO-CONTENT, MCP-CONNECTION, implementation/recovery and latest source-audit/design report. Existing direct MCP session successfully read Single15714 (HTTP200/isError=false), without restarting connection setup. Authenticated REST read all16 category144 posts and Page15716 (HTTP200). Existing query remains category144, Card15715, eight posts per page, numeric pagination, no page limit. All16 posts remain publish; each has one primary Installation Type. Actual cm_location is empty on twelve newer records; original four retain existing terms. Winnetka15731 photo provenance conflict in source audit remains unresolved; do not describe its geographic attribution as independently reconfirmed.
+
+### Actual production change
+Only existing Installation Type filter15759 in Set15744 changed, through native Filter Everything editor: Include/Exclude Terms now EXCLUDES obsolete term146 (TV Wall Mounting). Before: no selected exclusions. After: selected exclusion146, include=no. The editor displayed “The Filter set has been updated.” and saved selection was read back. This is an exclusion rather than a seven-term whitelist so future legitimate Installation Types are not silently blocked. Term146 was not deleted; case assignments, Location15958, filter URL prefixes, query target, empty-term policy, Hero, Card, Single, page CSS/content, publication and SEO settings were not edited.
+
+### Browser verification actually completed
+At desktop1718px:
+- Reloaded catalogue shows exactly seven useful types plus placeholder: Frame4, Outdoor1, Fireplace/Specialty5, Large/Premium2, TV/Soundbar2, Recessed1, Standard1. Obsolete TV Wall Mounting absent.
+- Native AJAX Frame selection completes with IDs15826,15824,15820,15731.
+- Adding editorial Glenview completes with ID15826 only and native combined URL /case-installation-frame-tv-installation/case-city-featured-city-glenview/.
+- Installation dropdown in that state retains zero-count alternatives, including Large/Premium0, enabling the existing empty-state journey.
+- Before filtering, page1 has eight expected published case wrappers. Document width1698 < viewport1718; no desktop horizontal overflow.
+- Existing filter15759 remains taxonomy_cm_installation_type, Dropdown, case-installation; Location remains post_tag/case-city. Saved set still targets catalogue15716, Elementor Posts #1 and #video.
+
+No new post, page, template, filter or plugin was created. Current-session case bodies support their primary grouping; no source-photo audit was repeated and no new factual provenance claim is made.
+
+### Interruption and limits
+The next browser call, intended to choose Large/Premium0, verify empty state, reset and page2, failed before executing: browser kernel exited after an environment permission update with a filesystem-path error involving /root/.codex/.arcade-git/aggregate-skills. One browser recovery attempt failed. Command runtime also failed before launching: invalid sandbox permission path URI file:///workspace on Windows. The Node HTTPS tool was removed from the exposed tool set at the same update. This is a current Work runtime blocker, not evidence of a WordPress/MCP/credential failure. GitHub connector remained functional.
+
+Therefore this stage does NOT claim fresh empty-state/reset/page2/mobile/keyboard/noindex HTML verification, a saved screenshot, new-case publication test, city/service automatic placement, or Single redesign implementation. Previous successful checks remain historical. No temporary viewport override was set in this stage. Page remains in the last verified Glenview+Frame state; the failed call did not perform its proposed selections.
+
+### Exact next steps
+1. Once the Work runtime functions again, continue with the existing session when valid; retry MCP setup only if its actual request fails.
+2. Complete zero-result/reset/page2 plus mobile dropdown/keyboard tests after the term146 exclusion. No need to redo the passed base/Frame/Glenview+Frame checks unless a later change warrants it.
+3. Inspect existing city/service queries before implementing automatic placements; source audit prohibits treating editorial groups as actual job locations. No placement widget was added this stage.
+4. Continue existing Single15714 using approved existing-site design decisions and mandatory16:9 hero; latest detailed redesign proposal remains distinct from the newly approved copy. Preserve originals and noindex. No new prototypes.
