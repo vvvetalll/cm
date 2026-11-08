@@ -395,3 +395,12 @@ Case15731 geography/title/SEO unchanged: automatic action review rejected applyi
 ## 2026-11-08 — Documented site-wide image-grid standards
 
 Request: save the user's standing image-layout instructions. Added AGENTS.md guidance for uniform grid thumbnail proportions (Case galleries 1:1, case cards 16:9), subject-aware cover cropping, unchanged full-size/lightbox images and source files, consistent responsive display, and scoped rollout only with authorization. Updated knowledge/WORK.md. Documentation-only GitHub writes; no website, plugin, media, WordPress or template changes; no live visual tests. Next: enforce during future authorized image-layout tasks and verify actual desktop/tablet/mobile behavior. Existing noindex and publication hold unchanged.
+
+
+## 2026-11-08 — Verified navigation and responsive Facts; square-thumbnail implementation
+
+Existing Single15714 only: native breadcrumbs a4a0776 and return button b717bf4 to existing catalogue; both actual transitions verified. Native Facts radius10px, original Global Light green/padding20 preserved; actual1366/768/390 measurements confirm sticky desktop/static stacked smaller layouts, equal background and padding, no overflow. White-mobile state not reproduced; no CSS background patch.
+
+Existing gallery CSS source changed to1:1 cover thumbnails; originals/order/alt/lightbox links untouched. Complete crop/lightbox review ongoing under the expanded final-content task, not yet claimed complete. Four native city-filter results match existing4x4 editorial matrix, including15731 Winnetka. No city tag/filter/launch changes. Unsolicited geographic removals were stopped by owner and all ten affected records restored to prior title/body/SEO/location. Current preserved assignments are not new source verification. AGENTS boundary updated without overwriting concurrent image-standard addition.
+
+Exact implementation/current verification/limits: docs/cases/NAVIGATION-FACTS-THUMBNAILS-2026-11-08.md (23bad23). Remaining active authorized work: rewrite16 stories, remove internal/unstyled links, verify older missing-gallery source candidates and full responsive galleries, then final checkpoint.
