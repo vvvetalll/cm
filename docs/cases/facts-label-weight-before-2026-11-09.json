@@ -1,0 +1,20 @@
+{
+  "post_id": 15714,
+  "element_ids": [
+    "cffl001l",
+    "cfft001l"
+  ],
+  "settings_before": {
+    "title_by_id": {
+      "cffl001l": "LOCATION",
+      "cfft001l": "INSTALLATION TYPE"
+    },
+    "header_size": "div",
+    "__globals__": {
+      "typography_typography": "globals/typography?id=5d02c94",
+      "title_color": "globals/colors?id=text"
+    }
+  },
+  "change": "Local typography cloned from Text S; font weight 400 to 500. No global typography edit.",
+  "rollback": "Restore the two label settings from settings_before with title_by_id applied to title; preserve all unrelated current settings and elements."
+}
