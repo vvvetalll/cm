@@ -437,3 +437,12 @@ Refined existing15714 Facts only: native24px padding, retained Light green/10px 
 Actual before/after15830 screenshots inspected; desktop1366/default,tablet768,mobile390 verified. Background/padding/radius consistent; no overflow; mobile fixed CTA visible and sidebar CTA hidden. Desktop sticky at120px;15731 empty Location whole-row omitted, bottom boundary stops before Related (Facts bottom=Related section top235.953125). Temporary viewports reset.
 
 Readback exact; other template tree/page settings unchanged; all16 anonymous URLs200/noindex/dynamic rows. No Post Content/media/taxonomy/SEO edits. Backup89cbd82 before mutation; exact controls/IDs/tests/limits in docs/cases/PROJECT-FACTS-REFINEMENT-2026-11-08.md. Focused refinement complete; older broader launch/source limits remain unchanged.
+
+
+## 2026-11-09 — Slightly heavier Project Facts labels
+
+User requested slightly heavier headings in the supplied Facts screenshot. Changed only LOCATION (`cffl001l`) and INSTALLATION TYPE (`cfft001l`) in canonical Single Case15714 from Inter400 to500. Cloned the existing Text S native typography into these two widgets (same clamp(12px, 0.75vw, 14px), line-height1.5), preserving color binding. Global Kit, values, Project Facts H2, layout, conditions and all other elements unchanged. Native local typography owns these labels now; values still use global Text S.
+
+Before controls saved in docs/cases/facts-label-weight-before-2026-11-09.json (commit0386a141aa3535f41affc10116d27ab5ffb04f5a). REST save200/exact readback; native Elementor save/publish completed. Existing Hostinger cache-clear returned200/purged=true; regenerated public linked template stylesheet returned200/text-css with font-weight500 on both selectors. Representative public15830 URL https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/ returned200/noindex. Complete tree equals intended two-label edit; page settings and conditions unchanged. No case content, media, taxonomy or integration changes.
+
+Visual desktop/mobile inspection NOT completed: desktop browser was being used concurrently, and isolated headless launch was blocked by automatic approval policy. CSS/readback verification is not visual QA. Next: owner visual review of the slight weight change. Existing integration launch hold and source limits remain. Rollback: restore only the two original label settings from the recorded backup, then native save and cache refresh.
