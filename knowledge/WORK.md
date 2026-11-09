@@ -1,5 +1,23 @@
 # Work — current state
-Updated: 2026-11-08. Read AGENTS.md before acting.
+Updated: 2026-11-09. Read AGENTS.md before acting.
+
+## Latest checkpoint — 2026-11-09 final Case Studies audit
+
+**Completed:** current production audit of all 16 cases, all 96 images and 11 held integration snapshots/destinations. Full report: [FINAL-AUDIT-2026-11-09.md](../docs/cases/FINAL-AUDIT-2026-11-09.md); [per-case review](../docs/cases/PER-CASE-AUDIT-2026-11-09.md); [image inventory](../docs/cases/IMAGE-AUDIT-2026-11-09.csv); [verified results](../docs/cases/final-audit-verification-2026-11-09.json).
+
+**Active corrections, saved/read back and publicly checked:** 13 posts received supported secondary Installation Types; five SEO descriptions and two excerpts corrected; 94 media titles improved with all URLs/alt values preserved; one contextual service link added to each of 16 case bodies. Category 144 now has its own noindex setting and is excluded from category-sitemap.xml. Initial category REST write returned 200 without persisting; AIOSEO UI save/reopen plus REST/public/sitemap checks verified the actual correction.
+
+**Verified behavior:** base pagination covers 16 unique posts; each editorial city has exactly four; all seven Installation Type selections match assignments; Large & Premium page 2 completes eleven results. Mobile combined filters, empty result and Clear Filters work; card/detail/back navigation, full-size gallery next/Escape, 1366/768/390 layouts and desktop sticky facts checked. No document horizontal overflow observed. No Lighthouse or field CWV score claimed.
+
+**Preserved:** all post IDs/slugs/URLs, featured associations, actual Location arrays and approved 4×4 editorial tags. Exact Elementor data/conditions/status of 15714, 15715 and 15716 unchanged. No geo/service page, global SEO/design, Article/product conditions, WooCommerce, plugin file or cache configuration edited. All 16 cases and catalogue remain noindex; all 11 automatic integration sections remain absent publicly.
+
+**Decision:** GO for noindex review; NO-GO for SEO/integration launch. Remaining: 15731 factual city unresolved versus editorial Winnetka badge/slug; 15824 Frame Pro source versus The Frame packaging ambiguity; visible breadcrumb catalogue differs from schema category archive; reusable term→page mapping/fail-closed validation pending. Hostinger recoverable backup and staging remain unverified. Three old hero images are source-limited; four legacy cases have no additional approved gallery. 10,000-case performance/caching/import operability not established.
+
+**Next step:** resolve the two source-data ambiguities and agree how editorial city labels differ from verified locations; then prepare scoped breadcrumb/mapping changes for review. Verify Hostinger recovery before structural release. Do not redo the 16-case/96-image audit unless content changes. Do not launch, remove noindex, expose integration sections, change URLs or global settings without final approval.
+
+Rollback exports: [field/media corrections](../docs/cases/final-audit-corrections-2026-11-09.json) and [body/link corrections](../docs/cases/service-link-corrections-2026-11-09.json). These are targeted backups, not proof of full-site recovery.
+
+---
 
 | Task | Status | Next action / evidence needed |
 |---|---|---|
