@@ -1,3 +1,206 @@
+# Chicago Mounting — Organic SEO, Local Landing Pages and Lead Performance Audit
+
+**Assessment date: November 9, 2026 (America/Chicago). Branch: seo.**
+**Scope:** organic performance, four city landing pages, seasonality, technical SEO, competitors/keyword opportunities, GA4 attribution, prior optimization outcomes and prioritized recommendations.
+
+This audit continues the existing research. Analytics below are recovered observations already documented on this branch, not freshly queried analytics in this execution. Public-page and competitor retrieval was performed for this continuation. No WordPress, Elementor, GBP or tracking changes were made. The completed BrightLocal investigation is preserved below and was not repeated.
+
+## 1. Executive assessment
+
+**The site has a local organic acquisition weakness hidden by branded/homepage growth.** GSC clicks increased 18.69%, but the exact query “chicago mounting” supplies 17 of the 20 additional clicks. After excluding that single query, clicks increase only 90→93 (+3.33%); this is not a complete non-brand segmentation. Four city pages lose 30.09% of impressions and generate zero clicks in the later fortnight. The coverage hub loses 28.47% of impressions.
+
+**Organic engagement improved; real lead growth remains unproven.** GA4 Organic Search sessions rise 20.55%, engaged sessions 33.33%, and recorded key events 50%. Event definitions and actual outcomes were not validated. Total traffic is dominated by a much larger Direct increase and cannot represent SEO performance.
+
+**Neither a site-wide technical collapse nor seasonality is established.** The stored GSC report has zero server/redirect errors, no manual action and no security issue. Aggregate impressions improve while three city pages and the hub weaken. This mixed pattern does not support attributing all losses to seasonal demand. Query-level position/demand and year-over-year data are missing.
+
+**Business recommendation:** prioritize hub/city non-brand acquisition and trustworthy lead attribution. Preserve the September design, existing URLs and intended noindex exclusions. Do not use this report as authorization to edit production.
+
+## 2. Sources, comparability and access limits
+
+| Source | Evidence used | Coverage and limitation |
+|---|---|---|
+| GSC | Prior authenticated observations preserved in this report; domain chicagomounting.com, Web, Oct 25–Nov 7 vs Oct 11–24 | Equal 14-day windows, all countries/devices. No fresh US/device/query-by-city, YoY or URL Inspection export obtained in this continuation. |
+| GA4 | Prior authenticated property 498944746 Traffic acquisition observations | Same two windows, all countries/users. No verified event trigger logic, deduplication, US-only acquisition or city landing-page attribution. |
+| Ahrefs | Prior target keyword/Top pages comparisons, platform dates Nov 10 vs Oct 10 | Estimates, mixed Monthly/Average volume views and stale keyword updates. No fresh competitor-domain Content Gap export available. |
+| GBP | Prior September/October monthly Performance observations | Full months differ from GSC fortnights; partial November is excluded from trend conclusions. |
+| BrightLocal | Completed investigation retained below | No repeat scans, settings inspection or additional name investigation. Not a substitute for organic rankings. |
+| Public website | Four city routes retrieved; hub excerpt and targeted competitor results | Wilmette/Winnetka retrieval labeled crawled today; Glenview/Evanston copies labeled 2–3 months old. Those two copies are historical content evidence, not current-live verification. No raw-header/canonical, rendered mobile, form submission or speed testing performed. |
+| GitHub | Default branch documentation and current seo report/history | Default branch verified as claude/chicago-mounting-zip-review-szeoup. Existing seo branch retained; unrelated records preserved. |
+
+No direct GSC, GA4, Ahrefs or GBP analytical tools were exposed in the available tool registry. The only discovered authenticated browser surface was local; it was not used to read or operate analytical sites because local access was prohibited. A browser inventory was inadvertently requested once; no native application or tab was opened or controlled. This did not yield new analytics. Existing source data, rather than invented replacement measurements, support the analysis below.
+
+## 3. Organic performance and concentration
+
+| Metric | Oct 11–24 | Oct 25–Nov 7 | Change |
+|---|---:|---:|---:|
+| GSC clicks | 107 | 127 | +18.69% |
+| GSC impressions | 12,182 | 13,588 | +11.54% |
+| Exact CTR calculated from totals | 0.878% | 0.935% | +0.056 percentage points |
+| Average position | 20.7 | 19.2 | 1.5 positions better |
+| Homepage clicks | 56 | 71 | +26.79% |
+| Homepage impressions | 4,134 | 5,225 | +26.39% |
+| Hub clicks | 2 | 1 | −1 click |
+| Hub impressions | 2,634 | 1,884 | −28.47% |
+| Four-city impressions | 452 | 316 | −30.09% |
+| Four-city clicks | 1 | 0 | −1 click |
+
+The homepage contributes 15 of 20 net new clicks. It receives 55.91% of later clicks versus 52.34% earlier. The four city pages collectively supply only 2.33% of later site impressions and no clicks. That is insufficient acquisition for the stated North Shore focus, irrespective of aggregate growth.
+
+Commercial visibility is mixed: same-day impressions 412→942 (+128.64%); core TV installation 702→872 (+24.22%); Frame 284→430 (+51.41%) with clicks 3→1; prices 134→236 (+76.12%) with clicks 3→1. Do not infer a title defect from two lost clicks. The LG G5 fireplace article gains six clicks and recessed media gains two. Preserve useful specialist content; investigate which commercial queries produce engaged visits and verified leads.
+
+## 4. Four-city landing-page analysis
+
+All four existing routes remain the intended targets. Do not add replacement city URLs.
+
+| City / path suffix | Impressions old→new | Change | Clicks old→new | Priority |
+|---|---:|---:|---:|---|
+| Glenview /tv-installation-in-glenview/ | 189→105 | −44.44% | 1→0 | P1: largest absolute city loss |
+| Wilmette /tv-installation-in-wilmette/ | 127→70 | −44.88% | 0→0 | P1: largest relative city loss |
+| Winnetka /tv-installation-in-winnetka/ | 108→69 | −36.11% | 0→0 | P1: specialty/local evidence |
+| Evanston /tv-installation-in-evanston/ | 28→72 | +157.14% | 0→0 | P2: visibility increased, no clicks |
+
+### Glenview
+
+The older retrieved copy has a city/service H1, booking and quote paths, a project/video narrative, installation options, FAQs and links to the other cities. Its weakness is not an absent city keyword. Much of its proposition is general installation language; project assertions are not accompanied in extracted text by a detailed challenge/solution narrative. Confirm the current copy before implementing changes. The −84 impressions account for 61.76% of the four-city net loss (including Evanston's offsetting gain).
+
+Recommended scope: use verified Glenview job evidence to explain wall type, installation constraint and outcome; connect relevant Frame/fireplace/recessed/soundbar services through useful contextual links. Avoid adding generic paragraphs or new city-service pages. Determine the losing query/device cohort first; page-level average position is unavailable.
+
+### Wilmette
+
+The fresh retrieved copy presents the city H1, booking/quote CTAs, visible starting-price context, Google review evidence, a local installation video and project section. Basic intent and conversion entry points exist. Introductory copy is brief, and the extracted project section offers limited technical differentiation. The presence of CTAs is not proof they convert.
+
+Recommended scope: a verified Wilmette installation summary that resolves a buyer's practical concern, with a relevant service link and an accurate description of included work. Keep video, existing URL and design. Measure query-cluster impressions and qualified quote/booking outcomes; zero clicks prevents claiming a conversion-rate problem on this page.
+
+### Winnetka
+
+The fresh copy explicitly positions high-end installation and covers several mounting surfaces, with booking/quote, review and project/video sections. This fits the approved premium direction. Generic process/benefit blocks occupy substantial content relative to distinctive job explanation. Existing owner-confirmed videos can support specificity; editorial case tags alone cannot prove job location.
+
+Recommended scope: explain a verified premium/large-TV or fireplace project in enough detail to demonstrate capability, link to the existing premium/Frame/fireplace service as appropriate, and retain the original video evidence. Do not publish the held case integration or geographically conflicted case 15731 as a factual Winnetka job without resolution.
+
+### Evanston
+
+The older copy explicitly addresses homes, apartments and condos and mentions mounting surfaces and soundbar/device setup. It repeats the same city-location assertion within its video paragraph; removal would be a minor editorial improvement only after confirming the current page. The +44 impressions remain a very small base and deliver no clicks.
+
+Recommended scope: preserve the page while identifying newly appearing queries and positions; use verified apartment/condo or wall-surface evidence when actually available. Do not copy this page to the other cities as a proven winning template. It supplies a contrasting trend, not an experiment control.
+
+### Shared conclusion
+
+The pages target the right cities and expose conversion paths. The defensible opportunity is stronger distinct project evidence and service relevance, not more repetitions of city names. No duplicate-content penalty, doorway classification or cannibalization has been demonstrated. Current canonical/index status for each city and mobile interactions remain unverified here.
+
+## 5. Seasonality versus ranking loss
+
+The available periods cannot quantify seasonality: no same-period 2025 query series, year-long weekly demand series or matched country/device query positions is retained. Autumn outdoor-TV demand decline is a hypothesis, not a finding; outdoor page impressions actually rise 133→198 in this comparison.
+
+| Observed pattern | Supported interpretation | What is not established |
+|---|---|---|
+| Site impressions +11.54%, three cities down, Evanston up | Uneven page/query exposure | A uniform seasonal explanation |
+| Near-me query impressions 864→318, one click in each period | −63.19% exposure for this recorded query | Rank loss versus demand/SERP change without its position data |
+| Average site position improves | Aggregate mix improves | Every city or non-brand query improved |
+| Hub + city pages decline together | Local acquisition deserves priority | Cannibalization or a technical fault as the cause |
+| Ahrefs lost terms have Aug/Sep last updates | Stale evidence cannot date October loss | Precise loss date or algorithm cause |
+
+Use matched query, country and device cohorts over 28/90 days and YoY when data become available. Separate stable-position impression declines (consistent with lower demand) from worsening positions (ranking weakness), and stable impressions with falling CTR (SERP/snippet opportunity). Current conclusion: genuine exposure loss is measured; its seasonal/ranking decomposition remains unresolved.
+
+## 6. Technical SEO
+
+Recovered GSC report, last updated Nov 5: 81 indexed, 73 excluded/not indexed. Nonzero reasons total 73: noindex 27, redirects 24, 404 four, other 4xx one, robots one, crawled-not-indexed 15, discovered-not-indexed one. Server and redirect errors are zero. No manual/security issues were reported.
+
+The six URLs across 404/other4xx/robots are candidates for URL-level triage, not six confirmed revenue-critical defects. Exact URLs were not retained, so no redirect target, block removal or repair can honestly be specified. Intentional noindex and redirects must remain. Enhancement counts and Ahrefs Health 100 do not override URL-level GSC evidence. CWV has insufficient data; it is not a pass.
+
+Prior Nov 9 Case Studies audit documents 16 noindex cases and catalogue with 11 integration destinations still held. These are recent repository observations, not fresh tests here. Consequently, the new case system cannot be credited with organic acquisition gains in Oct 25–Nov 7. Preserve its noindex/release boundary. A documented breadcrumb/schema destination mismatch is a scoped launch issue, not demonstrated site-wide ranking cause.
+
+Priorities: classify important excluded URLs; inspect city/hub selected canonicals and indexing; verify linked error URLs; obtain field or repeatable lab performance evidence before prescribing speed work. No mass indexing requests, sitemap changes, redirect changes or robots edits were executed.
+
+## 7. Competitors and keyword opportunities
+
+The completed stored local-point evidence identifies Chicago TV Installer, R&R, ClearView and others ahead at selected coordinates; it does not establish organic competitor rank across an entire city. This continuation retrieved public competitors to compare buyer information, not to claim fixed local SERP positions.
+
+| Public comparator | Observed proposition | Actionable comparison |
+|---|---|---|
+| Hi-Tech Installs, Glenview landing page | TV-size/add-on price framing, booking steps, Frame support | Make existing pricing inclusions and add-ons easy to understand; do not copy or match its advertised price. |
+| HDInstalls, Glenview landing page | Dedicated city page; installation and broader AV/outdoor-audio scope | Show specific technical competence using real work; a longer service list alone is not a ranking strategy. |
+| Spensley Smart Homes, TV mounting | Coverage/travel-fee explanation and customer-supplied versus supplied brackets | Address bracket ownership and any applicable travel terms only with actual CM policy. |
+| Etronics, North Shore | Premium AV/smart-home positioning and clear estimate contact | Compete on installation proof and customer decision clarity; do not expand CM service scope to imitate it. |
+
+Public source URLs:
+- https://www.hitechinstalls.com/tvmounting-glenview
+- https://www.hdinstalls.com/service-area-glenview-il-tvinstallation-tv-wall-mounting
+- https://www.spensleysmarthomes.com/services/tv-mounting/
+- https://www.etronicsonline.net/
+
+### Keyword-to-existing-page opportunity map
+
+| Cluster | Existing destination | Evidence and next action |
+|---|---|---|
+| TV mounting / installation + four cities | Four city URLs | Measured underperformance; establish query positions and strengthen verified local proof. |
+| TV wall mount installation near me / local installers | /find-near-me/ | GSC query/hub exposure loss; preserve coverage/ZIP function and contextual city links. |
+| Frame installation near me | /frame-tv-mounting-chicago/ | Ahrefs position 11 and GSC impressions up/clicks down; inspect actual queries before snippet/content refinement. |
+| Commercial TV installation / mounting | /commercial-tv-display-mounting/ | Ahrefs positions 10 and 5; existing opportunity, not proof of competitor keyword gap. |
+| Mounting cost / bracket / add-ons | /prices/ plus existing cost guide | Existing cost guide clicks 2→4; clarify navigable price information, avoid another duplicate guide. |
+| Large premium TV / fireplace / recessed media | Existing specialist services | Existing differentiation and useful job evidence; no new service-city matrix recommended. |
+
+A verified competitor-domain keyword-gap export (terms competitors rank for while CM does not, with US volumes/positions) was unavailable. The table is an evidence-based opportunity map, not a fabricated Ahrefs Content Gap output. Search-result retrieval is not a localized ranking census. Backlink review remains a quality question: historical spam-labeled domains and DR 2 do not prove a penalty; no disavow is justified.
+
+## 8. GA4, GBP and lead attribution
+
+| GA4 metric, same equal periods | Earlier | Later | Assessment |
+|---|---:|---:|---|
+| Organic sessions | 146 | 176 | +20.55% |
+| Organic engaged sessions | 87 | 116 | +33.33% |
+| Organic engagement rate | 59.59% | 65.91% | +6.32 percentage points |
+| Organic configured key events | 18 | 27 | +50%; not unique leads |
+| Organic session key-event rate | 8.22% | 9.66% | +1.44 percentage points |
+| Direct sessions | 4,231 | 10,134 | +139.52%; quality/source unresolved |
+| All sessions | 4,534 | 10,628 | +134.41%; unsuitable SEO headline |
+
+Direct supplies 95.35% of later sessions. Organic's share falls from 3.22% to 1.66% even while organic sessions grow: denominator distortion, not an organic decline. Do not call Direct bots without source evidence, or allocate Direct to SEO. Consent, tagging, referrals, paid traffic, geography and automated traffic remain untested possibilities.
+
+GBP full September→October: interactions 46→50 (+8.70%), website clicks 38→48 (+26.32%), call-button interactions 8→2 (−6, −75%). This mix does not prove lead growth or a late-October collapse. Call-button interactions are not answered calls; website clicks are not unique sessions, and the month comparison is not aligned to GSC fortnights.
+
+Existing event names include generate_lead, click_to_book, form_start/form_submit and URL-named events. A valid measurement chain must distinguish form attempt, confirmed successful submission, booking click, completed booking, phone click and answered/qualified call. The existing record does not establish which triggers are marked key events or double count one inquiry.
+
+Required reporting definition: unique confirmed inquiries by session source/medium/campaign and landing page; GBP campaign separated where its existing UTM survives; calls/booking outcomes reconciled in aggregate. Report “unknown attribution” honestly. No tracking change or test submission was made. City-level leads, customer acquisition cost, booked jobs and revenue cannot be calculated from the retained data.
+
+## 9. Measurable results of previous optimization
+
+| Prior work / decision | Measured evidence | Verdict |
+|---|---|---|
+| September redesign and organic optimization | Later aggregate GSC/GA4 improvement; exact brand drives most incremental clicks | Positive aggregate outcomes, causal/non-brand success not proven |
+| Four city pages | 452→316 impressions, 1→0 clicks in latest equal windows | Current organic acquisition objective not achieved |
+| Coverage hub preserved | 2,634→1,884 impressions; Ahrefs estimates also weaken with stale-date caveat | Highest-priority established content exposure issue |
+| Specialist service/content investment | Same-day/core service exposure, LG fireplace and recessed-media clicks improve | Useful signals worth preserving; no proven revenue attribution |
+| Prior redirect/server remediation | GSC now records zero 5xx/redirect errors | Improved observed technical status; specific fix causality unproven |
+| November Case Studies preparation | Noindex and integration hold; changes largely after measured period | No attributable organic benefit yet; do not count unpublished integration as completed SEO growth |
+| Video placement | Some placements documented, no controlled before/after lead data | Implementation evidence, no measured ranking/conversion lift |
+
+The Oct 26 comparison showed falling aggregate clicks and rising city impressions; the latest window reverses the aggregate direction and three city trends. Short adjacent windows vary. Do not cherry-pick one to declare the entire redesign successful or failed.
+
+## 10. Prioritized recommendations and measurable acceptance criteria
+
+Recommendations are scoped work proposals, not actions performed or authorization to change the site.
+
+| Priority | Action | Why / expected outcome | Acceptance and measurement |
+|---|---|---|---|
+| P0 | Reconcile existing lead events and source attribution, read-only first | Business impact currently unknowable | Document each trigger/definition and duplicate risk; produce unique confirmed inquiries by channel/landing page, or explicitly unknown. |
+| P1 | Diagnose hub query losses using US/device/matched-query comparison | Largest identified local exposure loss: −750 impressions | Record which query cohorts account for loss and their position/CTR changes; decide demand/rank/SERP hypothesis before editing. |
+| P1 | Glenview and Wilmette scoped local-evidence improvement after current-page confirmation | Largest city losses | One verified job narrative plus relevant existing service connections where missing; compare non-brand clicks and qualified leads over equal 28-day windows, with YoY context. |
+| P1 | Winnetka premium evidence and relevant service links | Premium fit exists, exposure down | Only verified city jobs; exclude unresolved 15731 factual claim; track premium/city query cohorts. |
+| P1 | Triage actual 404/4xx/robots and important nonindexed URL examples | Counts exist, business importance unknown | Each URL classified intentional/fix-needed with exact live/canonical/internal-link evidence; no blanket changes. |
+| P2 | Refine existing commercial/Frame/cost decision information | Observable specialist opportunities | Query-matched CTR/position and confirmed inquiry comparison; preserve URLs and avoid duplicate topics. |
+| P2 | Evaluate Evanston new-query exposure | Impressions rise, clicks absent | Identify query mix and rank range before proposing snippet or content changes. |
+| P2 | Complete case data/schema/recovery release prerequisites separately | Held system has no demonstrated acquisition contribution | Resolve provenance and breadcrumb mapping, obtain release authorization; preserve noindex until then. |
+| P3 | Review genuine relevant referring links | Raw domain count is unhelpful | Relevant local/industry referral evidence; no bulk link buying or speculative disavow. |
+
+Baseline is the measured period ending Nov 7, not a deployment date. After any separately authorized change, log actual date/URLs, compare equal full 28-day windows and assess at 6–8 weeks without treating small samples as causal proof. Set numeric growth targets only after obtaining US non-brand baseline and validated lead counts; invented targets would conceal the measurement gap.
+
+## 11. Coverage and unfinished evidence
+
+All eight requested themes are analyzed here using the available evidence. This is a completed written assessment with explicit data limits, **not a claim that every requested source-level investigation is complete**. Still unavailable: city query/position/device/US breakdowns, YoY seasonality, exact excluded URL examples, competitor-domain gap export, validated lead attribution and current Glenview/Evanston rendered content. These limit root-cause precision and ROI conclusions; they do not prevent identifying the hub/city exposure weakness and prioritized actions.
+
+No website, GBP, indexing, analytics or tracking settings were modified. No new BrightLocal investigation or paid scan was run. The following prior research remains intact for evidence continuity; its source dates and superseded limitations must be read in context.
+
+---
+
 # Chicago Mounting — SEO and Local Search Ranking Investigation
 
 **Current assessment: November9,2026, America/Chicago. Dedicated branch: seo.** This is the active report. The October26 reconstruction and earlier checkpoints are preserved under Historical records below; their dates and unfinished items are not the current report header.

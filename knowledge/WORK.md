@@ -1,4 +1,13 @@
 # Work — current state
+
+## Latest SEO audit — 2026-11-09 (America/Chicago)
+
+Completed the written eight-theme assessment in [SEO-REPORT.md](SEO-REPORT.md), continuing the existing seo-branch research without repeating BrightLocal. GSC Oct25–Nov7 vs Oct11–24: clicks +18.69%, but exact brand supplies17/20 incremental clicks; city impressions−30.09%, hub−28.47%. GA4 organic sessions+20.55%, key events18→27 are not validated leads. Added per-city assessments, seasonality limits, technical triage, public competitor comparison, keyword-to-existing-page opportunities, prior-work outcomes and prioritized acceptance criteria.
+
+Evidence distinction: recovered authenticated analytics were analyzed, not newly queried here. Public Wilmette/Winnetka retrieval labeled fresh; Glenview/Evanston cached copies are historical. Missing US/device/city query positions, YoY, exact exclusionURLs, competitor-domain gap export and lead deduplication remain explicit. No claim of full source-level diagnostic completion. Existing BrightLocal evidence preserved intact.
+
+Scope: read-only research and GitHub documentation only; no WordPress/Elementor/GBP/tracking changes. One inadvertent browser inventory occurred; no native app or analytics tab was controlled/read. Local browser analytics access was not pursued. Next recommendations: read-only lead-definition reconciliation, hub/query and Glenview/Wilmette exposure diagnosis, exact excludedURL triage. No production edits authorized by this report.
+
 Updated: 2026-11-09. Read AGENTS.md before acting.
 
 ## Latest checkpoint — 2026-11-09 final Case Studies audit
