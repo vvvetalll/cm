@@ -478,3 +478,10 @@ No website/GBP/SEO/tracking setting changes, paid reports, new scans or crawl. P
 Investigated currentownerpanel, AdvancedprofileID, notifications/settings, fullrelevantGooglemail, Oct16/Oct30LSG rows, Nov6existingGBP Audit, officialnaming/updateguidelines andwebsite/registryevidence. ExacttransitionLLC→noLLC documentedbynotificationMay9,2026 23:17:45CDT; exactapplytime/actor unknown. SameprofileID/CID confirmed; historicalnoLLCname already present withOct16Samsung4.3. Noevidence tiesMaytransition causally toOct30difference. Oct24LLCphoto-email contradiction retained; possiblelatercycle notexcluded.
 
 AppendedmainSEO-REPORT andWORK, preservedprevioushistory, addedoneactualcroppedscreenshot docs/seo/gbp-name-google-update-2026-11-09.jpg. Screenshot visuallychecked andtransferchecksum-checked; privateemailcontents/headers/trackinglinks excluded. RegistryPOSTfailedHTTP2; directhomepagebotverification notsolved. Noaccept/revert/edit/paidscan/supportmessage. Changes confinedtoseo; no merge/defaultbranchwrite. Remotecommit andreadback verification required beforedelivery.
+
+
+## 2026-11-09 / 2026-11-10 UTC — Completed GSC and Ahrefs detail in existing SEO report
+
+Added consolidated outcome and selected exact GSC page/query/property metrics, Ahrefs keyword/page comparisons, technical GSC status, sources, dates, confidence and limits. GSC107→127clicks and12,182→13,588impressions overall; near-me−750impressions and four-city total−30.09% show concentrated weakness despite aggregate growth. Ahrefs homepage+49 versus hub−32 estimated traffic, with stale observations/22Octdata warning and differing volume modes explicitly retained.
+
+Read all73GSC page rows,47Ahrefs comparison keyword rows and13top-page rows; no raw confidential exports committed. GSC Nov5indexing81/73 with exact seven nonzero reasons; direct Manual actions/Security pages both clear. Preserved historical audits and prior naming screenshot/chronology. No SEO/site/GBP/tracking edits, paid runs, new crawls or merge. WORK updated; dedicatedseo remote commit/readback to verify. Full Maps causal attribution and remaining screenshot/lead/history limitations are explicitly unresolved.

@@ -1,4 +1,6 @@
 # SEO-звіт — точка продовження
+> Latest assessment: see **2026-11-09 / 2026-11-10 UTC — Consolidated SEO assessment and completed GSC/Ahrefs comparison** below. Equal-period GSC clicks107→127 and exact impressions12,182→13,588 contradict a site-wide organic collapse, while /find-near-me/ and three priority-city pages show specific weakness. BrightLocal's source/depth transition breaks comparability; the entire Maps gap cannot yet be attributed to either methodology or real temporal loss. Google's documented name-update notification is fromMay9, before theOct16 good Samsung result. Historical records below are preserved, not silently restated as current facts.
+
 Оновлено 26.10.2026. Відновлений конспект великого аналізу 8–12 жовтня; повний оригінал звіту не знайдено у доступному пошуку файлів. Не видавати цей конспект за оригінальний звіт.
 
 ## Підтверджений контекст
@@ -301,3 +303,148 @@ Official Illinois Secretary of State entity search was opened and an individual 
 - Historical service-area/address/additional-category changes and reinstatement timing for the2025 event.
 - Official legal identity verification blocked by registry transport failure; direct live website inspection blocked by reCAPTCHA.
 - No causal evidence currently justifies attributing the lateOctober ranking gap to this name change.
+
+## 2026-11-09 / 2026-11-10 UTC — Consolidated SEO assessment and completed GSC/Ahrefs comparison
+
+This section supersedes the earlier “page-level GSC/Ahrefs tables unfinished” checkpoint. Historical sections above remain intact. Read-only authenticated inspection; no website, GBP, indexing, tracking or SEO setting changes, paid scans or new crawls. Ahrefs labels its comparison 10 Nov 2026 versus 10 Oct 2026; that platform date is retained explicitly.
+
+### Decision summary and root-cause boundaries
+
+**Confirmed:** the available evidence does not show a site-wide organic collapse. GSC Web clicks rose from107 to127, exact impressions from12,182 to13,588, and GA4 Organic Search sessions from146 to176 in equal14-day windows. However, /find-near-me/ lost750 GSC impressions and the four priority-city pages combined lost136. Organic growth at the homepage can conceal local-page weakness.
+
+**Confirmed:** BrightLocal's old4.3 average was one keyword (Samsung Frame TV installation), not the overall five-keyword baseline. The first observed reporting break is Oct30, after Oct16. Finder→Maps and depth20→100 break comparability; re-capping at21 still leaves deterioration. Thus methodology substantially exaggerates the numeric gap but is not sufficient evidence to explain every difference. Current stored Maps results are poor at the sampled north-shore points. The proportion due to changed source versus actual temporal visibility loss remains unidentifiable without equivalent-source evidence.
+
+**Confirmed:** Google's documented LLC removal notification predates this break by months (May9 CDT); the October16 name was already Chicago Mounting while Samsung averaged4.3. No causal evidence supports renaming as a remedy. See the preceding detailed name investigation, screenshot and contradictory Oct24 email evidence.
+
+**Not established:** that September website optimizations caused the aggregate gains; that Maps leads declined in the lateOctober interval; an algorithmic penalty; a current suspension; or a competitor/category/proximity mechanism explaining the complete gap. Concurrent measurement changes, branded-query growth and incomplete lead attribution prevent those conclusions.
+
+### GSC: exact property-level comparison
+
+Source: authenticated [GSC Performance](https://search.google.com/search-console/performance/search-analytics?resource_id=sc-domain%3Achicagomounting.com&start_date=20261025&end_date=20261107&compare_start_date=20261011&compare_end_date=20261024), domain property chicagomounting.com, search type Web, all countries/devices, equal14-day periods. Values read directly from comparison cards and tables; exact impression totals from displayed element titles rather than rounded K labels. Confidence: high for displayed values, no causal attribution.
+
+| Metric | Oct11–24 | Oct25–Nov7 | Change |
+|---|---:|---:|---:|
+| Clicks |107|127|+20 (+18.69%)|
+| Impressions |12,182|13,588|+1,406 (+11.54%)|
+| CTR, displayed |0.9%|0.9%|rounded, unchanged|
+| Average organic position |20.7|19.2|1.5 positions better|
+
+The exact “chicago mounting” query contributed17 of the20 net additional clicks (17→34; impressions37→57). Excluding only that single exact query yields90→93 clicks; this is not a complete non-brand filter. Examples of other query changes: “tv mounting chicago”3→4 clicks/89→128 impressions; “tv installation chicago”1→3/79→113; “chicago tv mounting”6→3/18→14; “tv mounting service”5→2/314→435; “tv wall mount installation near me”1→1/864→318. GSC Web organic positions are not Google Maps ranks.
+
+### GSC: page-level gains and losses
+
+Source/settings/dates as above, Pages tab,100 rows selected, all73 comparison rows inspected. Table is a selected analytical summary, not a raw confidential export. URL paths are on https://chicagomounting.com. Confidence: high. No page/query average-position changes are invented where not extracted.
+
+| Page path | Clicks old→new | Impressions old→new | Impression delta |
+|---|---:|---:|---:|
+| / |56→71|4,134→5,225|+1,091|
+| /find-near-me/ |2→1|2,634→1,884|−750 (−28.47%)|
+| /same-day-tv-mounting/ |3→3|412→942|+530|
+| /tv-installation-and-mounting/ |1→2|702→872|+170|
+| /frame-tv-mounting-chicago/ |3→1|284→430|+146|
+| /outdoor-tv-installation/ |0→2|133→198|+65|
+| /prices/ |3→1|134→236|+102|
+| /commercial-tv-display-mounting/ |2→1|578→735|+157|
+| /audio-and-media-installation/ |1→1|843→842|−1|
+| /lg-g5-oled-fireplace-mount/ |0→6|66→252|+186|
+| /flat-vs-tilt-tv-mounts-which-is-right-for-your-living-room/ |17→15|1,095→1,287|+192|
+| /how-much-does-tv-installation-cost-in-chicago-real-pricing-explained/ |2→4|508→404|−104|
+| /recessed-media-box/ |2→4|88→94|+6|
+| /tv-installation-in-glenview/ |1→0|189→105|−84|
+| /tv-installation-in-evanston/ |0→0|28→72|+44|
+| /tv-installation-in-wilmette/ |0→0|127→70|−57|
+| /tv-installation-in-winnetka/ |0→0|108→69|−39|
+
+Four-city total: clicks1→0; impressions452→316 (−30.09%). Evanston improved impressions; the other three declined. Very small click counts prevent strong conversion or statistical conclusions. More impressions but fewer clicks on Frame/prices/commercial pages is observable; a title or content defect is not thereby proven. Two Frame-related URLs appearing in GSC does not establish cannibalization.
+
+GSC's separate overview recommendation showed /find-near-me/ impressions−54% for Oct27–Nov2 versus Oct20–26. That is a different seven-day comparison and must not replace the−28.47% fourteen-day result. Together these observations justify a targeted hub/query investigation, not a site redesign.
+
+### Ahrefs: keyword-level comparison and freshness limits
+
+Source: authenticated Site Explorer, project10403453, chicagomounting.com/ subdomains, all locations, Organic keywords, comparison10Nov2026 versus10Oct2026, **Monthly volume**. Inspected all47 comparison rows.47 is the comparison union including lost keywords, not47 currently ranking keywords. Dashboard current count29 uses its own presentation. Banner explicitly warns about a22Oct SERP data update and possible data inconsistencies following changes in how Google serves results.
+
+Traffic is Ahrefs modeled monthly organic traffic, not measured visitors; positions are Ahrefs organic SERP observations, not the Local Search Grid. Several rows are stale, including “lost” rows whose latest update predates the comparison interval. Their status cannot date a real loss toOct30. Confidence: high for displayed rows; low for exact timing/causal interpretations.
+
+| Keyword | Organic position old→new | Current modeled traffic | Traffic change | Displayed last update |
+|---|---:|---:|---:|---|
+| tv mounting service chicago |1→2|31|+25|2 days ago|
+| tv installation chicago |3→2|26|+8|11 days ago|
+| commercial tv installation |11→10|18|+13|Oct16|
+| chicago tv mounting |2→2|12|+1|Oct17|
+| outdoor tv installation near me |New→3|11|+11|Oct19|
+| frame tv installation near me |New→11|6|+6|Oct11|
+| cost to mount tv on wall |New→7|4|+4|12 days ago|
+| professional mounting service |New→6|3|+3|7 days ago|
+| someone to mount my tv |New→1|3|+3|11 days ago|
+| chicago tv installation |4→5|3|no delta displayed|Oct16|
+| commercial tv mounting |8→5|2|+1|22 hours ago|
+| same day tv mounting service |New→7|2|+2|3 days ago|
+| dismount tv service |New→6|2|+2|3 days ago|
+| same day tv mount |6→10|1|−2|Oct20|
+| tv installation services near me |7→Lost|0|−17|Sep14|
+| tv install near me |9→Lost|0|−3|Sep15|
+| tv installation service near me |8→Lost|0|−3|Sep17|
+| local tv installers near me |8→Lost|0|−2|Aug20|
+| tv mount services |11→Lost|0|−2|Aug18|
+| tv mounting cost |8→Lost|0|−5|Sep13|
+
+“New” means new in Ahrefs comparison, not newly published on the website. Modeled traffic can rise while rank worsens, as the first row demonstrates; volume/model changes must not be misreported as ranking improvements. Several lost near-me terms point to /find-near-me/. This agrees directionally with GSC's fresh page-impression loss, but the old Ahrefs update dates prevent treating it as independent proof of the lateOctober event.
+
+### Ahrefs: page-level comparison
+
+Source: authenticated [Top pages](https://app.ahrefs.com/site-explorer/top-pages?projectId=10403453&target=chicagomounting.com%2F&mode=subdomains&country=all), dates10Nov versus10Oct, **Average volume**, Changes:Absolute display.13 page rows read. This report displays total estimated traffic138; earlier dashboard135 and keyword report use different view/volume settings. Do not combine them into one exact baseline. Confidence: high for displayed estimates, medium for direction when GSC corroborates, low for event timing.
+
+| Page path | Estimated traffic current (delta) | Current keywords (delta) | Current estimated traffic value (delta), USD |
+|---|---:|---:|---:|
+| / |100 (+49)|12 (+3)|351 (+190)|
+| /outdoor-tv-installation/ |12 (+12)|1 (+1)|19 (+19)|
+| /same-day-tv-mounting/ |6 (−2)|3 (−1)|25 (−0.58)|
+| /tv-installation-and-mounting/ |5 (+5)|1 (+1)|13 (+13)|
+| /how-much-does-tv-installation-cost-in-chicago-real-pricing-explained/ |3 (+3)|1 (+1)|3.4 (+3.4)|
+| /tv-dismounting/ |3 (not displayed)|1 (−1)|7 (+0.21)|
+| /flat-vs-tilt-tv-mounts-which-is-right-for-your-living-room/ |2 (not displayed)|4 (+2)|0.16 (−0.19)|
+| /commercial-tv-display-mounting/ |2 (+1)|1 (−1)|0.84 (+0.41)|
+| /prices/ |1 (not displayed)|1 (not displayed)|0.66 (not displayed)|
+| /frame-tv-mounting-chicago/ |1 (+1)|1 (+1)|4.3 (+4.3)|
+| /find-near-me/ |1 (−32)|1 (−10)|1.7 (−67)|
+| /Blog |1 (−7)|1 (−2)|0 (−12)|
+
+One additional low-volume wall-type article row showed estimated traffic1, one keyword and value0; its exact URL was not retained, so it is omitted from the path table. No rewrite is justified by Ahrefs' automated “Overhaul” content-change labels. These tables measure outcomes, not proof that a specific previous edit worked.
+
+### Technical SEO: actual GSC status, not a blanket error count
+
+Source: authenticated GSC Page indexing, **last update Nov5,2026**; observed during this continuation.81 indexed,73 not indexed across7 nonzero reasons. Confidence: high for report counts; affected-URL intent and present live behavior were not individually re-tested.
+
+| Non-indexing reason | URLs |
+|---|---:|
+| Excluded by noindex |27|
+| Page with redirect |24|
+| Not found (404) |4|
+| Blocked due to other4xx |1|
+| Blocked by robots.txt |1|
+| Crawled, currently not indexed |15|
+| Discovered, currently not indexed |1|
+| Redirect error |0|
+| Server error5xx |0|
+
+Noindex and redirects can be intentional; the73 total is not73 SEO defects. Existing Case Studies noindex/review hold must remain. Zero5xx in this report is evidence of the current report state, not proof of which prior server fix caused recovery. Four404s and oneother4xx justify inspecting their actual URLs and internal links before any redirect or deletion. Crawled/not-indexed15 and discovered1 require checking importance, canonical and intent before calling them defects.
+
+Manual actions: **No issues detected**. Security issues: **No issues detected** (both pages opened directly). These checks do not establish absence of all algorithmic changes.
+
+Overview enhancement cards: HTTPS42 valid/0 invalid; Breadcrumbs42 valid/0 invalid; Product snippets29 valid/0 invalid; Review snippets599 valid/0 invalid. These are enhancement/report counts, not unique page totals. Core Web Vitals: insufficient data/no data for desktop and mobile, not a pass. Ahrefs' pre-existing crawl health100,606 crawled,0 broken and111 blocked was read without a new crawl; it does not override GSC exclusions or constitute fresh exhaustive technical validation.
+
+### Actions supported by the evidence
+
+1. Preserve current production settings and approved page architecture. Do not revert the GBP name or rewrite optimized pages to react to incomparable Maps averages.
+2. Prioritize /find-near-me/: use its query-level GSC comparison, country/device segmentation and canonical/index status to distinguish lost demand, lost ranking and CTR change. Preserve the existing Service Area Hub URL/role and four city pages. Current evidence supports investigation, not a preselected rewrite.
+3. Investigate Glenview, Wilmette and Winnetka page query losses individually; Evanston provides a useful contrasting page but is too small a sample to prove a successful tactic.
+4. Inspect actual URLs behind4 GSC404s,1other4xx,1robots block and important nonindexed pages. Preserve intentional noindex/redirect exclusions. No fix or validation request was submitted.
+5. Obtain BrightLocal's per-run source/version and exact coordinate/settings continuity, and a comparable Maps baseline or equivalent historical results. No paid scan is authorized by this investigation. Without this, quantify the reporting break but do not assign its residual to an algorithm or business change.
+6. Validate GA4 quote/booking/call events against actual lead outcomes and review a comparable lateOctober GBP performance interval when available. Current key events and monthly calls do not prove lead recovery or collapse.
+7. For GBP chronology only if needed: recover field-event/actor history and resolve Oct24 LLC email inconsistency; confirm official legal/branding evidence. No rollback is supported.
+
+### Evidence and completion limits
+
+All above analytics values were read through the authenticated interfaces and transcribed as selected aggregate summaries. No raw private exports, email headers, customer details, credentials or session tokens are committed. Existing source links, historical BrightLocal tables, methodological calculations, sampled competitors, GBP fields and the actual cropped Google-name screenshot remain in the preceding report. Persistent screenshots of GSC/Ahrefs and all historical ranking grids were not saved; the name screenshot is the saved visual artifact, not a substitute for those missing images. Do not claim a complete screenshot archive.
+
+This completes the previously missing page/keyword comparison and current GSC technical-status summary. It does not resolve unavailable equivalent-source Maps history, historical field edits, official legal-registry transport failure, or lead attribution. Those are explicit evidence limits rather than inferred causes.
