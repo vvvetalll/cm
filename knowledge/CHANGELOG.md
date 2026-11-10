@@ -492,3 +492,12 @@ Read all73GSC page rows,47Ahrefs comparison keyword rows and13top-page rows; no 
 Reorganized existingSEO-REPORT so current investigation/eightanswers/tables are first; oldOct26reconstruction and priorcheckpoints preserved underHistoricalrecords. NewauthenticatedLSGverification establishes all36exactcoordinates identical forTVmountingOct16/30/Nov6 andSamsungOct16/Nov6. Added matched36pointtable andsamepointcompetitorturnover; confirms geometrycontinuity, notsame-sourcecontinuity. Added loadedTVinstallationpointpanels forfourpriorityareas includingWilmette9 versusEvanston68 andWinnetka80. CurrentpoorMapscoverage does notprove historicalMapslossfromFindercomparison.
 
 Superseded prior “exactcoordinatesnotobtained” limitation specifically forverifiedsets; retained source/migration/fullfieldhistory/lead/proximity limits. Screenshotscaptured/displayed butdurablegridarchiveunfinished; onlyexistingGBPimagepersisted. No paidscan/newcrawl/productionsettings/site/GBP edits. WORKupdated; commitonseo/readbackrequired; defaultunchanged.
+
+
+## 2026-11-09 — Independent SEO audit and verification of ChatGPT Work (Claude)
+
+Request: independent technical/local SEO audit; verify the `seo` branch report; save in a separate branch.
+Changes: added `knowledge/SEO-AUDIT-CLAUDE-2026-11-09.md`; appended WORK.md and this entry. Branch `seo-claude-audit` from `seo` @ 457d079. No production, GBP, analytics, indexing, Case Studies or BrightLocal changes; no paid scans.
+Verification: GSC (16-month page/query/date, comparisons, indexing), GA4 (Google organic report, events, key-event config), Ahrefs (organic keywords, competitors, referring domains), BrightLocal (run history, Oct16/Nov6 grids and competitor tables), BrightLocal release notes, GBP Performance, Google Trends, PSI (Glenview mobile), WebFetch of city pages, robots.txt.
+Limitations: JSON-LD not verified; manual SERP checks personalized; Trends is sampled; GA4 totals bot-contaminated; my rapid fetches caused a temporary WAF 403 for the owner's IP (no site change).
+Remaining: owner review of the P1–P3 plan in the report.
