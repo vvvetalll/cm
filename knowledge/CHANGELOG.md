@@ -501,3 +501,11 @@ Changes: added `knowledge/SEO-AUDIT-CLAUDE-2026-11-09.md`; appended WORK.md and 
 Verification: GSC (16-month page/query/date, comparisons, indexing), GA4 (Google organic report, events, key-event config), Ahrefs (organic keywords, competitors, referring domains), BrightLocal (run history, Oct16/Nov6 grids and competitor tables), BrightLocal release notes, GBP Performance, Google Trends, PSI (Glenview mobile), WebFetch of city pages, robots.txt.
 Limitations: JSON-LD not verified; manual SERP checks personalized; Trends is sampled; GA4 totals bot-contaminated; my rapid fetches caused a temporary WAF 403 for the owner's IP (no site change).
 Remaining: owner review of the P1–P3 plan in the report.
+
+## 2026-11-10 — On-page SEO audit section (Claude)
+
+Request: page-level on-site SEO review before content recommendations.
+Changes: added §12 (On-Page SEO audit, page table, verified issues vs hypotheses vs inaccessible checks) to `knowledge/SEO-AUDIT-CLAUDE-2026-11-09.md`; corrected the homepage "page 2" claim; updated §5/§6/§10/§11; appended WORK.md.
+Verification: AIOSEO sitemaps; live DOM of 31 pages + 5 legacy redirect URLs in the owner's browser (paced); GSC page×query 9.08–7.11 and query→page checks; WebFetch of three competitor pages; Google SERP spot checks (personalized).
+Limitations: no HTTP status/X-Robots-Tag/raw pre-JS HTML; no Rich Results Test; installation city of gallery photos not determinable from filenames/alt.
+Remaining: owner decisions listed in WORK.md.
