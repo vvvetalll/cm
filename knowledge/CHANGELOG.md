@@ -485,3 +485,10 @@ AppendedmainSEO-REPORT andWORK, preservedprevioushistory, addedoneactualcroppeds
 Added consolidated outcome and selected exact GSC page/query/property metrics, Ahrefs keyword/page comparisons, technical GSC status, sources, dates, confidence and limits. GSC107→127clicks and12,182→13,588impressions overall; near-me−750impressions and four-city total−30.09% show concentrated weakness despite aggregate growth. Ahrefs homepage+49 versus hub−32 estimated traffic, with stale observations/22Octdata warning and differing volume modes explicitly retained.
 
 Read all73GSC page rows,47Ahrefs comparison keyword rows and13top-page rows; no raw confidential exports committed. GSC Nov5indexing81/73 with exact seven nonzero reasons; direct Manual actions/Security pages both clear. Preserved historical audits and prior naming screenshot/chronology. No SEO/site/GBP/tracking edits, paid runs, new crawls or merge. WORK updated; dedicatedseo remote commit/readback to verify. Full Maps causal attribution and remaining screenshot/lead/history limitations are explicitly unresolved.
+
+
+## 2026-11-09 — Current SEO report front matter and exact geographic ranking evidence
+
+Reorganized existingSEO-REPORT so current investigation/eightanswers/tables are first; oldOct26reconstruction and priorcheckpoints preserved underHistoricalrecords. NewauthenticatedLSGverification establishes all36exactcoordinates identical forTVmountingOct16/30/Nov6 andSamsungOct16/Nov6. Added matched36pointtable andsamepointcompetitorturnover; confirms geometrycontinuity, notsame-sourcecontinuity. Added loadedTVinstallationpointpanels forfourpriorityareas includingWilmette9 versusEvanston68 andWinnetka80. CurrentpoorMapscoverage does notprove historicalMapslossfromFindercomparison.
+
+Superseded prior “exactcoordinatesnotobtained” limitation specifically forverifiedsets; retained source/migration/fullfieldhistory/lead/proximity limits. Screenshotscaptured/displayed butdurablegridarchiveunfinished; onlyexistingGBPimagepersisted. No paidscan/newcrawl/productionsettings/site/GBP edits. WORKupdated; commitonseo/readbackrequired; defaultunchanged.

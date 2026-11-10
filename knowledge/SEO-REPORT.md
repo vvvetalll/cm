@@ -1,3 +1,166 @@
+# Chicago Mounting — SEO and Local Search Ranking Investigation
+
+**Current assessment: November9,2026, America/Chicago. Dedicated branch: seo.** This is the active report. The October26 reconstruction and earlier checkpoints are preserved under Historical records below; their dates and unfinished items are not the current report header.
+
+## Executive finding
+
+The reported “about4 to92.9” is not one comparable overall metric.4.3 was the October16 **Samsung Frame TV installation** average. The corresponding October16 **TV mounting** average was15.6. Both keyword identity and measurement methodology must be held constant before interpreting a decline.
+
+There is a real **reporting discontinuity first visible on October30**, but the data do not identify a precise date of real-world Maps visibility loss. The older source was Local Finder and the new source Maps, with a simultaneous20→100 result-depth change documented by BrightLocal. November6 data show poor current Maps coverage, but they cannot prove the business previously held the old Finder positions on Maps.
+
+Fresh coordinate-level verification in this continuation rules out a moved grid for the compared TV mounting runs: **all36 latitude/longitude pairs match exactly across October16, October30 and November6**. Samsung's36 coordinates also match exactly betweenOctober16 andNovember6. This supersedes the earlier “visually same footprint; exact coordinates not obtained” limitation for these specific comparisons. It does not reconstruct every historical account setting or the source migration timestamp.
+
+## Answers to the eight requested questions
+
+| Question | Finding | Dated evidence / source | Confidence |
+|---|---|---|---|
+|1. Was approximately4 real and comparable? |4.3 is real for Samsung onOct16, with36 ranks4–7. It is not the five-keyword average or the TV mounting baseline; subsequent Maps results use another source. |Authenticated LSGOct16 andNov6; exact keyword menus and point values; B1/B3 below.|High|
+|2. When did the reported decline begin? |First stored changed resultOct30; last earlier resultOct16. NoOct23 run. Exact onset within the interval is unknown. |Run history B2, six stored runs.|High for first observation; unknown exact onset|
+|3. Did methodology cause/exaggerate it? |Depth substantially amplifies numeric averages. Depth alone cannot explain Samsung4.3→28.7 because every old Samsung point was already within20; the source switch remains confounded with actual temporal change. |M1/M2/M3 and all36point normalization below.|High for inflation/depth limitation; unresolved source-versus-time attribution|
+|4. Was actual Maps visibility lost? |Nov6 Maps visibility is poor. A temporal loss on Maps is not established by a Finder-to-Maps comparison. No equivalent historical Maps baseline was obtained. |Nov6 point panels, current rank distributions; old source differs.|High current weakness; insufficient evidence for size/date of Maps loss|
+|5. Were tracking settings/profile changed? |No geometric change in exact matched36point sets forTV mountingOct16/30/Nov6 orSamsungOct16/Nov6. CurrentCID matches historical identity evidence. Oct9 is a genuinely different earlier grid. Complete settings/field history unavailable. |DOM marker position attributes; settings B4/B5; GBP name chronology.|High matched geometry/current identity; limited complete history|
+|6. Do competitors outrank us in priority cities? |Yes at sampled stored Maps points, for bothTV mounting andTV installation. Performance varies: TV installation is9 at one Wilmette-area point,68 at Evanston-area point,80 at Winnetka-area point and outside100 at sampledGlenview. These are points, not city averages. |Exact coordinates and loadedNov6panels below; previous city sample retained separately.|High point ranks; moderate geographic labeling|
+|7. Is there a GBP issue? |Google-applied name update is confirmed; notificationMay9CDT, beforeOct16good Samsung result. No current restriction observed. A historical2025suspension is not a current2026status. Exactactor/time/intermediatefieldchanges unavailable. |Owner notice screenshot, authenticatedGooglemail and same profileID/CID; detailed section below.|High documentedGoogleedit; no causal proof|
+|8. What actions are justified? |Preserve production; investigate hub/city organic losses, inspect exactGSC errorURLs, validate actualleads, obtain source-equivalent historicalMaps evidence. No evidence justifies name rollback, category changes or site rebuild. |Cross-platform comparisons and limitations below.|High preservation decision; proposed diagnostics not completed fixes|
+
+## Historical versus current: same exact keywords
+
+| Keyword | Oct16 | Oct30 | Nov6 | Nov6 capped at21 |
+|---|---:|---:|---:|---:|
+|Samsung Frame TV installation|4.3|27.9|28.7|20.58|
+|TV mounting|15.6|92.3|92.9|21.00|
+|Outdoor TV installation|8.2|70.5|60.6|21.00|
+|Fireplace TV mounting|12.8|40.8|37.3|20.58|
+|TV installation|15.2|93.6|89.1|20.53|
+
+Source: authenticatedLSG, inspectedNov9. Capping is an analytical calculation, not a historical Maps scan. Nov6 versusOct30: threekeywords improve, two worsen slightly; there is no new across-the-board collapse between these two post-break runs.
+
+[Official October2026 notes](https://help.brightlocal.com/hc/en-us/articles/40475732070162-October-2026-Release-Notes), re-read in this continuation, confirm both the source and depth transitions, and a pause in movement comparison until two Maps runs. They do not expose this account's exact migration time. The same notes describe a separate RankTracker comparison bug; no evidence identifies that bug as the cause of this LSG series.
+
+### How much is depth arithmetic?
+
+TV mountingNov6 has28points outside100 and eight positions58–70. The documented101 substitution gives3344/36=92.8889, displayed92.9. Replacing all results beyond20 with21 gives21.0. Thus71.89positions of the raw mean are attributable to the deeper scoring of this *same current snapshot*. This arithmetic is not a percentage causal attribution of an actual visibility loss.
+
+ForSamsung, everyOct16 point was4–7, so revealing positions21–100 cannot by itself transform that old snapshot. All36matched point ranks are worse in the new snapshot. This disproves a pure depth-only explanation but does not distinguish Finder-versus-Maps ordering from changes over time.
+
+## New exact-coordinate verification and point evidence
+
+Source: [authenticated LSG](https://app.brightlocal.com/locations/4173610/lsg), Nov9continuation. Read rendered Google Maps marker **position** attributes and displayed rank text, not a hidden application store or guessed map coordinates. Compared sorted coordinate sets programmatically; all36match forTVmountingOct16/30/Nov6. Compared all36SamsungOct16/Nov6coordinates; allmatch. The table records observed geographic sampling points, not the hiddenGBP address or customer locations.
+
+A dash denotes out-of-depth, not zero. For mean arithmetic use21 for old20-depth results and101 for current100-depth results. Table transcription reproduces displayed15.6,92.9,4.3,28.7and89.1 after rounding.
+
+| Latitude, longitude | TV mounting Oct16 | TV mounting Nov6 | Samsung Oct16 | Samsung Nov6 | TV installation Nov6 |
+|---|---:|---:|---:|---:|---:|
+|42.02888,-87.741209|–|–|4|29|–|
+|42.02888,-87.721738|7|–|7|25|88|
+|42.02888,-87.702266|5|66|4|20|81|
+|42.02888,-87.682794|5|66|4|–|77|
+|42.043334,-87.741209|–|–|4|27|–|
+|42.043334,-87.721738|6|–|4|25|86|
+|42.043334,-87.702266|6|70|4|21|82|
+|42.043334,-87.682794|5|61|4|20|16|
+|42.057788,-87.760681|–|–|4|28|–|
+|42.057788,-87.741209|–|–|4|25|–|
+|42.057788,-87.721738|6|–|4|22|82|
+|42.057788,-87.702266|6|64|4|20|73|
+|42.057788,-87.682794|6|58|4|18|68|
+|42.072242,-87.838568|–|–|5|33|–|
+|42.072242,-87.819096|–|–|5|32|–|
+|42.072242,-87.799625|–|–|4|31|–|
+|42.072242,-87.760681|–|–|4|27|–|
+|42.072242,-87.741209|–|–|4|25|–|
+|42.072242,-87.721738|6|–|4|22|83|
+|42.072242,-87.702266|6|64|4|22|9|
+|42.086696,-87.838568|–|–|5|33|–|
+|42.086696,-87.819096|–|–|4|31|–|
+|42.086696,-87.799625|–|–|5|30|–|
+|42.086696,-87.760681|–|–|4|32|–|
+|42.086696,-87.741209|–|–|4|24|–|
+|42.086696,-87.721738|7|–|4|31|81|
+|42.086696,-87.702266|6|67|4|25|81|
+|42.10115,-87.838568|–|–|5|12|–|
+|42.10115,-87.819096|–|–|4|31|–|
+|42.10115,-87.799625|–|–|5|29|–|
+|42.10115,-87.760681|–|–|4|33|–|
+|42.10115,-87.741209|–|–|4|30|–|
+|42.10115,-87.721738|–|–|4|29|80|
+|42.115603,-87.780153|–|–|4|32|–|
+|42.115603,-87.760681|–|–|5|30|–|
+|42.115603,-87.741209|–|–|6|29|–|
+
+TV mounting:13/36oldpoints were within20; current0/36within20 and8/36within100. Samsung:36/36oldpoints within20; current5/36within20. These confirm changed recorded ordering at identical coordinates, but not source equivalence.
+
+### Same-point competitor turnover: not an isolated Chicago Mounting anomaly
+
+At **42.02888,-87.721738**, exactkeywordTVmounting, the loaded point panels show:
+
+| Business | Oct16 stored position | Nov6 stored position |
+|---|---:|---:|
+|Chicago Mounting|7|outside100|
+|TV Mounting Same Day|1|83|
+|Chicago TV Installer|4|2|
+|R&R TV MOUNTING|3|11|
+|HDInstalls TV Installation Chicago Co.|5|19|
+|Anytime T.V. Mounting & AV|6|37|
+|Pro TV Mounting|8|93|
+|ProMount TV Mounting|9|99|
+
+Oct30 at this samecoordinate already showsChicagoMounting outside100, ChicagoTVInstaller1, R&R8 andHDInstalls19. Current full100-result list loaded. Nov6also containsMcGrath Subaru Evanston at65 and manyhandyman/construction businesses. This is an observable relevance anomaly worth asking BrightLocal to explain, not proof of an incomplete scan or fabricated data.
+
+The large shifts across multiple TV specialists, alongside relatively stable high placement for another specialist, weaken an explanation focused solely on ChicagoMounting's name change. They are consistent with changed result selection/source, while real competitive movements cannot be excluded. Confidence:high displayedpositions; medium diagnostic implication; no exclusive causal claim.
+
+### TV installation: additional exact samples in four priority areas
+
+Each panel was read after it loaded; the displayed rank was checked against the marker. Early transient panels sometimes retained the previous point's list during loading. Those transient mismatches were discarded, not reported as final competitors or classified as failed scans.
+
+| Sample area | Exact coordinate | ChicagoMounting Nov6 | Loaded top3, in order |
+|---|---|---:|---|
+|Glenview|42.086696,-87.819096|outside100|Home Systems,Inc.; Home appliances installation; Ben's TV Repair Service|
+|Winnetka|42.10115,-87.721738|80|Paul's Winnetka TV Services; LV Home Theater Installation; Chicago TV Installer|
+|Wilmette|42.072242,-87.702266|9|Chicago TV Installer; ClearView TV Mounting; R&R TV MOUNTING|
+|Evanston|42.057788,-87.682794|68|Chicago TV Installer; Quest Network Services; Minas Electronics|
+
+TVmounting at the same sampledGlenviewcoordinate is outside100; top3HomeSystems,SumoHandymanServices,PutMyStupidThingTogether. Earlier visually selected city points below are separate samples; differing leader order does not imply contradiction when coordinates differ.
+
+Review counts do not explain ordering alone: Nov6ChicagoMounting389/5.0, ChicagoTVInstaller70/4.9, ClearView61/5.0, R&R120/5.0; Winnetka leaderPaul9/5.0. The stored competitor comparison givesChicagoTVInstaller andChicagoMounting the same primaryHomecinemainstallation category. ChicagoTVInstaller has six additional categories versus the tracked row'sServiceestablishment/Audio visualconsultant. More categories are not automatically better; “Service establishment” in a storedGooglelisting is not proof of a currently editable owner category. Proximity remains a hypothesis: no verified origin-to-business distance table was obtained.
+
+## Cross-platform SEO conclusion
+
+GSC Web Oct25–Nov7 versusOct11–24: **107→127clicks;12,182→13,588impressions;20.7→19.2averageposition**. Exactbrandquery accounts17of20netadditionalclicks. GA4OrganicSearchsessions146→176, keyevents18→27; actualleadquality is unvalidated. These are organic/site metrics, notMapsvisibility.
+
+Specific weakness is confirmed despite aggregategrowth: /find-near-me/impressions2634→1884, and fourcitypagescombined452→316. Glenview189→105;Wilmette127→70;Winnetka108→69;Evanston28→72. Ahrefs homepage estimatedtraffic100(+49) versusnear-me1(−32), with stale keywordupdates and anOct22SERP-datawarning. Ahrefs is modeledorganicdata, not actualvisitors or exactMapspositions. Fullpage/query/keywordtables, filters and dates remain in the detailed comparison below.
+
+GSC indexing lastupdatedNov5:81indexed/73notindexed, including27intentional-or-unverifiednoindex and24redirects;4notfound,1other4xx,1robotsblocked,15crawled-notindexed,1discovered. No currentGSCmanualaction/securityissue detected. These counts do not identify a cause of Maps movement. Noindex hold oncases remains.
+
+## GBP name-change conclusion
+
+Google's notice explicitly identifiesChicagoMountingLLC→ChicagoMounting. Authenticated notification sent **May9,2026 23:17:45CDT** (=May10 04:17:45UTC); this dates notice, not exactapplication. CurrentpanelattributesGooglewithoutdate. SameprofileID7994992727831704831/CID18385212719512896326; Oct16report alreadyusesChicagoMounting withSamsung4.3. Oct24photoemail stillusesLLC, so a latercycle/stalefield is unresolved. Namingguidelines require real-worldrepresentation, not an automaticLLCrequirement; officiallegalentitysearch transportfailed. No actor/edit-history audit provingallotherfieldsunchanged was available.
+
+![Google identifies the previous and current business names](../docs/seo/gbp-name-google-update-2026-11-09.jpg)
+
+## Status against the requested deliverable
+
+Completed evidence: historical/current keywordmeans; exactmatchinggeometry; all36pointvalues for corekeywords; same-pointcompetitorhistory; both requestedgenerickeywords inpriorityareas; officialmethodologydocumentation; actualGBPfields/name-notificationchronology; GSC/GA4/Ahrefs/RankTracker crosschecks; selectedexactpage/keywordtables; technicalreportstatus.
+
+Unresolved evidence: equivalenthistoricalMapsbaseline, exactaccountmigrationtimestamp, fullhistoricalsettings/GBPfieldactorlog, verifiedcompetitorproximity, legalregistryresult, actualleadattribution. The interfaces examined did not expose the missinglogs/baseline; no supportmessage or paidscan was sent. Therefore a definitive allocation of the residualchange to realMapsvisibility versus source cannot honestly be established.
+
+Visualevidence: historicalSamsung4.3/current28.7 andcurrentTVmounting92.9 screenshots were captured and displayed during thiscontinuation; only theGBPnameimage above is persisted inGitHub. A complete durable ranking-screenshotarchive remains outstanding. This report must not be represented as satisfying that entire requirement.
+
+### Next actions justified; no production edits executed
+
+- Obtain BrightLocal's account-levelsource/migration and historicalequivalentMaps evidence, using the exactcoordinate/samepointturnovertable in a support request if separatelyauthorized. Do not spendcredits withoutapproval.
+- Diagnose near-me andthreecitypage query/country/device changes before selectingcontent work. PreservecurrentURL/architecture andSeptemberoptimizationdecisions.
+- Inspect actualURLs behind4notfound/1other4xx/1robotsblocking and importantnonindexedpages; do not blanketredirectorindex intentionalexclusions.
+- ReconcileGA4keyevents withactualleads and comparableGBPperiods.
+- Do not revertLLC or changeGBPcategories/serviceareas based on an unsupportedrankingtheory.
+- Complete persistent ranking-screenshotstorage; no claim of completion untilreadbackverified.
+
+---
+
+# Historical records and detailed evidence
+
+The following sections are retained verbatim for continuity. Their original dates, limitations and earlier checkpoint status are historical; the current assessment above supersedes the specific exact-coordinate limitation.
+
 # SEO-звіт — точка продовження
 > Latest assessment: see **2026-11-09 / 2026-11-10 UTC — Consolidated SEO assessment and completed GSC/Ahrefs comparison** below. Equal-period GSC clicks107→127 and exact impressions12,182→13,588 contradict a site-wide organic collapse, while /find-near-me/ and three priority-city pages show specific weakness. BrightLocal's source/depth transition breaks comparability; the entire Maps gap cannot yet be attributed to either methodology or real temporal loss. Google's documented name-update notification is fromMay9, before theOct16 good Samsung result. Historical records below are preserved, not silently restated as current facts.
 
