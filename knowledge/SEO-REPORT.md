@@ -214,3 +214,90 @@ Remaining evidence collection, not implemented changes:
 5. Validate GBP-tagged GA4 sessions and genuine lead events/CRM outcomes for equivalent periods, especially lateOctober. No paid scan, configuration change, merge or publication authorized by this research task.
 
 **Screenshot and access limitation:** historical Samsung4.3 and current TVmounting92.9 map screenshots were captured and inspected in the conversation, but no persistent screenshot files were saved or attached to this GitHub checkpoint. Report screenshots remain an unfinished deliverable. A later attempt to open the GBP manager was blocked because another Chrome extension UI was open; that inventory was not completed or bypassed. No definitive Google-algorithm diagnosis, full source-equivalent before/after comparison, full duplicates audit or verified business-lead decline is claimed.
+
+
+## 2026-11-09 — Google Business Profile name-change investigation
+
+### Finding and correction to the earlier checkpoint
+
+The exact transition **Chicago Mounting LLC → Chicago Mounting** is documented in an authenticated Google Business Profile notification sent **May 9, 2026 at 23:17:45 CDT (America/Chicago)**. Its original Date header is May9 21:17:45 -0700; equivalent UTC is May10 04:17:45. This is a notification timestamp and a latest bound for that documented application, NOT a recovered exact edit timestamp. A brief conversational conversion to May10 00:17 was incorrect and was corrected after timezone verification.
+
+This supersedes the earlier report's undated-name-change observation. It does NOT establish that no subsequent rollback/reapplication ever happened. The change was documented more than five months before the first poor stored ranking report of Oct30; the available evidence does not support presenting it as a newly discovered late-October event.
+
+### Primary evidence and confidence
+
+| Evidence | Date / source | Finding | Confidence / limit |
+|---|---|---|---|
+| Google name-update notification, authenticated email read in full | Sent May9 23:17:45 CDT; Google Business Profile sender; mail authentication headers show SPF/DKIM/DMARC pass | Explicit old/new pair LLC→noLLC; notification describes an update already made via user feedback or automated systems. Links identify profile7994992727831704831 and CID18385212719512896326. | High for notice, transition and identity. Exact application time and underlying contributor are not provided. Private email body, headers, tracking links and recipient information are not committed. |
+| Current authenticated owner editor | Inspected Nov9; [Google profile](https://maps.google.com/?cid=18385212719512896326) → Edit profile | Google attributes name update to itself; Current Chicago Mounting / Previous Chicago Mounting LLC. Only name has the inspected Google-update comparison panel. | High current; no date, actor log or historical list exposed. OK/accept/revert/save controls were not used. |
+| Current Advanced settings | Nov9, actual owner interface | Business Profile ID7994992727831704831 matches May notice; current CID matches the notice and BrightLocal tracking. | High identity continuity at those observations. Does not prove absence of every historical merge or intermediate state. |
+| Stored Oct16 LSG original report | Generated Oct16 09:53AM CDT; [original run](https://tools.brightlocal.com/seo-tools/admin/location-dashboard/location/4173610/lsg/view?runId=01a14534-0ae6-7384-b709-03d3f86fa58b&keyword=Fireplace+TV+mounting) re-opened Nov9 | Business row is Chicago Mounting,381reviews,5rating, primary Home cinema installation; original keyword list includes Samsung4.3. | High for rendered historical report. No immutable raw snapshot export acquired; label rendering alone is weaker than the dated Google email. |
+| Stored Oct30 LSG original report | Generated Oct30 12:29PM CDT; [original run](https://tools.brightlocal.com/seo-tools/admin/location-dashboard/location/4173610/lsg/view?runId=01a18ddb-e712-72f4-8778-6e20a6515031&keyword=Fireplace+TV+mounting) | Same row name Chicago Mounting,386reviews,5rating, primary Home cinema installation; Fireplace40.8. | High displayed facts; exact archived CID not independently exported. |
+| Existing GBP Audit | Generated Nov6 01:42:59, timezone not labeled; [stored audit](https://tools.brightlocal.com/seo-tools/admin/location-dashboard/location/4173610/gpw) | Name Chicago Mounting; exactCID link; website root; phone+12245198272; primary Home cinema installation; address blank; daily08:00–20:00. | High rendered summary; this tool also loads live rolling Insights, so their later Last Updated label is not the audit's capture date. No new run started. |
+| Contradictory name in a later photo email | Sent Oct24 07:08:12 CDT, authenticated Google notification | Uses Chicago Mounting LLC, but links to the SAME profileID/CID as May/current. | High that a message uses that label. It is not a dated field-change notification and cannot prove the public name was reverted. |
+| Earlier profile restriction history | Suspension notice Oct17,2025 00:45:18 CDT; rejected appeal notice Oct17,2025 21:04:23 CDT, same profileID | Historical2025 restriction is real; not a new2026 suspension finding. | High historical identity/date. Reinstatement date not recovered; current owner/public visibility is separately observed. Old address, routing details and private correspondence excluded. |
+
+### Screenshot — actual owner interface, Nov9
+
+![Google's current name-update panel showing the previous and current business names](../docs/seo/gbp-name-google-update-2026-11-09.jpg)
+
+Actual browser screenshot cropped to the name field, Google attribution and both values; no reconstructed/mock UI and no private account identifiers. The cropped image was visually inspected and its transferred bytes checked against the capture in27consecutive blocks before commit. This resolves the screenshot gap for this specific name-change evidence; the broader ranking report screenshot archive remains incomplete. The screenshot proves the current notice, not its application date. No email screenshot/raw email is published.
+
+### Was it automatic, suggested, or performed by a manager?
+
+**Confirmed:** Google's current editor categorizes the name as a Google update. The May email reports an update already made and gives two possible source classes: user feedback or automated systems. This is not merely an unapproved pending suggestion in the inspected current UI.
+
+**Not established:** which of those source classes actually triggered this specific update; whether a public contributor, owner, manager or data supplier submitted underlying information; a named editor; a manager acceptance/reversion timestamp; or a later recurrence. No evidence identifies a manager as the direct actor. A manager's access or a current automated-update setting is not an edit-history record.
+
+The Business information menu, Business Profile settings and Advanced settings exposed no dated field-edit log. The menu's Notifications opens notification preferences, not a historical event inbox. Those preferences were read only. Existing GBP Audit's Actions offers re-run/edit/export/print, not a historical field-change log; no re-run or paid scan clicked.
+
+Google's official [update documentation](https://support.google.com/business/answer/3480441?hl=en) explains that updates can use user reports and other sources. [Edit-status documentation](https://support.google.com/business/answer/3038311?hl=en) distinguishes accepted/pending edits from Google's own updates. These describe possible mechanisms; they do not identify this event's submitter. Current policy review windows cannot date the May event.
+
+### Chronology versus rankings
+
+| Date | Name evidence | Ranking relevance |
+|---|---|---|
+| May9,2026 23:17:45 CDT | Explicit Google notice of LLC→noLLC on current profileID/CID | The documented transition predates the lateOctober difference. |
+| Oct16,2026 | Historical BrightLocal business row already Chicago Mounting | Samsung4.3 coexists with the noLLC name. Removal of LLC is not shown to be sufficient to cause poor rankings. |
+| Oct24,2026 | Photo email still calls same profile LLC | Contradiction retained. Stale notification/template data versus a true intervening name cycle remains unresolved; neither is declared fact. |
+| Oct30,2026 | Historical row still Chicago Mounting | First stored poor report, not a newly proven name-edit date. |
+| Nov6,2026 | Grid and GBP Audit use Chicago Mounting | Same visible name as the better Oct16 report. |
+| Nov9,2026 | Google editor confirms Current/Previous without date | Cannot interpret an undismissed panel as evidence of a recent change. |
+
+Mailbox searches included all folders, Spam and Trash; focused business-name/update queries, the businessprofile sender and Google Maps sender. The exact transition notice found is the May message. No separate September–November name-change notice was returned by the performed searches. BrightLocal-specific search found an Oct9 AI-priorities email, not a name-change log. Absence in this mailbox is not proof no notice exists in another manager's account or that all past mail is retained.
+
+**Causal assessment: no actual evidence links this documented name change to the Oct30 ranking difference.** The same noLLC name appears in the better Oct16 and poor Oct30 report views. Source/depth changes and incomplete edit history remain separate issues. This is stronger evidence against treating the May transition as the immediate lateOctober cause, not proof that business names can never affect local rankings. No rollback experiment is authorized or warranted.
+
+### Did other fields change at the same time?
+
+| Field | Verified observations | What cannot be established |
+|---|---|---|
+| Primary category | Home cinema installation in Oct16 and Oct30 report rows, Nov6 GBP Audit and Nov9 owner editor | No contemporaneousMay value or complete edit log. No observed October primary-category switch. |
+| Additional categories | Historical rows Service establishment+1more; current Google editor Audio visual consultant; prior BrightLocal Nov6 comparison showed Service establishment and Audio visual consultant | Service establishment is displayed differently across sources; do not infer its removal or exact timing from this. Full historical category arrays unavailable. |
+| Address / SAB | Nov6 audit blank address; Nov9 editor no customer-facing location, deliveries/home services only.2025 restriction notice carried a street-address representation. | Hidden origin and date of any address→SAB change not obtained. Do not republish the old address as an active office or blame it for2026 rankings. |
+| Service area | Current Cook,Kane,Lake,Will,DuPage,Kendall,McHenry counties, no new update badge seen | Historical area lists forMay/lateOctober absent; unchanged status not proved. |
+| Website | Nov6 audit and current owner editor https://chicagomounting.com/ | BrightLocal's editable location record contains a GBP UTM URL; that configuration difference is not evidence of a dated Google website edit. |
+| Phone | Nov6 audit+12245198272 and current editor(224)519-8272 | Same number, formatting only. No May timestamped baseline or full history. |
+| Business identity | May and Oct24 email links plus current Advanced settings share profileID7994992727831704831; May/current/BrightLocal shareCID18385212719512896326 | No demonstrated replacement profile tied to the name event; historical merges and all intermediate IDs not comprehensively audited. |
+
+The May update email names only the name field. Its generic mention of other possible information types is not evidence that address or hours also changed in that event. No other current field was seen with a matching old/new Google-update panel. These are observation limits, not a guarantee that no field ever changed.
+
+### Naming guidelines, website and legal identity
+
+Official [Google naming guidelines](https://support.google.com/business/answer/3038177) favor the consistently used real-world business name. Legal suffixes such asLLC require real-world supporting usage when included; incorporation alone does not make the suffix mandatory in the public profile name. The policy does not mean that everyLLC suffix is automatically forbidden.
+
+The retrieved [homepage](https://chicagomounting.com/) and [About page](https://chicagomounting.com/about-us/) use Chicago Mounting branding, including logo/page titles; retrieved text searches found noLLC on those two pages. These are search-retrieved copies, not a fresh certificate of all live website content. Direct browser homepage access reached Bot Verification/reCAPTCHA; no challenge solved or bypassed. Current Google profile description still mentions Chicago Mounting LLC, confirming mixed representations exist.
+
+Official Illinois Secretary of State entity search was opened and an individual Business Name search for Chicago Mounting submitted. The result request failed with ERR_HTTP2_PROTOCOL_ERROR at apps.ilsos.gov/businessentitysearch/businessentitysearch. No registry entity result or legal filing was retrieved; this is NOT “no entity found.” Exact legal entity name, status and any assumed-name registration therefore remain unverified. No certificate bought and no personal/legal filing details copied. [Official registry overview](https://www.ilsos.gov/departments/business-services/business-searches.html).
+
+**Justified action:** preserve the current profile during investigation. Do not addLLC for a ranking hypothesis, accept/dismiss the Google notice, change categories/address/service areas or rename the legal entity. If final naming verification is needed, obtain existing business registration and consistent customer-facing branding evidence. If precise actor/application history matters, request Google's historical field events through an authorized support process; no support message was sent here.
+
+### Remaining uncertainties
+
+- Exact application timestamp versus the May9 notification timestamp.
+- Whether the current undated panel is the same May event or a later identical recurrence.
+- Underlying source/contributor and any intermediate manager reversion/acceptance.
+- Why the Oct24 photo email retainsLLC despiteMay notice and Oct16 noLLC report; not resolved by guessing.
+- Historical service-area/address/additional-category changes and reinstatement timing for the2025 event.
+- Official legal identity verification blocked by registry transport failure; direct live website inspection blocked by reCAPTCHA.
+- No causal evidence currently justifies attributing the lateOctober ranking gap to this name change.
