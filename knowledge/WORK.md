@@ -1,5 +1,11 @@
 # Work — current state
 
+## Latest SEO checkpoint — fresh authenticated audit, 2026-11-09
+Supersedes earlier access-based limitations. User clarified browser authorization; GSC, GA4 and Ahrefs were successfully read. SEO-REPORT.md now leads with fresh US/query/device/city/YoY results, exact indexing examples, actual three-domain Ahrefs Content Gap and GA4 source/event/landing attribution. BrightLocal investigation was not repeated.
+Key findings: USGSC91→104clicks, exactbrand12→27; excluding justthatquery79→77. USGA4organic127→143sessions/74→92engaged/18→26configuredkeyevents. FourcityGSC452→316impressions, mixedpositions; one28-dayorganiccitylanding/zerokeyevents. HubUSmobile−457impressions; mainlosingqueryrankimproves. Currentfourcityselfcanonical/no metanoindex checked. Administrative4xx/robots not revenuepageerrors; usefularticleexclusions documented. Gap: fourHDInstallsterms. Keyevents mix booking/call/inquiry; qualifiedlead/job/revenue remains unproven.
+No site/GBP/tracking/property changes or validation requests; browser filters/report dates/dimensions only. All four publiccitypages read, no managementtools. Next: follow P0/P1 reportrecommendations within separately authorized scopes. Remaining uncertainty concerns causes/triggers/outcomes, not serviceaccess. AtomicGitHubdocumentationcommit and exactremotecontent/ref readback verified on delivery.
+
+
 ## Latest SEO audit — 2026-11-09 (America/Chicago)
 
 Completed the written eight-theme assessment in [SEO-REPORT.md](SEO-REPORT.md), continuing the existing seo-branch research without repeating BrightLocal. GSC Oct25–Nov7 vs Oct11–24: clicks +18.69%, but exact brand supplies17/20 incremental clicks; city impressions−30.09%, hub−28.47%. GA4 organic sessions+20.55%, key events18→27 are not validated leads. Added per-city assessments, seasonality limits, technical triage, public competitor comparison, keyword-to-existing-page opportunities, prior-work outcomes and prioritized acceptance criteria.
