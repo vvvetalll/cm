@@ -1,0 +1,313 @@
+{
+  "date": "2026-11-11",
+  "method": "Anonymous HTTPS GET; no cookies/credentials; no site writes",
+  "routes": [
+    {
+      "url": "https://chicagomounting.com/case-studies/2/",
+      "status": 200,
+      "finalUrl": "https://chicagomounting.com/case-studies/2/",
+      "title": "Case Studies | Chicago Mounting | Page 2",
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type. | Page 2",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/2/"
+      ],
+      "robots": "noindex, nofollow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "caseLinks": [
+        "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+        "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+        "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+        "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+        "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/",
+        "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/",
+        "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/",
+        "https://chicagomounting.com/tv-wall-mounting-case-wilmette/"
+      ]
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/case-city-featured-city-glenview/",
+      "status": 200,
+      "finalUrl": "https://chicagomounting.com/case-studies/case-city-featured-city-glenview/",
+      "title": "Case Studies | Chicago Mounting",
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "robots": "noindex, follow",
+      "xRobotsTag": null,
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "caseLinks": [
+        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+        "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+        "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+        "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/"
+      ]
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/case-city-featured-city-evanston/",
+      "status": 200,
+      "finalUrl": "https://chicagomounting.com/case-studies/case-city-featured-city-evanston/",
+      "title": "Case Studies | Chicago Mounting",
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "robots": "noindex, follow",
+      "xRobotsTag": null,
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "caseLinks": [
+        "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+        "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+        "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/",
+        "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/"
+      ]
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/case-city-featured-city-winnetka/",
+      "status": 200,
+      "finalUrl": "https://chicagomounting.com/case-studies/case-city-featured-city-winnetka/",
+      "title": "Case Studies | Chicago Mounting",
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "robots": "noindex, follow",
+      "xRobotsTag": null,
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "caseLinks": [
+        "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+        "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/"
+      ]
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/case-city-featured-city-wilmette/",
+      "status": 200,
+      "finalUrl": "https://chicagomounting.com/case-studies/case-city-featured-city-wilmette/",
+      "title": "Case Studies | Chicago Mounting",
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "robots": "noindex, follow",
+      "xRobotsTag": null,
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "caseLinks": [
+        "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+        "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+        "https://chicagomounting.com/tv-wall-mounting-case-wilmette/"
+      ]
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/case-installation-frame-tv-installation/",
+      "status": 200,
+      "finalUrl": "https://chicagomounting.com/case-studies/case-installation-frame-tv-installation/",
+      "title": "Case Studies | Chicago Mounting",
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "robots": "noindex, follow",
+      "xRobotsTag": null,
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "caseLinks": [
+        "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+        "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+        "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+        "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/"
+      ]
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/case-installation-fireplace-specialty-mounting/",
+      "status": 200,
+      "finalUrl": "https://chicagomounting.com/case-studies/case-installation-fireplace-specialty-mounting/",
+      "title": "Case Studies | Chicago Mounting",
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "robots": "noindex, follow",
+      "xRobotsTag": null,
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "caseLinks": [
+        "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+        "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+        "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+        "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/"
+      ]
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/case-installation-outdoor-tv-installation/",
+      "status": 200,
+      "finalUrl": "https://chicagomounting.com/case-studies/case-installation-outdoor-tv-installation/",
+      "title": "Case Studies | Chicago Mounting",
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "robots": "noindex, follow",
+      "xRobotsTag": null,
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "caseLinks": [
+        "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/"
+      ]
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/case-installation-large-premium-tv/",
+      "status": 200,
+      "finalUrl": "https://chicagomounting.com/case-studies/case-installation-large-premium-tv/",
+      "title": "Case Studies | Chicago Mounting",
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "robots": "noindex, follow",
+      "xRobotsTag": null,
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "caseLinks": [
+        "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+        "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+        "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+        "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+        "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/"
+      ]
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/case-installation-standard-tv-mounting/",
+      "status": 200,
+      "finalUrl": "https://chicagomounting.com/case-studies/case-installation-standard-tv-mounting/",
+      "title": "Case Studies | Chicago Mounting",
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "robots": "noindex, follow",
+      "xRobotsTag": null,
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "caseLinks": [
+        "https://chicagomounting.com/tv-wall-mounting-case-wilmette/"
+      ]
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/case-installation-recessed-media-installation/",
+      "status": 200,
+      "finalUrl": "https://chicagomounting.com/case-studies/case-installation-recessed-media-installation/",
+      "title": "Case Studies | Chicago Mounting",
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "robots": "noindex, follow",
+      "xRobotsTag": null,
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "caseLinks": [
+        "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+        "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+        "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/"
+      ]
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/case-installation-tv-soundbar-installation/",
+      "status": 200,
+      "finalUrl": "https://chicagomounting.com/case-studies/case-installation-tv-soundbar-installation/",
+      "title": "Case Studies | Chicago Mounting",
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "robots": "noindex, follow",
+      "xRobotsTag": null,
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "caseLinks": [
+        "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+        "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+        "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+        "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/",
+        "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/"
+      ]
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/case-installation-large-premium-tv/2/",
+      "status": 200,
+      "finalUrl": "https://chicagomounting.com/case-studies/case-installation-large-premium-tv/2/",
+      "title": "Case Studies | Chicago Mounting | Page 2",
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type. | Page 2",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/2/"
+      ],
+      "robots": "noindex, follow",
+      "xRobotsTag": null,
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "caseLinks": [
+        "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+        "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+        "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/"
+      ]
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/",
+      "status": 200,
+      "finalUrl": "https://chicagomounting.com/case-studies/",
+      "title": "Case Studies | Chicago Mounting",
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "caseLinks": [
+        "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+        "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+        "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+        "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+        "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/"
+      ]
+    }
+  ]
+}

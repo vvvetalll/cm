@@ -2,7 +2,7 @@
 
 ## Result and root-cause investigation
 
-The reported duplicate HTML title **was not reproduced**. Before making any website change, all16 anonymous case URLs already returned16 unique titles and16 unique descriptions. Every case was then opened directly in the supported WordPress/AIOSEO admin interface: saved values match public output. A second anonymous pass reconfirmed every result. Only catalogue15716 uses `Case Studies | Chicago Mounting`.
+**Owner clarification:** Screaming Frog reported the shared title on four filtered catalogue URLs, not on individual case pages. Those filter URLs are audited below and preserved. The16 canonical cases have no duplicate-title issue. Before making any website change, all16 anonymous case URLs already returned16 unique titles and16 unique descriptions. Every case was then opened directly in the supported WordPress/AIOSEO admin interface: saved values match public output. A second anonymous pass reconfirmed every result. Only catalogue15716 uses `Case Studies | Chicago Mounting`.
 
 No production change was necessary or made. Re-saving correct fields, changing a working global template, or replacing dynamic tags with16 redundant overrides would not fix a demonstrated defect.
 
@@ -12,7 +12,7 @@ No production change was necessary or made. Re-saving correct fields, changing a
 - Fifteen cases have explicit unique SEO titles.15731 uses native Post Title/Separator/Site Title smart tags, resolving correctly to its approved city-neutral title. Catalogue15716 uses Page Title smart tags. Dynamic fields are not defects.
 - Single15714 is the existing shared Elementor template. MCP structure and public HTML show case-specific H1/content; every public document head retains its case-specific AIOSEO title. No active Single-template HTML title override was observed; internal filter code/dynamic-tag binding was not inspected or changed.
 - All16 public Open Graph titles/descriptions match their own SEO metadata. Blank saved Facebook overrides correctly inherit the SEO values. The existing global social-preview image remains intentionally shared.
-- `Case Studies` is also the expected shared breadcrumb parent/category label. That label is not the individual HTML title. The source of the owner's reported identical-title observation is not established; do not claim stale search snippets, caching or a previous defect as proven.
+- `Case Studies` is also the expected shared breadcrumb parent/category label. That label is not the individual HTML title. The owner identified the source as Screaming Frog and supplied four filter routes. Their shared title is catalogue metadata on non-indexable filtered variants; it is not a duplication defect across individual cases. No stale-cache or historical-defect claim is made.
 
 ## Before/after table — all16
 
@@ -41,28 +41,28 @@ Every row has unchanged before/after title and description because the starting 
 
 All16 titles are51–64 characters; descriptions122–145. These are descriptive installation-specific US English values, not16 copies of catalogue text. Preserved approved city assignments and city-neutral15731.15824 remains Samsung Frame family wording, without restoring the disputed Pro model claim.
 
-All96 relevant featured/gallery media records have nonempty ALT and media titles; there are no exact duplicate ALT strings. Current public Media REST read succeeded with the explicit audit User-Agent. Captions: one nonempty,95empty; empty captions are not automatically defects. Gallery lightbox labels were inspected in HTML. No image URL/file/replacement/ALT/title/caption changes. This is a text/use audit, not new provenance certification from all original photographs. Detailed96-record metadata is in the companion JSON.
+All96 relevant featured/gallery media records have nonempty ALT and media titles; there are no exact duplicate ALT strings. Current public Media REST read succeeded with the explicit audit User-Agent. Captions: one nonempty,95empty; empty captions are not automatically defects. Gallery lightbox labels were inspected in HTML. No image URL/file/replacement/ALT/title/caption changes. The four existing96-image contact sheets were also reinspected in this session. All96current source URLs match that prior inventory. This is not new independent installation/city provenance certification or a fresh download/hash of all originals. Detailed96-record metadata is in the companion JSON.
 
 Each case has one contextual service link in its actual Post Content; navigation/footer links are excluded from this count. One H1 then H2 sections and H3 related cards on all16. BlogPosting/WebPage and one BreadcrumbList resolve to Home → Case Studies catalogue → individual case. Featured image is present in the page/schema. Global social sharing image: https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg . No need to create empty-field overrides merely because social values inherit defaults.
 
 | Case | Relevant featured + gallery images | ALT audit | Focus keyphrase status | Contextual service link |
 |---|---:|---|---|---|
-| 15832 | 10 | All present; preserved | Empty (UI observed) | https://chicagomounting.com/fireplace-or-brick-wall-mounting/ |
-| 15830 | 4 | All present; preserved | Not individually verified | https://chicagomounting.com/fireplace-or-brick-wall-mounting/ |
-| 15828 | 8 | All present; preserved | Not individually verified | https://chicagomounting.com/recessed-media-box/ |
-| 15826 | 7 | All present; preserved | Not individually verified | https://chicagomounting.com/frame-tv-mounting-chicago/ |
-| 15824 | 7 | All present; preserved | Not individually verified | https://chicagomounting.com/frame-tv-mounting-chicago/ |
-| 15822 | 5 | All present; preserved | Not individually verified | https://chicagomounting.com/premium-large-tv-installation/ |
-| 15820 | 5 | All present; preserved | Not individually verified | https://chicagomounting.com/frame-tv-mounting-chicago/ |
-| 15818 | 6 | All present; preserved | Not individually verified | https://chicagomounting.com/premium-large-tv-installation/ |
-| 15816 | 13 | All present; preserved | Not individually verified | https://chicagomounting.com/recessed-media-box/ |
-| 15814 | 11 | All present; preserved | Not individually verified | https://chicagomounting.com/fireplace-or-brick-wall-mounting/ |
-| 15812 | 8 | All present; preserved | Not individually verified | https://chicagomounting.com/soundbar-installation/ |
-| 15810 | 8 | All present; preserved | Not individually verified | https://chicagomounting.com/recessed-media-box/ |
-| 15793 | 1 | All present; preserved | Not individually verified | https://chicagomounting.com/recessed-media-box/ |
-| 15792 | 1 | All present; preserved | Not individually verified | https://chicagomounting.com/outdoor-tv-installation/ |
-| 15791 | 1 | All present; preserved | Not individually verified | https://chicagomounting.com/tv-installation-and-mounting/ |
-| 15731 | 1 | All present; preserved | Empty (UI observed) | https://chicagomounting.com/frame-tv-mounting-chicago/ |
+| 15832 | 10 | All present; preserved | Empty (native AIOSEO verified) | https://chicagomounting.com/fireplace-or-brick-wall-mounting/ |
+| 15830 | 4 | All present; preserved | Empty (native AIOSEO verified) | https://chicagomounting.com/fireplace-or-brick-wall-mounting/ |
+| 15828 | 8 | All present; preserved | Empty (native AIOSEO verified) | https://chicagomounting.com/recessed-media-box/ |
+| 15826 | 7 | All present; preserved | Empty (native AIOSEO verified) | https://chicagomounting.com/frame-tv-mounting-chicago/ |
+| 15824 | 7 | All present; preserved | Empty (native AIOSEO verified) | https://chicagomounting.com/frame-tv-mounting-chicago/ |
+| 15822 | 5 | All present; preserved | Empty (native AIOSEO verified) | https://chicagomounting.com/premium-large-tv-installation/ |
+| 15820 | 5 | All present; preserved | Empty (native AIOSEO verified) | https://chicagomounting.com/frame-tv-mounting-chicago/ |
+| 15818 | 6 | All present; preserved | Empty (native AIOSEO verified) | https://chicagomounting.com/premium-large-tv-installation/ |
+| 15816 | 13 | All present; preserved | Empty (native AIOSEO verified) | https://chicagomounting.com/recessed-media-box/ |
+| 15814 | 11 | All present; preserved | Empty (native AIOSEO verified) | https://chicagomounting.com/fireplace-or-brick-wall-mounting/ |
+| 15812 | 8 | All present; preserved | Empty (native AIOSEO verified) | https://chicagomounting.com/soundbar-installation/ |
+| 15810 | 8 | All present; preserved | Empty (native AIOSEO verified) | https://chicagomounting.com/recessed-media-box/ |
+| 15793 | 1 | All present; preserved | Empty (native AIOSEO verified) | https://chicagomounting.com/recessed-media-box/ |
+| 15792 | 1 | All present; preserved | Empty (native AIOSEO verified) | https://chicagomounting.com/outdoor-tv-installation/ |
+| 15791 | 1 | All present; preserved | Empty (native AIOSEO verified) | https://chicagomounting.com/tv-installation-and-mounting/ |
+| 15731 | 1 | All present; preserved | Empty (native AIOSEO verified) | https://chicagomounting.com/frame-tv-mounting-chicago/ |
 
 ## Catalogue protection
 
@@ -72,13 +72,53 @@ Catalogue15716 URL: https://chicagomounting.com/case-studies/
 - Before/after description: Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.
 - Native AIOSEO reopened: Page Title smart-tag template, correct description. Anonymous HTTP200/self-canonical/indexable. No catalogue design/filter/template/navigation/integration changes.
 
+## Remaining admin checks completed — read only
+
+- All16 native AIOSEO sidebar cards explicitly show **No focus keyword set**. The earlier14unknown statuses are closed. No analysis keywords were added.
+- All16 case Advanced panels plus catalogue15716 were opened individually. Canonical URL override is empty on all17, correctly generating self-canonical HTML. Use Default Settings is off; all seven robots suppression checkboxes (No Index, No Follow, No Archive, No Translate, No Image Index, No Snippet, No ODP) are unchecked on every record. This matches public indexability. Nothing toggled or saved.
+- Social Networks → Facebook was inspected. Default Post Image Source is **Default Image (Set Below)**, pointing to the existing chicago-mounting-social-preview.jpg. Posts object type=Article. The shared preview image is the configured selection, not a missing-featured-image fallback defect. No social setting saved.
+- All96media source URLs match the prior96-image audit.92ALT values are identical; four15824values reflect the previously approved Frame Pro→Frame neutrality correction. Those current neutral descriptions match the inspected photographs and are preserved. All96have nonempty descriptive ALT and media titles; no exact duplicate ALT.95empty captions remain acceptable, without filler captions. Four existing contact sheets covering all96images were reinspected; no new original-file replacement/download or city inference.
+
 ## Unverified fields and limits
 
-- Focus keyword is empty in15832 and15731 as directly observed. The other14 case focus-keyphrase values were not individually verified; they are marked accordingly, not assumed empty. No focus-keyphrase changes were required for the urgent duplicate-title investigation.
-- Public canonical/robots values were verified for every URL; individual advanced canonical/robots control fields were not separately opened. No settings changed.
-- AIOSEO social fields inherit SEO values; exact global social-image selector setting was not separately opened, while the rendered shared image and individual social title/description were verified.
-- Internal theme/plugin title-filter source, complete Elementor dynamic-tag bindings and all third-party crawler/search-engine caches are not inspected. Existing installed plugin source restrictions respected. No verified title-generation defect to justify source/template changes.
-- No new physical-device/layout regression test: no website writes occurred; second-pass rendered headings, body hash, images, links and JSON-LD exactly match baseline on all17 URLs. Page layout, publication/indexing, H1, media, URLs, filters and integrations left untouched.
-- No search-engine ranking/index-coverage claim; indexability here means current public directives permit indexing.
+- Internal theme/plugin title-filter code and full Elementor dynamic bindings are not inspected; no active title-generation defect was found and installed-plugin source access is prohibited. Public output and saved supported settings were checked instead.
+- A current binary hash/redownload of all96originals was not repeated. Photo review uses the existing contact sheets with all96live source URLs matched. Independent installation provenance and historic15731city remain unverified; no new location/model assertions.
+- No new physical-device/layout regression test or search-engine index-coverage claim. This is read-only; existing two-pass headings/body/images/links/JSON-LD comparisons remain unchanged. No save/persistence experiment or production changes were necessary.
 
 The companion JSON records exact titles/descriptions, canonical/robots, H1, OG metadata, schema types, image metadata, service links and unchanged comparisons. Report and knowledge files are the only repository changes; commit/push is verified separately.
+
+## Screaming Frog filter-route clarification and verification
+
+The owner clarified that the crawl's `Case Studies | Chicago Mounting` title applied to the TV/Soundbar, Evanston, Frame TV and Fireplace filters, with HTTP200 / Non-Indexable / Canonicalised,noindex. The owner did **not** report duplicate titles on the16canonical cases. This supersedes the earlier unresolved-source wording.
+
+Fresh anonymous verification covers all11known single city/type routes, one filtered pagination route, catalogue page2 and the base catalogue. This matches the existing intended policy recorded before this task in public-launch-seo-verification-2026-11-11.json: filter variants noindex/follow and canonical to the unfiltered catalogue at the same pagination level. The unfiltered page2's pre-existing noindex/nofollow/self-canonical is recorded separately and preserved.
+
+| URL | HTTP | Robots | Canonical | Interpretation |
+|---|---:|---|---|---|
+| https://chicagomounting.com/case-studies/2/ | 200 | noindex, nofollow, max-snippet:-1, max-image-preview:large, max-video-preview:-1 | https://chicagomounting.com/case-studies/2/ | Existing pagination policy; preserve |
+| https://chicagomounting.com/case-studies/case-city-featured-city-glenview/ | 200 | noindex, follow | https://chicagomounting.com/case-studies/ | Expected non-indexable filter variant; preserve |
+| https://chicagomounting.com/case-studies/case-city-featured-city-evanston/ | 200 | noindex, follow | https://chicagomounting.com/case-studies/ | Expected non-indexable filter variant; preserve |
+| https://chicagomounting.com/case-studies/case-city-featured-city-winnetka/ | 200 | noindex, follow | https://chicagomounting.com/case-studies/ | Expected non-indexable filter variant; preserve |
+| https://chicagomounting.com/case-studies/case-city-featured-city-wilmette/ | 200 | noindex, follow | https://chicagomounting.com/case-studies/ | Expected non-indexable filter variant; preserve |
+| https://chicagomounting.com/case-studies/case-installation-frame-tv-installation/ | 200 | noindex, follow | https://chicagomounting.com/case-studies/ | Expected non-indexable filter variant; preserve |
+| https://chicagomounting.com/case-studies/case-installation-fireplace-specialty-mounting/ | 200 | noindex, follow | https://chicagomounting.com/case-studies/ | Expected non-indexable filter variant; preserve |
+| https://chicagomounting.com/case-studies/case-installation-outdoor-tv-installation/ | 200 | noindex, follow | https://chicagomounting.com/case-studies/ | Expected non-indexable filter variant; preserve |
+| https://chicagomounting.com/case-studies/case-installation-large-premium-tv/ | 200 | noindex, follow | https://chicagomounting.com/case-studies/ | Expected non-indexable filter variant; preserve |
+| https://chicagomounting.com/case-studies/case-installation-standard-tv-mounting/ | 200 | noindex, follow | https://chicagomounting.com/case-studies/ | Expected non-indexable filter variant; preserve |
+| https://chicagomounting.com/case-studies/case-installation-recessed-media-installation/ | 200 | noindex, follow | https://chicagomounting.com/case-studies/ | Expected non-indexable filter variant; preserve |
+| https://chicagomounting.com/case-studies/case-installation-tv-soundbar-installation/ | 200 | noindex, follow | https://chicagomounting.com/case-studies/ | Expected non-indexable filter variant; preserve |
+| https://chicagomounting.com/case-studies/case-installation-large-premium-tv/2/ | 200 | noindex, follow | https://chicagomounting.com/case-studies/2/ | Expected non-indexable filter variant; preserve |
+| https://chicagomounting.com/case-studies/ | 200 | max-snippet:-1, max-image-preview:large, max-video-preview:-1 | https://chicagomounting.com/case-studies/ | Indexable base catalogue; preserve |
+
+All four supplied routes and the other ten examined catalogue/filter/pagination endpoints retain their existing behavior. Shared titles on these canonicalized/noindex variants do not require individual-case SEO overrides, URL deletion, redirects, filter removal, template edits or indexing changes. Canonical is an HTML hint and noindex is an indexing directive; no assumption that Google has already processed either is made.
+
+### Link and social-image availability
+
+- https://chicagomounting.com/fireplace-or-brick-wall-mounting/: HTTP200 (text/html; charset=UTF-8).
+- https://chicagomounting.com/frame-tv-mounting-chicago/: HTTP200 (text/html; charset=UTF-8).
+- https://chicagomounting.com/outdoor-tv-installation/: HTTP200 (text/html; charset=UTF-8).
+- https://chicagomounting.com/premium-large-tv-installation/: HTTP200 (text/html; charset=UTF-8).
+- https://chicagomounting.com/recessed-media-box/: HTTP200 (text/html; charset=UTF-8).
+- https://chicagomounting.com/soundbar-installation/: HTTP200 (text/html; charset=UTF-8).
+- https://chicagomounting.com/tv-installation-and-mounting/: HTTP200 (text/html; charset=UTF-8).
+- https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg: HTTP200 (image/jpeg).
