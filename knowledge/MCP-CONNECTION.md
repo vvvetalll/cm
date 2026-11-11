@@ -125,3 +125,11 @@ If secure credentials or network access are unavailable in the current runtime, 
 - [Plugin package authentication schema](https://developers.openai.com/plugins/build/plugins) — api_key with headerScheme basic; connection metadata contains no secret.
 - [Submission portal authentication limitations](https://developers.openai.com/plugins/deploy/submission) — public portal setup limitations, distinct from direct API access.
 - [MCP in ChatGPT and Codex](https://learn.chatgpt.com/docs/extend/mcp) — host-specific configuration and ChatGPT plugin use.
+
+## 2026-11-11 — Desktop MCP availability and mandatory recovery
+
+Owner's ChatGPT desktop screenshot shows the existing `chicago-mounting-elementor` server registered **and toggled on** in Settings → Plugins → MCPs alongside `gcpro-restoration-elementor`. A Work report said an Elementor Page 15716 read succeeded (`isError: false`). These are observations of those sessions, not proof of persistent authorization in every new chat. Earlier Work HTTP 401 `rest_forbidden` occurred when that session lacked authorized Basic credentials; that does not establish that the registered desktop connection is broken.
+
+**Order for future Work tasks:** (1) Discover and use existing desktop/native `chicago-mounting-elementor` tools if present and verify a current-session Page 15716 read. (2) If tools are absent, distinguish client tool exposure from actual server failure. If a secure credential source and HTTPS-capable runtime are available, attempt the already supported direct Basic HTTP MCP handshake; no new plugin/server is needed. (3) For expired sessions, reinitialize and preserve the new `Mcp-Session-Id`. (4) If blocked, identify exactly whether missing registration, unavailable credentials, HTTP 401/403, session expiration, network or server error, and request one specific action instead of generic reconnection instructions.
+
+No OAuth fallback, security change, access to installed WordPress plugin files, credentials in GitHub/chat, or duplicate MCP installation. A prior successful read cannot be passed off as a fresh one. No permanent/cross-chat connectivity guarantee is made. This clarifies the older direct-HTTP-first instructions in `AGENTS.md`: native registered tools take priority when available; direct HTTPS remains the authorized fallback.
