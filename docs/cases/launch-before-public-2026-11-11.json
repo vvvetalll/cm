@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-11",
+  "purpose": "Public HTML baseline before approved deployment; full hosting backup separately verified. Native editor revisions and removal of inserted sections are targeted rollback.",
+  "pages": [
+    {
+      "id": 9833,
+      "url": "https://chicagomounting.com/tv-installation-in-glenview/",
+      "status": 200,
+      "sha256": "6c5f09fe7bc738942eadb93dba76b79f421d4feb91fad8c5e64b6d39f358e87d",
+      "hadIntegration": false
+    },
+    {
+      "id": 9987,
+      "url": "https://chicagomounting.com/tv-installation-in-evanston/",
+      "status": 200,
+      "sha256": "426792dec33eff9ac41fe37b351b05f689d24534e48c4995ee95cba904d1e17d",
+      "hadIntegration": false
+    },
+    {
+      "id": 9701,
+      "url": "https://chicagomounting.com/tv-installation-in-wilmette/",
+      "status": 200,
+      "sha256": "029d251ab97f71cbf91e984f54c85d13d96b75b12a0acb5650c54a3b1d39489d",
+      "hadIntegration": false
+    },
+    {
+      "id": 9888,
+      "url": "https://chicagomounting.com/tv-installation-in-winnetka/",
+      "status": 200,
+      "sha256": "1e5dac373daad03f649ce00ba02b2bb7a3fe99d9a3cdcbc3c00484db7b346c0e",
+      "hadIntegration": false
+    },
+    {
+      "id": 15342,
+      "url": "https://chicagomounting.com/premium-large-tv-installation/",
+      "status": 200,
+      "sha256": "d3bf3aabc59e37f9688da561107990aea713137f7d378f58f891b0c7e9ce54b4",
+      "hadIntegration": false
+    },
+    {
+      "id": 11178,
+      "url": "https://chicagomounting.com/outdoor-tv-installation/",
+      "status": 200,
+      "sha256": "7a3d1fb2b50348cc18c0cfbeb3a86e19effac22d68098d0db61417a13d69e1a0",
+      "hadIntegration": false
+    },
+    {
+      "id": 8156,
+      "url": "https://chicagomounting.com/recessed-media-box/",
+      "status": 200,
+      "sha256": "ca4f47e2d753a61b24807a4ae79789f0157e8553b8f3e58c8332ac8a0ca3d7af",
+      "hadIntegration": false
+    },
+    {
+      "id": 5671,
+      "url": "https://chicagomounting.com/frame-tv-mounting-chicago/",
+      "status": 200,
+      "sha256": "8193a652c19d4fdee1e77effde7954768f757699db81e8947c26ccb562bf884e",
+      "hadIntegration": false
+    },
+    {
+      "id": 3398,
+      "url": "https://chicagomounting.com/soundbar-installation/",
+      "status": 200,
+      "sha256": "e596122d817922e0e92c5842b83f2c6633e588d04024fe7e8b19d8a77d80a9bd",
+      "hadIntegration": false
+    },
+    {
+      "id": 3281,
+      "url": "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+      "status": 200,
+      "sha256": "6574482116d23c220cad548a9c4d49c2f3e7cf130b0b247563bdf7b493c5df63",
+      "hadIntegration": false
+    },
+    {
+      "id": 1682,
+      "url": "https://chicagomounting.com/tv-installation-and-mounting/",
+      "status": 200,
+      "sha256": "8e6bc16b4fce95061ddd9df138817a55835c06ea69a0d2f9316ef24f4dfb52a0",
+      "hadIntegration": false
+    }
+  ]
+}

@@ -478,3 +478,7 @@ Completed existing catalogue rename/final /case-studies/ route, category144 arch
 ## 2026-11-11 — Hosting recovery verified; functional launch readiness GO
 Continued only outstanding functional checks after owner clarification. Hostinger existing website+database backup2026-11-11 01:10/Daily and native restore/download controls verified read-only; no restore/config change/new staging. Fixed existing WP Rocket Always Purge URLs catalogue path after rename; all11destinations preserved, only cache_purge_pages differs. Reversible15791 publication lifecycle verified anonymous nativequery exclusion/empty state/reinclusion without manual purging; exactcontent/title/originalpublicationdate/status/noindex restored. Prior11destination rendering and tag-membership/cache tests reused rather than falsely treated as absent. Updated final report from NO-GO to GO for owner approval; all release holds remain. No design tests, no new objects/plugins, noindex removal or publicintegration activation. Exact report and lifecycleJSON committed in this checkpoint; remote SHA checked after push.
 
+
+## 2026-11-11 — Approved public launch baseline
+Recorded explicitrelease scope,11currentpublicHTMLbaselines/hashes and targetedrollback. Inspected actualGlenviewstructure; prepared nativeCard15715 taxquerysection staged near existinggallery, not published at this checkpoint. Noindex unchanged. NativeWXR download unavailable, not claimed complete. Record: PUBLIC-LAUNCH-2026-11-11.md.
+
