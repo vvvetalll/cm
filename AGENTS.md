@@ -19,6 +19,21 @@ For Chicago Mounting WordPress tasks, use **direct authenticated HTTPS** to `htt
 
 See `knowledge/MCP-CONNECTION.md`. This instruction supersedes older cloud-only and plugin-install connection instructions.
 
+## ChatGPT desktop MCP connection recovery — owner instruction (2026-11-11)
+
+The owner has shown `chicago-mounting-elementor` registered and enabled under **ChatGPT desktop → Settings → Plugins → MCPs**, alongside `gcpro-restoration-elementor`. A separate Work session reported a successful `elementor-get-page-structure` read of Page 15716 (`isError: false`). **These are historical user-provided observations, not proof of availability in every future session.**
+
+For each Chicago Mounting task requiring Elementor access:
+
+1. **Prefer the already registered native `chicago-mounting-elementor` MCP tools**, if exposed in the current session. Attempt a real read-only `elementor-get-page-structure` of Page 15716 (or the relevant object) before calling the connection ready.
+2. If tools are not exposed, **do not equate missing tool discovery with server disconnection** or immediately ask the owner to reinstall. Check current client/session tool exposure and, if authorized credentials and an HTTP-capable runtime are available, use the already documented direct HTTPS Basic flow to the existing endpoint. Never assume credentials persist between sessions.
+3. Classify the actual blocker precisely: missing client tool registration, HTTP 401/403 or unavailable secure Basic credentials, expired `Mcp-Session-Id`, connectivity/timeouts, or server error. Recover an expired MCP session through a fresh authorized `initialize` and documented handshake; do not treat a new session ID as a persistent credential.
+4. **Do not create another MCP server/ChatGPT plugin, switch to OAuth, alter WordPress security, access installed plugin files, or invent credential workarounds.** Never reveal or store credentials in a report or repository.
+5. If a real read still fails, state the attempted method, exact error/status, what was *not* tested and the **single action needed** from the user. If no authorized credentials or suitable runtime is available, state that limitation; do not claim an attempted request succeeded.
+6. Successful reads establish access **only in that session**; never assert permanent access or cross-chat persistence without a separate fresh-chat test. Read-only diagnostic approval does not authorize unrelated production edits.
+
+This recovery order clarifies the direct-HTTPS rules above: registered desktop MCP tools are preferred when accessible; direct HTTPS is the supported fallback, **not** a reason to ignore existing native tools or create another plugin. See `knowledge/MCP-CONNECTION.md`.
+
 ## Case Studies — canonical object guardrails (2026-11-07)
 
 - Existing Case Studies production objects: catalogue Page **15716**, Loop Card template **15715**, Single Case **15714**, Filter Everything set **15744**, Case Studies Posts in category term **144**. Additional draft/review objects: catalogue experiment **15781**, proposed Single **15839**, static 4x4 editorial review **15878**. General Article **4432** currently serves twelve cases and should not be treated as the intended Case Studies Single.
