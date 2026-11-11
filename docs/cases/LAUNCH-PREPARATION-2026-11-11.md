@@ -1,39 +1,51 @@
 # Case Studies launch preparation — 2026-11-11
 
-Status: **in progress; release held**. Noindex removal and public integration activation require the owner's final approval after checks pass.
+**Final recommendation: NO-GO for indexing and public integrations.** Work stopped at the owner's request; no further testing or production changes are authorized by this continuation. Noindex and integration publication hold remain intact.
 
-## Restored context and current checks
+## Previously completed
 
-GitHub repository metadata and git HEAD agree: default branch `claude/chicago-mounting-zip-review-szeoup`, initial HEAD `3e56590ad7aa7adb348d4833b4982ecd5f0818d1`. Read root AGENTS, README, PROJECT, WORK, CHANGELOG, MCP-CONNECTION, SEO-REPORT, SEO-CONTENT, final November 9 audit and companion per-case, verification and prepared-integration records. No nested AGENTS found in the case documentation.
+The November9 audit already established the 16 published cases, 96 images, catalogue/filter/pagination behavior, reusable Single15714 and Card15715, responsive layouts, galleries, service links and individual noindex protection. Those historical checks were reused for unchanged components. No replacement architecture or objects were created.
 
-Prior completed work: 16 published noindex cases; 96 images (16 heroes/80 gallery); reusable Single15714/Card15715/catalogue15716; category144; filter15744; responsive catalogue, taxonomy filters, pagination, galleries and contextual service links. Prior November 9 rendered/filter checks are historical evidence retained for unchanged functionality, not claimed as newly repeated.
+Repository default branch: `claude/chicago-mounting-zip-review-szeoup`; initial HEAD `3e56590ad7aa7adb348d4833b4982ecd5f0818d1`. Root instructions, project/work/changelog, SEO and MCP documentation, final audit and supporting case/verification/integration reports were read.
 
-Current anonymous HTTPS checks: all16 cases, catalogue and archive HTTP200/noindex; eleven destination URLs HTTP200 with no public `cm-case-selection`. Exact current metadata, canonicals and BreadcrumbLists are in `launch-public-verification-2026-11-11.json`. HTML checks do not certify visual/runtime behavior.
+## Actual changes
 
-## Content correction stage
+| Existing object | Final change |
+|---|---|
+| Catalogue Page15716 | Name **Case Studies**; final URL **https://chicagomounting.com/case-studies/**. Owner's interim /cases/ choice was explicitly superseded. Native shortcode reset URL and saved fallback content updated. Unique description now describes projects and collection/type filters; noindex retained. |
+| Category144 | Same single category, same name and all16 case relationships. Its automatic archive previously intercepted /case-studies/. Changed archive slug to **case-studies-archive**, retaining noindex; custom canonical points to the catalogue. No additional category. |
+| Existing active theme functions.php | Appended one native `term_link` filter mapping category144 to published catalogue Page15716. Exact full editor text compared to original plus appended filter before save; reload confirmed persistence. Existing code unchanged. Removal of this filter is the targeted rollback. Source: `case-category-link-hook-2026-11-11.php`. No installed plugin files accessed. |
+| Single15714 | Existing breadcrumb a4a0776 and return button b717bf4 point to /case-studies/. No duplicate schema; AIOSEO remains the BreadcrumbList owner. |
+| Card15715 | Existing Post Info c7a91e2 Before label is **Editorial collection: **. Dynamic tags/assignments retained. This distinguishes editorial city grouping from actual Project Facts location, including15731. |
+| Case15824 | Disputed **Frame Pro** changed to neutral family-level **Samsung Frame** in title/H1, excerpt, SEO title/description, body and three inline gallery ALT/lightbox labels. URL `/samsung-frame-pro-fireplace-installation-with-sonos-amp/` preserved, along with six photos/order, 65-inch size, recessed-outlet/existing-Sonos-Amp account, classifications and noindex. No replacement model claimed. |
+| Media16084/16046/16050/16051 | Removed Pro from existing title/ALT only. Original files, URLs and dimensions retained. |
+| Prepared11 integration snapshots | New dated preparation record uses /case-studies/ links, same existing section/widget IDs, Card15715 and bounded four-item taxonomy selections. Original historical snapshot retained. No destination page modified or integration published. |
 
-15824 existing URL remains `/samsung-frame-pro-fireplace-installation-with-sonos-amp/`. Source account says Frame Pro; earlier audited packaging says The Frame. Neither establishes an exact model code. Use the supported family-level **Samsung Frame**, without selecting a replacement model.
+Case15731 itself was not edited: neutral factual wording, unknown actual location, historic Winnetka URL and approved editorial tag155 preserved. No installation city inferred. The exact15824 model code remains unknown, but public copy no longer requires a Pro-specific assertion.
 
-Saved via existing authenticated WordPress editor: remove `Pro` from Post Title/H1, excerpt, SEO title, description, body and three gallery images' inline ALT/lightbox labels. Preserve 65-inch size, recessed outlet, existing Sonos Amp account, original service link, six photos/order/URLs, category, taxonomy, status and noindex. Exact new title: `Samsung Frame Fireplace Installation with Sonos Amp in Evanston, IL`; SEO title: `Samsung Frame & Sonos Amp in Evanston, IL | Chicago Mounting`; description: `A Samsung Frame fireplace installation in Evanston, IL, with a recessed outlet and a connection to a Sonos Amp in the basement.`
+Supported WordPress admin/Elementor UI was used through an existing authenticated browser session. No current direct-MCP credential source was available, and none was extracted from storage or prior artifacts. No new authenticated direct-MCP success is claimed.
 
-Media metadata correction uses existing attachments16084/16046/16050/16051: remove `Pro` only from title/ALT. No file edits, replacements or renames. Public verification still in progress at this checkpoint.
+## Verification completed before the stop
 
-15731 retains neutral title/body/description and absent factual Location, original Winnetka slug and editorial tag155. Winnetka membership is approved editorial grouping, not actual installation-city verification. No new city assigned. Existing prepared city introductions already explicitly disclose editorial selection; retain that disclosure for any later preview/release.
+- Anonymous reads: all16 case URLs200/noindex/self-canonical/Single15714; one BreadcrumbList each, now linking the same /case-studies/ hub as the visible breadcrumb. Existing case titles/descriptions and November case-image ALT checked in rendered HTML. Evidence: `launch-public-verification-2026-11-11.json`.
+- Final catalogue URL serves **Page15716**, rather than the former archive template, with self-canonical/noindex and reset/back links to the final URL. Technical archive remains noindex and canonicalizes to the catalogue. Legacy root URLs resolved to the renamed catalogue in completed reads; no manual redirect rule added.
+- All four city and seven type result URLs on the new base returned expected memberships. Base pagination is8+8 distinct cases; premium filtered page2 has the remaining3 of11. Winnetka remains15828/15818/15810/15731.
+- Actual mobile interaction: Glenview selection returns its4 cases; Glenview+Standard returns0 with `No installations match these filters.` Reset returns the new base with8 first-page cards. Desktop page2 transition works.
+- Actual rendered widths1366/768/390 show4/2/1 catalogue columns and no document overflow. Mobile full-page capture shows all8 page2 cards, including15731 with an Editorial collection badge. Badge text fits; image presentation unchanged. Corrected15824 title/summary inspected at desktop/default and390px, no overflow, six gallery figures retained. Earlier full-gallery/lightbox QA was reused; no fresh exhaustive lightbox/device certification claimed. Browser viewport overrides reset.
+- All11 destination URLs200 with no public case-selection sections. Preparation records contain11 grids using Card15715, category144, four items and no explicit post-ID lists. This supports automatic selection structurally, not on-page runtime certification.
+- Native Hostinger Clear cache action used after shared breadcrumb/card edits; UI reported cache cleared. Anonymous breadcrumb output subsequently aligned on all16 pages. No hosting/cache configuration changed.
 
-Rollback: current post revision link after save identifies revision16249; prior original strings and complete body/media evidence are in November9 audit/correction/link snapshots. Restore only the changed wording after comparing subsequent edits. Targeted records are not a whole-site backup.
+A final repeat of public reads was interrupted at the owner's stop instruction; no interrupted check is claimed complete. The saved JSON retains the last completed whole batch. No additional checks will run under this request.
 
-## Access and recovery
+## Remaining release blockers
 
-WordPress admin opens in an existing authenticated Chrome session. No direct-MCP credentials exist in this task's authorized context; do not extract secrets from browser storage, old artifacts or configurations. Native connected legacy MCP tools were not substituted for the repository's required direct transport. No fresh authenticated direct-MCP read is claimed. Existing browser editor is a supported previously documented fallback.
+1. **Recoverable hosting backup unverified.** Hostinger hPanel opens a login screen; no backup date, retention or recovery mechanism was observed. Targeted exports/revisions do not replace a full-site backup. No restore/configuration change performed.
+2. **Hidden integrations need runtime validation in an authorized safe preview/staging environment.** Publication removal, new matching-case invalidation, missing/deleted-term fail-closed behavior and responsive rendering of the11 actual destination blocks remain unverified. Do not mistake current catalogue filter tests or prepared snapshots for those tests. No temporary live cases or copied static cards created.
 
-Hostinger hPanel currently opens the login screen. No dated backup, retention or restore mechanism is verified. Login handoff requested; no restoration/configuration change. **Rollback readiness remains a launch blocker.**
+Performance capacity at10,000 cases and CWV were not measured or promised. Noindex removal, menus/sitemap submission and public integration activation were not performed. Final release approval remains required after blockers are resolved; this NO-GO record is not a release request.
 
-## Remaining stage
+## Recovery and references
 
-Resolve visible/schema breadcrumb ownership and smallest scoped correction; inspect/test held integration behavior safely; finish public after-checks and changed-content responsive review. Do not duplicate templates, schema, plugins, CSS systems or public integration sections. No 10,000-case performance claim.
+Before changing catalogue/category slugs back, coordinate both so the archive cannot intercept the page. Restore only the two Single URLs, original empty Card Before label and appended theme filter if rolling back; compare concurrent edits first.15824 prior strings/body and media evidence are in the November9 audit/correction snapshots, with native post revision16249 recorded after the current edit. These are targeted rollback instructions, not verified hosting recovery.
 
-## Owner-confirmed catalogue address and route collision
-Owner first chose /cases/ then explicitly corrected to /case-studies/; final choice supersedes /cases/. Existing Page15716 renamed Case Studies and slug case-studies; noindex retained. A real collision was observed: the category archive occupied this URL and initially served Archive4420. Existing category144 was moved to slug case-studies-archive, preserving its name, membership and noindex. No additional category created. Current browser confirms /case-studies/ serves Page15716 with Card15715, filters and pagination. Existing catalogue shortcode reset and Single return link updated to final URL. Category144 custom canonical is being consolidated to the catalogue; schema after-check still pending.
-
-AIOSEO documentation explicitly states front-end breadcrumb template controls do not change schema. Category canonical alone did not change the schema breadcrumb destination. Prepared the native WordPress term_link filter in case-category-link-hook-2026-11-11.php: category144 only resolves to published Page15716, all other terms preserved. This uses one maintained category-to-existing-page relationship, no duplicate schema/new plugin/redirect. Existing theme functions.php read through native Theme Editor (5935 characters); no installed plugin files accessed. Hook NOT APPLIED at this checkpoint. Rollback is removal of exactly the appended filter. Official references: https://developer.wordpress.org/reference/hooks/term_link/ and https://aioseo.com/docs/displaying-breadcrumbs-on-your-site/ .
-
+Official behavior references: [WordPress term_link](https://developer.wordpress.org/reference/hooks/term_link/) and [AIOSEO breadcrumb/schema distinction](https://aioseo.com/docs/displaying-breadcrumbs-on-your-site/). AIOSEO front-end template settings do not alter breadcrumb schema, which is why the category-to-page link was corrected at its existing WordPress source.

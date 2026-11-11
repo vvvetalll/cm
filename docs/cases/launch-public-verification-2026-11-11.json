@@ -5,6 +5,7 @@
     {
       "id": 15832,
       "url": "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+      "finalUrl": "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
       "kind": "case",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -67,17 +68,32 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15714",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
       "caseIds": [
         15826,
         15828,
         15830
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": true,
       "proVisible": false,
+      "visibleBreadcrumb": [
+        "<nav aria-label=\"Breadcrumb\"><a href=\"https://chicagomounting.com/\">Home</a><span aria-hidden=\"true\"> / </span><a href=\"https://chicagomounting.com/case-studies/\">Case Studies</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Case Study</span></nav>"
+      ],
       "internalLinks": [
         "https://chicagomounting.com/",
         "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
@@ -87,6 +103,7 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",
@@ -97,7 +114,6 @@
         "https://chicagomounting.com/gaming-console-mounting/",
         "https://chicagomounting.com/hide-tv-wires/",
         "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
         "https://chicagomounting.com/outdoor-tv-installation/",
         "https://chicagomounting.com/premium-large-tv-installation/",
         "https://chicagomounting.com/prices/",
@@ -132,6 +148,7 @@
     {
       "id": 15830,
       "url": "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+      "finalUrl": "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
       "kind": "case",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -194,17 +211,32 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15714",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
       "caseIds": [
         15826,
         15828,
         15832
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": true,
       "proVisible": false,
+      "visibleBreadcrumb": [
+        "<nav aria-label=\"Breadcrumb\"><a href=\"https://chicagomounting.com/\">Home</a><span aria-hidden=\"true\"> / </span><a href=\"https://chicagomounting.com/case-studies/\">Case Studies</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Case Study</span></nav>"
+      ],
       "internalLinks": [
         "https://chicagomounting.com/",
         "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
@@ -214,6 +246,7 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",
@@ -224,7 +257,6 @@
         "https://chicagomounting.com/gaming-console-mounting/",
         "https://chicagomounting.com/hide-tv-wires/",
         "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
         "https://chicagomounting.com/outdoor-tv-installation/",
         "https://chicagomounting.com/premium-large-tv-installation/",
         "https://chicagomounting.com/prices/",
@@ -253,6 +285,7 @@
     {
       "id": 15828,
       "url": "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+      "finalUrl": "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
       "kind": "case",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -315,17 +348,32 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15714",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
       "caseIds": [
         15826,
         15830,
         15832
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": true,
       "proVisible": false,
+      "visibleBreadcrumb": [
+        "<nav aria-label=\"Breadcrumb\"><a href=\"https://chicagomounting.com/\">Home</a><span aria-hidden=\"true\"> / </span><a href=\"https://chicagomounting.com/case-studies/\">Case Studies</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Case Study</span></nav>"
+      ],
       "internalLinks": [
         "https://chicagomounting.com/",
         "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
@@ -335,6 +383,7 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",
@@ -345,7 +394,6 @@
         "https://chicagomounting.com/gaming-console-mounting/",
         "https://chicagomounting.com/hide-tv-wires/",
         "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
         "https://chicagomounting.com/outdoor-tv-installation/",
         "https://chicagomounting.com/premium-large-tv-installation/",
         "https://chicagomounting.com/prices/",
@@ -378,6 +426,7 @@
     {
       "id": 15826,
       "url": "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+      "finalUrl": "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
       "kind": "case",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -440,17 +489,32 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15714",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
       "caseIds": [
         15828,
         15830,
         15832
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": true,
       "proVisible": false,
+      "visibleBreadcrumb": [
+        "<nav aria-label=\"Breadcrumb\"><a href=\"https://chicagomounting.com/\">Home</a><span aria-hidden=\"true\"> / </span><a href=\"https://chicagomounting.com/case-studies/\">Case Studies</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Case Study</span></nav>"
+      ],
       "internalLinks": [
         "https://chicagomounting.com/",
         "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
@@ -460,6 +524,7 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",
@@ -470,7 +535,6 @@
         "https://chicagomounting.com/gaming-console-mounting/",
         "https://chicagomounting.com/hide-tv-wires/",
         "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
         "https://chicagomounting.com/outdoor-tv-installation/",
         "https://chicagomounting.com/premium-large-tv-installation/",
         "https://chicagomounting.com/prices/",
@@ -502,6 +566,7 @@
     {
       "id": 15824,
       "url": "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+      "finalUrl": "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
       "kind": "case",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -564,17 +629,32 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15714",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
       "caseIds": [
         15828,
         15830,
         15832
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": true,
-      "proVisible": true,
+      "proVisible": false,
+      "visibleBreadcrumb": [
+        "<nav aria-label=\"Breadcrumb\"><a href=\"https://chicagomounting.com/\">Home</a><span aria-hidden=\"true\"> / </span><a href=\"https://chicagomounting.com/case-studies/\">Case Studies</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Case Study</span></nav>"
+      ],
       "internalLinks": [
         "https://chicagomounting.com/",
         "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
@@ -584,6 +664,7 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",
@@ -594,7 +675,6 @@
         "https://chicagomounting.com/gaming-console-mounting/",
         "https://chicagomounting.com/hide-tv-wires/",
         "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
         "https://chicagomounting.com/outdoor-tv-installation/",
         "https://chicagomounting.com/premium-large-tv-installation/",
         "https://chicagomounting.com/prices/",
@@ -626,6 +706,7 @@
     {
       "id": 15822,
       "url": "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+      "finalUrl": "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
       "kind": "case",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -688,17 +769,32 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15714",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
       "caseIds": [
         15828,
         15830,
         15832
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": true,
       "proVisible": false,
+      "visibleBreadcrumb": [
+        "<nav aria-label=\"Breadcrumb\"><a href=\"https://chicagomounting.com/\">Home</a><span aria-hidden=\"true\"> / </span><a href=\"https://chicagomounting.com/case-studies/\">Case Studies</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Case Study</span></nav>"
+      ],
       "internalLinks": [
         "https://chicagomounting.com/",
         "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
@@ -708,6 +804,7 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",
@@ -718,7 +815,6 @@
         "https://chicagomounting.com/gaming-console-mounting/",
         "https://chicagomounting.com/hide-tv-wires/",
         "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
         "https://chicagomounting.com/outdoor-tv-installation/",
         "https://chicagomounting.com/premium-large-tv-installation/",
         "https://chicagomounting.com/prices/",
@@ -748,6 +844,7 @@
     {
       "id": 15820,
       "url": "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+      "finalUrl": "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
       "kind": "case",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -810,17 +907,32 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15714",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
       "caseIds": [
         15828,
         15830,
         15832
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": true,
       "proVisible": true,
+      "visibleBreadcrumb": [
+        "<nav aria-label=\"Breadcrumb\"><a href=\"https://chicagomounting.com/\">Home</a><span aria-hidden=\"true\"> / </span><a href=\"https://chicagomounting.com/case-studies/\">Case Studies</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Case Study</span></nav>"
+      ],
       "internalLinks": [
         "https://chicagomounting.com/",
         "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
@@ -830,6 +942,7 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",
@@ -840,7 +953,6 @@
         "https://chicagomounting.com/gaming-console-mounting/",
         "https://chicagomounting.com/hide-tv-wires/",
         "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
         "https://chicagomounting.com/outdoor-tv-installation/",
         "https://chicagomounting.com/premium-large-tv-installation/",
         "https://chicagomounting.com/prices/",
@@ -870,6 +982,7 @@
     {
       "id": 15818,
       "url": "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+      "finalUrl": "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
       "kind": "case",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -932,17 +1045,32 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15714",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
       "caseIds": [
         15828,
         15830,
         15832
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": true,
       "proVisible": false,
+      "visibleBreadcrumb": [
+        "<nav aria-label=\"Breadcrumb\"><a href=\"https://chicagomounting.com/\">Home</a><span aria-hidden=\"true\"> / </span><a href=\"https://chicagomounting.com/case-studies/\">Case Studies</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Case Study</span></nav>"
+      ],
       "internalLinks": [
         "https://chicagomounting.com/",
         "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
@@ -952,6 +1080,7 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",
@@ -962,7 +1091,6 @@
         "https://chicagomounting.com/gaming-console-mounting/",
         "https://chicagomounting.com/hide-tv-wires/",
         "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
         "https://chicagomounting.com/outdoor-tv-installation/",
         "https://chicagomounting.com/premium-large-tv-installation/",
         "https://chicagomounting.com/prices/",
@@ -993,6 +1121,7 @@
     {
       "id": 15816,
       "url": "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+      "finalUrl": "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
       "kind": "case",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -1055,17 +1184,32 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15714",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
       "caseIds": [
         15828,
         15830,
         15832
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": true,
       "proVisible": false,
+      "visibleBreadcrumb": [
+        "<nav aria-label=\"Breadcrumb\"><a href=\"https://chicagomounting.com/\">Home</a><span aria-hidden=\"true\"> / </span><a href=\"https://chicagomounting.com/case-studies/\">Case Studies</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Case Study</span></nav>"
+      ],
       "internalLinks": [
         "https://chicagomounting.com/",
         "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
@@ -1075,6 +1219,7 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",
@@ -1085,7 +1230,6 @@
         "https://chicagomounting.com/gaming-console-mounting/",
         "https://chicagomounting.com/hide-tv-wires/",
         "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
         "https://chicagomounting.com/outdoor-tv-installation/",
         "https://chicagomounting.com/premium-large-tv-installation/",
         "https://chicagomounting.com/prices/",
@@ -1123,6 +1267,7 @@
     {
       "id": 15814,
       "url": "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+      "finalUrl": "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
       "kind": "case",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -1185,17 +1330,32 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15714",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
       "caseIds": [
         15828,
         15830,
         15832
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": true,
       "proVisible": false,
+      "visibleBreadcrumb": [
+        "<nav aria-label=\"Breadcrumb\"><a href=\"https://chicagomounting.com/\">Home</a><span aria-hidden=\"true\"> / </span><a href=\"https://chicagomounting.com/case-studies/\">Case Studies</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Case Study</span></nav>"
+      ],
       "internalLinks": [
         "https://chicagomounting.com/",
         "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
@@ -1205,6 +1365,7 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",
@@ -1215,7 +1376,6 @@
         "https://chicagomounting.com/gaming-console-mounting/",
         "https://chicagomounting.com/hide-tv-wires/",
         "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
         "https://chicagomounting.com/outdoor-tv-installation/",
         "https://chicagomounting.com/premium-large-tv-installation/",
         "https://chicagomounting.com/prices/",
@@ -1251,6 +1411,7 @@
     {
       "id": 15812,
       "url": "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+      "finalUrl": "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
       "kind": "case",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -1313,17 +1474,32 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15714",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
       "caseIds": [
         15828,
         15830,
         15832
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": true,
       "proVisible": false,
+      "visibleBreadcrumb": [
+        "<nav aria-label=\"Breadcrumb\"><a href=\"https://chicagomounting.com/\">Home</a><span aria-hidden=\"true\"> / </span><a href=\"https://chicagomounting.com/case-studies/\">Case Studies</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Case Study</span></nav>"
+      ],
       "internalLinks": [
         "https://chicagomounting.com/",
         "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
@@ -1333,6 +1509,7 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",
@@ -1343,7 +1520,6 @@
         "https://chicagomounting.com/gaming-console-mounting/",
         "https://chicagomounting.com/hide-tv-wires/",
         "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
         "https://chicagomounting.com/outdoor-tv-installation/",
         "https://chicagomounting.com/premium-large-tv-installation/",
         "https://chicagomounting.com/prices/",
@@ -1376,6 +1552,7 @@
     {
       "id": 15810,
       "url": "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+      "finalUrl": "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
       "kind": "case",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -1438,17 +1615,32 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15714",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
       "caseIds": [
         15828,
         15830,
         15832
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": true,
       "proVisible": false,
+      "visibleBreadcrumb": [
+        "<nav aria-label=\"Breadcrumb\"><a href=\"https://chicagomounting.com/\">Home</a><span aria-hidden=\"true\"> / </span><a href=\"https://chicagomounting.com/case-studies/\">Case Studies</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Case Study</span></nav>"
+      ],
       "internalLinks": [
         "https://chicagomounting.com/",
         "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
@@ -1458,6 +1650,7 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",
@@ -1468,7 +1661,6 @@
         "https://chicagomounting.com/gaming-console-mounting/",
         "https://chicagomounting.com/hide-tv-wires/",
         "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
         "https://chicagomounting.com/outdoor-tv-installation/",
         "https://chicagomounting.com/premium-large-tv-installation/",
         "https://chicagomounting.com/prices/",
@@ -1501,6 +1693,7 @@
     {
       "id": 15793,
       "url": "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/",
+      "finalUrl": "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/",
       "kind": "case",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -1563,17 +1756,32 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15714",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
       "caseIds": [
         15828,
         15830,
         15832
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": true,
       "proVisible": false,
+      "visibleBreadcrumb": [
+        "<nav aria-label=\"Breadcrumb\"><a href=\"https://chicagomounting.com/\">Home</a><span aria-hidden=\"true\"> / </span><a href=\"https://chicagomounting.com/case-studies/\">Case Studies</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Case Study</span></nav>"
+      ],
       "internalLinks": [
         "https://chicagomounting.com/",
         "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
@@ -1583,6 +1791,7 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",
@@ -1593,7 +1802,6 @@
         "https://chicagomounting.com/gaming-console-mounting/",
         "https://chicagomounting.com/hide-tv-wires/",
         "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
         "https://chicagomounting.com/outdoor-tv-installation/",
         "https://chicagomounting.com/premium-large-tv-installation/",
         "https://chicagomounting.com/prices/",
@@ -1619,6 +1827,7 @@
     {
       "id": 15792,
       "url": "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/",
+      "finalUrl": "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/",
       "kind": "case",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -1681,17 +1890,32 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15714",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
       "caseIds": [
         15828,
         15830,
         15832
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": true,
       "proVisible": false,
+      "visibleBreadcrumb": [
+        "<nav aria-label=\"Breadcrumb\"><a href=\"https://chicagomounting.com/\">Home</a><span aria-hidden=\"true\"> / </span><a href=\"https://chicagomounting.com/case-studies/\">Case Studies</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Case Study</span></nav>"
+      ],
       "internalLinks": [
         "https://chicagomounting.com/",
         "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
@@ -1701,6 +1925,7 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",
@@ -1711,7 +1936,6 @@
         "https://chicagomounting.com/gaming-console-mounting/",
         "https://chicagomounting.com/hide-tv-wires/",
         "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
         "https://chicagomounting.com/outdoor-tv-installation/",
         "https://chicagomounting.com/premium-large-tv-installation/",
         "https://chicagomounting.com/prices/",
@@ -1737,6 +1961,7 @@
     {
       "id": 15791,
       "url": "https://chicagomounting.com/tv-wall-mounting-case-wilmette/",
+      "finalUrl": "https://chicagomounting.com/tv-wall-mounting-case-wilmette/",
       "kind": "case",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -1799,17 +2024,32 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15714",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
       "caseIds": [
         15828,
         15830,
         15832
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": true,
       "proVisible": false,
+      "visibleBreadcrumb": [
+        "<nav aria-label=\"Breadcrumb\"><a href=\"https://chicagomounting.com/\">Home</a><span aria-hidden=\"true\"> / </span><a href=\"https://chicagomounting.com/case-studies/\">Case Studies</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Case Study</span></nav>"
+      ],
       "internalLinks": [
         "https://chicagomounting.com/",
         "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
@@ -1819,6 +2059,7 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",
@@ -1829,7 +2070,6 @@
         "https://chicagomounting.com/gaming-console-mounting/",
         "https://chicagomounting.com/hide-tv-wires/",
         "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
         "https://chicagomounting.com/outdoor-tv-installation/",
         "https://chicagomounting.com/premium-large-tv-installation/",
         "https://chicagomounting.com/prices/",
@@ -1855,6 +2095,7 @@
     {
       "id": 15731,
       "url": "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/",
+      "finalUrl": "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/",
       "kind": "case",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -1917,17 +2158,32 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15714",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
       "caseIds": [
         15828,
         15830,
         15832
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": true,
       "proVisible": false,
+      "visibleBreadcrumb": [
+        "<nav aria-label=\"Breadcrumb\"><a href=\"https://chicagomounting.com/\">Home</a><span aria-hidden=\"true\"> / </span><a href=\"https://chicagomounting.com/case-studies/\">Case Studies</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Case Study</span></nav>"
+      ],
       "internalLinks": [
         "https://chicagomounting.com/",
         "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
@@ -1937,6 +2193,7 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",
@@ -1947,7 +2204,6 @@
         "https://chicagomounting.com/gaming-console-mounting/",
         "https://chicagomounting.com/hide-tv-wires/",
         "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
         "https://chicagomounting.com/outdoor-tv-installation/",
         "https://chicagomounting.com/premium-large-tv-installation/",
         "https://chicagomounting.com/prices/",
@@ -1973,6 +2229,7 @@
     {
       "id": 9833,
       "url": "https://chicagomounting.com/tv-installation-in-glenview/",
+      "finalUrl": "https://chicagomounting.com/tv-installation-in-glenview/",
       "kind": "heldDestination",
       "status": 200,
       "robots": "max-image-preview:large",
@@ -2018,26 +2275,39 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "9833",
+        "12415",
+        "12405",
+        "2157",
+        "4290",
+        "11040",
+        "10278",
+        "10278",
+        "10278",
+        "10278",
+        "2164",
+        "3092",
+        "5085",
+        "5890",
+        "10937",
+        "10978",
+        "10974",
+        "10965",
+        "10957"
+      ],
       "caseIds": [
         10522,
         10565,
         10577,
         11202
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/07/1080709425-1.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/T7-K65XR80M2.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/T7-K65XR90M2.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/badf6cfe-f56c-4d3d-b834-77b4d5f7e399.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": false,
       "proVisible": false,
+      "visibleBreadcrumb": [],
       "internalLinks": [
         "https://chicagomounting.com/about-us/",
         "https://chicagomounting.com/audio-and-media-installation/",
@@ -2090,6 +2360,7 @@
     {
       "id": 9987,
       "url": "https://chicagomounting.com/tv-installation-in-evanston/",
+      "finalUrl": "https://chicagomounting.com/tv-installation-in-evanston/",
       "kind": "heldDestination",
       "status": 200,
       "robots": "max-image-preview:large",
@@ -2135,26 +2406,39 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "9987",
+        "12415",
+        "12405",
+        "2157",
+        "4290",
+        "2164",
+        "11040",
+        "10278",
+        "10278",
+        "10278",
+        "10278",
+        "3092",
+        "5085",
+        "5890",
+        "10937",
+        "10978",
+        "10974",
+        "10965",
+        "10957"
+      ],
       "caseIds": [
         10522,
         10565,
         10577,
         11202
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/07/1080709425-1.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/T7-K65XR80M2.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/T7-K65XR90M2.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/badf6cfe-f56c-4d3d-b834-77b4d5f7e399.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": false,
       "proVisible": false,
+      "visibleBreadcrumb": [],
       "internalLinks": [
         "https://chicagomounting.com/about-us/",
         "https://chicagomounting.com/audio-and-media-installation/",
@@ -2209,6 +2493,7 @@
     {
       "id": 9701,
       "url": "https://chicagomounting.com/tv-installation-in-wilmette/",
+      "finalUrl": "https://chicagomounting.com/tv-installation-in-wilmette/",
       "kind": "heldDestination",
       "status": 200,
       "robots": "max-image-preview:large",
@@ -2254,26 +2539,39 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "9701",
+        "12415",
+        "12405",
+        "2157",
+        "4290",
+        "2164",
+        "11040",
+        "10278",
+        "10278",
+        "10278",
+        "10278",
+        "3092",
+        "5085",
+        "5890",
+        "10937",
+        "10978",
+        "10974",
+        "10965",
+        "10957"
+      ],
       "caseIds": [
         10522,
         10565,
         10577,
         11202
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/07/1080709425-1.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/T7-K65XR80M2.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/T7-K65XR90M2.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/badf6cfe-f56c-4d3d-b834-77b4d5f7e399.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": false,
       "proVisible": false,
+      "visibleBreadcrumb": [],
       "internalLinks": [
         "https://chicagomounting.com/about-us/",
         "https://chicagomounting.com/audio-and-media-installation/",
@@ -2330,6 +2628,7 @@
     {
       "id": 9888,
       "url": "https://chicagomounting.com/tv-installation-in-winnetka/",
+      "finalUrl": "https://chicagomounting.com/tv-installation-in-winnetka/",
       "kind": "heldDestination",
       "status": 200,
       "robots": "max-image-preview:large",
@@ -2375,26 +2674,39 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "9888",
+        "12415",
+        "12405",
+        "2157",
+        "4290",
+        "11040",
+        "10278",
+        "10278",
+        "10278",
+        "10278",
+        "2164",
+        "3092",
+        "5085",
+        "5890",
+        "10937",
+        "10978",
+        "10974",
+        "10965",
+        "10957"
+      ],
       "caseIds": [
         10522,
         10565,
         10577,
         11202
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/07/1080709425-1.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/T7-K65XR80M2.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/T7-K65XR90M2.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/badf6cfe-f56c-4d3d-b834-77b4d5f7e399.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": false,
       "proVisible": false,
+      "visibleBreadcrumb": [],
       "internalLinks": [
         "https://chicagomounting.com/about-us/",
         "https://chicagomounting.com/audio-and-media-installation/",
@@ -2447,6 +2759,7 @@
     {
       "id": 15342,
       "url": "https://chicagomounting.com/premium-large-tv-installation/",
+      "finalUrl": "https://chicagomounting.com/premium-large-tv-installation/",
       "kind": "heldDestination",
       "status": 200,
       "robots": "max-image-preview:large",
@@ -2492,26 +2805,38 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "15342",
+        "12415",
+        "2157",
+        "4290",
+        "11040",
+        "10278",
+        "10278",
+        "10278",
+        "10278",
+        "2164",
+        "3092",
+        "5085",
+        "5890",
+        "10937",
+        "10978",
+        "10974",
+        "10965",
+        "10957"
+      ],
       "caseIds": [
         10522,
         10565,
         10577,
         11202
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/07/1080709425-1.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/T7-K65XR80M2.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/T7-K65XR90M2.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/badf6cfe-f56c-4d3d-b834-77b4d5f7e399.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": false,
       "proVisible": false,
+      "visibleBreadcrumb": [],
       "internalLinks": [
         "https://chicagomounting.com/about-us/",
         "https://chicagomounting.com/audio-and-media-installation/",
@@ -2568,6 +2893,7 @@
     {
       "id": 11178,
       "url": "https://chicagomounting.com/outdoor-tv-installation/",
+      "finalUrl": "https://chicagomounting.com/outdoor-tv-installation/",
       "kind": "heldDestination",
       "status": 200,
       "robots": "max-image-preview:large",
@@ -2613,26 +2939,39 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "11178",
+        "12415",
+        "12405",
+        "2157",
+        "4290",
+        "11227",
+        "10278",
+        "10278",
+        "10278",
+        "10278",
+        "2164",
+        "3092",
+        "5085",
+        "5890",
+        "10937",
+        "10978",
+        "10974",
+        "10965",
+        "10957"
+      ],
       "caseIds": [
         10522,
         10537,
         11202,
         11214
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/07/QP-NT553.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/07/1080709425-1.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/S1-SBV465BL.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/badf6cfe-f56c-4d3d-b834-77b4d5f7e399.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": false,
       "proVisible": false,
+      "visibleBreadcrumb": [],
       "internalLinks": [
         "https://chicagomounting.com/about-us/",
         "https://chicagomounting.com/audio-and-media-installation/",
@@ -2689,6 +3028,7 @@
     {
       "id": 8156,
       "url": "https://chicagomounting.com/recessed-media-box/",
+      "finalUrl": "https://chicagomounting.com/recessed-media-box/",
       "kind": "heldDestination",
       "status": 200,
       "robots": "max-image-preview:large",
@@ -2734,13 +3074,28 @@
         }
       ],
       "hasCaseSection": false,
-      "caseIds": [],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "8156",
+        "12415",
+        "2157",
+        "4290",
+        "2164",
+        "3092",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
       ],
+      "caseIds": [],
+      "missingAlt": [],
       "single15714": false,
       "proVisible": false,
+      "visibleBreadcrumb": [],
       "internalLinks": [
         "https://chicagomounting.com/about-us/",
         "https://chicagomounting.com/audio-and-media-installation/",
@@ -2781,6 +3136,7 @@
     {
       "id": 5671,
       "url": "https://chicagomounting.com/frame-tv-mounting-chicago/",
+      "finalUrl": "https://chicagomounting.com/frame-tv-mounting-chicago/",
       "kind": "heldDestination",
       "status": 200,
       "robots": "max-image-preview:large",
@@ -2826,26 +3182,36 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "5671",
+        "12415",
+        "2157",
+        "4290",
+        "10278",
+        "10278",
+        "10278",
+        "10278",
+        "3092",
+        "5085",
+        "5890",
+        "10937",
+        "10978",
+        "10974",
+        "10965",
+        "10957"
+      ],
       "caseIds": [
         10268,
         10308,
         10363,
         10439
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/SY-QN65LS03HEFXZA.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/SY-QN55LS03HWFXZA.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/SY-MRN65R95HAFXZA.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/SY-QN65S95HAFXZA-1.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": false,
       "proVisible": true,
+      "visibleBreadcrumb": [],
       "internalLinks": [
         "https://chicagomounting.com/about-us/",
         "https://chicagomounting.com/audio-and-media-installation/",
@@ -2902,6 +3268,7 @@
     {
       "id": 3398,
       "url": "https://chicagomounting.com/soundbar-installation/",
+      "finalUrl": "https://chicagomounting.com/soundbar-installation/",
       "kind": "heldDestination",
       "status": 200,
       "robots": "max-image-preview:large",
@@ -2947,13 +3314,29 @@
         }
       ],
       "hasCaseSection": false,
-      "caseIds": [],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "3398",
+        "12415",
+        "12405",
+        "4290",
+        "2157",
+        "2164",
+        "3092",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
       ],
+      "caseIds": [],
+      "missingAlt": [],
       "single15714": false,
       "proVisible": false,
+      "visibleBreadcrumb": [],
       "internalLinks": [
         "https://chicagomounting.com/about-us/",
         "https://chicagomounting.com/audio-and-media-installation/",
@@ -2994,6 +3377,7 @@
     {
       "id": 3281,
       "url": "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+      "finalUrl": "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
       "kind": "heldDestination",
       "status": 200,
       "robots": "max-image-preview:large",
@@ -3039,13 +3423,29 @@
         }
       ],
       "hasCaseSection": false,
-      "caseIds": [],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "3281",
+        "12415",
+        "12405",
+        "2157",
+        "4290",
+        "2164",
+        "3092",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
       ],
+      "caseIds": [],
+      "missingAlt": [],
       "single15714": false,
       "proVisible": false,
+      "visibleBreadcrumb": [],
       "internalLinks": [
         "https://chicagomounting.com/about-us/",
         "https://chicagomounting.com/audio-and-media-installation/",
@@ -3086,6 +3486,7 @@
     {
       "id": 1682,
       "url": "https://chicagomounting.com/tv-installation-and-mounting/",
+      "finalUrl": "https://chicagomounting.com/tv-installation-and-mounting/",
       "kind": "heldDestination",
       "status": 200,
       "robots": "max-image-preview:large",
@@ -3131,26 +3532,38 @@
         }
       ],
       "hasCaseSection": false,
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "1682",
+        "12415",
+        "12405",
+        "2157",
+        "11227",
+        "10278",
+        "10278",
+        "10278",
+        "10278",
+        "2164",
+        "3092",
+        "5085",
+        "5890",
+        "10937",
+        "10978",
+        "10974",
+        "10965",
+        "10957"
+      ],
       "caseIds": [
         10522,
         10537,
         11202,
         11214
       ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/07/QP-NT553.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/07/1080709425-1.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/S1-SBV465BL.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2026/06/badf6cfe-f56c-4d3d-b834-77b4d5f7e399.jpg",
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
+      "missingAlt": [],
       "single15714": false,
       "proVisible": false,
+      "visibleBreadcrumb": [],
       "internalLinks": [
         "https://chicagomounting.com/about-us/",
         "https://chicagomounting.com/audio-and-media-installation/",
@@ -3194,119 +3607,9 @@
     },
     {
       "id": 15716,
-      "url": "https://chicagomounting.com/installation-case-studies-draft/",
-      "kind": "catalogue",
-      "status": 200,
-      "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
-      "canonical": [
-        "https://chicagomounting.com/installation-case-studies-draft/"
-      ],
-      "title": [
-        "Installation Case Studies | Chicago Mounting"
-      ],
-      "description": "TV Installation Case Studies Explore real Chicago Mounting installations, from Frame TVs and fireplace setups to large-screen and outdoor projects. Clear Filters",
-      "h1": [
-        "TV Installation Case Studies"
-      ],
-      "breadcrumbs": [
-        {
-          "@type": "BreadcrumbList",
-          "@id": "https://chicagomounting.com/installation-case-studies-draft/#breadcrumblist",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "@id": "https://chicagomounting.com/#listItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://chicagomounting.com/",
-              "nextItem": {
-                "@type": "ListItem",
-                "@id": "https://chicagomounting.com/installation-case-studies-draft/#listItem",
-                "name": "Installation Case Studies"
-              }
-            },
-            {
-              "@type": "ListItem",
-              "@id": "https://chicagomounting.com/installation-case-studies-draft/#listItem",
-              "position": 2,
-              "name": "Installation Case Studies",
-              "previousItem": {
-                "@type": "ListItem",
-                "@id": "https://chicagomounting.com/#listItem",
-                "name": "Home"
-              }
-            }
-          ]
-        }
-      ],
-      "hasCaseSection": false,
-      "caseIds": [
-        15818,
-        15820,
-        15822,
-        15824,
-        15826,
-        15828,
-        15830,
-        15832
-      ],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
-      ],
-      "single15714": false,
-      "proVisible": true,
-      "internalLinks": [
-        "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
-        "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
-        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
-        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
-        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
-        "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
-        "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
-        "https://chicagomounting.com/about-us/",
-        "https://chicagomounting.com/audio-and-media-installation/",
-        "https://chicagomounting.com/blog/",
-        "https://chicagomounting.com/brands/",
-        "https://chicagomounting.com/commercial-tv-display-mounting/",
-        "https://chicagomounting.com/contact-us/",
-        "https://chicagomounting.com/find-near-me/",
-        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
-        "https://chicagomounting.com/flat-tv-mounting/",
-        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
-        "https://chicagomounting.com/frame-tv-mounting-chicago/",
-        "https://chicagomounting.com/gaming-console-mounting/",
-        "https://chicagomounting.com/hide-tv-wires/",
-        "https://chicagomounting.com/home-theatre-mounting/",
-        "https://chicagomounting.com/installation-case-studies-draft/",
-        "https://chicagomounting.com/installation-case-studies-draft/2/",
-        "https://chicagomounting.com/outdoor-tv-installation/",
-        "https://chicagomounting.com/premium-large-tv-installation/",
-        "https://chicagomounting.com/prices/",
-        "https://chicagomounting.com/privacy-policy/",
-        "https://chicagomounting.com/quote/",
-        "https://chicagomounting.com/recessed-media-box/",
-        "https://chicagomounting.com/reviews/",
-        "https://chicagomounting.com/same-day-tv-mounting/",
-        "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
-        "https://chicagomounting.com/services/",
-        "https://chicagomounting.com/shop/",
-        "https://chicagomounting.com/smart-device-integration/",
-        "https://chicagomounting.com/soundbar-installation/",
-        "https://chicagomounting.com/speaker-wall-mounting/",
-        "https://chicagomounting.com/terms-conditions/",
-        "https://chicagomounting.com/tv-dismounting/",
-        "https://chicagomounting.com/tv-installation-and-mounting/",
-        "https://chicagomounting.com/tv-installation-in-evanston/",
-        "https://chicagomounting.com/tv-installation-in-glenview/",
-        "https://chicagomounting.com/tv-installation-in-wilmette/",
-        "https://chicagomounting.com/tv-installation-in-winnetka/"
-      ]
-    },
-    {
-      "id": 144,
       "url": "https://chicagomounting.com/case-studies/",
-      "kind": "archive",
+      "finalUrl": "https://chicagomounting.com/case-studies/",
+      "kind": "catalogue",
       "status": 200,
       "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
       "canonical": [
@@ -3315,8 +3618,10 @@
       "title": [
         "Case Studies | Chicago Mounting"
       ],
-      "description": null,
-      "h1": [],
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "h1": [
+        "TV Installation Case Studies"
+      ],
       "breadcrumbs": [
         {
           "@type": "BreadcrumbList",
@@ -3349,13 +3654,153 @@
         }
       ],
       "hasCaseSection": false,
-      "caseIds": [],
-      "missingAlt": [
-        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20122'%3E%3C/svg%3E",
-        "https://chicagomounting.com/wp-content/uploads/2025/06/ROBYLO_LOGO_WHITE_NO_SLOGAN.svg"
+      "editorialLabels": 8,
+      "elementorIds": [
+        "7491",
+        "15716",
+        "12415",
+        "12405",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
       ],
+      "caseIds": [
+        15818,
+        15820,
+        15822,
+        15824,
+        15826,
+        15828,
+        15830,
+        15832
+      ],
+      "missingAlt": [],
       "single15714": false,
       "proVisible": true,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+        "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+        "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+        "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/2/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    },
+    {
+      "id": 144,
+      "url": "https://chicagomounting.com/case-studies-archive/",
+      "finalUrl": "https://chicagomounting.com/case-studies-archive/",
+      "kind": "technicalArchive",
+      "status": 200,
+      "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting"
+      ],
+      "description": null,
+      "h1": [],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies-archive/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "4420",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": true,
+      "visibleBreadcrumb": [],
       "internalLinks": [
         "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
         "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
@@ -3372,7 +3817,1892 @@
         "https://chicagomounting.com/audio-and-media-installation/",
         "https://chicagomounting.com/blog/",
         "https://chicagomounting.com/brands/",
-        "https://chicagomounting.com/case-studies/page/2/",
+        "https://chicagomounting.com/case-studies-archive/page/2/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    },
+    {
+      "id": "page2",
+      "url": "https://chicagomounting.com/case-studies/2/",
+      "finalUrl": "https://chicagomounting.com/case-studies/2/",
+      "kind": "pagination",
+      "status": 200,
+      "robots": "noindex, nofollow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/2/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting | Page 2"
+      ],
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type. | Page 2",
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "item": "https://chicagomounting.com/case-studies/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/2#listItem",
+                "name": "Page "
+              },
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/2#listItem",
+              "position": 3,
+              "name": "Page ",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 8,
+      "elementorIds": [
+        "7491",
+        "15716",
+        "12415",
+        "12405",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [
+        15731,
+        15791,
+        15792,
+        15793,
+        15810,
+        15812,
+        15814,
+        15816
+      ],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": false,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+        "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+        "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+        "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+        "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/",
+        "https://chicagomounting.com/tv-wall-mounting-case-wilmette/"
+      ]
+    },
+    {
+      "id": 152,
+      "url": "https://chicagomounting.com/case-studies/case-city-featured-city-glenview/",
+      "finalUrl": "https://chicagomounting.com/case-studies/case-city-featured-city-glenview/",
+      "kind": "filter",
+      "status": 200,
+      "robots": "noindex, follow",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting"
+      ],
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 4,
+      "elementorIds": [
+        "7491",
+        "15716",
+        "12415",
+        "12405",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [
+        15792,
+        15816,
+        15826,
+        15832
+      ],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": false,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+        "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+        "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/case-city-featured-city-glenview/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    },
+    {
+      "id": 153,
+      "url": "https://chicagomounting.com/case-studies/case-city-featured-city-evanston/",
+      "finalUrl": "https://chicagomounting.com/case-studies/case-city-featured-city-evanston/",
+      "kind": "filter",
+      "status": 200,
+      "robots": "noindex, follow",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting"
+      ],
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 4,
+      "elementorIds": [
+        "7491",
+        "15716",
+        "12415",
+        "12405",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [
+        15793,
+        15812,
+        15814,
+        15824
+      ],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": false,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+        "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+        "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/case-city-featured-city-evanston/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    },
+    {
+      "id": 155,
+      "url": "https://chicagomounting.com/case-studies/case-city-featured-city-winnetka/",
+      "finalUrl": "https://chicagomounting.com/case-studies/case-city-featured-city-winnetka/",
+      "kind": "filter",
+      "status": 200,
+      "robots": "noindex, follow",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting"
+      ],
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 4,
+      "elementorIds": [
+        "7491",
+        "15716",
+        "12415",
+        "12405",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [
+        15731,
+        15810,
+        15818,
+        15828
+      ],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": false,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/case-city-featured-city-winnetka/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    },
+    {
+      "id": 154,
+      "url": "https://chicagomounting.com/case-studies/case-city-featured-city-wilmette/",
+      "finalUrl": "https://chicagomounting.com/case-studies/case-city-featured-city-wilmette/",
+      "kind": "filter",
+      "status": 200,
+      "robots": "noindex, follow",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting"
+      ],
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 4,
+      "elementorIds": [
+        "7491",
+        "15716",
+        "12415",
+        "12405",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [
+        15791,
+        15820,
+        15822,
+        15830
+      ],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": true,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+        "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/case-city-featured-city-wilmette/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/",
+        "https://chicagomounting.com/tv-wall-mounting-case-wilmette/"
+      ]
+    },
+    {
+      "id": 147,
+      "url": "https://chicagomounting.com/case-studies/case-installation-frame-tv-installation/",
+      "finalUrl": "https://chicagomounting.com/case-studies/case-installation-frame-tv-installation/",
+      "kind": "filter",
+      "status": 200,
+      "robots": "noindex, follow",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting"
+      ],
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 4,
+      "elementorIds": [
+        "7491",
+        "15716",
+        "12415",
+        "12405",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [
+        15731,
+        15820,
+        15824,
+        15826
+      ],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": true,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+        "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/case-installation-frame-tv-installation/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+        "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    },
+    {
+      "id": 156,
+      "url": "https://chicagomounting.com/case-studies/case-installation-fireplace-specialty-mounting/",
+      "finalUrl": "https://chicagomounting.com/case-studies/case-installation-fireplace-specialty-mounting/",
+      "kind": "filter",
+      "status": 200,
+      "robots": "noindex, follow",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting"
+      ],
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 7,
+      "elementorIds": [
+        "7491",
+        "15716",
+        "12415",
+        "12405",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [
+        15731,
+        15810,
+        15814,
+        15824,
+        15828,
+        15830,
+        15832
+      ],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": false,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+        "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/case-installation-fireplace-specialty-mounting/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+        "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    },
+    {
+      "id": 148,
+      "url": "https://chicagomounting.com/case-studies/case-installation-outdoor-tv-installation/",
+      "finalUrl": "https://chicagomounting.com/case-studies/case-installation-outdoor-tv-installation/",
+      "kind": "filter",
+      "status": 200,
+      "robots": "noindex, follow",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting"
+      ],
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 1,
+      "elementorIds": [
+        "7491",
+        "15716",
+        "12415",
+        "12405",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [
+        15792
+      ],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": false,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/case-installation-outdoor-tv-installation/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    },
+    {
+      "id": 157,
+      "url": "https://chicagomounting.com/case-studies/case-installation-large-premium-tv/",
+      "finalUrl": "https://chicagomounting.com/case-studies/case-installation-large-premium-tv/",
+      "kind": "filter",
+      "status": 200,
+      "robots": "noindex, follow",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting"
+      ],
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 8,
+      "elementorIds": [
+        "7491",
+        "15716",
+        "12415",
+        "12405",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [
+        15814,
+        15816,
+        15818,
+        15822,
+        15826,
+        15828,
+        15830,
+        15832
+      ],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": false,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+        "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+        "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+        "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+        "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/case-installation-large-premium-tv/",
+        "https://chicagomounting.com/case-studies/case-installation-large-premium-tv/2/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    },
+    {
+      "id": 160,
+      "url": "https://chicagomounting.com/case-studies/case-installation-standard-tv-mounting/",
+      "finalUrl": "https://chicagomounting.com/case-studies/case-installation-standard-tv-mounting/",
+      "kind": "filter",
+      "status": 200,
+      "robots": "noindex, follow",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting"
+      ],
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 1,
+      "elementorIds": [
+        "7491",
+        "15716",
+        "12415",
+        "12405",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [
+        15791
+      ],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": false,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/case-installation-standard-tv-mounting/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/",
+        "https://chicagomounting.com/tv-wall-mounting-case-wilmette/"
+      ]
+    },
+    {
+      "id": 159,
+      "url": "https://chicagomounting.com/case-studies/case-installation-recessed-media-installation/",
+      "finalUrl": "https://chicagomounting.com/case-studies/case-installation-recessed-media-installation/",
+      "kind": "filter",
+      "status": 200,
+      "robots": "noindex, follow",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting"
+      ],
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 5,
+      "elementorIds": [
+        "7491",
+        "15716",
+        "12415",
+        "12405",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [
+        15793,
+        15810,
+        15812,
+        15816,
+        15828
+      ],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": false,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+        "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+        "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/case-installation-recessed-media-installation/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    },
+    {
+      "id": 158,
+      "url": "https://chicagomounting.com/case-studies/case-installation-tv-soundbar-installation/",
+      "finalUrl": "https://chicagomounting.com/case-studies/case-installation-tv-soundbar-installation/",
+      "kind": "filter",
+      "status": 200,
+      "robots": "noindex, follow",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting"
+      ],
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 8,
+      "elementorIds": [
+        "7491",
+        "15716",
+        "12415",
+        "12405",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [
+        15731,
+        15792,
+        15812,
+        15814,
+        15818,
+        15828,
+        15830,
+        15832
+      ],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": false,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+        "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+        "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/case-installation-tv-soundbar-installation/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    },
+    {
+      "id": "filtered2",
+      "url": "https://chicagomounting.com/case-studies/case-installation-large-premium-tv/2/",
+      "finalUrl": "https://chicagomounting.com/case-studies/case-installation-large-premium-tv/2/",
+      "kind": "pagination",
+      "status": 200,
+      "robots": "noindex, follow",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/2/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting | Page 2"
+      ],
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type. | Page 2",
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "item": "https://chicagomounting.com/case-studies/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/2#listItem",
+                "name": "Page "
+              },
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/2#listItem",
+              "position": 3,
+              "name": "Page ",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 3,
+      "elementorIds": [
+        "7491",
+        "15716",
+        "12415",
+        "12405",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [
+        15793,
+        15810,
+        15812
+      ],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": false,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+        "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+        "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/case-installation-large-premium-tv/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    },
+    {
+      "id": "oldDraft",
+      "url": "https://chicagomounting.com/installation-case-studies-draft/",
+      "finalUrl": "https://chicagomounting.com/case-studies/",
+      "kind": "legacyUrl",
+      "status": 200,
+      "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting"
+      ],
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 8,
+      "elementorIds": [
+        "7491",
+        "15716",
+        "12415",
+        "12405",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [
+        15818,
+        15820,
+        15822,
+        15824,
+        15826,
+        15828,
+        15830,
+        15832
+      ],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": true,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+        "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+        "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+        "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/2/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    },
+    {
+      "id": "interimCases",
+      "url": "https://chicagomounting.com/cases/",
+      "finalUrl": "https://chicagomounting.com/case-studies/",
+      "kind": "legacyUrl",
+      "status": 200,
+      "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting"
+      ],
+      "description": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 8,
+      "elementorIds": [
+        "7491",
+        "15716",
+        "12415",
+        "12405",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "15715",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [
+        15818,
+        15820,
+        15822,
+        15824,
+        15826,
+        15828,
+        15830,
+        15832
+      ],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": true,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+        "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+        "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+        "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/2/",
         "https://chicagomounting.com/commercial-tv-display-mounting/",
         "https://chicagomounting.com/contact-us/",
         "https://chicagomounting.com/find-near-me/",

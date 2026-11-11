@@ -386,3 +386,7 @@ Targeted before/after rollback files are committed beside the report; they do no
 ## 2026-11-11 — Model neutrality and launch hold
 15824 now uses Samsung Frame family wording instead of disputed Frame Pro in saved title/excerpt/body/SEO and inline gallery labels. Exact model unknown; original permalink preserved.15731 retains Winnetka editorial grouping and unknown factual location. All16 cases/catalogue/archive freshly200/noindex;11 integrations absent from public HTML. Backup/breadcrumb/integration readiness still open; see docs/cases/LAUNCH-PREPARATION-2026-11-11.md.
 
+
+## 2026-11-11 — Final catalogue identity and breadcrumb source
+Final owner choice: existing15716 name Case Studies, URL /case-studies/ (interim /cases/ superseded). Same category144 uses technical slug case-studies-archive/noindex and catalogue canonical; native term_link mapping144→15716 aligns AIOSEO schema and existing visible Single15714 breadcrumb. Existing Card15715 prefix Editorial collection distinguishes tags from factual location;15731 stays unknown actual city and approved Winnetka editorial.15824 family-level Samsung Frame replaces disputed Pro assertions, original permalink/media preserved.11 integration preparations use final URL but remain unpublished/runtime-unverified. Hostinger recovery unverified. NO-GO; owner stopped further testing. Exact record: ../docs/cases/LAUNCH-PREPARATION-2026-11-11.md.
+

@@ -1,0 +1,1327 @@
+{
+  "date": "2026-11-11",
+  "publication": "DO NOT PUBLISH until explicit final-launch authorization",
+  "pages": [
+    {
+      "id": 9833,
+      "link": "https://chicagomounting.com/tv-installation-in-glenview/",
+      "sections": [
+        {
+          "id": "df15962",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "row": "24",
+              "column": "24",
+              "isLinked": true
+            },
+            "_title": "Automatic Case Studies selection",
+            "css_classes": "cm_section cm-case-selection",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1180
+            },
+            "padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "20",
+              "bottom": "48",
+              "left": "20",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "32",
+              "right": "20",
+              "bottom": "32",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "c870c3f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Installation Ideas for Glenview",
+                "header_size": "h2",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=4b3367a",
+                  "title_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "9db3e84",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>A curated selection of Chicago Mounting case studies for homeowners planning an installation in Glenview. These examples are editorial selections; the city shown on a card is a collection label, not a verified job location.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "5750ec0",
+              "elType": "widget",
+              "widgetType": "loop-grid",
+              "settings": {
+                "template_id": "15715",
+                "post_query_post_type": "post",
+                "post_query_include": [
+                  "terms"
+                ],
+                "post_query_include_term_ids": [
+                  "144",
+                  "152"
+                ],
+                "posts_per_page": 4,
+                "columns": 4,
+                "columns_tablet": 2,
+                "columns_mobile": 1,
+                "column_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "row_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "pagination_type": "",
+                "pagination_page_limit": "",
+                "enable_nothing_found_message": "yes",
+                "nothing_found_message_text": "More installation case studies will be added here."
+              },
+              "elements": []
+            },
+            {
+              "id": "76d91e7",
+              "elType": "widget",
+              "settings": {
+                "text": "View All Case Studies",
+                "link": {
+                  "url": "https://chicagomounting.com/case-studies/case-city-featured-city-glenview/"
+                },
+                "_css_classes": "cm-case-quote btn btn-md btn-outline",
+                "align": "left",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=d0e77c2"
+                }
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "insertBeforeTitle": "REVIEWS or CTA",
+      "status": "Prepared and tested; user ordered removal from public pages until final launch"
+    },
+    {
+      "id": 9987,
+      "link": "https://chicagomounting.com/tv-installation-in-evanston/",
+      "sections": [
+        {
+          "id": "88e3197",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "row": "24",
+              "column": "24",
+              "isLinked": true
+            },
+            "_title": "Automatic Case Studies selection",
+            "css_classes": "cm_section cm-case-selection",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1180
+            },
+            "padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "20",
+              "bottom": "48",
+              "left": "20",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "32",
+              "right": "20",
+              "bottom": "32",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "b91e586",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Installation Ideas for Evanston",
+                "header_size": "h2",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=4b3367a",
+                  "title_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "a5993f8",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>A curated selection of Chicago Mounting case studies for homeowners planning an installation in Evanston. These examples are editorial selections; the city shown on a card is a collection label, not a verified job location.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "951d491",
+              "elType": "widget",
+              "widgetType": "loop-grid",
+              "settings": {
+                "template_id": "15715",
+                "post_query_post_type": "post",
+                "post_query_include": [
+                  "terms"
+                ],
+                "post_query_include_term_ids": [
+                  "144",
+                  "153"
+                ],
+                "posts_per_page": 4,
+                "columns": 4,
+                "columns_tablet": 2,
+                "columns_mobile": 1,
+                "column_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "row_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "pagination_type": "",
+                "pagination_page_limit": "",
+                "enable_nothing_found_message": "yes",
+                "nothing_found_message_text": "More installation case studies will be added here."
+              },
+              "elements": []
+            },
+            {
+              "id": "9a24f9a",
+              "elType": "widget",
+              "settings": {
+                "text": "View All Case Studies",
+                "link": {
+                  "url": "https://chicagomounting.com/case-studies/case-city-featured-city-evanston/"
+                },
+                "_css_classes": "cm-case-quote btn btn-md btn-outline",
+                "align": "left",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=d0e77c2"
+                }
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "insertBeforeTitle": "REVIEWS or CTA",
+      "status": "Prepared and tested; user ordered removal from public pages until final launch"
+    },
+    {
+      "id": 9701,
+      "link": "https://chicagomounting.com/tv-installation-in-wilmette/",
+      "sections": [
+        {
+          "id": "c8b1734",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "row": "24",
+              "column": "24",
+              "isLinked": true
+            },
+            "_title": "Automatic Case Studies selection",
+            "css_classes": "cm_section cm-case-selection",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1180
+            },
+            "padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "20",
+              "bottom": "48",
+              "left": "20",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "32",
+              "right": "20",
+              "bottom": "32",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "87cf853",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Installation Ideas for Wilmette",
+                "header_size": "h2",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=4b3367a",
+                  "title_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "c31bfb9",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>A curated selection of Chicago Mounting case studies for homeowners planning an installation in Wilmette. These examples are editorial selections; the city shown on a card is a collection label, not a verified job location.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "aa67a5d",
+              "elType": "widget",
+              "widgetType": "loop-grid",
+              "settings": {
+                "template_id": "15715",
+                "post_query_post_type": "post",
+                "post_query_include": [
+                  "terms"
+                ],
+                "post_query_include_term_ids": [
+                  "144",
+                  "154"
+                ],
+                "posts_per_page": 4,
+                "columns": 4,
+                "columns_tablet": 2,
+                "columns_mobile": 1,
+                "column_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "row_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "pagination_type": "",
+                "pagination_page_limit": "",
+                "enable_nothing_found_message": "yes",
+                "nothing_found_message_text": "More installation case studies will be added here."
+              },
+              "elements": []
+            },
+            {
+              "id": "065f19d",
+              "elType": "widget",
+              "settings": {
+                "text": "View All Case Studies",
+                "link": {
+                  "url": "https://chicagomounting.com/case-studies/case-city-featured-city-wilmette/"
+                },
+                "_css_classes": "cm-case-quote btn btn-md btn-outline",
+                "align": "left",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=d0e77c2"
+                }
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "insertBeforeTitle": "REVIEWS or CTA",
+      "status": "Prepared and tested; user ordered removal from public pages until final launch"
+    },
+    {
+      "id": 9888,
+      "link": "https://chicagomounting.com/tv-installation-in-winnetka/",
+      "sections": [
+        {
+          "id": "453c878",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "row": "24",
+              "column": "24",
+              "isLinked": true
+            },
+            "_title": "Automatic Case Studies selection",
+            "css_classes": "cm_section cm-case-selection",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1180
+            },
+            "padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "20",
+              "bottom": "48",
+              "left": "20",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "32",
+              "right": "20",
+              "bottom": "32",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "1daf58f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Installation Ideas for Winnetka",
+                "header_size": "h2",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=4b3367a",
+                  "title_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "319701c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>A curated selection of Chicago Mounting case studies for homeowners planning an installation in Winnetka. These examples are editorial selections; the city shown on a card is a collection label, not a verified job location.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "b5bdd93",
+              "elType": "widget",
+              "widgetType": "loop-grid",
+              "settings": {
+                "template_id": "15715",
+                "post_query_post_type": "post",
+                "post_query_include": [
+                  "terms"
+                ],
+                "post_query_include_term_ids": [
+                  "144",
+                  "155"
+                ],
+                "posts_per_page": 4,
+                "columns": 4,
+                "columns_tablet": 2,
+                "columns_mobile": 1,
+                "column_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "row_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "pagination_type": "",
+                "pagination_page_limit": "",
+                "enable_nothing_found_message": "yes",
+                "nothing_found_message_text": "More installation case studies will be added here."
+              },
+              "elements": []
+            },
+            {
+              "id": "aad3e06",
+              "elType": "widget",
+              "settings": {
+                "text": "View All Case Studies",
+                "link": {
+                  "url": "https://chicagomounting.com/case-studies/case-city-featured-city-winnetka/"
+                },
+                "_css_classes": "cm-case-quote btn btn-md btn-outline",
+                "align": "left",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=d0e77c2"
+                }
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "insertBeforeTitle": "REVIEWS or CTA",
+      "status": "Prepared and tested; user ordered removal from public pages until final launch"
+    },
+    {
+      "id": 15342,
+      "link": "https://chicagomounting.com/premium-large-tv-installation/",
+      "sections": [
+        {
+          "id": "0e4cc63",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "row": "24",
+              "column": "24",
+              "isLinked": true
+            },
+            "_title": "Automatic Case Studies selection",
+            "css_classes": "cm_section cm-case-selection",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1180
+            },
+            "padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "20",
+              "bottom": "48",
+              "left": "20",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "32",
+              "right": "20",
+              "bottom": "32",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "4de9057",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Large & Premium TV Case Studies",
+                "header_size": "h2",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=4b3367a",
+                  "title_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "5a6bf8a",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Explore installation examples selected by their primary installation type.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "4f52d6b",
+              "elType": "widget",
+              "widgetType": "loop-grid",
+              "settings": {
+                "template_id": "15715",
+                "post_query_post_type": "post",
+                "post_query_include": [
+                  "terms"
+                ],
+                "post_query_include_term_ids": [
+                  "144",
+                  "157"
+                ],
+                "posts_per_page": 4,
+                "columns": 4,
+                "columns_tablet": 2,
+                "columns_mobile": 1,
+                "column_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "row_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "pagination_type": "",
+                "pagination_page_limit": "",
+                "enable_nothing_found_message": "yes",
+                "nothing_found_message_text": "More installation case studies will be added here."
+              },
+              "elements": []
+            },
+            {
+              "id": "e362e09",
+              "elType": "widget",
+              "settings": {
+                "text": "View All Case Studies",
+                "link": {
+                  "url": "https://chicagomounting.com/case-studies/case-installation-large-premium-tv/"
+                },
+                "_css_classes": "cm-case-quote btn btn-md btn-outline",
+                "align": "left",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=d0e77c2"
+                }
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "insertBeforeTitle": "REVIEWS or CTA",
+      "status": "Prepared and tested; user ordered removal from public pages until final launch"
+    },
+    {
+      "id": 11178,
+      "link": "https://chicagomounting.com/outdoor-tv-installation/",
+      "sections": [
+        {
+          "id": "f25f892",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "row": "24",
+              "column": "24",
+              "isLinked": true
+            },
+            "_title": "Automatic Case Studies selection",
+            "css_classes": "cm_section cm-case-selection",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1180
+            },
+            "padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "20",
+              "bottom": "48",
+              "left": "20",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "32",
+              "right": "20",
+              "bottom": "32",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "55c8a82",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Outdoor TV Case Studies",
+                "header_size": "h2",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=4b3367a",
+                  "title_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "783d5e4",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Explore installation examples selected by their primary installation type.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "1e14ac6",
+              "elType": "widget",
+              "widgetType": "loop-grid",
+              "settings": {
+                "template_id": "15715",
+                "post_query_post_type": "post",
+                "post_query_include": [
+                  "terms"
+                ],
+                "post_query_include_term_ids": [
+                  "144",
+                  "148"
+                ],
+                "posts_per_page": 4,
+                "columns": 4,
+                "columns_tablet": 2,
+                "columns_mobile": 1,
+                "column_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "row_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "pagination_type": "",
+                "pagination_page_limit": "",
+                "enable_nothing_found_message": "yes",
+                "nothing_found_message_text": "More installation case studies will be added here."
+              },
+              "elements": []
+            },
+            {
+              "id": "a48c3dd",
+              "elType": "widget",
+              "settings": {
+                "text": "View All Case Studies",
+                "link": {
+                  "url": "https://chicagomounting.com/case-studies/case-installation-outdoor-tv-installation/"
+                },
+                "_css_classes": "cm-case-quote btn btn-md btn-outline",
+                "align": "left",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=d0e77c2"
+                }
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "insertBeforeTitle": "REVIEWS or CTA",
+      "status": "Prepared and tested; user ordered removal from public pages until final launch"
+    },
+    {
+      "id": 8156,
+      "link": "https://chicagomounting.com/recessed-media-box/",
+      "sections": [
+        {
+          "id": "d9dedef",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "row": "24",
+              "column": "24",
+              "isLinked": true
+            },
+            "_title": "Automatic Case Studies selection",
+            "css_classes": "cm_section cm-case-selection",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1180
+            },
+            "padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "20",
+              "bottom": "48",
+              "left": "20",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "32",
+              "right": "20",
+              "bottom": "32",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "6ca8330",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Recessed Media Case Studies",
+                "header_size": "h2",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=4b3367a",
+                  "title_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "133e491",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Explore installation examples selected by their primary installation type.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "b134a59",
+              "elType": "widget",
+              "widgetType": "loop-grid",
+              "settings": {
+                "template_id": "15715",
+                "post_query_post_type": "post",
+                "post_query_include": [
+                  "terms"
+                ],
+                "post_query_include_term_ids": [
+                  "144",
+                  "159"
+                ],
+                "posts_per_page": 4,
+                "columns": 4,
+                "columns_tablet": 2,
+                "columns_mobile": 1,
+                "column_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "row_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "pagination_type": "",
+                "pagination_page_limit": "",
+                "enable_nothing_found_message": "yes",
+                "nothing_found_message_text": "More installation case studies will be added here."
+              },
+              "elements": []
+            },
+            {
+              "id": "e922895",
+              "elType": "widget",
+              "settings": {
+                "text": "View All Case Studies",
+                "link": {
+                  "url": "https://chicagomounting.com/case-studies/case-installation-recessed-media-installation/"
+                },
+                "_css_classes": "cm-case-quote btn btn-md btn-outline",
+                "align": "left",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=d0e77c2"
+                }
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "insertBeforeTitle": "REVIEWS or CTA",
+      "status": "Prepared and tested; user ordered removal from public pages until final launch"
+    },
+    {
+      "id": 5671,
+      "link": "https://chicagomounting.com/frame-tv-mounting-chicago/",
+      "sections": [
+        {
+          "id": "2d62bbf",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "row": "24",
+              "column": "24",
+              "isLinked": true
+            },
+            "_title": "Automatic Case Studies selection",
+            "css_classes": "cm_section cm-case-selection",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1180
+            },
+            "padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "20",
+              "bottom": "48",
+              "left": "20",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "32",
+              "right": "20",
+              "bottom": "32",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "aca29d8",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Frame TV Case Studies",
+                "header_size": "h2",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=4b3367a",
+                  "title_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "e1e5612",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Explore installation examples selected by their primary installation type.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "352cf2f",
+              "elType": "widget",
+              "widgetType": "loop-grid",
+              "settings": {
+                "template_id": "15715",
+                "post_query_post_type": "post",
+                "post_query_include": [
+                  "terms"
+                ],
+                "post_query_include_term_ids": [
+                  "144",
+                  "147"
+                ],
+                "posts_per_page": 4,
+                "columns": 4,
+                "columns_tablet": 2,
+                "columns_mobile": 1,
+                "column_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "row_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "pagination_type": "",
+                "pagination_page_limit": "",
+                "enable_nothing_found_message": "yes",
+                "nothing_found_message_text": "More installation case studies will be added here."
+              },
+              "elements": []
+            },
+            {
+              "id": "b600b7f",
+              "elType": "widget",
+              "settings": {
+                "text": "View All Case Studies",
+                "link": {
+                  "url": "https://chicagomounting.com/case-studies/case-installation-frame-tv-installation/"
+                },
+                "_css_classes": "cm-case-quote btn btn-md btn-outline",
+                "align": "left",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=d0e77c2"
+                }
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "insertBeforeTitle": "REVIEWS or CTA",
+      "status": "Prepared and tested; user ordered removal from public pages until final launch"
+    },
+    {
+      "id": 3398,
+      "link": "https://chicagomounting.com/soundbar-installation/",
+      "sections": [
+        {
+          "id": "7ce61f5",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "row": "24",
+              "column": "24",
+              "isLinked": true
+            },
+            "_title": "Automatic Case Studies selection",
+            "css_classes": "cm_section cm-case-selection",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1180
+            },
+            "padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "20",
+              "bottom": "48",
+              "left": "20",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "32",
+              "right": "20",
+              "bottom": "32",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "8b29b32",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "TV & Soundbar Case Studies",
+                "header_size": "h2",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=4b3367a",
+                  "title_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "079d6d4",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Explore installation examples selected by their primary installation type.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "d2c17ab",
+              "elType": "widget",
+              "widgetType": "loop-grid",
+              "settings": {
+                "template_id": "15715",
+                "post_query_post_type": "post",
+                "post_query_include": [
+                  "terms"
+                ],
+                "post_query_include_term_ids": [
+                  "144",
+                  "158"
+                ],
+                "posts_per_page": 4,
+                "columns": 4,
+                "columns_tablet": 2,
+                "columns_mobile": 1,
+                "column_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "row_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "pagination_type": "",
+                "pagination_page_limit": "",
+                "enable_nothing_found_message": "yes",
+                "nothing_found_message_text": "More installation case studies will be added here."
+              },
+              "elements": []
+            },
+            {
+              "id": "4f1f102",
+              "elType": "widget",
+              "settings": {
+                "text": "View All Case Studies",
+                "link": {
+                  "url": "https://chicagomounting.com/case-studies/case-installation-tv-soundbar-installation/"
+                },
+                "_css_classes": "cm-case-quote btn btn-md btn-outline",
+                "align": "left",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=d0e77c2"
+                }
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "insertBeforeTitle": "REVIEWS or CTA",
+      "status": "Prepared and tested; user ordered removal from public pages until final launch"
+    },
+    {
+      "id": 3281,
+      "link": "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+      "sections": [
+        {
+          "id": "aaf4bd4",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "row": "24",
+              "column": "24",
+              "isLinked": true
+            },
+            "_title": "Automatic Case Studies selection",
+            "css_classes": "cm_section cm-case-selection",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1180
+            },
+            "padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "20",
+              "bottom": "48",
+              "left": "20",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "32",
+              "right": "20",
+              "bottom": "32",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "173e097",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Fireplace & Specialty Mounting Case Studies",
+                "header_size": "h2",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=4b3367a",
+                  "title_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "d875c96",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Explore installation examples selected by their primary installation type.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "d1e8ae3",
+              "elType": "widget",
+              "widgetType": "loop-grid",
+              "settings": {
+                "template_id": "15715",
+                "post_query_post_type": "post",
+                "post_query_include": [
+                  "terms"
+                ],
+                "post_query_include_term_ids": [
+                  "144",
+                  "156"
+                ],
+                "posts_per_page": 4,
+                "columns": 4,
+                "columns_tablet": 2,
+                "columns_mobile": 1,
+                "column_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "row_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "pagination_type": "",
+                "pagination_page_limit": "",
+                "enable_nothing_found_message": "yes",
+                "nothing_found_message_text": "More installation case studies will be added here."
+              },
+              "elements": []
+            },
+            {
+              "id": "12222be",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "View All Case Studies",
+                "link": {
+                  "url": "https://chicagomounting.com/case-studies/case-installation-fireplace-specialty-mounting/"
+                },
+                "_css_classes": "btn btn-md btn-outline",
+                "align": "left",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=d0e77c2"
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "insertBeforeTitle": "REVIEWS or CTA",
+      "status": "Prepared and tested; user ordered removal from public pages until final launch"
+    },
+    {
+      "id": 1682,
+      "link": "https://chicagomounting.com/tv-installation-and-mounting/",
+      "sections": [
+        {
+          "id": "3e37b5d",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "row": "24",
+              "column": "24",
+              "isLinked": true
+            },
+            "_title": "Automatic Case Studies selection",
+            "css_classes": "cm_section cm-case-selection",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1180
+            },
+            "padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "20",
+              "bottom": "48",
+              "left": "20",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "32",
+              "right": "20",
+              "bottom": "32",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "89e159e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "TV Installation Case Studies",
+                "header_size": "h2",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=4b3367a",
+                  "title_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "a38ff50",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Explore installation examples selected by their primary installation type.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "71d58eb",
+              "elType": "widget",
+              "widgetType": "loop-grid",
+              "settings": {
+                "template_id": "15715",
+                "post_query_post_type": "post",
+                "post_query_include": [
+                  "terms"
+                ],
+                "post_query_include_term_ids": [
+                  "144"
+                ],
+                "posts_per_page": 4,
+                "columns": 4,
+                "columns_tablet": 2,
+                "columns_mobile": 1,
+                "column_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "row_gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "pagination_type": "",
+                "pagination_page_limit": "",
+                "enable_nothing_found_message": "yes",
+                "nothing_found_message_text": "More installation case studies will be added here."
+              },
+              "elements": []
+            },
+            {
+              "id": "4d52ddb",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "View All Case Studies",
+                "link": {
+                  "url": "https://chicagomounting.com/case-studies/"
+                },
+                "_css_classes": "btn btn-md btn-outline",
+                "align": "left",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=d0e77c2"
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "insertBeforeTitle": "REVIEWS or CTA",
+      "status": "Prepared and tested; user ordered removal from public pages until final launch"
+    }
+  ],
+  "source": "automatic-selections-prepared-2026-11-08.json; existing section/widget IDs retained; only catalogue destination URLs refreshed",
+  "runtimeVerification": "NOT VERIFIED on destination pages; all eleven sections remain absent from public pages. Snapshot structure is preparation evidence only."
+}
