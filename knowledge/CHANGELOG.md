@@ -482,3 +482,7 @@ Continued only outstanding functional checks after owner clarification. Hostinge
 ## 2026-11-11 — Approved public launch baseline
 Recorded explicitrelease scope,11currentpublicHTMLbaselines/hashes and targetedrollback. Inspected actualGlenviewstructure; prepared nativeCard15715 taxquerysection staged near existinggallery, not published at this checkpoint. Noindex unchanged. NativeWXR download unavailable, not claimed complete. Record: PUBLIC-LAUNCH-2026-11-11.md.
 
+
+## 2026-11-11 — Approved geo integration deployment
+Restored4existingpreparednative modules in existingPHOTOcontainers aftergalleries on9833/9987/9701/9888. Allpublicselections exactly matchcitymatrix, including15731editorialWinnetka; originalcontent preserved byheading/elementIDcomparison. Noindex stillheld until remainingmodules verified. Source/query/Card unchanged, no newtemplates/pages. Evidence/placements committed with this checkpoint.
+
