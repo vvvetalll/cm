@@ -1,0 +1,544 @@
+{
+  "date": "2026-11-11",
+  "results": [
+    {
+      "id": 144,
+      "url": "https://chicagomounting.com/case-studies-archive/",
+      "finalUrl": "https://chicagomounting.com/case-studies-archive/",
+      "kind": "technicalArchive",
+      "status": 200,
+      "xRobotsTag": null,
+      "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "title": [
+        "Case Studies | Chicago Mounting"
+      ],
+      "description": null,
+      "h1": [],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/case-studies-archive/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/case-studies/#listItem",
+                "name": "Case Studies"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/case-studies/#listItem",
+              "position": 2,
+              "name": "Case Studies",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "4420",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": true,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+        "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+        "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+        "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+        "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+        "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+        "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+        "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies-archive/page/2/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    },
+    {
+      "id": 152,
+      "url": "https://chicagomounting.com/tag/featured-city-glenview/",
+      "finalUrl": "https://chicagomounting.com/tag/featured-city-glenview/",
+      "kind": "editorialTagArchive",
+      "status": 200,
+      "xRobotsTag": null,
+      "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "canonical": [
+        "https://chicagomounting.com/tag/featured-city-glenview/"
+      ],
+      "title": [
+        "Glenview, IL | Chicago Mounting"
+      ],
+      "description": "Editorial selection for the Glenview city page. This placement does not establish the actual installation location.",
+      "h1": [],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/tag/featured-city-glenview/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/tag/featured-city-glenview/#listItem",
+                "name": "Glenview, IL"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/tag/featured-city-glenview/#listItem",
+              "position": 2,
+              "name": "Glenview, IL",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "4420",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": false,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+        "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+        "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    },
+    {
+      "id": 153,
+      "url": "https://chicagomounting.com/tag/featured-city-evanston/",
+      "finalUrl": "https://chicagomounting.com/tag/featured-city-evanston/",
+      "kind": "editorialTagArchive",
+      "status": 200,
+      "xRobotsTag": null,
+      "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "canonical": [
+        "https://chicagomounting.com/tag/featured-city-evanston/"
+      ],
+      "title": [
+        "Evanston, IL | Chicago Mounting"
+      ],
+      "description": "Editorial selection for the Evanston city page. This placement does not establish the actual installation location.",
+      "h1": [],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/tag/featured-city-evanston/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/tag/featured-city-evanston/#listItem",
+                "name": "Evanston, IL"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/tag/featured-city-evanston/#listItem",
+              "position": 2,
+              "name": "Evanston, IL",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "4420",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": false,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+        "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+        "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    },
+    {
+      "id": 154,
+      "url": "https://chicagomounting.com/tag/featured-city-wilmette/",
+      "finalUrl": "https://chicagomounting.com/tag/featured-city-wilmette/",
+      "kind": "editorialTagArchive",
+      "status": 200,
+      "xRobotsTag": null,
+      "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "canonical": [
+        "https://chicagomounting.com/tag/featured-city-wilmette/"
+      ],
+      "title": [
+        "Wilmette, IL | Chicago Mounting"
+      ],
+      "description": "Editorial selection for the Wilmette city page. This placement does not establish the actual installation location.",
+      "h1": [],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/tag/featured-city-wilmette/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/tag/featured-city-wilmette/#listItem",
+                "name": "Wilmette, IL"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/tag/featured-city-wilmette/#listItem",
+              "position": 2,
+              "name": "Wilmette, IL",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "4420",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": true,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+        "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/",
+        "https://chicagomounting.com/tv-wall-mounting-case-wilmette/"
+      ]
+    },
+    {
+      "id": 155,
+      "url": "https://chicagomounting.com/tag/featured-city-winnetka/",
+      "finalUrl": "https://chicagomounting.com/tag/featured-city-winnetka/",
+      "kind": "editorialTagArchive",
+      "status": 200,
+      "xRobotsTag": null,
+      "robots": "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "canonical": [
+        "https://chicagomounting.com/tag/featured-city-winnetka/"
+      ],
+      "title": [
+        "Winnetka, IL | Chicago Mounting"
+      ],
+      "description": "Editorial selection for the Winnetka city page. This placement does not establish the actual installation location.",
+      "h1": [],
+      "breadcrumbs": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://chicagomounting.com/tag/featured-city-winnetka/#breadcrumblist",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/#listItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chicagomounting.com/",
+              "nextItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/tag/featured-city-winnetka/#listItem",
+                "name": "Winnetka, IL"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "@id": "https://chicagomounting.com/tag/featured-city-winnetka/#listItem",
+              "position": 2,
+              "name": "Winnetka, IL",
+              "previousItem": {
+                "@type": "ListItem",
+                "@id": "https://chicagomounting.com/#listItem",
+                "name": "Home"
+              }
+            }
+          ]
+        }
+      ],
+      "hasCaseSection": false,
+      "editorialLabels": 0,
+      "elementorIds": [
+        "7491",
+        "4420",
+        "5085",
+        "5890",
+        "10978",
+        "10974",
+        "10965",
+        "10957",
+        "10937"
+      ],
+      "caseIds": [],
+      "missingAlt": [],
+      "single15714": false,
+      "proVisible": false,
+      "visibleBreadcrumb": [],
+      "internalLinks": [
+        "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ]
+    }
+  ]
+}

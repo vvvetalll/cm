@@ -1,0 +1,201 @@
+{
+  "date": "2026-11-11",
+  "method": "Actual existing authenticated-browser public pages; DOM computed styles. Each of sixteen case body links read after stylesheet load. Representative 15832 inspected visually at desktop/mobile; real pointer movement and Tab/Shift+Tab keyboard focus. No content/link edits. Browser visited-history privacy prevents programmatic visited-state certification; existing visited selector/declarations preserved exactly.",
+  "cases": [
+    {
+      "id": 15832,
+      "text": "stone finish",
+      "href": "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+      "computedColor": "rgb(78, 157, 5)",
+      "fontWeight": "700",
+      "textDecoration": "underline",
+      "matchesSharedSelector": true
+    },
+    {
+      "id": 15830,
+      "text": "painted brick fireplace",
+      "href": "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+      "computedColor": "rgb(78, 157, 5)",
+      "fontWeight": "700",
+      "textDecoration": "underline",
+      "matchesSharedSelector": true
+    },
+    {
+      "id": 15828,
+      "text": "recessed media box",
+      "href": "https://chicagomounting.com/recessed-media-box/",
+      "computedColor": "rgb(78, 157, 5)",
+      "fontWeight": "700",
+      "textDecoration": "underline",
+      "matchesSharedSelector": true
+    },
+    {
+      "id": 15826,
+      "text": "85-inch Samsung Frame TV",
+      "href": "https://chicagomounting.com/frame-tv-mounting-chicago/",
+      "computedColor": "rgb(78, 157, 5)",
+      "fontWeight": "700",
+      "textDecoration": "underline",
+      "matchesSharedSelector": true
+    },
+    {
+      "id": 15824,
+      "text": "65-inch Samsung Frame",
+      "href": "https://chicagomounting.com/frame-tv-mounting-chicago/",
+      "computedColor": "rgb(78, 157, 5)",
+      "fontWeight": "700",
+      "textDecoration": "underline",
+      "matchesSharedSelector": true
+    },
+    {
+      "id": 15822,
+      "text": "large-screen installation",
+      "href": "https://chicagomounting.com/premium-large-tv-installation/",
+      "computedColor": "rgb(78, 157, 5)",
+      "fontWeight": "700",
+      "textDecoration": "underline",
+      "matchesSharedSelector": true
+    },
+    {
+      "id": 15820,
+      "text": "Frame Pro installation",
+      "href": "https://chicagomounting.com/frame-tv-mounting-chicago/",
+      "computedColor": "rgb(78, 157, 5)",
+      "fontWeight": "700",
+      "textDecoration": "underline",
+      "matchesSharedSelector": true
+    },
+    {
+      "id": 15818,
+      "text": "85-inch Sony BRAVIA",
+      "href": "https://chicagomounting.com/premium-large-tv-installation/",
+      "computedColor": "rgb(78, 157, 5)",
+      "fontWeight": "700",
+      "textDecoration": "underline",
+      "matchesSharedSelector": true
+    },
+    {
+      "id": 15816,
+      "text": "Legrand media box",
+      "href": "https://chicagomounting.com/recessed-media-box/",
+      "computedColor": "rgb(78, 157, 5)",
+      "fontWeight": "700",
+      "textDecoration": "underline",
+      "matchesSharedSelector": true
+    },
+    {
+      "id": 15814,
+      "text": "pull-down mount",
+      "href": "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+      "computedColor": "rgb(78, 157, 5)",
+      "fontWeight": "700",
+      "textDecoration": "underline",
+      "matchesSharedSelector": true
+    },
+    {
+      "id": 15812,
+      "text": "Samsung Q990H soundbar system",
+      "href": "https://chicagomounting.com/soundbar-installation/",
+      "computedColor": "rgb(78, 157, 5)",
+      "fontWeight": "700",
+      "textDecoration": "underline",
+      "matchesSharedSelector": true
+    },
+    {
+      "id": 15810,
+      "text": "media box",
+      "href": "https://chicagomounting.com/recessed-media-box/",
+      "computedColor": "rgb(78, 157, 5)",
+      "fontWeight": "700",
+      "textDecoration": "underline",
+      "matchesSharedSelector": true
+    },
+    {
+      "id": 15793,
+      "text": "recessed media box",
+      "href": "https://chicagomounting.com/recessed-media-box/",
+      "computedColor": "rgb(78, 157, 5)",
+      "fontWeight": "700",
+      "textDecoration": "underline",
+      "matchesSharedSelector": true
+    },
+    {
+      "id": 15792,
+      "text": "outdoor television",
+      "href": "https://chicagomounting.com/outdoor-tv-installation/",
+      "computedColor": "rgb(78, 157, 5)",
+      "fontWeight": "700",
+      "textDecoration": "underline",
+      "matchesSharedSelector": true
+    },
+    {
+      "id": 15791,
+      "text": "television wall-mounting project",
+      "href": "https://chicagomounting.com/tv-installation-and-mounting/",
+      "computedColor": "rgb(78, 157, 5)",
+      "fontWeight": "700",
+      "textDecoration": "underline",
+      "matchesSharedSelector": true
+    },
+    {
+      "id": 15731,
+      "text": "Samsung Frame TV",
+      "href": "https://chicagomounting.com/frame-tv-mounting-chicago/",
+      "computedColor": "rgb(78, 157, 5)",
+      "fontWeight": "700",
+      "textDecoration": "underline",
+      "matchesSharedSelector": true
+    }
+  ],
+  "representativeStates": [
+    {
+      "viewport": 1366,
+      "state": "default",
+      "color": "rgb(78, 157, 5)",
+      "underline": true,
+      "weight": "700"
+    },
+    {
+      "viewport": 1366,
+      "state": "hover",
+      "color": "rgb(41, 43, 38)",
+      "underline": true,
+      "weight": "700",
+      "hover": true
+    },
+    {
+      "viewport": 1366,
+      "state": "keyboard focus",
+      "color": "rgb(41, 43, 38)",
+      "underline": true,
+      "weight": "700",
+      "focusVisible": true,
+      "outlineStyle": "auto"
+    },
+    {
+      "viewport": 390,
+      "state": "default",
+      "color": "rgb(78, 157, 5)",
+      "underline": true,
+      "weight": "700"
+    },
+    {
+      "viewport": 390,
+      "state": "hover",
+      "color": "rgb(41, 43, 38)",
+      "underline": true,
+      "weight": "700",
+      "hover": true
+    },
+    {
+      "viewport": 390,
+      "state": "keyboard focus",
+      "color": "rgb(41, 43, 38)",
+      "underline": true,
+      "weight": "700",
+      "focusVisible": true,
+      "outlineStyle": "auto"
+    }
+  ],
+  "scope": "Only existing shared theme TEXT LINKS rule selectors extended for paragraph/list anchors within Single 15714 Post Content; Elementor-button anchors excluded. Declarations unchanged."
+}

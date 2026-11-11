@@ -1,0 +1,4880 @@
+/*
+Theme Name: chicagomounting
+Theme URI: https://yourwebsite.com/
+Author: Your Name
+Author URI: https://yourwebsite.com/
+Description: Lightweight custom WordPress theme for Elementor
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 6.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: chicagomounting
+Tags: elementor, full-width-template, clean, minimal
+*/
+
+
+/* 5 Stars in trustindex baidge */
+.ti-widget[data-layout-id="111"] .ti-stars {
+  display: inline-block !important;
+  width: 84px !important;          /* 5 × 16.8 */
+  height: 17px !important;
+  line-height: 0 !important;
+  background: url("https://cdn.trustindex.io/assets/platform/Google/star/f.svg") repeat-x left center;
+  background-size: 16.8px 16.8px;
+  vertical-align: middle;
+}
+.ti-widget[data-layout-id="111"] .ti-stars .ti-star {
+  display: none !important;
+}
+
+/* ==================================================
+   GLOBAL
+   ================================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.akcent {
+    color: var(--e-global-color-accent);
+}
+
+/* ==================================================
+   MAIN HERO
+   ================================================== */
+
+.elementor .elementor-element.cm_hero_main.e-con {
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+
+/* IMAGE CONTAINER */
+
+.elementor .elementor-element.cm_hero_main__media.e-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+}
+
+
+/* IMAGE */
+
+.elementor .elementor-element.cm_hero_main__image {
+    width: 100%;
+    max-width: 720px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.elementor .elementor-element.cm_hero_main__image .elementor-widget-container {
+    margin: 0;
+    padding: 0;
+}
+
+.elementor .elementor-element.cm_hero_main__image img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ==================================================
+   TABLET
+   ================================================== */
+
+@media (max-width: 1024px) {
+
+    .elementor .elementor-element.cm_hero_main.e-con {
+        flex-direction: column;
+    }
+
+    .elementor .elementor-element.cm_hero_main.e-con > .e-con-inner {
+        flex-direction: column;
+    }
+
+    .elementor .elementor-element.cm_hero_main__media.e-con {
+        width: 100%;
+
+        margin-top: 30px;
+    }
+
+    .elementor .elementor-element.cm_hero_main__image {
+        max-width: 720px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* ==================================================
+   MOBILE
+   ================================================== */
+
+@media (max-width: 767px) {
+
+    .elementor .elementor-element.cm_hero_main.e-con {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .elementor .elementor-element.cm_hero_main__media.e-con {
+        margin-top: 20px;
+    }
+
+    .elementor .elementor-element.cm_hero_main__image {
+        max-width: 520px;
+    }
+}
+
+/* ==================================================
+   TEXT LINKS
+   ================================================== */
+
+.elementor-widget-text-editor a,
+.elementor-widget-text-editor a:visited,
+.elementor-widget-text-editor a:active {
+    color: var(--e-global-color-accent) !important;
+
+    font-weight: 700;
+    text-decoration: underline !important;
+}
+
+.elementor-widget-text-editor a:hover,
+.elementor-widget-text-editor a:focus {
+    color: var(--e-global-color-secondary) !important;
+
+    text-decoration: underline !important;
+}
+
+
+/* ==================================================
+   SCROLLBAR
+   WebKit browsers
+   ================================================== */
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F0F0F0;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--e-global-color-accent);
+
+    border: 2px solid #F0F0F0;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--e-global-color-secondary);
+}
+
+
+/* ==================================================
+   BUTTON TEXT
+   Uppercase across the site
+   ================================================== */
+
+.elementor-button,
+a.btn,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+    text-transform: uppercase;
+}
+
+
+/* ==================================================
+   BUTTON RADIUS
+   Desktop 8px / Mobile 4px
+   ================================================== */
+
+.elementor-button,
+a.btn,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+    border-radius: 8px;
+}
+
+@media (max-width: 767px) {
+
+    .elementor-button,
+    a.btn,
+    button,
+    input[type="button"],
+    input[type="submit"],
+    input[type="reset"],
+    .woocommerce a.button,
+    .woocommerce button.button,
+    .woocommerce input.button {
+        border-radius: 4px;
+    }
+}
+
+
+/* ==================================================
+   BUTTON SYSTEM
+   Elementor Button widget + HTML links
+
+   btn btn-primary       = green filled
+   btn btn-outline       = green outline
+   btn btn-outline-light = white outline for dark backgrounds
+   ================================================== */
+
+.elementor .elementor-element.btn .elementor-button,
+a.btn,
+a.btn:visited {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    cursor: pointer;
+
+    border-radius: 8px;
+
+    transition:
+        background-color 0.25s ease,
+        border-color 0.25s ease,
+        color 0.25s ease,
+        transform 0.25s ease;
+}
+
+
+/* Sizes */
+
+.elementor .elementor-element.btn.btn-sm .elementor-button,
+a.btn.btn-sm {
+    min-height: 40px;
+    padding: 0 18px;
+
+    font-size: 12px;
+}
+
+.elementor .elementor-element.btn.btn-md .elementor-button,
+a.btn.btn-md {
+    min-height: 52px;
+    padding: 0 30px;
+
+    font-size: 14px;
+}
+
+.elementor .elementor-element.btn.btn-lg .elementor-button,
+a.btn.btn-lg {
+    min-height: 58px;
+    padding: 0 38px;
+
+    font-size: 16px;
+}
+
+
+/* Primary
+   Brand green filled button
+*/
+
+.elementor .elementor-element.btn.btn-primary .elementor-button,
+.elementor .elementor-element.btn.btn-primary .elementor-button:visited,
+a.btn.btn-primary,
+a.btn.btn-primary:visited {
+    background-color: var(--e-global-color-accent);
+    border: 2px solid var(--e-global-color-accent);
+
+    color: #FFFFFF;
+}
+
+.elementor .elementor-element.btn.btn-primary .elementor-button:hover,
+.elementor .elementor-element.btn.btn-primary .elementor-button:focus,
+a.btn.btn-primary:hover,
+a.btn.btn-primary:focus {
+    background-color: #3F8104;
+    border-color: #3F8104;
+
+    color: #FFFFFF;
+
+    transform: translateY(-2px);
+}
+
+
+/* Outline
+   Brand green outline for light backgrounds
+*/
+
+.elementor .elementor-element.btn.btn-outline .elementor-button,
+.elementor .elementor-element.btn.btn-outline .elementor-button:visited,
+a.btn.btn-outline,
+a.btn.btn-outline:visited {
+    background-color: transparent;
+    border: 2px solid var(--e-global-color-accent);
+
+    color: var(--e-global-color-accent);
+}
+
+.elementor .elementor-element.btn.btn-outline .elementor-button:hover,
+.elementor .elementor-element.btn.btn-outline .elementor-button:focus,
+a.btn.btn-outline:hover,
+a.btn.btn-outline:focus {
+    background-color: var(--e-global-color-accent);
+    border-color: var(--e-global-color-accent);
+
+    color: #FFFFFF;
+
+    transform: translateY(-2px);
+}
+
+
+/* Light Outline
+   White outline for dark backgrounds only
+*/
+
+.elementor .elementor-element.btn.btn-outline-light .elementor-button,
+.elementor .elementor-element.btn.btn-outline-light .elementor-button:visited,
+a.btn.btn-outline-light,
+a.btn.btn-outline-light:visited {
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+
+    color: #FFFFFF;
+}
+
+.elementor .elementor-element.btn.btn-outline-light .elementor-button:hover,
+.elementor .elementor-element.btn.btn-outline-light .elementor-button:focus,
+a.btn.btn-outline-light:hover,
+a.btn.btn-outline-light:focus {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+
+    color: var(--e-global-color-primary);
+
+    transform: translateY(-2px);
+}
+
+
+/* Focus */
+
+.elementor .elementor-element.btn .elementor-button:focus,
+.elementor .elementor-element.btn .elementor-button:active,
+a.btn:focus,
+a.btn:active {
+    outline: none;
+}
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+    .elementor .elementor-element.btn .elementor-button,
+    a.btn {
+        border-radius: 4px;
+    }
+
+    .elementor .elementor-element.btn.btn-sm .elementor-button,
+    a.btn.btn-sm {
+        min-height: 36px;
+        padding: 0 14px;
+
+        font-size: 12px;
+    }
+
+    .elementor .elementor-element.btn.btn-md .elementor-button,
+    a.btn.btn-md {
+        min-height: 42px;
+        padding: 0 18px;
+
+        font-size: 13px;
+    }
+
+    .elementor .elementor-element.btn.btn-lg .elementor-button,
+    a.btn.btn-lg {
+        min-height: 46px;
+        padding: 0 22px;
+
+        font-size: 14px;
+    }
+}
+
+
+/* ==================================================
+   READ MORE BUTTON
+   Uses the existing button system
+   Class: btn btn-readmore
+   ================================================== */
+
+.elementor .elementor-element.btn.btn-readmore .elementor-button,
+a.btn.btn-readmore,
+a.btn.btn-readmore:visited {
+    padding: 0;
+    gap: 6px;
+
+    background: transparent;
+    border: 0;
+
+    color: var(--e-global-color-accent);
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    transform: none;
+}
+
+
+.elementor .elementor-element.btn.btn-readmore .elementor-button:hover,
+.elementor .elementor-element.btn.btn-readmore .elementor-button:focus,
+a.btn.btn-readmore:hover,
+a.btn.btn-readmore:focus {
+    background: transparent;
+    border: 0;
+
+    color: var(--e-global-color-secondary);
+
+    transform: none;
+}
+
+
+.elementor .elementor-element.btn.btn-readmore .elementor-button:hover::after,
+.elementor .elementor-element.btn.btn-readmore .elementor-button:focus::after,
+a.btn.btn-readmore:hover::after,
+a.btn.btn-readmore:focus::after {
+    transform: translateX(4px);
+}
+
+.elementor .elementor-element.btn.btn-readmore .elementor-button::after,
+a.btn.btn-readmore::after {
+    content: "→";
+
+    position: relative;
+    top: -1px;
+
+    margin-left: 2px;
+
+    font-size: 16px;
+    line-height: 1;
+
+    transition: transform 0.25s ease;
+}
+
+
+/* ==================================================
+   HEADER MENU DROPDOWN
+   Existing menu widget class: cm_menu
+   ================================================== */
+
+/* Desktop submenu shadow */
+
+.elementor .elementor-element.cm_menu .sub-menu {
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.10);
+}
+
+
+/* ==================================================
+   DESKTOP NAV MENU
+   Scoped only to: cm_menu
+   ================================================== */
+
+@media (min-width: 1025px) {
+
+    /* Top-level links */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > a {
+        position: relative;
+
+        padding-left: 14px;
+        padding-right: 14px;
+
+        color: var(--e-global-color-secondary) !important;
+
+        font-weight: 600;
+
+        transition:
+            color .22s ease,
+            background-color .22s ease;
+    }
+
+
+    /* Top-level hover / focus */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > a:hover,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > a:focus {
+        color: var(--e-global-color-accent) !important;
+    }
+
+
+    /* Current / active top-level item */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li.current-menu-item > a,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li.current-menu-parent > a,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li.current-menu-ancestor > a,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > a.elementor-item-active,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > a.highlighted {
+        color: var(--e-global-color-accent) !important;
+    }
+
+
+    /* Small underline for hover / active */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > a::after {
+        content: "";
+
+        position: absolute;
+        right: 14px;
+        bottom: 8px;
+        left: 14px;
+
+        height: 2px;
+
+        background-color: var(--e-global-color-accent);
+
+        border-radius: 2px;
+
+        opacity: 0;
+
+        transform: scaleX(.45);
+
+        transition:
+            opacity .22s ease,
+            transform .22s ease;
+    }
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > a:hover::after,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li.current-menu-item > a::after,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li.current-menu-parent > a::after,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li.current-menu-ancestor > a::after,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > a.elementor-item-active::after,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > a.highlighted::after {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+
+
+    /* Top-level dropdown arrow */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main .sub-arrow {
+        margin-left: 7px;
+
+        color: currentColor;
+
+        transition: transform .22s ease;
+    }
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > a.highlighted .sub-arrow {
+        transform: rotate(180deg);
+    }
+
+
+    /* First-level dropdown */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > ul.sub-menu {
+        min-width: 240px;
+
+        padding: 8px;
+
+        background-color: #FFFFFF !important;
+
+        border: 1px solid rgba(41, 43, 38, .08);
+        border-radius: 10px;
+
+        box-shadow:
+            0 16px 38px rgba(0, 0, 0, .12),
+            0 4px 10px rgba(0, 0, 0, .05) !important;
+    }
+
+
+    /* Dropdown links */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > ul.sub-menu > li > a {
+        padding: 11px 14px !important;
+
+        background-color: transparent !important;
+
+        color: var(--e-global-color-secondary) !important;
+
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.3;
+
+        border: 0 !important;
+        border-radius: 6px;
+
+        transition:
+            background-color .2s ease,
+            color .2s ease,
+            padding-left .2s ease;
+    }
+
+
+    /* Dropdown hover / active */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > ul.sub-menu > li > a:hover,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > ul.sub-menu > li > a:focus,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > ul.sub-menu > li.current-menu-item > a,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > ul.sub-menu > li.current-menu-parent > a,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > ul.sub-menu > li.current-menu-ancestor > a,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > ul.sub-menu > li > a.elementor-item-active,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > ul.sub-menu > li > a.highlighted {
+        padding-left: 18px !important;
+
+        background-color: #F2F6EF !important;
+
+        color: var(--e-global-color-accent) !important;
+    }
+
+
+    /* Nested desktop submenu */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > ul.sub-menu ul.sub-menu {
+        min-width: 230px;
+
+        padding: 8px;
+
+        background-color: #FFFFFF !important;
+
+        border: 1px solid rgba(41, 43, 38, .08);
+        border-radius: 10px;
+
+        box-shadow:
+            0 14px 32px rgba(0, 0, 0, .11),
+            0 4px 10px rgba(0, 0, 0, .04) !important;
+    }
+
+
+    /* Nested submenu links */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > ul.sub-menu ul.sub-menu > li > a {
+        padding: 10px 14px !important;
+
+        background-color: transparent !important;
+
+        color: var(--e-global-color-secondary) !important;
+
+        font-size: 13px;
+        font-weight: 500;
+
+        border: 0 !important;
+        border-radius: 6px;
+    }
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > ul.sub-menu ul.sub-menu > li > a:hover,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > ul.sub-menu ul.sub-menu > li > a:focus,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > ul.sub-menu ul.sub-menu > li.current-menu-item > a,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--main
+    .elementor-nav-menu > li > ul.sub-menu ul.sub-menu > li > a.elementor-item-active {
+        background-color: #F2F6EF !important;
+
+        color: var(--e-global-color-accent) !important;
+    }
+}
+
+
+/* ==================================================
+   MOBILE / TABLET NAV MENU
+   Scoped only to: cm_menu
+   ================================================== */
+
+@media (max-width: 1024px) {
+
+    /* Main mobile dropdown panel */
+
+    .elementor .elementor-element.cm_menu .elementor-nav-menu--dropdown {
+        overflow: hidden;
+
+        padding: 10px 0 14px;
+
+        background-color: #FFFFFF !important;
+
+        border-radius: 0 0 12px 12px;
+
+        box-shadow:
+            0 14px 34px rgba(0, 0, 0, 0.14),
+            0 3px 8px rgba(0, 0, 0, 0.06) !important;
+    }
+
+
+    /* Main menu list */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--dropdown .elementor-nav-menu {
+        background: transparent !important;
+    }
+
+
+    /* Top-level links */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--dropdown
+    .elementor-nav-menu > li > a {
+        min-height: 50px;
+
+        padding: 13px 20px !important;
+
+        background-color: transparent !important;
+
+        color: var(--e-global-color-secondary) !important;
+
+        font-weight: 600 !important;
+        line-height: 1.25;
+
+        text-align: center;
+
+        border: 0 !important;
+
+        transition:
+            background-color .22s ease,
+            color .22s ease;
+    }
+
+
+    /* Top-level hover / keyboard focus */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--dropdown
+    .elementor-nav-menu > li > a:hover,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--dropdown
+    .elementor-nav-menu > li > a:focus {
+        background-color: #F2F6EF !important;
+
+        color: var(--e-global-color-accent) !important;
+    }
+
+
+    /* Current page / active item / opened parent */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--dropdown
+    .elementor-nav-menu > li.current-menu-item > a,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--dropdown
+    .elementor-nav-menu > li.current-menu-parent > a,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--dropdown
+    .elementor-nav-menu > li.current-menu-ancestor > a,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--dropdown
+    .elementor-nav-menu > li > a.elementor-item-active,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--dropdown
+    .elementor-nav-menu > li > a.highlighted,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--dropdown
+    .elementor-nav-menu > li > a[aria-expanded="true"] {
+        background-color: #EEF4EA !important;
+
+        color: var(--e-global-color-accent) !important;
+    }
+
+
+    /* Dropdown arrows */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu--dropdown .sub-arrow {
+        margin-left: 8px;
+
+        color: currentColor;
+    }
+
+
+    /* Second-level submenu */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu > li > ul.sub-menu {
+        margin: 2px 12px 8px !important;
+        padding: 6px 0 !important;
+
+        background-color: #F5F7F5 !important;
+
+        border: 1px solid rgba(41, 43, 38, 0.07) !important;
+        border-radius: 8px !important;
+
+        box-shadow: none !important;
+    }
+
+
+    /* Second-level links */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu > li > ul.sub-menu > li > a {
+        padding: 11px 18px !important;
+
+        background-color: transparent !important;
+
+        color: var(--e-global-color-secondary) !important;
+
+        font-size: 14px;
+        font-weight: 500 !important;
+        line-height: 1.3;
+
+        text-align: left;
+
+        border: 0 !important;
+
+        transition:
+            background-color .22s ease,
+            color .22s ease;
+    }
+
+
+    /* Soft separators inside submenu */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu > li > ul.sub-menu > li:not(:last-child) > a {
+        border-bottom: 1px solid rgba(41, 43, 38, 0.055) !important;
+    }
+
+
+    /* Second-level hover / active */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu > li > ul.sub-menu > li > a:hover,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu > li > ul.sub-menu > li > a:focus,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu > li > ul.sub-menu > li.current-menu-item > a,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu > li > ul.sub-menu > li.current-menu-parent > a,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu > li > ul.sub-menu > li.current-menu-ancestor > a,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu > li > ul.sub-menu > li > a.elementor-item-active,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu > li > ul.sub-menu > li > a.highlighted {
+        background-color: #EAF2E6 !important;
+
+        color: var(--e-global-color-accent) !important;
+    }
+
+
+    /* Third-level submenu */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu > li > ul.sub-menu ul.sub-menu {
+        margin: 4px 10px 6px !important;
+        padding: 5px 0 !important;
+
+        background-color: #FFFFFF !important;
+
+        border: 0 !important;
+        border-left: 2px solid rgba(78, 157, 5, 0.35) !important;
+        border-radius: 0 6px 6px 0 !important;
+
+        box-shadow: none !important;
+    }
+
+
+    /* Third-level links */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu > li > ul.sub-menu ul.sub-menu > li > a {
+        padding: 10px 16px !important;
+
+        background-color: transparent !important;
+
+        color: var(--e-global-color-secondary) !important;
+
+        font-size: 13px;
+        font-weight: 500 !important;
+        line-height: 1.3;
+
+        text-align: left;
+
+        border: 0 !important;
+    }
+
+
+    /* Third-level hover / active */
+
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu > li > ul.sub-menu ul.sub-menu > li > a:hover,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu > li > ul.sub-menu ul.sub-menu > li > a:focus,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu > li > ul.sub-menu ul.sub-menu > li.current-menu-item > a,
+    .elementor .elementor-element.cm_menu
+    .elementor-nav-menu > li > ul.sub-menu ul.sub-menu > li > a.elementor-item-active {
+        background-color: #F2F6EF !important;
+
+        color: var(--e-global-color-accent) !important;
+    }
+
+
+    /* Mobile menu toggle / close icon */
+
+    .elementor .elementor-element.cm_menu .elementor-menu-toggle {
+        background: transparent !important;
+
+        color: var(--e-global-color-secondary) !important;
+
+        transition: color .22s ease;
+    }
+
+    .elementor .elementor-element.cm_menu .elementor-menu-toggle:hover,
+    .elementor .elementor-element.cm_menu .elementor-menu-toggle:focus,
+    .elementor .elementor-element.cm_menu .elementor-menu-toggle.elementor-active {
+        color: var(--e-global-color-accent) !important;
+    }
+}
+
+/* ==================================================
+   POST SUBHEADER
+   Class: cm-subheader
+   ================================================== */
+
+.elementor .elementor-element.cm-subheader.e-con {
+    position: relative;
+
+    padding: 45px 20px 60px;
+
+    background-color: #EFF2EF;
+}
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+    .elementor .elementor-element.cm-subheader.e-con {
+        padding: 30px 20px 40px;
+    }
+}
+
+/* ==================================================
+   PRICING CARD
+   ================================================== */
+
+.elementor .elementor-element.pricing-carousel {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.elementor .elementor-element.pricing-carousel .e-n-carousel.swiper {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.elementor .elementor-element.pricing-carousel .swiper-wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+.elementor .elementor-element.pricing-carousel .swiper-slide {
+    display: flex;
+    flex-shrink: 0;
+    height: auto;
+}
+
+.elementor .elementor-element.pricing-carousel .swiper-slide > .e-con {
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.elementor .elementor-element.pricing-carousel .swiper-slide > .e-con > .e-con-inner,
+.elementor .elementor-element.pricing-carousel .swiper-slide .elementor-widget-html,
+.elementor .elementor-element.pricing-carousel .swiper-slide .elementor-widget-html > .elementor-widget-container {
+    height: 100%;
+}
+
+
+/* Card */
+
+.elementor .elementor-element.pricing-carousel .pricing-card {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 340px;
+    height: 100%;
+
+    margin: 0 auto;
+
+    background-color: #FFFFFF;
+
+    border: 1px solid rgba(41, 43, 38, 0.08);
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.06),
+        0 2px 6px rgba(0, 0, 0, 0.03);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        border-color .3s ease;
+}
+
+
+/* Green top accent */
+
+.elementor .elementor-element.pricing-carousel .pricing-card::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 2;
+
+    height: 4px;
+
+    background-color: var(--e-global-color-accent);
+}
+
+
+/* Hover */
+
+.elementor .elementor-element.pricing-carousel .pricing-card:hover {
+    transform: translateY(-5px);
+
+    border-color: rgba(99, 182, 0, 0.22);
+
+    box-shadow:
+        0 16px 34px rgba(0, 0, 0, 0.09),
+        0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+
+/* ==================================================
+   HEADER
+   ================================================== */
+
+.elementor .elementor-element.pricing-carousel .pricing-card .card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 94px;
+
+    padding: 18px 16px 16px;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--e-global-color-secondary) 0%,
+            #232521 100%
+        );
+
+    color: #FFFFFF;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.1;
+
+    letter-spacing: -0.2px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.elementor .elementor-element.pricing-carousel .pricing-card .card-header span {
+    display: block;
+
+    margin-top: 5px;
+
+    color: var(--e-global-color-accent);
+
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 1;
+
+    letter-spacing: .3px;
+}
+
+
+/* ==================================================
+   PRICE
+   ================================================== */
+
+.elementor .elementor-element.pricing-carousel .pricing-card .card-price {
+    margin: 0;
+
+    padding: 23px 18px 20px;
+
+    color: var(--e-global-color-accent);
+
+    font-size: 52px;
+    font-weight: 900;
+    line-height: .95;
+
+    letter-spacing: -2px;
+
+    text-align: center;
+}
+
+.elementor .elementor-element.pricing-carousel .pricing-card .card-price .currency {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    top: -14px;
+    right: -7px;
+
+    width: 24px;
+    height: 24px;
+
+    margin-right: 0;
+
+    background: #EFF6E9;
+    border-radius: 6px;
+
+    color: var(--e-global-color-accent);
+
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1;
+
+    letter-spacing: 0;
+    vertical-align: top;
+}
+
+.elementor .elementor-element.pricing-carousel .pricing-card .card-price .amount {
+    display: inline-block;
+}
+
+.elementor .elementor-element.pricing-carousel .pricing-card .card-price small {
+    display: block;
+
+    margin-top: 8px;
+
+    color: var(--e-global-color-secondary);
+
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.2;
+
+    letter-spacing: .2px;
+}
+
+
+/* ==================================================
+   DESCRIPTION
+   ================================================== */
+
+.elementor .elementor-element.pricing-carousel .pricing-card .card-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 3px;
+
+    padding: 14px 16px;
+
+    background-color: #F4F6F3;
+
+    border-top: 1px solid rgba(41, 43, 38, 0.04);
+    border-bottom: 1px solid rgba(41, 43, 38, 0.05);
+
+    text-align: center;
+}
+
+.elementor .elementor-element.pricing-carousel .pricing-card .card-desc__label {
+    color: var(--e-global-color-text);
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.elementor .elementor-element.pricing-carousel .pricing-card .card-desc__main {
+    color: var(--e-global-color-secondary);
+
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.15;
+
+    text-transform: uppercase;
+    letter-spacing: .4px;
+}
+
+.elementor .elementor-element.pricing-carousel .pricing-card .card-desc__sub {
+    color: var(--e-global-color-text);
+
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+/* ==================================================
+   FEATURES
+   ================================================== */
+
+.elementor .elementor-element.pricing-carousel .pricing-card .card-features {
+    margin: 0;
+
+    padding: 12px 16px 4px;
+
+    list-style: none;
+
+    font-size: 12px;
+    line-height: 1.3;
+
+    text-align: left;
+}
+
+.elementor .elementor-element.pricing-carousel .pricing-card .card-features ul,
+.elementor .elementor-element.pricing-carousel .pricing-card .card-features li {
+    list-style: none;
+}
+
+.elementor .elementor-element.pricing-carousel .pricing-card .card-features li::before,
+.elementor .elementor-element.pricing-carousel .pricing-card .card-features ul li::before {
+    content: none !important;
+}
+
+.elementor .elementor-element.pricing-carousel .pricing-card .card-features li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 14px;
+
+    min-height: 40px;
+
+    padding: 8px 0;
+
+    border-bottom: 1px solid rgba(41, 43, 38, 0.07);
+}
+
+.elementor .elementor-element.pricing-carousel .pricing-card .card-features li:last-child {
+    border-bottom: 0;
+}
+
+.elementor .elementor-element.pricing-carousel .pricing-card .card-features li span {
+    flex: 0 0 auto;
+
+    min-width: 52px;
+
+    padding: 5px 8px;
+
+    background-color: #F0F5EC;
+
+    border-radius: 7px;
+
+    color: var(--e-global-color-accent);
+
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1;
+
+    text-align: center;
+}
+
+
+/* ==================================================
+   BUTTON
+   ================================================== */
+
+.elementor .elementor-element.pricing-carousel .pricing-card .btn-price {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+    margin-top: auto;
+
+    padding: 16px 16px 18px;
+}
+
+.elementor .elementor-element.pricing-carousel .pricing-card .btn-price .btn {
+    width: 100%;
+}
+
+
+/* ==================================================
+   MOBILE
+   ================================================== */
+
+@media (max-width: 767px) {
+
+    .elementor .elementor-element.pricing-carousel .pricing-card {
+        max-width: 320px;
+
+        border-radius: 10px;
+    }
+
+    .elementor .elementor-element.pricing-carousel .pricing-card .card-header {
+        min-height: 82px;
+
+        padding: 16px 14px 14px;
+
+        font-size: 17px;
+    }
+
+    .elementor .elementor-element.pricing-carousel .pricing-card .card-header span {
+        margin-top: 4px;
+
+        font-size: 18px;
+    }
+
+    .elementor .elementor-element.pricing-carousel .pricing-card .card-price {
+        padding: 20px 14px 17px;
+
+        font-size: 44px;
+    }
+
+    .elementor .elementor-element.pricing-carousel .pricing-card .card-price .currency {
+        top: -10px;
+
+        font-size: 16px;
+    }
+
+    .elementor .elementor-element.pricing-carousel .pricing-card .card-price small {
+        margin-top: 8px;
+
+        font-size: 12px;
+    }
+
+    .elementor .elementor-element.pricing-carousel .pricing-card .card-desc {
+        padding: 8px 14px;
+    }
+
+    .elementor .elementor-element.pricing-carousel .pricing-card .card-desc__label {
+        font-size: 11px;
+    }
+
+    .elementor .elementor-element.pricing-carousel .pricing-card .card-desc__main {
+        font-size: 13px;
+    }
+
+    .elementor .elementor-element.pricing-carousel .pricing-card .card-desc__sub {
+        font-size: 11px;
+    }
+
+    .elementor .elementor-element.pricing-carousel .pricing-card .card-features {
+        padding: 10px 14px 2px;
+    }
+
+    .elementor .elementor-element.pricing-carousel .pricing-card .card-features li {
+        gap: 10px;
+
+        min-height: 38px;
+
+        padding: 7px 0;
+    }
+
+    .elementor .elementor-element.pricing-carousel .pricing-card .card-features li span {
+        min-width: 48px;
+
+        padding: 5px 7px;
+
+        border-radius: 6px;
+
+        font-size: 13px;
+    }
+
+    .elementor .elementor-element.pricing-carousel .pricing-card .btn-price {
+        padding: 14px 14px 16px;
+    }
+}
+
+/* ==================================================
+   BREADCRUMBS
+   ================================================== */
+
+.breadcrumbs {
+    padding: 10px 0;
+
+    color: #555555;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.breadcrumbs a {
+    color: var(--e-global-color-accent);
+
+    text-decoration: none;
+
+    transition: color 0.3s ease;
+}
+
+.breadcrumbs a:hover {
+    color: var(--e-global-color-accent);
+}
+
+.breadcrumbs span {
+    word-spacing: 5px;
+}
+
+.breadcrumbs .breadcrumb_last {
+    color: var(--e-global-color-accent);
+
+    font-weight: 300;
+}
+
+.breadcrumbs::before {
+    margin-right: 5px;
+
+    color: var(--e-global-color-accent);
+
+    font-size: 14px;
+}
+
+
+/* ==================================================
+   GENERAL SECTIONS
+   Elementor containers
+   ================================================== */
+
+.elementor .elementor-element.cm_intro_section.e-con {
+    padding: 80px 20px 0;
+}
+
+.elementor .elementor-element.cm_section.e-con {
+    padding: 80px 20px 0;
+}
+
+.elementor .elementor-element.cm_cta_section.e-con {
+    padding: 0;
+}
+
+.elementor .elementor-element.cm_section_filled.e-con {
+    padding: 80px 20px 0;
+    background-color: #EFF2EF;
+}
+
+/* Add this class only when a section needs bottom spacing */
+.elementor .elementor-element.cm_section_end.e-con {
+    padding-bottom: 80px;
+}
+
+
+/* ==================================================
+   GENERAL SECTIONS
+   Mobile
+   ================================================== */
+
+@media (max-width: 767px) {
+
+    .elementor .elementor-element.cm_intro_section.e-con {
+        padding: 30px 20px 0;
+    }
+
+    .elementor .elementor-element.cm_section.e-con {
+        padding: 30px 20px 0;
+    }
+
+    .elementor .elementor-element.cm_cta_section.e-con {
+        padding: 0;
+    }
+
+    .elementor .elementor-element.cm_section_filled.e-con {
+        padding: 30px 20px 0;
+    }
+
+    .elementor .elementor-element.cm_section_end.e-con {
+        padding-bottom: 30px;
+    }
+}
+
+
+/* ==================================================
+   GENERAL CONTENT CONTAINER
+   Reusable across the site
+
+   cm_container
+   = standard wide content container
+   ================================================== */
+
+.elementor .elementor-element.cm_container.e-con {
+    width: 100%;
+    max-width: 1080px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+    .elementor .elementor-element.cm_container.e-con {
+        max-width: 100%;
+
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+/* ==================================================
+   BLOG ARTICLE CONTAINERS
+   Short blog-only class system
+
+   cm_blog
+   = standard readable article container
+
+   cm_blog_fill
+   = soft gray background + inner padding
+
+   cm_blog_pad
+   = white background + inner padding
+
+   cm_blog_start
+   = optional top inner spacing
+
+   cm_blog_end
+   = optional bottom inner spacing
+   ================================================== */
+
+.single-post .elementor-element.cm_blog.e-con {
+    width: 100%;
+    max-width: 1080px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    box-sizing: border-box;
+}
+
+.single-post .elementor-element.cm_blog_fill.e-con {
+    padding: 30px;
+
+    background-color: #EFF2EF;
+
+    border-radius: 10px;
+}
+
+.single-post .elementor-element.cm_blog_pad.e-con {
+    padding: 30px;
+
+    background-color: #FFFFFF;
+
+    border-radius: 10px;
+}
+
+.single-post .elementor-element.cm_blog_start.e-con {
+    padding-top: 30px;
+}
+
+.single-post .elementor-element.cm_blog_end.e-con {
+    padding-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+
+    .single-post .elementor-element.cm_blog.e-con {
+        max-width: 100%;
+
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .single-post .elementor-element.cm_blog_fill.e-con,
+    .single-post .elementor-element.cm_blog_pad.e-con {
+        padding: 20px;
+
+        border-radius: 6px;
+    }
+
+    .single-post .elementor-element.cm_blog_start.e-con {
+        padding-top: 20px;
+    }
+
+    .single-post .elementor-element.cm_blog_end.e-con {
+        padding-bottom: 30px;
+    }
+}
+
+/* ==================================================
+   ELEMENTOR TEXT LISTS
+   ================================================== */
+
+.elementor-widget-text-editor ul,
+.elementor-widget-theme-post-content ul {
+    margin: 1em 0;
+    padding-left: 1.4em;
+
+    list-style: none;
+}
+
+.elementor-widget-text-editor ul li,
+.elementor-widget-theme-post-content ul li {
+    position: relative;
+
+    margin-bottom: 0.5em;
+    padding-left: 1.2em;
+}
+
+.elementor-widget-text-editor ul li::before,
+.elementor-widget-theme-post-content ul li::before {
+    content: "✓";
+
+    position: absolute;
+    top: 0.05em;
+    left: 0;
+
+    color: var(--e-global-color-accent);
+
+    font-weight: 700;
+}
+
+
+/* ==================================================
+   INTRO CONTENT
+   ================================================== */
+
+.elementor .elementor-element.cm_intro_text {
+    width: 100%;
+    max-width: 1080px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 18px 24px;
+
+    background-color: #EFF2EF;
+    border-radius: 8px;
+
+    font-size: 18px;
+    line-height: 1.45;
+
+    text-wrap: balance;
+}
+
+@media (max-width: 767px) {
+
+    .elementor .elementor-element.cm_intro_text {
+        max-width: 100%;
+
+        padding: 14px 16px;
+
+        border-radius: 4px;
+
+        font-size: 16px;
+        line-height: 1.4;
+
+        text-wrap: pretty;
+    }
+}
+
+/* ==================================================
+   ROTATING ICON
+   ================================================== */
+
+.elementor .elementor-element.rotate-icon .elementor-icon {
+    animation: rotateIcon 4s linear infinite;
+}
+
+@keyframes rotateIcon {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* ==================================================
+   SERVICE IMAGES
+   ================================================== */
+
+.elementor .elementor-element.cm_intro_img_big img,
+.elementor .elementor-element.cm_service_img_sm img {
+    border-radius: 10px;
+}
+
+
+/* ==================================================
+   SERVICE ITEM
+   Reusable clickable Elementor container
+   Stronger, cleaner service card
+   ================================================== */
+
+.elementor .elementor-element.cm_service_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    min-height: 64px;
+
+    padding: 12px 14px;
+
+    box-sizing: border-box;
+
+    background-color: #FFFFFF;
+
+    border: 1px solid rgba(41, 43, 38, 0.12);
+    border-radius: 8px;
+
+    color: var(--e-global-color-secondary);
+    text-decoration: none;
+    text-align: left;
+
+    cursor: pointer;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03);
+
+    transition:
+        background-color .25s ease,
+        border-color .25s ease,
+        color .25s ease,
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+
+/* Hover */
+
+.elementor .elementor-element.cm_service_item:hover,
+.elementor .elementor-element.cm_service_item:focus {
+    background-color: #FFFFFF;
+
+    border-color: rgba(99, 182, 0, 0.35);
+
+    color: var(--e-global-color-accent);
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 7px 18px rgba(0, 0, 0, 0.06);
+}
+
+
+/* Heading widget */
+
+.elementor .elementor-element.cm_service_item
+.elementor-widget-heading {
+    flex: 1 1 auto;
+
+    min-width: 0;
+    width: auto;
+
+    margin: 0;
+}
+
+
+/* Service title */
+
+.elementor .elementor-element.cm_service_item
+.elementor-heading-title {
+    display: -webkit-box;
+
+    margin: 0;
+
+    overflow: hidden;
+
+    color: inherit;
+
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.25;
+
+    text-align: left;
+    text-transform: uppercase;
+
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+
+/* Arrow */
+
+.elementor .elementor-element.cm_service_item::after {
+    content: "→";
+
+    display: inline-flex;
+    flex: 0 0 30px;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+
+    margin-left: 10px;
+
+    background-color: transparent;
+
+    border-radius: 0;
+
+    color: var(--e-global-color-accent);
+
+    font-size: 15px;
+    line-height: 1;
+
+    transition:
+        transform .25s ease,
+        background-color .25s ease,
+        color .25s ease;
+}
+
+
+/* Arrow hover */
+
+.elementor .elementor-element.cm_service_item:hover::after,
+.elementor .elementor-element.cm_service_item:focus::after {
+    background-color: transparent;
+
+    color: var(--e-global-color-accent);
+
+    transform: translateX(3px);
+}
+
+
+/* ==================================================
+   SERVICE ITEM
+   Mobile
+   ================================================== */
+
+@media (max-width: 767px) {
+
+    .elementor .elementor-element.cm_service_item {
+        min-height: 58px;
+
+        padding: 7px 12px;
+
+        border-radius: 6px;
+    }
+
+    .elementor .elementor-element.cm_service_item
+    .elementor-heading-title {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .elementor .elementor-element.cm_service_item::after {
+        flex-basis: 28px;
+
+        width: 28px;
+        height: 28px;
+
+        margin-left: 8px;
+
+        font-size: 14px;
+    }
+}
+
+
+/* ==================================================
+   UNIVERSAL HOVER CARD
+   Add class: cm-hover-card
+   ================================================== */
+
+.elementor .elementor-element.cm-hover-card {
+    transition:
+        transform .28s ease,
+        box-shadow .28s ease;
+}
+
+.elementor .elementor-element.cm-hover-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ==================================================
+   SERVICE CARD
+   ================================================== */
+
+.elementor .elementor-element.cm-service-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    background-color: #EFF2EF;
+
+    border-radius: 10px;
+}
+
+.elementor .elementor-element.cm-service-card .elementor-widget-html {
+    margin-top: auto;
+}
+
+/* ==================================================
+   SERVICE CARD HOVER
+   ================================================== */
+
+.elementor .elementor-element.cm-service-card {
+    overflow: hidden;
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        background-color .3s ease;
+}
+
+.elementor .elementor-element.cm-service-card:hover {
+    transform: translateY(-6px);
+
+    background-color: #FFFFFF;
+
+    box-shadow: 0 10px 28px rgba(0, 0, 0, .10);
+}
+
+
+/* Image */
+
+.elementor .elementor-element.cm-service-card .elementor-widget-image {
+    overflow: hidden;
+}
+
+.elementor .elementor-element.cm-service-card .elementor-widget-image img {
+    transition: transform .45s ease;
+}
+
+.elementor .elementor-element.cm-service-card:hover .elementor-widget-image img {
+    transform: scale(1.035);
+}
+
+
+/* Button */
+
+.elementor .elementor-element.cm-service-card .elementor-button {
+    transition:
+        transform .25s ease,
+        background-color .25s ease,
+        border-color .25s ease;
+}
+
+.elementor .elementor-element.cm-service-card:hover .elementor-button {
+    transform: translateY(-2px);
+}
+
+
+/* ==================================================
+   PROCESS STEPS
+   Elementor structure
+
+   Parent GRID container:
+   cm_steps
+
+   Each child card:
+   cm-step cm-hover-card
+
+   Inside each card:
+   Image widget   = cm-step__image
+   Heading widget = cm-step__title
+   Text widget    = cm-step__text
+
+   Important:
+   Grid columns / responsive grid layout are controlled
+   in Elementor, not here.
+   ================================================== */
+
+
+/* ==================================================
+   PROCESS STEPS
+   PARENT
+   ================================================== */
+
+.elementor .elementor-element.cm_steps.e-con {
+    counter-reset: cm-step;
+    align-items: stretch;
+}
+
+
+/* ==================================================
+   PROCESS STEP
+   CARD
+   ================================================== */
+
+.elementor .elementor-element.cm_steps
+> .elementor-element.cm-step.e-con {
+    counter-increment: cm-step;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    min-width: 0;
+    height: 100%;
+    min-height: 0;
+
+    padding: 14px 14px 16px;
+
+    box-sizing: border-box;
+
+    background:
+        linear-gradient(
+            180deg,
+            #FFFFFF 0%,
+            #FFFFFF 72%,
+            #F8FAF7 100%
+        );
+
+    border: 1px solid rgba(41, 43, 38, 0.10);
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 5px 18px rgba(0, 0, 0, 0.035),
+        0 1px 3px rgba(0, 0, 0, 0.025);
+
+    transition:
+        transform .28s ease,
+        box-shadow .28s ease,
+        border-color .28s ease,
+        background-color .28s ease;
+}
+
+
+/* Green top accent */
+
+.elementor .elementor-element.cm_steps
+> .elementor-element.cm-step.e-con::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 4px;
+
+    background-color: var(--e-global-color-accent);
+
+    z-index: 2;
+}
+
+
+/* Automatic STEP number badge */
+
+.elementor .elementor-element.cm_steps
+> .elementor-element.cm-step.e-con::after {
+    content: "0" counter(cm-step);
+
+    position: absolute;
+    top: 16px;
+    left: 16px;
+
+    z-index: 3;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 42px;
+    height: 26px;
+
+    padding: 0 9px;
+
+    box-sizing: border-box;
+
+    background-color: var(--e-global-color-accent);
+
+    border: 1px solid rgba(63, 129, 4, 0.35);
+    border-radius: 999px;
+
+    color: #FFFFFF;
+
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1;
+
+    letter-spacing: .8px;
+
+    box-shadow: 0 4px 10px rgba(78, 157, 5, 0.18);
+}
+
+
+/* Card hover */
+
+.elementor .elementor-element.cm_steps
+> .elementor-element.cm-step.e-con:hover {
+    border-color: rgba(99, 182, 0, 0.28);
+}
+
+
+/* ==================================================
+   PROCESS STEP
+   IMAGE
+   ================================================== */
+
+.elementor .elementor-element.cm_steps
+> .elementor-element.cm-step
+.elementor-element.cm-step__image {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    margin: 0 0 10px;
+
+    padding: 6px 4px 0;
+
+    box-sizing: border-box;
+}
+
+.elementor .elementor-element.cm_steps
+> .elementor-element.cm-step
+.elementor-element.cm-step__image
+.elementor-widget-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.elementor .elementor-element.cm_steps
+> .elementor-element.cm-step
+.elementor-element.cm-step__image img {
+    display: block;
+
+    width: 100%;
+    max-width: 175px;
+    height: 165px;
+
+    object-fit: contain;
+
+    transition:
+        transform .35s ease,
+        filter .35s ease;
+}
+
+
+/* Image hover */
+
+.elementor .elementor-element.cm_steps
+> .elementor-element.cm-step:hover
+.elementor-element.cm-step__image img {
+    transform: scale(1.04);
+
+    filter: saturate(1.04);
+}
+
+
+/* Soft divider below illustration */
+
+.elementor .elementor-element.cm_steps
+> .elementor-element.cm-step
+.elementor-element.cm-step__image::after {
+    content: "";
+
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    bottom: -2px;
+
+    height: 1px;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(99, 182, 0, 0) 0%,
+            rgba(99, 182, 0, 0.22) 50%,
+            rgba(99, 182, 0, 0) 100%
+        );
+}
+
+
+/* ==================================================
+   PROCESS STEP
+   TITLE
+   ================================================== */
+
+.elementor .elementor-element.cm_steps
+> .elementor-element.cm-step
+.elementor-element.cm-step__title {
+    width: 100%;
+
+    margin: 0 0 6px;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.elementor .elementor-element.cm_steps
+> .elementor-element.cm-step
+.elementor-element.cm-step__title
+.elementor-heading-title {
+    margin: 0;
+
+    color: var(--e-global-color-secondary);
+
+    font-size: clamp(19px, 1.25vw, 22px);
+    font-weight: 700;
+    line-height: 1.2;
+
+    text-align: left;
+
+    transition: color .25s ease;
+}
+
+.elementor .elementor-element.cm_steps
+> .elementor-element.cm-step:hover
+.elementor-element.cm-step__title
+.elementor-heading-title {
+    color: var(--e-global-color-accent);
+}
+
+
+/* ==================================================
+   PROCESS STEP
+   TEXT
+   ================================================== */
+
+.elementor .elementor-element.cm_steps
+> .elementor-element.cm-step
+.elementor-element.cm-step__text {
+    width: 100%;
+
+    margin: 0;
+}
+
+.elementor .elementor-element.cm_steps
+> .elementor-element.cm-step
+.elementor-element.cm-step__text
+.elementor-widget-container {
+    width: 100%;
+}
+
+.elementor .elementor-element.cm_steps
+> .elementor-element.cm-step
+.elementor-element.cm-step__text p {
+    margin: 0;
+
+    color: var(--e-global-color-text);
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.45;
+
+    text-align: left;
+}
+
+
+/* ==================================================
+   PROCESS STEPS
+   TABLET
+   ================================================== */
+
+@media (max-width: 1024px) {
+
+    .elementor .elementor-element.cm_steps
+    > .elementor-element.cm-step.e-con {
+        padding: 16px 16px 22px;
+    }
+
+    .elementor .elementor-element.cm_steps
+    > .elementor-element.cm-step.e-con::after {
+        top: 14px;
+        left: 14px;
+    }
+
+    .elementor .elementor-element.cm_steps
+    > .elementor-element.cm-step
+    .elementor-element.cm-step__image img {
+        max-width: 190px;
+        height: 190px;
+    }
+}
+
+
+/* ==================================================
+   PROCESS STEPS
+   MOBILE
+   ================================================== */
+
+@media (max-width: 767px) {
+
+    /* One card per row */
+    .elementor .elementor-element.cm_steps.e-con {
+        grid-template-columns: 1fr !important;
+    }
+
+    /* Compact horizontal card */
+    .elementor .elementor-element.cm_steps
+    > .elementor-element.cm-step.e-con {
+        display: grid;
+        grid-template-columns: 110px minmax(0, 1fr);
+        grid-template-rows: auto auto;
+        column-gap: 16px;
+        row-gap: 6px;
+
+        align-items: center;
+
+        min-height: 150px;
+
+        padding: 18px 16px 18px;
+
+        border-radius: 10px;
+    }
+
+    /* Number badge */
+    .elementor .elementor-element.cm_steps
+    > .elementor-element.cm-step.e-con::after {
+        top: 12px;
+        left: 12px;
+
+        min-width: 34px;
+        height: 22px;
+
+        padding: 0 7px;
+
+        font-size: 10px;
+    }
+
+    /* Image occupies left side */
+    .elementor .elementor-element.cm_steps
+    > .elementor-element.cm-step
+    .elementor-element.cm-step__image {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+
+        width: 100%;
+        margin: 0;
+        padding: 8px 0;
+    }
+
+    .elementor .elementor-element.cm_steps
+    > .elementor-element.cm-step
+    .elementor-element.cm-step__image::after {
+        display: none;
+    }
+
+    .elementor .elementor-element.cm_steps
+    > .elementor-element.cm-step
+    .elementor-element.cm-step__image img {
+        width: 100%;
+        max-width: 105px;
+        height: 105px;
+
+        object-fit: contain;
+    }
+
+    /* Title */
+    .elementor .elementor-element.cm_steps
+    > .elementor-element.cm-step
+    .elementor-element.cm-step__title {
+        grid-column: 2;
+        grid-row: 1;
+
+        align-self: end;
+
+        min-height: 0;
+        margin: 0;
+    }
+
+    .elementor .elementor-element.cm_steps
+    > .elementor-element.cm-step
+    .elementor-element.cm-step__title
+    .elementor-heading-title {
+        font-size: 18px;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    /* Text */
+    .elementor .elementor-element.cm_steps
+    > .elementor-element.cm-step
+    .elementor-element.cm-step__text {
+        grid-column: 2;
+        grid-row: 2;
+
+        align-self: start;
+
+        margin: 0;
+    }
+
+    .elementor .elementor-element.cm_steps
+    > .elementor-element.cm-step
+    .elementor-element.cm-step__text p {
+        font-size: 14px;
+        line-height: 1.45;
+        text-align: left;
+    }
+}
+
+
+/* ==================================================
+   PROCESS STEPS
+   ACCESSIBILITY
+   ================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .elementor .elementor-element.cm_steps
+    > .elementor-element.cm-step.e-con,
+    .elementor .elementor-element.cm_steps
+    > .elementor-element.cm-step
+    .elementor-element.cm-step__image img {
+        transition: none;
+    }
+
+    .elementor .elementor-element.cm_steps
+    > .elementor-element.cm-step.e-con:hover,
+    .elementor .elementor-element.cm_steps
+    > .elementor-element.cm-step:hover
+    .elementor-element.cm-step__image img {
+        transform: none;
+    }
+}
+
+
+/* ==================================================
+   COUNTER
+   ================================================== */
+
+.gc-counter-section {
+    padding: 60px 20px;
+}
+
+.gc-counter-grid {
+    display: grid;
+
+    width: 100%;
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+}
+
+.gc-counter-box {
+    min-height: 130px;
+
+    padding: 20px 16px;
+
+    background-color: #EFF2EF;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.gc-counter-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 6px;
+
+    text-align: center;
+}
+
+.gc-counter {
+    display: flex;
+    align-items: flex-start;
+
+    color: var(--e-global-color-accent);
+
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.gc-counter .suffix {
+    align-self: flex-start;
+
+    margin-left: 4px;
+
+    color: var(--e-global-color-secondary);
+
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.gc-label-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 6px;
+}
+
+.gc-counter-label {
+    margin: 0;
+
+    color: var(--e-global-color-secondary);
+
+    font-size: 1.1rem;
+    line-height: 1.3;
+}
+
+
+/* ==================================================
+   FLOATING CALL BUTTON
+   Mobile / Tablet only
+   ================================================== */
+
+.floating-call-button {
+    display: none;
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    z-index: 9999;
+
+    width: 56px;
+    height: 56px;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--e-global-color-accent);
+
+    border-radius: 50%;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.floating-call-button .phone-icon {
+    width: 28px;
+    height: 28px;
+
+    margin: auto;
+}
+
+
+/* ==================================================
+   LATEST FROM BLOG
+   ================================================== */
+
+.cm-blog-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 48px 36px;
+}
+
+
+/* Blog card */
+
+.cm-blog-grid .cm-blog-card {
+    display: block;
+    padding-bottom: 8px;
+
+    color: inherit;
+    text-decoration: none;
+
+    transform: translateY(0);
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+.cm-blog-grid .cm-blog-card:hover {
+    transform: translateY(-6px);
+}
+
+
+/* Blog image */
+
+.cm-blog-grid .cm-blog-card .cm-blog-image {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.cm-blog-grid .cm-blog-card .cm-blog-image img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    transition: transform 0.5s ease;
+}
+
+.cm-blog-grid .cm-blog-card:hover .cm-blog-image img {
+    transform: scale(1.06);
+}
+
+
+/* Blog title */
+
+.cm-blog-grid .cm-blog-card > h3.cm-blog-title {
+    display: -webkit-box;
+
+    margin: 12px 0 0;
+
+    overflow: hidden;
+
+    color: var(--e-global-color-secondary);
+	
+	font-size: clamp(16px, 1.05vw, 18px);
+
+    font-weight: 400;
+    line-height: 1.3;
+
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+
+/* ==================================================
+   LATEST FROM BLOG
+   Mobile
+   ================================================== */
+
+@media (max-width: 767px) {
+
+    .cm-blog-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 30px 16px;
+    }
+
+    .cm-blog-grid .cm-blog-card > h3.cm-blog-title {
+        margin-top: 10px;
+        line-height: 1.3;
+    }
+}
+/* ==================================================
+   INNER PAGE HERO
+   Desktop
+   ================================================== */
+
+.elementor .elementor-element.cm-hero.e-con {
+    min-height: clamp(560px, 72vh, 720px);
+
+    gap: 30px;
+
+    padding: 70px 20px;
+}
+
+.elementor .elementor-element.cm-hero__services .elementor-heading-title {
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+/* ==================================================
+   INNER PAGE HERO
+   Mobile
+   ================================================== */
+
+@media (max-width: 767px) {
+
+    .elementor .elementor-element.cm-hero.e-con {
+        min-height: auto;
+
+        padding: 20px 20px;
+
+        gap: 2px;
+    }
+
+    .elementor .elementor-element.cm-hero__title {
+        width: 100%;
+        max-width: 100%;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .elementor .elementor-element.cm-hero__title
+    .elementor-heading-title {
+        width: 100%;
+
+        margin: 0;
+
+        text-align: center;
+    }
+
+    .elementor .elementor-element.cm-hero_line {
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    .elementor .elementor-element.cm-hero_line .elementor-divider-separator {
+        width: 40px;
+
+        border-top-width: 2px;
+    }
+
+    .elementor .elementor-element.cm-hero__subtitle {
+        max-width: 100%;
+    }
+
+    .elementor .elementor-element.cm-hero__buttons.e-con {
+        gap: 8px;
+    }
+
+    .elementor .elementor-element.cm-hero__services {
+        margin-top: 0;
+    }
+
+    .elementor .elementor-element.cm-hero__services .elementor-heading-title {
+		font-size: 13px;
+        line-height: 1.4;
+        padding: 7px 11px;
+
+        border-radius: 6px;
+    }
+
+    .elementor .elementor-element.cm-hero__reviews {
+        min-height: 42px;
+    }
+
+    .elementor .elementor-element.cm-video-cta.e-con {
+        gap: 8px;
+        margin-top: 0;
+    }
+
+    .elementor .elementor-element.cm-video-cta .elementor-icon svg {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+/* ==================================================
+   HERO REVIEWS
+   Layout stabilization only — no animation
+   ================================================== */
+
+.elementor .elementor-element.cm-hero__reviews {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .elementor .elementor-element.cm-hero__reviews {
+        min-height: 46px;
+    }
+}
+
+
+/* ==================================================
+   HERO ENTRANCE ANIMATION
+   Smooth staggered reveal
+   Layout-safe: does not change flex direction, size or position flow
+   ================================================== */
+
+@keyframes cmHeroRevealUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 12px, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes cmHeroRevealFade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* Keep Elementor editor fully visible */
+
+.elementor.elementor-edit-mode .cm-hero .cm-hero__title,
+.elementor.elementor-edit-mode .cm-hero .cm-hero_line,
+.elementor.elementor-edit-mode .cm-hero .cm-hero__subtitle,
+.elementor.elementor-edit-mode .cm-hero .cm-hero__reviews,
+.elementor.elementor-edit-mode .cm-hero .cm-hero__buttons,
+.elementor.elementor-edit-mode .cm-hero .cm-hero__services,
+.elementor.elementor-edit-mode .cm-hero .cm-video-cta {
+    opacity: 1;
+    transform: none;
+    animation: none;
+}
+
+
+/* Frontend
+   Only opacity + transform are animated.
+   No display / flex / width / height changes here.
+*/
+
+.elementor:not(.elementor-edit-mode) .cm-hero .cm-hero__title,
+.elementor:not(.elementor-edit-mode) .cm-hero .cm-hero_line,
+.elementor:not(.elementor-edit-mode) .cm-hero .cm-hero__subtitle,
+.elementor:not(.elementor-edit-mode) .cm-hero .cm-hero__buttons,
+.elementor:not(.elementor-edit-mode) .cm-hero .cm-hero__services,
+.elementor:not(.elementor-edit-mode) .cm-hero .cm-video-cta {
+    animation-name: cmHeroRevealUp;
+    animation-duration: 1.55s;
+    animation-timing-function: cubic-bezier(.25, .1, .25, 1);
+    animation-fill-mode: both;
+}
+
+
+/* Trustindex
+   Fade only because its content is rendered later by JavaScript.
+   Its reserved min-height prevents the buttons below from jumping.
+*/
+
+.elementor:not(.elementor-edit-mode) .cm-hero .cm-hero__reviews {
+    animation-name: cmHeroRevealFade;
+    animation-duration: 1.35s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+
+
+/* Gentle stagger */
+
+.elementor:not(.elementor-edit-mode) .cm-hero .cm-hero__title {
+    animation-delay: .05s;
+}
+
+.elementor:not(.elementor-edit-mode) .cm-hero .cm-hero_line {
+    animation-delay: .16s;
+}
+
+.elementor:not(.elementor-edit-mode) .cm-hero .cm-hero__subtitle {
+    animation-delay: .27s;
+}
+
+.elementor:not(.elementor-edit-mode) .cm-hero .cm-hero__reviews {
+    animation-delay: .40s;
+}
+
+.elementor:not(.elementor-edit-mode) .cm-hero .cm-hero__buttons {
+    animation-delay: .53s;
+}
+
+.elementor:not(.elementor-edit-mode) .cm-hero .cm-hero__services {
+    animation-delay: .66s;
+}
+
+.elementor:not(.elementor-edit-mode) .cm-hero .cm-video-cta {
+    animation-delay: .79s;
+}
+
+
+/* Accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .elementor .cm-hero .cm-hero__title,
+    .elementor .cm-hero .cm-hero_line,
+    .elementor .cm-hero .cm-hero__subtitle,
+    .elementor .cm-hero .cm-hero__reviews,
+    .elementor .cm-hero .cm-hero__buttons,
+    .elementor .cm-hero .cm-hero__services,
+    .elementor .cm-hero .cm-video-cta {
+        opacity: 1;
+        transform: none;
+        animation: none;
+    }
+}
+
+/* ==================================================
+   PRODUCT LOOP GRID
+   Equal-height cards
+   ================================================== */
+
+.elementor .elementor-loop-container {
+    align-items: stretch;
+}
+
+.elementor .e-loop-item {
+    display: flex;
+    align-items: stretch;
+}
+
+.elementor .e-loop-item > .elementor-element {
+    width: 100%;
+}
+
+
+/* ==================================================
+   PRODUCT CARD
+   ================================================== */
+
+.elementor .e-loop-item .elementor-element.product-card.e-con {
+    height: 100%;
+
+    background-color: #FFFFFF;
+
+    border: 1px solid rgba(41, 43, 38, 0.08);
+    border-radius: 14px;
+
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+
+    overflow: hidden;
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        border-color .3s ease;
+}
+
+.elementor .e-loop-item .elementor-element.product-card.e-con:hover {
+    transform: translateY(-5px);
+
+    border-color: rgba(99, 182, 0, 0.22);
+
+    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.09);
+}
+
+
+/* Inner card layout */
+
+.elementor .e-loop-item
+.elementor-element.product-card.e-con
+> .e-con-inner {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 18px;
+}
+
+
+/* ==================================================
+   PRODUCT IMAGE
+   ================================================== */
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.elementor-element.product-card__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 220px;
+
+    margin: 0 0 18px;
+
+    background-color: #F7F8F5;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__image
+.elementor-widget-container,
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__image a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__image img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+
+    padding: 16px;
+
+    transition: transform .35s ease;
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card:hover
+.product-card__image img {
+    transform: scale(1.035);
+}
+
+
+/* ==================================================
+   PRODUCT INFO
+   ================================================== */
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.elementor-element.product-card__info.e-con {
+    width: 100%;
+
+    gap: 12px;
+}
+
+
+/* ==================================================
+   PRODUCT TITLE
+   ================================================== */
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.elementor-element.product-card__title {
+    margin: 0;
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__title
+.product_title {
+    display: -webkit-box;
+
+    min-height: 48px;
+    margin: 0;
+
+    overflow: hidden;
+
+    font-size: clamp(17px, 1.15vw, 20px);
+    font-weight: 700;
+    line-height: 1.2;
+
+    text-align: left;
+
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__title
+.product_title a {
+    color: var(--e-global-color-secondary);
+
+    text-decoration: none;
+}
+
+
+/* ==================================================
+   PRODUCT FEATURE
+   ================================================== */
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.elementor-element.product-card__feature {
+    width: fit-content;
+
+    margin: 0;
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__feature
+.elementor-icon-box-wrapper {
+    display: inline-flex;
+    align-items: center;
+
+    width: auto;
+
+    gap: 6px;
+
+    padding: 7px 10px;
+
+    background-color: #EFF2EF;
+
+    border-radius: 6px;
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__feature
+.elementor-icon-box-icon {
+    margin: 0;
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__feature
+.elementor-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 15px;
+    height: 15px;
+
+    color: var(--e-global-color-secondary);
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__feature
+.elementor-icon svg {
+    width: 15px;
+    height: 15px;
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__feature
+.elementor-icon-box-title {
+    margin: 0;
+
+    color: var(--e-global-color-secondary);
+
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+
+/* ==================================================
+   PRICE BLOCK
+   ================================================== */
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.elementor-element.product-card__price-block.e-con {
+    width: 100%;
+
+    margin-top: auto;
+    padding-top: 22px;
+
+    gap: 3px;
+
+    text-align: center;
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__label {
+    margin: 0;
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__label
+.elementor-heading-title {
+    margin: 0;
+
+    color: var(--e-global-color-accent);
+
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__price {
+    margin: 0;
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__price
+.price {
+    margin: 0;
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__price
+.woocommerce-Price-amount {
+    color: var(--e-global-color-accent);
+
+    font-size: clamp(26px, 2vw, 34px);
+    font-weight: 800;
+    line-height: 1.05;
+}
+
+
+/* ==================================================
+   PRODUCT BUTTON
+   ================================================== */
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.elementor-element.product-card__button {
+    width: 100%;
+
+    margin-top: 18px;
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__button
+.elementor-widget-container,
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__button
+.elementor-button-wrapper,
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__button
+.elementor-button {
+    width: 100%;
+}
+
+.elementor .e-loop-item
+.elementor-element.product-card
+.product-card__button
+.elementor-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 50px;
+
+    padding: 0 18px;
+
+    border-radius: 8px;
+
+    font-size: 14px;
+}
+
+
+/* ==================================================
+   PRODUCT CARD
+   Mobile
+   Compact 2-column product layout
+   ================================================== */
+
+@media (max-width: 767px) {
+
+    /* Product grid gaps */
+    .elementor-widget-loop-grid:has(.product-card)
+    .elementor-loop-container {
+        gap: 6px;
+        row-gap: 6px;
+        column-gap: 6px;
+        align-items: start;
+    }
+
+
+    /* Stop desktop equal-height stretching on mobile */
+    .elementor .e-loop-item:has(.product-card) {
+        align-items: flex-start;
+        height: auto;
+        min-height: 0;
+    }
+
+    .elementor .e-loop-item:has(.product-card)
+    > .elementor-element {
+        height: auto;
+        min-height: 0;
+    }
+
+
+    /* Card */
+    .elementor .e-loop-item
+    .elementor-element.product-card.e-con {
+        height: auto;
+        min-height: 0;
+
+        gap: 0;
+
+        border-radius: 8px;
+
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.035);
+    }
+
+    .elementor .e-loop-item
+    .elementor-element.product-card.e-con
+    > .e-con-inner {
+        height: auto;
+        min-height: 0;
+
+        gap: 0;
+
+        padding: 4px;
+    }
+
+
+    /* Product info spacing */
+    .elementor .e-loop-item
+    .elementor-element.product-card
+    .elementor-element.product-card__info.e-con {
+        gap: 4px;
+    }
+
+
+    /* Image box - completely independent mobile size */
+    .elementor .e-loop-item
+    .elementor-element.product-card
+    .elementor-element.product-card__image {
+        flex: 0 0 96px;
+
+        width: 100%;
+        height: 96px;
+        min-height: 96px;
+        max-height: 96px;
+
+        margin: 0 0 3px;
+
+        border-radius: 5px;
+    }
+
+    .elementor .e-loop-item
+    .elementor-element.product-card
+    .elementor-element.product-card__image
+    .elementor-widget-container,
+    .elementor .e-loop-item
+    .elementor-element.product-card
+    .elementor-element.product-card__image a {
+        width: 100%;
+        height: 96px;
+        min-height: 96px;
+        max-height: 96px;
+    }
+
+    .elementor .e-loop-item
+    .elementor-element.product-card
+    .elementor-element.product-card__image img {
+        display: block;
+
+        width: 100%;
+        height: 96px;
+        max-height: 96px;
+
+        padding: 3px;
+
+        object-fit: contain;
+    }
+
+
+    /* Title */
+    .elementor .e-loop-item
+    .elementor-element.product-card
+    .product-card__title
+    .product_title {
+        min-height: 24px;
+
+        margin: 0;
+
+        font-size: 12px;
+        line-height: 1.15;
+
+        -webkit-line-clamp: 2;
+    }
+
+
+    /* Installation badge */
+    .elementor .e-loop-item
+    .elementor-element.product-card
+    .product-card__feature
+    .elementor-icon-box-wrapper {
+        gap: 3px;
+
+        padding: 2px 4px;
+
+        border-radius: 4px;
+    }
+
+    .elementor .e-loop-item
+    .elementor-element.product-card
+    .product-card__feature
+    .elementor-icon,
+    .elementor .e-loop-item
+    .elementor-element.product-card
+    .product-card__feature
+    .elementor-icon svg {
+        width: 10px;
+        height: 10px;
+    }
+
+    .elementor .e-loop-item
+    .elementor-element.product-card
+    .product-card__feature
+    .elementor-icon-box-title {
+        font-size: 8px;
+        line-height: 1;
+    }
+
+
+    /* Price block */
+    .elementor .e-loop-item
+    .elementor-element.product-card
+    .product-card__price-block.e-con {
+        margin-top: 0;
+        padding-top: 3px;
+
+        gap: 0;
+    }
+
+    .elementor .e-loop-item
+    .elementor-element.product-card
+    .product-card__label
+    .elementor-heading-title {
+        font-size: 9px;
+        line-height: 1.05;
+    }
+
+    .elementor .e-loop-item
+    .elementor-element.product-card
+    .product-card__price
+    .woocommerce-Price-amount {
+        font-size: 18px;
+        line-height: 1;
+    }
+
+
+    /* Request button */
+    .elementor .e-loop-item
+    .elementor-element.product-card
+    .product-card__button {
+        margin-top: 3px;
+    }
+
+    .elementor .e-loop-item
+    .elementor-element.product-card
+    .product-card__button
+    .elementor-button {
+        min-height: 28px;
+
+        padding: 0 6px;
+
+        font-size: 9px;
+
+        border-radius: 4px;
+    }
+}
+/* ==================================================
+   BLOG ARTICLE IMAGES ONLY
+   Rounded corners only
+   ================================================== */
+
+.single-post .blog-content .elementor-widget-image {
+    padding: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.single-post .blog-content .elementor-widget-image img {
+    display: block;
+    width: 100%;
+    border: 0 !important;
+    border-radius: 14px;
+    box-shadow: none !important;
+}
+
+.single-post .blog-content .elementor-widget-image a {
+    display: block;
+    border: 0 !important;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: none !important;
+}
+
+
+
+/* ==================================================
+   BLOG ARTICLE CONTENT
+   Main article wrapper
+
+   blog-content controls:
+   - top spacing for the article
+   - automatic spacing between direct inner containers
+
+   Width is controlled by:
+   - cm_blog
+   - cm_container
+   ================================================== */
+
+.single-post .elementor-element.blog-content.e-con {
+    padding-top: 30px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+
+    gap: 42px;
+}
+
+
+/* ==================================================
+   BLOG ARTICLE CONTENT
+   Mobile
+   ================================================== */
+
+@media (max-width: 767px) {
+
+    .single-post .elementor-element.blog-content.e-con {
+        padding-top: 20px;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+
+        gap: 30px;
+    }
+}
+
+
+/* ==================================================
+   BLOG ARTICLE INNER BLOCKS
+   Reusable blocks inside article containers
+
+   cm_blog_grid
+   = parent grid/container for groups of cards
+
+   cm_blog_box
+   = base inner content box
+
+   cm_blog_box_fill
+   = soft gray filled box
+
+   cm_blog_box_card
+   = white bordered card
+
+   cm_blog_box_compact
+   = reduced inner padding
+
+   Grid columns / layout are controlled in Elementor.
+   ================================================== */
+
+
+/* Article grid / group */
+.single-post .elementor-element.cm_blog_grid.e-con {
+    width: 100%;
+    max-width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    gap: 16px;
+
+    align-items: stretch;
+
+    box-sizing: border-box;
+}
+
+
+/* Base inner article box */
+.single-post .elementor-element.cm_blog_box.e-con {
+    width: 100%;
+    height: 100%;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    border-radius: 10px;
+}
+
+
+/* Soft filled block */
+.single-post .elementor-element.cm_blog_box_fill.e-con {
+    background-color: #EFF2EF;
+}
+
+
+/* White card */
+.single-post .elementor-element.cm_blog_box_card.e-con {
+    background-color: #FFFFFF;
+
+    border: 1px solid rgba(41, 43, 38, 0.10);
+
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.035);
+}
+
+
+/* Compact modifier */
+.single-post .elementor-element.cm_blog_box_compact.e-con {
+    padding: 16px;
+}
+
+
+/* Images inside article boxes */
+.single-post .elementor-element.cm_blog_box.e-con
+.elementor-widget-image img {
+    display: block;
+
+    width: 100%;
+
+    border-radius: 8px;
+}
+
+
+/* ==================================================
+   BLOG ARTICLE INNER BLOCKS
+   Mobile
+   ================================================== */
+
+@media (max-width: 767px) {
+
+    .single-post .elementor-element.cm_blog_grid.e-con {
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0;
+        padding: 0;
+
+        gap: 16px;
+
+        box-sizing: border-box;
+    }
+
+    .single-post .elementor-element.cm_blog_box.e-con {
+        padding: 18px;
+
+        border-radius: 7px;
+    }
+
+    .single-post .elementor-element.cm_blog_box_compact.e-con {
+        padding: 14px;
+    }
+
+    .single-post .elementor-element.cm_blog_box.e-con
+    .elementor-widget-image img {
+        border-radius: 5px;
+    }
+}
+
+/* ==================================================
+   SMART HEADER
+   Elementor handles Sticky positioning
+   JS only adds:
+   .header-hidden
+   .header-visible
+   ================================================== */
+
+.elementor .elementor-element.smart-header.e-con {
+    z-index: 9999;
+
+    min-height: 72px;
+    padding: 8px 20px;
+
+    box-sizing: border-box;
+
+    transform: translate3d(0, 0, 0);
+
+    transition:
+        transform .35s cubic-bezier(.22, .61, .36, 1),
+        box-shadow .25s ease;
+
+    will-change: transform;
+    backface-visibility: hidden;
+}
+
+
+/* Hide on scroll down */
+
+.elementor .elementor-element.smart-header.e-con.header-hidden {
+    transform: translate3d(0, -110%, 0);
+}
+
+
+/* Show on scroll up */
+
+.elementor .elementor-element.smart-header.e-con.header-visible {
+    transform: translate3d(0, 0, 0);
+}
+
+
+/* Optional subtle shadow when header is visible */
+
+.elementor .elementor-element.smart-header.e-con.header-visible {
+    box-shadow: 0 4px 18px rgba(0, 0, 0, .06);
+}
+
+
+/* ==================================================
+   SMART HEADER MOBILE
+   ================================================== */
+
+@media (max-width: 767px) {
+
+    .elementor .elementor-element.smart-header.e-con {
+        min-height: 72px;
+
+        padding: 7px 14px;
+    }
+}
+
+
+
+/* ==================================================
+   HEADER LOGO
+   Add class: cm-header-logo to the Elementor Image widget
+   ================================================== */
+
+.elementor .elementor-element.cm-header-logo {
+    line-height: 0;
+}
+
+.elementor .elementor-element.cm-header-logo img {
+    display: block;
+    width: 133px;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+
+    .elementor .elementor-element.cm-header-logo img {
+        width: 125px;
+    }
+}
+
+/* ==================================================
+   SWIPE HINT
+   Mobile only
+   Existing HTML: <div class="slider-hint" id="swipeHint">← Swipe →</div>
+   ================================================== */
+
+.slider-hint {
+    display: none;
+}
+
+@media (max-width: 767px) {
+
+    .slider-hint {
+        display: block;
+
+        margin-bottom: 10px;
+
+        text-align: center;
+
+        color: var(--e-global-color-secondary);
+
+        font-size: 13px;
+        font-weight: 600;
+
+        opacity: 0;
+        visibility: visible;
+
+        animation: swipeHint 4.2s ease-in-out 0.5s 1 forwards;
+    }
+
+    @keyframes swipeHint {
+
+        0% {
+            opacity: 0;
+            transform: translateX(0);
+            visibility: visible;
+        }
+
+        12% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        28% {
+            opacity: 1;
+            transform: translateX(-12px);
+        }
+
+        44% {
+            opacity: 1;
+            transform: translateX(12px);
+        }
+
+        60% {
+            opacity: 1;
+            transform: translateX(-12px);
+        }
+
+        76% {
+            opacity: 1;
+            transform: translateX(12px);
+        }
+
+        88% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        100% {
+            opacity: 0;
+            transform: translateX(0);
+            visibility: hidden;
+        }
+    }
+}
+
+/* ==================================================
+   ELEMENTOR IMAGES
+   Global rounded image style
+   ================================================== */
+
+.elementor .elementor-element.cm-img img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    .elementor .elementor-element.cm-img img {
+        border-radius: 5px;
+    }
+}
+
+/* ==================================================
+   HERO VIDEO CTA
+   Whole block clickable
+   ================================================== */
+
+.elementor .elementor-element.cm-video-cta.e-con {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: auto;
+
+    gap: 12px;
+
+    margin-top: 0;
+
+    color: var(--e-global-color-primary);
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+.elementor .elementor-element.cm-video-cta .elementor-icon {
+    color: var(--e-global-color-primary);
+
+    transition:
+        color .25s ease,
+        transform .25s ease;
+}
+
+.elementor .elementor-element.cm-video-cta .elementor-icon svg {
+    width: 28px;
+    height: 28px;
+
+    color: inherit;
+    fill: currentColor;
+
+    transition:
+        color .25s ease,
+        fill .25s ease,
+        stroke .25s ease;
+}
+
+.elementor .elementor-element.cm-video-cta .elementor-icon svg path {
+    fill: currentColor !important;
+    stroke: currentColor;
+}
+
+.elementor .elementor-element.cm-video-cta:hover .elementor-icon,
+.elementor .elementor-element.cm-video-cta:hover .elementor-icon svg {
+    color: var(--e-global-color-accent);
+}
+
+.elementor .elementor-element.cm-video-cta:hover .elementor-icon {
+    transform: translateX(2px);
+}
+
+.elementor .elementor-element.cm-video-cta:hover .elementor-icon svg path {
+    fill: var(--e-global-color-accent) !important;
+    stroke: var(--e-global-color-accent);
+}
+
+.elementor .elementor-element.cm-video-cta__text.e-con {
+    width: auto;
+
+    gap: 2px;
+}
+
+.elementor .elementor-element.cm-video-cta__title .elementor-heading-title {
+    margin: 0;
+
+    color: var(--e-global-color-primary);
+
+    font-size: clamp(14px, 1.1vw, 17px);
+    font-weight: 700;
+    line-height: 1.2;
+
+    text-align: left;
+    text-transform: uppercase;
+
+    transition: color .25s ease;
+}
+
+.elementor .elementor-element.cm-video-cta:hover
+.cm-video-cta__title .elementor-heading-title {
+    color: var(--e-global-color-accent);
+}
+
+.elementor .elementor-element.cm-video-cta__subtitle,
+.elementor .elementor-element.cm-video-cta__subtitle p {
+    margin: 0;
+
+    color: var(--e-global-color-text);
+
+    font-size: clamp(12px, 1vw, 14px);
+    line-height: 1.3;
+
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+
+    .elementor .elementor-element.cm-video-cta.e-con {
+        gap: 10px;
+        margin-top: 0;
+    }
+
+    .elementor .elementor-element.cm-video-cta .elementor-icon svg {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+/* ==================================================
+   HERO BACKGROUND
+   Soft animated gradient
+   ================================================== */
+
+.elementor .elementor-element.cm-hero.e-con {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+
+    background:
+        radial-gradient(
+            circle at 18% 20%,
+            rgba(78, 157, 5, 0.07) 0,
+            rgba(78, 157, 5, 0) 34%
+        ),
+        radial-gradient(
+            circle at 82% 72%,
+            rgba(99, 182, 0, 0.055) 0,
+            rgba(99, 182, 0, 0) 36%
+        ),
+        linear-gradient(
+            135deg,
+            #F4F7F3 0%,
+            #EFF2EF 48%,
+            #F7F9F6 100%
+        );
+}
+
+
+/* Soft moving light */
+
+.elementor .elementor-element.cm-hero.e-con::before {
+    content: "";
+
+    position: absolute;
+    inset: -15%;
+
+    z-index: -1;
+
+    pointer-events: none;
+
+    background:
+        radial-gradient(
+            circle at 30% 40%,
+            rgba(78, 157, 5, 0.06) 0,
+            rgba(78, 157, 5, 0) 28%
+        ),
+        radial-gradient(
+            circle at 70% 55%,
+            rgba(99, 182, 0, 0.045) 0,
+            rgba(99, 182, 0, 0) 30%
+        );
+
+    filter: blur(18px);
+
+    animation: cmHeroBackgroundFloat 16s ease-in-out infinite alternate;
+}
+
+
+/* Gentle motion */
+
+@keyframes cmHeroBackgroundFloat {
+    0% {
+        transform: translate3d(-1.5%, -1%, 0) scale(1);
+    }
+
+    100% {
+        transform: translate3d(1.5%, 1%, 0) scale(1.035);
+    }
+}
+
+
+/* Keep content above background */
+
+.elementor .elementor-element.cm-hero.e-con > * {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+    .elementor .elementor-element.cm-hero.e-con::before {
+        animation: none;
+        transform: none;
+    }
+}
+
+/* ==================================================
+   FAQ WIDGET
+   Class: cm-faq
+   ================================================== */
+
+.elementor .elementor-element.cm-faq .e-n-accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+
+/* FAQ item */
+
+.elementor .elementor-element.cm-faq .e-n-accordion-item {
+    overflow: hidden;
+
+    background-color: #FFFFFF;
+
+    border: 1px solid rgba(41, 43, 38, 0.10);
+    border-radius: 10px;
+
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.035);
+
+    transition:
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+
+
+/* Hover */
+
+.elementor .elementor-element.cm-faq .e-n-accordion-item:hover {
+    border-color: rgba(78, 157, 5, 0.22);
+
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.045);
+}
+
+
+/* Open item */
+
+.elementor .elementor-element.cm-faq .e-n-accordion-item[open] {
+    border-color: rgba(78, 157, 5, 0.28);
+
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+
+/* Question row */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 16px;
+
+    min-height: 58px;
+    padding: 14px 18px;
+
+    background-color: #FFFFFF;
+
+    border: 0;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    transition:
+        background-color .25s ease,
+        color .25s ease;
+}
+
+
+/* Header/text side */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item-title-header {
+    flex: 1 1 auto;
+    min-width: 0;
+
+    order: 1;
+}
+
+
+/* Question text */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item-title-text {
+    width: 100%;
+
+    color: var(--e-global-color-secondary);
+
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.35;
+
+    text-align: left;
+
+    transition: color .25s ease;
+}
+
+
+/* Open question background */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item[open]
+> .e-n-accordion-item-title {
+    background-color: #F7F9F7;
+}
+
+
+/* Hover / open question color */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item-title:hover
+.e-n-accordion-item-title-text,
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item[open]
+> .e-n-accordion-item-title
+.e-n-accordion-item-title-text {
+    color: var(--e-global-color-accent);
+}
+
+
+/* ==================================================
+   FAQ PLUS / MINUS ICON
+   ================================================== */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item-title-icon {
+    display: flex !important;
+    flex: 0 0 30px !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    order: 2;
+
+    width: 30px !important;
+    height: 30px !important;
+
+    margin: 0 0 0 16px !important;
+    padding: 0 !important;
+
+    background-color: #F1F4F1;
+    border-radius: 50%;
+
+    color: var(--e-global-color-accent);
+
+    line-height: 1 !important;
+}
+
+
+/* Closed item: show PLUS only */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item:not([open])
+.e-n-accordion-item-title-icon .e-opened {
+    display: none !important;
+}
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item:not([open])
+.e-n-accordion-item-title-icon .e-closed {
+    display: flex !important;
+}
+
+
+/* Open item: show MINUS only */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item[open]
+.e-n-accordion-item-title-icon .e-opened {
+    display: flex !important;
+}
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item[open]
+.e-n-accordion-item-title-icon .e-closed {
+    display: none !important;
+}
+
+
+/* Center active icon */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item-title-icon .e-opened,
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item-title-icon .e-closed {
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    line-height: 0 !important;
+}
+
+
+/* SVG */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item-title-icon svg {
+    display: block !important;
+
+    width: 10px !important;
+    height: 10px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    fill: currentColor;
+}
+
+
+/* Open state */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item[open]
+.e-n-accordion-item-title-icon {
+    background-color: #E9EFE8;
+    color: var(--e-global-color-accent);
+}
+
+/* ==================================================
+   ANSWER
+   ================================================== */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item
+> .e-con {
+    background-color: #FFFFFF;
+}
+
+
+/* Divider */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item[open]
+> .e-con {
+    border-top: 1px solid rgba(41, 43, 38, 0.06);
+}
+
+
+/* Remove unnecessary widget spacing */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item
+.elementor-widget-text-editor {
+    margin: 0;
+}
+
+
+/* Answer text */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item
+.elementor-widget-text-editor p {
+    margin: 0;
+    padding: 15px 18px 17px;
+
+    color: var(--e-global-color-text);
+
+    font-size: 15px;
+    line-height: 1.65;
+
+    text-align: left;
+}
+
+
+/* Remove browser details marker */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item-title::-webkit-details-marker {
+    display: none;
+}
+
+
+/* Keyboard focus */
+
+.elementor .elementor-element.cm-faq
+.e-n-accordion-item-title:focus-visible {
+    outline: 2px solid var(--e-global-color-accent);
+    outline-offset: -2px;
+}
+
+
+/* ==================================================
+   FAQ MOBILE
+   ================================================== */
+
+@media (max-width: 767px) {
+
+    .elementor .elementor-element.cm-faq .e-n-accordion {
+        gap: 8px;
+    }
+
+    .elementor .elementor-element.cm-faq .e-n-accordion-item {
+        border-radius: 7px;
+    }
+
+    .elementor .elementor-element.cm-faq
+    .e-n-accordion-item-title {
+        min-height: 54px;
+
+        gap: 10px;
+
+        padding: 13px 14px;
+    }
+
+    .elementor .elementor-element.cm-faq
+    .e-n-accordion-item-title-text {
+        font-size: 15px;
+        line-height: 1.35;
+    }
+
+    .elementor .elementor-element.cm-faq
+    .e-n-accordion-item-title-icon {
+        flex: 0 0 28px !important;
+
+        width: 28px !important;
+        height: 28px !important;
+
+        margin-left: 10px !important;
+    }
+
+    .elementor .elementor-element.cm-faq
+    .e-n-accordion-item-title-icon svg {
+        width: 9px !important;
+        height: 9px !important;
+    }
+
+    .elementor .elementor-element.cm-faq
+    .e-n-accordion-item
+    .elementor-widget-text-editor p {
+        padding: 13px 14px 15px;
+
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
+
+/* ==================================================
+   COUNTER SECTION
+   Dark premium background
+   ================================================== */
+
+.elementor .elementor-element.counter_section.e-con {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+
+    background:
+        radial-gradient(
+            circle at 18% 25%,
+            rgba(255, 255, 255, 0.055) 0,
+            rgba(255, 255, 255, 0) 30%
+        ),
+        radial-gradient(
+            circle at 82% 70%,
+            rgba(255, 255, 255, 0.035) 0,
+            rgba(255, 255, 255, 0) 28%
+        ),
+        linear-gradient(
+            135deg,
+            var(--e-global-color-primary) 0%,
+            #232521 52%,
+            var(--e-global-color-primary) 100%
+        );
+
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.03),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.35);
+}
+
+
+/* Large soft gray spot */
+
+.elementor .elementor-element.counter_section.e-con::before {
+    content: "";
+
+    position: absolute;
+    top: -160px;
+    right: 6%;
+
+    width: 360px;
+    height: 360px;
+
+    z-index: 0;
+
+    background: rgba(255, 255, 255, 0.035);
+
+    border-radius: 50%;
+
+    filter: blur(55px);
+
+    pointer-events: none;
+}
+
+
+/* Second darker spot */
+
+.elementor .elementor-element.counter_section.e-con::after {
+    content: "";
+
+    position: absolute;
+    bottom: -180px;
+    left: 8%;
+
+    width: 320px;
+    height: 320px;
+
+    z-index: 0;
+
+    background: rgba(0, 0, 0, 0.18);
+
+    border-radius: 50%;
+
+    filter: blur(60px);
+
+    pointer-events: none;
+}
+
+
+/* Content above background */
+
+.elementor .elementor-element.counter_section.e-con > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* ==================================================
+   MOBILE STICKY CTA BAR
+   Parent class: cm-mobile-cta-bar
+   Button classes:
+   cm-mobile-cta-quote
+   cm-mobile-cta-call
+   ================================================== */
+
+.elementor .elementor-element.cm-mobile-cta-bar.e-con {
+    display: none;
+}
+
+
+@media (max-width: 767px) {
+
+    /* Keep page content above the fixed bar */
+
+    body {
+        padding-bottom: calc(74px + env(safe-area-inset-bottom));
+    }
+
+
+    /* Main fixed bar */
+
+    .elementor .elementor-element.cm-mobile-cta-bar.e-con {
+        display: block !important;
+
+        position: fixed;
+
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        z-index: 9970;
+
+        width: 100%;
+        max-width: none;
+
+        padding:
+            9px
+            12px
+            calc(9px + env(safe-area-inset-bottom));
+
+        box-sizing: border-box;
+
+        background: rgba(255, 255, 255, 0.96);
+
+        border-top: 1px solid rgba(41, 43, 38, 0.08);
+
+        box-shadow:
+            0 -10px 30px rgba(0, 0, 0, 0.10),
+            0 -2px 8px rgba(0, 0, 0, 0.04);
+
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+
+        transform: translate3d(0, 110%, 0);
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+
+        transition:
+            transform .38s cubic-bezier(.22, .61, .36, 1),
+            opacity .28s ease,
+            visibility .28s ease;
+    }
+
+
+    /* Show after hero */
+
+    .elementor .elementor-element.cm-mobile-cta-bar.e-con.is-visible {
+        transform: translate3d(0, 0, 0);
+
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+
+    /* Hide while mobile menu is open */
+
+    .elementor .elementor-element.cm-mobile-cta-bar.e-con.is-menu-open {
+        transform: translate3d(0, 110%, 0);
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+
+    /* Elementor inner wrapper:
+       this wrapper actually contains the two Button widgets
+    */
+
+    .elementor .elementor-element.cm-mobile-cta-bar.e-con
+    > .e-con-inner {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        align-items: stretch;
+
+        width: 100% !important;
+        max-width: none !important;
+
+        gap: 8px;
+
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+
+    /* Both button widgets fill their grid columns */
+
+    .elementor .elementor-element.cm-mobile-cta-bar.e-con
+    > .e-con-inner
+    > .elementor-element.cm-mobile-cta-quote,
+    .elementor .elementor-element.cm-mobile-cta-bar.e-con
+    > .e-con-inner
+    > .elementor-element.cm-mobile-cta-call {
+        --container-widget-width: 100%;
+        --container-widget-flex-grow: 1;
+
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: none !important;
+
+        margin: 0 !important;
+    }
+
+
+    /* Every Elementor button layer full width */
+
+    .elementor .elementor-element.cm-mobile-cta-bar
+    .cm-mobile-cta-quote .elementor-widget-container,
+    .elementor .elementor-element.cm-mobile-cta-bar
+    .cm-mobile-cta-call .elementor-widget-container,
+    .elementor .elementor-element.cm-mobile-cta-bar
+    .cm-mobile-cta-quote .elementor-button-wrapper,
+    .elementor .elementor-element.cm-mobile-cta-bar
+    .cm-mobile-cta-call .elementor-button-wrapper,
+    .elementor .elementor-element.cm-mobile-cta-bar
+    .cm-mobile-cta-quote .elementor-button,
+    .elementor .elementor-element.cm-mobile-cta-bar
+    .cm-mobile-cta-call .elementor-button {
+        width: 100% !important;
+        max-width: none !important;
+    }
+
+
+    /* Common button */
+
+    .elementor .elementor-element.cm-mobile-cta-bar
+    .elementor-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        min-height: 46px;
+
+        padding: 0 10px;
+
+        box-sizing: border-box;
+
+        border-radius: 6px;
+
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 1;
+
+        text-align: center;
+        white-space: nowrap;
+
+        box-shadow: none;
+
+        transform: none;
+
+        transition:
+            background-color .22s ease,
+            border-color .22s ease,
+            color .22s ease;
+    }
+
+
+    /* FREE QUOTE */
+
+    .elementor .elementor-element.cm-mobile-cta-quote
+    .elementor-button {
+        background-color: #FFFFFF;
+
+        border: 2px solid var(--e-global-color-accent);
+
+        color: var(--e-global-color-accent);
+    }
+
+    .elementor .elementor-element.cm-mobile-cta-quote
+    .elementor-button:hover,
+    .elementor .elementor-element.cm-mobile-cta-quote
+    .elementor-button:focus {
+        background-color: #F2F6EF;
+
+        border-color: var(--e-global-color-accent);
+
+        color: var(--e-global-color-accent);
+
+        transform: none;
+    }
+
+
+    /* CALL US */
+
+    .elementor .elementor-element.cm-mobile-cta-call
+    .elementor-button {
+        background-color: var(--e-global-color-accent);
+
+        border: 2px solid var(--e-global-color-accent);
+
+        color: #FFFFFF;
+    }
+
+    .elementor .elementor-element.cm-mobile-cta-call
+    .elementor-button:hover,
+    .elementor .elementor-element.cm-mobile-cta-call
+    .elementor-button:focus {
+        background-color: #3F8104;
+
+        border-color: #3F8104;
+
+        color: #FFFFFF;
+
+        transform: none;
+    }
+
+
+    /* Button icons */
+
+    .elementor .elementor-element.cm-mobile-cta-bar
+    .elementor-button-icon {
+        font-size: 15px;
+    }
+}
+
+
+/* Elementor editor:
+   keep CTA visible in normal flow
+*/
+
+.elementor-editor-active
+.elementor .elementor-element.cm-mobile-cta-bar.e-con {
+    display: block !important;
+
+    position: relative;
+
+    transform: none;
+
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.elementor-editor-active
+.elementor .elementor-element.cm-mobile-cta-bar.e-con
+> .e-con-inner {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 8px;
+}
+
+/* ==================================================
+   BLOG ARTICLE TABLES
+   ================================================== */
+
+.single-post .blog-content .cm-blog-table-wrap {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    border: 1px solid rgba(41, 43, 38, 0.10);
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.035);
+    box-sizing: border-box;
+}
+
+.single-post .blog-content .cm-blog-table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #FFFFFF;
+}
+
+.single-post .blog-content .cm-blog-table th,
+.single-post .blog-content .cm-blog-table td {
+    padding: 16px 18px;
+    border: 0;
+    border-bottom: 1px solid rgba(41, 43, 38, 0.10);
+    text-align: left;
+    vertical-align: middle;
+}
+
+.single-post .blog-content .cm-blog-table th {
+    background-color: #EFF2EF;
+    color: #292B26;
+    font-weight: 600;
+}
+
+.single-post .blog-content .cm-blog-table tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .single-post .blog-content .cm-blog-table-wrap {
+        border-radius: 7px;
+    }
+
+    .single-post .blog-content .cm-blog-table {
+        min-width: 600px;
+    }
+
+    .single-post .blog-content .cm-blog-table th,
+    .single-post .blog-content .cm-blog-table td {
+        padding: 13px 14px;
+    }
+}

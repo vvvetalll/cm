@@ -1,0 +1,407 @@
+{
+  "date": "2026-11-11",
+  "method": "Actual native-browser public rendering and read-only computed DOM observations; desktop/mobile on all eleven sections, tablet on four geo pages. New section copy reviewed after correction. Screenshots viewed in session, not delivered as saved image files. Initial lazy image observations repeated after load. No design change.",
+  "sections": [
+    {
+      "page": 9701,
+      "url": "https://chicagomounting.com/tv-installation-in-wilmette/",
+      "viewportWidth": 1366,
+      "gridColumns": 4,
+      "caseIds": [
+        15830,
+        15822,
+        15820,
+        15791
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 9701,
+      "url": "https://chicagomounting.com/tv-installation-in-wilmette/",
+      "viewportWidth": 390,
+      "gridColumns": 1,
+      "caseIds": [
+        15830,
+        15822,
+        15820,
+        15791
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 9701,
+      "url": "https://chicagomounting.com/tv-installation-in-wilmette/",
+      "viewportWidth": 768,
+      "gridColumns": 2,
+      "caseIds": [
+        15830,
+        15822,
+        15820,
+        15791
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 9833,
+      "url": "https://chicagomounting.com/tv-installation-in-glenview/",
+      "viewportWidth": 1366,
+      "gridColumns": 4,
+      "caseIds": [
+        15832,
+        15826,
+        15816,
+        15792
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 9833,
+      "url": "https://chicagomounting.com/tv-installation-in-glenview/",
+      "viewportWidth": 390,
+      "gridColumns": 1,
+      "caseIds": [
+        15832,
+        15826,
+        15816,
+        15792
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 9833,
+      "url": "https://chicagomounting.com/tv-installation-in-glenview/",
+      "viewportWidth": 768,
+      "gridColumns": 2,
+      "caseIds": [
+        15832,
+        15826,
+        15816,
+        15792
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 9987,
+      "url": "https://chicagomounting.com/tv-installation-in-evanston/",
+      "viewportWidth": 1366,
+      "gridColumns": 4,
+      "caseIds": [
+        15824,
+        15814,
+        15812,
+        15793
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 9987,
+      "url": "https://chicagomounting.com/tv-installation-in-evanston/",
+      "viewportWidth": 390,
+      "gridColumns": 1,
+      "caseIds": [
+        15824,
+        15814,
+        15812,
+        15793
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 9987,
+      "url": "https://chicagomounting.com/tv-installation-in-evanston/",
+      "viewportWidth": 768,
+      "gridColumns": 2,
+      "caseIds": [
+        15824,
+        15814,
+        15812,
+        15793
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 9888,
+      "url": "https://chicagomounting.com/tv-installation-in-winnetka/",
+      "viewportWidth": 1366,
+      "gridColumns": 4,
+      "caseIds": [
+        15828,
+        15818,
+        15810,
+        15731
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 9888,
+      "url": "https://chicagomounting.com/tv-installation-in-winnetka/",
+      "viewportWidth": 390,
+      "gridColumns": 1,
+      "caseIds": [
+        15828,
+        15818,
+        15810,
+        15731
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 9888,
+      "url": "https://chicagomounting.com/tv-installation-in-winnetka/",
+      "viewportWidth": 768,
+      "gridColumns": 2,
+      "caseIds": [
+        15828,
+        15818,
+        15810,
+        15731
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 15342,
+      "url": "https://chicagomounting.com/premium-large-tv-installation/",
+      "viewportWidth": 1366,
+      "gridColumns": 4,
+      "caseIds": [
+        15832,
+        15830,
+        15828,
+        15826
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 15342,
+      "url": "https://chicagomounting.com/premium-large-tv-installation/",
+      "viewportWidth": 390,
+      "gridColumns": 1,
+      "caseIds": [
+        15832,
+        15830,
+        15828,
+        15826
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 11178,
+      "url": "https://chicagomounting.com/outdoor-tv-installation/",
+      "viewportWidth": 1366,
+      "gridColumns": 4,
+      "caseIds": [
+        15792
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 11178,
+      "url": "https://chicagomounting.com/outdoor-tv-installation/",
+      "viewportWidth": 390,
+      "gridColumns": 1,
+      "caseIds": [
+        15792
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 8156,
+      "url": "https://chicagomounting.com/recessed-media-box/",
+      "viewportWidth": 1366,
+      "gridColumns": 4,
+      "caseIds": [
+        15828,
+        15816,
+        15812,
+        15810
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 8156,
+      "url": "https://chicagomounting.com/recessed-media-box/",
+      "viewportWidth": 390,
+      "gridColumns": 1,
+      "caseIds": [
+        15828,
+        15816,
+        15812,
+        15810
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 5671,
+      "url": "https://chicagomounting.com/frame-tv-mounting-chicago/",
+      "viewportWidth": 1366,
+      "gridColumns": 4,
+      "caseIds": [
+        15826,
+        15824,
+        15820,
+        15731
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 5671,
+      "url": "https://chicagomounting.com/frame-tv-mounting-chicago/",
+      "viewportWidth": 390,
+      "gridColumns": 1,
+      "caseIds": [
+        15826,
+        15824,
+        15820,
+        15731
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 3398,
+      "url": "https://chicagomounting.com/soundbar-installation/",
+      "viewportWidth": 1366,
+      "gridColumns": 4,
+      "caseIds": [
+        15832,
+        15830,
+        15828,
+        15818
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 3398,
+      "url": "https://chicagomounting.com/soundbar-installation/",
+      "viewportWidth": 390,
+      "gridColumns": 1,
+      "caseIds": [
+        15832,
+        15830,
+        15828,
+        15818
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 3281,
+      "url": "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+      "viewportWidth": 1366,
+      "gridColumns": 4,
+      "caseIds": [
+        15832,
+        15830,
+        15828,
+        15824
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 3281,
+      "url": "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+      "viewportWidth": 390,
+      "gridColumns": 1,
+      "caseIds": [
+        15832,
+        15830,
+        15828,
+        15824
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 1682,
+      "url": "https://chicagomounting.com/tv-installation-and-mounting/",
+      "viewportWidth": 1366,
+      "gridColumns": 4,
+      "caseIds": [
+        15832,
+        15830,
+        15828,
+        15826
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    },
+    {
+      "page": 1682,
+      "url": "https://chicagomounting.com/tv-installation-and-mounting/",
+      "viewportWidth": 390,
+      "gridColumns": 1,
+      "caseIds": [
+        15832,
+        15830,
+        15828,
+        15826
+      ],
+      "horizontalOverflow": false,
+      "cardImageRatio": "16:9",
+      "objectFit": "cover"
+    }
+  ],
+  "finalFilterInteraction": {
+    "selectedCity": "Glenview",
+    "caseIds": [
+      15832,
+      15826,
+      15816,
+      15792
+    ],
+    "clearFiltersUrl": "https://chicagomounting.com/case-studies/",
+    "resetFirstPageCaseCount": 8
+  },
+  "mobileCatalogue": {
+    "width": 390,
+    "oneColumn": true,
+    "overflow": false,
+    "indexable": true
+  }
+}

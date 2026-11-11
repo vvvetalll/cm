@@ -1,0 +1,25 @@
+--- style.css before
++++ style.css after
+@@ -144,7 +144,10 @@
+ 
+ .elementor-widget-text-editor a,
+ .elementor-widget-text-editor a:visited,
+-.elementor-widget-text-editor a:active {
++.elementor-widget-text-editor a:active,
++.elementor-15714 .elementor-widget-theme-post-content :is(p, li) a:not(.elementor-button),
++.elementor-15714 .elementor-widget-theme-post-content :is(p, li) a:not(.elementor-button):visited,
++.elementor-15714 .elementor-widget-theme-post-content :is(p, li) a:not(.elementor-button):active {
+     color: var(--e-global-color-accent) !important;
+ 
+     font-weight: 700;
+@@ -152,7 +155,9 @@
+ }
+ 
+ .elementor-widget-text-editor a:hover,
+-.elementor-widget-text-editor a:focus {
++.elementor-widget-text-editor a:focus,
++.elementor-15714 .elementor-widget-theme-post-content :is(p, li) a:not(.elementor-button):hover,
++.elementor-15714 .elementor-widget-theme-post-content :is(p, li) a:not(.elementor-button):focus {
+     color: var(--e-global-color-secondary) !important;
+ 
+     text-decoration: underline !important;

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "publication": "DO NOT PUBLISH until explicit final-launch authorization",
+  "publication": "Historical pre-deployment payload; release approved and published 2026-11-11. Do not republish this old copy over live customer-copy corrections.",
   "pages": [
     {
       "id": 9833,
@@ -1323,5 +1323,6 @@
     }
   ],
   "source": "automatic-selections-prepared-2026-11-08.json; existing section/widget IDs retained; only catalogue destination URLs refreshed",
-  "runtimeVerification": "NOT VERIFIED on destination pages; all eleven sections remain absent from public pages. Snapshot structure is preparation evidence only."
+  "runtimeVerification": "NOT VERIFIED on destination pages; all eleven sections remain absent from public pages. Snapshot structure is preparation evidence only.",
+  "supersededBy": "PUBLIC-LAUNCH-2026-11-11.md"
 }
