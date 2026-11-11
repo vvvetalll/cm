@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-11",
+  "case": 15791,
+  "method": "Existing post temporarily drafted then original publication restored; anonymous native catalogue Loop Grid query. No integration published.",
+  "checks": [
+    {
+      "phase": "before",
+      "url": "https://chicagomounting.com/case-studies/case-installation-standard-tv-mounting/",
+      "status": 200,
+      "caseIds": [
+        15791
+      ],
+      "emptyMessage": false,
+      "noindex": true
+    },
+    {
+      "phase": "drafted",
+      "url": "https://chicagomounting.com/case-studies/case-installation-standard-tv-mounting/",
+      "status": 200,
+      "caseIds": [],
+      "emptyMessage": true,
+      "noindex": true
+    },
+    {
+      "phase": "restored",
+      "url": "https://chicagomounting.com/case-studies/case-installation-standard-tv-mounting/",
+      "status": 200,
+      "caseIds": [
+        15791
+      ],
+      "emptyMessage": false,
+      "noindex": true
+    }
+  ]
+}
