@@ -553,3 +553,7 @@ Read current instructions/default branch and verified default MCP adapter (36 to
 ## 2026-11-11 — Final launch preparation in progress
 Restored current default branch and November9 audit context. All16 cases/catalogue/archive currently HTTP200/noindex; eleven destinations200/no public case section. Neutral Samsung Frame wording saved on15824 through supported existing WordPress editor; exact model remains unconfirmed, originalURL/media/taxonomy preserved. Media labels/after-verification ongoing.15731 editorial Winnetka retained; factual location unknown. Hostinger requires login, no recoverable backup verified. Breadcrumb/integration checks remain open. Release HOLD retained. Report: docs/cases/LAUNCH-PREPARATION-2026-11-11.md.
 
+
+## 2026-11-11 — Owner corrected catalogue URL to /case-studies/
+Existing Page15716 now Case Studies at /case-studies/, noindex retained. Freed route from existing category144 by changing its archive slug to case-studies-archive; category name/membership preserved, no new category. Native catalogue reset/Single return link adjusted. Prepared scoped native term_link mapping category144→Page15716 to align AIOSEO breadcrumb hierarchy; not yet applied at this checkpoint. Full report and pending hook under docs/cases. Integration release and indexing remain held.
+

@@ -466,3 +466,7 @@ Verified allcity/type selections, base16-case pagination, filtered11-case pagina
 ## 2026-11-11 — Launch preparation, content and public-state checkpoint
 Restored repository/default branch, existing audit/evidence and authenticated WordPress UI. Saved neutral family-level Samsung Frame wording on15824 (title/excerpt/body/SEO/gallery labels), preserving URL/status/noindex/taxonomies/media. No exact model invented;15731 editorial classification retained with actual city unresolved. Anonymous29-page read recorded; all16cases/catalogue/archive200/noindex, eleven held destinations200/no public case section. Media readback and remaining breadcrumb/integration/visual checks in progress. Hostinger login screen prevents backup verification. No release. See docs/cases/LAUNCH-PREPARATION-2026-11-11.md. Commit is this checkpoint; remote SHA verified separately.
 
+
+## 2026-11-11 — Catalogue identity correction and scoped mapping preparation
+Owner approved existing15716 name Case Studies and finally /case-studies/ (supersedes /cases/). Observed category route collision and moved same144 archive slug to case-studies-archive, preserving all posts and noindex. Existing15716 now serves intended route; reset/back links updated. Prepared category144-only term_link hook for AIOSEO schema alignment, not applied yet. No category/template/plugin duplication or launch. Rollback scope and evidence in LAUNCH-PREPARATION-2026-11-11.md.
+
