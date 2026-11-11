@@ -1,4 +1,8 @@
 # Work — current state
+# Latest task — 2026-11-11: Homepage Hero supporting text
+
+Published existing homepage16 Heading fbdb3e7 mobile-only center alignment and padding0/10/0/10 through native Elementor; one widget-scoped mobile text-wrap:balance declaration. Inspected through existing MCP first; legacy Heading settings/schema not exposed. Original text, font/color/typography and all140 ordered element IDs/widget types/data-settings preserved. Live anonymous HTTP200/CSS readback and public320/375/390 screenshots checked; target two centered balanced lines/no target overflow.375/390 have no page overflow;320 retains separate existing Trustindex review-badge overflow (323px scrollWidth at320 mobile-style viewport), left unchanged as unrelated. Desktop1223 target geometry/typography matches baseline exactly. Report/recovery: docs/HOME-HERO-MOBILE-2026-11-11.md. Remaining: separate badge overflow needs its own authorization; full-page zero overflow at320 not achieved by this text-only edit. Documentation commit/push verified separately.
+
 Updated: 2026-11-09. Read AGENTS.md before acting.
 
 ## Latest checkpoint — 2026-11-09 final Case Studies audit
