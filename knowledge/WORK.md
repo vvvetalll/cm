@@ -577,3 +577,15 @@ Existing9833/9987/9701/9888 inspected, preparedCard15715 nativequerymodules appe
 
 ## 2026-11-11 — All eleven prepared integrations published
 Restored all four geo and seven service modules through the native Elementor UI after inspecting each existing structure. Public anonymous verification: HTTP 200, exactly one module per destination, correct taxonomy-selected case sets, no duplicates; every original heading and Elementor element ID preserved. Card 15715 and prepared query/layout settings reused. Soundbar/general modules follow existing advantages (no project gallery/video section); Fireplace follows video; Recessed follows box options; remaining modules follow project galleries. Detailed evidence: docs/cases/public-launch-integration-verification-2026-11-11.json. Indexing release has started on the exact approved objects; final cache/SEO/responsive verification remains in progress.
+
+
+## 2026-11-11 — Indexing verification failed; targeted rollback in progress
+All eleven integrations were restored successfully. Native AIOSEO UI toggles were applied to the exact seventeen approved objects, but anonymous verification and a fresh editor read of 15830 found that several No Index changes had not persisted. The launch's explicit stop/rollback condition was invoked: restore original No Index on all sixteen cases and catalogue 15716; retain independently passing integrations. Do not describe this as a completed SEO launch. Initial failed verification is preserved in public-launch-indexing-failed-2026-11-11.json (includes transient HTTP failures). Cause is not established; immediate navigation after Save is a possible factor, not a plugin defect diagnosis.
+
+Owner then rejected internal editorial-disclaimer copy and the added Editorial collection badge prefix. Latest scope: keep city badges and case system/queries/templates/filters intact; remove only the added prefix and correct headings/intros across eleven existing sections. Correction and rollback are in progress; no redesigned cards or new system.
+
+
+## 2026-11-11 — Robots rollback verified; customer copy correction in progress
+After a critical persistence failure, original No Index restored through native AIOSEO UI. Anonymous public verification now confirms all sixteen case URLs and catalogue 15716 HTTP 200/noindex; see public-launch-rollback-verification-2026-11-11.json. The indexing launch is stopped, not complete.
+
+Owner explicitly rejected the added Editorial collection prefix and internal editorial-location disclaimer. Removed only Card 15715 Post Info c7a91e2 Before prefix; city badge/taxonomy/icon/design retained. Corrected section headings/intros on four geo pages and six service pages; General 1682 remains in progress. No query/filter/URL/element structure changes. Recent anonymous integration readbacks retain exact expected case sets/no duplicates/all original elements. Final responsive checks and GitHub completion record remain outstanding.
