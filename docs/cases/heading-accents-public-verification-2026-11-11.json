@@ -1,0 +1,193 @@
+{
+  "date": "2026-11-11",
+  "method": "Anonymous public HTML; scoped h2 markup and main content/settings signature versus immediate before HTML.",
+  "pages": [
+    {
+      "id": 9833,
+      "url": "https://chicagomounting.com/tv-installation-in-glenview/",
+      "status": 200,
+      "headingHtml": "<h2 class=\"elementor-heading-title elementor-size-default\">Our Recent TV <span class=\"akcent\">Installation Projects</span></h2>",
+      "headingText": "Our Recent TV Installation Projects",
+      "accentTexts": [
+        "Installation Projects"
+      ],
+      "expectedAccent": "Installation Projects",
+      "textUnchanged": true,
+      "h2TagPreserved": true,
+      "onlyRequestedSpanMarkup": true,
+      "mainContentAndSettingsUnchanged": true,
+      "robotsUnchanged": true,
+      "canonicalUnchanged": true
+    },
+    {
+      "id": 9987,
+      "url": "https://chicagomounting.com/tv-installation-in-evanston/",
+      "status": 200,
+      "headingHtml": "<h2 class=\"elementor-heading-title elementor-size-default\">Our Recent <span class=\"akcent\">TV Installation Projects</span></h2>",
+      "headingText": "Our Recent TV Installation Projects",
+      "accentTexts": [
+        "TV Installation Projects"
+      ],
+      "expectedAccent": "TV Installation Projects",
+      "textUnchanged": true,
+      "h2TagPreserved": true,
+      "onlyRequestedSpanMarkup": true,
+      "mainContentAndSettingsUnchanged": true,
+      "robotsUnchanged": true,
+      "canonicalUnchanged": true
+    },
+    {
+      "id": 9701,
+      "url": "https://chicagomounting.com/tv-installation-in-wilmette/",
+      "status": 200,
+      "headingHtml": "<h2 class=\"elementor-heading-title elementor-size-default\">Our Recent <span class=\"akcent\">TV Installation Projects</span></h2>",
+      "headingText": "Our Recent TV Installation Projects",
+      "accentTexts": [
+        "TV Installation Projects"
+      ],
+      "expectedAccent": "TV Installation Projects",
+      "textUnchanged": true,
+      "h2TagPreserved": true,
+      "onlyRequestedSpanMarkup": true,
+      "mainContentAndSettingsUnchanged": true,
+      "robotsUnchanged": true,
+      "canonicalUnchanged": true
+    },
+    {
+      "id": 9888,
+      "url": "https://chicagomounting.com/tv-installation-in-winnetka/",
+      "status": 200,
+      "headingHtml": "<h2 class=\"elementor-heading-title elementor-size-default\">Our Recent <span class=\"akcent\">TV Installation Projects</span></h2>",
+      "headingText": "Our Recent TV Installation Projects",
+      "accentTexts": [
+        "TV Installation Projects"
+      ],
+      "expectedAccent": "TV Installation Projects",
+      "textUnchanged": true,
+      "h2TagPreserved": true,
+      "onlyRequestedSpanMarkup": true,
+      "mainContentAndSettingsUnchanged": true,
+      "robotsUnchanged": true,
+      "canonicalUnchanged": true
+    },
+    {
+      "id": 15342,
+      "url": "https://chicagomounting.com/premium-large-tv-installation/",
+      "status": 200,
+      "headingHtml": "<h2 class=\"elementor-heading-title elementor-size-default\">Our <span class=\"akcent\">Recent Large TV</span> Installation Projects</h2>",
+      "headingText": "Our Recent Large TV Installation Projects",
+      "accentTexts": [
+        "Recent Large TV"
+      ],
+      "expectedAccent": "Recent Large TV",
+      "textUnchanged": true,
+      "h2TagPreserved": true,
+      "onlyRequestedSpanMarkup": true,
+      "mainContentAndSettingsUnchanged": true,
+      "robotsUnchanged": true,
+      "canonicalUnchanged": true
+    },
+    {
+      "id": 11178,
+      "url": "https://chicagomounting.com/outdoor-tv-installation/",
+      "status": 200,
+      "headingHtml": "<h2 class=\"elementor-heading-title elementor-size-default\">Our Recent <span class=\"akcent\">Outdoor TV Installation Projects</span></h2>",
+      "headingText": "Our Recent Outdoor TV Installation Projects",
+      "accentTexts": [
+        "Outdoor TV Installation Projects"
+      ],
+      "expectedAccent": "Outdoor TV Installation Projects",
+      "textUnchanged": true,
+      "h2TagPreserved": true,
+      "onlyRequestedSpanMarkup": true,
+      "mainContentAndSettingsUnchanged": true,
+      "robotsUnchanged": true,
+      "canonicalUnchanged": true
+    },
+    {
+      "id": 8156,
+      "url": "https://chicagomounting.com/recessed-media-box/",
+      "status": 200,
+      "headingHtml": "<h2 class=\"elementor-heading-title elementor-size-default\">Our Recent Recessed <span class=\"akcent\">Media Box Projects</span></h2>",
+      "headingText": "Our Recent Recessed Media Box Projects",
+      "accentTexts": [
+        "Media Box Projects"
+      ],
+      "expectedAccent": "Media Box Projects",
+      "textUnchanged": true,
+      "h2TagPreserved": true,
+      "onlyRequestedSpanMarkup": true,
+      "mainContentAndSettingsUnchanged": true,
+      "robotsUnchanged": true,
+      "canonicalUnchanged": true
+    },
+    {
+      "id": 5671,
+      "url": "https://chicagomounting.com/frame-tv-mounting-chicago/",
+      "status": 200,
+      "headingHtml": "<h2 class=\"elementor-heading-title elementor-size-default\">Our Recent <span class=\"akcent\">Frame TV Installation Projects</span></h2>",
+      "headingText": "Our Recent Frame TV Installation Projects",
+      "accentTexts": [
+        "Frame TV Installation Projects"
+      ],
+      "expectedAccent": "Frame TV Installation Projects",
+      "textUnchanged": true,
+      "h2TagPreserved": true,
+      "onlyRequestedSpanMarkup": true,
+      "mainContentAndSettingsUnchanged": true,
+      "robotsUnchanged": true,
+      "canonicalUnchanged": true
+    },
+    {
+      "id": 3398,
+      "url": "https://chicagomounting.com/soundbar-installation/",
+      "status": 200,
+      "headingHtml": "<h2 class=\"elementor-heading-title elementor-size-default\">Our Recent TV &amp; <span class=\"akcent\">Soundbar Installation</span> Projects</h2>",
+      "headingText": "Our Recent TV & Soundbar Installation Projects",
+      "accentTexts": [
+        "Soundbar Installation"
+      ],
+      "expectedAccent": "Soundbar Installation",
+      "textUnchanged": true,
+      "h2TagPreserved": true,
+      "onlyRequestedSpanMarkup": true,
+      "mainContentAndSettingsUnchanged": true,
+      "robotsUnchanged": true,
+      "canonicalUnchanged": true
+    },
+    {
+      "id": 3281,
+      "url": "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+      "status": 200,
+      "headingHtml": "<h2 class=\"elementor-heading-title elementor-size-default\">Our Recent <span class=\"akcent\">Fireplace TV Installation</span> Projects</h2>",
+      "headingText": "Our Recent Fireplace TV Installation Projects",
+      "accentTexts": [
+        "Fireplace TV Installation"
+      ],
+      "expectedAccent": "Fireplace TV Installation",
+      "textUnchanged": true,
+      "h2TagPreserved": true,
+      "onlyRequestedSpanMarkup": true,
+      "mainContentAndSettingsUnchanged": true,
+      "robotsUnchanged": true,
+      "canonicalUnchanged": true
+    },
+    {
+      "id": 1682,
+      "url": "https://chicagomounting.com/tv-installation-and-mounting/",
+      "status": 200,
+      "headingHtml": "<h2 class=\"elementor-heading-title elementor-size-default\">Our Recent <span class=\"akcent\">TV Installation</span> Projects</h2>",
+      "headingText": "Our Recent TV Installation Projects",
+      "accentTexts": [
+        "TV Installation"
+      ],
+      "expectedAccent": "TV Installation",
+      "textUnchanged": true,
+      "h2TagPreserved": true,
+      "onlyRequestedSpanMarkup": true,
+      "mainContentAndSettingsUnchanged": true,
+      "robotsUnchanged": true,
+      "canonicalUnchanged": true
+    }
+  ]
+}
