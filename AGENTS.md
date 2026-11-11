@@ -1,5 +1,13 @@
 # Chicago Mounting — instructions for Work and other coding agents
 
+## RULE #1 — Owner-maintainable website architecture (mandatory)
+
+The site must remain understandable and maintainable by its owner through normal WordPress/Elementor interfaces, without relying on an AI agent or developer. **Working output alone is not completion.** Before changing anything, inspect the existing CSS file(s), functions.php, Elementor global styles/templates/widgets, WordPress features, and installed plugin settings/APIs (never installed plugin source files). Reuse the existing implementation and native WordPress/Elementor capabilities whenever they meet the requirement.
+
+Only add custom CSS, HTML, PHP, or JavaScript when a specific requirement cannot reasonably be met by an existing native feature. Document why the custom code is needed, its exact location, what it controls, how the owner edits it, and how to remove or revert it. Keep styles in the existing designated stylesheet or a clearly documented, reusable location; do not scatter CSS or code through individual widgets or duplicate native functionality. Do not create additional PHP files, widgets, plugins, dependencies, or architectural layers without demonstrated need and approval where scope changes.
+
+Adding a new Case Study must be possible by editing standard fields, taxonomy selections and media through WordPress; it must not require hand-editing HTML/CSS/PHP or Elementor templates. Preserve existing design and behavior; refactor only after a verified backup/staging plan and before/after checks. For each task, verify both functional correctness **and** owner maintainability, and record custom-code inventory/justification in the GitHub task report. If either is unverified, report the task as incomplete or limited—not done.
+
 ## Start every task
 1. Read README.md, knowledge/PROJECT.md, knowledge/WORK.md and the relevant topic file.
 2. Inspect the actual code or current live page before deciding what to change. Historical notes are context, not proof of current behavior.
