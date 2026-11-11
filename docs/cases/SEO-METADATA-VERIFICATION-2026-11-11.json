@@ -1,0 +1,2316 @@
+{
+  "date": "2026-11-11",
+  "scope": "16 published cases plus catalogue15716",
+  "method": "Two anonymous HTTPS HTML passes, native authenticated WordPress/AIOSEO editor reopen for all17 records; no production writes",
+  "sharedSettings": {
+    "type": "post (ordinary Posts)",
+    "postsTitleDefault": "Post Title + Separator + Site Title",
+    "postsDescriptionDefault": "Post Excerpt",
+    "searchResults": "Yes",
+    "customCasePostType": "None in content-type UI; cases edit as Post",
+    "singleTemplate": 15714
+  },
+  "result": "Reported duplicate-title defect not reproduced; all16 already unique before any changes",
+  "rows": [
+    {
+      "id": 15832,
+      "url": "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+      "beforeTitle": "Samsung OLED & Bose on Stone in Glenview, IL | Chicago Mounting",
+      "afterTitle": "Samsung OLED & Bose on Stone in Glenview, IL | Chicago Mounting",
+      "beforeDescription": "See a 65-inch Samsung OLED and Bose soundbar installation on a stone fireplace in Glenview, IL, with a Sanus mount secured to wood studs.",
+      "afterDescription": "See a 65-inch Samsung OLED and Bose soundbar installation on a stone fireplace in Glenview, IL, with a Sanus mount secured to wood studs.",
+      "savedAdminTitle": "Samsung OLED & Bose on Stone in Glenview, IL | Chicago Mounting",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "65-Inch Samsung OLED and Bose Soundbar on Stone in Glenview, IL"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "Samsung OLED & Bose on Stone in Glenview, IL | Chicago Mounting",
+      "ogDescription": "See a 65-inch Samsung OLED and Bose soundbar installation on a stone fireplace in Glenview, IL, with a Sanus mount secured to wood studs.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Empty (UI observed)",
+      "caseImages": [
+        {
+          "mediaId": 16081,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8861-featured-16x9-1.webp",
+          "alt": "Front view of the Samsung OLED and Bose soundbar above the stone fireplace",
+          "title": null
+        },
+        {
+          "mediaId": 16070,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8826.webp",
+          "alt": "Samsung S95H OLED packaging marked 65 inches beside Bose equipment",
+          "title": null
+        },
+        {
+          "mediaId": 16073,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8831.webp",
+          "alt": "Stone fireplace wall before the television was fitted",
+          "title": null
+        },
+        {
+          "mediaId": 16069,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8840.webp",
+          "alt": "Rear-side view of the television while prepared for mounting",
+          "title": null
+        },
+        {
+          "mediaId": 16067,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8846.webp",
+          "alt": "Stone fireplace wall with the mounting bracket prepared",
+          "title": null
+        },
+        {
+          "mediaId": 15861,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-wall-bracket.webp",
+          "alt": "Close view of the wall bracket secured to the stone-faced fireplace area",
+          "title": null
+        },
+        {
+          "mediaId": 16064,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8850.webp",
+          "alt": "Installer adjusting the Samsung OLED and soundbar above the stone mantel",
+          "title": null
+        },
+        {
+          "mediaId": 16071,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8866.webp",
+          "alt": "Right-side profile of the Samsung OLED and Bose soundbar",
+          "title": null
+        },
+        {
+          "mediaId": 16066,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8868.webp",
+          "alt": "Left-side profile of the Samsung OLED and Bose soundbar",
+          "title": null
+        },
+        {
+          "mediaId": 15850,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-bose-stone-fireplace.webp",
+          "alt": "Wide room view of the completed Samsung OLED fireplace installation",
+          "title": null
+        }
+      ],
+      "serviceLinks": [
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/"
+      ],
+      "changes": "None: existing unique metadata preserved"
+    },
+    {
+      "id": 15830,
+      "url": "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+      "beforeTitle": "85-Inch Neo QLED & Soundbar in Wilmette, IL | Chicago Mounting",
+      "afterTitle": "85-Inch Neo QLED & Soundbar in Wilmette, IL | Chicago Mounting",
+      "beforeDescription": "An 85-inch Neo QLED and soundbar installation above a brick fireplace in Wilmette, IL, using a Sanus mount and masonry anchors.",
+      "afterDescription": "An 85-inch Neo QLED and soundbar installation above a brick fireplace in Wilmette, IL, using a Sanus mount and masonry anchors.",
+      "savedAdminTitle": "85-Inch Neo QLED & Soundbar in Wilmette, IL | Chicago Mounting",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "85-Inch Neo QLED and Soundbar on a Brick Fireplace in Wilmette, IL"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "85-Inch Neo QLED & Soundbar in Wilmette, IL | Chicago Mounting",
+      "ogDescription": "An 85-inch Neo QLED and soundbar installation above a brick fireplace in Wilmette, IL, using a Sanus mount and masonry anchors.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Not individually verified",
+      "caseImages": [
+        {
+          "mediaId": 16082,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/neo-qled-brick-fireplace-img-9578-featured-16x9-1.webp",
+          "alt": "Completed Neo QLED television and soundbar above the painted brick fireplace",
+          "title": null
+        },
+        {
+          "mediaId": 16068,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/neo-qled-brick-fireplace-img-9560.webp",
+          "alt": "Samsung Neo QLED packaging marked QN70F and 85 inches",
+          "title": null
+        },
+        {
+          "mediaId": 16065,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/neo-qled-brick-fireplace-img-9565.webp",
+          "alt": "Installer measuring the mounting position on the brick fireplace wall",
+          "title": null
+        },
+        {
+          "mediaId": 15860,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/neo-qled-brick-fireplace-bracket.webp",
+          "alt": "TV wall bracket installed above the brick fireplace mantel",
+          "title": null
+        }
+      ],
+      "serviceLinks": [
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/"
+      ],
+      "changes": "None: existing unique metadata preserved"
+    },
+    {
+      "id": 15828,
+      "url": "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+      "beforeTitle": "77-Inch LG W6 Fireplace Setup in Winnetka, IL | Chicago Mounting",
+      "afterTitle": "77-Inch LG W6 Fireplace Setup in Winnetka, IL | Chicago Mounting",
+      "beforeDescription": "A 77-inch LG W6 fireplace installation in Winnetka, IL, with a recessed media box, Sonos Arc Ultra mount and LG Zero Connect Box.",
+      "afterDescription": "A 77-inch LG W6 fireplace installation in Winnetka, IL, with a recessed media box, Sonos Arc Ultra mount and LG Zero Connect Box.",
+      "savedAdminTitle": "77-Inch LG W6 Fireplace Setup in Winnetka, IL | Chicago Mounting",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "77-Inch LG W6 Fireplace Installation with Sonos Arc Ultra in Winnetka, IL"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "77-Inch LG W6 Fireplace Setup in Winnetka, IL | Chicago Mounting",
+      "ogDescription": "A 77-inch LG W6 fireplace installation in Winnetka, IL, with a recessed media box, Sonos Arc Ultra mount and LG Zero Connect Box.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Not individually verified",
+      "caseImages": [
+        {
+          "mediaId": 16085,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9643-featured-16x9-1.webp",
+          "alt": "Completed LG W6 and Sonos Arc Ultra arrangement above the fireplace",
+          "title": null
+        },
+        {
+          "mediaId": 16060,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9593.webp",
+          "alt": "LG W6 packaging showing the 77-inch screen size",
+          "title": null
+        },
+        {
+          "mediaId": 16063,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9615.webp",
+          "alt": "LG wall-mount hardware laid out before the fireplace installation",
+          "title": null
+        },
+        {
+          "mediaId": 16058,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9603.webp",
+          "alt": "Rear edge of the LG W6 during preparation",
+          "title": null
+        },
+        {
+          "mediaId": 16062,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9624.webp",
+          "alt": "Installer preparing the LG W6 mounting positions above the fireplace",
+          "title": null
+        },
+        {
+          "mediaId": 16061,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9597.webp",
+          "alt": "LG W6 television above the fireplace during installation",
+          "title": null
+        },
+        {
+          "mediaId": 16059,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9634.webp",
+          "alt": "Side view of the fitted LG W6 showing its close wall position",
+          "title": null
+        },
+        {
+          "mediaId": 15859,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-slim-side-profile.webp",
+          "alt": "Close side profile of the LG W6 screen above the Sonos soundbar",
+          "title": null
+        }
+      ],
+      "serviceLinks": [
+        "https://chicagomounting.com/recessed-media-box/"
+      ],
+      "changes": "None: existing unique metadata preserved"
+    },
+    {
+      "id": 15826,
+      "url": "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+      "beforeTitle": "85-Inch Samsung Frame TV in Glenview, IL | Chicago Mounting",
+      "afterTitle": "85-Inch Samsung Frame TV in Glenview, IL | Chicago Mounting",
+      "beforeDescription": "An 85-inch Samsung Frame TV mounted on drywall with wood studs in Glenview, IL, using a Sanus Preferred full-motion mount.",
+      "afterDescription": "An 85-inch Samsung Frame TV mounted on drywall with wood studs in Glenview, IL, using a Sanus Preferred full-motion mount.",
+      "savedAdminTitle": "85-Inch Samsung Frame TV in Glenview, IL | Chicago Mounting",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "85-Inch Samsung Frame TV on a Full-Motion Mount in Glenview, IL"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "85-Inch Samsung Frame TV in Glenview, IL | Chicago Mounting",
+      "ogDescription": "An 85-inch Samsung Frame TV mounted on drywall with wood studs in Glenview, IL, using a Sanus Preferred full-motion mount.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Not individually verified",
+      "caseImages": [
+        {
+          "mediaId": 16083,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-0485-featured-16x9-1.webp",
+          "alt": "Samsung Frame TV displaying artwork after installation",
+          "title": null
+        },
+        {
+          "mediaId": 16055,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-9699.webp",
+          "alt": "Packaging for the Sanus full-motion TV wall mount",
+          "title": null
+        },
+        {
+          "mediaId": 16053,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-9682.webp",
+          "alt": "Installer preparing the wall for the 85-inch Samsung Frame TV",
+          "title": null
+        },
+        {
+          "mediaId": 16056,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-9687.webp",
+          "alt": "Wall bracket in the marked Samsung Frame installation area",
+          "title": null
+        },
+        {
+          "mediaId": 16054,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-0487.webp",
+          "alt": "Installer adjusting the Samsung Frame television after mounting",
+          "title": null
+        },
+        {
+          "mediaId": 15858,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-side-view.webp",
+          "alt": "Side view of the Samsung Frame extended on the full-motion mount",
+          "title": null
+        },
+        {
+          "mediaId": 16057,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-9706.webp",
+          "alt": "Completed Samsung Frame installation displaying the setup screen",
+          "title": null
+        }
+      ],
+      "serviceLinks": [
+        "https://chicagomounting.com/frame-tv-mounting-chicago/"
+      ],
+      "changes": "None: existing unique metadata preserved"
+    },
+    {
+      "id": 15824,
+      "url": "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+      "beforeTitle": "Samsung Frame & Sonos Amp in Evanston, IL | Chicago Mounting",
+      "afterTitle": "Samsung Frame & Sonos Amp in Evanston, IL | Chicago Mounting",
+      "beforeDescription": "A Samsung Frame fireplace installation in Evanston, IL, with a recessed outlet and a connection to a Sonos Amp in the basement.",
+      "afterDescription": "A Samsung Frame fireplace installation in Evanston, IL, with a recessed outlet and a connection to a Sonos Amp in the basement.",
+      "savedAdminTitle": "Samsung Frame & Sonos Amp in Evanston, IL | Chicago Mounting",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "Samsung Frame Fireplace Installation with Sonos Amp in Evanston, IL"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "Samsung Frame & Sonos Amp in Evanston, IL | Chicago Mounting",
+      "ogDescription": "A Samsung Frame fireplace installation in Evanston, IL, with a recessed outlet and a connection to a Sonos Amp in the basement.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Not individually verified",
+      "caseImages": [
+        {
+          "mediaId": 16084,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9810-featured-16x9-1.webp",
+          "alt": "Completed Samsung Frame centered above the white fireplace",
+          "title": null
+        },
+        {
+          "mediaId": 16049,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9793.webp",
+          "alt": "Samsung Frame packaging showing the 65-inch screen size",
+          "title": null
+        },
+        {
+          "mediaId": 16046,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9789.webp",
+          "alt": "Room and fireplace wall before the Samsung Frame was mounted",
+          "title": null
+        },
+        {
+          "mediaId": 15857,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/frame-pro-fireplace-wall-preparation.webp",
+          "alt": "Wide view of the fireplace mounting preparation and ladder",
+          "title": null
+        },
+        {
+          "mediaId": 16052,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9797.webp",
+          "alt": "Two mounting plates and prepared connection area above the fireplace",
+          "title": null
+        },
+        {
+          "mediaId": 16050,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9803.webp",
+          "alt": "Installer working on the Samsung Frame above the fireplace",
+          "title": null
+        },
+        {
+          "mediaId": 16051,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9804.webp",
+          "alt": "Samsung Frame above the white fireplace during final setup",
+          "title": null
+        }
+      ],
+      "serviceLinks": [
+        "https://chicagomounting.com/frame-tv-mounting-chicago/"
+      ],
+      "changes": "None: existing unique metadata preserved"
+    },
+    {
+      "id": 15822,
+      "url": "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+      "beforeTitle": "100-Inch LG QNED & Home Audio in Wilmette, IL | Chicago Mounting",
+      "afterTitle": "100-Inch LG QNED & Home Audio in Wilmette, IL | Chicago Mounting",
+      "beforeDescription": "A 100-inch LG QNED installation with home audio in Wilmette, IL. View the project details and photographs of the completed setup.",
+      "afterDescription": "A 100-inch LG QNED installation with home audio in Wilmette, IL. View the project details and photographs of the completed setup.",
+      "savedAdminTitle": "100-Inch LG QNED & Home Audio in Wilmette, IL | Chicago Mounting",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "100-Inch LG QNED Installation with Home Audio in Wilmette, IL"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "100-Inch LG QNED & Home Audio in Wilmette, IL | Chicago Mounting",
+      "ogDescription": "A 100-inch LG QNED installation with home audio in Wilmette, IL. View the project details and photographs of the completed setup.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Not individually verified",
+      "caseImages": [
+        {
+          "mediaId": 16077,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-qned-home-audio-img-9846-featured-16x9-1.webp",
+          "alt": "Completed 100-inch LG QNED centered between the in-wall speakers",
+          "title": null
+        },
+        {
+          "mediaId": 16042,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-qned-home-audio-img-9812.webp",
+          "alt": "LG QNED packaging and mounting equipment in the room before installation",
+          "title": null
+        },
+        {
+          "mediaId": 16048,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-qned-home-audio-img-9811.webp",
+          "alt": "LG QNED packaging in front of the existing speaker wall",
+          "title": null
+        },
+        {
+          "mediaId": 15856,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/100-inch-qned-wall-bracket.webp",
+          "alt": "Wall bracket and cable opening between the existing in-wall speakers",
+          "title": null
+        },
+        {
+          "mediaId": 16047,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-qned-home-audio-img-9836.webp",
+          "alt": "LG QNED mounted and displaying its initial setup screen",
+          "title": null
+        }
+      ],
+      "serviceLinks": [
+        "https://chicagomounting.com/premium-large-tv-installation/"
+      ],
+      "changes": "None: existing unique metadata preserved"
+    },
+    {
+      "id": 15820,
+      "url": "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+      "beforeTitle": "65-Inch Samsung Frame Pro in Wilmette, IL | Chicago Mounting",
+      "afterTitle": "65-Inch Samsung Frame Pro in Wilmette, IL | Chicago Mounting",
+      "beforeDescription": "A 65-inch Samsung Frame Pro installation with a recessed outlet in Wilmette, IL. View the wall-mounted TV and project details.",
+      "afterDescription": "A 65-inch Samsung Frame Pro installation with a recessed outlet in Wilmette, IL. View the wall-mounted TV and project details.",
+      "savedAdminTitle": "65-Inch Samsung Frame Pro in Wilmette, IL | Chicago Mounting",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "65-Inch Samsung Frame Pro with a Recessed Outlet in Wilmette, IL"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "65-Inch Samsung Frame Pro in Wilmette, IL | Chicago Mounting",
+      "ogDescription": "A 65-inch Samsung Frame Pro installation with a recessed outlet in Wilmette, IL. View the wall-mounted TV and project details.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Not individually verified",
+      "caseImages": [
+        {
+          "mediaId": 16079,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-recessed-outlet-img-0173-featured-16x9-1.webp",
+          "alt": "Completed Samsung Frame Pro installation on the textured wall",
+          "title": null
+        },
+        {
+          "mediaId": 16045,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-recessed-outlet-img-0160.webp",
+          "alt": "Rear of the Samsung Frame television and its packaging before mounting",
+          "title": null
+        },
+        {
+          "mediaId": 16041,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-recessed-outlet-img-0164.webp",
+          "alt": "Installer measuring the Frame TV position while the display is prepared nearby",
+          "title": null
+        },
+        {
+          "mediaId": 16043,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-recessed-outlet-img-0162.webp",
+          "alt": "Installer checking the mounting height on the textured wall",
+          "title": null
+        },
+        {
+          "mediaId": 15855,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/frame-pro-recessed-power-outlet.webp",
+          "alt": "Recessed outlet and connected power cord behind the Samsung Frame Pro",
+          "title": null
+        }
+      ],
+      "serviceLinks": [
+        "https://chicagomounting.com/frame-tv-mounting-chicago/"
+      ],
+      "changes": "None: existing unique metadata preserved"
+    },
+    {
+      "id": 15818,
+      "url": "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+      "beforeTitle": "85-Inch Sony BRAVIA & Sonos in Winnetka, IL | Chicago Mounting",
+      "afterTitle": "85-Inch Sony BRAVIA & Sonos in Winnetka, IL | Chicago Mounting",
+      "beforeDescription": "An 85-inch Sony BRAVIA and Sonos Arc Ultra installation in Winnetka, IL. Explore the project details and installation photographs.",
+      "afterDescription": "An 85-inch Sony BRAVIA and Sonos Arc Ultra installation in Winnetka, IL. Explore the project details and installation photographs.",
+      "savedAdminTitle": "85-Inch Sony BRAVIA & Sonos in Winnetka, IL | Chicago Mounting",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "85-Inch Sony BRAVIA and Sonos Arc Ultra Installation in Winnetka, IL"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "85-Inch Sony BRAVIA & Sonos in Winnetka, IL | Chicago Mounting",
+      "ogDescription": "An 85-inch Sony BRAVIA and Sonos Arc Ultra installation in Winnetka, IL. Explore the project details and installation photographs.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Not individually verified",
+      "caseImages": [
+        {
+          "mediaId": 16076,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0237-featured-16x9-1.webp",
+          "alt": "Front view of the Sony BRAVIA television and Sonos Arc Ultra soundbar",
+          "title": null
+        },
+        {
+          "mediaId": 16034,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0218.webp",
+          "alt": "Sony television packaging and equipment before installation",
+          "title": null
+        },
+        {
+          "mediaId": 15854,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-mounting-rails.webp",
+          "alt": "Mounting rails secured to the rear of the Sony BRAVIA television",
+          "title": null
+        },
+        {
+          "mediaId": 16044,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0234.webp",
+          "alt": "Side profile of the Sony BRAVIA and Sonos Arc Ultra installation",
+          "title": null
+        },
+        {
+          "mediaId": 16040,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0230.webp",
+          "alt": "Angled close view of the Sony BRAVIA screen and Sonos soundbar",
+          "title": null
+        },
+        {
+          "mediaId": 16036,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0240.webp",
+          "alt": "Completed Sony BRAVIA and Sonos soundbar arrangement on the wall",
+          "title": null
+        }
+      ],
+      "serviceLinks": [
+        "https://chicagomounting.com/premium-large-tv-installation/"
+      ],
+      "changes": "None: existing unique metadata preserved"
+    },
+    {
+      "id": 15816,
+      "url": "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+      "beforeTitle": "77-Inch LG G6 & Media Box in Glenview, IL | Chicago Mounting",
+      "afterTitle": "77-Inch LG G6 & Media Box in Glenview, IL | Chicago Mounting",
+      "beforeDescription": "A 77-inch LG G6 installation with a Legrand recessed media box in Glenview, IL. View the project details and installation gallery.",
+      "afterDescription": "A 77-inch LG G6 installation with a Legrand recessed media box in Glenview, IL. View the project details and installation gallery.",
+      "savedAdminTitle": "77-Inch LG G6 & Media Box in Glenview, IL | Chicago Mounting",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "77-Inch LG G6 with a Legrand Recessed Media Box in Glenview, IL"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "77-Inch LG G6 & Media Box in Glenview, IL | Chicago Mounting",
+      "ogDescription": "A 77-inch LG G6 installation with a Legrand recessed media box in Glenview, IL. View the project details and installation gallery.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Not individually verified",
+      "caseImages": [
+        {
+          "mediaId": 16078,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0704-featured-16x9-1.webp",
+          "alt": "Completed LG G6 mounted between the room's windows",
+          "title": null
+        },
+        {
+          "mediaId": 16031,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0683.webp",
+          "alt": "LG OLED packaging in the room before installation",
+          "title": null
+        },
+        {
+          "mediaId": 16039,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0689.webp",
+          "alt": "Installer preparing the recessed media box opening",
+          "title": null
+        },
+        {
+          "mediaId": 16029,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0693.webp",
+          "alt": "Recessed media box and LG mounting plate before the screen was fitted",
+          "title": null
+        },
+        {
+          "mediaId": 15853,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-legrand-box-and-mount.webp",
+          "alt": "Legrand recessed media box positioned to the left of the mounting plate",
+          "title": null
+        },
+        {
+          "mediaId": 16037,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0688.webp",
+          "alt": "Mounting hardware on the rear of the LG television",
+          "title": null
+        },
+        {
+          "mediaId": 16035,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0697.webp",
+          "alt": "Wide view of the wall mounting plate and recessed box during preparation",
+          "title": null
+        },
+        {
+          "mediaId": 16038,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0700.webp",
+          "alt": "LG G6 installation viewed from the right side",
+          "title": null
+        },
+        {
+          "mediaId": 15842,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-flush-wall-installation.webp",
+          "alt": "Close side view of the LG G6 operating after installation",
+          "title": null
+        },
+        {
+          "mediaId": 16030,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0707.webp",
+          "alt": "Edge view of the LG G6 fitted close to the wall",
+          "title": null
+        },
+        {
+          "mediaId": 16033,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0706.webp",
+          "alt": "Angled side view of the LG G6 and soundbar below",
+          "title": null
+        },
+        {
+          "mediaId": 16028,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0705.webp",
+          "alt": "Front-side view of the LG G6 above the existing cabinet",
+          "title": null
+        },
+        {
+          "mediaId": 16032,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0702.webp",
+          "alt": "LG G6 screen operating after mounting",
+          "title": null
+        }
+      ],
+      "serviceLinks": [
+        "https://chicagomounting.com/recessed-media-box/"
+      ],
+      "changes": "None: existing unique metadata preserved"
+    },
+    {
+      "id": 15814,
+      "url": "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+      "beforeTitle": "Samsung OLED & MantelMount in Evanston, IL | Chicago Mounting",
+      "afterTitle": "Samsung OLED & MantelMount in Evanston, IL | Chicago Mounting",
+      "beforeDescription": "A 55-inch Samsung OLED installed on tile with a MantelMount MAX1 in Evanston, IL. Explore the installation details and project photographs.",
+      "afterDescription": "A 55-inch Samsung OLED installed on tile with a MantelMount MAX1 in Evanston, IL. Explore the installation details and project photographs.",
+      "savedAdminTitle": "Samsung OLED & MantelMount in Evanston, IL | Chicago Mounting",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "55-Inch Samsung OLED on Tile with MantelMount MAX1 in Evanston, IL"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "Samsung OLED & MantelMount in Evanston, IL | Chicago Mounting",
+      "ogDescription": "A 55-inch Samsung OLED installed on tile with a MantelMount MAX1 in Evanston, IL. Explore the installation details and project photographs.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Not individually verified",
+      "caseImages": [
+        {
+          "mediaId": 16074,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0969-featured-16x9-1.webp",
+          "alt": "Front view of the television in the lowered MantelMount position",
+          "title": null
+        },
+        {
+          "mediaId": 16022,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0936.webp",
+          "alt": "Tiled fireplace wall before the television mounting hardware was installed",
+          "title": null
+        },
+        {
+          "mediaId": 16017,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0940.webp",
+          "alt": "Packaged MantelMount equipment and tools before installation",
+          "title": null
+        },
+        {
+          "mediaId": 16025,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0941.webp",
+          "alt": "MantelMount assembly prepared beside the television",
+          "title": null
+        },
+        {
+          "mediaId": 16018,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0951.webp",
+          "alt": "MantelMount assembly fixed above the tiled fireplace before fitting the TV",
+          "title": null
+        },
+        {
+          "mediaId": 16027,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0943.webp",
+          "alt": "Front view of the MantelMount bracket secured to the tiled surface",
+          "title": null
+        },
+        {
+          "mediaId": 15852,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/mantelmount-max1-tile-bracket.webp",
+          "alt": "Side view of the MantelMount MAX1 assembly on the tile wall",
+          "title": null
+        },
+        {
+          "mediaId": 16023,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0956.webp",
+          "alt": "Samsung OLED television mounted above the tiled fireplace",
+          "title": null
+        },
+        {
+          "mediaId": 16020,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0967.webp",
+          "alt": "Wide view of the Samsung OLED lowered on the MantelMount MAX1",
+          "title": null
+        },
+        {
+          "mediaId": 16026,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0964.webp",
+          "alt": "Angled view of the Samsung OLED and soundbar above the tile fireplace",
+          "title": null
+        },
+        {
+          "mediaId": 16024,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0965.webp",
+          "alt": "Room view of the Samsung OLED in its raised position above the fireplace",
+          "title": null
+        }
+      ],
+      "serviceLinks": [
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/"
+      ],
+      "changes": "None: existing unique metadata preserved"
+    },
+    {
+      "id": 15812,
+      "url": "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+      "beforeTitle": "LG C6 & Samsung Q990H in Evanston, IL | Chicago Mounting",
+      "afterTitle": "LG C6 & Samsung Q990H in Evanston, IL | Chicago Mounting",
+      "beforeDescription": "A 77-inch LG C6 and Samsung Q990H soundbar installation in Evanston, IL, with concealed connecting cables and a recessed box for power equipment.",
+      "afterDescription": "A 77-inch LG C6 and Samsung Q990H soundbar installation in Evanston, IL, with concealed connecting cables and a recessed box for power equipment.",
+      "savedAdminTitle": "LG C6 & Samsung Q990H in Evanston, IL | Chicago Mounting",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "77-Inch LG C6 and Samsung Q990H Soundbar Installation in Evanston, IL"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "LG C6 & Samsung Q990H in Evanston, IL | Chicago Mounting",
+      "ogDescription": "A 77-inch LG C6 and Samsung Q990H soundbar installation in Evanston, IL, with concealed connecting cables and a recessed box for power equipment.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Not individually verified",
+      "caseImages": [
+        {
+          "mediaId": 16075,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0862-featured-16x9-1.webp",
+          "alt": "Front view of the completed LG C6 and Samsung Q990H installation",
+          "title": null
+        },
+        {
+          "mediaId": 16013,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0836.webp",
+          "alt": "Samsung Q990H soundbar system and components before installation",
+          "title": null
+        },
+        {
+          "mediaId": 16021,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0840.webp",
+          "alt": "Samsung soundbar, speakers and connection accessories laid out before installation",
+          "title": null
+        },
+        {
+          "mediaId": 16016,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0830.webp",
+          "alt": "Wall marked for the LG C6 installation before mounting",
+          "title": null
+        },
+        {
+          "mediaId": 16012,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0845.webp",
+          "alt": "Installer preparing the recessed box and wall hardware for the LG C6",
+          "title": null
+        },
+        {
+          "mediaId": 16019,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0843.webp",
+          "alt": "Installer measuring the marked TV position on the wall",
+          "title": null
+        },
+        {
+          "mediaId": 15851,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-recessed-media-box.webp",
+          "alt": "Wall bracket beside the recessed media box before the LG C6 was fitted",
+          "title": null
+        },
+        {
+          "mediaId": 16010,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0858.webp",
+          "alt": "Angled view of the LG C6 television and Samsung soundbar on the wall",
+          "title": null
+        }
+      ],
+      "serviceLinks": [
+        "https://chicagomounting.com/soundbar-installation/"
+      ],
+      "changes": "None: existing unique metadata preserved"
+    },
+    {
+      "id": 15810,
+      "url": "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+      "beforeTitle": "77-Inch LG G6 on Stone in Winnetka, IL | Chicago Mounting",
+      "afterTitle": "77-Inch LG G6 on Stone in Winnetka, IL | Chicago Mounting",
+      "beforeDescription": "A 77-inch LG G6 television installed on a stone fireplace in Winnetka, IL. Explore the project details and installation photographs.",
+      "afterDescription": "A 77-inch LG G6 television installed on a stone fireplace in Winnetka, IL. Explore the project details and installation photographs.",
+      "savedAdminTitle": "77-Inch LG G6 on Stone in Winnetka, IL | Chicago Mounting",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "77-Inch LG G6 Installation on a Stone Fireplace in Winnetka, IL"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "77-Inch LG G6 on Stone in Winnetka, IL | Chicago Mounting",
+      "ogDescription": "A 77-inch LG G6 television installed on a stone fireplace in Winnetka, IL. Explore the project details and installation photographs.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Not individually verified",
+      "caseImages": [
+        {
+          "mediaId": 16072,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0802-featured-16x9-1.webp",
+          "alt": "Completed LG G6 television above the stone fireplace with the screen on",
+          "title": null
+        },
+        {
+          "mediaId": 16007,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0756.webp",
+          "alt": "Packaged LG OLED television before the stone-fireplace installation",
+          "title": null
+        },
+        {
+          "mediaId": 16014,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0763.webp",
+          "alt": "Wide view of the mounting plate and recessed box above the stone fireplace",
+          "title": null
+        },
+        {
+          "mediaId": 15835,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-recessed-box.webp",
+          "alt": "Mounting plate and recessed media box prepared in the stone veneer above the fireplace",
+          "title": null
+        },
+        {
+          "mediaId": 16008,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0758.webp",
+          "alt": "Rear of the LG television with mounting hardware during preparation",
+          "title": null
+        },
+        {
+          "mediaId": 16009,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0782.webp",
+          "alt": "Side profile showing the LG G6 fitted close to the stone veneer",
+          "title": null
+        },
+        {
+          "mediaId": 16015,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0778.webp",
+          "alt": "Angled view of the LG G6 mounted above the stone fireplace",
+          "title": null
+        },
+        {
+          "mediaId": 16011,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0767.webp",
+          "alt": "Front view of the completed LG G6 fireplace installation",
+          "title": null
+        }
+      ],
+      "serviceLinks": [
+        "https://chicagomounting.com/recessed-media-box/"
+      ],
+      "changes": "None: existing unique metadata preserved"
+    },
+    {
+      "id": 15793,
+      "url": "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/",
+      "beforeTitle": "85-Inch Samsung Neo QLED in Evanston, IL | Chicago Mounting",
+      "afterTitle": "85-Inch Samsung Neo QLED in Evanston, IL | Chicago Mounting",
+      "beforeDescription": "An 85-inch Samsung Neo QLED wall installation in Evanston, IL, with a recessed media box and concealed wiring behind the screen.",
+      "afterDescription": "An 85-inch Samsung Neo QLED wall installation in Evanston, IL, with a recessed media box and concealed wiring behind the screen.",
+      "savedAdminTitle": "85-Inch Samsung Neo QLED in Evanston, IL | Chicago Mounting",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "85-Inch Samsung Neo QLED Installation in Evanston, IL"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "85-Inch Samsung Neo QLED in Evanston, IL | Chicago Mounting",
+      "ogDescription": "An 85-inch Samsung Neo QLED wall installation in Evanston, IL, with a recessed media box and concealed wiring behind the screen.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Not individually verified",
+      "caseImages": [
+        {
+          "mediaId": 16080,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/case-15793-tv-installation-16x9-1.webp",
+          "alt": "Wall-mounted television above recessed outlets in a living room",
+          "title": null
+        }
+      ],
+      "serviceLinks": [
+        "https://chicagomounting.com/recessed-media-box/"
+      ],
+      "changes": "None: existing unique metadata preserved"
+    },
+    {
+      "id": 15792,
+      "url": "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/",
+      "beforeTitle": "Outdoor TV on Brick in Glenview, IL | Chicago Mounting",
+      "afterTitle": "Outdoor TV on Brick in Glenview, IL | Chicago Mounting",
+      "beforeDescription": "An outdoor TV and soundbar mounted on brick beneath a covered patio in Glenview, IL. See the installation photograph and project overview.",
+      "afterDescription": "An outdoor TV and soundbar mounted on brick beneath a covered patio in Glenview, IL. See the installation photograph and project overview.",
+      "savedAdminTitle": "Outdoor TV on Brick in Glenview, IL | Chicago Mounting",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "Outdoor TV Installation on Brick in Glenview, IL"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "Outdoor TV on Brick in Glenview, IL | Chicago Mounting",
+      "ogDescription": "An outdoor TV and soundbar mounted on brick beneath a covered patio in Glenview, IL. See the installation photograph and project overview.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Not individually verified",
+      "caseImages": [
+        {
+          "mediaId": 16087,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/case-15792-tv-installation-16x9-1.webp",
+          "alt": "Outdoor television mounted on a brick wall beneath a covered patio",
+          "title": null
+        }
+      ],
+      "serviceLinks": [
+        "https://chicagomounting.com/outdoor-tv-installation/"
+      ],
+      "changes": "None: existing unique metadata preserved"
+    },
+    {
+      "id": 15791,
+      "url": "https://chicagomounting.com/tv-wall-mounting-case-wilmette/",
+      "beforeTitle": "TV Wall Mounting in Wilmette, IL | Chicago Mounting",
+      "afterTitle": "TV Wall Mounting in Wilmette, IL | Chicago Mounting",
+      "beforeDescription": "See our TV wall-mounting project in Wilmette, IL. Watch the original Chicago Mounting installation video and view the project overview.",
+      "afterDescription": "See our TV wall-mounting project in Wilmette, IL. Watch the original Chicago Mounting installation video and view the project overview.",
+      "savedAdminTitle": "TV Wall Mounting in Wilmette, IL | Chicago Mounting",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/tv-wall-mounting-case-wilmette/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "TV Wall Mounting in Wilmette, IL"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "TV Wall Mounting in Wilmette, IL | Chicago Mounting",
+      "ogDescription": "See our TV wall-mounting project in Wilmette, IL. Watch the original Chicago Mounting installation video and view the project overview.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Not individually verified",
+      "caseImages": [
+        {
+          "mediaId": 15888,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/wilmette-installation-video-hd-CPoIAAo42LI.jpg",
+          "alt": "TV installation in Wilmette shown in the original Chicago Mounting installation video.",
+          "title": null
+        }
+      ],
+      "serviceLinks": [
+        "https://chicagomounting.com/tv-installation-and-mounting/"
+      ],
+      "changes": "None: existing unique metadata preserved"
+    },
+    {
+      "id": 15731,
+      "url": "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/",
+      "beforeTitle": "Samsung Frame TV Installation on Tile | Chicago Mounting",
+      "afterTitle": "Samsung Frame TV Installation on Tile | Chicago Mounting",
+      "beforeDescription": "See a Samsung Frame TV mounted above a tiled fireplace with a soundbar below the screen. Explore the installation overview, photograph and video.",
+      "afterDescription": "See a Samsung Frame TV mounted above a tiled fireplace with a soundbar below the screen. Explore the installation overview, photograph and video.",
+      "savedAdminTitle": "Post Title + Separator + Site Title (native UI smart-tag labels)",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "Samsung Frame TV Installation on Tile"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "Samsung Frame TV Installation on Tile | Chicago Mounting",
+      "ogDescription": "See a Samsung Frame TV mounted above a tiled fireplace with a soundbar below the screen. Explore the installation overview, photograph and video.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Empty (UI observed)",
+      "caseImages": [
+        {
+          "mediaId": 16086,
+          "src": "https://chicagomounting.com/wp-content/uploads/2026/11/case-15731-tv-installation-16x9-1.webp",
+          "alt": "Frame-style television and soundbar above a tile fireplace surround",
+          "title": null
+        }
+      ],
+      "serviceLinks": [
+        "https://chicagomounting.com/frame-tv-mounting-chicago/"
+      ],
+      "changes": "None: existing unique metadata preserved"
+    },
+    {
+      "id": 15716,
+      "url": "https://chicagomounting.com/case-studies/",
+      "beforeTitle": "Case Studies | Chicago Mounting",
+      "afterTitle": "Case Studies | Chicago Mounting",
+      "beforeDescription": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "afterDescription": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "savedAdminTitle": "Page Title + Separator + Site Title (native UI smart-tag labels)",
+      "savedAdminDescriptionMatches": true,
+      "adminReopened": true,
+      "publishedInAdmin": true,
+      "status": 200,
+      "canonical": "https://chicagomounting.com/case-studies/",
+      "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1": [
+        "TV Installation Case Studies"
+      ],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "Organization",
+        "WebPage",
+        "WebSite",
+        "Product"
+      ],
+      "schemaUnchanged": true,
+      "headingsBodyImagesLinksUnchanged": true,
+      "ogTitle": "Case Studies | Chicago Mounting",
+      "ogDescription": "Explore Chicago Mounting case studies for Frame TVs, fireplaces, large screens, outdoor TVs and home audio. Filter projects by collection and installation type.",
+      "socialImage": "https://chicagomounting.com/wp-content/uploads/2026/02/chicago-mounting-social-preview.jpg",
+      "focusKeyphraseStatus": "Not individually verified",
+      "caseImages": [],
+      "serviceLinks": [],
+      "changes": "None: existing unique metadata preserved"
+    }
+  ],
+  "media": [
+    {
+      "id": 16086,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/case-15731-tv-installation-16x9-1.webp",
+      "alt_text": "Frame-style television and soundbar above a tile fireplace surround",
+      "title": {
+        "rendered": "Frame-style television and soundbar above a tile fireplace surround"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16087,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/case-15792-tv-installation-16x9-1.webp",
+      "alt_text": "Outdoor television mounted on a brick wall beneath a covered patio",
+      "title": {
+        "rendered": "Outdoor television mounted on a brick wall beneath a covered patio"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16083,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-0485-featured-16x9-1.webp",
+      "alt_text": "Samsung Frame TV displaying artwork after installation",
+      "title": {
+        "rendered": "Samsung Frame TV displaying artwork after installation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16084,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9810-featured-16x9-1.webp",
+      "alt_text": "Completed Samsung Frame centered above the white fireplace",
+      "title": {
+        "rendered": "Completed Samsung Frame centered above the white fireplace"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16085,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9643-featured-16x9-1.webp",
+      "alt_text": "Completed LG W6 and Sonos Arc Ultra arrangement above the fireplace",
+      "title": {
+        "rendered": "Completed LG W6 and Sonos Arc Ultra arrangement above the fireplace"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16080,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/case-15793-tv-installation-16x9-1.webp",
+      "alt_text": "Wall-mounted television above recessed outlets in a living room",
+      "title": {
+        "rendered": "Wall-mounted television above recessed outlets in a living room"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16081,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8861-featured-16x9-1.webp",
+      "alt_text": "Front view of the Samsung OLED and Bose soundbar above the stone fireplace",
+      "title": {
+        "rendered": "Front view of the Samsung OLED and Bose soundbar above the stone fireplace"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16082,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/neo-qled-brick-fireplace-img-9578-featured-16x9-1.webp",
+      "alt_text": "Completed Neo QLED television and soundbar above the painted brick fireplace",
+      "title": {
+        "rendered": "Completed Neo QLED television and soundbar above the painted brick fireplace"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16076,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0237-featured-16x9-1.webp",
+      "alt_text": "Front view of the Sony BRAVIA television and Sonos Arc Ultra soundbar",
+      "title": {
+        "rendered": "Front view of the Sony BRAVIA television and Sonos Arc Ultra soundbar"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16077,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-qned-home-audio-img-9846-featured-16x9-1.webp",
+      "alt_text": "Completed 100-inch LG QNED centered between the in-wall speakers",
+      "title": {
+        "rendered": "Completed 100-inch LG QNED centered between the in-wall speakers"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16078,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0704-featured-16x9-1.webp",
+      "alt_text": "Completed LG G6 mounted between the room's windows",
+      "title": {
+        "rendered": "Completed LG G6 mounted between the room&#8217;s windows"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16079,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-recessed-outlet-img-0173-featured-16x9-1.webp",
+      "alt_text": "Completed Samsung Frame Pro installation on the textured wall",
+      "title": {
+        "rendered": "Completed Samsung Frame Pro installation on the textured wall"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16074,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0969-featured-16x9-1.webp",
+      "alt_text": "Front view of the television in the lowered MantelMount position",
+      "title": {
+        "rendered": "Front view of the television in the lowered MantelMount position"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16075,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0862-featured-16x9-1.webp",
+      "alt_text": "Front view of the completed LG C6 and Samsung Q990H installation",
+      "title": {
+        "rendered": "Front view of the completed LG C6 and Samsung Q990H installation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16069,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8840.webp",
+      "alt_text": "Rear-side view of the television while prepared for mounting",
+      "title": {
+        "rendered": "Rear-side view of the television while prepared for mounting"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16070,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8826.webp",
+      "alt_text": "Samsung S95H OLED packaging marked 65 inches beside Bose equipment",
+      "title": {
+        "rendered": "Samsung S95H OLED packaging marked 65 inches beside Bose equipment"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16071,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8866.webp",
+      "alt_text": "Right-side profile of the Samsung OLED and Bose soundbar",
+      "title": {
+        "rendered": "Right-side profile of the Samsung OLED and Bose soundbar"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16072,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0802-featured-16x9-1.webp",
+      "alt_text": "Completed LG G6 television above the stone fireplace with the screen on",
+      "title": {
+        "rendered": "Completed LG G6 television above the stone fireplace with the screen on"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16073,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8831.webp",
+      "alt_text": "Stone fireplace wall before the television was fitted",
+      "title": {
+        "rendered": "Stone fireplace wall before the television was fitted"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16067,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8846.webp",
+      "alt_text": "Stone fireplace wall with the mounting bracket prepared",
+      "title": {
+        "rendered": "Stone fireplace wall with the mounting bracket prepared"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16068,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/neo-qled-brick-fireplace-img-9560.webp",
+      "alt_text": "Samsung Neo QLED packaging marked QN70F and 85 inches",
+      "title": {
+        "rendered": "Samsung Neo QLED packaging marked QN70F and 85 inches"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16064,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8850.webp",
+      "alt_text": "Installer adjusting the Samsung OLED and soundbar above the stone mantel",
+      "title": {
+        "rendered": "Installer adjusting the Samsung OLED and soundbar above the stone mantel"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16065,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/neo-qled-brick-fireplace-img-9565.webp",
+      "alt_text": "Installer measuring the mounting position on the brick fireplace wall",
+      "title": {
+        "rendered": "Installer measuring the mounting position on the brick fireplace wall"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16066,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-fireplace-img-8868.webp",
+      "alt_text": "Left-side profile of the Samsung OLED and Bose soundbar",
+      "title": {
+        "rendered": "Left-side profile of the Samsung OLED and Bose soundbar"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16058,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9603.webp",
+      "alt_text": "Rear edge of the LG W6 during preparation",
+      "title": {
+        "rendered": "Rear edge of the LG W6 during preparation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16059,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9634.webp",
+      "alt_text": "Side view of the fitted LG W6 showing its close wall position",
+      "title": {
+        "rendered": "Side view of the fitted LG W6 showing its close wall position"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16060,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9593.webp",
+      "alt_text": "LG W6 packaging showing the 77-inch screen size",
+      "title": {
+        "rendered": "LG W6 packaging showing the 77-inch screen size"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16061,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9597.webp",
+      "alt_text": "LG W6 television above the fireplace during installation",
+      "title": {
+        "rendered": "LG W6 television above the fireplace during installation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16062,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9624.webp",
+      "alt_text": "Installer preparing the LG W6 mounting positions above the fireplace",
+      "title": {
+        "rendered": "Installer preparing the LG W6 mounting positions above the fireplace"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16063,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-fireplace-img-9615.webp",
+      "alt_text": "LG wall-mount hardware laid out before the fireplace installation",
+      "title": {
+        "rendered": "LG wall-mount hardware laid out before the fireplace installation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16057,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-9706.webp",
+      "alt_text": "Completed Samsung Frame installation displaying the setup screen",
+      "title": {
+        "rendered": "Completed Samsung Frame installation displaying the setup screen"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16052,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9797.webp",
+      "alt_text": "Two mounting plates and prepared connection area above the fireplace",
+      "title": {
+        "rendered": "Two mounting plates and prepared connection area above the fireplace"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16053,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-9682.webp",
+      "alt_text": "Installer preparing the wall for the 85-inch Samsung Frame TV",
+      "title": {
+        "rendered": "Installer preparing the wall for the 85-inch Samsung Frame TV"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16054,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-0487.webp",
+      "alt_text": "Installer adjusting the Samsung Frame television after mounting",
+      "title": {
+        "rendered": "Installer adjusting the Samsung Frame television after mounting"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16055,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-9699.webp",
+      "alt_text": "Packaging for the Sanus full-motion TV wall mount",
+      "title": {
+        "rendered": "Packaging for the Sanus full-motion TV wall mount"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16056,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-img-9687.webp",
+      "alt_text": "Wall bracket in the marked Samsung Frame installation area",
+      "title": {
+        "rendered": "Wall bracket in the marked Samsung Frame installation area"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16049,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9793.webp",
+      "alt_text": "Samsung Frame packaging showing the 65-inch screen size",
+      "title": {
+        "rendered": "Samsung Frame packaging showing the 65-inch screen size"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16050,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9803.webp",
+      "alt_text": "Installer working on the Samsung Frame above the fireplace",
+      "title": {
+        "rendered": "Installer working on the Samsung Frame above the fireplace"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16051,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9804.webp",
+      "alt_text": "Samsung Frame above the white fireplace during final setup",
+      "title": {
+        "rendered": "Samsung Frame above the white fireplace during final setup"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16046,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-fireplace-img-9789.webp",
+      "alt_text": "Room and fireplace wall before the Samsung Frame was mounted",
+      "title": {
+        "rendered": "Room and fireplace wall before the Samsung Frame was mounted"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16047,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-qned-home-audio-img-9836.webp",
+      "alt_text": "LG QNED mounted and displaying its initial setup screen",
+      "title": {
+        "rendered": "LG QNED mounted and displaying its initial setup screen"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16048,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-qned-home-audio-img-9811.webp",
+      "alt_text": "LG QNED packaging in front of the existing speaker wall",
+      "title": {
+        "rendered": "LG QNED packaging in front of the existing speaker wall"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16040,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0230.webp",
+      "alt_text": "Angled close view of the Sony BRAVIA screen and Sonos soundbar",
+      "title": {
+        "rendered": "Angled close view of the Sony BRAVIA screen and Sonos soundbar"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16041,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-recessed-outlet-img-0164.webp",
+      "alt_text": "Installer measuring the Frame TV position while the display is prepared nearby",
+      "title": {
+        "rendered": "Installer measuring the Frame TV position while the display is prepared nearby"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16042,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-qned-home-audio-img-9812.webp",
+      "alt_text": "LG QNED packaging and mounting equipment in the room before installation",
+      "title": {
+        "rendered": "LG QNED packaging and mounting equipment in the room before installation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16043,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-recessed-outlet-img-0162.webp",
+      "alt_text": "Installer checking the mounting height on the textured wall",
+      "title": {
+        "rendered": "Installer checking the mounting height on the textured wall"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16044,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0234.webp",
+      "alt_text": "Side profile of the Sony BRAVIA and Sonos Arc Ultra installation",
+      "title": {
+        "rendered": "Side profile of the Sony BRAVIA and Sonos Arc Ultra installation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16045,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-recessed-outlet-img-0160.webp",
+      "alt_text": "Rear of the Samsung Frame television and its packaging before mounting",
+      "title": {
+        "rendered": "Rear of the Samsung Frame television and its packaging before mounting"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16034,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0218.webp",
+      "alt_text": "Sony television packaging and equipment before installation",
+      "title": {
+        "rendered": "Sony television packaging and equipment before installation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16035,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0697.webp",
+      "alt_text": "Wide view of the wall mounting plate and recessed box during preparation",
+      "title": {
+        "rendered": "Wide view of the wall mounting plate and recessed box during preparation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16036,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-sonos-img-0240.webp",
+      "alt_text": "Completed Sony BRAVIA and Sonos soundbar arrangement on the wall",
+      "title": {
+        "rendered": "Completed Sony BRAVIA and Sonos soundbar arrangement on the wall"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16037,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0688.webp",
+      "alt_text": "Mounting hardware on the rear of the LG television",
+      "title": {
+        "rendered": "Mounting hardware on the rear of the LG television"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16038,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0700.webp",
+      "alt_text": "LG G6 installation viewed from the right side",
+      "title": {
+        "rendered": "LG G6 installation viewed from the right side"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16039,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0689.webp",
+      "alt_text": "Installer preparing the recessed media box opening",
+      "title": {
+        "rendered": "Installer preparing the recessed media box opening"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16028,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0705.webp",
+      "alt_text": "Front-side view of the LG G6 above the existing cabinet",
+      "title": {
+        "rendered": "Front-side view of the LG G6 above the existing cabinet"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16029,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0693.webp",
+      "alt_text": "Recessed media box and LG mounting plate before the screen was fitted",
+      "title": {
+        "rendered": "Recessed media box and LG mounting plate before the screen was fitted"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16030,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0707.webp",
+      "alt_text": "Edge view of the LG G6 fitted close to the wall",
+      "title": {
+        "rendered": "Edge view of the LG G6 fitted close to the wall"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16031,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0683.webp",
+      "alt_text": "LG OLED packaging in the room before installation",
+      "title": {
+        "rendered": "LG OLED packaging in the room before installation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16032,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0702.webp",
+      "alt_text": "LG G6 screen operating after mounting",
+      "title": {
+        "rendered": "LG G6 screen operating after mounting"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16033,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-recessed-media-img-0706.webp",
+      "alt_text": "Angled side view of the LG G6 and soundbar below",
+      "title": {
+        "rendered": "Angled side view of the LG G6 and soundbar below"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16022,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0936.webp",
+      "alt_text": "Tiled fireplace wall before the television mounting hardware was installed",
+      "title": {
+        "rendered": "Tiled fireplace wall before the television mounting hardware was installed"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16023,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0956.webp",
+      "alt_text": "Samsung OLED television mounted above the tiled fireplace",
+      "title": {
+        "rendered": "Samsung OLED television mounted above the tiled fireplace"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16024,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0965.webp",
+      "alt_text": "Room view of the Samsung OLED in its raised position above the fireplace",
+      "title": {
+        "rendered": "Room view of the Samsung OLED in its raised position above the fireplace"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16025,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0941.webp",
+      "alt_text": "MantelMount assembly prepared beside the television",
+      "title": {
+        "rendered": "MantelMount assembly prepared beside the television"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16026,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0964.webp",
+      "alt_text": "Angled view of the Samsung OLED and soundbar above the tile fireplace",
+      "title": {
+        "rendered": "Angled view of the Samsung OLED and soundbar above the tile fireplace"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16027,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0943.webp",
+      "alt_text": "Front view of the MantelMount bracket secured to the tiled surface",
+      "title": {
+        "rendered": "Front view of the MantelMount bracket secured to the tiled surface"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16016,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0830.webp",
+      "alt_text": "Wall marked for the LG C6 installation before mounting",
+      "title": {
+        "rendered": "Wall marked for the LG C6 installation before mounting"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16017,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0940.webp",
+      "alt_text": "Packaged MantelMount equipment and tools before installation",
+      "title": {
+        "rendered": "Packaged MantelMount equipment and tools before installation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16018,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0951.webp",
+      "alt_text": "MantelMount assembly fixed above the tiled fireplace before fitting the TV",
+      "title": {
+        "rendered": "MantelMount assembly fixed above the tiled fireplace before fitting the TV"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16019,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0843.webp",
+      "alt_text": "Installer measuring the marked TV position on the wall",
+      "title": {
+        "rendered": "Installer measuring the marked TV position on the wall"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16020,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-mantelmount-img-0967.webp",
+      "alt_text": "Wide view of the Samsung OLED lowered on the MantelMount MAX1",
+      "title": {
+        "rendered": "Wide view of the Samsung OLED lowered on the MantelMount MAX1"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16021,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0840.webp",
+      "alt_text": "Samsung soundbar, speakers and connection accessories laid out before installation",
+      "title": {
+        "rendered": "Samsung soundbar, speakers and connection accessories laid out before installation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16010,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0858.webp",
+      "alt_text": "Angled view of the LG C6 television and Samsung soundbar on the wall",
+      "title": {
+        "rendered": "Angled view of the LG C6 television and Samsung soundbar on the wall"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16011,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0767.webp",
+      "alt_text": "Front view of the completed LG G6 fireplace installation",
+      "title": {
+        "rendered": "Front view of the completed LG G6 fireplace installation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16012,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0845.webp",
+      "alt_text": "Installer preparing the recessed box and wall hardware for the LG C6",
+      "title": {
+        "rendered": "Installer preparing the recessed box and wall hardware for the LG C6"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16013,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-soundbar-img-0836.webp",
+      "alt_text": "Samsung Q990H soundbar system and components before installation",
+      "title": {
+        "rendered": "Samsung Q990H soundbar system and components before installation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16014,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0763.webp",
+      "alt_text": "Wide view of the mounting plate and recessed box above the stone fireplace",
+      "title": {
+        "rendered": "Wide view of the mounting plate and recessed box above the stone fireplace"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16015,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0778.webp",
+      "alt_text": "Angled view of the LG G6 mounted above the stone fireplace",
+      "title": {
+        "rendered": "Angled view of the LG G6 mounted above the stone fireplace"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16009,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0782.webp",
+      "alt_text": "Side profile showing the LG G6 fitted close to the stone veneer",
+      "title": {
+        "rendered": "Side profile showing the LG G6 fitted close to the stone veneer"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16008,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0758.webp",
+      "alt_text": "Rear of the LG television with mounting hardware during preparation",
+      "title": {
+        "rendered": "Rear of the LG television with mounting hardware during preparation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 16007,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-img-0756.webp",
+      "alt_text": "Packaged LG OLED television before the stone-fireplace installation",
+      "title": {
+        "rendered": "Packaged LG OLED television before the stone-fireplace installation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 15888,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/wilmette-installation-video-hd-CPoIAAo42LI.jpg",
+      "alt_text": "TV installation in Wilmette shown in the original Chicago Mounting installation video.",
+      "title": {
+        "rendered": "Wilmette TV installation &#8211; original video thumbnail"
+      },
+      "caption": {
+        "rendered": "<p>Original high-resolution thumbnail from the Chicago Mounting Wilmette installation video.</p>\n"
+      }
+    },
+    {
+      "id": 15861,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-stone-wall-bracket.webp",
+      "alt_text": "TV mounting bracket secured to the stone fireplace wall before the Samsung OLED installation.",
+      "title": {
+        "rendered": "TV mounting bracket secured to the stone fireplace wall before the Samsung OLED installation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 15860,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/neo-qled-brick-fireplace-bracket.webp",
+      "alt_text": "TV wall bracket installed on painted brick above the fireplace mantel.",
+      "title": {
+        "rendered": "TV wall bracket installed on painted brick above the fireplace mantel"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 15859,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-w6-slim-side-profile.webp",
+      "alt_text": "Side profile of the LG W6 mounted close to the wall above the Sonos soundbar.",
+      "title": {
+        "rendered": "Side profile of the LG W6 mounted close to the wall above the Sonos soundbar"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 15858,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-frame-full-motion-side-view.webp",
+      "alt_text": "Side view of the Samsung Frame television extended on its full-motion mount.",
+      "title": {
+        "rendered": "Side view of the Samsung Frame television extended on its full-motion mount"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 15857,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/frame-pro-fireplace-wall-preparation.webp",
+      "alt_text": "Two mounting plates positioned above the white fireplace for the Samsung Frame Pro.",
+      "title": {
+        "rendered": "Two mounting plates positioned above the white fireplace for the Samsung Frame Pro"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 15856,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/100-inch-qned-wall-bracket.webp",
+      "alt_text": "Wide wall bracket and cable opening prepared for the 100-inch LG QNED television.",
+      "title": {
+        "rendered": "Wide wall bracket and cable opening prepared for the 100-inch LG QNED television"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 15855,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/frame-pro-recessed-power-outlet.webp",
+      "alt_text": "Recessed outlet and connected power cord behind the Samsung Frame Pro.",
+      "title": {
+        "rendered": "Recessed outlet and connected power cord behind the Samsung Frame Pro"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 15854,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/sony-bravia-mounting-rails.webp",
+      "alt_text": "Mounting rails attached to the back of the Sony BRAVIA television.",
+      "title": {
+        "rendered": "Mounting rails attached to the back of the Sony BRAVIA television"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 15853,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-legrand-box-and-mount.webp",
+      "alt_text": "Legrand recessed media box beside the LG G6 wall-mount bracket.",
+      "title": {
+        "rendered": "Legrand recessed media box beside the LG G6 wall-mount bracket"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 15852,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/mantelmount-max1-tile-bracket.webp",
+      "alt_text": "MantelMount MAX1 bracket secured to the tile fireplace wall before mounting the television.",
+      "title": {
+        "rendered": "MantelMount MAX1 bracket secured to the tile fireplace wall before mounting the television"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 15851,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-c6-recessed-media-box.webp",
+      "alt_text": "Recessed media box and wall bracket prepared for the LG C6 television.",
+      "title": {
+        "rendered": "Recessed media box and wall bracket prepared for the LG C6 television"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 15850,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/samsung-oled-bose-stone-fireplace.webp",
+      "alt_text": "Samsung OLED television and Bose soundbar mounted above a stone fireplace between tall windows",
+      "title": {
+        "rendered": "Samsung OLED television and Bose soundbar mounted above a stone fireplace between tall windows"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 15842,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-flush-wall-installation.webp",
+      "alt_text": "Side view of a 77-inch LG G6 mounted close to a painted wall",
+      "title": {
+        "rendered": "LG G6 close-to-wall installation"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    },
+    {
+      "id": 15835,
+      "source_url": "https://chicagomounting.com/wp-content/uploads/2026/11/lg-g6-stone-fireplace-recessed-box.webp",
+      "alt_text": "TV mounting plate and recessed media box in the stone veneer above the fireplace",
+      "title": {
+        "rendered": "Recessed media box behind the LG G6"
+      },
+      "caption": {
+        "rendered": ""
+      }
+    }
+  ],
+  "limitations": [
+    "Focus keyphrase panel not individually verified for14 cases; no keyphrase edits",
+    "Raw internal title filter code and Elementor dynamic-tag binding not inspected; no active HTML override observed",
+    "Search engine cached/indexed snippets, search result rewrites and third-party audit source not verified",
+    "No fresh pixel-by-pixel photo/provenance certification; media text and live image use audited; original factual limitations retained",
+    "No production write or save was necessary; no post-save test claimed"
+  ]
+}

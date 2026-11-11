@@ -1,4 +1,12 @@
 # SEO and content
+## Current Case Study metadata verification — 2026-11-11
+
+Urgent reported generic-title duplication was not reproduced. Before any change, all16 published cases returned unique SEO titles and unique meta descriptions. All16 saved native AIOSEO title/description fields were reopened and matched anonymous HTML; second fetch repeated all16 plus catalogue. Only catalogue15716 correctly returns `Case Studies | Chicago Mounting`. Cases are ordinary Posts/category144; Search Appearance Posts default remains dynamic Post Title + Separator + Site Title, description Post Excerpt, Search Results Yes. Fifteen cases use individual explicit unique titles;15731 uses dynamic tags resolving to approved neutral Samsung Frame TV Installation on Tile title. Preserve15731unknown factual city and15824Frame-family wording; do not infer new provenance from editorial grouping.
+
+No shared title-generation defect found, so no global/template change or redundant16override creation. Existing Single15714 and case-specific rendered H1/head output retained. BlogPosting/WebPage/BreadcrumbList remain correct, breadcrumb parent points to catalogue. All17 URLs200/self-canonical/indexable; before/after body/headings/images/links/schema match. Each case retains one contextual service link.96 relevant featured/gallery media have ALT/title/no exact duplicate ALT; empty captions not treated as defects. Social blank overrides inherit unique SEO metadata; existing shared social image unchanged. No website writes or post-save claims.
+
+All16 before/after values, saved-field modes,96-media inventory and verification limits: ../docs/cases/SEO-METADATA-AUDIT-2026-11-11.md and SEO-METADATA-VERIFICATION-2026-11-11.json. Focus keywords directly observed empty on15832/15731; other14 not individually verified. Public canonical/robots checked, raw individual advanced controls/internal title-filter code not separately audited. Original duplicate observation's source remains unknown; do not present cache or search-engine rewrite as proven cause. This current evidence supersedes any assumption that all individual cases use catalogue title; earlier historical noindex/model/breadcrumb notes below must be read against later release records.
+
 Updated: 2026-10-26.
 
 ## Agreed direction
