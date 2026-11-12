@@ -1,5 +1,19 @@
 # Work — current state
 
+## 2026-11-12 — Expanded Chicago organic competitor analysis (seo branch)
+
+Completed organic-only scope correction and expanded knowledge/SEO-REPORT.md with ranking-supported comparison, organic SERP URLs/dates, shared-keyword positions, commercial gaps, relevant pages, scoped US metrics, qualified backlink sources and prioritized existing-page/Case Studies actions. Preserved the entire prior report verbatim below the new section.
+
+Retained 19 verified ranking-supported company targets: six local TV specialists, nine adjacent Chicago AV/theater/design companies, four national/multi-market providers. Yelp/Thumbtack/Reddit are three separate SERP platforms. Exact returned overlap with CM: ten companies. Broader screening: 112 formal records, 86 competitor Ahrefs targets (aliases/rejected contexts included, not business count). No additional directory expansion after scope correction.
+
+Actual organic SERPs added Elite, Matrix and TV Mount Master. Chicago TV Installer ranks 2 versus CM 5 for “chicago tv installation”; Same Day ranks 2/3 versus CM 7/11 for two generic commercial terms. Davis/Hooked Up/Elite rank 2/3/4 for Chicago theater installation. US national traffic, generic near-me ranks and Chicago-explicit query cohorts are explicitly separated. The Frame near-me SERP returned Wichita context: CM 11 is not a verified Chicago rank.
+
+Default branch verified as claude/chicago-mounting-zip-review-szeoup; current release documentation records the November 11 public case system (16 cases, eleven dynamic modules). No rebuild/noindex/new-city-page recommendation. Primary actions concern existing same-day/homepage/commercial intent and verified case proof.
+
+Limits: organic SERP requests through position 30 returned limited/empty rows; no dependable public-search pagination; specialty Chicago results unavailable; model/endpoint differences and old observation dates preserved. Existing GSC/BrightLocal research reused; no paid scans. No claim of all Chicagoland competitors. Next: qualified existing-page query cohorts, Chicago-controlled specialty evidence, case indexation/performance and real partnership eligibility. No website/WordPress/Elementor/GBP/Cloudflare/tracking changes or local file access.
+
+
+
 ## Latest SEO checkpoint — fresh authenticated audit, 2026-11-09
 Supersedes earlier access-based limitations. User clarified browser authorization; GSC, GA4 and Ahrefs were successfully read. SEO-REPORT.md now leads with fresh US/query/device/city/YoY results, exact indexing examples, actual three-domain Ahrefs Content Gap and GA4 source/event/landing attribution. BrightLocal investigation was not repeated.
 Key findings: USGSC91→104clicks, exactbrand12→27; excluding justthatquery79→77. USGA4organic127→143sessions/74→92engaged/18→26configuredkeyevents. FourcityGSC452→316impressions, mixedpositions; one28-dayorganiccitylanding/zerokeyevents. HubUSmobile−457impressions; mainlosingqueryrankimproves. Currentfourcityselfcanonical/no metanoindex checked. Administrative4xx/robots not revenuepageerrors; usefularticleexclusions documented. Gap: fourHDInstallsterms. Keyevents mix booking/call/inquiry; qualifiedlead/job/revenue remains unproven.
