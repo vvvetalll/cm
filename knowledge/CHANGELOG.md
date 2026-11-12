@@ -552,3 +552,12 @@ Used connected Cloudflare MCP only. Owner supplied and explicitly confirmed home
 ## 2026-11-11 — Scheduled WooCommerce investigation for November 12
 
 Owner requested next-day review of WooCommerce catalogue overhead and historical bot attacks. Created [GitHub Issue #1](https://github.com/vvvetalll/cm/issues/1) with scope covering actual WooCommerce dependencies, non-catalogue JS/CSS/AJAX and background jobs, WP Rocket preload/filter combinations, Cloudflare/WAF security events, server load and SEO. Defined evidence-first baseline, rollback, verification and approvals; prior Cloudflare report referenced. This is **planning only**, not investigation or resolution. No WordPress, Cloudflare, hosting, caching, SEO or code changes; no live performance measurement claimed. Next: execute issue with appropriate connections and record actual results.
+
+
+## 2026-11-12 — Case Studies native centering and original Line_with_screw
+
+Published native Center alignment on the eleven existing integration headings and VIEW ALL CASE STUDIES buttons. Preserved words/H2/accent spans, existing button appearance/link/states/spacing and grids/queries. Copied exact original global Divider2005 (Line_with_screw) beneath each target heading; no global definition edit, recreation, CSS addition or unrelated component/template edit. Per-page/section/widget/copied-instance IDs and targeted undo recorded in WORK.md.
+
+Actual frontend rendered-geometry checks on all11routes at1366 desktop/768tablet/390mobile client width: all headings center, accents retained, one centered global2005 immediately after heading, all-cases center offset approximately0.008px; expected4cards each exceptOutdoor1. Desktop/mobile screenshots inspected in-session; no screenshot-file export, physical-device or full-site overflow certification claimed. Temporary emulation cleared.
+
+Additional Card15715 mobile-sizing request remains blocked by native-only/no-CSS constraints: CTA6ba5141c is Paragraph+inner anchor; existing style#loop-15715 hard-codes inner-link min-height52px/padding12px16px/font14px, compared with standard mobile42px/padding0px18px/font13px. Native wrapper controls do not target these explicit inner-anchor declarations. Template left unchanged. Diagnostic320/375/390 checks of four cards show52px height,198/253/268px width and single-line fitting labels/aligned arrows. This is not a completed sizing correction; owner decision on permitted implementation is required. No new CSS/widgets, filter/indexing changes or MCP-server modification.
