@@ -1,3 +1,546 @@
+# Chicago Mounting — Local SEO and Competitor Growth Analysis
+
+**Assessment: November 11, 2026 (America/Chicago). Analysis only. Branch: seo.**
+This continuation adds fresh API evidence to the existing report below. Earlier findings remain dated historical records. No local filesystem, desktop, WordPress management tools, production edits or tracking changes were used. The owner explicitly requested this report and aggregate findings in the existing public SEO branch; credentials, personal data and raw customer/analytics exports are excluded.
+
+## Executive decisions
+
+- GSC Web, all countries/devices: August–October 2026 generated **815 clicks / 90,930 impressions**, versus **803 / 71,777** in May–July. Clicks +1.49%, impressions +26.68%, CTR **1.119%→0.896%**, weighted average position **18.84→20.03**. Visibility grew substantially faster than acquisition.
+- Exact brand query “chicago mounting” rose **81→110 clicks** (+29), greater than the site's net +12. Site totals minus this single query fell **722→705** (−2.35%). This is an exact-brand-excluded proxy, not a complete non-brand classification.
+- Monthly clicks peaked at290 in July, then285/276/254 in August/September/October. October versus July: −12.41% clicks, −11.12% impressions, average position19.18→19.61. The three-month comparison conceals recent softening. A full same-season demand study is unavailable; this is not proof of seasonality or a Google penalty.
+- Fresh Ahrefs US batch estimate: **134 organic visits/month,28 keywords,DR2.3,898 referring domains,$405.77 traffic value**. Ranking distribution returned9 top3/14 positions4–10/5 positions11–20. The same-date detailed keyword endpoint returns26 rows: preserve this mismatch rather than claiming an exact reconciliation.
+- Of ten individually Chicago-verified local businesses examined, CM has the largest returned US domain traffic estimate. This does **not** establish that these are the ten strongest local companies or that CM leads Maps. Only HDInstalls and Chicago TV Installer appear in the returned domain-overlap set; ProMount has shared commercial terms in detailed keyword data. Seven others have no verified non-brand overlap in the retrieved database.
+- **Chicago TV Installer beats CM on “chicago tv installation”:2 vs5**, modeled keyword traffic5 vs3. CM beats it on “tv installation chicago”:2 vs9 and “chicago tv mounting”:2 vs11. Avoid declaring one universal winner.
+- HDInstalls'121 estimated visits comprise103 on its audio page,12 on homepage and6 on service-area page. Its audio advantage is adjacent business, not121 TV-mounting visits. CM's more promising existing targets are Frame, the coverage hub, homepage installation terms and service-page intent alignment.
+- No new location or service page is justified by the retrieved demand evidence. Improve existing URLs and measure the newly released case system first.
+
+## 1. Sources, scope and material data limitations
+
+Primary reads: Ahrefs management-projects confirmed CM project10403453; gsc-performance-history (Nov2025–Oct2026), gsc-keywords and gsc-pages (both comparison quarters), batch-analysis (US), site-explorer-organic-competitors, organic-keywords, top-pages, referring-domains, keywords-explorer-overview and serp-overview. Public page retrieval was used for current copy and local business verification.
+
+GSC is Google's measured data exposed through Ahrefs' connected project; Ahrefs traffic,volume,CPC,KD and authority are modeled. No fresh Windsor request was needed: the earlier continuation reported its30-day trial limit, while this session successfully retrieved12months through Ahrefs.
+
+**Do not overread the API:** quarter page-table totals are301/319 clicks, versus803/815 in performance history. Queries return100 rows despite limit1000; referring-domain requests return100 despite limit1000. Cause is unverified (endpoint coverage, suppression or effective limits); it must not be assigned to anonymization without evidence. Page and query numbers below are returned observations, not exhaustive reconciled totals. High-impression query filtering returns55 rows; its top50 are separately available below. Top50 clicks is the returned clicks-ordered slice and ties may extend beyond it.
+
+Ahrefs batch134/28 vs detailed keyword26 and MinasTV batch7 vs top-page6 demonstrate endpoint/model/snapshot differences. Retrieval date is not SERP freshness: detailed records range September12–November11. A position2 snapshot and a quarter GSC average16.6 can both be true; these measure different dates,devices,geographies and SERP samples.
+
+**Geography:** domain traffic is US-wide, never Chicago-only. A strict Chicago-explicit TV query proxy is calculated only where returned keyword rows support it. Near-me and generic audio/install queries cannot be allocated to Chicago. Maps pack entries have no fixed coordinates here and are not local rank measurements. National aggregators,Best Buy,HelloTech,Taskrabbit,Thumbtack,Yelp and Reddit are separated from local businesses. Austin/Wichita domains from national overlap are excluded.
+
+## 2. Twelve-month measured GSC trend
+
+| Month | Clicks | Impressions | CTR % | Average position |
+| --- | --- | --- | --- | --- |
+| 2025-11 | 110 | 9508 | 1.157 | 20.74 |
+| 2025-12 | 121 | 10644 | 1.137 | 21.25 |
+| 2026-01 | 154 | 12367 | 1.245 | 24.10 |
+| 2026-02 | 144 | 11324 | 1.272 | 23.33 |
+| 2026-03 | 179 | 13126 | 1.364 | 18.26 |
+| 2026-04 | 205 | 16565 | 1.238 | 17.78 |
+| 2026-05 | 237 | 20914 | 1.133 | 19.34 |
+| 2026-06 | 276 | 21001 | 1.314 | 17.85 |
+| 2026-07 | 290 | 29862 | 0.971 | 19.18 |
+| 2026-08 | 285 | 34070 | 0.837 | 21.04 |
+| 2026-09 | 276 | 30319 | 0.910 | 19.26 |
+| 2026-10 | 254 | 26541 | 0.957 | 19.61 |
+
+Weighted quarter position uses impressions, not an unweighted mean of monthly averages. A single annual cycle cannot isolate seasonality,redesign impact and changing query mix. Preserve the existing report's dated YoY comparison below; it was not freshly rerun in this session.
+
+### Actual quarter query movements
+
+| Query | Clicks May–Jul → Aug–Oct | Impressions before → after | Position before → after |
+| --- | --- | --- | --- |
+| chicago mounting | 81 → 110 | 200 → 209 | 1.08 → 1.33 |
+| chicago tv mounting | 32 → 24 | 141 → 113 | 3.70 → 7.27 |
+| tv mounting service | 31 → 37 | 2374 → 3301 | 17.66 → 19.81 |
+| tv mounting chicago | 26 → 25 | 585 → 527 | 14.64 → 18.38 |
+| tv mounting service chicago | 20 → 13 | 243 → 204 | 3.15 → 5.90 |
+| tv installation chicago | 12 → 7 | 701 → 523 | 13.48 → 16.61 |
+| tv mounting near me | 0 → 9 | 303 → 793 | 21.17 → 15.71 |
+
+Confirmed commercial ranking deterioration includes “chicago tv mounting”3.70→7.27, “tv mounting service chicago”3.15→5.90, “tv mounting chicago”14.64→18.38 and “tv installation chicago”13.48→16.61. These declines cannot be explained away as seasonality alone. GSC positions remain query-mix/geography weighted, not controlled local ranking panels.
+
+### Landing pages: returned quarter comparison
+
+| URL | Clicks before → after | Impressions before → after | Position before → after |
+| --- | --- | --- | --- |
+| https://chicagomounting.com/ | 262 → 260 | 13183 → 22717 | 16.40 → 21.37 |
+| https://chicagomounting.com/same-day-tv-mounting/ | 10 → 14 | 2495 → 3738 | 15.27 → 16.28 |
+| https://chicagomounting.com/tv-installation-in-glenview/ | 2 → 11 | 278 → 518 | 28.04 → 36.92 |
+| https://chicagomounting.com/find-near-me/ | 6 → 9 | 20273 → 30452 | 32.18 → 30.65 |
+| https://chicagomounting.com/prices/ | 2 → 4 | 419 → 605 | 44.18 → 31.33 |
+| https://chicagomounting.com/audio-and-media-installation/ | 0 → 3 | 988 → 2494 | 31.35 → 30.66 |
+| https://chicagomounting.com/how-much-does-tv-installation-cost-in-chicago-real-pricing-explained/ | 3 → 3 | 1934 → 1071 | 13.60 → 12.15 |
+| https://chicagomounting.com/flat-vs-tilt-tv-mounts-which-is-right-for-your-living-room/ | 0 → 2 | 519 → 994 | 16.11 → 12.59 |
+| https://chicagomounting.com/tv-dismounting/ | 1 → 2 | 778 → 519 | 32.09 → 27.37 |
+| https://chicagomounting.com/outdoor-tv-installation/ | not returned → 2 | not returned → 168 | not returned → 24.03 |
+| https://chicagomounting.com/lg-g5-oled-fireplace-mount/ | 1 → 2 | 32 → 60 | 7.50 → 9.37 |
+| http://www.chicagomounting.com/ | not returned → 2 | not returned → 18 | not returned → 17.33 |
+
+The hub gains6→9 returned clicks and20,273→30,452 impressions across quarters, even though the earlier short November comparison declined. Both can be true; do not use the short window to describe the entire quarter. The homepage's returned clicks262→260 stay flat while impressions13,183→22,717 rise and position16.40→21.37 weakens.
+
+## 3. Four priority city pages
+
+| City URL | Clicks before → after | Impressions before → after | Average position before → after |
+| --- | --- | --- | --- |
+| https://chicagomounting.com/tv-installation-in-glenview/ | 2 → 11 | 278 → 518 | 28.04 → 36.92 |
+| https://chicagomounting.com/tv-installation-in-wilmette/ | 1 → 0 | 355 → 281 | 44.12 → 47.36 |
+| https://chicagomounting.com/tv-installation-in-winnetka/ | 0 → 0 | 245 → 218 | 31.59 → 44.33 |
+| https://chicagomounting.com/tv-installation-in-evanston/ | 0 → 0 | 95 → 127 | 16.31 → 21.80 |
+
+- **Glenview:**11 returned clicks versus2 previously, but position28.04→36.92 worsens. This is acquisition improvement from a tiny base, not blanket ranking improvement. Current public page includes a city-specific hero/introduction,projects,review section and quote routes. Explain verified installation constraints/results within existing cases; track Glenview-intent separately from generic near-me traffic. Do not add another Glenview URL.
+- **Evanston:**0 clicks in both quarters;95→127 impressions,position16.31→21.80. Current copy addresses homes,apartments and condos but its bottom copy still includes the awkward sentence “TV installation near me in Evanston.” A narrow future editorial improvement is supported; it is not proof this sentence causes lost rankings.
+- **Wilmette:**1→0 clicks,355→281 impressions,position44.12→47.36. Current page already has locality,project section,video/reviews and buying paths. More city-name repetition is not the missing feature. Prioritize matching real project detail and useful service links; monitor Wilmette queries rather than incidental Bunker Hills exposure.
+- **Winnetka:**0 clicks,245→218 impressions,position31.59→44.33. Preserve premium positioning; use evidence already in the real fireplace/large-TV cases. Do not infer real job city from editorial tags or rewrite approved location assignments during analysis.
+
+City totals in the returned table:3→11 clicks and973→1,144 impressions. This differs from the prior14-day decline and is not a contradiction. These are tiny absolute samples. Exact city-keyword volume from Ahrefs is0 for Glenview/Evanston and absent for Wilmette/Winnetka/Northbrook/Skokie; zero means database estimate/below resolution, not zero human demand.
+
+Current default-branch AGENTS documents an owner-approved November11 public case release, indexable catalogue+16cases and11integration modules. This supersedes the older seo-branch launch hold. Current public city/Frame retrieval shows case links. Catalogue retrieval returned a search-tool internal error, so this session does not certify its HTTP status,indexing,filters or all individual cases. No evidence supports reversing release or reapplying noindex.
+
+## 4. Ten verified local businesses — comparison, not a proved top-ten ranking
+
+| Business / domain | US est visits/month | US keywords | DR | Referring domains | US traffic value $ |
+| --- | --- | --- | --- | --- | --- |
+| chicagomounting.com/ | 134 | 28 | 2.3 | 898 | 405.77 |
+| hdinstalls.com/ | 121 | 8 | 9 | 885 | 228.14 |
+| chicagotvinstaller.com/ | 16 | 6 | 1.6 | 821 | 17.86 |
+| hitechinstalls.com/ | 0 | 0 | 2.2 | 925 | 0.00 |
+| tvmountingpromount.com/ | 2 | 4 | 0 | 806 | 1.72 |
+| tvmountingus.com/ | 0 | 0 | 4.6 | 576 | 0.00 |
+| tvserviceschicago.com/ | 0 | 0 | 17 | 1080 | 0.00 |
+| chicagotvmounting.com/ | 0 | 0 | 4.3 | 802 | 0.00 |
+| minastv.com/ | 7 | 1 | 6 | 992 | 0.00 |
+| etronicsonline.net/ | 0 | 1 | 0.1 | 658 | 0.00 |
+| spensleysmarthomes.com/ | 0 | 0 | 0 | 581 | 0.00 |
+
+All ten competitor domains were independently checked against public service/location material:
+HDInstalls https://www.hdinstalls.com/chicagotvinstallation ;
+Chicago TV Installer https://chicagotvinstaller.com/ ;
+Hi-Tech https://www.hitechinstalls.com/ ;
+ProMount https://tvmountingpromount.com/ ;
+R&R https://tvmountingus.com/ ;
+TV Install Chicago https://tvserviceschicago.com/same-day-tv-mounting ;
+Chicago TV Mounting https://chicagotvmounting.com/tv-wall-mounting ;
+MinasTV https://minastv.com/ ;
+Etronics https://www.etronicsonline.net/ ;
+Spensley https://www.spensleysmarthomes.com/services/tv-mounting/ .
+They explicitly describe Chicago/Chicagoland or North Shore service. Their claims of years,prices,reviews and guarantees are self-published, not independently audited business facts.
+
+Strict returned Chicago-explicit TV query proxy: **CM75**,HDInstalls12,Chicago TV Installer9,ProMount2 estimated visits/month. Included strings contain Chicago plus TV,mounting or installation; sum relevant detailed keyword traffic only. Exclude generic near-me,audio,repair and brand-only queries. This is a keyword-sample estimate, not Chicago visitor geolocation or total market share. The remaining domains have no qualifying returned rows; do not equate that with no real search traffic.
+
+### Competitor top pages and keywords
+
+Only returned rows are listed. Fewer than5pages/10keywords means no additional records returned, never invented padding. Ranking date2026-11-11; underlying last-update dates are in keyword tables.
+
+#### hdinstalls.com
+
+| Top page | US modeled visits | Ranked keywords | Leading query / position |
+| --- | --- | --- | --- |
+| https://www.hdinstalls.com/speakerinstallationchicago | 103 | 2 | home audio installation / 2 |
+| https://www.hdinstalls.com/ | 12 | 5 | tv installation chicago / 5 |
+| https://www.hdinstalls.com/service-area | 6 | 1 | flat screen tv installers near me / 4 |
+
+| Query | US monthly volume | Position | Est visits | Last SERP check |
+| --- | --- | --- | --- | --- |
+| home audio installation | 450 | 2 | 98 | 2026-11-07T16:22:12Z |
+| tv installation chicago | 80 | 5 | 7 | 2026-10-29T20:24:51Z |
+| flat screen tv installers near me | 50 | 4 | 6 | 2026-10-30T02:39:45Z |
+| home theater systems installers | 200 | 10 | 5 | 2026-10-22T05:02:51Z |
+| chicago tv installation | 30 | 7 | 2 | 2026-10-16T04:14:44Z |
+| chicago tv mounting | 40 | 8 | 2 | 2026-10-17T19:22:26Z |
+| high definition tv installation | 30 | 8 | 1 | 2026-11-04T19:32:02Z |
+| chicago tv mounting service | 30 | 10 | 1 | 2026-10-10T21:30:55Z |
+
+
+#### chicagotvinstaller.com
+
+| Top page | US modeled visits | Ranked keywords | Leading query / position |
+| --- | --- | --- | --- |
+| https://chicagotvinstaller.com/ | 10 | 5 | chicago tv installation / 2 |
+| https://chicagotvinstaller.com/services/tv-repair/ | 6 | 1 | tv repair man / 3 |
+
+| Query | US monthly volume | Position | Est visits | Last SERP check |
+| --- | --- | --- | --- | --- |
+| tv repair man | 100 | 3 | 6 | 2026-10-17T10:58:34Z |
+| chicago tv installation | 30 | 2 | 5 | 2026-10-16T04:14:44Z |
+| tv installation chicago | 80 | 9 | 3 | 2026-10-29T20:24:51Z |
+| chicago tv mounting | 40 | 11 | 1 | 2026-10-17T19:22:26Z |
+| cable tv installers | 10 | 7 | 1 | 2026-11-01T11:24:09Z |
+| tv installer service | 10 | 9 | 0 | 2026-10-06T04:09:40Z |
+
+
+#### hitechinstalls.com
+
+| Top page | US modeled visits | Ranked keywords | Leading query / position |
+| --- | --- | --- | --- |
+
+
+| Query | US monthly volume | Position | Est visits | Last SERP check |
+| --- | --- | --- | --- | --- |
+
+
+No keyword or top-page records returned; competitive organic outperformance is unverified.
+
+#### tvmountingpromount.com
+
+| Top page | US modeled visits | Ranked keywords | Leading query / position |
+| --- | --- | --- | --- |
+| https://tvmountingpromount.com/ | 2 | 4 | chicago tv installation / 11 |
+
+| Query | US monthly volume | Position | Est visits | Last SERP check |
+| --- | --- | --- | --- | --- |
+| chicago tv installation | 30 | 11 | 1 | 2026-10-16T04:14:44Z |
+| chicago tv mounting service | 30 | 11 | 1 | 2026-10-10T21:30:55Z |
+| tv mounting pros | 0 | 4 | 0 | 2026-10-27T20:48:41Z |
+| mounting tv near me | 20 | 10 | 0 | 2026-10-25T02:27:48Z |
+
+
+#### tvmountingus.com
+
+| Top page | US modeled visits | Ranked keywords | Leading query / position |
+| --- | --- | --- | --- |
+
+
+| Query | US monthly volume | Position | Est visits | Last SERP check |
+| --- | --- | --- | --- | --- |
+
+
+No keyword or top-page records returned; competitive organic outperformance is unverified.
+
+#### tvserviceschicago.com
+
+| Top page | US modeled visits | Ranked keywords | Leading query / position |
+| --- | --- | --- | --- |
+
+
+| Query | US monthly volume | Position | Est visits | Last SERP check |
+| --- | --- | --- | --- | --- |
+
+
+No keyword or top-page records returned; competitive organic outperformance is unverified.
+
+#### chicagotvmounting.com
+
+| Top page | US modeled visits | Ranked keywords | Leading query / position |
+| --- | --- | --- | --- |
+
+
+| Query | US monthly volume | Position | Est visits | Last SERP check |
+| --- | --- | --- | --- | --- |
+
+
+No keyword or top-page records returned; competitive organic outperformance is unverified.
+
+#### minastv.com
+
+| Top page | US modeled visits | Ranked keywords | Leading query / position |
+| --- | --- | --- | --- |
+| https://minastv.com/ | 6 | 1 | minas tv / 1 |
+| https://minastv.com/sales/TV/ | 0 | 1 | minas tv / 1 |
+| https://minastv.com/chicago-tv-installation | 0 | 1 | minas tv / 1 |
+| https://minastv.com/about | 0 | 1 | minas tv / 1 |
+| https://minastv.com/pennys-picks | 0 | 1 | minas tv / 1 |
+
+| Query | US monthly volume | Position | Est visits | Last SERP check |
+| --- | --- | --- | --- | --- |
+| minas tv | 20 | 1 | 7 | 2026-11-10T21:21:00Z |
+
+
+#### etronicsonline.net
+
+| Top page | US modeled visits | Ranked keywords | Leading query / position |
+| --- | --- | --- | --- |
+| https://www.etronicsonline.net/ | 0 | 1 | etronics / 6 |
+
+| Query | US monthly volume | Position | Est visits | Last SERP check |
+| --- | --- | --- | --- | --- |
+| etronics | 150 | 6 | 0 | 2026-11-05T01:26:57Z |
+
+
+#### spensleysmarthomes.com
+
+| Top page | US modeled visits | Ranked keywords | Leading query / position |
+| --- | --- | --- | --- |
+
+
+| Query | US monthly volume | Position | Est visits | Last SERP check |
+| --- | --- | --- | --- | --- |
+
+
+No keyword or top-page records returned; competitive organic outperformance is unverified.
+
+## 5. Keyword gaps and immediate ranking opportunities
+
+Volumes in the following table use Site Explorer **monthly** mode. Keywords Explorer uses12-month average volume and returns e.g.100 rather than80 for “tv installation chicago.” These are different definitions, not interchangeable. CPC is USD converted from API cents. Missing CPC remains missing. Absent CM keyword rows mean “not returned in this snapshot,” not definitive absence from every Google location.
+
+| Keyword | US monthly volume | KD | CPC $ | CM position | Competitor position / URL | Existing CM target | Priority |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| chicago tv installation | 30 | 44 | Not returned | 5 | Chicago TV Installer2 https://chicagotvinstaller.com/ | https://chicagomounting.com/ | P1 |
+| tv installer service | 10 | 53 | Not returned | 11 | Chicago TV Installer9 https://chicagotvinstaller.com/ | https://chicagomounting.com/ | P2 |
+| home audio installation | 450 | 0 | 1.95 | not returned | HDInstalls2 https://www.hdinstalls.com/speakerinstallationchicago | https://chicagomounting.com/audio-and-media-installation/ | P2 adjacent audio |
+| home theater systems installers | 200 | 1 | 1.5 | not returned | HDInstalls10 https://www.hdinstalls.com/speakerinstallationchicago | https://chicagomounting.com/home-theatre-mounting/ | P2 adjacent audio |
+| flat screen tv installers near me | 50 | 0 | Not returned | not returned | HDInstalls4 https://www.hdinstalls.com/service-area | https://chicagomounting.com/find-near-me/ | P1, local applicability unverified |
+| frame tv installation near me | 300 | 0 | 2.92 | 11 | no selected local competitor row returned | https://chicagomounting.com/frame-tv-mounting-chicago/ | P1 |
+| same day tv mounting service | 40 | 1 | 5.23 | 7 | no selected local competitor row returned | https://chicagomounting.com/same-day-tv-mounting/ | P1 |
+| commercial tv installation | 700 | 0 | 2.45 | 10 | no selected local competitor row returned | https://chicagomounting.com/commercial-tv-display-mounting/ | P1 intent alignment: Ahrefs ranks general TV URL |
+| tv installation chicago | 80 | 28 | 3.39 | 2 | HDInstalls5;Chicago TV Installer9 | https://chicagomounting.com/ | Protect |
+| chicago tv mounting | 40 | 28 | 3.75 | 2 | HDInstalls8;Chicago TV Installer11 | https://chicagomounting.com/ | Protect |
+
+Generic/near-me national demand is evidence of a service topic, not Chicago-local volume. No “10x” forecasts or lead guarantees. No returned competitor Frame ranking permits claiming they already outrank CM on Frame. The meaningful Frame opportunity is CM's own position11,300monthly estimated US searches and GSC553page impressions/1click in the latest quarter, versus203/1previously.
+
+### US demand validation for requested seeds (12-month average)
+
+| Keyword | US average monthly volume | KD | CPC $ | SERP last update |
+| --- | --- | --- | --- | --- |
+| tv mounting near me | 3000 | 1 | 3.00 | 2026-11-07T00:37:20Z |
+| professional tv mounting | 800 | 1 | 3.00 | 2026-11-11T23:46:29Z |
+| tv mounting glenview | 0 | Not returned | Not returned | Not returned |
+| tv installation near me | 3100 | 0 | 2.50 | 2026-11-08T18:52:08Z |
+| tv mounting service | 14000 | 0 | 3.50 | 2026-11-07T07:20:40Z |
+| tv mounting chicago | 150 | 0 | 5.00 | 2026-10-03T19:53:07Z |
+| tv mounting evanston | 0 | Not returned | 0.00 | Not returned |
+| tv wall mounting chicago | 30 | Not returned | Not returned | Not returned |
+| tv installation chicago | 100 | 28 | 3.50 | 2026-10-29T20:24:51Z |
+
+Requested exact seeds not returned include Samsung Frame TV installation Chicago,Wilmette,Northbrook,Winnetka and Skokie. Their volumes must remain unknown. Do not create new city/Frame URL combinations on this evidence. “tv wall mounting chicago”30average volume with no SERP is a topic opportunity for the existing homepage, not a new near-duplicate page.
+
+## 6. What competitor pages actually do better — and what remains hypothesis
+
+| Business | Observed useful practice | Observed weakness / limit | Ranking interpretation |
+|---|---|---|---|
+| HDInstalls | Dedicated audio page with5.1receiver/speaker scope,soundbar scope,clear quote calls and Chicago contact;3returned traffic pages | Brand H1 across audio page,service H2;very small keyword footprint;103audio visits are not TV installs | Confirmed audio ranking advantage. Service relevance and backlinks are plausible contributors,not isolated causal proof |
+| Chicago TV Installer | Installation-focused homepage title,service navigation,review module and local phone | Displayed reviews largely dated2022–23;homepage extraction usesH2headings;repair supplies6/16estimated visits | Confirmed win on reversed-word-order Chicago query;CM wins two other shared queries. Do not copy repair content or old wording |
+| ProMount | Distinct Frame/fireplace/masonry/large-TV service links,pricing/request workflow,photos upload and coverage navigation | Only4keywords/2modeled visits returned;content breadth alone is not traffic success | Good UX/content reference;no evidence it broadly outranks CM |
+| R&R | Current site exposes separate specialty services,projects and calls/text quote routes | Zero US organic keyword rows returned;public crawl versions differ in discount/site structure | Local identity verified;organic advantage unproved. Current page supersedes older search snippet |
+| Hi-Tech | Service geography,booking steps,Frame/soundbar/wall-specific FAQs | Different starting prices appear across page sections;zero returned organic keywords | Quote clarity is a useful review topic,not demonstrated ranking advantage |
+| TV Install Chicago | Same-day page explains scheduling,wall/TV details and situations requiring longer visits | Zero returned organic rankings;self-published broad flat-price claims not independently verified | Use availability qualification as editorial guidance only |
+| Chicago TV Mounting | Detailed TV-size table,wall types,booking steps and explicit service limits | States no wire hiding/stone/pull-down services;zero returned organic rows | CM can differentiate through existing specialty capability;not an identified organic winner |
+| MinasTV | Physical Chicago service identity,installation coverage including priority suburbs | Returned traffic is branded “minas tv”;sales/repair mixed with installation | Exclude brand-only7modeled visits from TV keyword-gap opportunity |
+| Etronics | North Shore geography,home theater and integration detail | Returned keyword is ambiguous brand “etronics”;zero modeled visits | Adjacent premium-service competitor,not confirmed TV organic leader |
+| Spensley | Named specialist,consultative positioning,TV/Frame/fireplace service explanation and testimonials | Zero returned organic keyword rows;self-published review count not independently verified | Trust positioning is relevant;ranking/traffic superiority unproved |
+
+Current CM already has visible pricing,review proof,Frame/specialty services,case links and local navigation. The homepage currently shows starting129standard/179Frame pricing and a Google review module; this audit does not recommend adding features that already exist. The four cities already contain local introductions and project sections. Distinct case-level technical explanations,clean internal links and intent ownership offer more specific improvements than another redesign.
+
+Do not infer that a competitor's low prices,keyword repetition or exact-match name are confirmed causes of ranking. No controlled experiment,Google ranking-factor attribution,Core Web Vitals or complete page backlink comparison was available.
+
+## 7. Backlink gap — verified domain coverage, source-page limits
+
+The link-intersect documentation endpoint returned **McpServerError: tool not found: competitive-analysis-link-intersect-refdomains**. Supported referring-domain lists provided a bounded fallback. Requests for1000rows return100; these are not complete inventories.
+
+A targeted CM filter for BBB,Yellow Pages,Expertise,Porch,Hotfrog and RemoteCentral returned **no rows**. Competitor lists identify the following links. Absence means not found by the current index,not proof a business profile does not exist.
+
+| Candidate source URL | HDInstalls links | Chicago TV Installer links | CM targeted result | Priority / action |
+|---|---:|---:|---|---|
+| https://www.bbb.org/ |1|73|No row|P2 verify existing business listing/eligibility;do not equate payment/accreditation with ranking benefit |
+| https://www.yellowpages.com/ |7|61|No row|P2 verify or claim accurate TV-installation citation;avoid duplicate records |
+| https://www.expertise.com/ |7|No returned row|No row|P2 examine relevant local editorial selection and eligibility |
+| https://porch.com/ |5|No returned row|No row|P2 assess local service profile fit and lead fees before any commitment |
+| https://www.hotfrog.com/ |No returned row|3|No row|P3 accurate relevant citation if permitted |
+| https://www.remotecentral.com/ |No returned row|1|No row|P3 only genuine AV participation/relationship;no unsolicited forum link dropping |
+
+Counts are links_to_target,not unique profile counts or editorial endorsements. Public Yellow Pages category pages confirm Chicago TV Installer coverage,including https://www.yellowpages.com/hyde-park-chicago-il/home-theater-systems and https://www.yellowpages.com/wilmette-il/home-theater-systems . They show differing historical addresses/categories,so they are not a template to copy. Exact linking source-page URLs for the other candidates were not recovered;no claim of checked live dofollow placement.
+
+CM's898refdomains do not mean strong authority:DR2.3 and returned high-DR sample dominated by provider-labeled spam. Both competitors also show spam. Exclude link-selling domains,irrelevant foreign/university pages and generic scraper sites from outreach. Provider spam labels do not establish a Google penalty and do not justify automatic disavow.
+
+No Chicago publisher/partner placement was verified;none is presented as an existing competitor backlink. Partnerships with genuine installers/designers remain a conditional idea until an actual relationship and relevant linking page are established.
+
+## 8. Technical and current architecture assessment
+
+- Existing homepage/service/city navigation links are publicly retrievable;current Frame and city pages expose case links. Public extraction confirms current headings/copy,not HTTP headers or Google's selected canonical.
+- Preserve WordPress+Elementor+ACF,canonical catalogue15716,card15715,Single15714,filter15744 and existing URLs. No custom code,new plugins or duplicate service/city architecture is warranted by this analysis.
+- Public catalogue retrieval failed at the search tool. This is not evidence of a site404,robots block or server outage. Individual case indexability/filter behavior was not retested.
+- Prior report's November5GSC coverage81indexed/73excluded,zero manual/security issues and specific administrative exclusions remain historical. No fresh technical endpoint was queried here;do not call those counts current.
+- Existing broad service pages rank inconsistently with intended specialization:Ahrefs assigns “commercial tv installation” to /tv-installation-and-mounting/,while GSC's quarter top URL is /commercial-tv-display-mounting/. This is evidence to inspect query-to-page allocation,not enough to declare cannibalization or merge pages.
+- A GSC query showing manyURLs does not prove they compete simultaneously. Use page-filtered exact-query reports before redirects,title rewrites or canonical changes.
+- No new claims about CWV,robots headers,sitemaps,schema validity or GA4 event implementation are made. No website settings were changed.
+
+## 9. Prioritized 30/60/90-day implementation plan
+
+All actions below are recommendations for a future separately authorized implementation. Expected impact is qualitative;KPIs are measurements,not promised outcomes.
+
+| Priority / timing | Action | Exact target URL | Supporting evidence | Expected impact | Effort | KPI |
+|---|---|---|---|---|---|---|
+| P1 / days1–30 | Clarify existing homepage installation intent and contextual links while retaining pricing,reviews and cases | https://chicagomounting.com/ | Chicago TV Installer2vsCM5 for “chicago tv installation”;GSC commercial-query losses above | Better relevant acquisition | Low–medium | Same-query clicks/CTR/position byUS device;qualified inquiries |
+| P1 / days1–30 | Review hub snippet and service/local relevance;do not add another near-me page | https://chicagomounting.com/find-near-me/ |9,162impressions/1click for principal query;1,643impressions/0clicks at7.91for same-day variant | Better intent match and click yield | Medium | Query-specificCTR,clicks and local landing leads over equal28days |
+| P1 / days1–30 | Refine existing Frame page using already linked technical cases;explain OneConnect/recessing decisions from verified jobs | https://chicagomounting.com/frame-tv-mounting-chicago/ | Ahrefs11,volume300;GSC553impressions/1click | Move existing visibility toward qualified clicks | Medium | Frame cohort non-brand clicks,position4–10coverage,qualified quote submissions |
+| P1 / days1–30 | Diagnose and align commercial-query ownership through existing content/internal links | https://chicagomounting.com/commercial-tv-display-mounting/ | Ahrefs ranks generalTVURL for700volume commercial term;GSC specialized page1click/1,745impressions | Better B2B landing relevance | Medium | Intended-URL impression/click share for commercial cohort;B2Binquiries |
+| P1 / days1–30 | Refine same-day query mapping and truthful scheduling copy | https://chicagomounting.com/same-day-tv-mounting/ | Own Ahrefs7 for same-day service;hub gets0clicks/1,643same-day impressions | Better urgent-intent allocation | Low–medium | Same-day cohort clicks byURL and confirmed appointments |
+| P2 / days31–60 | Improve verified project explanation and local service links | https://chicagomounting.com/tv-installation-in-glenview/ |11returned clicks but position36.92;518impressions | Build on existing local acquisition | Medium | Glenview-intent clicks,qualified inquiries,case→quote transitions |
+| P2 / days31–60 | Clean awkward closing copy;use existing project/module evidence | https://chicagomounting.com/tv-installation-in-evanston/ |0clicks/127impressions;position21.80 | Stronger local intent | Low | Evanston-intent impressions/clicks and qualified inquiries |
+| P2 / days31–60 | Add useful verified installation detail within existing sections | https://chicagomounting.com/tv-installation-in-wilmette/ |0clicks/281impressions;position47.36 | Improve local relevance | Medium | Wilmette cohort clicks and quote leads |
+| P2 / days31–60 | Retain premium positioning;strengthen verified specialty evidence | https://chicagomounting.com/tv-installation-in-winnetka/ |0clicks/218impressions;position44.33 | Improve qualified premium discovery | Medium | Winnetka specialty cohort clicks and qualified inquiries |
+| P2 / days31–60 | Improve existing audio service scope/links only for work actually offered | https://chicagomounting.com/audio-and-media-installation/ | HD audio103estimated visits;CM3returned clicks/2,494impressions | Adjacent audio acquisition | Medium | Audio-intent clicks and separately classified audio leads |
+| P2 / days31–60 | Clarify existing home-theater installation scope | https://chicagomounting.com/home-theatre-mounting/ | HD rank10for200volume installer term;CM0returned clicks/511impressions | Adjacent theater coverage | Medium | Theater cohort clicks and qualified project inquiries |
+| P2 / days31–90 | Verify/claim appropriate citations from the gap table | https://chicagomounting.com/ |6targeted sources absent fromCM index;competitor counts above | Better local corroboration/referral opportunity | Medium | Accurate unique live profiles;referral leads;relevant indexed links |
+| P2 / days31–90 | Monitor public case release;do not rebuild or reapply noindex | https://chicagomounting.com/case-studies/ | November11owner-approved release;current service/city case links | Measure new project discovery and assisted conversions | Low | GSC indexed canonical cases,case non-brand clicks,case→service/quote transitions |
+
+**At30days:** report equal28-day baseline by target query cohort and intendedURL;separate exact brand from non-brand and call clicks from actual inquiries. Validate CRM/booking outcomes before claiming lead improvement. Existing dated GA4 report below is historical,not a fresh conversion baseline.
+
+**At60days:** compare query-level movement and intended landing share,review qualified lead mix and verify citation accuracy/live placement. Retain successful existing pages;do not infer a win from average position alone.
+
+**At90days:** evaluate sustained non-brand clicks,qualified inquiries/booked jobs and case-assisted paths against baseline. Consider a new page only if verified demand,distinct service intent and existingURLallocation justify it. No new-page recommendation currently passes that gate.
+
+**BrightLocal extension without repeating this work:** append scan date,exact query,grid coordinates,source/version,depth,fixed-point rank/top3share and competitors. Compare identical settings. Keep Maps metrics in a separate table from organic/GSC estimates and retain the earlier investigation below.
+
+## 10. Query evidence appendices
+
+### Top50 returned queries by clicks, August–October
+
+| Query | Clicks | Impressions | CTR % | Position | Top URL |
+| --- | --- | --- | --- | --- | --- |
+| chicago mounting | 110 | 209 | 52.6316 | 1.33 | https://chicagomounting.com/ |
+| tv mounting service | 37 | 3301 | 1.1209 | 19.81 | https://chicagomounting.com/ |
+| tv mounting chicago | 25 | 527 | 4.7438 | 18.38 | https://chicagomounting.com/ |
+| chicago tv mounting | 24 | 113 | 21.2389 | 7.27 | https://chicagomounting.com/ |
+| tv mounting service chicago | 13 | 204 | 6.3725 | 5.90 | https://chicagomounting.com/ |
+| chicago tv mounting service | 13 | 72 | 18.0556 | 4.47 | https://chicagomounting.com/ |
+| tv mounting near me | 9 | 793 | 1.1349 | 15.71 | https://chicagomounting.com/tv-installation-in-glenview/ |
+| tv mounting service near me | 7 | 1427 | 0.4905 | 19.11 | https://chicagomounting.com/ |
+| tv installation chicago | 7 | 523 | 1.3384 | 16.61 | https://chicagomounting.com/ |
+| tv mounting | 6 | 2956 | 0.203 | 24.06 | https://chicagomounting.com/ |
+| same day tv mounting | 3 | 212 | 1.4151 | 22.47 | https://chicagomounting.com/same-day-tv-mounting/ |
+| tv wall mounting chicago | 3 | 100 | 3 | 3.91 | https://chicagomounting.com/ |
+| tv mount chicago | 3 | 41 | 7.3171 | 12.95 | https://chicagomounting.com/ |
+| tv wall mount service near me | 2 | 137 | 1.4599 | 34.15 | https://chicagomounting.com/ |
+| same day tv mounting services near me | 2 | 108 | 1.8519 | 22.78 | https://chicagomounting.com/same-day-tv-mounting/ |
+| tv dismount service | 2 | 85 | 2.3529 | 21.25 | https://chicagomounting.com/tv-dismounting/ |
+| tv wall mount installation near me | 1 | 9162 | 0.0109 | 24.05 | https://chicagomounting.com/find-near-me/ |
+| tv installation | 1 | 1367 | 0.0732 | 24.54 | https://chicagomounting.com/ |
+| commercial tv installation | 1 | 959 | 0.1043 | 23.31 | https://chicagomounting.com/commercial-tv-display-mounting/ |
+| tv installation near me | 1 | 847 | 0.1181 | 12.48 | https://chicagomounting.com/ |
+| tv mount service | 1 | 615 | 0.1626 | 25.30 | https://chicagomounting.com/ |
+| tv mounting services | 1 | 577 | 0.1733 | 28.93 | https://chicagomounting.com/ |
+| tv mount installer | 1 | 313 | 0.3195 | 34.85 | https://chicagomounting.com/ |
+| tv installers | 1 | 291 | 0.3436 | 22.92 | https://chicagomounting.com/ |
+| tv mount service near me | 1 | 284 | 0.3521 | 15.31 | https://chicagomounting.com/ |
+| tv installers near me | 1 | 283 | 0.3534 | 22.71 | https://chicagomounting.com/ |
+| tv wall mount installation chicago | 1 | 250 | 0.4 | 11.94 | https://chicagomounting.com/ |
+| mount tv on wall service | 1 | 211 | 0.4739 | 27.04 | https://chicagomounting.com/ |
+| professional tv mounting service | 1 | 209 | 0.4785 | 24.19 | https://chicagomounting.com/ |
+| tv installer near me | 1 | 197 | 0.5076 | 12.94 | https://chicagomounting.com/find-near-me/ |
+| mounting tv services | 1 | 167 | 0.5988 | 30.54 | https://chicagomounting.com/ |
+| tv mount installation chicago | 1 | 165 | 0.6061 | 45.62 | https://chicagomounting.com/ |
+| mounting tv service | 1 | 110 | 0.9091 | 12.83 | https://chicagomounting.com/ |
+| tv mounting company | 1 | 108 | 0.9259 | 31.13 | https://chicagomounting.com/ |
+| tv mounting companies | 1 | 106 | 0.9434 | 34.26 | https://chicagomounting.com/ |
+| outdoor tv installation near me | 1 | 104 | 0.9615 | 27.85 | https://chicagomounting.com/outdoor-tv-installation/ |
+| tv wall mount installation service near me | 1 | 102 | 0.9804 | 28.20 | https://chicagomounting.com/ |
+| tv mounting same day | 1 | 59 | 1.6949 | 13.58 | https://chicagomounting.com/same-day-tv-mounting/ |
+| tv mount experts | 1 | 56 | 1.7857 | 41.05 | https://chicagomounting.com/ |
+| cheap tv mounting service | 1 | 54 | 1.8519 | 22.28 | https://chicagomounting.com/ |
+| outdoor tv mounting service | 1 | 50 | 2 | 40.54 | https://chicagomounting.com/outdoor-tv-installation/ |
+| mount my tv | 1 | 46 | 2.1739 | 33.26 | https://chicagomounting.com/ |
+| chicago tv installer | 1 | 43 | 2.3256 | 13.81 | https://chicagomounting.com/ |
+| mount it vs mantelmount | 1 | 40 | 2.5 | 8.40 | https://chicagomounting.com/mantelmount-vs-fixed-vs-full-motion-tv-mounts-which-is-right-for-your-home/ |
+| speaker installation chicago | 1 | 37 | 2.7027 | 6.41 | https://chicagomounting.com/speaker-wall-mounting/ |
+| frame tv mounting service | 1 | 35 | 2.8571 | 21.86 | https://chicagomounting.com/frame-tv-mounting-chicago/ |
+| sound bar installation near me | 1 | 23 | 4.3478 | 22.30 | https://chicagomounting.com/audio-and-media-installation/ |
+| should i tilt my tv down | 1 | 18 | 5.5556 | 7.78 | https://chicagomounting.com/flat-vs-tilt-tv-mounts-which-is-right-for-your-living-room/ |
+| tv mouting | 1 | 15 | 6.6667 | 42.87 | https://chicagomounting.com/ |
+| wall mount tv installation | 1 | 13 | 7.6923 | 10.69 | https://chicagomounting.com/how-much-does-tv-installation-cost-in-chicago-real-pricing-explained/ |
+
+### Top50 by impressions from the filtered ≥200-impression result
+
+| Query | Clicks | Impressions | CTR % | Position |
+| --- | --- | --- | --- | --- |
+| tv wall mount installation near me | 1 | 9162 | 0.0109 | 24.05 |
+| tv mounting service | 37 | 3301 | 1.1209 | 19.81 |
+| tv mounting | 6 | 2956 | 0.203 | 24.06 |
+| same day tv mounting near me | 0 | 1643 | 0 | 7.91 |
+| tv mounting service near me | 7 | 1427 | 0.4905 | 19.11 |
+| tv installation | 1 | 1367 | 0.0732 | 24.54 |
+| commercial tv installation | 1 | 959 | 0.1043 | 23.31 |
+| tv installation near me | 1 | 847 | 0.1181 | 12.48 |
+| tv mounting near me | 9 | 793 | 1.1349 | 15.71 |
+| professional tv mounting | 0 | 726 | 0 | 23.39 |
+| tv mount service | 1 | 615 | 0.1626 | 25.30 |
+| tv installation service | 0 | 581 | 0 | 25.58 |
+| tv mounting services | 1 | 577 | 0.1733 | 28.93 |
+| tv mounting chicago | 25 | 527 | 4.7438 | 18.38 |
+| tv installation chicago | 7 | 523 | 1.3384 | 16.61 |
+| corporate tv mounting | 0 | 519 | 0 | 1.16 |
+| tv wall mounting service | 0 | 495 | 0 | 32.06 |
+| tv installation services | 0 | 455 | 0 | 26.07 |
+| tv wall mount installer | 0 | 375 | 0 | 35.22 |
+| tv mounting installation | 0 | 364 | 0 | 37.49 |
+| tv installation services near me | 0 | 353 | 0 | 14.21 |
+| mount tv service | 0 | 352 | 0 | 24.55 |
+| tv wall mount installation service | 0 | 338 | 0 | 30.77 |
+| tv mount installer | 1 | 313 | 0.3195 | 34.85 |
+| tv installer | 0 | 310 | 0 | 27.90 |
+| tv wall mount service | 0 | 305 | 0 | 32.34 |
+| tv wall mounting installation | 0 | 297 | 0 | 36.18 |
+| tv installers | 1 | 291 | 0.3436 | 22.92 |
+| home theater installation chicago | 0 | 285 | 0 | 31.01 |
+| tv mount service near me | 1 | 284 | 0.3521 | 15.31 |
+| tv mounting cost | 0 | 284 | 0 | 18.67 |
+| tv installers near me | 1 | 283 | 0.3534 | 22.71 |
+| tv wall mount installations | 0 | 276 | 0 | 33.79 |
+| tv mounting services near me | 0 | 271 | 0 | 17.72 |
+| professional tv installation | 0 | 267 | 0 | 25.56 |
+| tv wall mount services | 0 | 261 | 0 | 37.59 |
+| tv install | 0 | 255 | 0 | 28.27 |
+| tv mount installers | 0 | 251 | 0 | 32.44 |
+| tv wall mount installation chicago | 1 | 250 | 0.4 | 11.94 |
+| tv wall mounting service near me | 0 | 237 | 0 | 26.40 |
+| tv mount installation near me | 0 | 236 | 0 | 19.73 |
+| tv mounting installation in bunker hills, il | 0 | 226 | 0 | 15.84 |
+| frame tv installation nearby | 0 | 223 | 0 | 22.43 |
+| tv mounting services in bunker hills, il | 0 | 216 | 0 | 16.63 |
+| professional tv mounters | 0 | 213 | 0 | 26.77 |
+| same day tv mounting | 3 | 212 | 1.4151 | 22.47 |
+| mount tv on wall service | 1 | 211 | 0.4739 | 27.04 |
+| chicago mounting | 110 | 209 | 52.6316 | 1.33 |
+| professional tv mounting service | 1 | 209 | 0.4785 | 24.19 |
+| mount tvs | 0 | 209 | 0 | 26.34 |
+
+### Positions4–10 and11–20 opportunities
+
+| Query | Clicks | Impressions | Position | Observed top URL |
+| --- | --- | --- | --- | --- |
+| tv mounting service | 37 | 3301 | 19.81 | https://chicagomounting.com/ |
+| same day tv mounting near me | 0 | 1643 | 7.91 | https://chicagomounting.com/find-near-me/ |
+| tv mounting service near me | 7 | 1427 | 19.11 | https://chicagomounting.com/ |
+| tv installation near me | 1 | 847 | 12.48 | https://chicagomounting.com/ |
+| tv mounting near me | 9 | 793 | 15.71 | https://chicagomounting.com/tv-installation-in-glenview/ |
+| tv mounting chicago | 25 | 527 | 18.38 | https://chicagomounting.com/ |
+| tv installation chicago | 7 | 523 | 16.61 | https://chicagomounting.com/ |
+| tv installation services near me | 0 | 353 | 14.21 | https://chicagomounting.com/services/ |
+| tv mount service near me | 1 | 284 | 15.31 | https://chicagomounting.com/ |
+| tv mounting cost | 0 | 284 | 18.67 | https://chicagomounting.com/how-much-does-tv-installation-cost-in-chicago-real-pricing-explained/ |
+| tv mounting services near me | 0 | 271 | 17.72 | https://chicagomounting.com/ |
+| tv wall mount installation chicago | 1 | 250 | 11.94 | https://chicagomounting.com/ |
+| tv mount installation near me | 0 | 236 | 19.73 | https://chicagomounting.com/brands/ |
+| tv mounting installation in bunker hills, il | 0 | 226 | 15.84 | https://chicagomounting.com/find-near-me/ |
+| tv mounting services in bunker hills, il | 0 | 216 | 16.63 | https://chicagomounting.com/same-day-tv-mounting/ |
+| tv wall mount installers near me | 0 | 207 | 18.43 | https://chicagomounting.com/brands/ |
+| tv mounters near me | 0 | 206 | 14.94 | https://chicagomounting.com/tv-installation-and-mounting/ |
+| tv mounting service chicago | 13 | 204 | 5.90 | https://chicagomounting.com/ |
+| tv installer near me | 1 | 197 | 12.94 | https://chicagomounting.com/find-near-me/ |
+| chicago tv mounting | 24 | 113 | 7.27 | https://chicagomounting.com/ |
+| mounting tv service | 1 | 110 | 12.83 | https://chicagomounting.com/ |
+
+## 11. Unfinished evidence and interpretation boundaries
+
+1. Ten Chicago businesses verified, but a defensible “ten strongest overlapping local organic competitors” cannot be established from this sparse returned database. Do not relabel the candidate table as a top-ten leaderboard.
+2. Quarter GSC totals verified;page/query extracts incomplete and not reconciled. No exact comprehensive non-brand total,geolocated local traffic,or causal SEO uplift.
+3. API SERPs returned no records for exact Frame/priority-city seeds. Two Chicago query SERPs are datedOctober3/29;no current-position guarantee. Their pack entries do not establish grid rankings.
+4. No fresh GA4 access or lead validation this session;reuse dated earlier evidence below with that label. No new claim about conversions,revenue or business growth.
+5. No verified exact publisher source URLs or full ten-domain link gap;bounded two-competitor domain gap and public YellowPages corroboration are delivered instead.
+6. Catalogue/individual-case current technical certification remains open after tool-level fetch failure. Current page copy and repository release record do not substitute for Google URL Inspection.
+7. No new pages are authorized or recommended without demand/intent/cannibalization evidence.
+8. Earlier report's “do not launch held integrations” is superseded by the latest default-branch owner-approved public release;historical analytics cannot measure results of that November11release yet.
+
+## Public evidence links
+
+Current CM: https://chicagomounting.com/ ; https://chicagomounting.com/find-near-me/ ; https://chicagomounting.com/frame-tv-mounting-chicago/ ; all four city URLs above.
+Competitor public sources: ten domain URLs in section4;HD audio https://www.hdinstalls.com/speakerinstallationchicago ;Chicago TV Installer service https://chicagotvinstaller.com/services/tv-installation/ .
+National SERP competitors kept separate: https://www.bestbuy.com/site/regional-services/chicago-il/tv-mounting-installation ; https://www.hellotech.com/us/il/chicago/tv-wall-mounting-install ; https://www.taskrabbit.com/locations/chicago/wall-mount-tv .
+Primary numerical evidence: named authenticated Ahrefs API endpoints/parameters in section1,not search snippets.
+
+---
+
+# Prior report — preserved historical evidence
+
 # Chicago Mounting — Full SEO Performance Audit
 
 **Current assessment: November 9, 2026, America/Chicago. Branch: seo.**
