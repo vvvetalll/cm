@@ -1,3 +1,420 @@
+# Chicago Mounting — Expanded Organic SEO Competitor Analysis
+
+**Updated November 12, 2026. Ahrefs US snapshot: November 11, 2026. Research only; branch `seo`.**
+
+This expansion supersedes the earlier ten-business competitor sample and its conclusion that CM led that small sample on domain traffic. The prior report is preserved verbatim below. The controlling scope is **organic competition for Chicago-area commercial installation intent**, not a business directory. No website, WordPress, Elementor, GBP, Cloudflare, indexing or tracking settings were changed. No local filesystem was accessed.
+
+## 1. Findings and completion counts
+
+- **Chicago TV Installer is the clearest Chicago TV head-to-head loss:** “chicago tv installation” position 2 versus CM 5. CM leads it on “tv installation chicago” (2 versus 9) and “chicago tv mounting” (2 versus 11). There is no universal winner.
+- **TV Mounting Same Day beats CM for two shared commercial terms:** “same day tv mounting service” 2 versus 7; “tv mounting same day” 3 versus 11. These are US generic keyword samples for a verified western-suburb business, not measured Chicago-local positions.
+- **Davis, Hooked Up and Elite lead adjacent Chicago theater intent:** “home theater installation chicago” positions 2, 3 and 4. Matrix's Chicago basement-theater page ranks 6; it competes on that SERP, not as a direct TV-mounting specialist.
+- **HDInstalls is a genuine Chicago TV competitor**, but 103 of its 121 modeled US visits belong to its speaker/audio page. Do not label all 121 Chicago TV-mounting traffic.
+- **National providers/platforms hold real organic slots**, but national traffic is not Chicago market share.
+- **The existing Case Studies system is released:** default-branch documentation records the November 11 public/indexable catalogue and 16 cases, with eleven dynamic city/service modules. Older noindex/rebuild recommendations are superseded.
+
+| Measure | Result | Interpretation |
+| --- | ---: | --- |
+| Formal screening records discovered | 112 | Earlier 109 broad-discovery records plus three newly admitted SERP entities: Elite, Matrix, TV Mount Master. This is screening history, not 112 organic competitors. |
+| Verified companies retained in organic comparison | 19 | Supported identity, official service-area evidence and relevant returned rankings. |
+| Direct TV organic competitors | 10 | Six local specialists plus four national/multi-market providers, tracked separately. |
+| Secondary organic competitors | 9 | Chicago theater/AV/design intent, with commercial-fit limitations below. |
+| Separate SERP platforms | 3 | Yelp, Thumbtack, Reddit; not additional local installation companies. |
+| Main company targets with Ahrefs analysis | 19 | All have available metrics, keyword and page observations. |
+| Broader competitor Ahrefs targets screened | 86 | 85 domain/subdomain targets plus one Wix path; includes aliases and rejected relevance contexts. CM is an additional baseline target. Targets are not businesses. |
+| Companies with exact returned keyword overlap with CM | 10 | Six local specialists plus four national providers; nine adjacent companies enter through Chicago keyword gaps. |
+| Paid Maps/BrightLocal scans | 0 | Existing research preserved; not repeated or used as organic rank evidence. |
+
+Verification means supported identity/service and a ranking observation, not certification of staffing, availability, insurance or all website claims. Broader service-only findings do not establish SEO competition and are excluded from the main comparison.
+
+## 2. Method, geography and limits
+
+Primary evidence: Ahrefs MCP batch-analysis, organic-keywords, top-pages, referring-domains and organic-only serp-overview, supported by official public pages. Existing GSC/BrightLocal evidence was reused. Default branch was verified as `claude/chicago-mounting-zip-review-szeoup`; AGENTS, README, PROJECT, WORK and the existing seo report were read. The default branch is not modified.
+
+All domain metrics are **US-wide modeled estimates**, not Chicago visits, customers or leads. The Chicago query cohort below sums returned estimated traffic only for explicit Chicago TV-installation/home-theater queries. This identifies search intent, not searcher residence. Generic “near me,” Austin, unrelated shopping, automation and repair are excluded. Zero cohort means no matching returned rows, not no local business.
+
+Ahrefs observation dates differ from retrieval/snapshot dates; dated keyword evidence follows. Organic SERP samples have no Chicago coordinates. Chicago-explicit queries establish relevant intent; generic/near-me samples cannot establish Chicago-local positions. In particular, “frame tv installation near me” returned Wichita context: CM's position 11 is **not a Chicago rank**.
+
+Unresolved endpoint differences: CM batch 28 keywords versus 26 detailed rows; PRO TV Mounting batch 113 traffic versus 39 on returned homepage; Same Day batch 8 versus 12 detail/homepage; Davis 43 versus 44 keyword rows. Do not force reconciliation or sum estimates into market share. Monetary fields are cents, converted to USD below. Estimated zero traffic is not evidence of zero customers or Maps visibility.
+
+### Coverage and stopping condition
+
+Discovery covered Chicago, Glenview, Evanston, Wilmette, Winnetka, Northbrook, Skokie, Lincolnwood, Morton Grove, Park Ridge, Highland Park, Deerfield, Des Plaines, Niles and Lake Forest, plus relevant Aurora, Naperville and Barrington contexts. Service-area confirmation does not establish rankings in every suburb.
+
+TV mounting/installation, professional/near-me/same-day, Frame, fireplace, large/premium TV, theater, soundbar and commercial variants were investigated. The SERP endpoint was requested through position 30 but returned only available rows, often 7–9 or none. Public search exposed no dependable pagination/offset; alternate searches returned small overlapping sets. Specialty exact-Chicago queries remained empty. These tool limits and the organic-only scope correction end this pass; **full result exhaustion and every Chicagoland competitor are not claimed**. No additional directory expansion is warranted.
+
+## 3. Main organic comparison
+
+Ordering is by commercial intent tier, not DR, company size or review count. Source links establish official identity/service. All 19 retained sites had readable public content during this pass; accessibility is not an independently logged HTTP 200 or a full crawl. Identity/ranking confidence is high; Chicago attribution of generic queries is unverified. Williams is path-scoped: DR 94 reflects Wix host authority, not Williams' own domain strength.
+
+| Company / official source | Tier | US DR | US traffic/mo | US keywords | Ref. domains | US value/mo | Chicago query cohort |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Chicago TV Installer](https://chicagotvinstaller.com/) | Chicago TV | 1.6 | 16 | 6 | 821 | $17.86 | 9 |
+| [HDInstalls](https://www.hdinstalls.com/chicagotvinstallation) | Chicago TV | 9 | 121 | 8 | 885 | $228.14 | 12 |
+| [ProMount](https://tvmountingpromount.com/) | Chicago TV | 0 | 2 | 4 | 806 | $1.72 | 2 |
+| [PRO TV Mounting](https://www.protvmountings.com/) | Generic TV overlap | 0.5 | 113 | 19 | 908 | $320.85 | 0 |
+| [TV Mounting Same Day](https://tvmountingsameday.com/) | Generic TV overlap | 0 | 8 | 3 | 805 | $37.54 | 0 |
+| [TV Mounting Express](https://www.tvmountingexpress.com/contact-us/) | Generic TV overlap | 0 | 2 | 1 | 916 | $3.39 | 0 |
+| [Davis Audio & Video](https://www.davisaudio.com/areas-served/lake-forest-illinois/home-theaters-lake-forest-illinois/) | Adjacent Chicago AV | 10 | 258 | 43 | 1074 | $459.61 | 73 |
+| [Hooked Up Installs](https://www.hookedupinstalls.com/locations/chicago/) | Adjacent Chicago AV | 2.2 | 222 | 23 | 998 | $692.67 | 76 |
+| [Elite Home Theater](https://elitehometheaterchicago.com/) | Adjacent Chicago AV | 40 | 110 | 11 | 758 | $222.86 | 34 |
+| [Matrix Basement Systems](https://www.matrixbasements.com/basement-finishing-chicago-il/basement-home-theater/) | Adjacent Chicago AV | 44 | 2782 | 260 | 1886 | $10257.65 | 33 |
+| [LowVoltex](https://lowvoltex.com/) | Adjacent Chicago AV | 35 | 12 | 5 | 921 | $53.47 | 10 |
+| [Williams Home Theater](https://williamshtd.wixsite.com/chicago) | Adjacent Chicago AV | 94 | 5 | 1 | 4 | $27.98 | 5 |
+| [Sound & Vision](https://www.soundandvision.net/solutions/) | Adjacent Chicago AV | 8 | 33 | 14 | 779 | $21.67 | 24 |
+| [Avidia](https://avidiaonline.com/solutions/audio-video-solutions) | Adjacent Chicago AV | 12 | 41 | 18 | 2124 | $9.49 | 15 |
+| [Abt](https://www.abt.com/help/installation-services) | Adjacent Chicago AV | 72 | 245531 | 15688 | 7822 | $49332.41 | 37 |
+| [Best Buy/Geek Squad](https://www.bestbuy.com/site/regional-services/chicago-il/tv-mounting-installation) | National / multi-market | 89 | 21337830 | 803637 | 70348 | $5455013.60 | 20 |
+| [Taskrabbit](https://www.taskrabbit.com/locations/chicago/wall-mount-tv) | National / multi-market | 80 | 343204 | 25995 | 16200 | $730287.98 | 18 |
+| [HelloTech](https://www.hellotech.com/us/il/evanston/tv-wall-mounting-install) | National / multi-market | 71 | 21917 | 4054 | 5005 | $52734.91 | 6 |
+| [TV Mount Master](https://tvmountmaster.com/chicago/) | National / multi-market | 3.5 | 407 | 115 | 834 | $1109.01 | 5 |
+
+CM baseline: DR 2.3, 134 US modeled visits/month, 28 keywords, 898 referring domains, $405.77 monthly traffic value. Its five explicit Chicago TV rows total 75 modeled visits (31+26+12+3+3). None of these metrics measures Maps demand.
+
+### Verified service/area scope
+
+| Company | Supported area | Relevant services | Competition / confidence |
+| --- | --- | --- | --- |
+| Chicago TV Installer | Chicago | TV, theater | Direct intent; high identity/ranking confidence |
+| HDInstalls | Chicago/Chicagoland | TV, wiring, audio | Direct intent; high identity/ranking confidence |
+| ProMount | Chicago/suburbs | TV,Frame,fireplace,commercial | Direct intent; high identity/ranking confidence |
+| PRO TV Mounting | Chicago—DePaul verified | TV,Frame | Direct service; generic ranks not localized |
+| TV Mounting Same Day | Aurora/western Chicago suburbs | TV,fireplace | Direct service; generic ranks not localized |
+| TV Mounting Express | Chicagoland/Morton Grove/Des Plaines | TV,theater | Direct service; generic ranks not localized |
+| Davis Audio & Video | Chicago/Lake Forest/Deerfield | home theater,AV | Adjacent Chicago intent; high identity/ranking, scope qualification required |
+| Hooked Up Installs | Chicago/Buffalo Grove/North Shore;Austin also | TV,theater,commercial | Adjacent Chicago intent; high identity/ranking, scope qualification required |
+| Elite Home Theater | Chicago/metro | home theater | Adjacent Chicago intent; high identity/ranking, scope qualification required |
+| Matrix Basement Systems | Chicago;multi-region domain | basement home theater | Adjacent Chicago intent; high identity/ranking, scope qualification required |
+| LowVoltex | Niles/Chicago/North Shore | theater,audio,TV | Adjacent Chicago intent; high identity/ranking, scope qualification required |
+| Williams Home Theater | Chicagoland | TV,theater | Adjacent Chicago intent; high identity/ranking, scope qualification required |
+| Sound & Vision | Chicago | AV,home theater | Adjacent Chicago intent; high identity/ranking, scope qualification required |
+| Avidia | Northbrook/North Shore | theater,AV | Adjacent Chicago intent; high identity/ranking, scope qualification required |
+| Abt | Glenview/Chicago area | TV/electronics installation | Adjacent Chicago intent; high identity/ranking, scope qualification required |
+| Best Buy/Geek Squad | Chicago stores/Skokie | TV installation | Direct intent; high identity/ranking confidence |
+| Taskrabbit | Chicago | TV mounting marketplace | Direct intent; high identity/ranking confidence |
+| HelloTech | Chicago/North suburbs | TV installation | Direct intent; high identity/ranking confidence |
+| TV Mount Master | Chicago landing;multi-market | TV mounting | Direct intent; high identity/ranking confidence |
+
+Abt's blog design-query result is weaker commercial fit than an installation landing page. Matrix's basement package competes on the theater SERP without justifying construction services for CM. Sound & Vision and Abt have older September observations; Avidia's October position is not a simultaneous comparison. No general handyman cohort qualified for the main table solely through geographic/service similarity.
+
+## 4. Organic SERP evidence
+
+Source: Ahrefs serp-overview, US, type=organic, requested top_positions=30. Positions absent from responses are not invented. These are organic results, not Local Pack/Maps ranks.
+
+### tv mounting service chicago
+
+| Organic position | Ranking URL | Observed |
+| --- | --- | --- |
+| 2 | [https://chicagomounting.com/](https://chicagomounting.com/) | 2026-11-08 |
+| 3 | [https://www.yelp.com/search?find_desc=Tv+Mounting&find_loc=Chicago%2C+IL](https://www.yelp.com/search?find_desc=Tv+Mounting&find_loc=Chicago%2C+IL) | 2026-11-08 |
+| 4 | [https://www.taskrabbit.com/locations/chicago/wall-mount-tv](https://www.taskrabbit.com/locations/chicago/wall-mount-tv) | 2026-11-08 |
+| 5 | [https://www.bestbuy.com/site/regional-services/chicago-il/tv-mounting-installation](https://www.bestbuy.com/site/regional-services/chicago-il/tv-mounting-installation) | 2026-11-08 |
+| 6 | [https://www.reddit.com/r/ChicagoSuburbs/comments/1frosnc/anyone_have_recommendations_for_tv_mount_company/](https://www.reddit.com/r/ChicagoSuburbs/comments/1frosnc/anyone_have_recommendations_for_tv_mount_company/) | 2026-11-08 |
+| 7 | [https://tvmountmaster.com/chicago/](https://tvmountmaster.com/chicago/) | 2026-11-08 |
+| 9 | [https://www.thumbtack.com/il/chicago/tv-wall-mount-install](https://www.thumbtack.com/il/chicago/tv-wall-mount-install) | 2026-11-08 |
+| 10 | [https://www.instagram.com/handyman_ant_chicago/](https://www.instagram.com/handyman_ant_chicago/) | 2026-11-08 |
+| 11 | [https://www.hellotech.com/us/il/chicago/tv-wall-mounting-install](https://www.hellotech.com/us/il/chicago/tv-wall-mounting-install) | 2026-11-08 |
+
+### chicago tv installation
+
+| Organic position | Ranking URL | Observed |
+| --- | --- | --- |
+| 2 | [https://chicagotvinstaller.com/](https://chicagotvinstaller.com/) | 2026-10-16 |
+| 4 | [https://www.bestbuy.com/site/regional-services/chicago-il/tv-mounting-installation](https://www.bestbuy.com/site/regional-services/chicago-il/tv-mounting-installation) | 2026-10-16 |
+| 5 | [https://chicagomounting.com/](https://chicagomounting.com/) | 2026-10-16 |
+| 6 | [https://www.yelp.com/biz/tv-install-chicago-chicago](https://www.yelp.com/biz/tv-install-chicago-chicago) | 2026-10-16 |
+| 7 | [https://www.hdinstalls.com/](https://www.hdinstalls.com/) | 2026-10-16 |
+| 8 | [https://www.instagram.com/chicagomounting/?hl=en](https://www.instagram.com/chicagomounting/?hl=en) | 2026-10-16 |
+| 9 | [https://www.taskrabbit.com/locations/chicago/wall-mount-tv](https://www.taskrabbit.com/locations/chicago/wall-mount-tv) | 2026-10-16 |
+| 10 | [https://www.reddit.com/r/ChicagoSuburbs/comments/1frosnc/anyone_have_recommendations_for_tv_mount_company/](https://www.reddit.com/r/ChicagoSuburbs/comments/1frosnc/anyone_have_recommendations_for_tv_mount_company/) | 2026-10-16 |
+| 11 | [https://tvmountingpromount.com/](https://tvmountingpromount.com/) | 2026-10-16 |
+
+### home theater installation chicago
+
+| Organic position | Ranking URL | Observed |
+| --- | --- | --- |
+| 2 | [https://www.davisaudio.com/](https://www.davisaudio.com/) | 2026-11-10 |
+| 3 | [https://www.hookedupinstalls.com/](https://www.hookedupinstalls.com/) | 2026-11-10 |
+| 4 | [https://elitehometheaterchicago.com/](https://elitehometheaterchicago.com/) | 2026-11-10 |
+| 5 | [https://www.thumbtack.com/il/chicago/home-theater-installation](https://www.thumbtack.com/il/chicago/home-theater-installation) | 2026-11-10 |
+| 6 | [https://www.matrixbasements.com/basement-finishing-chicago-il/basement-home-theater/](https://www.matrixbasements.com/basement-finishing-chicago-il/basement-home-theater/) | 2026-11-10 |
+| 7 | [https://www.yelp.com/search?find_desc=Home+Theatre+Installation&find_loc=Chicago%2C+IL](https://www.yelp.com/search?find_desc=Home+Theatre+Installation&find_loc=Chicago%2C+IL) | 2026-11-10 |
+| 8 | [https://lowvoltex.com/](https://lowvoltex.com/) | 2026-11-10 |
+| 9 | [https://www.facebook.com/p/Elite-Home-Theater-Installation-Chicago-61552188744566/](https://www.facebook.com/p/Elite-Home-Theater-Installation-Chicago-61552188744566/) | 2026-11-10 |
+| 10 | [https://williamshtd.wixsite.com/chicago](https://williamshtd.wixsite.com/chicago) | 2026-11-10 |
+
+Instagram's handyman profile is a returned result, but no independent company-domain identity was established; it is not promoted into the company table. Reddit is a competing result, not an installer. Directory listings were not mined to expand the final organic comparison.
+
+**Specialty limits:** “samsung frame tv installation chicago,” “frame tv installation chicago,” “fireplace tv mounting chicago,” “large tv installation chicago,” “commercial tv installation chicago” and “soundbar installation chicago” returned no usable organic rows. This is not evidence of no demand/competition. “frame tv installation near me” returned Wichita-local context and is excluded as Chicago competitor evidence. No specialty Chicago winner is invented.
+
+## 5. Exact shared keywords
+
+Computed exact-string intersection of competitor rows with CM's 26 returned US keywords. This is not an unlimited Content Gap export. Generic keyword samples remain unlocalized; variants are not assumed equivalent.
+
+| Competitor | Shared query | Their pos. | CM pos. | Result | US volume/mo | CPC USD | Competing URL | Observed |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Chicago TV Installer | chicago tv installation | 2 | 5 | Competitor ahead | 30 | — | [page](https://chicagotvinstaller.com/) | 2026-10-16 |
+| Chicago TV Installer | tv installation chicago | 9 | 2 | CM ahead | 80 | $3.39 | [page](https://chicagotvinstaller.com/) | 2026-10-29 |
+| Chicago TV Installer | chicago tv mounting | 11 | 2 | CM ahead | 40 | $3.75 | [page](https://chicagotvinstaller.com/) | 2026-10-17 |
+| Chicago TV Installer | tv installer service | 9 | 11 | Competitor ahead | 10 | — | [page](https://chicagotvinstaller.com/) | 2026-10-06 |
+| HDInstalls | tv installation chicago | 5 | 2 | CM ahead | 80 | $3.39 | [page](https://www.hdinstalls.com/) | 2026-10-29 |
+| HDInstalls | chicago tv installation | 7 | 5 | CM ahead | 30 | — | [page](https://www.hdinstalls.com/) | 2026-10-16 |
+| HDInstalls | chicago tv mounting | 8 | 2 | CM ahead | 40 | $3.75 | [page](https://www.hdinstalls.com/) | 2026-10-17 |
+| HDInstalls | chicago tv mounting service | 10 | 3 | CM ahead | 30 | — | [page](https://www.hdinstalls.com/) | 2026-10-10 |
+| ProMount | chicago tv installation | 11 | 5 | CM ahead | 30 | — | [page](https://tvmountingpromount.com/) | 2026-10-16 |
+| ProMount | chicago tv mounting service | 11 | 3 | CM ahead | 30 | — | [page](https://tvmountingpromount.com/) | 2026-10-10 |
+| ProMount | mounting tv near me | 10 | 9 | CM ahead | 20 | $2.07 | [page](https://tvmountingpromount.com/) | 2026-10-25 |
+| PRO TV Mounting | tv mount with installation | 9 | 11 | Competitor ahead | 80 | $2.16 | [page](https://www.protvmountings.com/) | 2026-10-09 |
+| PRO TV Mounting | professional mounting service | 8 | 6 | CM ahead | 40 | $3.47 | [page](https://www.protvmountings.com/) | 2026-11-02 |
+| PRO TV Mounting | someone to mount my tv | 10 | 1 | CM ahead | 10 | $3.51 | [page](https://www.protvmountings.com/) | 2026-10-29 |
+| TV Mounting Same Day | same day tv mounting service | 2 | 7 | Competitor ahead | 40 | $5.23 | [page](https://tvmountingsameday.com/) | 2026-11-06 |
+| TV Mounting Same Day | tv mounting same day | 3 | 11 | Competitor ahead | 30 | $4.96 | [page](https://tvmountingsameday.com/) | 2026-11-11 |
+| TV Mounting Same Day | mounting tv near me | 8 | 9 | Competitor ahead | 20 | $2.07 | [page](https://tvmountingsameday.com/) | 2026-10-25 |
+| TV Mounting Express | mounting tv near me | 4 | 9 | Competitor ahead | 20 | $2.07 | [page](https://www.tvmountingexpress.com/) | 2026-10-25 |
+| Best Buy/Geek Squad | tv mounting service chicago | 5 | 2 | CM ahead | 100 | $4.37 | [page](https://www.bestbuy.com/site/regional-services/chicago-il/tv-mounting-installation) | 2026-11-08 |
+| Best Buy/Geek Squad | tv installation chicago | 7 | 2 | CM ahead | 80 | $3.39 | [page](https://www.bestbuy.com/site/regional-services/chicago-il/tv-mounting-installation) | 2026-10-29 |
+| Best Buy/Geek Squad | chicago tv installation | 4 | 5 | Competitor ahead | 30 | — | [page](https://www.bestbuy.com/site/regional-services/chicago-il/tv-mounting-installation) | 2026-10-16 |
+| Best Buy/Geek Squad | chicago tv mounting | 5 | 2 | CM ahead | 40 | $3.75 | [page](https://www.bestbuy.com/site/regional-services/chicago-il/tv-mounting-installation) | 2026-10-17 |
+| Best Buy/Geek Squad | chicago tv mounting service | 5 | 3 | CM ahead | 30 | — | [page](https://www.bestbuy.com/site/regional-services/chicago-il/tv-mounting-installation) | 2026-10-10 |
+| Taskrabbit | tv mounting service chicago | 4 | 2 | CM ahead | 100 | $4.37 | [page](https://www.taskrabbit.com/locations/chicago/wall-mount-tv) | 2026-11-08 |
+| Taskrabbit | chicago tv mounting | 6 | 2 | CM ahead | 40 | $3.75 | [page](https://www.taskrabbit.com/locations/chicago/wall-mount-tv) | 2026-10-17 |
+| Taskrabbit | tv installation chicago | 10 | 2 | CM ahead | 80 | $3.39 | [page](https://www.taskrabbit.com/locations/chicago/wall-mount-tv) | 2026-10-29 |
+| Taskrabbit | chicago tv mounting service | 6 | 3 | CM ahead | 30 | — | [page](https://www.taskrabbit.com/locations/chicago/wall-mount-tv) | 2026-10-10 |
+| Taskrabbit | chicago tv installation | 9 | 5 | CM ahead | 30 | — | [page](https://www.taskrabbit.com/locations/chicago/wall-mount-tv) | 2026-10-16 |
+| HelloTech | tv mounting service chicago | 11 | 2 | CM ahead | 100 | $4.37 | [page](https://www.hellotech.com/us/il/chicago/tv-wall-mounting-install) | 2026-11-08 |
+| HelloTech | tv installation chicago | 11 | 2 | CM ahead | 80 | $3.39 | [page](https://www.hellotech.com/us/il/chicago/tv-wall-mounting-install) | 2026-10-29 |
+| HelloTech | chicago tv mounting service | 7 | 3 | CM ahead | 30 | — | [page](https://www.hellotech.com/us/il/chicago/tv-wall-mounting-install) | 2026-10-10 |
+| HelloTech | chicago tv mounting | 10 | 2 | CM ahead | 40 | $3.75 | [page](https://www.hellotech.com/us/il/chicago/tv-wall-mounting-install) | 2026-10-17 |
+| TV Mount Master | tv mounting service chicago | 7 | 2 | CM ahead | 100 | $4.37 | [page](https://tvmountmaster.com/chicago/) | 2026-11-08 |
+
+### Commercial keyword gaps
+
+“Not returned for CM” means absent from this 26-row dataset, not absolute non-ranking or no GSC impressions. Theater is adjacent intent and requires business-scope qualification. US volume is not Chicago search volume, even for Chicago-worded phrases.
+
+| Competitor | Not returned for CM | Pos. | US volume/mo | KD | CPC USD | Modeled traffic | Ranking URL | Observed |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| HDInstalls | flat screen tv installers near me | 4 | 50 | 0 | — | 6 | [page](https://www.hdinstalls.com/service-area) | 2026-10-30 |
+| HDInstalls | home theater systems installers | 10 | 200 | 1 | $1.50 | 5 | [page](https://www.hdinstalls.com/speakerinstallationchicago) | 2026-10-22 |
+| PRO TV Mounting | tv mount service | 11 | 800 | 0 | $3.52 | 17 | [page](https://www.protvmountings.com/) | 2026-10-30 |
+| PRO TV Mounting | tv wall mount service | 12 | 300 | 2 | $2.73 | 6 | [page](https://www.protvmountings.com/) | 2026-09-23 |
+| PRO TV Mounting | professional tv mounter | 5 | 30 | 3 | — | 3 | [page](https://www.protvmountings.com/) | 2026-09-28 |
+| PRO TV Mounting | wall mounting services | 7 | 50 | 0 | $2.84 | 3 | [page](https://www.protvmountings.com/) | 2026-10-28 |
+| PRO TV Mounting | tv installation professionals | 9 | 40 | 2 | — | 2 | [page](https://www.protvmountings.com/) | 2026-11-01 |
+| PRO TV Mounting | professional wall mount tv installation | 10 | 20 | 33 | $3.23 | 1 | [page](https://www.protvmountings.com/) | 2026-11-05 |
+| Davis Audio & Video | home theater installation chicago | 2 | 150 | 46 | $5.21 | 63 | [page](https://www.davisaudio.com/) | 2026-11-10 |
+| Davis Audio & Video | home theater systems installers | 8 | 200 | 1 | $1.50 | 8 | [page](https://www.davisaudio.com/surround-sound-home-theater-chicago-illinois/) | 2026-10-22 |
+| Davis Audio & Video | home theatre installation chicago | 5 | 40 | 28 | — | 4 | [page](https://www.davisaudio.com/) | 2026-10-29 |
+| Davis Audio & Video | home theater chicago | 5 | 40 | 41 | $2.22 | 4 | [page](https://www.davisaudio.com/) | 2026-10-31 |
+| Davis Audio & Video | chicago home theater installation | 3 | 10 | 46 | $4.34 | 2 | [page](https://www.davisaudio.com/) | 2026-10-24 |
+| Davis Audio & Video | home theater chicago il | 4 | 0 | 33 | — | 0 | [page](https://www.davisaudio.com/) | 2026-10-15 |
+| Hooked Up Installs | home theater design chicago | 1 | 150 | 0 | — | 30 | [page](https://www.hookedupinstalls.com/) | 2026-10-27 |
+| Hooked Up Installs | home theater installation chicago | 3 | 150 | 46 | $5.21 | 26 | [page](https://www.hookedupinstalls.com/) | 2026-11-10 |
+| Hooked Up Installs | home theater systems installers | 4 | 200 | 1 | $1.50 | 20 | [page](https://www.hookedupinstalls.com/) | 2026-10-22 |
+| Hooked Up Installs | home theatre installation chicago | 2 | 40 | 28 | — | 16 | [page](https://www.hookedupinstalls.com/) | 2026-10-29 |
+| Hooked Up Installs | commercial audio video installation | 7 | 200 | 0 | $5.71 | 11 | [page](https://www.hookedupinstalls.com/services/commercial-audio-and-video/) | 2026-10-21 |
+| Hooked Up Installs | chicago home theater installation | 2 | 10 | 46 | $4.34 | 4 | [page](https://www.hookedupinstalls.com/) | 2026-10-24 |
+| Hooked Up Installs | custom home theater installation | 9 | 90 | 0 | $4.15 | 4 | [page](https://www.hookedupinstalls.com/locations/chicago/) | 2026-11-02 |
+| Hooked Up Installs | home theatre chicago | 5 | 0 | 0 | — | 0 | [page](https://www.hookedupinstalls.com/the-golden-ratio-and-home-theater-installation/) | 2026-09-26 |
+| Elite Home Theater | home theater systems installers | 2 | 200 | 1 | $1.50 | 61 | [page](https://elitehometheaterchicago.com/barrington/) | 2026-10-22 |
+| Elite Home Theater | home theater installation chicago | 4 | 150 | 46 | $5.21 | 20 | [page](https://elitehometheaterchicago.com/) | 2026-11-10 |
+| Elite Home Theater | home theatre installation chicago | 3 | 40 | 28 | — | 6 | [page](https://elitehometheaterchicago.com/) | 2026-10-29 |
+| Elite Home Theater | home theater design chicago | 9 | 150 | 0 | — | 5 | [page](https://elitehometheaterchicago.com/top-3-latest-trends-in-home-theater-design/) | 2026-10-27 |
+| Elite Home Theater | home theater chicago | 8 | 50 | 24 | $2.22 | 2 | [page](https://elitehometheaterchicago.com/) | 2026-09-10 |
+| Elite Home Theater | chicago home theater installation | 4 | 10 | 46 | $4.34 | 1 | [page](https://elitehometheaterchicago.com/) | 2026-10-24 |
+| Elite Home Theater | home theater chicago il | 7 | 0 | 33 | — | 0 | [page](https://elitehometheaterchicago.com/) | 2026-10-15 |
+| Matrix Basement Systems | home theater design chicago | 3 | 150 | 0 | — | 19 | [page](https://www.matrixbasements.com/basement-finishing-chicago-il/basement-home-theater/) | 2026-10-27 |
+| Matrix Basement Systems | home theater installation chicago | 6 | 150 | 46 | $5.21 | 13 | [page](https://www.matrixbasements.com/basement-finishing-chicago-il/basement-home-theater/) | 2026-11-10 |
+| Matrix Basement Systems | chicago home theater installation | 7 | 10 | 46 | $4.34 | 1 | [page](https://www.matrixbasements.com/basement-finishing-chicago-il/basement-home-theater/) | 2026-10-24 |
+| LowVoltex | home theater installation chicago | 8 | 150 | 46 | $5.21 | 8 | [page](https://lowvoltex.com/) | 2026-11-10 |
+| LowVoltex | home theatre chicago | 1 | 0 | 0 | — | 1 | [page](https://lowvoltex.com/service-request/) | 2026-09-26 |
+| LowVoltex | home theatre installation chicago | 9 | 30 | 48 | — | 1 | [page](https://lowvoltex.com/) | 2026-09-09 |
+| LowVoltex | chicago home theater installation | 9 | 10 | 46 | $4.34 | 0 | [page](https://lowvoltex.com/) | 2026-10-24 |
+| Williams Home Theater | home theater installation chicago | 10 | 150 | 46 | $5.21 | 5 | [page](https://williamshtd.wixsite.com/chicago) | 2026-11-10 |
+| Sound & Vision | home theater design chicago | 4 | 150 | 46 | — | 24 | [page](https://www.soundandvision.net/) | 2026-09-09 |
+| Avidia | home theater design chicago | 4 | 150 | 0 | — | 15 | [page](https://avidiaonline.com/blog/categories/home-theater-design-glencoe-il) | 2026-10-27 |
+| Abt | home theater design chicago | 2 | 150 | 46 | — | 37 | [page](https://www.abt.com/blog) | 2026-09-09 |
+
+## 6. Competing organic pages
+
+Page totals can contain brand/generic traffic and are not Chicago leads. HD audio is adjacent; Elite's Barrington page ranks for generic “home theater systems installers,” not proof of Barrington query demand. Matrix's exact Chicago theater page contributes 33 versus 2,782 across its broader renovation domain; TV Mount Master's Chicago page contributes 5 versus 407 nationally. Hooked Up Austin traffic is excluded.
+
+| Company | Relevant returned page | US page traffic | Keywords | Leading query | Pos. |
+| --- | --- | --- | --- | --- | --- |
+| Chicago TV Installer | [https://chicagotvinstaller.com/](https://chicagotvinstaller.com/) | 10 | 5 | chicago tv installation | 2 |
+| Chicago TV Installer | [https://chicagotvinstaller.com/services/tv-repair/](https://chicagotvinstaller.com/services/tv-repair/) | 6 | 1 | tv repair man | 3 |
+| HDInstalls | [https://www.hdinstalls.com/speakerinstallationchicago](https://www.hdinstalls.com/speakerinstallationchicago) | 103 | 2 | home audio installation | 2 |
+| HDInstalls | [https://www.hdinstalls.com/](https://www.hdinstalls.com/) | 12 | 5 | tv installation chicago | 5 |
+| HDInstalls | [https://www.hdinstalls.com/service-area](https://www.hdinstalls.com/service-area) | 6 | 1 | flat screen tv installers near me | 4 |
+| ProMount | [https://tvmountingpromount.com/](https://tvmountingpromount.com/) | 2 | 4 | chicago tv installation | 11 |
+| PRO TV Mounting | [https://www.protvmountings.com/](https://www.protvmountings.com/) | 39 | 18 | tv mount service | 11 |
+| TV Mounting Same Day | [https://tvmountingsameday.com/](https://tvmountingsameday.com/) | 12 | 4 | same day tv mounting service | 2 |
+| TV Mounting Express | [https://www.tvmountingexpress.com/](https://www.tvmountingexpress.com/) | 2 | 1 | mounting tv near me | 4 |
+| Davis Audio & Video | [https://www.davisaudio.com/](https://www.davisaudio.com/) | 73 | 5 | home theater installation chicago | 2 |
+| Davis Audio & Video | [https://www.davisaudio.com/understanding-4k-vs-8k-tv-what-you-need-to-know/](https://www.davisaudio.com/understanding-4k-vs-8k-tv-what-you-need-to-know/) | 24 | 3 | 4k vs 8k | 7 |
+| Davis Audio & Video | [https://www.davisaudio.com/home-automation-chicago-illinois/](https://www.davisaudio.com/home-automation-chicago-illinois/) | 19 | 2 | home automation chicago | 4 |
+| Davis Audio & Video | [https://www.davisaudio.com/sonos-vs-vssl-vs-bluesound/](https://www.davisaudio.com/sonos-vs-vssl-vs-bluesound/) | 15 | 6 | bluesound vs sonos | 6 |
+| Davis Audio & Video | [https://www.davisaudio.com/surround-sound-home-theater-chicago-illinois/](https://www.davisaudio.com/surround-sound-home-theater-chicago-illinois/) | 8 | 1 | home theater systems installers | 8 |
+| Hooked Up Installs | [https://www.hookedupinstalls.com/](https://www.hookedupinstalls.com/) | 95 | 5 | home theater design chicago | 1 |
+| Hooked Up Installs | [https://www.hookedupinstalls.com/services/commercial-audio-and-video/](https://www.hookedupinstalls.com/services/commercial-audio-and-video/) | 16 | 2 | commercial audio video installation | 7 |
+| Hooked Up Installs | [https://www.hookedupinstalls.com/experience-the-benefits-of-outdoor-speaker-systems/](https://www.hookedupinstalls.com/experience-the-benefits-of-outdoor-speaker-systems/) | 6 | 1 | outdoor speaker installation near me | 5 |
+| Hooked Up Installs | [https://www.hookedupinstalls.com/locations/chicago/](https://www.hookedupinstalls.com/locations/chicago/) | 4 | 1 | custom home theater installation | 9 |
+| Hooked Up Installs | [https://www.hookedupinstalls.com/Locations](https://www.hookedupinstalls.com/Locations) | 1 | 2 | home theatre austin | 9 |
+| Elite Home Theater | [https://elitehometheaterchicago.com/barrington/](https://elitehometheaterchicago.com/barrington/) | 61 | 1 | home theater systems installers | 2 |
+| Elite Home Theater | [https://elitehometheaterchicago.com/](https://elitehometheaterchicago.com/) | 33 | 7 | home theater installation chicago | 4 |
+| Elite Home Theater | [https://elitehometheaterchicago.com/top-3-latest-trends-in-home-theater-design/](https://elitehometheaterchicago.com/top-3-latest-trends-in-home-theater-design/) | 5 | 1 | home theater design chicago | 9 |
+| Elite Home Theater | [https://elitehometheaterchicago.com/wilmette](https://elitehometheaterchicago.com/wilmette) | 5 | 1 | local home theater installers | 2 |
+| Elite Home Theater | [https://elitehometheaterchicago.com/contact/](https://elitehometheaterchicago.com/contact/) | 1 | 1 | elite home entertainment | 7 |
+| Matrix Basement Systems | [https://www.matrixbasements.com/basement-finishing-chicago-il/basement-home-theater/](https://www.matrixbasements.com/basement-finishing-chicago-il/basement-home-theater/) | 33 | 3 | home theater design chicago | 3 |
+| LowVoltex | [https://lowvoltex.com/](https://lowvoltex.com/) | 10 | 3 | home theater installation chicago | 8 |
+| LowVoltex | [https://lowvoltex.com/service-request/](https://lowvoltex.com/service-request/) | 1 | 1 | home theatre chicago | 1 |
+| LowVoltex | [https://lowvoltex.com/security-camera-installation-chicago/](https://lowvoltex.com/security-camera-installation-chicago/) | 1 | 1 | security camera installation chicago | 11 |
+| Williams Home Theater | [https://williamshtd.wixsite.com/chicago](https://williamshtd.wixsite.com/chicago) | 5 | 1 | home theater installation chicago | 10 |
+| Sound & Vision | [https://www.soundandvision.net/](https://www.soundandvision.net/) | 26 | 9 | home theater design chicago | 4 |
+| Avidia | [https://avidiaonline.com/blog/categories/home-theater-design-glencoe-il](https://avidiaonline.com/blog/categories/home-theater-design-glencoe-il) | 15 | 1 | home theater design chicago | 4 |
+| Best Buy/Geek Squad | [https://www.bestbuy.com/site/regional-services/chicago-il/tv-mounting-installation](https://www.bestbuy.com/site/regional-services/chicago-il/tv-mounting-installation) | 26 | 10 | tv mounting service chicago | 5 |
+| Taskrabbit | [https://www.taskrabbit.com/locations/chicago/wall-mount-tv](https://www.taskrabbit.com/locations/chicago/wall-mount-tv) | 19 | 11 | tv mounting service chicago | 4 |
+| TV Mount Master | [https://tvmountmaster.com/chicago/](https://tvmountmaster.com/chicago/) | 5 | 2 | tv mounting service chicago | 7 |
+
+### Page structure, project evidence and trust
+
+| Competitor | Observed content pattern | Implication for CM |
+| --- | --- | --- |
+| Chicago TV Installer | Homepage ranks 2 for reverse-order installation query; repair traffic belongs to another intent. | Improve the existing homepage's installation clarity and evidence; no duplicate keyword page. |
+| HDInstalls | Separate homepage, service-area and speaker/audio pages; audio accounts for most returned traffic. | Preserve clear service intent and useful existing links; do not mistake audio traffic for mounting demand. |
+| TV Mounting Same Day | Homepage outranks CM's same-day page on two shared commercial terms despite low domain traffic. | Compare actual scheduling, scope, coverage and proof. Rank difference does not identify its causal design factor. |
+| PRO TV Mounting | Homepage covers commercial installation variants; genuine DePaul benefit page links to it. | Cover real installation questions naturally and assess authentic partnership eligibility. |
+| Davis Audio & Video | Chicago theater heading, service branches, gallery/Lake Forest references and consultation CTA. | Strengthen real installation proof and contextual service/city links in existing components. |
+| Hooked Up | Portfolio/service categories, separate Chicago and Austin locations, commercial page, named/location testimonials and consultation route. | Separate geographic evidence and show applicable commercial projects; exclude Austin metrics. |
+| Elite | Homepage and Barrington/Wilmette pages rank; homepage contains repeated wording/paragraphs. | Do not copy repetition or assume new city pages are needed because generic terms rank on suburb URLs. |
+| Matrix | Chicago theater page answers a basement-finishing package intent. | Learn from specificity, without adding construction claims or unrelated services. |
+| Avidia / Sound & Vision / Abt | Design-query visibility includes blog/category pages and older observations. | Lower-priority design-intent hypotheses; first validate qualified demand and business fit. |
+| National providers | Chicago landing pages hold real organic slots. | Explain CM's actual specialist scope and project proof, without using national traffic as local market share. |
+
+Testimonials/reviews were inspected as self-published trust elements, not audited counts or ranking causes. No comprehensive internal-link crawl or validated review-count comparison was performed. The evidence supports using relevant project proof; it does not establish word count, schema, reviews or navigation as causal ranking factors.
+
+## 7. Backlink evidence and qualified opportunities
+
+Main-table referring-domain metrics are domain-wide. Filtered referring-domain detail was requested where available, with up to 100 rows; lower-ranked sources can be missing. “is_spam=false” is not a quality endorsement. Targeted CM checks returned no records for the specific opportunity domains below; absence in the retrieved index is not proof of no link anywhere.
+
+| Source | Verified competitor evidence | Opportunity and condition |
+| --- | --- | --- |
+| [DePaul PRO TV Mounting benefit](https://resources.depaul.edu/demon-discounts/technology/Pages/pro-tv-mounting.aspx) | Official source names/links PRO TV Mounting; Ahrefs returns one linking record. | A real university-benefit relationship only if eligible and useful; no .edu link purchase. |
+| [Expertise Chicago theater selection](https://www.expertise.com/home-improvement/home-theater-install/illinois/chicago) | Relevant public selection; returned links include Davis 8, HD 7, Hooked Up 4, LowVoltex 4, Avidia 5. Counts are link records, not distinct placements. | Assess editorial criteria and actual service fit; inclusion/ranking lift is not guaranteed. |
+| BBB / Yellow Pages / Porch | Returned source evidence includes HD, Davis, Hooked Up and LowVoltex. | Consistent legitimate business profiles where appropriate; not mass listing collection. |
+| Control4 / genuine manufacturer relationships | Returned links for Davis and Avidia. | Only real authorized partnerships/project relationships; never imply certification CM lacks. |
+
+Elite's returned links include renovation/construction sites and a Wilmette theater domain; ownership and independent editorial value were not established. Do not imitate a possible related-site/reciprocal pattern. Matrix's exact Chicago page returned one brand-related matrixhomesolutions.com domain, not a clear external prospect. TV Mount Master's Chicago exact-URL referring-domain response was empty. Raw RD totals do not explain rankings or establish a penalty.
+
+Regional chamber/editorial sources tied to screened non-ranking businesses were found but are not prioritized over the organic evidence above. No outreach, new listings or communications were performed.
+
+## 8. Prioritized opportunities: existing pages and Case Studies
+
+Research recommendations only. Ranking gaps are confirmed observations; proposed content remedies and expected gains remain hypotheses.
+
+| Priority / confidence | Existing target | Evidence | Recommended next action | Measurement |
+| --- | --- | --- | --- | --- |
+| P1: confirmed shared-query losses | [Same-day page](https://chicagomounting.com/same-day-tv-mounting/) | CM 7/11 versus Same Day 2/3; US CPC $5.23/$4.96. | Improve actual scheduling process, scope/inclusions, coverage and relevant completed-installation proof. Use existing components and links; do not invent guaranteed availability. | Same query/page cohorts in GSC; generic US ranks alone cannot establish Chicago gains. |
+| P1: confirmed Chicago head-to-head gap | [Homepage](https://chicagomounting.com/) | “chicago tv installation”: CM 5 versus competitor 2; CM already 2 on other Chicago variants. | Clarify installation intent and verified proof within the established hero/design; strengthen links to existing services/coverage. No duplicate reverse-order landing page. | Improve target-query clicks/impressions/CTR while preserving winning variants. |
+| P1: confirmed query/page mismatch, cause unresolved | [Installation hub](https://chicagomounting.com/tv-installation-and-mounting/) + [commercial page](https://chicagomounting.com/commercial-tv-display-mounting/) | Generic commercial installation ranks on hub at 10; commercial mounting ranks on specialized page at 5. | Inspect query-to-page alignment, anchors and real commercial projects before changing copy. No merge/redirect/canonical change justified. | GSC query-by-page evidence; establish useful intent split before alleging cannibalization. |
+| P1: existing approved system; SEO impact hypothesis | [Case Studies](https://chicagomounting.com/case-studies/) and matching modules | November 11 default-branch release: 16 public cases, eleven dynamic modules. Competitors expose portfolios/project proof. | Complete existing case records with verified actual location, installation constraints, known equipment, solution/result, images/video and appropriate existing service/city links. Reuse canonical templates/automatic membership. | Case indexation, relevant organic landings and qualified query/assisted journeys. Do not repeat completed filter/responsive tests without a related change. |
+| P2: confirmed adjacent intent, conditional fit | Existing matching theater/AV content after current scope verification | Davis/Hooked Up/Elite 2/3/4 for Chicago theater installation; absent in returned CM dataset. | If CM genuinely supplies the scope, improve the existing matching page and link relevant real cases. Do not add basement/design claims or new pages solely to imitate rivals. | Qualified Chicago theater queries/inquiries, not generic national audio traffic. |
+| P2: Chicago position unresolved | [Frame page](https://chicagomounting.com/frame-tv-mounting-chicago/) | US near-me row 11, volume 300, CPC $2.92; SERP context Wichita, exact Chicago rows unavailable. | Preserve/improve actual Frame proof through existing cases; first obtain Chicago-relevant query/page evidence. | GSC Chicago-intent cohorts; supported geo-controlled organic checks. Never label this sample Chicago position 11. |
+| P3: conditional link opportunity | Genuine partnerships/editorial sources | Comparator DePaul/Expertise links and CM targeted returned absence. | Assess eligibility and useful partner value; no mass outreach is authorized by this research. | Genuine relevant placements, not DR alone. |
+
+**No new city/service page, case-system rebuild, duplicate template or indexing change is recommended.** Editorial city assignments do not prove actual installation location. Frame/fireplace/large-TV/commercial cases must use verified equipment, wall conditions, scope and location.
+
+### CM's demonstrated advantages and limits
+
+CM beats Chicago TV Installer and HDInstalls on sampled “tv installation chicago” and “chicago tv mounting” queries. It already has specialized same-day, Frame, outdoor, commercial and dismounting pages plus the released reusable case system. This is a useful foundation, not proof every page performs well. Same-day losses and the reverse-order Chicago installation phrase are the clearest immediate competitive gaps. Chicago theater leaders show adjacent coverage missing from CM's returned set; revenue/service fit is not established by modeled traffic.
+
+The measured GSC baseline is preserved rather than repeated: Aug–Oct 815 clicks / 90,930 impressions versus May–Jul 803 / 71,777. Exact brand clicks rose 81→110 while totals minus that one query fell 722→705. This is an exact-brand-excluded proxy, not complete non-brand attribution. Historical query/page coverage mismatches remain unresolved.
+
+## 9. Screening and unresolved gaps
+
+The earlier broad discovery produced a larger service-presence list, but only the 19 ranking-supported companies above qualify for the organic comparison. EasyFix mainly returned closet/handyman queries; Big Helpers kitchen assembly; Corsiga/Minas brand; Mills technology/logo; ORLEG shutters; Enhaus unrelated handyman/insurance terms. These and other service-only/zero-return targets are not organic competitors merely because they share a city.
+
+Same Day .net is an alias of .com, not another company; Murphy Beds Pro explicitly shares Big Helpers identity; Music Evolution/Evolution Installs are one identity; HiTech's alternate hosted site is not a separate company. Royal Home Entertainment has a closed-storefront/continuing-online-consulting transition, not a proved total shutdown. ClearView's domain identity remains unresolved. California namesakes and Wichita-context Frame competitors are excluded.
+
+### Screened website targets outside the main comparison
+
+These records preserve useful discovery without giving them SEO competitor status. They are not ranked by review count or business size.
+
+| Screened business / source | Disposition |
+| --- | --- |
+| [Hi-Tech Installs](https://www.hitechinstalls.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [R&R TV Mounting](https://tvmountingus.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [TV Install Chicago](https://tvserviceschicago.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Chicago TV Mounting](https://chicagotvmounting.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [MinasTV](https://minastv.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Etronics of Illinois](https://www.etronicsonline.net/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Spensley Smart Homes](https://www.spensleysmarthomes.com/services/tv-mounting/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Taylor'd Builds](https://www.taylordbuilds.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Wall & Bolt](https://wallandbolt.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [EasyFix](https://www.easyfixhandymanil.com/tv-mounting/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [ORLEG Mounting Services](https://orlegservices.com/pricelist) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Awesome TV Mounting](https://awesometvmounting.com/illinois/evanston-tv-mounting) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [TV Mount Lab](https://tvmountlab.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Corsiga AV](https://www.corsigaav.com/tv-mounting-installation-chicago/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Big Helpers](https://www.bighelpers.com/tv-mounting) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Graves Home Sound](https://hometheaterlakeforest.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Wired on Bank Lane](https://www.wiredonbanklane.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [U-Smart Home System Theater](https://usmarthometheater.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Wize FiX](https://www.wizefix.com/services/mounting/tv-mounting-%26-tv-installation/Park-Ridge%2C-IL) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Northforge Home Services](https://www.northforgehome.com/index) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [CrestLine Home Pro](https://crestlinehomepro.com/tv-mounting-winnetka-il/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [The Local Handyman LLC](https://thelocalhandymanllc.com/tv-mounting/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [D Digital](https://www.ddigitalinc.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Simply Stereo](https://www.simply-stereo.com/services.html) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Cinetec](https://cinetec.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [The TV Pro](https://www.thetvpro.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Enhaus LLC](https://www.enhausllc.com/handyman/deerfield) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [AV Integration Group](https://www.avintegrationgroup.com/highland-park-il-home-theater-services) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Digital Home Technologies](https://adigitalhome.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Fromer Home Theater](https://fromerht.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [HasProz Custom Installations](https://hasproz.com/) | Directory verified;official fetch internal error;activity not certified |
+| [Electronic Lifestyle Associates](https://elahome.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [HomeTech](https://www.thehometechs.com/entertainment.html) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Audio Video Service Chicago](https://audiovideoservicechicago.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [ETS Home Theater](https://hometheaterhighlandpark.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Senseworks](https://www.senseworks.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Evolution Installs (Music Evolution)](https://evolutioninstalls.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Mills Technologies](https://mills-technologies.com/solutions/home-theater-media-rooms/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [The Handy Veteran](https://thehandyvet.net/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [X-Engineer](https://xengineerhandyman.com/mounting/) | Verified Chicago body;initial title Toronto conflict retained;medium confidence |
+| [Accent Wall Studio](https://accentwallstudio.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Accent Walls Chicagoland](https://accentwallschicagoland.com/media-walls) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Chicago Accent Walls](https://chicagoaccentwalls.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Respace Walls](https://respacewalls.com/accent-walls) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Wall Haus](https://wall-haus.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Murphy Beds Pro](https://www.murphybedspro.com/tv-mounting) | Alias of Big Helpers: same3127574420 and explicit BIG Helpers identity |
+| [Express Mounting](https://expressmounting.com/chicago/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [TV Mount Company](https://tvmountcompany.com/chicago/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [TV Mount Services](https://tvmountservices.us/tv-mounting-chicago/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [WiredToWorking](https://www.wiredtoworking.com/illinois/evanston/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [FixTman](https://fixtman.com/services/tv-wall-mounting/il/wilmette) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [InstaService](https://www.instaservice.com/service-areas/illinois-wilmette/service/tv-mounting-service) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Walmart installation partners](https://www.walmart.com/store/3725-niles-il/home-theater-installation) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Geeks on Site](https://geeksonsite.com/us/illinois/chicago/tv-mounting/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Handy/Angi/HomeAdvisor](https://www.handy.com/services/mount-tv/chicago) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Maxi Mounting](https://maximounting.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Midwest TV Mounting](https://midwesttvmounting.com/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Imperia Technologies](https://www.imperia.homes/tv-install) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [iMount Services / MountMyTVToday](https://mountmytvtoday.com/lincolnwood-il/) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [Village Audio/Video](https://villageav.com/what-we-do) | Service/identity screening only; insufficient relevant organic ranking evidence in returned data |
+| [ClearView TV Mount](https://clearviewtvmount.com/) | Unresolved domain identity |
+| [Royal Home Entertainment](https://www.royalhomeentertainment.com/) | Storefront closed Oct17,2026;Chamber final note says online AV consulting/installations continue;not fully inactive |
+| [Quest Network Services](https://www.questnetworkservices.com/) | Excluded: installation organic relevance unverified |
+
+The 15 early directory-only candidates and unresolved names are screening records, not verified organic competitors; no further directory crawling was performed after the correction. A zero estimate does not establish no customers/Maps presence.
+
+**Outstanding evidence:** Chicago-controlled specialty SERPs (Frame, fireplace, premium/large TV, soundbar and commercial); suburban query demand/positions rather than coverage assumptions; GSC query-by-page cohorts for existing targets; post-release case indexation/performance; partnership eligibility. No paid scans purchased. Tool-limited discovery cannot establish every Chicagoland organic competitor or causal ranking factors.
+
+---
+
+# Historical report — preserved verbatim
+
+The following report predates this expanded organic-only comparison. Its ten-business sample, older indexing assumptions and geographic interpretations must be read with the dated corrections above.
+
 # Chicago Mounting — Local SEO and Competitor Growth Analysis
 
 **Assessment: November 11, 2026 (America/Chicago). Analysis only. Branch: seo.**
