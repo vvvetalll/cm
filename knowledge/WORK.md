@@ -1,4 +1,28 @@
 # Work — current state
+## Latest task — 2026-11-12: Case Studies alignment and original heading divider
+
+**Published:** all eleven existing integration Heading widgets now use native Elementor Style → Alignment Center; existing VIEW ALL CASE STUDIES Button widgets use native Style → Position Center, inherited at tablet/mobile. Original text, H2 tags, span.akcent markup, button design/link/hover/focus/spacing controls and automatic Loop Grid settings were retained. Copied the existing **Line_with_screw** global Divider (2005; source instance 123e8eea on Glenview) through Elementor Copy/Paste immediately after each integration heading, before its intro. Each remains a reference to the original global element; no global definition edited, unlinked or recreated. No custom CSS added, MCP-server change, new card/template or unrelated heading edit.
+
+| Page | Section | Heading | Existing all-cases button | Copied global 2005 instance |
+|---|---|---|---|---|
+| 9833 Glenview | caf3711 | 18d62d9 | 08afa6e | f0360e6 |
+| 9987 Evanston | 0b58fa9 | ab6e66e | 2655c98 | b890702 |
+| 9701 Wilmette | 2b7eb28 | 7588bb1 | 9a38689 | 867fa9c |
+| 9888 Winnetka | 98b7852 | d39cbc5 | 4fe42c4 | 511a570 |
+| 15342 Premium | 09859c0 | 8efccb7 | 60daf89 | 5489198 |
+| 11178 Outdoor | ec34ced | 1d42922 | daae269 | f352c53 |
+| 8156 Recessed | a2d7066 | b1be93d | 8f516a6 | 258dff4 |
+| 5671 Frame | 5cd2804 | a847944 | 27a968a | 84c9e55 |
+| 3398 Soundbar | d1093df | 3b8fd37 | ab009f7 | 0e4c324 |
+| 3281 Fireplace | c8436a2 | cbc7e3e | 94cd5d6 | 105ce88 |
+| 1682 General TV | 9910c05 | c5a2e0b | 7e7a964 | 8aa647c |
+
+**Verification:** actual frontend browser DOM/computed geometry on all eleven public routes at desktop CSS width 1366, tablet 768 and mobile client width 390. Every heading computes center with its accent span retained; exactly one original global-2005 divider per target section, immediately after its heading, centered with zero measured offset. All-cases button center differs from section center by about -0.008px (rounding; also -0.012px at an independently measured 1365 desktop viewport). All targets retain four rendered card links except Outdoor's expected one. Original heading/intro/grid/button order and IDs remain, with only the copied divider inserted. Stable desktop/mobile screenshots were inspected in-session, including final Winnetka desktop. No exported screenshot artifact is claimed. Emulation overrides were cleared afterward. Some mobile documents temporarily reported innerWidth 476 while clientWidth was 390; this record does not certify absence of unrelated full-page overflow or device hardware testing. Alignment assertions use rendered section/button rectangles, not editor setting alone. No filter functionality or SEO re-audit was needed or claimed.
+
+**Additional mobile CTA sizing remains BLOCKED under the requested native-only/no-CSS constraints.** Inspected shared Loop Card 15715, CTA 6ba5141c (e-paragraph, “Read case”), MCP schema and authenticated Elementor General/Style panels. It is a Paragraph with an inner anchor, not a native Button widget. Existing inline stylesheet style#loop-15715 explicitly styles .e-1468a62-ecae a: width100%, min-height52px, padding12px16px and Inter60014px/1.2, with no mobile exception. Native Paragraph styles affect its wrapper; they cannot override the anchor's explicitly assigned size/typography. Standard service Hero .btn.btn-md .elementor-button computes min-height42px, padding0px18px and Inter60013px/1.2 on mobile. This exact existing CSS is the size difference; not a missing responsive Button setting.
+
+On General TV's four inherited cards at client widths320/375/390, each CTA remains52px high and198/253/268px wide respectively; label stays one16.797px-high line, within the anchor, arrow aligned. The standard button remains42px high. These are **diagnostic observations, not a completed sizing correction**. Template15715 was not modified/published in this task; links, card design and existing hover/focus CSS remain intact. Next: owner must choose an allowed implementation path if mobile resizing is still required; do not silently add CSS, substitute widgets or edit individual cards. Rollback for completed section changes: restore original native heading/button alignment and remove only the eleven listed global instances; never edit global2005 or reapply noindex.
+
 ## Planned — 2026-11-12: WooCommerce catalogue performance and bot protection investigation
 
 Owner requested next-day investigation of WooCommerce used mainly as catalogue. **Not started**; GitHub Issue [#1](https://github.com/vvvetalll/cm/issues/1) is the execution checklist. Audit real WooCommerce features and Elementor/Filter Everything PRO dependencies, unnecessary frontend assets/AJAX/background tasks across non-shop pages, WP Rocket facet preload/cache, Cloudflare bot/WAF events, hosting load, and catalogue SEO; establish baselines and root causes before proposing minimal native-setting improvements. Preserve security, shop/filter/quote behavior and existing approved index policy. No custom code, new plugin, architectural change or production configuration edit without specific approval per AGENTS.md. Existing Cloudflare home-IP Allow remains unchanged. Result for this checkpoint: task created/documented only; **no website/API tests or production modifications**. Next: carry out Issue #1 with authorized live access, document evidence and tests.
