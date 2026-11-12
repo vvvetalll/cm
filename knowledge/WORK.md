@@ -1,4 +1,8 @@
 # Work — current state
+## Planned — 2026-11-12: WooCommerce catalogue performance and bot protection investigation
+
+Owner requested next-day investigation of WooCommerce used mainly as catalogue. **Not started**; GitHub Issue [#1](https://github.com/vvvetalll/cm/issues/1) is the execution checklist. Audit real WooCommerce features and Elementor/Filter Everything PRO dependencies, unnecessary frontend assets/AJAX/background tasks across non-shop pages, WP Rocket facet preload/cache, Cloudflare bot/WAF events, hosting load, and catalogue SEO; establish baselines and root causes before proposing minimal native-setting improvements. Preserve security, shop/filter/quote behavior and existing approved index policy. No custom code, new plugin, architectural change or production configuration edit without specific approval per AGENTS.md. Existing Cloudflare home-IP Allow remains unchanged. Result for this checkpoint: task created/documented only; **no website/API tests or production modifications**. Next: carry out Issue #1 with authorized live access, document evidence and tests.
+
 ## Latest checkpoint — 2026-11-11: Read-only SEO audit completed; filter crawl clarified
 
 Owner clarified Screaming Frog's duplicate catalogue title applies to four supplied filtered catalogue routes, not the16canonical cases. Fresh anonymous verification of all11single city/type filters: HTTP200/noindex,follow/canonical to /case-studies/. Filtered Large/Premium page2 canonicalizes to /case-studies/2/; unfiltered page2 retains its pre-existing noindex,nofollow/self-canonical. Base catalogue remains indexable/self-canonical with its own metadata. These match documented policy; no filter URL, robots, canonical, title or production setting changed.
