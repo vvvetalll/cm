@@ -1,4 +1,20 @@
 # Work — current state
+## Completed continuation — mobile Case Card button sizing
+
+**Done; supersedes the mobile-sizing BLOCKED status below.** Owner explicitly approved changing the existing template CSS after the native-control limitation was explained. Updated only existing Loop Card15715 → Loop Item Settings → Advanced → Custom CSS through authenticated Elementor UI, then published. One mobile-only rule at the site's existing767px breakpoint targets the existing CTA anchor; no new widget, card, template, individual-card edit or redesign:
+
+```css
+@media (max-width:767px){
+  .elementor-15715 .e-1468a62-ecae a{min-height:42px;padding:0 18px;font-size:13px;line-height:1.2}
+}
+```
+
+This matches standard service-page mobile button height, typography and padding. Original width100%, flex alignment/gap, outline/border/colors, hover/focus rules, text and dynamic Post URL remain. Desktop/tablet declarations stay unchanged. The original oversized CTA used52px min-height,12px16px padding and14px type at every breakpoint.
+
+**Public rendered verification:** all four Winnetka card CTAs at client widths320/375/390 now42px high,13px/15.6px Inter600,padding0px18px; widths198/253/268px as before. Every label fits on one15.594px-high line, arrow remains aligned. At1366desktop all four retain52px height,14px/16.8px type,padding12px16px,width230px. Four original hrefs retained. Native keyboard Tab reaches the next existing card link with2px solid rgb(57,117,4) outline/3px offset. Original hover and focus CSS not edited. Screenshots inspected at320/375/390 and catalogue390; temporary device emulation cleared.
+
+Confirmed central inheritance at390 on all11integration routes listed below:4CTAs each exceptOutdoor1, all42px/13px. Catalogue /case-studies/ first page's8CTAs also42px/13px. Public inline style#loop-15715 contains the saved rule; Elementor Publish returns disabled after save. No full filter re-test, device-hardware or unrelated overflow certification claimed. Existing heading/button centering and Line_with_screw work remains intact; it was not edited again. Targeted undo: remove only this media rule from15715 existing Custom CSS and Publish. No remaining mobile-button sizing task.
+
 ## Latest task — 2026-11-12: Case Studies alignment and original heading divider
 
 **Published:** all eleven existing integration Heading widgets now use native Elementor Style → Alignment Center; existing VIEW ALL CASE STUDIES Button widgets use native Style → Position Center, inherited at tablet/mobile. Original text, H2 tags, span.akcent markup, button design/link/hover/focus/spacing controls and automatic Loop Grid settings were retained. Copied the existing **Line_with_screw** global Divider (2005; source instance 123e8eea on Glenview) through Elementor Copy/Paste immediately after each integration heading, before its intro. Each remains a reference to the original global element; no global definition edited, unlinked or recreated. No custom CSS added, MCP-server change, new card/template or unrelated heading edit.
