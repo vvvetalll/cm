@@ -516,3 +516,17 @@ Owner requested analysis only, Ahrefs/GSC/GitHub plus public pages, and no local
 Material limits explicitly retained: candidate set is not a proved strongest-ten ranking;GSC table totals301/319do not reconcile to history803/815;query/refdomain lists effectively capped100;US estimates are not Chicago traffic;generic near-me results not fixed-location rankings;link-intersect doc endpoint reports tool not found,fallback source-domain reads used;exact source pages mostly unavailable;no freshGA4/lead validation;catalogue fetch internal error not interpreted as site outage. CM batch134visits/28keywords/DR2.3 differs from detailed26keyword rows. Latest default AGENTS November11public case release supersedes oldseo-branch noindex/integration holds;current city/Frame case links observed. No site,profile,tracking,plugin/code or default-branch changes. No credentials or raw private exports saved.
 
 Delivered evidence and bounded recommendations;full strongest-ten overlap universe,complete reconciledGSCextract,all-source-page backlink validation and current case technical/lead certification remain unresolved. Next implementation only upon authorization;do not recreate existing pages/modules or rerun completed BrightLocal work. Remote content readback verifies report persistence.
+
+
+## 2026-11-12 — Expanded Chicago organic competitor analysis (seo branch)
+
+Completed organic-only scope correction and expanded knowledge/SEO-REPORT.md with ranking-supported comparison, organic SERP URLs/dates, shared-keyword positions, commercial gaps, relevant pages, scoped US metrics, qualified backlink sources and prioritized existing-page/Case Studies actions. Preserved the entire prior report verbatim below the new section.
+
+Retained 19 verified ranking-supported company targets: six local TV specialists, nine adjacent Chicago AV/theater/design companies, four national/multi-market providers. Yelp/Thumbtack/Reddit are three separate SERP platforms. Exact returned overlap with CM: ten companies. Broader screening: 112 formal records, 86 competitor Ahrefs targets (aliases/rejected contexts included, not business count). No additional directory expansion after scope correction.
+
+Actual organic SERPs added Elite, Matrix and TV Mount Master. Chicago TV Installer ranks 2 versus CM 5 for “chicago tv installation”; Same Day ranks 2/3 versus CM 7/11 for two generic commercial terms. Davis/Hooked Up/Elite rank 2/3/4 for Chicago theater installation. US national traffic, generic near-me ranks and Chicago-explicit query cohorts are explicitly separated. The Frame near-me SERP returned Wichita context: CM 11 is not a verified Chicago rank.
+
+Default branch verified as claude/chicago-mounting-zip-review-szeoup; current release documentation records the November 11 public case system (16 cases, eleven dynamic modules). No rebuild/noindex/new-city-page recommendation. Primary actions concern existing same-day/homepage/commercial intent and verified case proof.
+
+Limits: organic SERP requests through position 30 returned limited/empty rows; no dependable public-search pagination; specialty Chicago results unavailable; model/endpoint differences and old observation dates preserved. Existing GSC/BrightLocal research reused; no paid scans. No claim of all Chicagoland competitors. Next: qualified existing-page query cohorts, Chicago-controlled specialty evidence, case indexation/performance and real partnership eligibility. No website/WordPress/Elementor/GBP/Cloudflare/tracking changes or local file access.
+
