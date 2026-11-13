@@ -1,4 +1,10 @@
 # Chicago Mounting — project knowledge
+## GSC indexing and native Schema access — 2026-11-13 continuation
+
+Whole-site GSC audit covers96unique current sitemap URLs plus171knownURL register and33individualInspections.11accepted indexing requests(catalogue+10cases), twoquota-rejected, othereligible requests held after quota; request≠Indexed. One newFrameProcase alreadyIndexed. Existing sitemap.xml resubmission confirmed; index rereadNov13/discovered81, post-child reread33 not verified. No production SEO policy edits. [Existing SEO report/register](SEO-REPORT.md).
+
+Product11217 AIOSEO “blank” panel was a collapsed native metabox, now expanded/persisted. Unsaved manual199USD Product pilot prepared/discarded; emptyAvailability available, unverified default audience/empty-group serialization remains a pilot gate. Shop conditional canonical not natively solved; no partialredirect. Chips focus clipping is innerUL ownoverflow; no native innerstylecontrol, noCSS/layoutwrite. [Woo audit§14–15](../docs/WOOCOMMERCE-AUDIT-2026-11-13.md). These findings supersede older unresolved metabox notes below.
+
 ## Catalogue SEO proposal — 2026-11-13
 
 Owner confirmed Starting at prices are confirmed prices of specific products. Product schema missing24/24; proposed bounded11217 Product+Offer199USD pilot, not a global schema switch, no unverified stock/reviews. Fresh TVfacet Page2 serverHTML has noindex,follow: supersedes earlier DOM-only missing-noindex inference. Normal Shop Page2 canonical-to-Page1 and duplicate route remain a separate scoped-native proposal. No SEO production changes. [Audit§13](../docs/WOOCOMMERCE-AUDIT-2026-11-13.md).

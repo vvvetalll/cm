@@ -1,0 +1,89 @@
+Schema Generator
+Templates
+AI Schema
+Custom
+Validate
+Schema Catalog
+Product
+Autogenerate Fields
+No
+Yes
+Disable this setting if you'd like to edit all fields manually instead of letting AIOSEO automatically generate them for you based on the product data from WooCommerce.
+Name
+Post Title
+Separator
+Site Title
+😀
+View all tags →
+
+Sanus Outdoor Tilt Mount
+
+Description
+Post Excerpt
+Separator
+Site Title
+😀
+View all tags →
+
+Fits 37" to 95" TVs. Premium outdoor tilt wall mount with weather-resistant construction for secure installations. Contact us for pricing and professional installation.
+
+Brand
+Image
+Upload or Select Image
+Minimum size: 112px x 112px, The image must be in JPG, PNG, GIF, SVG, or WEBP format.
+Identifiers
+SKU
+GTIN
+MPN
+ISBN
+Offer
+Price
+Currency
+US Dollar
+Price Valid Until
+The date until this pricing lasts (optional).
+Availability
+Type to search...
+Attributes
+Material
+Color
+Pattern
+The pattern of the product, such as "polka dots" or "striped", if applicable.
+Size
+A human readable name for the size, such as "XL", if applicable. Do not enter the dimensions of the product.
+EU Energy Rating
+N/A
+Audience
+Gender
+Unisex
+Minimum Age
+Type to search...
+Maximum Age
+Type to search...
+Reviews
+Add Another Review
+Review 1
+Rating
+Headline
+Content
+Author
+Add Another Review
+Review Rating
+Rating Minimum
+Rating Maximum
+Shipping Destinations
+Add Another Shipping Destination
+Shipping Destination 1
+Country
+Type to search...
+States
+Type to enter a state...
+Enter one or multiple ISO 3166-2 subdivision codes for the states that you ship to. Currently, Google only supports the US, Australia, and Japan. Examples: "NY" (for US, state of New York), "NSW" (for Australia, state of New South Wales), or "03" (for Japan, Iwate prefecture).
+Postal Code
+Type to search...
+You can enter one or multiple postal codes here if you only ship to certain parts of the country or if this rate only applies to specific postal codes. You cannot combine this together with states.
+Price
+Enter "0" if you offer free shipping to this destination.
+Add Another Shipping Destination
+Back to Schema Catalog
+Save Schema as TemplateAdd Schema

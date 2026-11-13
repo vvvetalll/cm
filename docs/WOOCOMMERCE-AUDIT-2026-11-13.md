@@ -488,3 +488,63 @@ These are fresh HTTP/native/browser observations, not search-engine indexing pro
 - [Google pagination](https://developers.google.com/search/docs/specialty/ecommerce/pagination-and-incremental-page-loading): distinct pages should have distinct canonicals; normal Page2 is not a duplicate of Page1.
 - [AIOSEO global pagination robots](https://aioseo.com/docs/setting-noindex-and-nofollow-on-paginated-content/): global scope is why no broad switch is proposed.
 - [Filter Everything SEO settings](https://filtereverything.pro/resources/seo-settings/), [Redirection URL matching](https://redirection.me/support/matching-a-url/): native scope and exact query handling.
+
+## 14. Continuation from 1240c5f — native Schema access, pilot preparation and clipping
+
+### Corrected diagnosis and actual change
+
+Product11217's AIOSEO application was already rendered inside a **collapsed WordPress metabox**: `#aioseo-settings.postbox.closed`, handle `aria-expanded=false`. Native **Show or hide panel** immediately exposed the working AIOSEO interface. After a full reload the metabox remained open (`postbox`, expanded=true). No captured console errors accompanied this observation. This supersedes §13's unresolved “blank metabox” finding: the demonstrated cause was saved admin-panel collapse state, not a demonstrated AIOSEO load/REST/Cloudflare failure.
+
+Only the admin user's panel-open preference changed. No product Update, AIOSEO Add Schema/Save Template, global schema, indexing, canonical, robots, sitemap, Cloudflare, plugin source or cache-setting save occurred. Rollback of this UI preference: collapse the same metabox; it has no public SEO effect.
+
+Existing Schema In Use before preparation and after reload: **Web Page – Item Page (Default)**. Native Validate displays the existing graph types BreadcrumbList, ItemPage, Organization, WebPage and WebSite; no Product. Existing product modified timestamp in that graph remains2026-07-25T16:17:43-05:00. The default page graph is retained.
+
+### Exact native pilot prepared, discarded without saving
+
+11217 → AIOSEO Settings → Schema → Generate Schema → Product. In the unsaved Product form, select **Autogenerate Fields: No** using its native label. Set Name `Sanus Outdoor Tilt Mount`, Brand `Sanus`, SKU `VODLT1-B2`, Image `https://chicagomounting.com/wp-content/uploads/2026/07/NS-VODLT1B2.jpg`, Offer Price `199`, Currency **US Dollar** (search native list by “dollar”; “USD” is not its option label). Existing visible short description copied exactly:
+
+> Fits 37" to 95" TVs. Premium outdoor tilt wall mount with weather-resistant construction for secure installations. Contact us for pricing and professional installation.
+
+Availability and Price Valid Until have a native empty selection and were left empty. GTIN/MPN/ISBN, material/color/pattern/size, ages, review fields and shipping destination fields stay unfilled. The initial shipping-price0 can be cleared in the form. Canonical/robots controls and visible product content were not edited. The generator has no separate Offer URL input; use the existing product URL as the intended output, then verify emitted JSON-LD after a separately approved pilot save.
+
+**Remaining native limitations, not assumed resolved:** Gender defaults to Unisex and its offered list contains Male/Female/Unisex without a visible blank option; selecting its existing value did not clear it. Empty review/shipping groups and rating-scale defaults1/5 also exist. Native Validate shows the existing saved graph, not the unadded Product form, so omission/serialization of these unused defaults and empty availability has **not** been proved. Do not claim the final Product+Offer output has been validated, or publish unverified audience/shipping/review data. [AIOSEO's supported workflow](https://aioseo.com/docs/setting-product-schema-markup-in-your-content/) identifies Add Schema as the save action; it was not clicked to experiment around the approval boundary. Final schema output verification remains a pilot acceptance gate. No automatic Woo import enabled.
+
+The form was closed, product reloaded, and only Web Page – Item Page remained. Evidence: `AIOSEO-PILOT-2026-11-13-fields.json`, native.txt, unsaved/restored screenshots and existing-graph.json. These describe an **unsaved proposal**, not a published Product node. Future approved pilot rollback: delete only its added Product entry, retain original default page graph, save/read back and refresh native cache; global24-product defaults unchanged.
+
+### Shop-only canonical investigation
+
+Native Shop Page10263 → AIOSEO Advanced exposes one **static Canonical URL** text input, currently blank, and default Robots Meta/Breadcrumbs. No per-URL condition or e-page mapping is exposed there. A static Page2 canonical at this object would also apply to Page1 and is rejected. Global pagination/cleanup switches are not a verified Shop-only solution. No canonical/redirect was saved.
+
+§13's paired end-state proposal remains: keep16-item Page1 self-canonical; make only ordinary eight-item `?e-page-19cf30b=2` self-canonical; then exact-empty-query301 `/shop/page/2/` to that URL. Facets, other query combinations, products, categories and Cases excluded. **Not implementation-ready:** no complete supported native conditional mapping verified. No partial redirect, global workaround or custom PHP implemented. A supported scoped integration or separately approved minimal implementation must be resolved before any SEO save. Native live pagination still works16+8; TV17 still16+1 with noindex,follow on the fresh Page2 document.
+
+### Exact focus clipping ancestor and native limitation
+
+Fresh anonymous keyboard testing locates the clipping at the **inner `ul.wpc-filter-chips-list.wpc-filter-chips-10596-2.wpc-filter-chips-10596`** inside Chips778063b, not archive container6b4fa01. Desktop computed overflow-x:auto, overflow-y:clip, padding0; its top/left coincide with Reset anchor. Link outline remains2px solid rgb(41,43,38), author offset3px (computed2.66667px). Other inspected ancestors through1152497 are overflow-visible. This clips the outer ring's top/left. Mobile390 repeats the clipping without horizontal page overflow.
+
+Native Chips Content has Title/Set IDs10596/Show on mobile; no Style tab or inner-UL overflow/padding control. Elementor Advanced padding belongs to the outer widget and moves the UL and anchor together; changing ancestor overflow cannot remove the UL's own clipping. Shared theme CSS contains the approved scoped focus rule but no existing chips-list owner rule to minimally correct. Consequently **no layout or CSS was changed**: native controls inspected do not address the actual inner clipping source. Preserve approved outline and plugin mobile scrolling. A potential separately approved shared-style.css solution is scoped inner-UL padding5px; its desktop/mobile geometry and wrapping would require testing before acceptance. It is not applied or asserted visually safe. No vendor source edit or widget CSS.
+
+Fresh desktop/mobile checks: all five filters yield Audio3/Samsung8/OLED3/Tilt3/Soundbar3 and visible working Reset; keyboard Enter clears OLED to Shop16/checked0. Mobile individual OLED chip click clears to16/checked0. Individual chip remains the plugin's existing span-based control; this task does not claim a new keyboard-removal capability. Mobile TV Page2 has the remaining1 TV and noindex,follow/base canonical in the fresh document head; the earlier response-HTML proof is recorded in §13. Normal Page2 has8 distinct products; no overlap with Page1. Evidence in regression.json and CHIPS-CLIPPING desktop/mobile JSONs/screenshots. No CPU/speed claim, new CSS, template, plugin or change to preserved P1/security/Case policies.
+
+Exact **unapplied** focus follow-up candidate, existing active theme `wp-content/themes/chicagomounting/style.css` after the approved focus block; separate owner approval required:
+
+```css
+.elementor-10276 .elementor-element-778063b .wpc-filter-chips-list {
+  padding: 5px;
+}
+```
+
+It would provide space inside the clipping box for the existing2px/3px outline while retaining the list's scroll behavior. Risk: list height/available chip width and wrapping change; desktop/mobile testing is required before asserting success. Native widget padding cannot achieve the same inner inset. Vendor source is protected, and no existing shared theme chips-list rule owns this padding, so this is a justified proposed scoped rule rather than an implemented correction. Rollback any later approved implementation by removing only this block and refreshing native CSS/cache; retain original focus rule.
+
+REQUEST10937 showed4fields on desktop/mobile; product11217 remained199USD/SKU VODLT1-B2/selfcanonical/zeroProduct nodes/zeroattribution-scriptreferences. Quote calculator controls accessible; Jobber5890 loaded11textboxes from Shop and a fresh Quote retest at desktop/mobile. An initial Quote booking popup stayed empty with a CostCalculator getNonce/toString console error; persistent failure was not reproduced. No form/booking submission or complete calculator delivery assertion. Rocket five exclusion lines and Woo Attributionfalse freshly read back unchanged. No cache purge was needed for a public change because no public configuration was changed.
+
+## 15. Whole-site Google indexing continuation
+
+The owner expanded GSC scope to all valuable Chicago Mounting pages. This is indexing work continuing the existing audit, not a restart of general WooCommerce/security/performance diagnosis. [Existing SEO report detailed findings](../knowledge/SEO-REPORT.md), [96-current-URL status/action register](GSC-2026-11-13-url-ledger.md), [171-known-URL CSV](GSC-2026-11-13-url-ledger.csv).
+
+Native Pages report displayed77Indexed/77excluded/updateNov8; all examples read across7 populated reasons. Five current sitemaps97entries/96unique (duplicate /blog/ entry across two maps),24products/3categories preserved. Anonymous check95direct200/indexable/selfcanonical, oneBose→Brands redirect.33individualInspections cover all25eligible URLs absent from report examples plus7keyhome/service/citycontrols and one technicalbrand. Current sitemap register:71Indexed,15unknown,2Discovered,7Crawled-not-indexed,1redirect; mixed evidence dates explicit, not a refreshed GSC aggregate. New16cases:1alreadyIndexed,10acceptedrequest,2quota-rejected,3notattemptedafterquota. Catalogue request alsoaccepted.
+
+Exactly11native **Indexing requested / priority crawl queue** confirmations; nexttwo **Quota Exceeded** with retrytomorrow text. Further11eligibleURLrequests not attempted after quota (3cases,2products,6articles); no noindex/facet/redirect/technicalrequests. Accepted is not Indexed. Two products/fivearticles show successful Googlebot smartphone fetch/allowedindexing/selfcanonical in their last recorded crawls; exact Google exclusion reason unknown, no demonstrated technicalblock. Newcase discovery/sitemapchildprocessing incomplete, not proof of WAFblocking. Samsungbrand remainsreport/InspectionIndexed fromSep26 while recordedcurrentAIOSEOtaxonomynoindexpolicy is retained; no request or broadallowlist.
+
+One authorized resubmission of unchanged existing sitemap.xml because Googlepostchildsnapshot17/Nov9 predates current33/new16cases. NativeSuccess confirmed; reloadsubmittedNov13/indexlastreadNov13/discovered81. Newpostchildreread33 notverified. No XMLgenerationpolicychange. Propose separately excluding only /bose-wall-mounting/ redirectsource frompage-sitemap; exactnativeobject/control approvalgate remains, no save. No partialShopcanonical/redirect or security/indexingpolicychange.
+
+Rollback: no public SEOconfiguration torestore; metaboxcollapse onlyUIpreference. No normal withdrawal/backdating of accepted GSCrequests/resubmission observed; do notuseRemovals/deletevalidsitemap asrollback. Nextafterdailyreset: re-inspect/retryfivecases thenproducts/articles; verifyacceptedURLslater andpostchildreread. No universalGooglebotaccess/indexing/ranking/CPUclaim. Evidence/requeststatus/limitations in existingSEOreport andcompanionfiles; Issue1/WORK/CHANGELOGupdated withcommit/pushreadback.

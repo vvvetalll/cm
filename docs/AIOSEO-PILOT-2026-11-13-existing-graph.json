@@ -1,0 +1,164 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/#breadcrumblist",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@id": "https://chicagomounting.com/#listItem",
+          "@type": "ListItem",
+          "item": "https://chicagomounting.com/",
+          "name": "Home",
+          "nextItem": {
+            "@id": "https://chicagomounting.com/shop/#listItem",
+            "@type": "ListItem",
+            "name": "Shop"
+          },
+          "position": 1
+        },
+        {
+          "@id": "https://chicagomounting.com/shop/#listItem",
+          "@type": "ListItem",
+          "item": "https://chicagomounting.com/shop/",
+          "name": "Shop",
+          "nextItem": {
+            "@id": "https://chicagomounting.com/brand/sanus/#listItem",
+            "@type": "ListItem",
+            "name": "Sanus"
+          },
+          "position": 2,
+          "previousItem": {
+            "@id": "https://chicagomounting.com/#listItem",
+            "@type": "ListItem",
+            "name": "Home"
+          }
+        },
+        {
+          "@id": "https://chicagomounting.com/brand/sanus/#listItem",
+          "@type": "ListItem",
+          "item": "https://chicagomounting.com/brand/sanus/",
+          "name": "Sanus",
+          "nextItem": {
+            "@id": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/#listItem",
+            "@type": "ListItem",
+            "name": "Sanus Outdoor Tilt Mount"
+          },
+          "position": 3,
+          "previousItem": {
+            "@id": "https://chicagomounting.com/shop/#listItem",
+            "@type": "ListItem",
+            "name": "Shop"
+          }
+        },
+        {
+          "@id": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/#listItem",
+          "@type": "ListItem",
+          "name": "Sanus Outdoor Tilt Mount",
+          "position": 4,
+          "previousItem": {
+            "@id": "https://chicagomounting.com/brand/sanus/#listItem",
+            "@type": "ListItem",
+            "name": "Sanus"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/#itempage",
+      "@type": "ItemPage",
+      "breadcrumb": {
+        "@id": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/#breadcrumblist"
+      },
+      "dateModified": "2026-07-25T16:17:43-05:00",
+      "datePublished": "2026-07-25T16:00:06-05:00",
+      "description": "Fits 37\" to 95\" TVs. Premium outdoor tilt wall mount with weather-resistant construction for secure installations. Contact us for pricing and professional installation.",
+      "image": {
+        "@id": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/#mainImage",
+        "@type": "ImageObject",
+        "height": 500,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/07/NS-VODLT1B2.jpg",
+        "width": 500
+      },
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://chicagomounting.com/#website"
+      },
+      "name": "Sanus Outdoor Tilt Mount | Chicago Mounting",
+      "primaryImageOfPage": {
+        "@id": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/#mainImage"
+      },
+      "url": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/"
+    },
+    {
+      "@id": "https://chicagomounting.com/#organization",
+      "@type": "Organization",
+      "description": "Chicago Mounting provides professional TV mounting and AV installation across Chicago and surrounding suburbs. We mount TVs on drywall, brick, concrete and above fireplaces, conceal wires in-wall, and install soundbars, speakers and home theater systems. Same-day appointments are often available.",
+      "email": "info@chicagomounting.com",
+      "foundingDate": "2022-01-01",
+      "image": {
+        "@id": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/#organizationLogo"
+      },
+      "logo": {
+        "@id": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/#organizationLogo",
+        "@type": "ImageObject",
+        "caption": "Chicago Mounting logo",
+        "height": 50,
+        "url": "https://chicagomounting.com/wp-content/uploads/2025/05/cm_logo.webp",
+        "width": 133
+      },
+      "name": "Chicago Mounting",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "maxValue": 5,
+        "minValue": 2
+      },
+      "sameAs": [
+        "https://www.instagram.com/chicagomounting/",
+        "https://www.tiktok.com/@chicagomounting",
+        "https://www.youtube.com/@ChicagoMounting",
+        "https://www.yelp.com/biz/chicago-mounting-chicago"
+      ],
+      "telephone": "+12245198272",
+      "url": "https://chicagomounting.com/"
+    },
+    {
+      "@id": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/#webpage",
+      "@type": "WebPage",
+      "breadcrumb": {
+        "@id": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/#breadcrumblist"
+      },
+      "dateModified": "2026-07-25T16:17:43-05:00",
+      "datePublished": "2026-07-25T16:00:06-05:00",
+      "description": "Fits 37\" to 95\" TVs. Premium outdoor tilt wall mount with weather-resistant construction for secure installations. Contact us for pricing and professional installation.",
+      "image": {
+        "@id": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/#mainImage",
+        "@type": "ImageObject",
+        "height": 500,
+        "url": "https://chicagomounting.com/wp-content/uploads/2026/07/NS-VODLT1B2.jpg",
+        "width": 500
+      },
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://chicagomounting.com/#website"
+      },
+      "name": "Sanus Outdoor Tilt Mount | Chicago Mounting",
+      "primaryImageOfPage": {
+        "@id": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/#mainImage"
+      },
+      "url": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/"
+    },
+    {
+      "@id": "https://chicagomounting.com/#website",
+      "@type": "WebSite",
+      "alternateName": "ChicagoMounting.com",
+      "description": "TV Mounting & AV Installation in Chicago",
+      "inLanguage": "en-US",
+      "name": "Chicago Mounting",
+      "publisher": {
+        "@id": "https://chicagomounting.com/#organization"
+      },
+      "url": "https://chicagomounting.com/"
+    }
+  ]
+}

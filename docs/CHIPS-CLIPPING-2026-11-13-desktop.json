@@ -1,0 +1,13 @@
+{
+  "active": "Reset all×",
+  "cards": 3,
+  "focusVisible": true,
+  "list": {
+    "class": "wpc-filter-chips-list wpc-filter-chips-10596-2 wpc-filter-chips-10596",
+    "overflowX": "auto",
+    "overflowY": "clip",
+    "padding": "0px"
+  },
+  "offset": "2.66667px",
+  "outline": "rgb(41, 43, 38) solid 2px"
+}

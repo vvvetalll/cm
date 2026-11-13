@@ -1,0 +1,24 @@
+Add a new sitemap
+Enter sitemap URL
+SUBMIT
+Submitted sitemaps
+
+Sitemap
+	Type
+	Submitted
+	Last read
+	Status
+
+Discovered pages
+Discovered videos
+https://chicagomounting.com/sitemap.xml	Sitemap index	Nov 13, 2026	Nov 13, 2026	Success	81	0	
+Rows per page:
+5
+10
+25
+50
+100
+250
+500
+1-1 of 1
+

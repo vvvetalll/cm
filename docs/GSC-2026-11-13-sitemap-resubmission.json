@@ -1,0 +1,16 @@
+{
+  "url": "https://chicagomounting.com/sitemap.xml",
+  "before": {
+    "submitted": "2025-06-09",
+    "lastRead": "2026-11-12",
+    "discovered": 81,
+    "postChildLastRead": "2026-11-09",
+    "postChildDiscovered": 17
+  },
+  "confirmation": "check_circle\nSitemap submitted successfully\nGoogle will periodically process it and look for changes. You will be notified if anything goes wrong with it in the future.\nDismiss",
+  "reason": "Current post sitemap has33 URLs; Google child snapshot17 predates16 Case Studies launch",
+  "indexLastReadAfter": "2026-11-13",
+  "discoveredAfter": 81,
+  "postChildReprocessingVerified": false,
+  "afterEvidence": "GSC-2026-11-13-sitemap-after.txt"
+}

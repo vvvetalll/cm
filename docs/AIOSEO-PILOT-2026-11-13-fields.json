@@ -1,0 +1,276 @@
+{
+  "status": "UNSAVED; Add Schema and Update not clicked",
+  "fields": [
+    {
+      "inputs": [
+        {
+          "checked": true,
+          "type": "radio",
+          "value": "on"
+        },
+        {
+          "checked": false,
+          "type": "radio",
+          "value": "on"
+        }
+      ],
+      "label": "Autogenerate Fields",
+      "selected": []
+    },
+    {
+      "inputs": [],
+      "label": "Name",
+      "selected": [
+        "Sanus Outdoor Tilt Mount"
+      ]
+    },
+    {
+      "inputs": [],
+      "label": "Description",
+      "selected": [
+        "Fits 37\" to 95\" TVs. Premium outdoor tilt wall mount with weather-resistant construction for secure installations. Contact us for pricing and professional installation."
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "type": "text",
+          "value": "Sanus"
+        }
+      ],
+      "label": "Brand",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "text",
+          "value": "https://chicagomounting.com/wp-content/uploads/2026/07/NS-VODLT1B2.jpg"
+        }
+      ],
+      "label": "Image",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "text",
+          "value": "VODLT1-B2"
+        }
+      ],
+      "label": "SKU",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "text",
+          "value": ""
+        }
+      ],
+      "label": "GTIN",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "text",
+          "value": ""
+        }
+      ],
+      "label": "MPN",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "text",
+          "value": ""
+        }
+      ],
+      "label": "ISBN",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "number",
+          "value": "199"
+        }
+      ],
+      "label": "Price",
+      "selected": []
+    },
+    {
+      "inputs": [],
+      "label": "Currency",
+      "selected": [
+        "US Dollar"
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "type": "text",
+          "value": ""
+        }
+      ],
+      "label": "Price Valid Until",
+      "selected": []
+    },
+    {
+      "inputs": [],
+      "label": "Availability",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "text",
+          "value": ""
+        }
+      ],
+      "label": "Material",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "text",
+          "value": ""
+        }
+      ],
+      "label": "Color",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "text",
+          "value": ""
+        }
+      ],
+      "label": "Pattern",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "text",
+          "value": ""
+        }
+      ],
+      "label": "Size",
+      "selected": []
+    },
+    {
+      "inputs": [],
+      "label": "EU Energy Rating",
+      "selected": [
+        "N/A"
+      ]
+    },
+    {
+      "inputs": [],
+      "label": "Gender",
+      "selected": [
+        "Unisex"
+      ]
+    },
+    {
+      "inputs": [],
+      "label": "Minimum Age",
+      "selected": []
+    },
+    {
+      "inputs": [],
+      "label": "Maximum Age",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "number",
+          "value": ""
+        }
+      ],
+      "label": "Rating",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "text",
+          "value": ""
+        }
+      ],
+      "label": "Headline",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "textarea",
+          "value": ""
+        }
+      ],
+      "label": "Content",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "text",
+          "value": ""
+        }
+      ],
+      "label": "Author",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "number",
+          "value": "1"
+        }
+      ],
+      "label": "Rating Minimum",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "number",
+          "value": "5"
+        }
+      ],
+      "label": "Rating Maximum",
+      "selected": []
+    },
+    {
+      "inputs": [],
+      "label": "Country",
+      "selected": []
+    },
+    {
+      "inputs": [],
+      "label": "States",
+      "selected": []
+    },
+    {
+      "inputs": [],
+      "label": "Postal Code",
+      "selected": []
+    },
+    {
+      "inputs": [
+        {
+          "type": "number",
+          "value": ""
+        }
+      ],
+      "label": "Price",
+      "selected": []
+    }
+  ]
+}

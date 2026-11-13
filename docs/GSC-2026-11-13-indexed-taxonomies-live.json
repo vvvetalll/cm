@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://chicagomounting.com/brand/lg/",
+    "status": 403
+  },
+  {
+    "url": "https://chicagomounting.com/brand/samsung/",
+    "status": 403
+  },
+  {
+    "url": "https://chicagomounting.com/brand/sonos/",
+    "status": 403
+  },
+  {
+    "url": "https://chicagomounting.com/product-category/uncategorized/",
+    "status": 403
+  },
+  {
+    "url": "https://chicagomounting.com/product-tag/samsung_top/",
+    "status": 403
+  },
+  {
+    "url": "https://chicagomounting.com/product-tag/top/",
+    "status": 403
+  },
+  {
+    "url": "https://chicagomounting.com/product-tag/tv_top/",
+    "status": 403
+  }
+]

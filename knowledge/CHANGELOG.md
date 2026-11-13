@@ -1,5 +1,15 @@
 # Project work log
 
+## 2026-11-13 — Site-wide GSC indexing and native Product pilot preparation
+
+Request: continue1240c5f/Issue1; diagnose11217Schema, prepare unpublished199USDpilot, investigate scopedpaginationcanonical/focus; expand GSC to entire site and submit eligible missing URLs where permitted.
+
+Actual changes: expanded saved native AIOSEO metabox UI preference only; no Product Add Schema/Update or public settings save. GSC confirmed11RequestIndexing actions(catalogue+10cases); nexttwo rejectedQuotaExceeded, furtherrequests stopped. Existing sitemap.xml resubmitted once after verified post-child17vs33discovery lag; nativeSuccess and updatedNov13submission/indexreread saved,81discovered remains. No XML generation/index/canonical/robots/Cloudflare/CSS/Case policy changes.
+
+Verification:96uniqueXMLURLs fetched(95direct200/selfcanonical/indexable, Bose redirectsBrands);77indexed+77excluded report examples;33individualInspections including all25eligible absent from examples. Reconciled71Indexed/15unknown/2Discovered/7Crawled-not-indexed/1redirect, with source dates. One newcase alreadyIndexed; no request. Full171URLCSV/96URLreadableledger, request/quota/submission screenshots and evidence committed. Native schema collapse cause corrected; pilot manualfields captured, emptyavailability supported, saveddefault unchanged afterreload. Generator unusedUnisex/review/shipping serialization and nativeShop-onlycanonical remain unverified. InnerUL ownsfocusclipping; no nativecontrol/codechange. Fivefilters/Reset desktop+mobile,Shop16+8,TV16+1,individualchip,Sanus/REQUEST/Quote/Jobberaccess retested;Rocketfiveexclusions/AttributionOff readbackunchanged. InitialemptyQuoteJobber/CostCalculatorerror not reproduced onfreshShop/Quoteretest; noformsubmissions orperformanceclaims.
+
+Rollback/limits: collapse metabox torestoreUIpreference; schema remainsunsaved. GSCacceptedrequests/resubmission lack observednormalwithdraw/backdatecontrol; do notdeleteworkingsitemap/useRemovals asrollback. Afterquotaresetretryfivecases,thenproducts/articles, recheckacceptedURLslater. Bose sitemap-onlyexclusion and boundedfocusCSS remain proposalsrequiringapproval; no partialcanonicalfix. ExistingSEOreport/Wooaudit/WORK/PROJECTupdated; finalcommit/push/Issue1readbackverifiedbeforefinaldelivery.
+
 ## 2026-10-26 — Shorts metadata and geo review
 Request: update Shorts using the prior format, identify missing city coverage, reach two real geo Shorts per city, then place appropriate videos on the website.
 Completed: three newest Shorts metadata saved; Wilmette xvrjoKvFsw8 localized based on Studio location; all 52 titles reviewed; generic candidates screened for location.

@@ -1,0 +1,42 @@
+{
+  "productId": 11217,
+  "diagnosis": "Collapsed WordPress AIOSEO metabox, not a demonstrated loading failure",
+  "before": {
+    "selector": "#aioseo-settings",
+    "classIncludesClosed": true,
+    "handleAriaExpanded": "false",
+    "aioseoAppRenderedInside": true
+  },
+  "nativeAction": "Show or hide panel; no product Update or Schema Add action",
+  "afterReload": {
+    "classIncludesClosed": false,
+    "handleAriaExpanded": "true",
+    "schemaInUse": "Web Page - Item Page (Default)"
+  },
+  "consoleErrorsObservedDuringInitialDiagnosis": [],
+  "schemaPublished": false,
+  "productSaved": false,
+  "globalSeoSaved": false,
+  "rollback": "Collapse the same metabox to restore the admin UI preference",
+  "chipsReadOnlyMcp": {
+    "postId": 10276,
+    "elementId": "778063b",
+    "isError": false,
+    "tree": {
+      "elements": [
+        {
+          "id": "778063b",
+          "elType": "widget",
+          "widgetType": "filter-everything-chips",
+          "title": "Chips",
+          "interactions": [],
+          "settings": {},
+          "styles": {
+            "css": ""
+          }
+        }
+      ]
+    },
+    "limitation": "Legacy widget settings/styles are not exposed by this lean tree; native UI supplied Content/Advanced controls. No MCP write."
+  }
+}

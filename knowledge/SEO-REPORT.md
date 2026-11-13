@@ -1,4 +1,80 @@
 # SEO-звіт — точка продовження
+## 2026-11-13 — Site-wide GSC indexing audit and confirmed requests
+
+Continuation from1240c5f and Issue#1; expanded from Case Studies to the whole current site. This supersedes the earlier “GSC coverage not obtained” limitation for the bounded evidence below, not a claim of exhaustive Google index enumeration or completed indexing. Production AIOSEO/canonicals/robots/sitemap generation/Cloudflare settings unchanged.
+
+**Evidence and URL register:** [96 important sitemap URLs, individual statuses/actions](../docs/GSC-2026-11-13-url-ledger.md), [171 known URLs including technical exclusions, CSV](../docs/GSC-2026-11-13-url-ledger.csv), [33 individual Inspection records](../docs/GSC-2026-11-13-inspections.json). Source labels distinguish report examples from individual URL Inspection. Search Analytics impressions were not substituted for indexing proof.
+
+### Whole-site coverage and sitemap reconciliation
+
+Native GSC domain property chicagomounting.com → Pages / All known pages, displayed last update **2026-11-08**:77 indexed,77 not indexed. All77 indexed examples and all77 exclusion examples across the seven populated reasons were read (including pagination of the tables).
+
+| GSC reason | URLs | Interpretation / actual examples |
+|---|---:|---|
+| Indexed |77|Historical report examples; individual Inspection can be newer |
+| Excluded by noindex |31|Brands, product tags, feeds, date archives, cart and some facet routes; no requests |
+| Page with redirect |24|www/home variants and legacy routes, including /bose-wall-mounting/; no requests |
+| Not found404 |4|/?page_id=10264, /product-category/tvs/, /product-tag/t/, /wp-*.php; not current valuable sitemap pages |
+| Other4xx |1|/wp-admin/admin-ajax.php?action=rest-nonce, a technical endpoint; not a customer landing page |
+| Blocked by robots.txt |1|/wp-admin/*, intentional technical protection |
+| Crawled — currently not indexed |15|Mix of seven valuable current URLs and technical/feed/legacy/pagination examples; inspect individually |
+| Discovered — currently not indexed |1|Terrace installation article in the dated aggregate; current individual Inspection also identifies the Case Studies catalogue as Discovered |
+| Redirect error /5xx |0/0|Shown with zero examples |
+| Indexed though blocked by robots |0|Shown with zero examples |
+| Duplicate / Alternate canonical |Not listed|No separate populated reason shown in this report. This does not establish absence of every duplicate or solve the independently verified Shop pagination duplication |
+
+Current XML sitemap index200 has five children: **post33, page36, product24, category1, product_cat3**.97 entries represent **96 unique URLs** because /blog/ appears in post and category sitemaps; this repeated identical canonical URL is not another filter combination or duplicate content URL. All96 unique URLs were fetched anonymously, max2 concurrent requests:95 return200 directly/indexable/self-canonical, while /bose-wall-mounting/ follows two301 hops (/brand/ then /brands/) and finishes200/canonicalBrands. No current sitemap page has a noindex in the fetched final HTML. All24 product URLs and all3 valuable product categories are intact. Root robots has no ordinary homepage/service/city/product/category/Case path disallow; existing /shop/product_category_filter-* and technical restrictions remain. No Cloudflare setting changed.
+
+Seventy current sitemap URLs occur in the77 indexed examples.26 are absent from those examples:16 new cases, their catalogue, six articles, two products and the Bose redirect. **All25 eligible nonredirect candidates received individual URL Inspection**; the redirect was deliberately not submitted. One missing-from-examples case, /65-inch-samsung-frame-pro-with-a-recessed-outlet/, is already **Indexed** in current Inspection; therefore absence from the older examples was not treated as proof of nonindexing. Seven further high-value Inspection checks confirmed Indexed: homepage, all four city landing pages, /services/ and /tv-installation-and-mounting/.
+
+The96-URL register consequently contains **71 Indexed,15 URL unknown to Google,2 Discovered,7 Crawled not indexed,1 redirect**.These combine dated report and fresher individual evidence; they are not a newly refreshed aggregate GSC total. Of the16 new cases:1 Indexed,15 unknown. Existing17th case remains in the indexed report examples. Other important service/landing pages, blog landing,22 products and all3 product categories are represented in indexed examples; source and crawl dates remain explicit in CSV rather than claiming individual Inspection for every page.
+
+### Requests actually accepted and daily quota
+
+Exactly **11 request confirmations** were observed: “Indexing requested” and URL added to a priority crawl queue. They cover the catalogue plus these ten case URLs (all relative to chicagomounting.com):
+
+- /case-studies/
+- /77-inch-lg-g6-installation-on-a-stone-fireplace/
+- /55-inch-samsung-oled-on-tile-with-mantelmount-max1/
+- /77-inch-lg-g6-with-a-legrand-recessed-media-box/
+- /85-inch-sony-bravia-and-sonos-arc-ultra-installation/
+- /100-inch-lg-qned-installation-with-home-audio/
+- /samsung-frame-pro-fireplace-installation-with-sonos-amp/
+- /85-inch-samsung-frame-tv-on-a-full-motion-mount/
+- /77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/
+- /85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/
+- /65-inch-samsung-oled-and-bose-soundbar-on-stone/
+
+**Not accepted:** requests for /77-inch-lg-c6-and-samsung-q990h-soundbar-installation/ and /85-inch-samsung-neo-qled-installation-evanston/ returned **Quota Exceeded**: “Sorry--we couldn't process this request because you've exceeded your daily quota. Please try submitting this again tomorrow.” No further Request Indexing attempts were made. Eleven confirmations is the observed session count, not an inferred fixed quota for every account/property. No CAPTCHA was solved, no bulk/indexing-API workaround used, no recurring automation created.
+
+After reset, prioritize those two rejected case requests and the three still-unrequested cases: /outdoor-tv-brick-installation-glenview/, /tv-wall-mounting-case-wilmette/, /samsung-frame-tv-installation-on-tile-in-winnetka/. Then the two products and six useful articles listed in the register. These11 eligible URLs were inspected but **not attempted** after the quota rejection. All indexed, intentionally noindex, filter combinations, redirects, feeds/technical archives were excluded from requests. Accepted requests remain **not indexed until later Inspection confirms otherwise**; do not submit them repeatedly.
+
+### Diagnosed exclusions and limits
+
+The two products Samsung R95H and Samsung S90H plus five articles (How high to mount, Smart device benefits, Surround sound setup, Fireplace mistakes, Wall-mounted speakers) have current Inspection status Crawled — currently not indexed. Recorded Googlebot smartphone crawls (Aug–Oct2026) show **crawl allowedYes, fetchSuccessful, indexing allowedYes, user canonical self, Google canonical Inspected URL**. Current public HTML also remains200/indexable/self-canonical. No technical indexing block is shown by this evidence. Google's exact content/selection reason is not exposed; do not call these a Cloudflare block or assert a quality diagnosis. Follow up with content distinction, contextual internal links and later recrawl evidence if exclusion persists; no production content/canonical change here.
+
+The catalogue and Terrace article are Discovered without a recorded crawl;15 new cases are unknown with no crawl/referring sitemap in Inspection. Existing sitemap membership and links are verified, but current Google discovery/processing is incomplete. Eleven native request confirmations are useful crawl requests, not proof that verified search Googlebot can bypass every security rule or that Google will index them.
+
+Seven report-indexed URLs are outside current sitemaps: brand LG/Samsung/Sonos, Uncategorized product category, and three product-tag archives (samsung_top/top/tv_top). Current AIOSEO taxonomy exclusion policy is retained. Individual Samsung-brand Inspection still says Indexed with last Googlebot smartphone crawl **2026-09-26** and then-allowed indexing; that historical state does not override today's noindex policy. Fresh scripted requests to these seven return403, so they do not establish current origin robots. Do not request indexing or add broad bot exceptions. Later verify recrawl/deindexing through trusted GSC evidence; no removal request or security change made.
+
+### Sitemap submission and exact proposed cleanup
+
+Before resubmission, native GSC showed sitemap.xml **Success**, submitted2025-06-09, last read2026-11-12,81 discovered. Its child post-sitemap was last read2026-11-09 with17URLs, while current XML has33 after the16-case launch; page36/product24/category1/product_cat3 succeeded. The connected read-only tool reported submitted397 while the native UI reported discovered81. These are differently named fields/historical snapshots, not interchangeable index counts; their discrepancy is not resolved. Use the native discovered count and actual XML for this reconciliation, not the deprecated indexed field. The connector exposes Search Analytics and Sitemaps fields but no Page Indexing reasons, URL Inspection or Request Indexing write action; those tasks used authenticated native GSC. Its history request outside30days was refused by the trial; the bounded recent request succeeded. No upgrade or account change.
+
+**Authorized action:** resubmitted the same existing **https://chicagomounting.com/sitemap.xml once**, because its post child snapshot predates the new cases. Native confirmation **Sitemap submitted successfully** observed and screenshot saved; subsequent reload shows submission dateNov13 and index last-readNov13, with81 discovered. The index reread is confirmed; **post-child reread33/new child processing is not verified**. No sitemap URL/content/generation/indexing policy changed, no technical sitemap was added.
+
+**Proposal only, requires separate owner approval and exact native object/control verification:** exclude only redirect source **https://chicagomounting.com/bose-wall-mounting/** from page-sitemap.xml through existing AIOSEO sitemap exclusions. Preserve its existing redirect, /brands/ target, canonicals, robots and all other sitemap members. Removing one redirect entry is not a recommendation for blanket noindex or robots blocking. Object ID/control and before/after XML diff must be verified before implementation. Rollback any later approved exclusion by removing only that exclusion and confirming this one entry returns. No cleanup save performed now.
+
+Existing Shop e-page2 self-canonical/legacy301 issue remains the separately held §13–14 proposal. Do not combine its unverified native mapping with GSC submission work or alter filters/Case rules.
+
+### Saved result, rollback and next action
+
+New GSC request/submission confirmations are external actions with no normal withdrawal/backdating control observed; do not use Removals or delete the working sitemap to “undo” them. No production SEO configuration requires rollback. AIOSEO access preference rollback is merely collapsing its metabox; schema Product pilot remains unsaved with native default/serialization limitations in [Woo audit§14](../docs/WOOCOMMERCE-AUDIT-2026-11-13.md).
+
+Next after quota reset: re-inspect remaining five cases, request only still-eligible unindexed ones, then products/articles. Recheck accepted URLs later without equating request with Indexed; confirm post-sitemap reread33 and monitor important-page coverage. No exact ranking, indexing date, CPU/speed gain or universal crawler-access guarantee. All33 Inspection texts,171-URL CSV,96-URL readable register, current XML lists/live HTML metadata, report examples, quota/submission screenshots and reconciliation totals saved. Downloaded text evidence has normalized line endings/trailing whitespace; production robots.txt was not edited. Live Google index cannot be exhaustively enumerated through these example lists; undetected/unlinked/unknown URLs and complete historical crawl logs remain outside verified coverage.
+
+References: [Google URL Inspection](https://support.google.com/webmasters/answer/9012289?hl=en), [Page Indexing definitions and example-list limits](https://support.google.com/webmasters/answer/7440203?hl=en). Their distinctions are why index requests, discovered, crawled-not-indexed and Indexed are recorded separately.
+
 ## 2026-11-13 — AIOSEO перевірено; попередній noindex-висновок уточнено
 
 **Прямий Document GET200** для /shop/product_category_filter-tv/?e-page-19cf30b=2 повертає в самому HTML noindex,follow/canonicalShop. Попередній DOM-only висновок про відсутній серверний noindex був надто сильним; він більше не є підставою для нової SEO-правки. AJAXPOST фільтра залишає базовий head; причина старого page2-знімка (timing/cache) не доведена. Окремі scriptedGET403 не показують origin metadata. Збережено чинні FE restrictions/robots/CF; фактичний robots уже блокує /shop/product_category_filter-*, попри вимкнений FE generated-block toggle.

@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-13",
+  "coverage_report_date": "2026-11-08",
+  "report_counts": {
+    "indexed": 77,
+    "crawled": 15,
+    "discovered": 1,
+    "noindex": 31,
+    "redirect": 24,
+    "notFound": 4,
+    "other4xx": 1,
+    "robots": 1
+  },
+  "sitemap_entries": 97,
+  "unique_sitemap_urls": 96,
+  "all_ledger_urls": 171,
+  "individual_inspections": 33,
+  "accepted_requests": 11,
+  "quota_rejected_requests": 2,
+  "current_sitemap_gsc_statuses": {
+    "Indexed": 71,
+    "URL is unknown to Google": 15,
+    "Page with redirect": 1,
+    "Discovered - currently not indexed": 2,
+    "Crawled - currently not indexed": 7
+  },
+  "current_sitemap_live_redirects": [
+    "https://chicagomounting.com/bose-wall-mounting/"
+  ]
+}

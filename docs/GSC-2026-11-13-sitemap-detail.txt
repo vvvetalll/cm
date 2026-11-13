@@ -1,0 +1,35 @@
+Last read
+11/12/26
+Total discovered pages
+81
+Total discovered videos
+0
+
+SEE PAGE INDEXING
+
+SEE VIDEO PAGE INDEXING
+
+Sitemap index processed successfully
+Sitemaps read
+
+Sitemap
+	Last read
+	Status
+
+Discovered URLs
+Discovered videos
+https://chicagomounting.com/category-sitemap.xml	Nov 6, 2026	Success	1	0	
+https://chicagomounting.com/page-sitemap.xml	Nov 12, 2026	Success	36	0	
+https://chicagomounting.com/post-sitemap.xml	Nov 9, 2026	Success	17	0	
+https://chicagomounting.com/product-sitemap.xml	Nov 9, 2026	Success	24	0	
+https://chicagomounting.com/product_cat-sitemap.xml	Nov 9, 2026	Success	3	0	
+Rows per page:
+5
+10
+25
+50
+100
+250
+500
+1-5 of 5
+

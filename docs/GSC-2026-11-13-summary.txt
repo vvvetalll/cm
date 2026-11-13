@@ -1,0 +1,104 @@
+
+Not indexed
+77
+7 reasons
+
+
+Indexed
+77
+
+Impressions
+Pages
+8/14/26
+8/31/26
+9/17/26
+10/4/26
+10/21/26
+11/7/26
+180
+120
+60
+0
+1
+1
+1
+check_circle
+View data about indexed pages
+
+info_filled
+Why pages aren’t indexed
+Pages that aren’t indexed can’t be served on Google
+
+Reason
+	Source
+
+	Validation
+	Trend
+Pages
+Excluded by ‘noindex’ tag	Website
+
+Not Started
+		31
+Page with redirect	Website
+
+Not Started
+		24
+Not found (404)	Website
+
+Not Started
+		4
+Blocked due to other 4xx issue	Website
+
+Not Started
+		1
+Blocked by robots.txt	Website
+
+Not Started
+		1
+Crawled - currently not indexed	Google systems
+
+Not Started
+		15
+Discovered - currently not indexed	Google systems
+
+Not Started
+		1
+Redirect error	Website
+N/A
+		0
+Server error (5xx)	Website
+N/A
+		0
+Rows per page:
+5
+10
+25
+50
+100
+250
+500
+1-9 of 9
+
+warning
+Improve page appearance
+Pages with these issues are indexed, but their search result appearance can be improved
+
+Reason
+	Source
+
+	Validation
+	Trend
+Pages
+Indexed, though blocked by robots.txt	Website
+N/A
+		0
+Rows per page:
+5
+10
+25
+50
+100
+250
+500
+1-1 of 1
+

@@ -1,0 +1,37 @@
+{
+  "account": "sc-domain:chicagomounting.com",
+  "discoveredTables": [
+    "Search Analytics",
+    "Sitemaps"
+  ],
+  "pageIndexingReasonsExposed": false,
+  "urlInspectionExposed": false,
+  "requestIndexingWriteActionExposed": false,
+  "nativeGscUsedForCoverageAndRequests": true,
+  "historyLimit": "Trial refused older-than-30-day request; 2026-10-15 to 2026-11-12 request succeeded",
+  "sitemapRead": {
+    "status": "done",
+    "data": [
+      {
+        "path": "https://chicagomounting.com/sitemap.xml",
+        "last_submitted": "2025-06-09T20:45:57.074Z",
+        "last_downloaded": "2026-11-12T23:59:07.310Z",
+        "errors": 0,
+        "warnings": 0,
+        "submitted": 397,
+        "is_sitemaps_index": "True"
+      },
+      {
+        "path": null,
+        "last_submitted": null,
+        "last_downloaded": null,
+        "errors": 0,
+        "warnings": 0,
+        "submitted": 0,
+        "is_sitemaps_index": null
+      }
+    ],
+    "total_rows": 2
+  },
+  "metricCaution": "Connector submitted397 and native discovered81 are differently named fields and are not treated as index counts or interchangeable totals."
+}

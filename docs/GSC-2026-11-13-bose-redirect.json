@@ -1,0 +1,16 @@
+{
+  "hops": [
+    {
+      "status": 301,
+      "from": "https://chicagomounting.com/bose-wall-mounting/",
+      "to": "https://chicagomounting.com/brand/"
+    },
+    {
+      "status": 301,
+      "from": "https://chicagomounting.com/brand/",
+      "to": "https://chicagomounting.com/brands/"
+    }
+  ],
+  "finalUrl": "https://chicagomounting.com/brands/",
+  "finalStatus": 200
+}
