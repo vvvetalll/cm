@@ -1,0 +1,394 @@
+{
+  "patterns": [
+    "/(.*)product_category_filter-(.*)",
+    "/(.*)product_brand-(.*)",
+    "/(.*)product_display_type-(.*)",
+    "/(.*)product_mount_type-(.*)",
+    "/(.*)product_audio_type-(.*)"
+  ],
+  "method": "Offline regex against real public data-wpc-link and historical observed paths; native runtime verified separately after save",
+  "realCount": 58,
+  "controlCount": 37,
+  "checks": [
+    {
+      "url": "/product-category/tv/product_brand-samsung-or-sony-or-sunbrite/product_display_type-micro-rgb-or-mini-led-or-oled-or-oled-evo/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_brand-lg-or-neptune-or-sonos/product_display_type-micro-rgb-or-oled-evo-or-qd-oled-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_brand-lg-or-sony/product_display_type-led-or-neo-qled-or-oled-or-oled-evo/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio-or-mounts-or-tv/product_brand-samsung-or-sanus-or-sonos-or-sony/product_display_type-led-or-neo-qled-or-oled-or-qd-oled-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio-or-mounts/product_brand-lg-or-neptune-or-sanus-or-sony-or-sunbrite/product_display_type-led-or-micro-rgb-or-neo-qled-or-oled-evo/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio-or-mounts/product_brand-lg-or-neptune-or-sanus-or-sunbrite/product_display_type-dled-or-micro-rgb-or-mini-led-or-neo-qled-or-oled-evo/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio-or-mounts/product_brand-neptune-or-sanus-or-sunbrite/product_display_type-dled-or-ips-led-or-led-or-micro-rgb-or-qd-oled-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio-or-mounts/product_brand-samsung-or-sanus-or-sony-or-sunbrite/product_display_type-ips-led-or-micro-rgb-or-mini-led-or-neo-qled-or-oled-or-oled-evo-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio-or-mounts/product_brand-samsung-or-sony/product_display_type-dled-or-ips-led-or-mini-led-or-neo-qled-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-neptune-or-samsung-or-sanus-or-sunbrite/product_display_type-micro-rgb-or-mini-led-or-neo-qled-or-oled-evo-or-qd-oled-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-samsung-or-sonos/product_display_type-dled-or-led-or-neo-qled-or-oled-evo-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-sanus-or-sony-or-sunbrite/product_display_type-dled-or-ips-led-or-led-or-neo-qled-or-oled-evo-or-qd-oled-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-sonos/product_display_type-dled-or-mini-led-or-neo-qled-or-oled-or-oled-evo-or-qd-oled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-sony-or-sunbrite/product_display_type-dled-or-mini-led-or-neo-qled-or-qd-oled-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-sunbrite/product_display_type-dled-or-ips-led-or-mini-led-or-oled-or-oled-evo-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio/product_brand-lg-or-neptune-or-samsung-or-sanus-or-sony/product_display_type-led-or-micro-rgb-or-neo-qled-or-oled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio/product_brand-lg-or-neptune-or-samsung-or-sanus-or-sunbrite/product_display_type-dled-or-ips-led-or-micro-rgb-or-mini-led-or-neo-qled-or-oled-evo-or-qd-oled-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio/product_brand-lg-or-neptune-or-sanus/product_display_type-dled-or-led-or-oled-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio/product_brand-lg-or-sanus-or-sunbrite/product_display_type-ips-led-or-micro-rgb-or-mini-led-or-oled-or-oled-evo/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio/product_brand-lg-or-sonos/product_display_type-dled-or-mini-led-or-oled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio/product_brand-neptune-or-samsung/product_display_type-mini-led-or-neo-qled-or-oled-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio/product_brand-neptune-or-sanus-or-sonos/product_display_type-ips-led-or-mini-led-or-qd-oled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-audio/product_brand-neptune/product_display_type-led-or-oled-evo-or-qd-oled-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-mounts-or-tv/product_brand-lg-or-neptune-or-sanus-or-sunbrite/product_display_type-dled-or-led-or-micro-rgb-or-mini-led-or-oled-evo-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-mounts-or-tv/product_brand-neptune-or-samsung-or-sony-or-sunbrite/product_display_type-ips-led-or-micro-rgb-or-mini-led-or-qd-oled-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-mounts-or-tv/product_brand-samsung-or-sanus-or-sony/product_display_type-mini-led-or-neo-qled-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-mounts/product_brand-sonos-or-sony-or-sunbrite/product_display_type-ips-led-or-led-or-mini-led-or-neo-qled-or-qd-oled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-tv/product_brand-lg-or-neptune-or-samsung-or-sanus-or-sonos-or-sony-or-sunbrite/product_display_type-dled-or-led-or-micro-rgb-or-oled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-tv/product_brand-lg-or-neptune/product_display_type-dled-or-micro-rgb-or-neo-qled-or-oled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_category_filter-tv/product_brand-sonos-or-sony-or-sunbrite/product_display_type-led-or-neo-qled-or-oled-or-oled-evo-or-qd-oled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_display_type-dled-or-ips-led-or-led-or-micro-rgb-or-mini-led-or-neo-qled-or-oled-or-qled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_display_type-ips-led-or-neo-qled-or-oled-evo-or-qd-oled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_display_type-led-or-mini-led-or-oled-or-oled-evo-or-qd-oled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_display_type-led-or-neo-qled-or-oled-evo-or-qd-oled/",
+      "excluded": true
+    },
+    {
+      "url": "/shop/product_display_type-micro-rgb-or-neo-qled-or-oled/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_audio_type-soundbar/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_brand-lg/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_brand-neptune/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_brand-samsung/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_brand-sanus/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_brand-sonos/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_brand-sony/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_brand-sunbrite/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_category_filter-audio/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_category_filter-mounts/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_category_filter-tv/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_display_type-dled/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_display_type-ips-led/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_display_type-led/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_display_type-micro-rgb/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_display_type-mini-led/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_display_type-neo-qled/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_display_type-oled-evo/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_display_type-oled/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_display_type-qd-oled/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_display_type-qled/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_mount_type-full-motion/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/shop/product_mount_type-tilt/",
+      "excluded": true
+    },
+    {
+      "url": "https://chicagomounting.com/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/shop/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/tv-installation-and-mounting/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/tv-installation-in-winnetka/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/blog/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/quote/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/lg-g6-oled-evo-ai-4k-smart-tv-2026/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/samsung-s90h-oled-4k-smart-tv-2025/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/samsung-s85h-oled-4k-smart-tv-2025/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/samsung-the-terrace-outdoor-qled-4k-smart-tv-2025/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/samsung-s95f-oled-4k-smart-tv-2025/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/samsung-the-frame-pro-neo-qled-4k-smart-tv-2026/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product/samsung-the-frame-qled-4k-smart-tv/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product-category/tv/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product-category/audio/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/product-category/mounts/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/case-city-featured-city-glenview/",
+      "excluded": false
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/2/",
+      "excluded": false
+    }
+  ]
+}

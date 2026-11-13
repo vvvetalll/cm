@@ -1,4 +1,8 @@
 # Chicago Mounting — project knowledge
+## Native catalogue P1 update — 2026-11-13
+
+The two approved changes are now live: five product-facet prefixes excluded only from Rocket preload; Woo Order Attribution off. Separate saves/readbacks, anonymous desktop/mobile tests and60HTTP checks recorded in [audit implementation appendix](../docs/WOOCOMMERCE-AUDIT-2026-11-13.md). This supersedes “after separate approval/no production change” below for these two fields. No indexing, security, Case Studies or other caching configuration changes. Existing Shop page2 duplication/hidden Reset all remain separate work; no CPU/speed improvement measured. AIOSEO/Filter Everything/Cloudflare review and approval boundaries documented; Issue#1 open.
+
 ## Current catalogue architecture — verified 2026-11-13
 
 WooCommerce currently supplies24 published catalogue products, category/brand/attribute data, Elementor Product10701/Card10278/archive10276, three Product Filter Everything sets and request-pricing popup10937. Card10278 also appears on service/city pages. Quote4986 uses Cost Calculator; booking5890 uses Jobber. Current Orders UI empty; no active gateways/keys/webhooks found; cart/checkout/account assigned IDs reference absent pages. This is not a backend API disablement. Recommendation: keep Woo, first address confirmed Rocket facet preload and attribution assets through native settings after separate approval. No production change. Full evidence/limits: [audit](../docs/WOOCOMMERCE-AUDIT-2026-11-13.md).

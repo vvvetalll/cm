@@ -1,0 +1,553 @@
+[
+  {
+    "url": "https://chicagomounting.com/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "assets": [
+      {
+        "id": "wc-jquery-blockui-js",
+        "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0"
+      },
+      {
+        "id": "wc-add-to-cart-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-js-cookie-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "woocommerce-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "sourcebuster-js-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-order-attribution-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      }
+    ],
+    "facetLinks": [],
+    "productLinks": [],
+    "prices": [],
+    "cookies": [],
+    "headers": {
+      "Date": "Fri, 13 Nov 2026 18:55:45 GMT",
+      "cf-cache-status": "DYNAMIC",
+      "Server-Timing": "cfEdge;dur=34,cfOrigin;dur=177"
+    },
+    "seconds": 0.486
+  },
+  {
+    "url": "https://chicagomounting.com/shop/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/shop/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "assets": [
+      {
+        "id": "wc-jquery-blockui-js",
+        "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0"
+      },
+      {
+        "id": "wc-add-to-cart-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-js-cookie-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "woocommerce-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-select2-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "sourcebuster-js-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-order-attribution-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-jquery-ui-touchpunch-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      }
+    ],
+    "facetLinks": [
+      "https://chicagomounting.com/shop/product_audio_type-soundbar/",
+      "https://chicagomounting.com/shop/product_brand-lg/",
+      "https://chicagomounting.com/shop/product_brand-neptune/",
+      "https://chicagomounting.com/shop/product_brand-samsung/",
+      "https://chicagomounting.com/shop/product_brand-sanus/",
+      "https://chicagomounting.com/shop/product_brand-sonos/",
+      "https://chicagomounting.com/shop/product_brand-sony/",
+      "https://chicagomounting.com/shop/product_brand-sunbrite/",
+      "https://chicagomounting.com/shop/product_category_filter-audio/",
+      "https://chicagomounting.com/shop/product_category_filter-mounts/",
+      "https://chicagomounting.com/shop/product_category_filter-tv/",
+      "https://chicagomounting.com/shop/product_display_type-dled/",
+      "https://chicagomounting.com/shop/product_display_type-ips-led/",
+      "https://chicagomounting.com/shop/product_display_type-led/",
+      "https://chicagomounting.com/shop/product_display_type-micro-rgb/",
+      "https://chicagomounting.com/shop/product_display_type-mini-led/",
+      "https://chicagomounting.com/shop/product_display_type-neo-qled/",
+      "https://chicagomounting.com/shop/product_display_type-oled-evo/",
+      "https://chicagomounting.com/shop/product_display_type-oled/",
+      "https://chicagomounting.com/shop/product_display_type-qd-oled/",
+      "https://chicagomounting.com/shop/product_display_type-qled/",
+      "https://chicagomounting.com/shop/product_mount_type-full-motion/",
+      "https://chicagomounting.com/shop/product_mount_type-tilt/"
+    ],
+    "productLinks": [
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/",
+      "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/",
+      "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/",
+      "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/"
+    ],
+    "prices": [
+      "$ 199.00",
+      "$ 1,699.00",
+      "$ 3,129.00",
+      "$ 429.00",
+      "$ 169.00",
+      "$ 169.00",
+      "$ 1,499.00",
+      "$ 499.00",
+      "$ 1,099.00",
+      "$ 1,999.00",
+      "$ 3,599.00",
+      "$ 1,199.00",
+      "$ 2,399.00",
+      "$ 2,999.00",
+      "$ 999.00",
+      "$ 1,399.00"
+    ],
+    "cookies": [],
+    "headers": {
+      "Date": "Fri, 13 Nov 2026 18:55:45 GMT",
+      "cf-cache-status": "DYNAMIC",
+      "Server-Timing": "cfEdge;dur=25,cfOrigin;dur=180"
+    },
+    "seconds": 0.498
+  },
+  {
+    "url": "https://chicagomounting.com/tv-installation-and-mounting/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/tv-installation-and-mounting/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "assets": [
+      {
+        "id": "wc-jquery-blockui-js",
+        "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0"
+      },
+      {
+        "id": "wc-add-to-cart-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-js-cookie-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "woocommerce-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "sourcebuster-js-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-order-attribution-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      }
+    ],
+    "facetLinks": [],
+    "productLinks": [
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/"
+    ],
+    "prices": [
+      "$ 1,699.00",
+      "$ 3,129.00",
+      "$ 2,399.00",
+      "$ 2,999.00"
+    ],
+    "cookies": [],
+    "headers": {
+      "Date": "Fri, 13 Nov 2026 18:55:45 GMT",
+      "cf-cache-status": "DYNAMIC",
+      "Server-Timing": "cfEdge;dur=26,cfOrigin;dur=177"
+    },
+    "seconds": 0.409
+  },
+  {
+    "url": "https://chicagomounting.com/tv-installation-in-winnetka/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/tv-installation-in-winnetka/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "assets": [
+      {
+        "id": "wc-jquery-blockui-js",
+        "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0"
+      },
+      {
+        "id": "wc-add-to-cart-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-js-cookie-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "woocommerce-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "sourcebuster-js-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-order-attribution-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      }
+    ],
+    "facetLinks": [],
+    "productLinks": [
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/"
+    ],
+    "prices": [
+      "$ 3,129.00",
+      "$ 1,999.00",
+      "$ 3,599.00",
+      "$ 2,999.00"
+    ],
+    "cookies": [],
+    "headers": {
+      "Date": "Fri, 13 Nov 2026 18:55:45 GMT",
+      "cf-cache-status": "DYNAMIC",
+      "Server-Timing": "cfEdge;dur=49,cfOrigin;dur=200"
+    },
+    "seconds": 0.541
+  },
+  {
+    "url": "https://chicagomounting.com/case-studies/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/case-studies/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "assets": [
+      {
+        "id": "wc-jquery-blockui-js",
+        "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0"
+      },
+      {
+        "id": "wc-add-to-cart-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-js-cookie-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "woocommerce-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-select2-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "sourcebuster-js-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-order-attribution-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-jquery-ui-touchpunch-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      }
+    ],
+    "facetLinks": [
+      "https://chicagomounting.com/case-studies/",
+      "https://chicagomounting.com/case-studies/case-city-featured-city-evanston/",
+      "https://chicagomounting.com/case-studies/case-city-featured-city-glenview/",
+      "https://chicagomounting.com/case-studies/case-city-featured-city-wilmette/",
+      "https://chicagomounting.com/case-studies/case-city-featured-city-winnetka/",
+      "https://chicagomounting.com/case-studies/case-installation-fireplace-specialty-mounting/",
+      "https://chicagomounting.com/case-studies/case-installation-frame-tv-installation/",
+      "https://chicagomounting.com/case-studies/case-installation-large-premium-tv/",
+      "https://chicagomounting.com/case-studies/case-installation-outdoor-tv-installation/",
+      "https://chicagomounting.com/case-studies/case-installation-recessed-media-installation/",
+      "https://chicagomounting.com/case-studies/case-installation-standard-tv-mounting/",
+      "https://chicagomounting.com/case-studies/case-installation-tv-soundbar-installation/"
+    ],
+    "productLinks": [],
+    "prices": [],
+    "cookies": [],
+    "headers": {
+      "Date": "Fri, 13 Nov 2026 18:55:47 GMT",
+      "cf-cache-status": "DYNAMIC",
+      "Server-Timing": "cfEdge;dur=31,cfOrigin;dur=1636"
+    },
+    "seconds": 1.821
+  },
+  {
+    "url": "https://chicagomounting.com/blog/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/blog/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "assets": [
+      {
+        "id": "wc-jquery-blockui-js",
+        "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0"
+      },
+      {
+        "id": "wc-add-to-cart-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-js-cookie-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "woocommerce-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "sourcebuster-js-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-order-attribution-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      }
+    ],
+    "facetLinks": [],
+    "productLinks": [],
+    "prices": [],
+    "cookies": [],
+    "headers": {
+      "Date": "Fri, 13 Nov 2026 18:55:46 GMT",
+      "cf-cache-status": "DYNAMIC",
+      "Server-Timing": "cfEdge;dur=26,cfOrigin;dur=89"
+    },
+    "seconds": 0.197
+  },
+  {
+    "url": "https://chicagomounting.com/quote/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/quote/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "assets": [
+      {
+        "id": "wc-jquery-blockui-js",
+        "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0"
+      },
+      {
+        "id": "wc-add-to-cart-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-js-cookie-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "woocommerce-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "sourcebuster-js-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-order-attribution-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      }
+    ],
+    "facetLinks": [],
+    "productLinks": [],
+    "prices": [],
+    "cookies": [],
+    "headers": {
+      "Date": "Fri, 13 Nov 2026 18:55:46 GMT",
+      "cf-cache-status": "DYNAMIC",
+      "Server-Timing": "cfEdge;dur=50,cfOrigin;dur=207"
+    },
+    "seconds": 0.46
+  },
+  {
+    "url": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "assets": [
+      {
+        "id": "wc-jquery-blockui-js",
+        "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0"
+      },
+      {
+        "id": "wc-add-to-cart-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-zoom-js",
+        "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0"
+      },
+      {
+        "id": "wc-flexslider-js",
+        "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0"
+      },
+      {
+        "id": "wc-photoswipe-js",
+        "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0"
+      },
+      {
+        "id": "wc-photoswipe-ui-default-js",
+        "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0"
+      },
+      {
+        "id": "wc-single-product-js",
+        "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0"
+      },
+      {
+        "id": "wc-js-cookie-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "woocommerce-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "sourcebuster-js-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      },
+      {
+        "id": "wc-order-attribution-js",
+        "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+        "type": "text/rocketlazyloadscript"
+      }
+    ],
+    "facetLinks": [],
+    "productLinks": [
+      "/product/sanus-outdoor-tilt-mount/?add-to-cart=10659",
+      "/product/sanus-outdoor-tilt-mount/?add-to-cart=10671",
+      "/product/sanus-outdoor-tilt-mount/?add-to-cart=10682",
+      "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/"
+    ],
+    "prices": [
+      "$ 199.00",
+      "$ 429.00",
+      "$ 169.00",
+      "$ 169.00"
+    ],
+    "cookies": [],
+    "headers": {
+      "Date": "Fri, 13 Nov 2026 18:55:46 GMT",
+      "cf-cache-status": "DYNAMIC",
+      "Server-Timing": "cfEdge;dur=42,cfOrigin;dur=100"
+    },
+    "seconds": 0.321
+  }
+]

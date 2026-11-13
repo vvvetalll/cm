@@ -1,0 +1,1194 @@
+{
+  "rocketBefore": [
+    {
+      "id": "wpr-speed-radar-url-input",
+      "name": "",
+      "type": "text",
+      "value": ""
+    },
+    {
+      "id": "performance_monitoring",
+      "name": "wp_rocket_settings[performance_monitoring]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "performance_monitoring_schedule_frequency",
+      "name": "wp_rocket_settings[performance_monitoring_schedule_frequency]",
+      "type": "select-one",
+      "value": "86400"
+    },
+    {
+      "id": "wpr-byocdn-toggle",
+      "name": "",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "cdn",
+      "name": "wp_rocket_settings[cdn]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "wpr-rocketcdn-free-toggle",
+      "name": "",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "wpr-rocketcdn-toggle-input",
+      "name": "",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "wpr_cdn_add_page_input",
+      "name": "",
+      "type": "text",
+      "value": ""
+    },
+    {
+      "id": "cdn_reject_files",
+      "name": "wp_rocket_settings[cdn_reject_files]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "minify_js",
+      "name": "wp_rocket_settings[minify_js]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "minify_concatenate_js",
+      "name": "wp_rocket_settings[minify_concatenate_js]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "exclude_inline_js",
+      "name": "wp_rocket_settings[exclude_inline_js]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "exclude_js",
+      "name": "wp_rocket_settings[exclude_js]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "defer_all_js",
+      "name": "wp_rocket_settings[defer_all_js]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "exclude_defer_js",
+      "name": "wp_rocket_settings[exclude_defer_js]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "delay_js",
+      "name": "wp_rocket_settings[delay_js]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "delay_js_exclusions",
+      "name": "wp_rocket_settings[delay_js_exclusions]",
+      "type": "textarea",
+      "value": "/wp-content/plugins/cost-calculator-builder/\n/wp-content/plugins/cost-calculator-builder-pro/"
+    },
+    {
+      "id": "delay_js_execution_safe_mode",
+      "name": "wp_rocket_settings[delay_js_execution_safe_mode]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "minify_css",
+      "name": "wp_rocket_settings[minify_css]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "exclude_css",
+      "name": "wp_rocket_settings[exclude_css]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "optimize_css_delivery",
+      "name": "wp_rocket_settings[optimize_css_delivery]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "remove_unused_css_safelist",
+      "name": "wp_rocket_settings[remove_unused_css_safelist]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "critical_css",
+      "name": "wp_rocket_settings[critical_css]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "lazyload",
+      "name": "wp_rocket_settings[lazyload]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "lazyload_css_bg_img",
+      "name": "wp_rocket_settings[lazyload_css_bg_img]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "lazyload_iframes",
+      "name": "wp_rocket_settings[lazyload_iframes]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "lazyload_youtube",
+      "name": "wp_rocket_settings[lazyload_youtube]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "exclude_lazyload",
+      "name": "wp_rocket_settings[exclude_lazyload]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "image_dimensions",
+      "name": "wp_rocket_settings[image_dimensions]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "auto_preload_fonts",
+      "name": "wp_rocket_settings[auto_preload_fonts]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "host_fonts_locally",
+      "name": "wp_rocket_settings[host_fonts_locally]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "manual_preload",
+      "name": "wp_rocket_settings[manual_preload]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "preload_excluded_uri",
+      "name": "wp_rocket_settings[preload_excluded_uri]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "preload_links",
+      "name": "wp_rocket_settings[preload_links]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "purge_cron_interval",
+      "name": "wp_rocket_settings[purge_cron_interval]",
+      "type": "number",
+      "value": "10"
+    },
+    {
+      "id": "purge_cron_unit",
+      "name": "wp_rocket_settings[purge_cron_unit]",
+      "type": "select-one",
+      "value": "HOUR_IN_SECONDS"
+    },
+    {
+      "id": "cache_reject_uri",
+      "name": "wp_rocket_settings[cache_reject_uri]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "cache_reject_cookies",
+      "name": "wp_rocket_settings[cache_reject_cookies]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "cache_reject_ua",
+      "name": "wp_rocket_settings[cache_reject_ua]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "cache_purge_pages",
+      "name": "wp_rocket_settings[cache_purge_pages]",
+      "type": "textarea",
+      "value": "/case-studies/(.*)\n/tv-installation-in-glenview/\n/tv-installation-in-evanston/\n/tv-installation-in-wilmette/\n/tv-installation-in-winnetka/\n/premium-large-tv-installation/\n/outdoor-tv-installation/\n/recessed-media-box/\n/frame-tv-mounting-chicago/\n/soundbar-installation/\n/fireplace-or-brick-wall-mounting/\n/tv-installation-and-mounting/"
+    },
+    {
+      "id": "cache_query_strings",
+      "name": "wp_rocket_settings[cache_query_strings]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "cache_logged_user",
+      "name": "wp_rocket_settings[cache_logged_user]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "database_revisions",
+      "name": "wp_rocket_settings[database_revisions]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "database_auto_drafts",
+      "name": "wp_rocket_settings[database_auto_drafts]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "database_trashed_posts",
+      "name": "wp_rocket_settings[database_trashed_posts]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "database_spam_comments",
+      "name": "wp_rocket_settings[database_spam_comments]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "database_trashed_comments",
+      "name": "wp_rocket_settings[database_trashed_comments]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "database_all_transients",
+      "name": "wp_rocket_settings[database_all_transients]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "database_optimize_tables",
+      "name": "wp_rocket_settings[database_optimize_tables]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "schedule_automatic_cleanup",
+      "name": "wp_rocket_settings[schedule_automatic_cleanup]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "automatic_cleanup_frequency",
+      "name": "wp_rocket_settings[automatic_cleanup_frequency]",
+      "type": "select-one",
+      "value": "daily"
+    },
+    {
+      "id": "control_heartbeat",
+      "name": "wp_rocket_settings[control_heartbeat]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "heartbeat_admin_behavior",
+      "name": "wp_rocket_settings[heartbeat_admin_behavior]",
+      "type": "select-one",
+      "value": "reduce_periodicity"
+    },
+    {
+      "id": "heartbeat_editor_behavior",
+      "name": "wp_rocket_settings[heartbeat_editor_behavior]",
+      "type": "select-one",
+      "value": "reduce_periodicity"
+    },
+    {
+      "id": "heartbeat_site_behavior",
+      "name": "wp_rocket_settings[heartbeat_site_behavior]",
+      "type": "select-one",
+      "value": "reduce_periodicity"
+    },
+    {
+      "id": "analytics_enabled",
+      "name": "rocket_mixpanel_optin",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "varnish_auto_purge",
+      "name": "wp_rocket_settings[varnish_auto_purge]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "cache_webp",
+      "name": "wp_rocket_settings[cache_webp]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "do_cloudflare",
+      "name": "wp_rocket_settings[do_cloudflare]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "sucury_waf_cache_sync",
+      "name": "wp_rocket_settings[sucury_waf_cache_sync]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "cloudflare_zone_id_mask",
+      "name": "wp_rocket_settings[cloudflare_zone_id_mask]",
+      "type": "text",
+      "value": ""
+    },
+    {
+      "id": "cloudflare_devmode",
+      "name": "wp_rocket_settings[cloudflare_devmode]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "cloudflare_auto_settings",
+      "name": "wp_rocket_settings[cloudflare_auto_settings]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "cloudflare_protocol_rewrite",
+      "name": "wp_rocket_settings[cloudflare_protocol_rewrite]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "wpr-options-submit",
+      "name": "",
+      "type": "submit",
+      "value": "Save Changes"
+    }
+  ],
+  "rocketAfter": [
+    {
+      "id": "wpr-speed-radar-url-input",
+      "name": "",
+      "type": "text",
+      "value": ""
+    },
+    {
+      "id": "performance_monitoring",
+      "name": "wp_rocket_settings[performance_monitoring]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "performance_monitoring_schedule_frequency",
+      "name": "wp_rocket_settings[performance_monitoring_schedule_frequency]",
+      "type": "select-one",
+      "value": "86400"
+    },
+    {
+      "id": "wpr-byocdn-toggle",
+      "name": "",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "cdn",
+      "name": "wp_rocket_settings[cdn]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "wpr-rocketcdn-free-toggle",
+      "name": "",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "wpr-rocketcdn-toggle-input",
+      "name": "",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "wpr_cdn_add_page_input",
+      "name": "",
+      "type": "text",
+      "value": ""
+    },
+    {
+      "id": "cdn_reject_files",
+      "name": "wp_rocket_settings[cdn_reject_files]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "minify_js",
+      "name": "wp_rocket_settings[minify_js]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "minify_concatenate_js",
+      "name": "wp_rocket_settings[minify_concatenate_js]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "exclude_inline_js",
+      "name": "wp_rocket_settings[exclude_inline_js]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "exclude_js",
+      "name": "wp_rocket_settings[exclude_js]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "defer_all_js",
+      "name": "wp_rocket_settings[defer_all_js]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "exclude_defer_js",
+      "name": "wp_rocket_settings[exclude_defer_js]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "delay_js",
+      "name": "wp_rocket_settings[delay_js]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "delay_js_exclusions",
+      "name": "wp_rocket_settings[delay_js_exclusions]",
+      "type": "textarea",
+      "value": "/wp-content/plugins/cost-calculator-builder/\n/wp-content/plugins/cost-calculator-builder-pro/"
+    },
+    {
+      "id": "delay_js_execution_safe_mode",
+      "name": "wp_rocket_settings[delay_js_execution_safe_mode]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "minify_css",
+      "name": "wp_rocket_settings[minify_css]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "exclude_css",
+      "name": "wp_rocket_settings[exclude_css]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "optimize_css_delivery",
+      "name": "wp_rocket_settings[optimize_css_delivery]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "remove_unused_css_safelist",
+      "name": "wp_rocket_settings[remove_unused_css_safelist]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "critical_css",
+      "name": "wp_rocket_settings[critical_css]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "lazyload",
+      "name": "wp_rocket_settings[lazyload]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "lazyload_css_bg_img",
+      "name": "wp_rocket_settings[lazyload_css_bg_img]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "lazyload_iframes",
+      "name": "wp_rocket_settings[lazyload_iframes]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "lazyload_youtube",
+      "name": "wp_rocket_settings[lazyload_youtube]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "exclude_lazyload",
+      "name": "wp_rocket_settings[exclude_lazyload]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "image_dimensions",
+      "name": "wp_rocket_settings[image_dimensions]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "auto_preload_fonts",
+      "name": "wp_rocket_settings[auto_preload_fonts]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "host_fonts_locally",
+      "name": "wp_rocket_settings[host_fonts_locally]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "manual_preload",
+      "name": "wp_rocket_settings[manual_preload]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "preload_excluded_uri",
+      "name": "wp_rocket_settings[preload_excluded_uri]",
+      "type": "textarea",
+      "value": "/(.*)product_category_filter-(.*)\n/(.*)product_brand-(.*)\n/(.*)product_display_type-(.*)\n/(.*)product_mount_type-(.*)\n/(.*)product_audio_type-(.*)"
+    },
+    {
+      "id": "preload_links",
+      "name": "wp_rocket_settings[preload_links]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "purge_cron_interval",
+      "name": "wp_rocket_settings[purge_cron_interval]",
+      "type": "number",
+      "value": "10"
+    },
+    {
+      "id": "purge_cron_unit",
+      "name": "wp_rocket_settings[purge_cron_unit]",
+      "type": "select-one",
+      "value": "HOUR_IN_SECONDS"
+    },
+    {
+      "id": "cache_reject_uri",
+      "name": "wp_rocket_settings[cache_reject_uri]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "cache_reject_cookies",
+      "name": "wp_rocket_settings[cache_reject_cookies]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "cache_reject_ua",
+      "name": "wp_rocket_settings[cache_reject_ua]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "cache_purge_pages",
+      "name": "wp_rocket_settings[cache_purge_pages]",
+      "type": "textarea",
+      "value": "/case-studies/(.*)\n/tv-installation-in-glenview/\n/tv-installation-in-evanston/\n/tv-installation-in-wilmette/\n/tv-installation-in-winnetka/\n/premium-large-tv-installation/\n/outdoor-tv-installation/\n/recessed-media-box/\n/frame-tv-mounting-chicago/\n/soundbar-installation/\n/fireplace-or-brick-wall-mounting/\n/tv-installation-and-mounting/"
+    },
+    {
+      "id": "cache_query_strings",
+      "name": "wp_rocket_settings[cache_query_strings]",
+      "type": "textarea",
+      "value": ""
+    },
+    {
+      "id": "cache_logged_user",
+      "name": "wp_rocket_settings[cache_logged_user]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "database_revisions",
+      "name": "wp_rocket_settings[database_revisions]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "database_auto_drafts",
+      "name": "wp_rocket_settings[database_auto_drafts]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "database_trashed_posts",
+      "name": "wp_rocket_settings[database_trashed_posts]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "database_spam_comments",
+      "name": "wp_rocket_settings[database_spam_comments]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "database_trashed_comments",
+      "name": "wp_rocket_settings[database_trashed_comments]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "database_all_transients",
+      "name": "wp_rocket_settings[database_all_transients]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "database_optimize_tables",
+      "name": "wp_rocket_settings[database_optimize_tables]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "schedule_automatic_cleanup",
+      "name": "wp_rocket_settings[schedule_automatic_cleanup]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "automatic_cleanup_frequency",
+      "name": "wp_rocket_settings[automatic_cleanup_frequency]",
+      "type": "select-one",
+      "value": "daily"
+    },
+    {
+      "id": "control_heartbeat",
+      "name": "wp_rocket_settings[control_heartbeat]",
+      "type": "checkbox",
+      "value": true
+    },
+    {
+      "id": "heartbeat_admin_behavior",
+      "name": "wp_rocket_settings[heartbeat_admin_behavior]",
+      "type": "select-one",
+      "value": "reduce_periodicity"
+    },
+    {
+      "id": "heartbeat_editor_behavior",
+      "name": "wp_rocket_settings[heartbeat_editor_behavior]",
+      "type": "select-one",
+      "value": "reduce_periodicity"
+    },
+    {
+      "id": "heartbeat_site_behavior",
+      "name": "wp_rocket_settings[heartbeat_site_behavior]",
+      "type": "select-one",
+      "value": "reduce_periodicity"
+    },
+    {
+      "id": "analytics_enabled",
+      "name": "rocket_mixpanel_optin",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "varnish_auto_purge",
+      "name": "wp_rocket_settings[varnish_auto_purge]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "cache_webp",
+      "name": "wp_rocket_settings[cache_webp]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "do_cloudflare",
+      "name": "wp_rocket_settings[do_cloudflare]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "sucury_waf_cache_sync",
+      "name": "wp_rocket_settings[sucury_waf_cache_sync]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "cloudflare_zone_id_mask",
+      "name": "wp_rocket_settings[cloudflare_zone_id_mask]",
+      "type": "text",
+      "value": ""
+    },
+    {
+      "id": "cloudflare_devmode",
+      "name": "wp_rocket_settings[cloudflare_devmode]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "cloudflare_auto_settings",
+      "name": "wp_rocket_settings[cloudflare_auto_settings]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "cloudflare_protocol_rewrite",
+      "name": "wp_rocket_settings[cloudflare_protocol_rewrite]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "wpr-options-submit",
+      "name": "",
+      "type": "submit",
+      "value": "Save Changes"
+    }
+  ],
+  "wooBefore": [
+    {
+      "checked": false,
+      "id": "woocommerce_custom_orders_table_data_sync_enabled"
+    },
+    {
+      "checked": true,
+      "id": "woocommerce_analytics_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_rate_limit_checkout_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_order_withdrawal_enabled"
+    },
+    {
+      "checked": true,
+      "id": "woocommerce_feature_order_attribution_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_hpos_datastore_caching_enabled"
+    },
+    {
+      "checked": true,
+      "id": "woocommerce_feature_remote_logging_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_deferred_transactional_emails_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_customer_review_request_enabled"
+    },
+    {
+      "checked": true,
+      "id": "woocommerce_feature_email_improvements_enabled"
+    },
+    {
+      "checked": true,
+      "id": "woocommerce_feature_blueprint_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_cost_of_goods_sold_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_product_gallery_videos_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_hpos_fts_index_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_block_email_editor_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_destroy-empty-sessions_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_rest_api_caching_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_cart_save_for_later_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_product_wishlist_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_product_instance_caching_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_customer_stock_notifications_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_block_editor_unified_assets_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_extensible_abilities_enabled"
+    }
+  ],
+  "wooAfter": [
+    {
+      "checked": false,
+      "id": "woocommerce_custom_orders_table_data_sync_enabled"
+    },
+    {
+      "checked": true,
+      "id": "woocommerce_analytics_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_rate_limit_checkout_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_order_withdrawal_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_order_attribution_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_hpos_datastore_caching_enabled"
+    },
+    {
+      "checked": true,
+      "id": "woocommerce_feature_remote_logging_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_deferred_transactional_emails_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_customer_review_request_enabled"
+    },
+    {
+      "checked": true,
+      "id": "woocommerce_feature_email_improvements_enabled"
+    },
+    {
+      "checked": true,
+      "id": "woocommerce_feature_blueprint_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_cost_of_goods_sold_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_product_gallery_videos_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_hpos_fts_index_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_block_email_editor_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_destroy-empty-sessions_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_rest_api_caching_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_cart_save_for_later_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_product_wishlist_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_product_instance_caching_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_customer_stock_notifications_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_block_editor_unified_assets_enabled"
+    },
+    {
+      "checked": false,
+      "id": "woocommerce_feature_extensible_abilities_enabled"
+    }
+  ],
+  "queueBefore": {
+    "counts": "All (5,287) | Canceled (12) | Complete (5,193) | Failed (38) | In-progress (1) | Pending (43)",
+    "rows": [
+      "\trocket_preload_job_preload_url\nID: 1015250\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/shop/product_category_filter-mounts/product_brand-neptune-or-sanus-or-sonos-or-sony-or-sunbrite/product_display_type-dled-or-led-or-neo-qled-or-oled'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 18:53:21 +0000\naction created",
+      "\trocket_preload_job_preload_url\nID: 1015251\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/shop/product_category_filter-mounts-or-tv/product_brand-samsung-or-sanus/product_display_type-dled-or-neo-qled-or-oled-or-oled-evo'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 18:53:21 +0000\naction created",
+      "\trocket_preload_job_preload_url\nID: 1015252\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/shop/product_category_filter-mounts-or-tv/product_brand-neptune-or-sonos-or-sunbrite/product_display_type-ips-led-or-oled-evo-or-qd-oled'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 18:53:21 +0000\naction created",
+      "\trocket_preload_job_preload_url\nID: 1015253\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/shop/product_category_filter-mounts-or-tv/product_brand-lg-or-sanus-or-sony-or-sunbrite/product_display_type-dled-or-ips-led-or-led-or-qd-oled-or-qled'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 18:53:21 +0000\naction created",
+      "\trocket_preload_job_preload_url\nID: 1015254\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/shop/product_category_filter-mounts-or-tv/product_brand-neptune-or-samsung-or-sunbrite/product_display_type-led-or-micro-rgb-or-mini-led-or-neo-qled-or-qled'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 18:53:21 +0000\naction created",
+      "\trocket_preload_job_preload_url\nID: 1015255\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/shop/product_category_filter-mounts-or-tv/product_brand-samsung-or-sunbrite/product_display_type-led-or-mini-led-or-oled-evo-or-qled'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 18:53:21 +0000\naction created",
+      "\trocket_preload_job_preload_url\nID: 1015256\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/shop/product_category_filter-mounts-or-tv/product_brand-samsung-or-sanus-or-sonos-or-sony-or-sunbrite/product_display_type-ips-led-or-micro-rgb-or-neo-qled-or-oled'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 18:53:21 +0000\naction created",
+      "\trocket_preload_job_preload_url\nID: 1015257\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/shop/product_category_filter-mounts-or-tv/product_brand-neptune-or-samsung-or-sanus-or-sonos-or-sunbrite/product_display_type-neo-qled-or-qd-oled-or-qled'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 18:53:21 +0000\naction created",
+      "\trocket_preload_job_preload_url\nID: 1015258\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/shop/product_category_filter-mounts-or-tv/product_brand-lg-or-neptune-or-samsung-or-sanus-or-sony-or-sunbrite/product_display_type-led-or-mini-led-or-neo-qled-or-oled'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 18:53:21 +0000\naction created",
+      "\trocket_preload_job_preload_url\nID: 1015259\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/shop/product_category_filter-mounts-or-tv/product_brand-neptune-or-sanus-or-sonos-or-sony/product_display_type-dled-or-ips-led-or-led-or-neo-qled-or-qd-oled'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 18:53:21 +0000\naction created"
+    ]
+  },
+  "queueAfter": [
+    {
+      "counts": "All (5,221) | Canceled (12) | Complete (5,100) | Failed (39) | In-progress (1) | Pending (69)",
+      "next": "https://chicagomounting.com/wp-admin/admin.php?page=wc-status&tab=action-scheduler&status=pending&paged=2",
+      "rows": [
+        "\trocket_preload_job_preload_url\nID: 1015278\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/top-mistakes-to-avoid-when-mounting-a-tv-above-a-fireplace'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015279\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/flat-vs-tilt-tv-mounts-which-is-right-for-your-living-room'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015280\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/how-high-to-mount-tv'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015281\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/services'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015282\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/tv-installation-and-mounting'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015283\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/about-us'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015284\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/prices'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015285\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/tv-installation-in-evanston'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015286\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/tv-installation-in-winnetka'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015287\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/tv-installation-in-glenview'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created"
+      ],
+      "url": "https://chicagomounting.com/wp-admin/admin.php?page=wc-status&tab=action-scheduler&status=pending"
+    },
+    {
+      "counts": "All (5,211) | Canceled (12) | Complete (5,090) | Failed (39) | In-progress (1) | Pending (69)",
+      "next": "https://chicagomounting.com/wp-admin/admin.php?page=wc-status&tab=action-scheduler&status=pending&paged=3",
+      "rows": [
+        "\trocket_preload_job_preload_url\nID: 1015288\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/tv-installation-in-wilmette'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015289\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/fireplace-or-brick-wall-mounting'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015290\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/same-day-tv-mounting'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015291\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/flat-tv-mounting'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015292\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/frame-tv-mounting-chicago'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015293\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/recessed-media-box'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015294\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/find-near-me'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015295\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/quote'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015296\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/reviews'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created",
+        "\trocket_preload_job_preload_url\nID: 1015297\nRun | Cancel\n\tPending\t\n0 => 'https://chicagomounting.com/contact-us'\n\trocket-preload\tNon-repeating\tasync\t\n2026-11-13 19:01:12 +0000\naction created"
+      ],
+      "url": "https://chicagomounting.com/wp-admin/admin.php?page=wc-status&tab=action-scheduler&status=pending&paged=2"
+    }
+  ],
+  "facetQueueSearches": [
+    {
+      "count": "0 items",
+      "rows": [
+        "No items found."
+      ],
+      "url": "https://chicagomounting.com/wp-admin/admin.php?page=wc-status&status=pending&tab=action-scheduler&s=product_brand-"
+    },
+    {
+      "count": "0 items",
+      "rows": [
+        "No items found."
+      ],
+      "url": "https://chicagomounting.com/wp-admin/admin.php?page=wc-status&status=pending&tab=action-scheduler&s=product_display_type-"
+    },
+    {
+      "count": "0 items",
+      "rows": [
+        "No items found."
+      ],
+      "url": "https://chicagomounting.com/wp-admin/admin.php?page=wc-status&status=pending&tab=action-scheduler&s=product_mount_type-"
+    },
+    {
+      "count": "0 items",
+      "rows": [
+        "No items found."
+      ],
+      "url": "https://chicagomounting.com/wp-admin/admin.php?page=wc-status&status=pending&tab=action-scheduler&s=product_audio_type-"
+    }
+  ],
+  "filters": [
+    {
+      "viewport": 1366,
+      "filter": "Category Audio",
+      "cards": 3,
+      "reset": [
+        {
+          "class": "wpc-chip-reset-all",
+          "href": "https://chicagomounting.com/shop/",
+          "text": "Reset all×"
+        }
+      ],
+      "text": "SERVICES\nAREAS\nCASE STUDIES\nSHOP\nPRICES\nBLOG\nABOUT US\nCONTACT US\nBOOK NOW\n224.519.8272\nPREMIUM TVS, AUDIO & MOUNTING SOLUTIONS\n\nBrowse our curated selection of TVs, audio systems and mounting solutions. Get dealer pricing, full manufacturer warranty, professional delivery and expert installation from one trusted team.\n\nOfficial Warranty\n\nAuthorized products backed by manufacturer warranty.\n\nDealer Pricing\n\nCompetitive pricing from authorized dealers.\n\nDelivery To Your Home\n\nWe deliver directly to your home or office.\n\nProfessional Installation\n\nExpert mounting and setup available.\n\nCATEGORY\nTV\n17\n \nAudio\n3\n \nMounts\n4\n \nBRAND\nSamsung\n(\n1\n)\n \nSonos\n(\n2\n)\n \nAUDIO TYPE\nSoundbar\n3\n \nSamsung Q900F 7.1.2 Soundbar\nProfessional installation\nStarting at\n\n$1,499.00\n\nREQUEST\nSonos Beam Gen 2\nProfessional installation\nStarting at\n\n$499.00\n\nREQUEST\nSonos Arc Ultra\nProfessional installation\nStarting at\n\n$1,099.00\n\nREQUEST\nBUY. DELIVER. INSTALL. ENJOY.\nPremium TVs, audio systems and mounting solutions with dealer pricing, delivery and professional installation.\nWarranty\nPricing\nDelivery\nInstallation\nGET PRICING\nBOOK INSTALL\n© 2026 ChicagoMounting.com. All rights reserved. Based in Chicago, IL.\nWebsite by",
+      "titles": [],
+      "url": "https://chicagomounting.com/shop/product_category_filter-audio/"
+    },
+    {
+      "viewport": 1366,
+      "filter": "Brand Samsung",
+      "cards": 8,
+      "prices": [
+        "$1,499.00",
+        "$1,199.00",
+        "$1,199.00",
+        "$1,899.00",
+        "$2,849.00",
+        "$2,199.00",
+        "$999.00",
+        "$899.00"
+      ],
+      "url": "https://chicagomounting.com/shop/product_brand-samsung/"
+    },
+    {
+      "viewport": 1366,
+      "filter": "Display OLED",
+      "cards": 3,
+      "prices": [
+        "$1,199.00",
+        "$1,199.00",
+        "$2,199.00"
+      ],
+      "url": "https://chicagomounting.com/shop/product_display_type-oled/"
+    },
+    {
+      "viewport": 1366,
+      "filter": "Mount Tilt",
+      "cards": 3,
+      "prices": [
+        "$199.00",
+        "$169.00",
+        "$169.00"
+      ],
+      "url": "https://chicagomounting.com/shop/product_mount_type-tilt/"
+    },
+    {
+      "viewport": 1366,
+      "filter": "Audio Soundbar",
+      "cards": 3,
+      "prices": [
+        "$1,499.00",
+        "$499.00",
+        "$1,099.00"
+      ],
+      "url": "https://chicagomounting.com/shop/product_audio_type-soundbar/"
+    },
+    {
+      "viewport": 390,
+      "filter": "Category Audio",
+      "cards": 3,
+      "overflow": false,
+      "url": "https://chicagomounting.com/shop/product_category_filter-audio/"
+    },
+    {
+      "viewport": 390,
+      "filter": "Brand Samsung",
+      "cards": 8,
+      "overflow": false,
+      "url": "https://chicagomounting.com/shop/product_brand-samsung/"
+    },
+    {
+      "viewport": 390,
+      "filter": "Display OLED",
+      "cards": 3,
+      "overflow": false,
+      "url": "https://chicagomounting.com/shop/product_display_type-oled/"
+    },
+    {
+      "viewport": 390,
+      "filter": "Mount Tilt",
+      "cards": 3,
+      "overflow": false,
+      "url": "https://chicagomounting.com/shop/product_mount_type-tilt/"
+    },
+    {
+      "viewport": 390,
+      "filter": "Audio Soundbar",
+      "cards": 3,
+      "overflow": false,
+      "url": "https://chicagomounting.com/shop/product_audio_type-soundbar/"
+    }
+  ],
+  "taxonomies": [
+    {
+      "selected": [
+        "Yes"
+      ],
+      "title": " Categories Label: Categories Slug: category Post Types:post"
+    },
+    {
+      "selected": [
+        "No"
+      ],
+      "title": " Tags Label: Tags Slug: post_tag Post Types:post"
+    },
+    {
+      "selected": [
+        "No"
+      ],
+      "title": " Product Brands Label: Product Brands Slug: product_brand Post Types:product"
+    },
+    {
+      "selected": [
+        "Yes"
+      ],
+      "title": " Product Categories Label: Product Categories Slug: product_cat Post Types:product"
+    },
+    {
+      "selected": [
+        "No"
+      ],
+      "title": " Product Tags Label: Product Tags Slug: product_tag Post Types:product"
+    },
+    {
+      "selected": [
+        "No"
+      ],
+      "title": " Product Attributes Label: Product Attributes Slug: product_attributes Post Types:product"
+    }
+  ]
+}

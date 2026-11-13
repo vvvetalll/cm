@@ -2,7 +2,7 @@
 
 **2026-11-13 · America/Chicago · [Issue #1](https://github.com/vvvetalll/cm/issues/1)**
 
-**Recommendation: keep WooCommerce and optimize its catalogue configuration. No production changes made.** The strongest confirmed issue is WP Rocket preloading combinations of product filters. Replacing WooCommerce would not inherently fix that interaction and would require rebuilding working catalogue dependencies. No measured migration benefit currently justifies that risk.
+**Recommendation: keep WooCommerce and optimize its catalogue configuration.** The original read-only audit below is preserved as a historical baseline. The two owner-authorized P1 native changes were subsequently applied and verified; see the implementation appendix. No indexing or Cloudflare changes were made. Replacing WooCommerce would require rebuilding working catalogue dependencies; no measured migration benefit justifies that risk.
 
 ## Scope and evidence
 
@@ -197,3 +197,127 @@ For approved work: record before-values; change one component; Save/read back; t
 ## Record / next step
 
 WORK/CHANGELOG/PROJECT/SEO-REPORT link this report. Commit and verified remote SHA recorded in Issue#1 after push. No optimization applied or declared successful. Next decision: separately authorize concrete P1 changes, not removal/migration/indexing/security edits. Issue remains open for remediation and listed measurement gaps.
+
+
+## 8. Authorized P1 implementation and expanded SEO/security review — 13 November 2026
+
+This appendix supersedes the earlier “not applied / next authorization” statements for **these two P1 actions only**. Owner authorized native preload exclusions and attribution off, followed by verification and repository/Issue updates. Later instructions expanded read-only SEO and Cloudflare review and explicitly reserved approval of indexing and security changes. No P2/P3 implementation, custom production code, new plugin, product edit, SEO save or Cloudflare mutation occurred.
+
+### Exact changes, save/readback and rollback
+
+Applied separately through authenticated native WordPress controls:
+
+| Component | Original | Saved and reloaded value | Rollback |
+|---|---|---|---|
+| WP Rocket → Cache → Preload → Exclude URLs, field `preload_excluded_uri` | Empty | Five lines below; native “Settings saved” notice, then exact reload/readback | Remove only these five lines, Save Changes, reload/read back; native Clear and Preload Cache if propagation needed |
+| WooCommerce → Settings → Advanced → Features → Order Attribution, `woocommerce_feature_order_attribution_enabled` | Checked / true | Unchecked / false; Save changes, reload/readback | Recheck only Order Attribution, save/reload; native cache clear/preload and repeat anonymous script checks |
+
+```text
+/(.*)product_category_filter-(.*)
+/(.*)product_brand-(.*)
+/(.*)product_display_type-(.*)
+/(.*)product_mount_type-(.*)
+/(.*)product_audio_type-(.*)
+```
+
+Before saving, tested the proposed wildcard expressions against **58 real affected URLs** from the current filter links and observed queue/security routes; all matched. **37 control URLs** did not match: all24 products, three categories, normal Shop/service/city/blog/quote/catalogue pages, Case Studies pagination and its separate facet prefixes. This is a reproducible expression-match check, complemented by actual native queue behavior below; it is not an assertion that every eligible URL has completed preload.
+
+The complete non-sensitive Rocket form comparison changed only `preload_excluded_uri`. Preloading/link preloading remain on; cache exclusions/query strings remain unchanged, as do the existing12 purge paths, calculator Delay JS exclusions, optimization and Cloudflare integration settings. Woo feature comparison changed only attribution; the other23 checkboxes remained identical. Native controls remain owner-editable. No scheduler jobs were manually canceled, retried or deleted.
+
+Initial anonymous checks after the attribution save still returned the old two scripts from cached HTML. Recorded this unsuccessful propagation checkpoint, then used Rocket's native **Clear and Preload Cache** once; UI confirmed “Cache cleared. (November13,2026 @12:58pm)” (18:58Z). No Cloudflare purge or caching configuration change. New canonical queue jobs were created19:01:12Z. Final public responses and anonymous browser checks then showed attribution absent.
+
+Evidence: [native before/after/settings/filter/queue JSON](P1-2026-11-13-native-verification.json), [pattern validation](P1-2026-11-13-pattern-validation.json), [Rocket screenshot](P1-2026-11-13-rocket.jpg), [Woo features screenshot](P1-2026-11-13-woo-features.jpg). Screenshots show settings, not measured performance gains.
+
+### Anonymous frontend and asset verification
+
+A real anonymous in-app browser (no WordPress admin bar) was tested at1366×900 and390×844, alongside low-concurrency public HTTP requests. No form was submitted, CAPTCHA solved, booking made or customer data entered.
+
+| Test | Observed result |
+|---|---|
+| Five Shop filters, desktop and mobile | Audio category3 cards; Samsung8; OLED3; Tilt3; Soundbar3. Expected facet URL and prices shown; all ten interactions worked. Mobile has no horizontal overflow. |
+| Reset | Unchecking each selected filter returned to `/shop/` and16 cards. “Reset all” anchor exists but is hidden/zero-size: a visible one-click reset was **not** verified; no styling change made. |
+| Product | Sanus199price, gallery links/images, product details and related products rendered on both sizes. Product REQUEST Pricing opened popup10937 with phone/email required. Shop-card REQUEST also opened the same form on mobile. |
+| Quote / booking | Cost Calculator TV-size/options/summary rendered on desktop and mobile. BOOK NOW opened popup5890 with Jobber iframe;11 textboxes available. Shop BOOK NOW also loaded the iframe on desktop and remained accessible after mobile resize. Loading was asynchronous; the first immediate check preceded iframe insertion. |
+| Case Studies pagination | Page1→`/case-studies/2/` worked;8 cards, preserved noindex/nofollow on page2; desktop and mobile, mobile overflow false. |
+| Shop pagination — existing defect | No pagination link on the16-card Shop grid. Direct `/shop/page/2/` returns the same16 products, canonical Shop/noindex/nofollow. The product-link set is identical to the **pre-change audit** response. This is not a passing pagination test; left unchanged for separate authorized work. |
+
+Final [60-response HTTP evidence](P1-2026-11-13-final-http.json): all200; all24 product pages remain indexable/self-canonical; all three category pages remain indexable/self-canonical; product sitemap24 URLs and category sitemap3 URLs. All16 case posts plus the catalogue remain indexable/self-canonical. No challenge marker on those final responses. These checks establish accessibility from the test clients, not every crawler/network.
+
+Equivalent eight-page HTML comparison, Woo JavaScript references (before→after): homepage6→4, Shop8→6, service6→4, city6→4, Case Studies8→6, blog6→4, quote6→4, Sanus product11→9. Exactly the two sourcebuster/order-attribution references disappeared on every sample; other Woo references remain. Final60 responses contained zero attribution references. Anonymous browser Shop/product checks likewise found none. No new Set-Cookie names in final HTTP responses; existing browser cookies were not erased, so no historical-cookie removal claim. [Before](P1-2026-11-13-before-http.json), [stale checkpoint](P1-2026-11-13-after-http.json), [final](P1-2026-11-13-final-http.json).
+
+### Queue comparison and measurement limits
+
+Immediately before save: shared scheduler All5287/Complete5193/Failed38/In-progress1/Pending43; ten visible pending Rocket jobs1015250–1015259 all contained multi-facet OR combinations, created18:53:21Z. Immediately after saving exclusions those old pending jobs were still visible: saving did not instantly erase existing work.
+
+After native clear/preload and propagation, ordinary blog/service/city/product jobs were observed (e.g.1015278 onward, created19:01:12Z). Five separate native pending searches for `product_category_filter-`, `product_brand-`, `product_display_type-`, `product_mount_type-`, `product_audio_type-` each returned **0 items**. Four are in the saved JSON; category search was separately observed at0. A later shared snapshot had Pending69/Failed39, with counts changing during processing/retention. These are mixed-plugin totals: **do not describe their variation as a Woo speed improvement or a successful completion of all cache jobs**. No before/after CPU, SQL, throughput, CWV or controlled speed measurement was obtained. Longer-term queue/security/hosting monitoring remains necessary.
+
+## 9. Additional URL-generation and SEO review — no changes applied
+
+### Current native settings and actual URL evidence
+
+AIOSEO Search Appearance: Products shown in search, title Product Title + separator + Site Title, description Product Short Description. Product schema default is **Web Page → Item Page**. Final HTML confirms all24 product URLs have no Product schema, matching the prior Ahrefs finding. Do not confuse the homepage's unrelated Product schema with catalogue Product markup.
+
+Taxonomies: post Categories Yes; post Tags No; Product Brands No; Product Categories Yes; Product Tags No; Product Attributes No. XML sitemap enabled with indexes; Include All post types/taxonomies on, but AIOSEO explicitly omits the taxonomies disabled from search. Date/author archives disabled. Products24 and product categories3 are present. No sitemap or metadata save.
+
+Filter Everything PRO1.9.8: AJAX on, results container `#shop-results`; mobile collapsed/expanded with sidebar on top. **Disable filter links for crawlers on** (anchor→span protection); **Block filter URLs in robots.txt off**. The displayed proposed robots text includes all five product prefixes **and both Case Studies prefixes**. It is a generated preview, not proof those directives are active. Enabling it wholesale would affect Case Studies, and has not been authorized. Existing SEO indexed-filter/depth restrictions from the original audit remain; no Filter Everything save.
+
+Observed URL families:
+- Single category facet duplicates a valuable category archive in intent; brand facet duplicates a brand archive; attributes subdivide small existing product sets. Multi-select OR values and cross-category combinations can grow far beyond24 products; real queue examples combine mounts/TV, unrelated brands and multiple display types.
+- Facets also appear underneath `/shop/embed/`, `/product-category/tv/`, `/brand/sunbrite/` and `/brand/sanus/` in actual security events. These are observed requests, not evidence that all are linked or useful. Valid filters must remain available to visitors.
+- Existing sampled mount/audio facet responses are noindex with canonical Shop. Category/brand/display direct GETs may be challenged before origin, so their origin directives cannot universally be certified from those GETs. All five visitor AJAX interactions did work.
+- `/shop/?orderby=price` and `/shop/?min_price=100` are200, canonical Shop, no noindex. Canonical is a consolidation signal, not a crawl prohibition. Do not extrapolate this to every possible parameter or claim an indexed-URL count without Index Coverage data.
+- Shop page2 duplicate is documented above. Case page2 contains different useful cards; keep its existing separate policy.
+
+### Concrete recommendations presented for owner review
+
+| Exact scope | Proposed decision | Evidence, risk and rollback |
+|---|---|---|
+| `/product/<existing-slug>/` (the24 URLs in inventory) and `/product-category/{tv,audio,mounts}/` | **Keep** current indexability, self-canonicals and sitemap inclusion. No change requested. | Valuable destination pages; no basis for blanket noindex. |
+| Any observed product facet segment `product_category_filter-`, `product_brand-`, `product_display_type-`, `product_mount_type-`, `product_audio_type-` under Shop/category/brand | **Retain existing noindex/base canonical policy**, crawler-link protection and new preload exclusions. Do not enable global robots blocking now. | Low-value combinatorial sets; noindex requires crawler access to be seen. A Cloudflare block can prevent reading the directive. Need verified origin-head coverage before any policy change; preserve visitor AJAX. |
+| `/shop/?orderby=price`, `/shop/?min_price=100` | **Keep canonical Shop now**; no new noindex or robots change proposed on two samples alone. | Need actual linked/query traffic and broader parameter evidence first. Do not blanket-block every query, UTM or search parameter. |
+| AIOSEO Product schema default for the24 existing product URLs | Future separately approved native change: **Web Page / Item Page → Product**, after verifying truthful catalogue fields/offers. | Missing Product markup confirmed24/24. “Starting at” request pricing must not be misrepresented as an immediately purchasable offer; no invented availability/reviews. Rollback restore Web Page/Item Page, save and clear native cache; verify original graph. Not implemented (P3). |
+| Brands, Tags, Attributes | **Keep existing No/search exclusion and sitemap omission.** | Already prevents those archive families from being promoted into the sitemap; does not stop filter URL generation. |
+| `case-installation-`, `case-city-`, catalogue and16 case posts | **No change.** | Separate approved Case Studies release/pagination/facet policies; excluded from the new Rocket patterns. |
+
+There is therefore **no pending indexing/robots/canonical/sitemap mutation in this implementation**. Any later alteration requires an exact diff, affected URL examples and owner authorization first. No rank/indexing preservation guarantee is inferred from short-term HTTP tests; GSC coverage/crawl data and comparable time windows remain missing.
+
+## 10. Cloudflare coordination and restriction review — no changes applied
+
+Reviewed the [11November security report](CLOUDFLARE-BOT-REMEDIATION-2026-11-11.md) and Issue history before interpreting current API reads. Preserved the existing owner-only zone IPv4 exception; private address omitted. That report documented capped daily samples and unverified home-browser success, so its event counts are not whole-traffic false-positive rates.
+
+Current custom ruleset `80f45448e225460db730c72bb28e3ebf`, version4, last updated11September, has:
+1. `a82a51d8352642d09a006b057b82dece` Managed Challenge:
+```text
+(path contains "product_category_filter"
+ or path contains "/product_brand-"
+ or path contains "/product_display_type-")
+and not cf.client.bot
+and method ne "POST"
+```
+2. `a9140a1de39d4d88ad8e211aefbd4c9b` Block:
+```text
+path contains "product_category_filter" and cf.client.bot
+```
+
+These rules use mutually exclusive verified-bot conditions, so they are not duplicate matches. Their scope is asymmetric: verified-bot block covers category-facet paths only; unverified challenge covers three of five product prefixes. Both use broad path-contains checks, including nested category/brand/embed requests. No scope expansion or narrowing was applied.
+
+Bot Fight Mode true/JS detections true; existing BIC on/security medium retained. Managed Free WAF and automatic L7 DDoS rulesets present. Zone rate-limit phase entrypoint404; legacy rate-limit endpoint410/deprecated. No custom zone rate-limit entrypoint found; this does not establish absence of account-level/automatic protections. Managed phase entrypoint404 does **not** mean WAF off: managed rulesets and actual block events exist.
+
+### Actual security evidence and identity limits
+
+Read-only Cloudflare [sanitized evidence](P1-2026-11-13-cloudflare.json), window12November19:00Z–13November19:00Z:
+- Verified facet block rule:131 events below query cap, all Amzn-SearchBot UA, origin0. The rule requires `cf.client.bot`, providing Cloudflare verified classification beyond the spoofable UA. Contexts106 Shop/embed,22 category/TV,2brand/Sunbrite,1brand/Sanus; all category-facet combinations. This is intentional denial to a legitimate verified crawler on nonvaluable combinations, not proof of malicious traffic.
+- Googlebot-UA and Bingbot-UA targeted queries returned0 security events. **Absence from Security Events is not proof of successful crawling**; allowed traffic may be missing, and a UA alone does not authenticate identity.
+- Bot Fight Mode query294 events below cap. Many random PHP-path probes consistent with scanning, but also normal service/city pages, homepage8, Shop1, Case catalogue1 and one Samsung Terrace product challenge. No independently established human identity or confirmed Google/Bing/Rocket identity for this subset. A normal URL alone does not establish a false positive.
+- Targeted valuable-path security query29 events:19 managed-WAF homepage blocks/origin0;8 BFM homepage challenges,1 Shop,1 Case catalogue. No sampled three-category/Sanus/quote events; not a universal accessibility guarantee. Origin0 identifies edge intervention, not a Woo origin fault.
+- Original audit17:55–18:00Z180events/156Rocket-UA versus checkpoint18:55–19:00Z5events/1Rocket-UA (2challenge+3block, all origin0). The latter overlaps cache clear and is not a controlled post-only interval. Do not infer CPU, security or speed improvement from these unequal work windows.
+
+Rocket UA is spoofable; no broad UA/IP/ASN allowlist is justified. Excluding needless preload work at source resolves the demonstrated coordination issue without weakening WAF. Visitor AJAX uses POST, already excluded by the custom challenge expression; real five-filter anonymous tests succeeded. Direct filtered GETs can still challenge visitors or deny verified bots; no claim that every direct filter landing is frictionless.
+
+### Security recommendation / approval boundary
+
+**Retain existing protections for now; no Cloudflare rule-change proposal is ready for implementation.** Evidence establishes blocked verified Amzn facet crawling and historical Rocket friction, but not Google/Bing denial on valuable core pages or confirmed human false positives. BFM challenge observations on normal pages warrant follow-up with actual visitor Ray IDs, challenge outcome and verified crawler/access logs before deciding on a narrow exception. Do not allow by crawler UA, disable BFM globally, extend blocks to all parameters, or broaden the existing owner exception.
+
+If a specific false positive is later confirmed, present the exact rule expression/action/order diff, affected paths and verified identities, expected security loss, test plan and rollback to the captured ruleset before saving. BFM runs outside the custom-WAF Skip pipeline; a custom Skip is not a universal BFM exemption ([official behavior](https://developers.cloudflare.com/bots/get-started/bot-fight-mode/)). Current rollback for this task concerns only the two WordPress controls above; Cloudflare requires none because it was not changed.
+
+Remaining limitations: no complete edge access logs/crawl coverage, no reliable false-positive denominator, no authenticated identity for Rocket-UA events, no controlled long-term hosting comparison, no real form submission/booking, hidden reset-all UI and pre-existing Shop pagination defect. Security and SEO recommendations remain recorded for a separate owner decision; Issue#1 stays open.

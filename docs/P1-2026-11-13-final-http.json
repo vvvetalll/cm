@@ -1,0 +1,2803 @@
+[
+  {
+    "url": "https://chicagomounting.com/",
+    "final": "https://chicagomounting.com/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "AggregateRating",
+      "Answer",
+      "Brand",
+      "BreadcrumbList",
+      "FAQPage",
+      "HomeAndConstructionBusiness",
+      "ImageObject",
+      "ListItem",
+      "OpeningHoursSpecification",
+      "Organization",
+      "Person",
+      "Product",
+      "QuantitativeValue",
+      "Question",
+      "Rating",
+      "Review",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/shop/",
+    "final": "https://chicagomounting.com/shop/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/shop/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 199.00",
+      "$ 1,699.00",
+      "$ 3,129.00",
+      "$ 429.00",
+      "$ 169.00",
+      "$ 169.00",
+      "$ 1,499.00",
+      "$ 499.00",
+      "$ 1,099.00",
+      "$ 1,999.00",
+      "$ 3,599.00",
+      "$ 1,199.00",
+      "$ 2,399.00",
+      "$ 2,999.00",
+      "$ 999.00",
+      "$ 1,399.00"
+    ],
+    "productLinks": [
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/",
+      "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/",
+      "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/",
+      "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/tv-installation-and-mounting/",
+    "final": "https://chicagomounting.com/tv-installation-and-mounting/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/tv-installation-and-mounting/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "AggregateRating",
+      "Answer",
+      "Brand",
+      "BreadcrumbList",
+      "FAQPage",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "Product",
+      "QuantitativeValue",
+      "Question",
+      "Rating",
+      "Review",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 1,699.00",
+      "$ 3,129.00",
+      "$ 2,399.00",
+      "$ 2,999.00"
+    ],
+    "productLinks": [
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/tv-installation-in-winnetka/",
+    "final": "https://chicagomounting.com/tv-installation-in-winnetka/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/tv-installation-in-winnetka/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "AggregateRating",
+      "Answer",
+      "Brand",
+      "BreadcrumbList",
+      "FAQPage",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "Product",
+      "QuantitativeValue",
+      "Question",
+      "Rating",
+      "Review",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 3,129.00",
+      "$ 1,999.00",
+      "$ 3,599.00",
+      "$ 2,999.00"
+    ],
+    "productLinks": [
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/case-studies/",
+    "final": "https://chicagomounting.com/case-studies/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/case-studies/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "AggregateRating",
+      "Brand",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "Product",
+      "QuantitativeValue",
+      "Rating",
+      "Review",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/blog/",
+    "final": "https://chicagomounting.com/blog/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/blog/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/quote/",
+    "final": "https://chicagomounting.com/quote/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/quote/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product-category/tv/",
+    "final": "https://chicagomounting.com/product-category/tv/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product-category/tv/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 999.00",
+      "$ 1,399.00",
+      "$ 999.00",
+      "$ 1,899.00",
+      "$ 3,129.00",
+      "$ 1,699.00",
+      "$ 2,849.00",
+      "$ 1,199.00",
+      "$ 1,199.00",
+      "$ 2,199.00",
+      "$ 1,899.00",
+      "$ 899.00",
+      "$ 1,199.00",
+      "$ 1,999.00",
+      "$ 3,599.00",
+      "$ 2,999.00"
+    ],
+    "productLinks": [
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/lg-g6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-s85h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-s90h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-s95f-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-the-frame-pro-neo-qled-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/samsung-the-frame-qled-4k-smart-tv/",
+      "https://chicagomounting.com/product/samsung-the-terrace-outdoor-qled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product-category/audio/",
+    "final": "https://chicagomounting.com/product-category/audio/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product-category/audio/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 1,499.00",
+      "$ 1,099.00",
+      "$ 499.00"
+    ],
+    "productLinks": [
+      "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+      "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/",
+      "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product-category/mounts/",
+    "final": "https://chicagomounting.com/product-category/mounts/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product-category/mounts/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 199.00",
+      "$ 169.00",
+      "$ 429.00",
+      "$ 169.00"
+    ],
+    "productLinks": [
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/brand/samsung/",
+    "final": "https://chicagomounting.com/brand/samsung/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/brand/samsung/"
+    ],
+    "robots": [
+      "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 199.00",
+      "$ 1,699.00",
+      "$ 3,129.00",
+      "$ 429.00",
+      "$ 169.00",
+      "$ 169.00",
+      "$ 1,499.00",
+      "$ 499.00",
+      "$ 1,099.00",
+      "$ 1,999.00",
+      "$ 3,599.00",
+      "$ 1,199.00",
+      "$ 2,399.00",
+      "$ 2,999.00",
+      "$ 999.00",
+      "$ 1,399.00"
+    ],
+    "productLinks": [
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/",
+      "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/",
+      "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/",
+      "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/shop/page/2/",
+    "final": "https://chicagomounting.com/shop/page/2/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/shop/"
+    ],
+    "robots": [
+      "noindex, nofollow, max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 199.00",
+      "$ 1,699.00",
+      "$ 3,129.00",
+      "$ 429.00",
+      "$ 169.00",
+      "$ 169.00",
+      "$ 1,499.00",
+      "$ 499.00",
+      "$ 1,099.00",
+      "$ 1,999.00",
+      "$ 3,599.00",
+      "$ 1,199.00",
+      "$ 2,399.00",
+      "$ 2,999.00",
+      "$ 999.00",
+      "$ 1,399.00"
+    ],
+    "productLinks": [
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/",
+      "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/",
+      "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/",
+      "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/case-studies/2/",
+    "final": "https://chicagomounting.com/case-studies/2/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/case-studies/2/"
+    ],
+    "robots": [
+      "noindex, nofollow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "AggregateRating",
+      "Brand",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "Product",
+      "QuantitativeValue",
+      "Rating",
+      "Review",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/shop/product_mount_type-tilt/",
+    "final": "https://chicagomounting.com/shop/product_mount_type-tilt/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/shop/"
+    ],
+    "robots": [
+      "max-image-preview:large",
+      "noindex, follow"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 199.00",
+      "$ 169.00",
+      "$ 169.00"
+    ],
+    "productLinks": [
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/shop/product_audio_type-soundbar/",
+    "final": "https://chicagomounting.com/shop/product_audio_type-soundbar/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/shop/"
+    ],
+    "robots": [
+      "max-image-preview:large",
+      "noindex, follow"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 1,499.00",
+      "$ 499.00",
+      "$ 1,099.00"
+    ],
+    "productLinks": [
+      "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+      "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/",
+      "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/shop/?orderby=price",
+    "final": "https://chicagomounting.com/shop/?orderby=price",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/shop/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 199.00",
+      "$ 1,699.00",
+      "$ 3,129.00",
+      "$ 429.00",
+      "$ 169.00",
+      "$ 169.00",
+      "$ 1,499.00",
+      "$ 499.00",
+      "$ 1,099.00",
+      "$ 1,999.00",
+      "$ 3,599.00",
+      "$ 1,199.00",
+      "$ 2,399.00",
+      "$ 2,999.00",
+      "$ 999.00",
+      "$ 1,399.00"
+    ],
+    "productLinks": [
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/",
+      "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/",
+      "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/",
+      "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/shop/?min_price=100",
+    "final": "https://chicagomounting.com/shop/?min_price=100",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/shop/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 199.00",
+      "$ 1,699.00",
+      "$ 3,129.00",
+      "$ 429.00",
+      "$ 169.00",
+      "$ 169.00",
+      "$ 1,499.00",
+      "$ 499.00",
+      "$ 1,099.00",
+      "$ 1,999.00",
+      "$ 3,599.00",
+      "$ 1,199.00",
+      "$ 2,399.00",
+      "$ 2,999.00",
+      "$ 999.00",
+      "$ 1,399.00"
+    ],
+    "productLinks": [
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/",
+      "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/",
+      "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/",
+      "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/sitemap.xml",
+    "final": "https://chicagomounting.com/sitemap.xml",
+    "status": 200,
+    "canonical": [],
+    "robots": [],
+    "xRobots": "noindex, follow",
+    "cfMitigated": null,
+    "wooAssets": [],
+    "attribution": 0,
+    "schemaTypes": [],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": [
+      "https://chicagomounting.com/post-sitemap.xml",
+      "https://chicagomounting.com/page-sitemap.xml",
+      "https://chicagomounting.com/product-sitemap.xml",
+      "https://chicagomounting.com/category-sitemap.xml",
+      "https://chicagomounting.com/product_cat-sitemap.xml"
+    ]
+  },
+  {
+    "url": "https://chicagomounting.com/product-sitemap.xml",
+    "final": "https://chicagomounting.com/product-sitemap.xml",
+    "status": 200,
+    "canonical": [],
+    "robots": [],
+    "xRobots": "noindex, follow",
+    "cfMitigated": null,
+    "wooAssets": [],
+    "attribution": 0,
+    "schemaTypes": [],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": [
+      "https://chicagomounting.com/product/samsung-the-frame-qled-4k-smart-tv/",
+      "https://chicagomounting.com/product/samsung-the-frame-pro-neo-qled-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/samsung-s95f-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/",
+      "https://chicagomounting.com/product/lg-g6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+      "https://chicagomounting.com/product/samsung-the-terrace-outdoor-qled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/",
+      "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/",
+      "https://chicagomounting.com/product/samsung-s85h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/",
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "https://chicagomounting.com/product/samsung-s90h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+      "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/"
+    ]
+  },
+  {
+    "url": "https://chicagomounting.com/product_cat-sitemap.xml",
+    "final": "https://chicagomounting.com/product_cat-sitemap.xml",
+    "status": 200,
+    "canonical": [],
+    "robots": [],
+    "xRobots": "noindex, follow",
+    "cfMitigated": null,
+    "wooAssets": [],
+    "attribution": 0,
+    "schemaTypes": [],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": [
+      "https://chicagomounting.com/product-category/tv/",
+      "https://chicagomounting.com/product-category/audio/",
+      "https://chicagomounting.com/product-category/mounts/"
+    ]
+  },
+  {
+    "url": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+    "final": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 199.00",
+      "$ 429.00",
+      "$ 169.00",
+      "$ 169.00"
+    ],
+    "productLinks": [
+      "/product/sanus-outdoor-tilt-mount/?add-to-cart=10659",
+      "/product/sanus-outdoor-tilt-mount/?add-to-cart=10671",
+      "/product/sanus-outdoor-tilt-mount/?add-to-cart=10682",
+      "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+    "final": "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 1,699.00",
+      "$ 1,999.00",
+      "$ 1,199.00",
+      "$ 999.00",
+      "$ 1,899.00"
+    ],
+    "productLinks": [
+      "/product/neptune-nt553-partial-sun-4k/?add-to-cart=10484",
+      "/product/neptune-nt553-partial-sun-4k/?add-to-cart=10505",
+      "/product/neptune-nt553-partial-sun-4k/?add-to-cart=10550",
+      "/product/neptune-nt553-partial-sun-4k/?add-to-cart=10577",
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/lg-g6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/neptune-full-sun-4k/",
+    "final": "https://chicagomounting.com/product/neptune-full-sun-4k/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/neptune-full-sun-4k/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 3,129.00",
+      "$ 1,199.00",
+      "$ 2,999.00",
+      "$ 1,199.00",
+      "$ 1,899.00"
+    ],
+    "productLinks": [
+      "/product/neptune-full-sun-4k/?add-to-cart=10439",
+      "/product/neptune-full-sun-4k/?add-to-cart=10461",
+      "/product/neptune-full-sun-4k/?add-to-cart=10522",
+      "/product/neptune-full-sun-4k/?add-to-cart=10550",
+      "https://chicagomounting.com/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-s90h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/",
+    "final": "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 429.00",
+      "$ 199.00",
+      "$ 169.00",
+      "$ 169.00"
+    ],
+    "productLinks": [
+      "/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/?add-to-cart=10659",
+      "/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/?add-to-cart=10671",
+      "/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/?add-to-cart=11217",
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/",
+    "final": "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 169.00",
+      "$ 199.00",
+      "$ 429.00",
+      "$ 169.00"
+    ],
+    "productLinks": [
+      "/product/sanus-vxt7-tilting-tv-wall-mount/?add-to-cart=10659",
+      "/product/sanus-vxt7-tilting-tv-wall-mount/?add-to-cart=10682",
+      "/product/sanus-vxt7-tilting-tv-wall-mount/?add-to-cart=11217",
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+    "final": "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 169.00",
+      "$ 199.00",
+      "$ 429.00",
+      "$ 169.00"
+    ],
+    "productLinks": [
+      "/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/?add-to-cart=10671",
+      "/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/?add-to-cart=10682",
+      "/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/?add-to-cart=11217",
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+    "final": "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 1,499.00",
+      "$ 499.00",
+      "$ 1,099.00"
+    ],
+    "productLinks": [
+      "/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/?add-to-cart=10628",
+      "/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/?add-to-cart=10638",
+      "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/",
+      "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/",
+    "final": "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 499.00",
+      "$ 1,499.00",
+      "$ 1,099.00"
+    ],
+    "productLinks": [
+      "/product/sonos-beam-gen-2-smart-soundbar/?add-to-cart=10628",
+      "/product/sonos-beam-gen-2-smart-soundbar/?add-to-cart=10653",
+      "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+      "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/",
+    "final": "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 1,099.00",
+      "$ 1,499.00",
+      "$ 499.00"
+    ],
+    "productLinks": [
+      "/product/sonos-arc-ultra-premium-smart-soundbar/?add-to-cart=10638",
+      "/product/sonos-arc-ultra-premium-smart-soundbar/?add-to-cart=10653",
+      "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+      "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+    "final": "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 1,999.00",
+      "$ 1,699.00",
+      "$ 3,129.00",
+      "$ 1,899.00",
+      "$ 2,849.00"
+    ],
+    "productLinks": [
+      "/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/?add-to-cart=10396",
+      "/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/?add-to-cart=10484",
+      "/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/?add-to-cart=11202",
+      "/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/?add-to-cart=11214",
+      "https://chicagomounting.com/product/lg-g6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/samsung-the-terrace-outdoor-qled-4k-smart-tv-2025/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+    "final": "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 3,599.00",
+      "$ 1,999.00",
+      "$ 2,399.00",
+      "$ 1,899.00",
+      "$ 899.00"
+    ],
+    "productLinks": [
+      "/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/?add-to-cart=10268",
+      "/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/?add-to-cart=10439",
+      "/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/?add-to-cart=10537",
+      "/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/?add-to-cart=10577",
+      "https://chicagomounting.com/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-the-frame-qled-4k-smart-tv/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+    "final": "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 1,199.00",
+      "$ 1,699.00",
+      "$ 999.00",
+      "$ 1,899.00",
+      "$ 999.00"
+    ],
+    "productLinks": [
+      "/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/?add-to-cart=10308",
+      "/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/?add-to-cart=10439",
+      "/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/?add-to-cart=10505",
+      "/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/?add-to-cart=11214",
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-the-frame-pro-neo-qled-4k-smart-tv-2026/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/",
+    "final": "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 2,399.00",
+      "$ 3,129.00",
+      "$ 2,999.00",
+      "$ 1,899.00",
+      "$ 2,199.00"
+    ],
+    "productLinks": [
+      "/product/sunbrite-veranda-4-outdoor-smart-tv/?add-to-cart=10363",
+      "/product/sunbrite-veranda-4-outdoor-smart-tv/?add-to-cart=10439",
+      "/product/sunbrite-veranda-4-outdoor-smart-tv/?add-to-cart=10522",
+      "/product/sunbrite-veranda-4-outdoor-smart-tv/?add-to-cart=11202",
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-s95f-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+    "final": "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 2,999.00",
+      "$ 1,699.00",
+      "$ 2,399.00",
+      "$ 1,199.00",
+      "$ 1,899.00"
+    ],
+    "productLinks": [
+      "/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/?add-to-cart=10439",
+      "/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/?add-to-cart=10454",
+      "/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/?add-to-cart=10537",
+      "/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/?add-to-cart=11214",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-s85h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+    "final": "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 999.00",
+      "$ 1,199.00",
+      "$ 2,999.00",
+      "$ 1,199.00",
+      "$ 2,199.00"
+    ],
+    "productLinks": [
+      "/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/?add-to-cart=10363",
+      "/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/?add-to-cart=10454",
+      "/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/?add-to-cart=10522",
+      "/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/?add-to-cart=10550",
+      "https://chicagomounting.com/product/samsung-s85h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-s95f-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/",
+    "final": "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 1,399.00",
+      "$ 3,129.00",
+      "$ 1,999.00",
+      "$ 999.00",
+      "$ 1,199.00"
+    ],
+    "productLinks": [
+      "/product/lg-g5-oled-evo-4k-smart-tv-2025/?add-to-cart=10454",
+      "/product/lg-g5-oled-evo-4k-smart-tv-2025/?add-to-cart=10505",
+      "/product/lg-g5-oled-evo-4k-smart-tv-2025/?add-to-cart=10577",
+      "/product/lg-g5-oled-evo-4k-smart-tv-2025/?add-to-cart=11202",
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/samsung-s85h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/lg-g6-oled-evo-ai-4k-smart-tv-2026/",
+    "final": "https://chicagomounting.com/product/lg-g6-oled-evo-ai-4k-smart-tv-2026/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/lg-g6-oled-evo-ai-4k-smart-tv-2026/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 1,899.00",
+      "$ 1,199.00",
+      "$ 2,849.00",
+      "$ 999.00",
+      "$ 899.00"
+    ],
+    "productLinks": [
+      "/product/lg-g6-oled-evo-ai-4k-smart-tv-2026/?add-to-cart=10268",
+      "/product/lg-g6-oled-evo-ai-4k-smart-tv-2026/?add-to-cart=10308",
+      "/product/lg-g6-oled-evo-ai-4k-smart-tv-2026/?add-to-cart=10396",
+      "/product/lg-g6-oled-evo-ai-4k-smart-tv-2026/?add-to-cart=10461",
+      "https://chicagomounting.com/product/samsung-s90h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-the-frame-pro-neo-qled-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/samsung-the-frame-qled-4k-smart-tv/",
+      "https://chicagomounting.com/product/samsung-the-terrace-outdoor-qled-4k-smart-tv-2025/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/samsung-s90h-oled-4k-smart-tv-2025/",
+    "final": "https://chicagomounting.com/product/samsung-s90h-oled-4k-smart-tv-2025/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/samsung-s90h-oled-4k-smart-tv-2025/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 1,199.00",
+      "$ 1,999.00",
+      "$ 3,599.00",
+      "$ 1,199.00",
+      "$ 1,399.00"
+    ],
+    "productLinks": [
+      "/product/samsung-s90h-oled-4k-smart-tv-2025/?add-to-cart=10493",
+      "/product/samsung-s90h-oled-4k-smart-tv-2025/?add-to-cart=10550",
+      "/product/samsung-s90h-oled-4k-smart-tv-2025/?add-to-cart=10565",
+      "/product/samsung-s90h-oled-4k-smart-tv-2025/?add-to-cart=10577",
+      "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/samsung-s85h-oled-4k-smart-tv-2025/",
+    "final": "https://chicagomounting.com/product/samsung-s85h-oled-4k-smart-tv-2025/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/samsung-s85h-oled-4k-smart-tv-2025/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 1,199.00",
+      "$ 2,399.00",
+      "$ 1,399.00",
+      "$ 1,199.00",
+      "$ 1,899.00"
+    ],
+    "productLinks": [
+      "/product/samsung-s85h-oled-4k-smart-tv-2025/?add-to-cart=10439",
+      "/product/samsung-s85h-oled-4k-smart-tv-2025/?add-to-cart=10461",
+      "/product/samsung-s85h-oled-4k-smart-tv-2025/?add-to-cart=10493",
+      "/product/samsung-s85h-oled-4k-smart-tv-2025/?add-to-cart=10537",
+      "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-s90h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/",
+    "final": "https://chicagomounting.com/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 1,899.00",
+      "$ 1,699.00",
+      "$ 1,999.00",
+      "$ 1,199.00",
+      "$ 899.00"
+    ],
+    "productLinks": [
+      "/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/?add-to-cart=10268",
+      "/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/?add-to-cart=10461",
+      "/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/?add-to-cart=10577",
+      "/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/?add-to-cart=11214",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/samsung-s90h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-the-frame-qled-4k-smart-tv/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/samsung-the-terrace-outdoor-qled-4k-smart-tv-2025/",
+    "final": "https://chicagomounting.com/product/samsung-the-terrace-outdoor-qled-4k-smart-tv-2025/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/samsung-the-terrace-outdoor-qled-4k-smart-tv-2025/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 2,849.00",
+      "$ 3,129.00",
+      "$ 1,999.00",
+      "$ 999.00",
+      "$ 1,199.00"
+    ],
+    "productLinks": [
+      "/product/samsung-the-terrace-outdoor-qled-4k-smart-tv-2025/?add-to-cart=10454",
+      "/product/samsung-the-terrace-outdoor-qled-4k-smart-tv-2025/?add-to-cart=10505",
+      "/product/samsung-the-terrace-outdoor-qled-4k-smart-tv-2025/?add-to-cart=10577",
+      "/product/samsung-the-terrace-outdoor-qled-4k-smart-tv-2025/?add-to-cart=11202",
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/samsung-s85h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/samsung-s95f-oled-4k-smart-tv-2025/",
+    "final": "https://chicagomounting.com/product/samsung-s95f-oled-4k-smart-tv-2025/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/samsung-s95f-oled-4k-smart-tv-2025/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 2,199.00",
+      "$ 1,699.00",
+      "$ 2,399.00",
+      "$ 1,199.00",
+      "$ 999.00"
+    ],
+    "productLinks": [
+      "/product/samsung-s95f-oled-4k-smart-tv-2025/?add-to-cart=10308",
+      "/product/samsung-s95f-oled-4k-smart-tv-2025/?add-to-cart=10461",
+      "/product/samsung-s95f-oled-4k-smart-tv-2025/?add-to-cart=10537",
+      "/product/samsung-s95f-oled-4k-smart-tv-2025/?add-to-cart=11214",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/samsung-s90h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-the-frame-pro-neo-qled-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/samsung-the-frame-pro-neo-qled-4k-smart-tv-2026/",
+    "final": "https://chicagomounting.com/product/samsung-the-frame-pro-neo-qled-4k-smart-tv-2026/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/samsung-the-frame-pro-neo-qled-4k-smart-tv-2026/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 999.00",
+      "$ 1,999.00",
+      "$ 3,599.00",
+      "$ 1,199.00",
+      "$ 899.00"
+    ],
+    "productLinks": [
+      "/product/samsung-the-frame-pro-neo-qled-4k-smart-tv-2026/?add-to-cart=10268",
+      "/product/samsung-the-frame-pro-neo-qled-4k-smart-tv-2026/?add-to-cart=10454",
+      "/product/samsung-the-frame-pro-neo-qled-4k-smart-tv-2026/?add-to-cart=10565",
+      "/product/samsung-the-frame-pro-neo-qled-4k-smart-tv-2026/?add-to-cart=10577",
+      "https://chicagomounting.com/product/samsung-s85h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-the-frame-qled-4k-smart-tv/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/product/samsung-the-frame-qled-4k-smart-tv/",
+    "final": "https://chicagomounting.com/product/samsung-the-frame-qled-4k-smart-tv/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/product/samsung-the-frame-qled-4k-smart-tv/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ItemPage",
+      "ListItem",
+      "Organization",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [
+      "$ 899.00",
+      "$ 1,999.00",
+      "$ 2,399.00",
+      "$ 999.00",
+      "$ 1,899.00"
+    ],
+    "productLinks": [
+      "/product/samsung-the-frame-qled-4k-smart-tv/?add-to-cart=10484",
+      "/product/samsung-the-frame-qled-4k-smart-tv/?add-to-cart=10505",
+      "/product/samsung-the-frame-qled-4k-smart-tv/?add-to-cart=10537",
+      "/product/samsung-the-frame-qled-4k-smart-tv/?add-to-cart=10577",
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/lg-g6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/"
+    ],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+    "final": "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+    "final": "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+    "final": "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+    "final": "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+    "final": "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+    "final": "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+    "final": "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+    "final": "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+    "final": "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/77-inch-lg-g6-with-a-legrand-recessed-media-box/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+    "final": "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/55-inch-samsung-oled-on-tile-with-mantelmount-max1/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+    "final": "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/77-inch-lg-c6-and-samsung-q990h-soundbar-installation/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+    "final": "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/",
+    "final": "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/85-inch-samsung-neo-qled-installation-evanston/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/",
+    "final": "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/outdoor-tv-brick-installation-glenview/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/tv-wall-mounting-case-wilmette/",
+    "final": "https://chicagomounting.com/tv-wall-mounting-case-wilmette/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/tv-wall-mounting-case-wilmette/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  },
+  {
+    "url": "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/",
+    "final": "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/",
+    "status": 200,
+    "canonical": [
+      "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "xRobots": null,
+    "cfMitigated": null,
+    "wooAssets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+    ],
+    "attribution": 0,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "QuantitativeValue",
+      "WebPage",
+      "WebSite"
+    ],
+    "prices": [],
+    "productLinks": [],
+    "cookieNames": [],
+    "sitemapURLs": []
+  }
+]

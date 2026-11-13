@@ -1,0 +1,171 @@
+[
+  {
+    "url": "https://chicagomounting.com/",
+    "status": 200,
+    "attribution": 2,
+    "wooAssets": 6,
+    "canonical": [
+      "https://chicagomounting.com/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "assets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0"
+    ]
+  },
+  {
+    "url": "https://chicagomounting.com/shop/",
+    "status": 200,
+    "attribution": 2,
+    "wooAssets": 8,
+    "canonical": [
+      "https://chicagomounting.com/shop/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "assets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0"
+    ]
+  },
+  {
+    "url": "https://chicagomounting.com/tv-installation-and-mounting/",
+    "status": 200,
+    "attribution": 2,
+    "wooAssets": 6,
+    "canonical": [
+      "https://chicagomounting.com/tv-installation-and-mounting/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "assets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0"
+    ]
+  },
+  {
+    "url": "https://chicagomounting.com/tv-installation-in-winnetka/",
+    "status": 200,
+    "attribution": 2,
+    "wooAssets": 6,
+    "canonical": [
+      "https://chicagomounting.com/tv-installation-in-winnetka/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "assets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0"
+    ]
+  },
+  {
+    "url": "https://chicagomounting.com/case-studies/",
+    "status": 200,
+    "attribution": 2,
+    "wooAssets": 8,
+    "canonical": [
+      "https://chicagomounting.com/case-studies/"
+    ],
+    "robots": [
+      "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ],
+    "assets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0"
+    ]
+  },
+  {
+    "url": "https://chicagomounting.com/blog/",
+    "status": 200,
+    "attribution": 2,
+    "wooAssets": 6,
+    "canonical": [
+      "https://chicagomounting.com/blog/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "assets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0"
+    ]
+  },
+  {
+    "url": "https://chicagomounting.com/quote/",
+    "status": 200,
+    "attribution": 2,
+    "wooAssets": 6,
+    "canonical": [
+      "https://chicagomounting.com/quote/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "assets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0"
+    ]
+  },
+  {
+    "url": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+    "status": 200,
+    "attribution": 2,
+    "wooAssets": 11,
+    "canonical": [
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "assets": [
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+      "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0"
+    ]
+  }
+]

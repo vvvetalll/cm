@@ -1,4 +1,10 @@
 # SEO-звіт — точка продовження
+## 2026-11-13 — P1 виконано, SEO/Cloudflare лише перевірено
+
+Нативні виключення preload для п’яти товарних фасетів та Order Attribution off збережено окремо.24товари/3категорії/17Case Studies об’єктів залишилися200/indexable/self-canonical; sitemap24/3. AIOSEO вже виключає Brands/Tags/Attributes; Products default WebPage→ItemPage, Product schema відсутня24/24. Filter Everything: AJAX/crawler link protection увімкнені, robots blocking вимкнений; автоматично запропоновані robots правила зачіпали б і Case Studies, тому не застосовані. Збережено чинні noindex/canonical політики; жодного SEO save.
+
+Cloudflare rulesetv4/BFM/WAF/виняток власника збережені.131 verified Amzn-SearchBot blocks на facet-комбінаціях; Google/Bing0 подій не доводить успішний crawl. Нормальні URL у BFM challenge подіях потребують ідентифікації відвідувача/Ray/outcome перед висновком про false positives. Точні рекомендації, URL patterns, ризики, rollback та обмеження: [розділи8–10 чинного звіту](../docs/WOOCOMMERCE-AUDIT-2026-11-13.md). Зміни індексації/robots/canonical/sitemap/Cloudflare потребують попереднього показу власнику й дозволу. Shop page2 дублює16товарів ще до P1; не виправлялося. Не заявляти збереження позицій або CPU/speed виграш без вимірів.
+
 ## 2026-11-13 — Поточний аудит товарного каталогу
 
 Read-only: усі24 товарні URL, Shop і три категорії200/indexable/self-canonical; товари/категорії в XML sitemaps. Sample mount facet200/noindex,follow/canonicalShop; category/brand facets anonymous403 Cloudflare challenge, тому їх origin head не перевірено. Orderby/min_price canonicalShop; Shop page2noindex,nofollow/canonicalShop. Політики не змінено, Case Studies release збережено.
