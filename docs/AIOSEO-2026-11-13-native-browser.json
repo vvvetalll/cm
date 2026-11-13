@@ -1,0 +1,305 @@
+{
+  "productDefault": "Products\nTitle & Description\nSchema Markup\nCustom Fields\nAdvanced\nSchema Type\nWeb Page\nWeb Page Type\nItem Page",
+  "taxonomies": [
+    {
+      "id": "aioseo-card-categorySA",
+      "selected": [
+        {
+          "id": "id_categoryShowInSearch_1",
+          "text": "Yes"
+        }
+      ]
+    },
+    {
+      "id": "aioseo-card-post_tagSA",
+      "selected": [
+        {
+          "id": "id_post_tagShowInSearch_0",
+          "text": "No"
+        }
+      ]
+    },
+    {
+      "id": "aioseo-card-product_brandSA",
+      "selected": [
+        {
+          "id": "id_product_brandShowInSearch_0",
+          "text": "No"
+        }
+      ]
+    },
+    {
+      "id": "aioseo-card-product_catSA",
+      "selected": [
+        {
+          "id": "id_product_catShowInSearch_1",
+          "text": "Yes"
+        }
+      ]
+    },
+    {
+      "id": "aioseo-card-product_tagSA",
+      "selected": [
+        {
+          "id": "id_product_tagShowInSearch_0",
+          "text": "No"
+        }
+      ]
+    },
+    {
+      "id": "aioseo-card-product_attributesSA",
+      "selected": [
+        {
+          "id": "id_product_attributesShowInSearch_0",
+          "text": "No"
+        }
+      ]
+    }
+  ],
+  "indexedFilters": "Help\nFilters Settings\nGeneral\nSEO\nImport/Export\nExperimental\nLicense\nWhat's new 1\nNew release notes available\nURL Prefixes\nIndexed Filters\nIndexing Depth\n\nSpecify the filters which pages should be available for indexing by search engines.\nBesides this you will also need to create SEO Rules to make filter pages available for indexing.\n\nPosts ( post )\n\t\nTags\n\n\t\nInstallation Types\nProducts ( product )\n\t\nProduct Brands\n\n\t\nProduct Categories\n\n\t\nProduct Audio Type\n\n\t\nProduct Display Type\n\n\t\nProduct Mount Type",
+  "depthControls": [
+    {
+      "id": "taxonomy#product_cat",
+      "name": "wpc_filter_permalinks[taxonomy#product_cat]",
+      "type": "text",
+      "value": "product_category_filter"
+    },
+    {
+      "id": "taxonomy#product_brand",
+      "name": "wpc_filter_permalinks[taxonomy#product_brand]",
+      "type": "text",
+      "value": "product_brand"
+    },
+    {
+      "id": "taxonomy#pa_display-type",
+      "name": "wpc_filter_permalinks[taxonomy#pa_display-type]",
+      "type": "text",
+      "value": "product_display_type"
+    },
+    {
+      "id": "taxonomy#pa_mount-type",
+      "name": "wpc_filter_permalinks[taxonomy#pa_mount-type]",
+      "type": "text",
+      "value": "product_mount_type"
+    },
+    {
+      "id": "taxonomy#pa_audio-type",
+      "name": "wpc_filter_permalinks[taxonomy#pa_audio-type]",
+      "type": "text",
+      "value": "product_audio_type"
+    },
+    {
+      "id": "taxonomy#cm_installation_type",
+      "name": "wpc_filter_permalinks[taxonomy#cm_installation_type]",
+      "type": "text",
+      "value": "case-installation"
+    },
+    {
+      "id": "taxonomy#post_tag",
+      "name": "wpc_filter_permalinks[taxonomy#post_tag]",
+      "type": "text",
+      "value": "case-city"
+    },
+    {
+      "id": "post:taxonomy#post_tag",
+      "name": "wpc_seo_rules_settings[post:taxonomy#post_tag]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "post:taxonomy#cm_installation_type",
+      "name": "wpc_seo_rules_settings[post:taxonomy#cm_installation_type]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "product:taxonomy#product_brand",
+      "name": "wpc_seo_rules_settings[product:taxonomy#product_brand]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "product:taxonomy#product_cat",
+      "name": "wpc_seo_rules_settings[product:taxonomy#product_cat]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "product:taxonomy#pa_audio-type",
+      "name": "wpc_seo_rules_settings[product:taxonomy#pa_audio-type]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "product:taxonomy#pa_display-type",
+      "name": "wpc_seo_rules_settings[product:taxonomy#pa_display-type]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "product:taxonomy#pa_mount-type",
+      "name": "wpc_seo_rules_settings[product:taxonomy#pa_mount-type]",
+      "type": "checkbox",
+      "value": false
+    },
+    {
+      "id": "post_index_deep",
+      "name": "wpc_indexing_deep_settings[post_index_deep]",
+      "type": "number",
+      "value": ""
+    },
+    {
+      "id": "product_index_deep",
+      "name": "wpc_indexing_deep_settings[product_index_deep]",
+      "type": "number",
+      "value": ""
+    }
+  ],
+  "tv": {
+    "direct": {
+      "canonical": "https://chicagomounting.com/shop/",
+      "cards": 1,
+      "robots": [
+        "max-image-preview:large",
+        "noindex, follow"
+      ],
+      "url": "https://chicagomounting.com/shop/product_category_filter-tv/?e-page-19cf30b=2"
+    },
+    "afterAjaxFilter": {
+      "robots": [
+        "max-image-preview:large"
+      ],
+      "url": "https://chicagomounting.com/shop/product_category_filter-tv/"
+    },
+    "afterAjaxPage": {
+      "cards": 1,
+      "robots": [
+        "max-image-preview:large",
+        "noindex, follow"
+      ],
+      "url": "https://chicagomounting.com/shop/product_category_filter-tv/?e-page-19cf30b=2"
+    },
+    "network": [
+      {
+        "event": "Network.requestWillBeSent",
+        "type": "XHR",
+        "url": "https://chicagomounting.com/cdn-cgi/rum?",
+        "method": "POST"
+      },
+      {
+        "event": "Network.responseReceived",
+        "type": "XHR",
+        "url": "https://chicagomounting.com/cdn-cgi/rum?",
+        "status": 204
+      },
+      {
+        "event": "Network.requestWillBeSent",
+        "type": "XHR",
+        "url": "https://chicagomounting.com/shop/product_category_filter-tv/",
+        "method": "POST"
+      },
+      {
+        "event": "Network.responseReceived",
+        "type": "XHR",
+        "url": "https://chicagomounting.com/shop/product_category_filter-tv/",
+        "status": 200
+      },
+      {
+        "event": "Network.requestWillBeSent",
+        "type": "Document",
+        "url": "https://chicagomounting.com/shop/product_category_filter-tv/?e-page-19cf30b=2",
+        "method": "GET"
+      },
+      {
+        "event": "Network.responseReceived",
+        "type": "Document",
+        "url": "https://chicagomounting.com/shop/product_category_filter-tv/?e-page-19cf30b=2",
+        "status": 200
+      },
+      {
+        "event": "Network.requestWillBeSent",
+        "type": "XHR",
+        "url": "https://chicagomounting.com/cdn-cgi/rum?",
+        "method": "POST"
+      },
+      {
+        "event": "Network.responseReceived",
+        "type": "XHR",
+        "url": "https://chicagomounting.com/cdn-cgi/rum?",
+        "status": 204
+      }
+    ],
+    "responseRobots": [
+      "<meta name=\"robots\" content=\"max-image-preview:large\" />",
+      "<meta name='robots' content='noindex, follow' />"
+    ]
+  },
+  "filterGeneral": "Help\nFilters Settings\nGeneral\nSEO\nImport/Export\nExperimental\nLicense\nWhat's new 1\nNew release notes available\nMobile devices\nFilters widget on mobile should be\t\nThe same as on a desktop\nCollapsed and expanded\nAppear as a Pop-up\n\nSidebar on top\t\nTry to move the sidebar to the top on mobile devices\nAJAX\nAJAX for Filters\t\nTry to use AJAX\n\nPlease enable this option only after you have ensured that the filtering is working correctly\n\n\nResults container\n\tSelect visually\n\ne.g. #primary or .main-content\n\n\nInstant recount for the «Apply Button» mode\n\t\nInstantly recalculate filter counters in the browser\n\nWhen disabled, Filter Sets in the «Apply Button» mode recalculate counters on the server with an AJAX request on every filter click.\n\nCrawlers and bots\nDisable filter links for crawlers\n\t\n\nReplaces <a> tags with <span> in filters to prevent crawlers from following filter links and overloading your site.\n\n\nBlock filter URLs in robots.txt\n\t\nAdd Disallow rules for all filter URLs to the robots.txt file\n\nTells search engines and other well-behaved crawlers not to request filtering result pages at all. Bots that ignore robots.txt are not affected.\n\n\nRules for robots.txt\t\n\nEnable the option above to add these rules to robots.txt automatically, or copy them into your own robots.txt file.\n\nOther\nWidget Primary Color\t\nSelect Color\n\nFilter Container max height, px\t\nSelected Filters (Chips) integration\t\nWooCommerce archive description\nWooCommerce no products found\nWooCommerce before Shop loop\nWooCommerce before main content\n×\nWooCommerce archive description\n×\nWooCommerce no products found\n\nSelect where to show Chips on your site. Or enter your theme's hooks. For example: before_main_content\n\n\nDebug mode\t\nEnable debugging messages to help to configure filters\n\nEntities whose terms should display in SEO data without forcing lowercasing\n\t\n\nComma-separated entities. E.g. \"pa_brand,product_cat,_stock_status\"\n\n\nPlugin notifications\t\nReceive security alerts, update warnings, usage tips and occasional offers\n\nOnce a day the plugin downloads a small public file from filtereverything.pro. Nothing about your site is sent. Messages appear only on the plugin's own screens, except urgent security alerts.",
+  "productEditorNetwork": [],
+  "filterGeneralControls": [
+    {
+      "id": "mobile_filter_settings",
+      "name": "wpc_filter_settings[mobile_filter_settings]",
+      "value": "<redacted>"
+    },
+    {
+      "id": "bottom_widget_compatibility",
+      "name": "wpc_filter_settings[bottom_widget_compatibility]",
+      "value": false
+    },
+    {
+      "id": "try_move_to_top_sidebar",
+      "name": "wpc_filter_settings[try_move_to_top_sidebar]",
+      "value": true
+    },
+    {
+      "id": "enable_ajax",
+      "name": "wpc_filter_settings[enable_ajax]",
+      "value": true
+    },
+    {
+      "id": "apply_button_instant_recount",
+      "name": "wpc_filter_settings[apply_button_instant_recount]",
+      "value": false
+    },
+    {
+      "id": "disable_filter_links_for_bots",
+      "name": "wpc_filter_settings[disable_filter_links_for_bots]",
+      "value": true
+    },
+    {
+      "id": "robots_txt_block_filters",
+      "name": "wpc_filter_settings[robots_txt_block_filters]",
+      "value": false
+    },
+    {
+      "id": "show_terms_in_content",
+      "name": "wpc_filter_settings[show_terms_in_content][]",
+      "value": "woocommerce_archive_description"
+    },
+    {
+      "id": "widget_debug_messages",
+      "name": "wpc_filter_settings[widget_debug_messages]",
+      "value": false
+    },
+    {
+      "id": "plugin_news",
+      "name": "wpc_filter_settings[plugin_news]",
+      "value": true
+    }
+  ],
+  "productData11217": {
+    "manageStock": false,
+    "regularPrice": "199",
+    "seoMetabox": "AIOSEO Settings\nMove up\nMove down\nShow or hide panel",
+    "sku": "VODLT1-B2",
+    "stockStatus": "instock",
+    "type": "simple"
+  },
+  "advanced": {
+    "useDefaultSettings": true,
+    "crawlCleanup": false,
+    "queryArgMonitoring": false,
+    "source": "Observed native Search Appearance Advanced controls; no toggles changed or saved"
+  }
+}

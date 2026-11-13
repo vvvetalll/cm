@@ -1,4 +1,8 @@
 # Chicago Mounting — project knowledge
+## Catalogue SEO proposal — 2026-11-13
+
+Owner confirmed Starting at prices are confirmed prices of specific products. Product schema missing24/24; proposed bounded11217 Product+Offer199USD pilot, not a global schema switch, no unverified stock/reviews. Fresh TVfacet Page2 serverHTML has noindex,follow: supersedes earlier DOM-only missing-noindex inference. Normal Shop Page2 canonical-to-Page1 and duplicate route remain a separate scoped-native proposal. No SEO production changes. [Audit§13](../docs/WOOCOMMERCE-AUDIT-2026-11-13.md).
+
 ## Permanent CSS ownership — owner instruction 2026-11-13
 
 All custom styles centralized in existing active theme style.css. Inspect native controls/shared ownership first; use sufficient native controls, otherwise correct owning shared rule; reusable widget CSS is a separately approved technical exception, never one-off scattering. No duplicate/masking overrides. Rule#1 new-code approval preserved in AGENTS. Shared Steps4290 cm-step::before green accent source block removed, desktop/mobile verified; badges/responsive/card borders and Chips focus retained. [Exact change/rollback](../docs/CSS-OWNERSHIP-2026-11-13.md).

@@ -1,0 +1,55 @@
+[
+  {
+    "url": "https://chicagomounting.com/sitemap.xml",
+    "status": 200,
+    "urls": [
+      "https://chicagomounting.com/post-sitemap.xml",
+      "https://chicagomounting.com/page-sitemap.xml",
+      "https://chicagomounting.com/product-sitemap.xml",
+      "https://chicagomounting.com/category-sitemap.xml",
+      "https://chicagomounting.com/product_cat-sitemap.xml"
+    ],
+    "method": "Direct sitemap url/loc entries only; image:loc excluded"
+  },
+  {
+    "url": "https://chicagomounting.com/product-sitemap.xml",
+    "status": 200,
+    "urls": [
+      "https://chicagomounting.com/product/samsung-the-frame-qled-4k-smart-tv/",
+      "https://chicagomounting.com/product/samsung-the-frame-pro-neo-qled-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/samsung-s95f-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/",
+      "https://chicagomounting.com/product/lg-g6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+      "https://chicagomounting.com/product/samsung-the-terrace-outdoor-qled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/",
+      "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/",
+      "https://chicagomounting.com/product/samsung-s85h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/",
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "https://chicagomounting.com/product/samsung-s90h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+      "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/"
+    ],
+    "method": "Direct sitemap url/loc entries only; image:loc excluded"
+  },
+  {
+    "url": "https://chicagomounting.com/product_cat-sitemap.xml",
+    "status": 200,
+    "urls": [
+      "https://chicagomounting.com/product-category/tv/",
+      "https://chicagomounting.com/product-category/audio/",
+      "https://chicagomounting.com/product-category/mounts/"
+    ],
+    "method": "Direct sitemap url/loc entries only; image:loc excluded"
+  }
+]

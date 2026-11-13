@@ -373,6 +373,7 @@ Screenshots: [desktop reset](SHOP-2026-11-13-reset-desktop.jpg), [mobile reset](
 -`/shop/?e-page-19cf30b=2`: correct8products, **existing canonical generation remains Shop**, robots max-image-preview:large. Distinct pagination content is accessible; canonical consolidates to Shop. This native pagination parameter was introduced by the approved control, but no AIOSEO rule was edited.
 -`/shop/page/2/`: correct8products, existing **noindex,nofollow / canonical Shop** retained.
 -TV facet Page2 explicitly returned canonical Shop but robots **max-image-preview:large only, no noindex** in the recorded browser DOM. Do not extrapolate the original sampled mount/audio noindex to every facet/query combination. The original category-facet GET was challenged, so its pre-change origin head was not established. This is an unresolved SEO coverage finding, not proof that this repair changed a rule. Different URL forms can represent the same Page2; no canonical/robots/redirect policy fix is included without separate approval. Carry this exact `/shop/product_category_filter-tv/?e-page-19cf30b=2` case into the separate AIOSEO task.
+  **Subsequent correction:** §13 confirms noindex,follow in a fresh full-document GET response for this exact URL. The old rendered-DOM observation did not establish missing server-side noindex; it must not be used to justify another noindex rule.
 -`?orderby=price` still responds200/canonical Shop; existing widget's Date DESC configuration preserved. This task does not claim to add a sorting control or fix previously ignored sorting parameters.
 
 Rocket native readback retains the exact five preload exclusion lines, preloading on. Woo native readback retains Order Attribution **false**. All33 HTTP responses contain zero sourcebuster/order-attribution references. No CF/AIOSEO/robots.txt/sitemap changes, Case Studies template/filter edits, custom CSS/JS/PHP, plugin or new template. No measured CPU/speed improvement claimed.
@@ -408,3 +409,82 @@ Native Update File reported “File edited successfully”; fresh editor read co
 **Visual limitation:** existing native chips UL has overflow:auto, partially clipping the external outline on top/left; bottom/right focus indicator remains distinct. This is not a fully unclipped ring. Owner approved the exact rule only, so no overflow/padding/offset alteration made. No broader accessibility change is implied.
 
 Owner maintenance: Appearance → Theme File Editor → active chicagomounting → style.css; search exact778063b selector. Rollback remove only its4-line rule (and the added separator newline), Update File, reload/read back, clear native used CSS/cache and repeat Tab/Enter checks. Do not restore entire old stylesheet or undo native pagination/Chips/P1 controls. Theme updates must preserve this shared custom theme file. Prior §11 “not applied” now superseded only for the approved rule; separate SEO investigation continues read-only.
+
+## 13. Separate AIOSEO / Product schema / pagination review — 13 November 2026
+
+**Audit and proposal only. No SEO settings saved, schema added, canonical/indexing/robots/sitemap/Cloudflare rule changed.** Continued existing evidence rather than restarting the general audit. Subsequent owner CSS clarification and Steps correction are documented separately in [CSS ownership](CSS-OWNERSHIP-2026-11-13.md).
+
+### Fresh evidence and correction of the TV noindex diagnosis
+
+[42 public HTTP checks and schema graphs](AIOSEO-2026-11-13-http-schema.json), [native settings/browser/network](AIOSEO-2026-11-13-native-browser.json), [sitemaps](AIOSEO-2026-11-13-sitemaps.json), [current schema default screenshot](AIOSEO-2026-11-13-product-default.jpg).
+
+All24 products200/indexable/self-canonical; **Product nodes0/24**, two BreadcrumbList nodes24/24. Product sitemap24 URLs, category sitemap3, sitemap index5. Sitemap counts exclude image:loc entries. Three category pages remain200/self-canonical; Samsung brand archive is200/noindex/self-canonical. The AIOSEO graph's Sanus breadcrumbs use Home→Shop→Sanus→product while the other breadcrumb trail uses product category; these are competing navigational hierarchies, not missing Product markup itself. No graph was deleted.
+
+Direct scripted GETs to TV/category/brand/display facet paths returned Cloudflare403 challenge; mount/audio facets returned200/noindex,follow/canonicalShop. Do not infer origin metadata from a403. A real anonymous browser then loaded the exact **TV facet Page2 as a fresh full document**:
+
+```text
+https://chicagomounting.com/shop/product_category_filter-tv/?e-page-19cf30b=2
+Document GET 200; one final TV product
+<meta name="robots" content="max-image-preview:large" />
+<meta name='robots' content='noindex, follow' />
+canonical: https://chicagomounting.com/shop/
+```
+
+Both robots tags are in the actual Network response HTML, not merely a JS-added DOM node. Network evidence distinguishes filter XHR **POST200** from Page2 **Document GET200**. After AJAX filter selection from Shop, the browser retained the base Shop robots head (max-image-preview only); after a complete Page2 document load, noindex,follow appeared. The earlier Page2 DOM-only sample did not reliably establish a server defect. **The prior missing-noindex conclusion was too strong and is superseded: no reproducible missing server noindex is established for this exact TV URL now.** Snapshot timing/cache history of the earlier sample is not proven; no claim that a production SEO fix occurred. No CAPTCHA was solved or WAF weakened.
+
+Current native Filter Everything: all seven indexed-filter checkboxes off; Products/Posts indexing depth blank, UI states filtered results closed by default. AJAX on; crawler link protection on; generated robots-block toggle off. Importantly, live robots.txt already has the separate existing **Disallow: /shop/product_category_filter-***. Therefore “plugin robots toggle off” does not mean “no actual facet disallow”. Cloudflare also retains the category-facet verified-bot block. A blocked crawler may not read noindex, even though it exists at origin. No GSC URL Inspection/index coverage evidence establishes indexed filter URLs, so do not remove or expand blocking based on speculation.
+
+### Native AIOSEO and product-data observations
+
+AIOSEO Pro5.0.5: Products default **Web Page / Item Page**. Categories and Product Categories Yes; Tags/Product Brands/Product Tags/Product Attributes No, same as baseline. Global Robots Use Default Settings on; Crawl Cleanup off; Query Arg Monitoring off. No global toggles changed even temporarily, and no Save Changes clicked. These global controls are not safe substitutes for a Shop-only parameter rule and could affect Case Studies.
+
+Sanus11217 native product data: simple product, regular price199, SKU VODLT1-B2, manage stock off, technical stock-status radio instock. This is not independently verified physical inventory. Owner explicitly confirmed in this chat that **Starting at prices are confirmed prices for the specific products**, so a truthful price Offer can be proposed. Do not continue treating those prices as merely indicative.
+
+Per-product AIOSEO metabox on11217 remained blank below its heading after a fresh native reload. Consequently per-product schema overrides and the local availability-omission control could not be verified. No relevant REST response failure was captured in the observed network subset; the cause is **not established** and must not be attributed to Cloudflare. Global Products default was successfully readable. Do not disable protections or invent a second schema/code mechanism to bypass this UI limitation.
+
+### Exact configuration proposal — not applied
+
+**A. Product schema pilot, one existing product11217 only** (after native metabox availability is restored/verified and owner approves):
+
+| Native configuration / field | Proposed value |
+|---|---|
+| Global Products default | **Keep Web Page / Item Page during pilot**; no bulk switch yet |
+|11217 AIOSEO Schema → Generate Schema | Add exactly one **Product** using existing generator; retain legitimate WebPage/page graph |
+| Woo Autogenerate Fields | **No** for pilot, to prevent importing unverified instock/other offer assumptions |
+| Name / description | Sanus Outdoor Tilt Mount / existing visible Product Short Description |
+| Image | Existing featured image: /wp-content/uploads/2026/07/NS-VODLT1B2.jpg |
+| Brand / SKU | Sanus / VODLT1-B2 |
+| Offer price / currency / URL | **199.00 / USD / https://chicagomounting.com/product/sanus-outdoor-tilt-mount/** |
+| Availability | Omit until independently confirmed; first verify the native generator can omit it. If it cannot, stop and present that limitation rather than assign a false value |
+| GTIN/MPN/ISBN, ratings/reviews, price-expiry, shipping/returns | Leave absent unless separately verified; do not invent values or copy business ratings to this product |
+| Product URL, canonical, robots, sitemap, REQUEST | Unchanged |
+
+Expected result: one truthful Product+Offer node alongside existing page entities. Validate source JSON-LD, visible-field agreement and Google's Rich Results Test before any rollout. Product snippet eligibility is not guaranteed; warnings for absent recommended ratings/availability are not justification to invent data. Do not promise merchant-listing eligibility for a request-based catalogue. Future24-product rollout requires the same field/availability checks and verified handling of each product override. A bulk default Web Page→Product is a later decision, not an authorized action here.
+
+Pilot rollback: remove only the added Product schema from11217, restore its exact prior per-product schema configuration, save/read back and native cache refresh. Do not delete generic page schema, change the product or global indexing. Exact pre-pilot override snapshot is required because its metabox was unreadable in this audit.
+
+**B. Filter SEO:** make **no additional noindex rule** for the tested TV pagination URL; retain existing noindex,follow/base canonical, crawler-link protection and Rocket preload exclusions. Keep all24 products/three valuable categories eligible for indexing and existing sitemap inclusion. Keep Brands/Tags/Attributes exclusions. Do not enable global robots blocking, global Crawl Cleanup, query-argument stripping or global pagination noindex/nofollow as a shortcut. No robots.txt or Cloudflare change is proposed without evidence of an actual crawl/indexing problem and a separate exact diff.
+
+**C. Ordinary Shop duplicate pagination** — a real remaining policy mismatch:
+
+| Exact URL | Current | Proposed end state, subject to native implementation verification and owner approval |
+|---|---|---|
+| /shop/ |200,16items,self-canonical,indexable | Keep |
+| /shop/?e-page-19cf30b=2 |200,8different items,canonicalShop,no noindex | Keep emitted native URL and indexable content; canonical **self**, not Page1 |
+| /shop/page/2/ with empty query only |200,same8items,noindex,nofollow,canonicalShop | After target self-canonical is solved, one **301** to /shop/?e-page-19cf30b=2 |
+| /shop/2/ | Already resolves to Shop | No new rule |
+| Product/category/service/Case paths; facet paths; other query combinations | Existing behavior | Excluded from proposed redirect/canonical scope |
+
+For the redirect candidate, use the **existing** Redirection native UI: source exactly /shop/page/2/, Regex off, URL-only match, Query Parameters **Exact match** with empty query, target /shop/?e-page-19cf30b=2, action URL redirect301. Do not ignore/drop arbitrary parameters or redirect facet paths. This is a proposed configuration from supported Redirection controls, not a saved/tested production rule. First verify the installed UI and redirect ordering; start only after canonical target policy can be implemented safely.
+
+**Native limitation:** no verified Shop-only e-page canonical mapping was found in the inspected AIOSEO controls. A static canonical on Page10263 would also affect Page1; global pagination options could affect Case Studies and may not recognize Elementor's e-page parameter. Therefore the canonical change and redirect are **not implementation-ready**. Do not add custom PHP or an extra plugin under the present approval. First find a supported scoped native integration; if none exists, separately present the smallest code/change and seek approval. Rollback any later redirect by disabling only its new rule; restore only its paired scoped canonical setting from the pre-change snapshot. Avoid partial deployment with a redirect target still canonicalized to Page1.
+
+### Evidence limits and references
+
+These are fresh HTTP/native/browser observations, not search-engine indexing proof, a ranking prediction, a speed measurement or a live rich-results validation. No GSC URL Inspection, full crawl logs, per-product override inventory or trusted inventory confirmation was obtained. Schema/metabox and scoped-canonical limitations remain explicit. Current security rules and Case Studies policies remain untouched.
+
+- [AIOSEO Product schema](https://aioseo.com/docs/setting-product-schema-markup-in-your-content/): native default/per-product generator, Woo autogeneration and offer fields.
+- [Google Product snippets](https://developers.google.com/search/docs/appearance/structured-data/product-snippet): name plus offers/review/rating requirements; do not invent recommended fields.
+- [Google pagination](https://developers.google.com/search/docs/specialty/ecommerce/pagination-and-incremental-page-loading): distinct pages should have distinct canonicals; normal Page2 is not a duplicate of Page1.
+- [AIOSEO global pagination robots](https://aioseo.com/docs/setting-noindex-and-nofollow-on-paginated-content/): global scope is why no broad switch is proposed.
+- [Filter Everything SEO settings](https://filtereverything.pro/resources/seo-settings/), [Redirection URL matching](https://redirection.me/support/matching-a-url/): native scope and exact query handling.
