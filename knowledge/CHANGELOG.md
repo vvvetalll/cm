@@ -1,5 +1,13 @@
 # Project work log
 
+## 2026-11-13, 16:23 America/Chicago — Outstanding Case Studies indexing follow-up
+
+Request: continue `04ee9b8`, check five unsuccessful case submissions, sitemap processing and remaining exclusions without repeating the audit or changing production.
+
+Verified all five native Inspection result URLs: still unknown to Google/no recorded crawl. Targeted public GETs200/self-canonical/no noindex or X-Robots restriction; existing inbound-link evidence retained with sampling limits. One new LG C6 request returned Quota Exceeded; zero accepted, other four not attempted after rejection, prior11 accepted requests untouched. All live work stopped after quota rejection. Sitemap parent Success/readNov13/81 discovered; post child Success/17/readNov9 still lags current33. No resubmission or production change.
+
+Existing MD/CSV ledger updated with follow-up status/outcome columns while preserving request history. SEO-REPORT/WORK and Issue #1 updated; five follow-up evidence files saved. Remaining: quota reset, five eligible case requests, later Google crawl/index confirmation and post-child processing. Existing seven Crawled-not-indexed findings reused; no claimed new status for the other91 sitemap URLs, ranking gain or indexing success. Sanus schema/Shop canonical remain separate and unpublished. No production rollback required; documentation commit/push and Issue readback verified before final delivery.
+
 ## 2026-11-13 — Site-wide GSC indexing and native Product pilot preparation
 
 Request: continue1240c5f/Issue1; diagnose11217Schema, prepare unpublished199USDpilot, investigate scopedpaginationcanonical/focus; expand GSC to entire site and submit eligible missing URLs where permitted.

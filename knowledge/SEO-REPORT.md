@@ -1,4 +1,30 @@
 # SEO-звіт — точка продовження
+## 2026-11-13, 16:23 America/Chicago — Outstanding cases rechecked; quota still exhausted
+
+Continuation from `04ee9b8` and Issue #1. The existing 96-URL inventory and ledger were reused; no general audit, full-site recrawl, production setting change or resubmission of the 11 accepted requests.
+
+All five outstanding Case Studies received fresh native GSC URL Inspection, with each actual result-header URL verified. Each still reports **URL is unknown to Google**, no recorded crawl and no referring sitemap detected in Inspection. This is not a fresh assertion about the other 91 sitemap URLs.
+
+| Outstanding case | Current GSC status | Request outcome in this follow-up |
+|---|---|---|
+| /77-inch-lg-c6-and-samsung-q990h-soundbar-installation/ | Unknown; not indexed | One new **Quota Exceeded** rejection confirmed |
+| /85-inch-samsung-neo-qled-installation-evanston/ | Unknown; not indexed | Not retried after the quota rejection; earlier rejection retained |
+| /outdoor-tv-brick-installation-glenview/ | Unknown; not indexed | Not attempted after the quota rejection |
+| /tv-wall-mounting-case-wilmette/ | Unknown; not indexed | Not attempted after the quota rejection |
+| /samsung-frame-tv-installation-on-tile-in-winnetka/ | Unknown; not indexed | Not attempted after the quota rejection |
+
+The native rejection says the daily quota is exceeded and to try again tomorrow. **Zero new accepted indexing requests.** Submission and further live investigations stopped after the rejection, as requested. The prior 11 confirmations remain historical accepted requests, not confirmed indexing, and were not resubmitted. No exact Google quota-reset time is established; no automation or workaround created.
+
+Before the request, fresh anonymous GETs for only these five cases returned **200 directly, self-canonical, no noindex and no X-Robots-Tag restriction**. The earlier same-day 96-page link inventory contains at least 2/1/2/1/3 source pages respectively, including their relevant city landing pages and some service/article pages. These are lower bounds from absolute same-origin anchors: relative, JavaScript-generated links and unsampled pagination are not counted. The cases are not shown to be orphaned by this evidence. Public indexability checks do not prove a fresh Googlebot fetch; GSC still records N/A for crawl/fetch/indexing permission. Discovery delay is plausible, but its exact cause is unproved. No canonical, robots or security correction is justified by the captured evidence.
+
+**Sitemap checked before the quota attempt:** `sitemap.xml` is Success, submitted/read November 13, with **81 discovered URLs** and no processing error displayed. Every child shows Success. The post child is still **17 URLs, last read November 9**; the live inventory has 33. Thus the parent reread is confirmed but processing of the new post-child contents remains unverified. Other child snapshots are category 1/readNov6, pages 36/readNov12, products 24/readNov9 and product categories 3/readNov9. **No sitemap resubmission** in this follow-up.
+
+Remaining issues were assessed from existing evidence rather than repeating completed checks. Seven valuable Crawled-not-indexed URLs (two products/five articles) had successful recorded Googlebot smartphone fetches, allowed indexing and self-canonicals; nine Crawled/Discovered candidates have recorded inbound absolute links. No demonstrated settings blocker warrants production changes. The case catalogue already has an accepted request: wait and recheck rather than resubmit. Terrace remains a candidate for a first eligible request after quota reset. For persistent Crawled-not-indexed exclusions, review distinct useful content and contextual links against a later crawl before making repeated requests; a specific Google content-quality decision is not established. No fresh GSC status is claimed for these reused records.
+
+Next permitted step: after Google allows requests again, re-inspect and request the five still-eligible unindexed cases once, then follow the existing product/article queue. If quota is exhausted, stop again. Observe post-sitemap processing without unnecessary resubmission. No WooCommerce, Rocket, Cloudflare, Filter Everything, AIOSEO, redirects, Case Studies content, Sanus schema pilot or Shop canonical change.
+
+Updated existing [URL ledger](../docs/GSC-2026-11-13-url-ledger.md) and [CSV](../docs/GSC-2026-11-13-url-ledger.csv), preserving earlier request history. New evidence: `GSC-2026-11-13-followup-inspections.json`, `followup-live.json`, `followup-sitemap.json`, `followup-exclusion-review.json` and `followup-quota.jpg`. GSC request outcomes require no production rollback; no normal cancellation/backdating control is asserted. Issue #1 contains the verified documentation commit.
+
 ## 2026-11-13 — Site-wide GSC indexing audit and confirmed requests
 
 Continuation from1240c5f and Issue#1; expanded from Case Studies to the whole current site. This supersedes the earlier “GSC coverage not obtained” limitation for the bounded evidence below, not a claim of exhaustive Google index enumeration or completed indexing. Production AIOSEO/canonicals/robots/sitemap generation/Cloudflare settings unchanged.

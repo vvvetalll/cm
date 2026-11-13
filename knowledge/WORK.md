@@ -1,4 +1,12 @@
 # Work — current state
+## 2026-11-13, 16:23 America/Chicago — Case indexing follow-up stopped at quota
+
+Continued from `04ee9b8`; existing ledger read. All five outstanding cases freshly inspected and still **URL unknown to Google**, with no recorded crawl. Five targeted public checks: direct200, self-canonical, no noindex or X-Robots restriction. Earlier absolute-anchor inventory shows inbound city/service/article links; no proved orphaning or technical indexing block.
+
+One new LG C6 Request Indexing rejection: **Quota Exceeded**, retry tomorrow. **Zero new accepted requests**; other four requests and further live investigations stopped. Prior 11 accepted requests untouched and not equated with Indexed. Do not retry again in this exhausted-quota session. Next: after Google resets/allows requests, re-inspect and request the remaining five eligible cases once; no exact reset time or automation.
+
+Sitemap checked first: parent Success/submitted and readNov13/81 discovered; post child still Success/17/readNov9, so current33 processing not confirmed. No resubmission. Existing seven Crawled-not-indexed/product/article findings and nine inbound-link records reused, without a new broad audit or status refresh. No production configuration/content, schema pilot or Shop canonical change. [Updated ledger and detailed findings](SEO-REPORT.md); five new follow-up evidence files. Issue #1 carries the final commit/readback.
+
 ## 2026-11-13 — Whole-site indexing checked; quota reached; schema pilot held
 
 Continued from1240c5f/Issue1. Native GSC All-known report77indexed/77excluded (displayed updateNov8), every example read. Five current XML children97entries/96unique; all fetched,95direct200/indexable/selfcanonical, one Bose redirect→Brands.33 individual URL Inspections: all25 eligible URLs missing from indexed examples, homepage/fourcities/twomainservices, one technical brand. Reconciled96:71Indexed (mixed dated-report/Inspection evidence),15unknown,2Discovered,7Crawled-not-indexed,1redirect. Do not call these a refreshed aggregate Google total. [Per-URL register](../docs/GSC-2026-11-13-url-ledger.md),171known-URLCSV, full evidence and [existing SEO report](SEO-REPORT.md).
