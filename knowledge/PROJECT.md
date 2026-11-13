@@ -1,4 +1,8 @@
 # Chicago Mounting — project knowledge
+## Shop native repair — 2026-11-13
+
+Archive10276 Loop19cf30b now Numbers + Individual Pagination; source Latest Products/Date DESC/16items/Card10278 unchanged. Native Chips778063b scoped10596/mobileYes precedes grid.24products reachable16+8 without duplicates; TV17 paginates16+1, Reset all functional desktop/mobile. Supersedes prior duplicate/hidden-reset findings. No protected SEO/security/Case/P1 settings changed. Focus indicator and exact TV facet e-page2 noindex gap remain recorded for separate approval/review; Product schema next separately. [Audit §11](../docs/WOOCOMMERCE-AUDIT-2026-11-13.md).
+
 ## Native catalogue P1 update — 2026-11-13
 
 The two approved changes are now live: five product-facet prefixes excluded only from Rocket preload; Woo Order Attribution off. Separate saves/readbacks, anonymous desktop/mobile tests and60HTTP checks recorded in [audit implementation appendix](../docs/WOOCOMMERCE-AUDIT-2026-11-13.md). This supersedes “after separate approval/no production change” below for these two fields. No indexing, security, Case Studies or other caching configuration changes. Existing Shop page2 duplication/hidden Reset all remain separate work; no CPU/speed improvement measured. AIOSEO/Filter Everything/Cloudflare review and approval boundaries documented; Issue#1 open.

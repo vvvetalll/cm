@@ -321,3 +321,80 @@ Rocket UA is spoofable; no broad UA/IP/ASN allowlist is justified. Excluding nee
 If a specific false positive is later confirmed, present the exact rule expression/action/order diff, affected paths and verified identities, expected security loss, test plan and rollback to the captured ruleset before saving. BFM runs outside the custom-WAF Skip pipeline; a custom Skip is not a universal BFM exemption ([official behavior](https://developers.cloudflare.com/bots/get-started/bot-fight-mode/)). Current rollback for this task concerns only the two WordPress controls above; Cloudflare requires none because it was not changed.
 
 Remaining limitations: no complete edge access logs/crawl coverage, no reliable false-positive denominator, no authenticated identity for Rocket-UA events, no controlled long-term hosting comparison, no real form submission/booking, hidden reset-all UI and pre-existing Shop pagination defect. Security and SEO recommendations remain recorded for a separate owner decision; Issue#1 stays open.
+
+
+## 11. Shop pagination and Reset all — native repair, 13 November 2026
+
+Continued from commit6887367 and Issue#1; did not repeat the broad audit. Owner explicitly authorized native repairs and frontend verification, with no new plugins/templates/custom code or SEO/security policy changes.
+
+### Inspected objects and root causes
+
+- **Shop Page10263**: native WordPress editor opens, published Shop URL, empty content. It is the Shop destination, not the editable Elementor product listing. MCP returned “not allowed to edit this document”; authenticated WordPress UI successfully inspected it. No page save.
+- **Archive10276, Loop Grid19cf30b**: renders the actual catalogue. Products template10278;16 items/page;3desktop/2tablet/2mobile columns. Query **Latest Products**, include Term with no selected restriction, **Date DESC**. Pagination **None**, individual pagination off. These native UI values explain the16-item ceiling and why the secondary Elementor query did not advance on the original paged route.
+- **Card10278**: MCP structure confirms existing image/product title/installation/starting-price/REQUEST button widgets; reused unchanged. Service/city placements preserved.
+- **Product Filter Set10596**: Products; location Pages→Shop; selected query “Posts list «Products» – Elementor”, value `3d3cb0e93c3b3a23eb704b5a0d8368e6`; five existing checkbox filters retained. The query selector initially displayed a loading placeholder, then resolved to the existing query: it was not a missing binding. No set save.
+- **Reset**: the existing reset link was inside `.wpc-filters-widget-top-container`, whose ancestor had `display:none` and zero dimensions. The rendered matching rule includes `.wpc-filters-widget-top-container:not(.wpc-show-on-desktop)`; the container lacked that desktop class. No standalone Chips widget existed in10276, and the Loop Grid does not render the Woo hooks selected for automatic chips integration. Therefore the link existed only in the hidden built-in panel. This was not a missing reset URL or broken checkbox behavior.
+
+Native MCP successfully read10276/10278; legacy V3 Loop settings were unavailable through that API, so native Elementor UI supplied the actual settings. No installed plugin source files accessed.
+
+### Exact production changes and save/readback
+
+**Only archive10276 changed.**
+1. Existing Loop Grid19cf30b: **Pagination None→Numbers**.
+2. Same widget: **Individual Pagination off→on**. Kept **Page Reload**, page limit5,16items/page, Latest Products/Date DESC, template10278 and all card/layout settings.
+3. Added one standard **Filter Everything “Chips” widget778063b** inside existing results container6b4fa01, immediately **before** Loop Grid19cf30b. Title empty; Set IDs **10596**; Show on mobile **Yes**. This is a native widget in the existing template, not a new template or custom code. Existing HTML filter widget94ed707 and its content remain unchanged.
+
+Changes saved through Publish, followed by editor reload and control readback. MCP saved-tree read independently confirms778063b immediately precedes19cf30b. Original settings and frontend results are in [browser verification](SHOP-2026-11-13-browser-verification.json). Native settings screenshots: [pagination](SHOP-2026-11-13-native-pagination.jpg), [Chips](SHOP-2026-11-13-native-chips.jpg).
+
+Intermediate verification matters: Numbers alone with individual pagination off emitted `/shop/2/`, which returned to Shop; this did not advance the secondary query. Enabling Individual Pagination produced `/shop/?e-page-19cf30b=2` and advanced correctly while preserving source/order. No unneeded switch to Current Query or global Woo sorting change. One native Rocket Clear and Preload Cache was used after publishing the first pagination/Chips changes; final native save subsequently propagated on reload. No Cloudflare purge or cache configuration changes.
+
+### Actual anonymous results
+
+Real anonymous browser, desktop1366×900/mobile390×844; viewport reset afterward. Public HTTP checks used two concurrent requests, not a load test.
+
+| Verification | Result |
+|---|---|
+| Base Shop pagination | Page1 **16**, Page2 **8**; **24 distinct product URLs**, zero overlap, exactly matching the24-product inventory. Native links back to Page1 work. Explicit desktop1366 and mobile390 Page2 checks pass without horizontal overflow. |
+| Original paged URL | Final public `/shop/page/2/` now returns the **same correct8** as the native e-page link, not the original16. `/shop/2/` still resolves to Shop; it is no longer emitted by the final pagination control. |
+| Filtered pagination | Category TV17: page1 **16**, page2 **1**, zero overlap/17unique. Filter retained in URL and checked state, native e-page link retains facet path. Verified mobile16→1 as well. Reset from filtered Page2 clears filter and page state, returning Shop16. |
+| All five filters | At both sizes: Audio category3, Samsung8, OLED3, Tilt3, Soundbar3, expected URLs/prices and visible Reset all. Each reset returns unfiltered Shop16. |
+| Multiple selected values | Samsung+OLED gives two checked filters; removing OLED individually leaves Samsung; restoring OLED then Reset all clears both, checked0, base URL and16cards. Existing checkbox removal behavior preserved. |
+| Reset appearance/access | Visible native reset link above products on both sizes,77×31.8px in measured state; mobile no horizontal overflow. Link accessible by Tab and activated with Enter. Hover leaves the native visual treatment unchanged. **Focus-visible matches, but computed outline none/box-shadow none: no distinct focus indicator is claimed.** See limited follow-up below. |
+| Cards/products/REQUEST | Existing prices/design/source/order retained; card link to Sanus navigates to its actual product page. LG G6 product1899price/details/related content/mobile overflow verified. Product REQUEST on desktop/mobile and Shop-card REQUEST load popup10937 with required phone/email, without submission. |
+| Quote/Jobber | Cost Calculator “TV Size” content loads at both sizes without overflow; BOOK NOW opens5890, Jobber iframe11textboxes on desktop and after mobile resize. No booking/form submission or CAPTCHA completion. |
+
+Screenshots: [desktop reset](SHOP-2026-11-13-reset-desktop.jpg), [mobile reset](SHOP-2026-11-13-reset-mobile.jpg), [desktop Page2](SHOP-2026-11-13-page-two-desktop.jpg), [mobile Page2](SHOP-2026-11-13-page-two-mobile.jpg). Mobile panel can remain expanded; Reset all sits above the result cards below that panel, so reaching it may require scrolling. It is not a sticky control.
+
+### SEO and preserved P1 regression checks
+
+[33 final public HTTP responses](SHOP-2026-11-13-http.json) all200 after redirects:
+-24product URLs remain self-canonical/indexable;3categories retain200 and their existing canonicals/directives. No product permalink/content/schema save.
+-`/shop/`: canonical Shop, robots max-image-preview:large.
+-`/shop/?e-page-19cf30b=2`: correct8products, **existing canonical generation remains Shop**, robots max-image-preview:large. Distinct pagination content is accessible; canonical consolidates to Shop. This native pagination parameter was introduced by the approved control, but no AIOSEO rule was edited.
+-`/shop/page/2/`: correct8products, existing **noindex,nofollow / canonical Shop** retained.
+-TV facet Page2 explicitly returned canonical Shop but robots **max-image-preview:large only, no noindex** in the recorded browser DOM. Do not extrapolate the original sampled mount/audio noindex to every facet/query combination. The original category-facet GET was challenged, so its pre-change origin head was not established. This is an unresolved SEO coverage finding, not proof that this repair changed a rule. Different URL forms can represent the same Page2; no canonical/robots/redirect policy fix is included without separate approval. Carry this exact `/shop/product_category_filter-tv/?e-page-19cf30b=2` case into the separate AIOSEO task.
+-`?orderby=price` still responds200/canonical Shop; existing widget's Date DESC configuration preserved. This task does not claim to add a sorting control or fix previously ignored sorting parameters.
+
+Rocket native readback retains the exact five preload exclusion lines, preloading on. Woo native readback retains Order Attribution **false**. All33 HTTP responses contain zero sourcebuster/order-attribution references. No CF/AIOSEO/robots.txt/sitemap changes, Case Studies template/filter edits, custom CSS/JS/PHP, plugin or new template. No measured CPU/speed improvement claimed.
+
+### Rollback and remaining limitation
+
+Rollback through existing Elementor archive10276:
+1. Set19cf30b Pagination **None**, Individual Pagination **Off**; keep source/date/order/16/card settings unchanged.
+2. Remove only native widget778063b from6b4fa01.
+3. Publish, reload/read back, refresh native Rocket cache if needed and repeat Shop/filter checks. Do not restore an entire old template revision that could overwrite unrelated edits; do not roll back the P1 Rocket/attribution controls.
+
+The two functional success criteria are achieved: all24 products reachable without duplicate page results; Reset all visible/functional desktop/mobile with filters working. **Keyboard focus styling remains an accessibility limitation**, rather than being silently declared passed. Chips exposes Title/Set IDs/Mobile and Advanced controls, without a native focus-state style control; changing global theme focus would broaden scope.
+
+Smallest proposed follow-up, **not applied**: in the existing active theme shared `style.css`, append one rule scoped only to Chips778063b in archive10276:
+
+```css
+.elementor-10276 .elementor-element-778063b a:focus-visible {
+  outline: 2px solid #292B26;
+  outline-offset: 3px;
+}
+```
+
+This reuses the recorded site Secondary color and affects keyboard-focused native chip links only. Risk: outline could be clipped by an ancestor; verify desktop/mobile keyboard focus and Reset/individual-chip activation after publication. Rollback remove only this rule, save and refresh native cache. Owner's explicit no-custom-code instruction requires separate approval before implementation. No approval is inferred from authorizing the native repairs.
+
+Product schema/AIOSEO optimization remains the **separate next task**, as requested. Source guidance: [Elementor native pagination](https://elementor.com/help/paginate-loop/), [Filter Everything Chips](https://filtereverything.pro/resources/chips-widget/), [native chips/shortcode behavior](https://filtereverything.pro/resources/shortcodes/). These vendor docs guide control choice; actual frontend evidence above establishes the results.

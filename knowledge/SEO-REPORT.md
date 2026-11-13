@@ -1,4 +1,8 @@
 # SEO-звіт — точка продовження
+## 2026-11-13 — Нативна пагінація Shop відновлена
+
+24товари доступні16+8 без повторів; старий /shop/page/2/ тепер теж8, збережені noindex,nofollow/canonicalShop. Штатний Individual Pagination створює /shop/?e-page-19cf30b=2:8товарів/canonicalShop/без noindex. TV facet /shop/product_category_filter-tv/?e-page-19cf30b=2 має1останнійTV/canonicalShop, але також без noindex у фактичному DOM. Не узагальнювати mount/audio noindex на всі комбінації; попередній category origin head не був підтверджений через challenge. Це точний випадок для наступної окремої AIOSEO задачі, без зміни правил зараз.33HTTP200;24товари self-canonical; категорії збережено. Reset all видимий/працює desktop/mobile. [Докази/rollback §11](../docs/WOOCOMMERCE-AUDIT-2026-11-13.md). Product schema не змінювалася.
+
 ## 2026-11-13 — P1 виконано, SEO/Cloudflare лише перевірено
 
 Нативні виключення preload для п’яти товарних фасетів та Order Attribution off збережено окремо.24товари/3категорії/17Case Studies об’єктів залишилися200/indexable/self-canonical; sitemap24/3. AIOSEO вже виключає Brands/Tags/Attributes; Products default WebPage→ItemPage, Product schema відсутня24/24. Filter Everything: AJAX/crawler link protection увімкнені, robots blocking вимкнений; автоматично запропоновані robots правила зачіпали б і Case Studies, тому не застосовані. Збережено чинні noindex/canonical політики; жодного SEO save.

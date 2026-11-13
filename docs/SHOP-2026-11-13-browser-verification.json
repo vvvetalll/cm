@@ -1,0 +1,388 @@
+[
+  {
+    "phase": "before",
+    "settings": {
+      "items": 16,
+      "source": "Latest Products",
+      "orderBy": "Date",
+      "order": "DESC",
+      "pagination": "None"
+    },
+    "rootReset": "wpc-filters-widget-top-container ancestor display:none; no standalone Chips widget"
+  },
+  {
+    "phase": "pagination",
+    "pageOne": [
+      "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/",
+      "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+      "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+      "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/",
+      "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+      "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/"
+    ],
+    "pageTwo": {
+      "canonical": "https://chicagomounting.com/shop/",
+      "products": [
+        "https://chicagomounting.com/product/lg-g6-oled-evo-ai-4k-smart-tv-2026/",
+        "https://chicagomounting.com/product/samsung-s90h-oled-4k-smart-tv-2025/",
+        "https://chicagomounting.com/product/samsung-s85h-oled-4k-smart-tv-2025/",
+        "https://chicagomounting.com/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/",
+        "https://chicagomounting.com/product/samsung-the-terrace-outdoor-qled-4k-smart-tv-2025/",
+        "https://chicagomounting.com/product/samsung-s95f-oled-4k-smart-tv-2025/",
+        "https://chicagomounting.com/product/samsung-the-frame-pro-neo-qled-4k-smart-tv-2026/",
+        "https://chicagomounting.com/product/samsung-the-frame-qled-4k-smart-tv/"
+      ],
+      "robots": "max-image-preview:large",
+      "url": "https://chicagomounting.com/shop/?e-page-19cf30b=2"
+    },
+    "unique": 24,
+    "overlap": []
+  },
+  {
+    "phase": "tvPagination",
+    "one": [
+      "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+      "https://chicagomounting.com/product/neptune-full-sun-4k/",
+      "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+      "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+      "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/",
+      "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+      "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/lg-g6-oled-evo-ai-4k-smart-tv-2026/",
+      "https://chicagomounting.com/product/samsung-s90h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-s85h-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-r95h-micro-rgb-vision-ai-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-the-terrace-outdoor-qled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-s95f-oled-4k-smart-tv-2025/",
+      "https://chicagomounting.com/product/samsung-the-frame-pro-neo-qled-4k-smart-tv-2026/"
+    ],
+    "two": {
+      "canonical": "https://chicagomounting.com/shop/",
+      "products": [
+        "https://chicagomounting.com/product/samsung-the-frame-qled-4k-smart-tv/"
+      ],
+      "robots": "max-image-preview:large",
+      "url": "https://chicagomounting.com/shop/product_category_filter-tv/?e-page-19cf30b=2"
+    },
+    "overlap": [],
+    "unique": 17
+  },
+  {
+    "phase": "resetDesktop",
+    "normal": {
+      "background": "rgb(243, 244, 246)",
+      "color": "rgb(17, 24, 39)",
+      "outline": "rgb(17, 24, 39) none 0px",
+      "rect": {
+        "bottom": 196.5312557220459,
+        "height": 31.83333396911621,
+        "left": 388,
+        "right": 465.0208358764648,
+        "top": 164.6979217529297,
+        "width": 77.02083587646484,
+        "x": 388,
+        "y": 164.6979217529297
+      },
+      "text": "Reset all\u00c3\u2014"
+    },
+    "hover": {
+      "background": "rgb(243, 244, 246)",
+      "color": "rgb(17, 24, 39)",
+      "hover": true
+    },
+    "focus": {
+      "cls": "wpc-chip-reset-all",
+      "focusVisible": true,
+      "outline": "rgb(17, 24, 39) none 0px",
+      "tag": "A",
+      "text": "Reset all\u00c3\u2014"
+    }
+  },
+  {
+    "phase": "desktopFilter",
+    "name": "Category Audio",
+    "expected": 3,
+    "count": 3,
+    "overflow": false,
+    "prices": [
+      "$1,499.00",
+      "$499.00",
+      "$1,099.00"
+    ],
+    "url": "https://chicagomounting.com/shop/product_category_filter-audio/"
+  },
+  {
+    "phase": "desktopFilter",
+    "name": "Brand Samsung",
+    "expected": 8,
+    "count": 8,
+    "overflow": false,
+    "prices": [
+      "$1,499.00",
+      "$1,199.00",
+      "$1,199.00",
+      "$1,899.00",
+      "$2,849.00",
+      "$2,199.00",
+      "$999.00",
+      "$899.00"
+    ],
+    "url": "https://chicagomounting.com/shop/product_brand-samsung/"
+  },
+  {
+    "phase": "desktopFilter",
+    "name": "Display OLED",
+    "expected": 3,
+    "count": 3,
+    "overflow": false,
+    "prices": [
+      "$1,199.00",
+      "$1,199.00",
+      "$2,199.00"
+    ],
+    "url": "https://chicagomounting.com/shop/product_display_type-oled/"
+  },
+  {
+    "phase": "desktopFilter",
+    "name": "Mount Tilt",
+    "expected": 3,
+    "count": 3,
+    "overflow": false,
+    "prices": [
+      "$199.00",
+      "$169.00",
+      "$169.00"
+    ],
+    "url": "https://chicagomounting.com/shop/product_mount_type-tilt/"
+  },
+  {
+    "phase": "desktopFilter",
+    "name": "Audio Soundbar",
+    "expected": 3,
+    "count": 3,
+    "overflow": false,
+    "prices": [
+      "$1,499.00",
+      "$499.00",
+      "$1,099.00"
+    ],
+    "url": "https://chicagomounting.com/shop/product_audio_type-soundbar/"
+  },
+  {
+    "phase": "mobileFilter",
+    "name": "Category Audio",
+    "expected": 3,
+    "count": 3,
+    "overflow": false,
+    "resetRect": {
+      "bottom": 863.2917079925537,
+      "height": 31.83333396911621,
+      "left": 20,
+      "right": 97.02083587646484,
+      "top": 831.4583740234375,
+      "width": 77.02083587646484,
+      "x": 20,
+      "y": 831.4583740234375
+    },
+    "url": "https://chicagomounting.com/shop/product_category_filter-audio/"
+  },
+  {
+    "phase": "mobileFilter",
+    "name": "Brand Samsung",
+    "expected": 8,
+    "count": 8,
+    "overflow": false,
+    "resetRect": {
+      "bottom": 1076.4583339691162,
+      "height": 31.83333396911621,
+      "left": 20,
+      "right": 97.02083587646484,
+      "top": 1044.625,
+      "width": 77.02083587646484,
+      "x": 20,
+      "y": 1044.625
+    },
+    "url": "https://chicagomounting.com/shop/product_brand-samsung/"
+  },
+  {
+    "phase": "mobileFilter",
+    "name": "Display OLED",
+    "expected": 3,
+    "count": 3,
+    "overflow": false,
+    "resetRect": {
+      "bottom": 606.2917079925537,
+      "height": 31.83333396911621,
+      "left": 20,
+      "right": 97.02083587646484,
+      "top": 574.4583740234375,
+      "width": 77.02083587646484,
+      "x": 20,
+      "y": 574.4583740234375
+    },
+    "url": "https://chicagomounting.com/shop/product_display_type-oled/"
+  },
+  {
+    "phase": "mobileFilter",
+    "name": "Mount Tilt",
+    "expected": 3,
+    "count": 3,
+    "overflow": false,
+    "resetRect": {
+      "bottom": -107.70833778381348,
+      "height": 31.83333396911621,
+      "left": 20,
+      "right": 97.02083587646484,
+      "top": -139.5416717529297,
+      "width": 77.02083587646484,
+      "x": 20,
+      "y": -139.5416717529297
+    },
+    "url": "https://chicagomounting.com/shop/product_mount_type-tilt/"
+  },
+  {
+    "phase": "mobileFilter",
+    "name": "Audio Soundbar",
+    "expected": 3,
+    "count": 3,
+    "overflow": false,
+    "resetRect": {
+      "bottom": -253.70835304260257,
+      "height": 31.83333396911621,
+      "left": 20,
+      "right": 97.02083587646484,
+      "top": -285.54168701171875,
+      "width": 77.02083587646484,
+      "x": 20,
+      "y": -285.54168701171875
+    },
+    "url": "https://chicagomounting.com/shop/product_audio_type-soundbar/"
+  },
+  {
+    "phase": "individualRemoval",
+    "checked": 1,
+    "chips": "Reset all\nSamsung\n\u00c3\u2014",
+    "url": "https://chicagomounting.com/shop/product_brand-samsung/"
+  },
+  {
+    "phase": "multiReset",
+    "before": {
+      "checked": 2,
+      "url": "https://chicagomounting.com/shop/product_brand-samsung/product_display_type-oled/"
+    },
+    "after": {
+      "checked": 0,
+      "count": 16,
+      "url": "https://chicagomounting.com/shop/"
+    }
+  },
+  {
+    "phase": "mobilePagination",
+    "count": 8,
+    "overflow": false,
+    "url": "https://chicagomounting.com/shop/?e-page-19cf30b=2"
+  },
+  {
+    "phase": "mobileProductRequest",
+    "passed": true
+  },
+  {
+    "phase": "desktopProductRequest",
+    "passed": true
+  },
+  {
+    "phase": "quoteDesktop",
+    "attribution": 0,
+    "loaded": true,
+    "overflow": false,
+    "url": "https://chicagomounting.com/quote/"
+  },
+  {
+    "phase": "jobberDesktop",
+    "textboxes": 11
+  },
+  {
+    "phase": "quoteMobile",
+    "loaded": true,
+    "overflow": false
+  },
+  {
+    "phase": "savedPaginationReadback",
+    "individual": true,
+    "pagination": "numbers"
+  },
+  {
+    "phase": "rocketPreserved",
+    "exclusions": "/(.*)product_category_filter-(.*)\n/(.*)product_brand-(.*)\n/(.*)product_display_type-(.*)\n/(.*)product_mount_type-(.*)\n/(.*)product_audio_type-(.*)",
+    "preload": true
+  },
+  {
+    "phase": "attributionSettingPreserved",
+    "enabled": false
+  },
+  {
+    "phase": "desktop1366Pagination",
+    "count": 8,
+    "overflow": false,
+    "url": "https://chicagomounting.com/shop/?e-page-19cf30b=2",
+    "width": 1366
+  },
+  {
+    "phase": "mobileTVOne",
+    "count": 16,
+    "overflow": false,
+    "url": "https://chicagomounting.com/shop/product_category_filter-tv/"
+  },
+  {
+    "phase": "mobileTVTwo",
+    "count": 1,
+    "overflow": false,
+    "resetRect": {
+      "bottom": 1725.9583339691162,
+      "height": 31.83333396911621,
+      "left": 20,
+      "right": 97.02083587646484,
+      "top": 1694.125,
+      "width": 77.02083587646484,
+      "x": 20,
+      "y": 1694.125
+    },
+    "url": "https://chicagomounting.com/shop/product_category_filter-tv/?e-page-19cf30b=2"
+  },
+  {
+    "phase": "mobileSecondPageReset",
+    "checked": 0,
+    "count": 16,
+    "url": "https://chicagomounting.com/shop/"
+  },
+  {
+    "phase": "additionalObservedReadbacks",
+    "chips": {
+      "id": "778063b",
+      "title": "",
+      "set_id": "10596",
+      "mobile": true,
+      "parent": "6b4fa01",
+      "next": "19cf30b"
+    },
+    "query": {
+      "source": "product",
+      "orderby": "date",
+      "order": "desc"
+    },
+    "jobberMobileTextboxes": 11,
+    "cardLinkNavigated": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/"
+  }
+]
