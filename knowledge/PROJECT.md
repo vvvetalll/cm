@@ -1,4 +1,8 @@
 # Chicago Mounting — project knowledge
+## Permanent CSS ownership — owner instruction 2026-11-13
+
+All custom styles centralized in existing active theme style.css. Inspect native controls/shared ownership first; use sufficient native controls, otherwise correct owning shared rule; reusable widget CSS is a separately approved technical exception, never one-off scattering. No duplicate/masking overrides. Rule#1 new-code approval preserved in AGENTS. Shared Steps4290 cm-step::before green accent source block removed, desktop/mobile verified; badges/responsive/card borders and Chips focus retained. [Exact change/rollback](../docs/CSS-OWNERSHIP-2026-11-13.md).
+
 ## Shop native repair — 2026-11-13
 
 Archive10276 Loop19cf30b now Numbers + Individual Pagination; source Latest Products/Date DESC/16items/Card10278 unchanged. Native Chips778063b scoped10596/mobileYes precedes grid.24products reachable16+8 without duplicates; TV17 paginates16+1, Reset all functional desktop/mobile. Supersedes prior duplicate/hidden-reset findings. No protected SEO/security/Case/P1 settings changed. Focus indicator and exact TV facet e-page2 noindex gap remain recorded for separate approval/review; Product schema next separately. [Audit §11](../docs/WOOCOMMERCE-AUDIT-2026-11-13.md).

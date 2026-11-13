@@ -1,0 +1,266 @@
+{
+  "owner": 4290,
+  "homePage": 16,
+  "grid": "1b03a91",
+  "source": "wp-content/themes/chicagomounting/style.css",
+  "removedBlock": "/* Green top accent */\n\n.elementor .elementor-element.cm_steps\n> .elementor-element.cm-step.e-con::before {\n    content: \"\";\n\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n\n    height: 4px;\n\n    background-color: var(--e-global-color-accent);\n\n    z-index: 2;\n}\n\n\n",
+  "originalLength": 104214,
+  "savedLength": 103933,
+  "exactRemoval": true,
+  "focusRuleRetained": true,
+  "nativeBorder": "Solid 1px all sides, unchanged",
+  "beforeDesktop": [
+    {
+      "badge": "\"0\" counter(cm-step)",
+      "beforeContent": "\"\"",
+      "beforeHeight": "4px",
+      "id": "0c13f91",
+      "rect": {
+        "bottom": 2266.572998046875,
+        "height": 368.125,
+        "left": 73,
+        "right": 297,
+        "top": 1898.447998046875,
+        "width": 224,
+        "x": 73,
+        "y": 1898.447998046875
+      }
+    },
+    {
+      "badge": "\"0\" counter(cm-step)",
+      "beforeContent": "\"\"",
+      "beforeHeight": "4px",
+      "id": "9ad595c",
+      "rect": {
+        "bottom": 2266.572998046875,
+        "height": 368.125,
+        "left": 317,
+        "right": 541,
+        "top": 1898.447998046875,
+        "width": 224,
+        "x": 317,
+        "y": 1898.447998046875
+      }
+    },
+    {
+      "badge": "\"0\" counter(cm-step)",
+      "beforeContent": "\"\"",
+      "beforeHeight": "4px",
+      "id": "7530bb7",
+      "rect": {
+        "bottom": 2266.572998046875,
+        "height": 368.125,
+        "left": 561,
+        "right": 785,
+        "top": 1898.447998046875,
+        "width": 224,
+        "x": 561,
+        "y": 1898.447998046875
+      }
+    },
+    {
+      "badge": "\"0\" counter(cm-step)",
+      "beforeContent": "\"\"",
+      "beforeHeight": "4px",
+      "id": "eb74103",
+      "rect": {
+        "bottom": 2266.572998046875,
+        "height": 368.125,
+        "left": 805,
+        "right": 1029,
+        "top": 1898.447998046875,
+        "width": 224,
+        "x": 805,
+        "y": 1898.447998046875
+      }
+    },
+    {
+      "badge": "\"0\" counter(cm-step)",
+      "beforeContent": "\"\"",
+      "beforeHeight": "4px",
+      "id": "7c57fbb",
+      "rect": {
+        "bottom": 2266.572998046875,
+        "height": 368.125,
+        "left": 1049,
+        "right": 1273,
+        "top": 1898.447998046875,
+        "width": 224,
+        "x": 1049,
+        "y": 1898.447998046875
+      }
+    }
+  ],
+  "afterDesktop": {
+    "cards": [
+      {
+        "badge": "\"0\" counter(cm-step)",
+        "before": "none",
+        "beforeBackground": "rgba(0, 0, 0, 0)",
+        "id": "0c13f91",
+        "rect": {
+          "bottom": 2266.572998046875,
+          "height": 368.125,
+          "left": 73,
+          "right": 297,
+          "top": 1898.447998046875,
+          "width": 224,
+          "x": 73,
+          "y": 1898.447998046875
+        },
+        "text": "Request a Quote\n\nTell us what you need, and we’ll provide a clear estimate for your project."
+      },
+      {
+        "badge": "\"0\" counter(cm-step)",
+        "before": "none",
+        "beforeBackground": "rgba(0, 0, 0, 0)",
+        "id": "9ad595c",
+        "rect": {
+          "bottom": 2266.572998046875,
+          "height": 368.125,
+          "left": 317,
+          "right": 541,
+          "top": 1898.447998046875,
+          "width": 224,
+          "x": 317,
+          "y": 1898.447998046875
+        },
+        "text": "Schedule Service\n\nChoose a convenient day and time. Same-day appointments may be available."
+      },
+      {
+        "badge": "\"0\" counter(cm-step)",
+        "before": "none",
+        "beforeBackground": "rgba(0, 0, 0, 0)",
+        "id": "7530bb7",
+        "rect": {
+          "bottom": 2266.572998046875,
+          "height": 368.125,
+          "left": 561,
+          "right": 785,
+          "top": 1898.447998046875,
+          "width": 224,
+          "x": 561,
+          "y": 1898.447998046875
+        },
+        "text": "On-Site Check\n\nOur technician reviews the setup, confirms placement, and prepares for installation."
+      },
+      {
+        "badge": "\"0\" counter(cm-step)",
+        "before": "none",
+        "beforeBackground": "rgba(0, 0, 0, 0)",
+        "id": "eb74103",
+        "rect": {
+          "bottom": 2266.572998046875,
+          "height": 368.125,
+          "left": 805,
+          "right": 1029,
+          "top": 1898.447998046875,
+          "width": 224,
+          "x": 805,
+          "y": 1898.447998046875
+        },
+        "text": "Expert Installation\n\nWe mount your TV securely, manage the details, and keep the work area clean."
+      },
+      {
+        "badge": "\"0\" counter(cm-step)",
+        "before": "none",
+        "beforeBackground": "rgba(0, 0, 0, 0)",
+        "id": "7c57fbb",
+        "rect": {
+          "bottom": 2266.572998046875,
+          "height": 368.125,
+          "left": 1049,
+          "right": 1273,
+          "top": 1898.447998046875,
+          "width": 224,
+          "x": 1049,
+          "y": 1898.447998046875
+        },
+        "text": "Final Walkthrough\n\nWe check the installation with you and make sure everything looks and works right."
+      }
+    ],
+    "overflow": false,
+    "width": 1366
+  },
+  "afterMobile": {
+    "cards": [
+      {
+        "badge": "\"0\" counter(cm-step)",
+        "before": "none",
+        "id": "0c13f91",
+        "rect": {
+          "bottom": 215.6562614440918,
+          "height": 158.33334350585938,
+          "left": 20,
+          "right": 350,
+          "top": 57.32291793823242,
+          "width": 330,
+          "x": 20,
+          "y": 57.32291793823242
+        }
+      },
+      {
+        "badge": "\"0\" counter(cm-step)",
+        "before": "none",
+        "id": "9ad595c",
+        "rect": {
+          "bottom": 393.9895935058594,
+          "height": 158.33334350585938,
+          "left": 20,
+          "right": 350,
+          "top": 235.65625,
+          "width": 330,
+          "x": 20,
+          "y": 235.65625
+        }
+      },
+      {
+        "badge": "\"0\" counter(cm-step)",
+        "before": "none",
+        "id": "7530bb7",
+        "rect": {
+          "bottom": 572.3229370117188,
+          "height": 158.33334350585938,
+          "left": 20,
+          "right": 350,
+          "top": 413.9895935058594,
+          "width": 330,
+          "x": 20,
+          "y": 413.9895935058594
+        }
+      },
+      {
+        "badge": "\"0\" counter(cm-step)",
+        "before": "none",
+        "id": "eb74103",
+        "rect": {
+          "bottom": 750.6562805175781,
+          "height": 158.33334350585938,
+          "left": 20,
+          "right": 350,
+          "top": 592.3229370117188,
+          "width": 330,
+          "x": 20,
+          "y": 592.3229370117188
+        }
+      },
+      {
+        "badge": "\"0\" counter(cm-step)",
+        "before": "none",
+        "id": "7c57fbb",
+        "rect": {
+          "bottom": 928.9895935058594,
+          "height": 158.33334350585938,
+          "left": 20,
+          "right": 350,
+          "top": 770.65625,
+          "width": 330,
+          "x": 20,
+          "y": 770.65625
+        }
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  }
+}

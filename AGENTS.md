@@ -8,6 +8,15 @@
 
 **Custom code is a last resort, not a default.** If the owner approves a specific exception, document in GitHub, precisely: approval and scope, why native WordPress/Elementor and existing theme code cannot satisfy the requirement, every changed file/widget/ID and code location, behavior, dependencies, maintenance instructions, verification, rollback and any remaining risks. No undocumented custom code.
 
+## Permanent CSS ownership and centralization — owner instruction (2026-11-13)
+
+- Before changing styles, inspect the existing native Elementor settings, rendered rules, shared theme CSS and the object/component that owns them.
+- First use native Elementor styling controls when sufficient. Otherwise reuse or minimally correct the existing owning rule in the active theme's shared `style.css`; centralize custom styling there.
+- Widget-level Custom CSS is an exception only when technically justified for a genuinely reusable component and separately approved under Rule #1. An isolated one-off adjustment does not qualify. Historical widget CSS is not permission to add more.
+- Never scatter custom CSS among individual pages/widgets, HTML blocks, inline styles or additional stylesheets. Do not add duplicate rules or unnecessary overrides.
+- If the original owning rule can be corrected or removed, change that rule instead of adding a later override to hide its effect. Preserve unrelated declarations, responsive behavior and shared component ownership; verify desktop/mobile after changes.
+- These rules do not relax Rule #1: all new custom code still requires explicit prior owner approval for the exact change. A general styling request is not blanket approval for new CSS, plugins or architecture.
+
 A task is NOT complete until both functionality and owner-editability/maintainability are checked. New Case Studies must be manageable through normal WordPress fields, taxonomies and media without hand-editing HTML/CSS/PHP. Preserve existing design, content and working behavior. No unapproved refactoring of legacy code; audit and propose first. These requirements override any weaker general instruction elsewhere in this repository.
 
 ## Start every task
