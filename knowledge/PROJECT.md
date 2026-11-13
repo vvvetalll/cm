@@ -1,4 +1,8 @@
 # Chicago Mounting — project knowledge
+## Current catalogue architecture — verified 2026-11-13
+
+WooCommerce currently supplies24 published catalogue products, category/brand/attribute data, Elementor Product10701/Card10278/archive10276, three Product Filter Everything sets and request-pricing popup10937. Card10278 also appears on service/city pages. Quote4986 uses Cost Calculator; booking5890 uses Jobber. Current Orders UI empty; no active gateways/keys/webhooks found; cart/checkout/account assigned IDs reference absent pages. This is not a backend API disablement. Recommendation: keep Woo, first address confirmed Rocket facet preload and attribution assets through native settings after separate approval. No production change. Full evidence/limits: [audit](../docs/WOOCOMMERCE-AUDIT-2026-11-13.md).
+
 Updated: 2026-10-26 (America/Chicago).
 
 ## Scope and evidence

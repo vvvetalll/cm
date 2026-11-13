@@ -1,4 +1,10 @@
 # SEO-звіт — точка продовження
+## 2026-11-13 — Поточний аудит товарного каталогу
+
+Read-only: усі24 товарні URL, Shop і три категорії200/indexable/self-canonical; товари/категорії в XML sitemaps. Sample mount facet200/noindex,follow/canonicalShop; category/brand facets anonymous403 Cloudflare challenge, тому їх origin head не перевірено. Orderby/min_price canonicalShop; Shop page2noindex,nofollow/canonicalShop. Політики не змінено, Case Studies release збережено.
+
+GSC14Oct–10Nov:11productURLs/34impressions/0clicks;Shop7/0. Це Search Analytics, не Index Coverage/Crawl Stats. Ahrefs7Nov flags24missingProductschema; currentSanus підтверджує один приклад і два різні breadcrumb trails. Не робити масових index/schema змін без окремого рішення. Головна підтверджена зайва URL-робота — WP Rocket preload фасетних комбінацій. [Повний звіт і докази](../docs/WOOCOMMERCE-AUDIT-2026-11-13.md).
+
 Оновлено 26.10.2026. Відновлений конспект великого аналізу 8–12 жовтня; повний оригінал звіту не знайдено у доступному пошуку файлів. Не видавати цей конспект за оригінальний звіт.
 
 ## Підтверджений контекст

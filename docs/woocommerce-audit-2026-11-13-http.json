@@ -1,0 +1,1584 @@
+{
+  "method": "Anonymous GET, no cookies; HTML only, no installed plugin source or assets downloaded; client timings include network/TLS, not PHP profiling",
+  "rows": [
+    {
+      "url": "https://chicagomounting.com/",
+      "final": "https://chicagomounting.com/",
+      "status": 200,
+      "headers_ms": 896,
+      "total_ms": 998,
+      "html_bytes": 637776,
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Cache-Control": "public, max-age=0",
+        "cf-cache-status": "DYNAMIC",
+        "Server-Timing": "cfEdge;dur=33,cfOrigin;dur=167"
+      },
+      "cookie_names": [],
+      "title": [
+        "TV Mounting Chicago | Professional TV, Soundbar &amp; AV Installation"
+      ],
+      "robots": [
+        "max-image-preview:large"
+      ],
+      "canonical": [
+        "https://chicagomounting.com/"
+      ],
+      "assets": [
+        {
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-jquery-blockui-js",
+          "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0"
+        },
+        {
+          "id": "wc-add-to-cart-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-add-to-cart-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-js-cookie-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0"
+        },
+        {
+          "id": "woocommerce-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "woocommerce-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-no-js"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "sourcebuster-js-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+          "defer": null
+        },
+        {
+          "id": "wc-order-attribution-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-order-attribution-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+          "defer": null
+        }
+      ],
+      "links": [
+        "https://chicagomounting.com#",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjU4OTAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/cdn-cgi/l/email-protection",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ],
+      "templates": [
+        "10937",
+        "10957",
+        "10965",
+        "10974",
+        "10978",
+        "16",
+        "2157",
+        "2164",
+        "2335",
+        "28",
+        "3092",
+        "4290",
+        "5085",
+        "5890"
+      ],
+      "widgets": [
+        "button.default",
+        "divider.default",
+        "form.default",
+        "heading.default",
+        "html.default",
+        "icon-box.default",
+        "icon-list.default",
+        "icon.default",
+        "image.default",
+        "nav-menu.default",
+        "nested-accordion.default",
+        "nested-carousel.default",
+        "template.default",
+        "text-editor.default",
+        "video.default"
+      ],
+      "signals": {
+        "wc-ajax": 2,
+        "cart-fragments": 0,
+        "wc/store": 0,
+        "woocommerce": 649,
+        "cost-calculator": 1,
+        "wpc-filters": 1,
+        "application/ld\\+json": 3,
+        "Product": 160,
+        "add-to-cart": 5
+      },
+      "xml_urls": [],
+      "text": null
+    },
+    {
+      "url": "https://chicagomounting.com/tv-installation-and-mounting/",
+      "final": "https://chicagomounting.com/tv-installation-and-mounting/",
+      "status": 200,
+      "headers_ms": 889,
+      "total_ms": 1038,
+      "html_bytes": 667996,
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Cache-Control": "public, max-age=0",
+        "cf-cache-status": "DYNAMIC",
+        "Server-Timing": "cfEdge;dur=47,cfOrigin;dur=166"
+      },
+      "cookie_names": [],
+      "title": [
+        "TV Mounting &amp; Installation in Chicago | Chicago Mounting"
+      ],
+      "robots": [
+        "max-image-preview:large"
+      ],
+      "canonical": [
+        "https://chicagomounting.com/tv-installation-and-mounting/"
+      ],
+      "assets": [
+        {
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-jquery-blockui-js",
+          "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0"
+        },
+        {
+          "id": "wc-add-to-cart-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-add-to-cart-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-js-cookie-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0"
+        },
+        {
+          "id": "woocommerce-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "woocommerce-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-no-js"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "sourcebuster-js-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+          "defer": null
+        },
+        {
+          "id": "wc-order-attribution-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-order-attribution-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+          "defer": null
+        }
+      ],
+      "links": [
+        "https://chicagomounting.com",
+        "https://chicagomounting.com#",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwOTM3IiwidG9nZ2xlIjp0cnVlfQ%3D%3D",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjU4OTAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+        "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/cdn-cgi/l/email-protection",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/product/neptune-full-sun-4k/",
+        "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+        "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+        "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ],
+      "templates": [
+        "10278",
+        "10937",
+        "10957",
+        "10965",
+        "10974",
+        "10978",
+        "11227",
+        "12405",
+        "12415",
+        "15715",
+        "1682",
+        "2157",
+        "2164",
+        "3092",
+        "5085",
+        "5890",
+        "7491"
+      ],
+      "widgets": [
+        "button.default",
+        "divider.default",
+        "form.default",
+        "heading.default",
+        "html.default",
+        "icon-box.default",
+        "icon.default",
+        "image.default",
+        "loop-grid.post",
+        "loop-grid.product",
+        "nav-menu.default",
+        "nested-accordion.default",
+        "post-info.default",
+        "template.default",
+        "text-editor.default",
+        "theme-post-featured-image.default",
+        "woocommerce-product-price.default",
+        "woocommerce-product-title.default"
+      ],
+      "signals": {
+        "wc-ajax": 2,
+        "cart-fragments": 0,
+        "wc/store": 0,
+        "woocommerce": 689,
+        "cost-calculator": 1,
+        "wpc-filters": 1,
+        "application/ld\\+json": 3,
+        "Product": 353,
+        "add-to-cart": 5
+      },
+      "xml_urls": [],
+      "text": null
+    },
+    {
+      "url": "https://chicagomounting.com/tv-installation-in-winnetka/",
+      "final": "https://chicagomounting.com/tv-installation-in-winnetka/",
+      "status": 200,
+      "headers_ms": 888,
+      "total_ms": 1046,
+      "html_bytes": 728421,
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Cache-Control": "public, max-age=0",
+        "cf-cache-status": "DYNAMIC",
+        "Server-Timing": "cfEdge;dur=27,cfOrigin;dur=175"
+      },
+      "cookie_names": [],
+      "title": [
+        "TV Installation in Winnetka, IL | Chicago Mounting"
+      ],
+      "robots": [
+        "max-image-preview:large"
+      ],
+      "canonical": [
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ],
+      "assets": [
+        {
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-jquery-blockui-js",
+          "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0"
+        },
+        {
+          "id": "wc-add-to-cart-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-add-to-cart-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-js-cookie-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0"
+        },
+        {
+          "id": "woocommerce-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "woocommerce-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-no-js"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "sourcebuster-js-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+          "defer": null
+        },
+        {
+          "id": "wc-order-attribution-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-order-attribution-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+          "defer": null
+        }
+      ],
+      "links": [
+        "https://chicagomounting.com",
+        "https://chicagomounting.com#",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwOTM3IiwidG9nZ2xlIjp0cnVlfQ%3D%3D",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjU4OTAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+        "https://chicagomounting.com#video",
+        "https://chicagomounting.com/77-inch-lg-g6-installation-on-a-stone-fireplace/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/case-city-featured-city-winnetka/",
+        "https://chicagomounting.com/cdn-cgi/l/email-protection",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/product/neptune-full-sun-4k/",
+        "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+        "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+        "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/samsung-frame-tv-installation-on-tile-in-winnetka/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/",
+        "https://chicagomounting.com/wp-content/uploads/2026/04/5-inch-samsung-frame-tv-mantelmount-fireplace-hyde-park-1.webp",
+        "https://chicagomounting.com/wp-content/uploads/2026/04/55-inch-samsung-frame-gray-tile-fireplace-bucktown-chicago-1.webp",
+        "https://chicagomounting.com/wp-content/uploads/2026/04/55-inch-samsung-frame-tv-electric-fireplace-streeterville-1.webp",
+        "https://chicagomounting.com/wp-content/uploads/2026/04/55-inch-samsung-frame-tv-stone-fireplace-mount-park-ridge-il-1.webp",
+        "https://chicagomounting.com/wp-content/uploads/2026/04/65-inch-samsung-frame-tv-over-electric-fireplace-portage-park-1.webp",
+        "https://chicagomounting.com/wp-content/uploads/2026/04/75-inch-samsung-frame-tv-hidden-one-connect-box-1.webp",
+        "https://chicagomounting.com/wp-content/uploads/2026/04/samsung-85-inch-tv-sonos-arc-ultra-wall-mount-hidden-wires-1.webp",
+        "https://chicagomounting.com/wp-content/uploads/2026/04/samsung-frame-pro-tv-installation-tile-fireplace-chicago-1.webp"
+      ],
+      "templates": [
+        "10278",
+        "10937",
+        "10957",
+        "10965",
+        "10974",
+        "10978",
+        "11040",
+        "12405",
+        "12415",
+        "15715",
+        "2157",
+        "2164",
+        "3092",
+        "4290",
+        "5085",
+        "5890",
+        "7491",
+        "9888"
+      ],
+      "widgets": [
+        "button.default",
+        "divider.default",
+        "form.default",
+        "gallery.default",
+        "heading.default",
+        "html.default",
+        "icon-box.default",
+        "icon.default",
+        "image.default",
+        "loop-grid.post",
+        "loop-grid.product",
+        "nav-menu.default",
+        "nested-accordion.default",
+        "post-info.default",
+        "template.default",
+        "text-editor.default",
+        "theme-post-featured-image.default",
+        "video.default",
+        "woocommerce-product-price.default",
+        "woocommerce-product-title.default"
+      ],
+      "signals": {
+        "wc-ajax": 2,
+        "cart-fragments": 0,
+        "wc/store": 0,
+        "woocommerce": 689,
+        "cost-calculator": 1,
+        "wpc-filters": 1,
+        "application/ld\\+json": 3,
+        "Product": 354,
+        "add-to-cart": 5
+      },
+      "xml_urls": [],
+      "text": null
+    },
+    {
+      "url": "https://chicagomounting.com/case-studies/",
+      "final": "https://chicagomounting.com/case-studies/",
+      "status": 200,
+      "headers_ms": 412,
+      "total_ms": 518,
+      "html_bytes": 467125,
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Cache-Control": "public, max-age=0",
+        "cf-cache-status": "DYNAMIC",
+        "Server-Timing": "cfEdge;dur=40,cfOrigin;dur=184"
+      },
+      "cookie_names": [],
+      "title": [
+        "Case Studies | Chicago Mounting"
+      ],
+      "robots": [
+        "max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+      ],
+      "canonical": [
+        "https://chicagomounting.com/case-studies/"
+      ],
+      "assets": [
+        {
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-jquery-blockui-js",
+          "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0"
+        },
+        {
+          "id": "wc-add-to-cart-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-add-to-cart-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-js-cookie-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0"
+        },
+        {
+          "id": "woocommerce-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "woocommerce-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-select2-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-no-js"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "sourcebuster-js-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+          "defer": null
+        },
+        {
+          "id": "wc-order-attribution-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-order-attribution-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+          "defer": null
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-jquery-ui-touchpunch-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0",
+          "defer": null
+        },
+        {
+          "id": "wpc-filter-everything-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wpc-filter-everything-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/filter-everything-pro/assets/js/filter-everything.min.js?ver=1.9.8",
+          "defer": null
+        }
+      ],
+      "links": [
+        "https://chicagomounting.com",
+        "https://chicagomounting.com#",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjU4OTAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+        "https://chicagomounting.com/100-inch-lg-qned-installation-with-home-audio/",
+        "https://chicagomounting.com/65-inch-samsung-frame-pro-with-a-recessed-outlet/",
+        "https://chicagomounting.com/65-inch-samsung-oled-and-bose-soundbar-on-stone/",
+        "https://chicagomounting.com/77-inch-lg-w6-fireplace-installation-with-sonos-arc-ultra/",
+        "https://chicagomounting.com/85-inch-neo-qled-and-soundbar-on-a-brick-fireplace/",
+        "https://chicagomounting.com/85-inch-samsung-frame-tv-on-a-full-motion-mount/",
+        "https://chicagomounting.com/85-inch-sony-bravia-and-sonos-arc-ultra-installation/",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/case-studies/2/",
+        "https://chicagomounting.com/cdn-cgi/l/email-protection",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/samsung-frame-pro-fireplace-installation-with-sonos-amp/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ],
+      "templates": [
+        "10937",
+        "10957",
+        "10965",
+        "10974",
+        "10978",
+        "12405",
+        "12415",
+        "15715",
+        "15716",
+        "5085",
+        "5890",
+        "7491"
+      ],
+      "widgets": [
+        "button.default",
+        "divider.default",
+        "form.default",
+        "heading.default",
+        "html.default",
+        "icon-box.default",
+        "icon.default",
+        "image.default",
+        "loop-grid.post",
+        "nav-menu.default",
+        "post-info.default",
+        "shortcode.default",
+        "template.default",
+        "text-editor.default",
+        "theme-post-featured-image.default"
+      ],
+      "signals": {
+        "wc-ajax": 2,
+        "cart-fragments": 0,
+        "wc/store": 0,
+        "woocommerce": 663,
+        "cost-calculator": 1,
+        "wpc-filters": 285,
+        "application/ld\\+json": 2,
+        "Product": 161,
+        "add-to-cart": 5
+      },
+      "xml_urls": [],
+      "text": null
+    },
+    {
+      "url": "https://chicagomounting.com/blog/",
+      "final": "https://chicagomounting.com/blog/",
+      "status": 200,
+      "headers_ms": 210,
+      "total_ms": 311,
+      "html_bytes": 327780,
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Cache-Control": "public, max-age=0",
+        "cf-cache-status": "DYNAMIC",
+        "Server-Timing": "cfEdge;dur=31,cfOrigin;dur=75"
+      },
+      "cookie_names": [],
+      "title": [
+        "Blog | Chicago Mounting"
+      ],
+      "robots": [
+        "max-image-preview:large"
+      ],
+      "canonical": [
+        "https://chicagomounting.com/blog/"
+      ],
+      "assets": [
+        {
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-jquery-blockui-js",
+          "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0"
+        },
+        {
+          "id": "wc-add-to-cart-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-add-to-cart-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-js-cookie-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0"
+        },
+        {
+          "id": "woocommerce-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "woocommerce-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-no-js"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "sourcebuster-js-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+          "defer": null
+        },
+        {
+          "id": "wc-order-attribution-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-order-attribution-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+          "defer": null
+        }
+      ],
+      "links": [
+        "https://chicagomounting.com",
+        "https://chicagomounting.com#",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjU4OTAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/best-wall-types-for-tv-mount/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/blog/page/2/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/cdn-cgi/l/email-protection",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/how-much-does-tv-installation-cost-in-chicago-real-pricing-explained/",
+        "https://chicagomounting.com/lg-g5-oled-fireplace-mount/",
+        "https://chicagomounting.com/mantelmount-vs-fixed-vs-full-motion-tv-mounts-which-is-right-for-your-home/",
+        "https://chicagomounting.com/mounting-tvs-on-metal-studs-brick-concrete-in-chicago-homes/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/samsung-frame-tv-installation-in-chicago/",
+        "https://chicagomounting.com/samsung-frame-tv-pro-fireplace-installation-with-mantelmount-mm815-and-rb100-recessed-box/",
+        "https://chicagomounting.com/samsung-the-terrace-full-sun-outdoor-tv-installation-in-chicago/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration-home-benefits/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/surround-sound-setup/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/",
+        "https://chicagomounting.com/tv-installation-over-a-fireplace/",
+        "https://chicagomounting.com/wall-mounted-speakers-small-rooms/"
+      ],
+      "templates": [
+        "10937",
+        "10957",
+        "10965",
+        "10974",
+        "10978",
+        "4420",
+        "5085",
+        "5890",
+        "7503"
+      ],
+      "widgets": [
+        "archive-posts.archive_classic",
+        "button.default",
+        "divider.default",
+        "form.default",
+        "heading.default",
+        "html.default",
+        "icon-box.default",
+        "icon.default",
+        "image.default",
+        "nav-menu.default",
+        "text-editor.default"
+      ],
+      "signals": {
+        "wc-ajax": 2,
+        "cart-fragments": 0,
+        "wc/store": 0,
+        "woocommerce": 646,
+        "cost-calculator": 1,
+        "wpc-filters": 1,
+        "application/ld\\+json": 1,
+        "Product": 157,
+        "add-to-cart": 5
+      },
+      "xml_urls": [],
+      "text": null
+    },
+    {
+      "url": "https://chicagomounting.com/quote/",
+      "final": "https://chicagomounting.com/quote/",
+      "status": 200,
+      "headers_ms": 318,
+      "total_ms": 406,
+      "html_bytes": 356140,
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Cache-Control": "public, max-age=0",
+        "cf-cache-status": "DYNAMIC",
+        "Server-Timing": "cfEdge;dur=19,cfOrigin;dur=163"
+      },
+      "cookie_names": [],
+      "title": [
+        "Free TV Mounting Quote in Chicago | Chicago Mounting"
+      ],
+      "robots": [
+        "max-image-preview:large"
+      ],
+      "canonical": [
+        "https://chicagomounting.com/quote/"
+      ],
+      "assets": [
+        {
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-jquery-blockui-js",
+          "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0"
+        },
+        {
+          "id": "wc-add-to-cart-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-add-to-cart-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-js-cookie-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0"
+        },
+        {
+          "id": "woocommerce-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "woocommerce-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-no-js"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "sourcebuster-js-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+          "defer": null
+        },
+        {
+          "id": "wc-order-attribution-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-order-attribution-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+          "defer": null
+        },
+        {
+          "id": "cbb-phone-js-js",
+          "src": "https://chicagomounting.com/wp-content/cache/min/1/wp-content/plugins/cost-calculator-builder/frontend/dist/libs/vue/phone/vue-phone-number-input.umd.js?ver=1794429466",
+          "defer": null
+        },
+        {
+          "id": "cbb-resize-sensor-js-js",
+          "src": "https://chicagomounting.com/wp-content/cache/min/1/wp-content/plugins/cost-calculator-builder/frontend/dist/sticky/ResizeSensor.js?ver=1794429466",
+          "defer": null
+        },
+        {
+          "id": "cbb-sticky-sidebar-js-js",
+          "src": "https://chicagomounting.com/wp-content/cache/min/1/wp-content/plugins/cost-calculator-builder/frontend/dist/sticky/sticky-sidebar.js?ver=1794429466",
+          "defer": null
+        },
+        {
+          "type": "module",
+          "id": "calc-builder-main-js-js",
+          "src": "https://chicagomounting.com/wp-content/plugins/cost-calculator-builder/frontend/vue3/dist/assets/widget-DvzxdKaK.js",
+          "defer": null
+        }
+      ],
+      "links": [
+        "https://chicagomounting.com",
+        "https://chicagomounting.com#",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjU4OTAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/cdn-cgi/l/email-protection",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ],
+      "templates": [
+        "10937",
+        "10957",
+        "10965",
+        "10974",
+        "10978",
+        "4986",
+        "5085",
+        "5890",
+        "7491"
+      ],
+      "widgets": [
+        "button.default",
+        "divider.default",
+        "form.default",
+        "heading.default",
+        "html.default",
+        "icon-box.default",
+        "icon.default",
+        "image.default",
+        "nav-menu.default",
+        "text-editor.default"
+      ],
+      "signals": {
+        "wc-ajax": 2,
+        "cart-fragments": 0,
+        "wc/store": 0,
+        "woocommerce": 664,
+        "cost-calculator": 64,
+        "wpc-filters": 1,
+        "application/ld\\+json": 1,
+        "Product": 171,
+        "add-to-cart": 5
+      },
+      "xml_urls": [],
+      "text": null
+    },
+    {
+      "url": "https://chicagomounting.com/shop/",
+      "final": "https://chicagomounting.com/shop/",
+      "status": 200,
+      "headers_ms": 232,
+      "total_ms": 355,
+      "html_bytes": 594013,
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Cache-Control": "public, max-age=0",
+        "cf-cache-status": "DYNAMIC",
+        "Server-Timing": "cfEdge;dur=35,cfOrigin;dur=82"
+      },
+      "cookie_names": [],
+      "title": [
+        "Dealer Pricing on TVs, Audio &amp; Mounts | Chicago Mounting"
+      ],
+      "robots": [
+        "max-image-preview:large"
+      ],
+      "canonical": [
+        "https://chicagomounting.com/shop/"
+      ],
+      "assets": [
+        {
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-jquery-blockui-js",
+          "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0"
+        },
+        {
+          "id": "wc-add-to-cart-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-add-to-cart-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-js-cookie-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0"
+        },
+        {
+          "id": "woocommerce-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "woocommerce-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-select2-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-no-js"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "sourcebuster-js-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+          "defer": null
+        },
+        {
+          "id": "wc-order-attribution-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-order-attribution-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+          "defer": null
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-jquery-ui-touchpunch-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=11.3.0",
+          "defer": null
+        },
+        {
+          "id": "wpc-filter-everything-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wpc-filter-everything-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/filter-everything-pro/assets/js/filter-everything.min.js?ver=1.9.8",
+          "defer": null
+        }
+      ],
+      "links": [
+        "https://chicagomounting.com",
+        "https://chicagomounting.com#",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwOTM3IiwidG9nZ2xlIjp0cnVlfQ%3D%3D",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwOTU3IiwidG9nZ2xlIjp0cnVlfQ%3D%3D",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwOTY1IiwidG9nZ2xlIjp0cnVlfQ%3D%3D",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwOTc0IiwidG9nZ2xlIjp0cnVlfQ%3D%3D",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwOTc4IiwidG9nZ2xlIjp0cnVlfQ%3D%3D",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjU4OTAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/cdn-cgi/l/email-protection",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/product/lg-c6-oled-evo-ai-4k-smart-tv-2026/",
+        "https://chicagomounting.com/product/lg-g5-oled-evo-4k-smart-tv-2025/",
+        "https://chicagomounting.com/product/neptune-full-sun-4k/",
+        "https://chicagomounting.com/product/neptune-nt553-partial-sun-4k/",
+        "https://chicagomounting.com/product/samsung-q900f-q-series-7-1-2-channel-soundbar-with-subwoofer/",
+        "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+        "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+        "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/",
+        "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/",
+        "https://chicagomounting.com/product/sonos-arc-ultra-premium-smart-soundbar/",
+        "https://chicagomounting.com/product/sonos-beam-gen-2-smart-soundbar/",
+        "https://chicagomounting.com/product/sony-bravia-5-mini-led-4k-hdr-google-tv-2025/",
+        "https://chicagomounting.com/product/sony-bravia-8-ii-qd-oled-4k-hdr-google-tv-2025/",
+        "https://chicagomounting.com/product/sony-bravia-9-ii-true-rgb-4k-hdr-google-tv-2026/",
+        "https://chicagomounting.com/product/sunbrite-solis-full-sun-outdoor-4k-smart-tv/",
+        "https://chicagomounting.com/product/sunbrite-veranda-4-outdoor-smart-tv/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/"
+      ],
+      "templates": [
+        "10276",
+        "10278",
+        "10875",
+        "10937",
+        "10957",
+        "10965",
+        "10974",
+        "10978",
+        "5085",
+        "5890",
+        "7491"
+      ],
+      "widgets": [
+        "button.default",
+        "divider.default",
+        "form.default",
+        "heading.default",
+        "html.default",
+        "icon-box.default",
+        "icon.default",
+        "image.default",
+        "loop-grid.product",
+        "nav-menu.default",
+        "template.default",
+        "text-editor.default",
+        "woocommerce-product-price.default",
+        "woocommerce-product-title.default"
+      ],
+      "signals": {
+        "wc-ajax": 2,
+        "cart-fragments": 0,
+        "wc/store": 0,
+        "woocommerce": 804,
+        "cost-calculator": 1,
+        "wpc-filters": 271,
+        "application/ld\\+json": 1,
+        "Product": 716,
+        "add-to-cart": 5
+      },
+      "xml_urls": [],
+      "text": null
+    },
+    {
+      "url": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "final": "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/",
+      "status": 200,
+      "headers_ms": 308,
+      "total_ms": 399,
+      "html_bytes": 501061,
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Cache-Control": "public, max-age=0",
+        "cf-cache-status": "DYNAMIC",
+        "Server-Timing": "cfEdge;dur=22,cfOrigin;dur=168"
+      },
+      "cookie_names": [],
+      "title": [
+        "Sanus Outdoor Tilt Mount | Chicago Mounting"
+      ],
+      "robots": [
+        "max-image-preview:large"
+      ],
+      "canonical": [
+        "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/"
+      ],
+      "assets": [
+        {
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-jquery-blockui-js",
+          "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.3.0"
+        },
+        {
+          "id": "wc-add-to-cart-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-add-to-cart-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.3.0"
+        },
+        {
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-zoom-js",
+          "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.3.0"
+        },
+        {
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-flexslider-js",
+          "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.11.3.0"
+        },
+        {
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-photoswipe-js",
+          "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.11.3.0"
+        },
+        {
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-photoswipe-ui-default-js",
+          "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.11.3.0"
+        },
+        {
+          "id": "wc-single-product-js-extra"
+        },
+        {
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-single-product-js",
+          "src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "wc-js-cookie-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.3.0"
+        },
+        {
+          "id": "woocommerce-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "data-wp-strategy": "defer",
+          "defer": null,
+          "id": "woocommerce-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.3.0"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-no-js"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "sourcebuster-js-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.3.0",
+          "defer": null
+        },
+        {
+          "id": "wc-order-attribution-js-extra"
+        },
+        {
+          "type": "text/rocketlazyloadscript",
+          "id": "wc-order-attribution-js",
+          "data-rocket-src": "https://chicagomounting.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.3.0",
+          "defer": null
+        }
+      ],
+      "links": [
+        "https://chicagomounting.com",
+        "https://chicagomounting.com#",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwOTM3IiwidG9nZ2xlIjp0cnVlfQ%3D%3D",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwOTU3IiwidG9nZ2xlIjp0cnVlfQ%3D%3D",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwOTY1IiwidG9nZ2xlIjp0cnVlfQ%3D%3D",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwOTc0IiwidG9nZ2xlIjp0cnVlfQ%3D%3D",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwOTc4IiwidG9nZ2xlIjp0cnVlfQ%3D%3D",
+        "https://chicagomounting.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjU4OTAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+        "https://chicagomounting.com/about-us/",
+        "https://chicagomounting.com/audio-and-media-installation/",
+        "https://chicagomounting.com/blog/",
+        "https://chicagomounting.com/brand/sanus/",
+        "https://chicagomounting.com/brands/",
+        "https://chicagomounting.com/case-studies/",
+        "https://chicagomounting.com/cdn-cgi/l/email-protection",
+        "https://chicagomounting.com/commercial-tv-display-mounting/",
+        "https://chicagomounting.com/contact-us/",
+        "https://chicagomounting.com/find-near-me/",
+        "https://chicagomounting.com/fireplace-or-brick-wall-mounting/",
+        "https://chicagomounting.com/flat-tv-mounting/",
+        "https://chicagomounting.com/floating-tv-shelf-media-shelf-mounting/",
+        "https://chicagomounting.com/frame-tv-mounting-chicago/",
+        "https://chicagomounting.com/gaming-console-mounting/",
+        "https://chicagomounting.com/hide-tv-wires/",
+        "https://chicagomounting.com/home-theatre-mounting/",
+        "https://chicagomounting.com/outdoor-tv-installation/",
+        "https://chicagomounting.com/premium-large-tv-installation/",
+        "https://chicagomounting.com/prices/",
+        "https://chicagomounting.com/privacy-policy/",
+        "https://chicagomounting.com/product-category/mounts/",
+        "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/?add-to-cart=10659",
+        "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/?add-to-cart=10671",
+        "https://chicagomounting.com/product/sanus-outdoor-tilt-mount/?add-to-cart=10682",
+        "https://chicagomounting.com/product/sanus-vdlt17-large-advanced-tilt-4d-tv-wall-mount/",
+        "https://chicagomounting.com/product/sanus-vlf828-advanced-full-motion-4d-shift-tv-wall-mount/",
+        "https://chicagomounting.com/product/sanus-vxt7-tilting-tv-wall-mount/",
+        "https://chicagomounting.com/quote/",
+        "https://chicagomounting.com/recessed-media-box/",
+        "https://chicagomounting.com/reviews/",
+        "https://chicagomounting.com/same-day-tv-mounting/",
+        "https://chicagomounting.com/services/",
+        "https://chicagomounting.com/shop/",
+        "https://chicagomounting.com/smart-device-integration/",
+        "https://chicagomounting.com/soundbar-installation/",
+        "https://chicagomounting.com/speaker-wall-mounting/",
+        "https://chicagomounting.com/terms-conditions/",
+        "https://chicagomounting.com/tv-dismounting/",
+        "https://chicagomounting.com/tv-installation-and-mounting/",
+        "https://chicagomounting.com/tv-installation-in-evanston/",
+        "https://chicagomounting.com/tv-installation-in-glenview/",
+        "https://chicagomounting.com/tv-installation-in-wilmette/",
+        "https://chicagomounting.com/tv-installation-in-winnetka/",
+        "https://chicagomounting.com/wp-content/uploads/2026/07/1077747356-alt-1.jpg",
+        "https://chicagomounting.com/wp-content/uploads/2026/07/1077747356-alt-2.jpg",
+        "https://chicagomounting.com/wp-content/uploads/2026/07/1077747356-alt-3.jpg",
+        "https://chicagomounting.com/wp-content/uploads/2026/07/1077747356-alt-4.jpg",
+        "https://chicagomounting.com/wp-content/uploads/2026/07/1077747356-alt-5.jpg",
+        "https://chicagomounting.com/wp-content/uploads/2026/07/1077747356-alt-6.jpg",
+        "https://chicagomounting.com/wp-content/uploads/2026/07/1077747356-alt-7.jpg",
+        "https://chicagomounting.com/wp-content/uploads/2026/07/NS-VODLT1B2.jpg",
+        "https://chicagomounting.com/wp-content/uploads/2026/07/NS-VODLT1B2_alt1.jpg"
+      ],
+      "templates": [
+        "10701",
+        "10875",
+        "10937",
+        "10957",
+        "10965",
+        "10974",
+        "10978",
+        "5085",
+        "5890",
+        "7491"
+      ],
+      "widgets": [
+        "button.default",
+        "divider.default",
+        "form.default",
+        "heading.default",
+        "html.default",
+        "icon-box.default",
+        "icon.default",
+        "image.default",
+        "nav-menu.default",
+        "nested-tabs.default",
+        "template.default",
+        "text-editor.default",
+        "woocommerce-breadcrumb.default",
+        "woocommerce-product-additional-information.default",
+        "woocommerce-product-images.default",
+        "woocommerce-product-meta.default",
+        "woocommerce-product-price.default",
+        "woocommerce-product-related.default",
+        "woocommerce-product-short-description.default",
+        "woocommerce-product-title.default"
+      ],
+      "signals": {
+        "wc-ajax": 2,
+        "cart-fragments": 0,
+        "wc/store": 0,
+        "woocommerce": 1033,
+        "cost-calculator": 1,
+        "wpc-filters": 1,
+        "application/ld\\+json": 2,
+        "Product": 608,
+        "add-to-cart": 8
+      },
+      "xml_urls": [],
+      "text": null
+    },
+    {
+      "url": "https://chicagomounting.com/robots.txt",
+      "final": "https://chicagomounting.com/robots.txt",
+      "status": 200,
+      "headers_ms": 111,
+      "total_ms": 111,
+      "html_bytes": 3177,
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Cache-Control": "public, max-age=2592000",
+        "Server-Timing": "cfCacheStatus;desc=\"HIT\"",
+        "Age": "1564354",
+        "Cf-Cache-Status": "HIT"
+      },
+      "cookie_names": [],
+      "title": [],
+      "robots": [],
+      "canonical": [],
+      "assets": [],
+      "links": [],
+      "templates": [],
+      "widgets": [],
+      "signals": {
+        "wc-ajax": 0,
+        "cart-fragments": 0,
+        "wc/store": 0,
+        "woocommerce": 2,
+        "cost-calculator": 0,
+        "wpc-filters": 0,
+        "application/ld\\+json": 0,
+        "Product": 1,
+        "add-to-cart": 2
+      },
+      "xml_urls": [],
+      "text": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n# use:      how AI systems may consume the content (immediate, reference, or full).\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /\n\n# Training crawlers\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: MistralAI-Training\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: GoogleOther\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: AwarioSmartBot\nUser-agent: AwarioRssBot\nDisallow: /\n\nUser-agent: Google-CloudVertexBot\nDisallow: /\n\nUser-agent: QualifiedBot\nDisallow: /\n\nUser-agent: Cotoyogi\nDisallow: /\n\nUser-agent: ICC-Crawler\nDisallow: /\n\nUser-agent: atlassian-bot\nDisallow: /\n\nUser-agent: FishBot\nDisallow: /\n\nUser-agent: BorderxBot\nDisallow: /\n\nUser-agent: NavuBot\nDisallow: /\n\nUser-agent: SemrushBot-SWA\nDisallow: /\n\nUser-agent: WARDBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: KimiBot\nDisallow: /\n\nUser-agent: CitibotSiteCrawler\nDisallow: /\n\n# END Cloudflare Managed Content\n\nUser-agent: *\r\nDisallow: /wp-content/uploads/wc-logs/\r\nDisallow: /wp-content/uploads/woocommerce_transient_files/\r\nDisallow: /wp-content/uploads/woocommerce_uploads/\r\nDisallow: /*?add-to-cart=\r\nDisallow: /*?*add-to-cart=\r\nDisallow: /wp-admin/\r\nAllow: /wp-admin/admin-ajax.php\r\nDisallow: /?s=\r\nDisallow: /page/*/?s=\r\nDisallow: /search/\r\nDisallow: /cdn-cgi/\r\nDisallow: /shop/product_category_filter-*\r\n\r\nSitemap: https://chicagomounting.com/sitemap.xml\r\nSitemap: https://chicagomounting.com/sitemap.rss\n"
+    },
+    {
+      "url": "https://chicagomounting.com/sitemap.xml",
+      "final": "https://chicagomounting.com/sitemap.xml",
+      "status": 200,
+      "headers_ms": 1041,
+      "total_ms": 1041,
+      "html_bytes": 1155,
+      "headers": {
+        "Content-Type": "text/xml; charset=UTF-8",
+        "x-robots-tag": "noindex, follow",
+        "Cache-Control": "public, max-age=0",
+        "cf-cache-status": "DYNAMIC",
+        "Server-Timing": "cfEdge;dur=24,cfOrigin;dur=964"
+      },
+      "cookie_names": [],
+      "title": [],
+      "robots": [],
+      "canonical": [],
+      "assets": [],
+      "links": [],
+      "templates": [],
+      "widgets": [],
+      "signals": {
+        "wc-ajax": 0,
+        "cart-fragments": 0,
+        "wc/store": 0,
+        "woocommerce": 0,
+        "cost-calculator": 0,
+        "wpc-filters": 0,
+        "application/ld\\+json": 0,
+        "Product": 2,
+        "add-to-cart": 0
+      },
+      "xml_urls": [
+        "<![CDATA[https://chicagomounting.com/post-sitemap.xml]]>",
+        "<![CDATA[https://chicagomounting.com/page-sitemap.xml]]>",
+        "<![CDATA[https://chicagomounting.com/product-sitemap.xml]]>",
+        "<![CDATA[https://chicagomounting.com/category-sitemap.xml]]>",
+        "<![CDATA[https://chicagomounting.com/product_cat-sitemap.xml]]>"
+      ],
+      "text": null
+    }
+  ]
+}

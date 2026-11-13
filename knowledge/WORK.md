@@ -1,4 +1,16 @@
 # Work — current state
+## 2026-11-13 — WooCommerce audit completed; remediation not applied
+
+Read-only audit for [Issue #1](https://github.com/vvvetalll/cm/issues/1): **keep WooCommerce and optimize existing native settings**. Full report: [WOOCOMMERCE-AUDIT-2026-11-13](../docs/WOOCOMMERCE-AUDIT-2026-11-13.md), six companion evidence files. This supersedes the older “planned/not started” audit checkpoint below.
+
+Current MCP/admin/anonymous HTTP/GSC/Ahrefs/Cloudflare/Hostinger reads succeeded.24 published products and three categories retain200/indexable/self-canonicals and sitemap inclusion. Essential dependencies: Product10701, Card10278 (also service/city pages), archive10276, three Product filter sets, request popup10937; Quote uses Cost Calculator and booking5890 uses Jobber. Existing cart/checkout/account assignments resolve to absent pages; no active gateways, Woo keys/webhooks or current orders found. Missing pages do not disable backend purchasing APIs.
+
+**Confirmed:** Rocket preload enabled with empty exclusions; ten visible pending jobs for facet combinations and failed1014564 with elapsed≥300s. Six Woo JS references on all eight page classes, including two attribution scripts; no cart-fragments reference in these samples. Shared scheduler37failed/63pending, not all Woo. DB703.21MB, posts/meta91.30%,13096revisions; sessions0.20MB; Site Health815autoload options≈1MB with unknown ownership, overdue Rocket SaaS cron. Hostinger sampled CPU≤40%, workers≤1/60, memory≤284MB; no saturation/component attribution established.
+
+Cloudflare13Nov17:55–18:00Z sample180events/90paths,172challenge-origin0,4solved+4bypassed-origin200;156Rocket-UA events, identity not authenticated. Separate24h managed-WAF sample24blocks/origin0 includes generic config probes; no Woo exploit/compromise established. GSC14Oct–10Nov products34impressions/0clicks, Shop7/0, not crawl/index coverage. Ahrefs7Nov24missing Product schema; one live Sanus example confirmed, plus divergent BreadcrumbLists.
+
+**No production settings, indexing, security, plugins, products, cache or jobs changed.** Preserve Case Studies launch decisions and prior owner-IP exception. Next: separate approval for P1 native product-facet preload exclusions and Order Attribution off, then actual before/after verification. No blocker to the architectural decision; remaining measurement gaps are named autoload ownership, CPU/SQL profiling, complete anonymous runtime tests, full historical logs and GSC coverage. No claimed optimization gains. Documentation commit/push and Issue readback verified after saving.
+
 ## Completed continuation — mobile Case Card button sizing
 
 **Done; supersedes the mobile-sizing BLOCKED status below.** Owner explicitly approved changing the existing template CSS after the native-control limitation was explained. Updated only existing Loop Card15715 → Loop Item Settings → Advanced → Custom CSS through authenticated Elementor UI, then published. One mobile-only rule at the site's existing767px breakpoint targets the existing CTA anchor; no new widget, card, template, individual-card edit or redesign:

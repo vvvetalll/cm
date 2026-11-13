@@ -1,0 +1,345 @@
+{
+  "date": "2026-11-13",
+  "source": "Read-only authenticated WooCommerce/Filter Everything/WP Rocket/Site Health admin UI and Hostinger hPanel; values transcribed from current UI, not plugin source",
+  "versions": {
+    "woocommerce": "11.3.0",
+    "wp": "7.1.4",
+    "elementor": "4.4.0",
+    "filterEverything": "1.9.8",
+    "wpRocket": "3.24",
+    "php": "8.3.36"
+  },
+  "store": {
+    "products": 24,
+    "orders": "Empty orders UI; no shop_order in status post counts; no independent historical deletion audit",
+    "cart": "No existing assigned page; status report says assigned IDs refer to absent pages",
+    "checkout": "No existing assigned page",
+    "account": "No existing assigned page",
+    "tax": false,
+    "coupons": true,
+    "shipping": "Enabled, no methods configured (Site Health)",
+    "manageStock": true,
+    "holdStockMinutes": 60,
+    "ajaxAddToCart": true,
+    "orderAttribution": true,
+    "analytics": true,
+    "registrationCheckout": false,
+    "registrationMyAccount": false,
+    "restKeys": 0,
+    "webhooks": 0,
+    "paymentGateways": "WooPayments/PayPal offer Install; all three offline gateways offer Enable",
+    "emails": "Most core transactional emails enabled; no mail sent or delivery logs read"
+  },
+  "database": {
+    "reportedAt": "2026-11-13 12:26:26 -06:00",
+    "totalMB": 703.21,
+    "dataMB": 653.86,
+    "indexMB": 49.35,
+    "posts": {
+      "dataMB": 237.52,
+      "indexMB": 5.22
+    },
+    "postmeta": {
+      "dataMB": 375.48,
+      "indexMB": 23.78
+    },
+    "sessions": {
+      "dataMB": 0.17,
+      "indexMB": 0.03
+    },
+    "options": {
+      "dataMB": 5.52,
+      "indexMB": 0.25
+    },
+    "actionSchedulerActions": {
+      "dataMB": 2.52,
+      "indexMB": 2.3
+    },
+    "actionSchedulerLogs": {
+      "dataMB": 1.52,
+      "indexMB": 0.72
+    },
+    "revisions": 13096,
+    "autoload": {
+      "count": 815,
+      "displayedSize": "1 MB",
+      "ownership": "not available"
+    },
+    "externalObjectCache": false
+  },
+  "scheduler": {
+    "complete": 5284,
+    "failed": 37,
+    "pending": 63,
+    "canceled": 12,
+    "scope": "All users of shared Action Scheduler, not WooCommerce-only",
+    "examples": [
+      {
+        "id": 1014564,
+        "hook": "rocket_preload_job_preload_url",
+        "url": "https://chicagomounting.com/shop/product_category_filter-audio/product_brand-lg/product_display_type-ips-led-or-micro-rgb-or-mini-led-or-neo-qled-or-oled-or-qd-oled-or-qled",
+        "createdUTC": "2026-11-13T17:43:07Z",
+        "startedUTC": "2026-11-13T17:46:15Z",
+        "failedUTC": "2026-11-13T17:52:00Z",
+        "message": "in-progress for at least 300 seconds without completing"
+      },
+      {
+        "ids": "1015053–1015062",
+        "hook": "rocket_preload_job_preload_url",
+        "state": "Pending",
+        "createdUTC": "2026-11-13T18:26:14Z",
+        "scope": "Ten visible rows all faceted catalogue URLs"
+      },
+      {
+        "hook": "fetch_patterns",
+        "group": "woocommerce",
+        "message": "no callbacks registered",
+        "lastInspected": "2026-10-09; scheduler says new instance will not be scheduled"
+      },
+      {
+        "hook": "hostinger_tools/jobs/notify_mcp/process_item",
+        "ids": [
+          579470,
+          581461,
+          983788
+        ],
+        "message": "in-progress at least 300s"
+      }
+    ],
+    "lateCron": "rocket_saas_on_submit_jobs"
+  },
+  "rocket": {
+    "preload": true,
+    "preloadExcludedUri": "",
+    "preloadLinks": true,
+    "cacheRejectUri": "",
+    "cacheQueryStrings": "",
+    "cacheLoggedUser": false,
+    "delayJS": true,
+    "removeUnusedCSS": true,
+    "quoteDelayExclusions": [
+      "/wp-content/plugins/cost-calculator-builder/",
+      "/wp-content/plugins/cost-calculator-builder-pro/"
+    ]
+  },
+  "filters": {
+    "sets": [
+      {
+        "id": 10596,
+        "scope": "Shop",
+        "type": "product"
+      },
+      {
+        "id": 10773,
+        "scope": "Product categories",
+        "type": "product"
+      },
+      {
+        "id": 11019,
+        "scope": "Product brands",
+        "type": "product"
+      },
+      {
+        "id": 15744,
+        "scope": "Case Studies",
+        "type": "post"
+      }
+    ],
+    "shopPrefixes": [
+      "product_category_filter",
+      "product_brand",
+      "product_display_type",
+      "product_mount_type",
+      "product_audio_type"
+    ],
+    "ajax": true,
+    "disableLinksForBots": true,
+    "robotsTxtBlockFilters": false,
+    "indexedFilterCheckboxes": "All seven unchecked",
+    "indexDepth": "post/product blank"
+  },
+  "hosting": {
+    "source": "https://hpanel.hostinger.com/websites/chicagomounting.com/order/order-usage",
+    "window": "UI chart 2026-11-13 11:32–12:32; timezone not independently established",
+    "CPUPercentRange": [
+      0,
+      40
+    ],
+    "PHPWorkersRange": [
+      0,
+      1
+    ],
+    "PHPWorkersLimit": 60,
+    "memoryMBRange": [
+      0,
+      284
+    ],
+    "memoryLimitDisplay": "3.1k MB",
+    "maxProcessesRange": [
+      0,
+      3
+    ],
+    "maxProcessesLimit": 120,
+    "IOPeakKBps": 305,
+    "dashboard24h": {
+      "CPUlow": 3,
+      "CPUhigh": 40,
+      "memoryLowMB": 210,
+      "memoryHighMB": 284
+    },
+    "limits": "No per-request CPU/database profile; latest zero values may be incomplete buckets; diagnostic traffic affects window",
+    "accessLogSample": "Five newest rows only: two hostinger-challenge GETs, two admin-ajax POSTs 674.197/724.66ms, one wc-site-health GET 905.592ms; likely audit traffic, not attack evidence; no raw IPs persisted"
+  },
+  "browser": {
+    "context": "Existing logged-in Chrome session, warm cache and preexisting cart/attribution cookies; cannot infer anonymous cookie creation",
+    "homepage": {
+      "ttfbMs": 1128.8,
+      "navigationMs": 2264.9,
+      "wooResourceEntries": 9,
+      "transferBytes": 0,
+      "cartFragmentRequestsObserved": 0,
+      "storeApiRequestsObserved": 0
+    },
+    "product": {
+      "ttfbMs": 1430.9,
+      "navigationMs": 6341.8,
+      "wooMatchedEntries": 22,
+      "includesElementorWooCSS": true
+    },
+    "limits": "Two diagnostic resource snapshots only; not all page classes runtime-tested; JS delayed until interaction on anonymous Rocket pages; no plugin response bodies fetched"
+  },
+  "cloudflareSettings": {
+    "browser_check": {
+      "id": "browser_check",
+      "value": "on",
+      "modified_on": null,
+      "editable": true
+    },
+    "security_level": {
+      "id": "security_level",
+      "value": "medium",
+      "modified_on": null,
+      "editable": true
+    },
+    "bot_management": {
+      "enable_js": true,
+      "fight_mode": true,
+      "ai_bots_protection": "disabled",
+      "content_bots_protection": "disabled",
+      "crawler_protection": "disabled",
+      "ai_training": "disallow",
+      "ai_search": "disabled",
+      "ai_user": "only_on_ad_pages",
+      "ai_agents": {
+        "anthropic_agent": "disabled",
+        "google_agent": "disabled",
+        "instinct": "disabled",
+        "muse": "disabled",
+        "openai_agent": "disabled"
+      },
+      "is_robots_txt_managed": true,
+      "bot_preference_sync_enabled": true,
+      "cf_robots_variant": "off",
+      "ai_bots_migration_opt_out": false,
+      "using_latest_model": true
+    }
+  },
+  "managedEvents": {
+    "window": [
+      "2026-11-12T18:00:00Z",
+      "2026-11-13T18:00:00Z"
+    ],
+    "count": 24,
+    "groups": {
+      "/wp-config.php|403|0": 2,
+      "/wp-config.php.bak|403|0": 1,
+      "/|403|0": 18,
+      "/index.php|403|0": 1,
+      "/wp-json/batch/v1|403|0": 1,
+      "/wp-admin/wp-config.php|403|0": 1
+    },
+    "examples": [
+      {
+        "action": "block",
+        "clientRequestPath": "/wp-config.php",
+        "datetime": "2026-11-13T17:45:44Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "9ce4e284ff2a486aaa37d642bff5a079"
+      },
+      {
+        "action": "block",
+        "clientRequestPath": "/wp-config.php.bak",
+        "datetime": "2026-11-13T17:45:44Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "9ce4e284ff2a486aaa37d642bff5a079"
+      },
+      {
+        "action": "block",
+        "clientRequestPath": "/",
+        "datetime": "2026-11-13T17:15:24Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "ebd3f2df15c74ddcbf6220c9b5ec246a"
+      },
+      {
+        "action": "block",
+        "clientRequestPath": "/",
+        "datetime": "2026-11-13T17:15:24Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "ebd3f2df15c74ddcbf6220c9b5ec246a"
+      },
+      {
+        "action": "block",
+        "clientRequestPath": "/",
+        "datetime": "2026-11-13T17:15:24Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "ebd3f2df15c74ddcbf6220c9b5ec246a"
+      },
+      {
+        "action": "block",
+        "clientRequestPath": "/",
+        "datetime": "2026-11-13T17:15:24Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "ebd3f2df15c74ddcbf6220c9b5ec246a"
+      },
+      {
+        "action": "block",
+        "clientRequestPath": "/",
+        "datetime": "2026-11-13T17:15:23Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "ebd3f2df15c74ddcbf6220c9b5ec246a"
+      },
+      {
+        "action": "block",
+        "clientRequestPath": "/",
+        "datetime": "2026-11-13T17:15:23Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "ebd3f2df15c74ddcbf6220c9b5ec246a"
+      },
+      {
+        "action": "block",
+        "clientRequestPath": "/",
+        "datetime": "2026-11-13T17:15:23Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "ebd3f2df15c74ddcbf6220c9b5ec246a"
+      },
+      {
+        "action": "block",
+        "clientRequestPath": "/",
+        "datetime": "2026-11-13T17:15:23Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "ebd3f2df15c74ddcbf6220c9b5ec246a"
+      }
+    ],
+    "errors": null
+  }
+}

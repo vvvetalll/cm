@@ -1,0 +1,478 @@
+{
+  "date": "2026-11-13",
+  "gsc": {
+    "property": "sc-domain:chicagomounting.com",
+    "from": "2026-10-14",
+    "to": "2026-11-10",
+    "product_pages": 11,
+    "clicks": 0,
+    "impressions": 34,
+    "shop": {
+      "page": "https://chicagomounting.com/shop/",
+      "clicks": 0,
+      "impressions": 7,
+      "position": 7
+    },
+    "limitation": "Search Analytics rows, not index coverage or crawl stats; private full export omitted"
+  },
+  "cloudflare5": {
+    "window": [
+      "2026-11-13T17:55:00Z",
+      "2026-11-13T18:00:00Z"
+    ],
+    "count": 180,
+    "earliest": "2026-11-13T17:55:26Z",
+    "latest": "2026-11-13T17:59:29Z",
+    "groups": {
+      "firewallCustom|managed_challenge|origin0": 172,
+      "firewallCustom|managed_challenge_interactive_solved|origin200": 4,
+      "firewallCustom|managed_challenge_bypassed|origin200": 4
+    },
+    "uniquePaths": 90,
+    "rocketUA": 156,
+    "examples": [
+      {
+        "action": "managed_challenge",
+        "clientRequestPath": "/shop/product_category_filter-audio/product_brand-neptune/product_display_type-led-or-oled-evo-or-qd-oled-or-qled/",
+        "datetime": "2026-11-13T17:59:29Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestPath": "/shop/product_category_filter-mounts-or-tv/product_brand-samsung-or-sanus-or-sony/product_display_type-mini-led-or-neo-qled-or-qled/",
+        "datetime": "2026-11-13T17:59:26Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestPath": "/shop/product_category_filter-mounts-or-tv/product_brand-samsung-or-sanus-or-sony/product_display_type-mini-led-or-neo-qled-or-qled/",
+        "datetime": "2026-11-13T17:59:26Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom"
+      }
+    ],
+    "errors": null
+  },
+  "cloudflare24": {
+    "window": [
+      "2026-11-12T18:00:00Z",
+      "2026-11-13T18:00:00Z"
+    ],
+    "count": 1000,
+    "groups": {
+      "firewallCustom|managed_challenge": 896,
+      "firewallCustom|managed_challenge_interactive_solved": 45,
+      "firewallCustom|managed_challenge_bypassed": 45,
+      "firewallManaged|block": 14
+    },
+    "woo": [
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_category_filter-audio/product_brand-neptune/product_display_type-led-or-oled-evo-or-qd-oled-or-qled/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:29Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "other"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_category_filter-mounts-or-tv/product_brand-samsung-or-sanus-or-sony/product_display_type-mini-led-or-neo-qled-or-qled/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:26Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "WP Rocket (unverified)"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_category_filter-mounts-or-tv/product_brand-samsung-or-sanus-or-sony/product_display_type-mini-led-or-neo-qled-or-qled/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:26Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "WP Rocket (unverified)"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_display_type-micro-rgb-or-neo-qled-or-oled/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:25Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "WP Rocket (unverified)"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_display_type-micro-rgb-or-neo-qled-or-oled/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:25Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "WP Rocket (unverified)"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_category_filter-audio/product_brand-lg-or-sonos/product_display_type-dled-or-mini-led-or-oled/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:25Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "other"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/product-category/tv/product_brand-samsung-or-sony-or-sunbrite/product_display_type-micro-rgb-or-mini-led-or-oled-or-oled-evo/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:24Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "WP Rocket (unverified)"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/product-category/tv/product_brand-samsung-or-sony-or-sunbrite/product_display_type-micro-rgb-or-mini-led-or-oled-or-oled-evo/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:24Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "WP Rocket (unverified)"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_brand-lg-or-sony/product_display_type-led-or-neo-qled-or-oled-or-oled-evo/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:23Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "WP Rocket (unverified)"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_brand-lg-or-sony/product_display_type-led-or-neo-qled-or-oled-or-oled-evo/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:22Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "WP Rocket (unverified)"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-sony-or-sunbrite/product_display_type-dled-or-mini-led-or-neo-qled-or-qd-oled-or-qled/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:22Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "WP Rocket (unverified)"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-sony-or-sunbrite/product_display_type-dled-or-mini-led-or-neo-qled-or-qd-oled-or-qled/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:21Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "WP Rocket (unverified)"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-samsung-or-sonos/product_display_type-dled-or-led-or-neo-qled-or-oled-evo-or-qled/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:21Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "WP Rocket (unverified)"
+      },
+      {
+        "action": "managed_challenge_interactive_solved",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_category_filter-mounts/product_brand-sonos-or-sony-or-sunbrite/product_display_type-ips-led-or-led-or-mini-led-or-neo-qled-or-qd-oled/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:21Z",
+        "edgeResponseStatus": 200,
+        "originResponseStatus": 200,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "other"
+      },
+      {
+        "action": "managed_challenge_bypassed",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_category_filter-mounts/product_brand-sonos-or-sony-or-sunbrite/product_display_type-ips-led-or-led-or-mini-led-or-neo-qled-or-qd-oled/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:21Z",
+        "edgeResponseStatus": 200,
+        "originResponseStatus": 200,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "other"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-samsung-or-sonos/product_display_type-dled-or-led-or-neo-qled-or-oled-evo-or-qled/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:20Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "WP Rocket (unverified)"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-neptune-or-samsung-or-sanus-or-sunbrite/product_display_type-micro-rgb-or-mini-led-or-neo-qled-or-oled-evo-or-qd-oled-or-qled/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:20Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "WP Rocket (unverified)"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-sunbrite/product_display_type-dled-or-ips-led-or-mini-led-or-oled-or-oled-evo-or-qled/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:19Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "WP Rocket (unverified)"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-neptune-or-samsung-or-sanus-or-sunbrite/product_display_type-micro-rgb-or-mini-led-or-neo-qled-or-oled-evo-or-qd-oled-or-qled/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:19Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "WP Rocket (unverified)"
+      },
+      {
+        "action": "managed_challenge",
+        "clientRequestHTTPMethodName": "GET",
+        "clientRequestPath": "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-sonos/product_display_type-dled-or-mini-led-or-neo-qled-or-oled-or-oled-evo-or-qd-oled/",
+        "clientRequestQuery": "",
+        "datetime": "2026-11-13T17:59:18Z",
+        "edgeResponseStatus": 403,
+        "originResponseStatus": 0,
+        "ruleId": "a82a51d8352642d09a006b057b82dece",
+        "source": "firewallCustom",
+        "userAgent": "WP Rocket (unverified)"
+      }
+    ],
+    "paths": [
+      "/shop/product_category_filter-audio/product_brand-neptune/product_display_type-led-or-oled-evo-or-qd-oled-or-qled/",
+      "/shop/product_category_filter-mounts-or-tv/product_brand-samsung-or-sanus-or-sony/product_display_type-mini-led-or-neo-qled-or-qled/",
+      "/shop/product_display_type-micro-rgb-or-neo-qled-or-oled/",
+      "/shop/product_category_filter-audio/product_brand-lg-or-sonos/product_display_type-dled-or-mini-led-or-oled/",
+      "/product-category/tv/product_brand-samsung-or-sony-or-sunbrite/product_display_type-micro-rgb-or-mini-led-or-oled-or-oled-evo/",
+      "/shop/product_brand-lg-or-sony/product_display_type-led-or-neo-qled-or-oled-or-oled-evo/",
+      "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-sony-or-sunbrite/product_display_type-dled-or-mini-led-or-neo-qled-or-qd-oled-or-qled/",
+      "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-samsung-or-sonos/product_display_type-dled-or-led-or-neo-qled-or-oled-evo-or-qled/",
+      "/shop/product_category_filter-mounts/product_brand-sonos-or-sony-or-sunbrite/product_display_type-ips-led-or-led-or-mini-led-or-neo-qled-or-qd-oled/",
+      "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-neptune-or-samsung-or-sanus-or-sunbrite/product_display_type-micro-rgb-or-mini-led-or-neo-qled-or-oled-evo-or-qd-oled-or-qled/",
+      "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-sunbrite/product_display_type-dled-or-ips-led-or-mini-led-or-oled-or-oled-evo-or-qled/",
+      "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-sonos/product_display_type-dled-or-mini-led-or-neo-qled-or-oled-or-oled-evo-or-qd-oled/",
+      "/shop/product_display_type-ips-led-or-neo-qled-or-oled-evo-or-qd-oled/",
+      "/shop/product_category_filter-audio-or-mounts-or-tv/product_brand-samsung-or-sanus-or-sonos-or-sony/product_display_type-led-or-neo-qled-or-oled-or-qd-oled-or-qled/",
+      "/shop/product_category_filter-audio-or-mounts/product_brand-samsung-or-sanus-or-sony-or-sunbrite/product_display_type-ips-led-or-micro-rgb-or-mini-led-or-neo-qled-or-oled-or-oled-evo-or-qled/",
+      "/shop/product_display_type-led-or-neo-qled-or-oled-evo-or-qd-oled/",
+      "/shop/product_category_filter-audio-or-mounts/product_brand-samsung-or-sony/product_display_type-dled-or-ips-led-or-mini-led-or-neo-qled-or-qled/",
+      "/shop/product_category_filter-mounts-or-tv/product_brand-neptune-or-samsung-or-sony-or-sunbrite/product_display_type-ips-led-or-micro-rgb-or-mini-led-or-qd-oled-or-qled/",
+      "/shop/product_category_filter-audio/product_brand-lg-or-sanus-or-sunbrite/product_display_type-ips-led-or-micro-rgb-or-mini-led-or-oled-or-oled-evo/",
+      "/shop/product_category_filter-audio/product_brand-lg-or-neptune-or-sanus/product_display_type-dled-or-led-or-oled-or-qled/",
+      "/shop/product_category_filter-audio/product_brand-lg-or-neptune-or-samsung-or-sanus-or-sony/product_display_type-led-or-micro-rgb-or-neo-qled-or-oled/",
+      "/shop/product_category_filter-audio/product_brand-neptune-or-sanus-or-sonos/product_display_type-ips-led-or-mini-led-or-qd-oled/",
+      "/shop/product_category_filter-audio/product_brand-lg-or-neptune-or-samsung-or-sanus-or-sunbrite/product_display_type-dled-or-ips-led-or-micro-rgb-or-mini-led-or-neo-qled-or-oled-evo-or-qd-oled-or-qled/",
+      "/shop/product_category_filter-tv/product_brand-lg-or-neptune-or-samsung-or-sanus-or-sonos-or-sony-or-sunbrite/product_display_type-dled-or-led-or-micro-rgb-or-oled/",
+      "/shop/product_category_filter-tv/product_brand-lg-or-neptune/product_display_type-dled-or-micro-rgb-or-neo-qled-or-oled/",
+      "/shop/product_category_filter-tv/product_brand-sonos-or-sony-or-sunbrite/product_display_type-led-or-neo-qled-or-oled-or-oled-evo-or-qd-oled/",
+      "/shop/product_brand-lg-or-neptune-or-sonos/product_display_type-micro-rgb-or-oled-evo-or-qd-oled-or-qled/",
+      "/shop/product_category_filter-audio-or-mounts/product_brand-lg-or-neptune-or-sanus-or-sony-or-sunbrite/product_display_type-led-or-micro-rgb-or-neo-qled-or-oled-evo/",
+      "/shop/product_category_filter-audio/product_brand-neptune-or-samsung/product_display_type-mini-led-or-neo-qled-or-oled-or-qled/",
+      "/shop/product_display_type-dled-or-ips-led-or-led-or-micro-rgb-or-mini-led-or-neo-qled-or-oled-or-qled/",
+      "/shop/product_category_filter-audio-or-tv/product_brand-lg-or-sanus-or-sony-or-sunbrite/product_display_type-dled-or-ips-led-or-led-or-neo-qled-or-oled-evo-or-qd-oled-or-qled/",
+      "/shop/product_display_type-led-or-mini-led-or-oled-or-oled-evo-or-qd-oled/",
+      "/shop/product_category_filter-audio-or-mounts/product_brand-lg-or-neptune-or-sanus-or-sunbrite/product_display_type-dled-or-micro-rgb-or-mini-led-or-neo-qled-or-oled-evo/",
+      "/shop/product_category_filter-audio-or-mounts/product_brand-neptune-or-sanus-or-sunbrite/product_display_type-dled-or-ips-led-or-led-or-micro-rgb-or-qd-oled-or-qled/",
+      "/shop/product_category_filter-mounts-or-tv/product_brand-lg-or-neptune-or-sanus-or-sunbrite/product_display_type-dled-or-led-or-micro-rgb-or-mini-led-or-oled-evo-or-qled/"
+    ],
+    "errors": null
+  },
+  "ahrefs": {
+    "project": 10403453,
+    "crawl": "2026-11-07T18:39:57Z",
+    "issues": [
+      {
+        "name": "Category page missing ItemList schema",
+        "crawled": 3,
+        "issue_id": "a9e4af25-cc90-4451-a072-af97bc60672e"
+      },
+      {
+        "name": "Changed pages not submitted to IndexNow",
+        "crawled": 22,
+        "issue_id": "b23ae498-5dee-4626-930b-9d5facd8a17d"
+      },
+      {
+        "name": "Inconsistent AI training bot policy",
+        "crawled": 82,
+        "issue_id": "12f55bdd-c905-4076-a19e-300ca2b63e70"
+      },
+      {
+        "name": "Indexable page blocked from some AI search bots",
+        "crawled": 82,
+        "issue_id": "0f6ec0d9-db0f-4518-bc71-8a85c488dd26"
+      },
+      {
+        "name": "Product page missing Product schema",
+        "crawled": 24,
+        "issue_id": "d20993c3-06e6-4e1d-9888-6e1646fe2872"
+      },
+      {
+        "name": "Slow server response for AI crawlers",
+        "crawled": 17,
+        "issue_id": "dd9582b9-6fec-4d9a-94f3-c67013fc26a1"
+      },
+      {
+        "name": "CSS file size too large",
+        "crawled": 1,
+        "issue_id": "c64d859f-d0f4-11e7-8ed1-001e67ed4656"
+      },
+      {
+        "name": "No. of referring domains dropped",
+        "crawled": 1,
+        "issue_id": "54e472ee-0653-4afc-9be4-c0a5b4c09f6e"
+      },
+      {
+        "name": "Organic traffic dropped",
+        "crawled": 4,
+        "issue_id": "cb8ebb59-3502-4193-b4f1-a154bc0dddbe"
+      },
+      {
+        "name": "Pages dropped from Top 10",
+        "crawled": 2,
+        "issue_id": "f2e4c823-6a12-42e9-8083-960d78f19dc3"
+      },
+      {
+        "name": "Structured data has schema.org validation error",
+        "crawled": 10,
+        "issue_id": "c22e9647-5a8f-4352-8b38-14cb66d7f101"
+      },
+      {
+        "name": "H1 tag missing or empty",
+        "crawled": 10,
+        "issue_id": "838c947a-001a-11e8-823b-001e67ed4656"
+      },
+      {
+        "name": "H1 tag missing or empty",
+        "crawled": 4,
+        "issue_id": "c64d9d0b-d0f4-11e7-8ed1-001e67ed4656"
+      },
+      {
+        "name": "Meta description tag missing or empty",
+        "crawled": 23,
+        "issue_id": "57751310-001c-11e8-b746-001e67ed4656"
+      },
+      {
+        "name": "Meta description tag missing or empty",
+        "crawled": 1,
+        "issue_id": "c64d31f0-d0f4-11e7-8ed1-001e67ed4656"
+      },
+      {
+        "name": "Meta description too long",
+        "crawled": 6,
+        "issue_id": "c64d56c9-d0f4-11e7-8ed1-001e67ed4656"
+      },
+      {
+        "name": "Meta description too short",
+        "crawled": 4,
+        "issue_id": "8d785026-001c-11e8-aa34-001e67ed4656"
+      },
+      {
+        "name": "Meta description too short",
+        "crawled": 2,
+        "issue_id": "c64d5156-d0f4-11e7-8ed1-001e67ed4656"
+      },
+      {
+        "name": "Page and SERP titles do not match",
+        "crawled": 11,
+        "issue_id": "d69246c2-225a-11ec-8456-06d2f2f613d8"
+      },
+      {
+        "name": "Nofollow page",
+        "crawled": 1,
+        "issue_id": "c64d7a9c-d0f4-11e7-8ed1-001e67ed4656"
+      },
+      {
+        "name": "Noindex and nofollow page",
+        "crawled": 1,
+        "issue_id": "c64d3765-d0f4-11e7-8ed1-001e67ed4656"
+      },
+      {
+        "name": "Noindex follow page",
+        "crawled": 28,
+        "issue_id": "f485750c-10a0-11e8-a32a-001e67ed4656"
+      },
+      {
+        "name": "Noindex page",
+        "crawled": 29,
+        "issue_id": "c64d588b-d0f4-11e7-8ed1-001e67ed4656"
+      }
+    ]
+  }
+}
