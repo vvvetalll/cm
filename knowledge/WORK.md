@@ -1,4 +1,8 @@
 # Work — current state
+## 2026-11-13 — Approved Chips focus rule applied
+
+Exact owner-approved :focus-visible block appended only to active theme wp-content/themes/chicagomounting/style.css4887–4890;104096→104214characters, full prefix/exact118-character append verified after native save/reload. Native used-CSS and clear/preload cache refresh required for propagation; no cache settings changed. Tab/Enter Reset all and individual OLED-chip removal pass desktop1366/mobile390; no horizontal overflow. Native UL overflow:auto partially clips outer ring top/left, visible bottom/right; retained because only exact rule authorized. [Audit§12/evidence/screenshots/rollback](../docs/WOOCOMMERCE-AUDIT-2026-11-13.md). No other styles/functionality changed. Next: separate read-only AIOSEO/Product schema/TV facet-pagination noindex and duplicate-route investigation, exact proposal before any SEO mutation. Focus documentation committed/pushed and Issue readback checked before continuation.
+
 ## 2026-11-13 — Shop pagination and Reset all repaired natively
 
 Continued from6887367/Issue#1. Only existing archive10276 changed: Loop Grid19cf30b Pagination None→Numbers, Individual Pagination Off→On, preserving Latest Products/Date DESC/16items/Card10278/layout; added native Chips778063b before grid in existing6b4fa01, title empty, Set10596, mobileYes. Publish/reload/control readback and MCP saved-tree verified. Shop10263 empty content; card10278 and Filter Set10596 inspected, unchanged. Hidden reset root: desktop-hidden built-in filter top-container with no standalone Chips. No custom code/new template/plugin; native cache clear/preload once, no cache settings changed.

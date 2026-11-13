@@ -1,0 +1,77 @@
+[
+  {
+    "phase": "savedCSS",
+    "file": "wp-content/themes/chicagomounting/style.css",
+    "originalLength": 104096,
+    "savedLength": 104214,
+    "exactAppend": true,
+    "originalSHA256": "50d9998689062de9dd903d690f795570091cf3d2fa89475c543fec7dfb706d65",
+    "savedSHA256": "9ad1c4c1ce7518a16588efbca11bd6504290b1df044a2a95a99bc74075df158b",
+    "rule": "\n.elementor-10276 .elementor-element-778063b a:focus-visible {\n  outline: 2px solid #292B26;\n  outline-offset: 3px;\n}\n",
+    "lines": "4887–4890",
+    "cacheActions": [
+      "Clear Used CSS",
+      "Clear and Preload Cache"
+    ],
+    "clipping": "Native chips UL overflow:auto clips outer outline at top/left; bottom/right indicator is visible. No additional styles changed."
+  },
+  {
+    "phase": "desktopFocus",
+    "focus": true,
+    "offset": "2.66667px",
+    "outline": "rgb(41, 43, 38) solid 2px",
+    "overflow": false,
+    "rect": {
+      "bottom": 254.5312557220459,
+      "height": 31.83333396911621,
+      "left": 388,
+      "right": 465.0208358764648,
+      "top": 222.6979217529297,
+      "width": 77.02083587646484,
+      "x": 388,
+      "y": 222.6979217529297
+    }
+  },
+  {
+    "phase": "desktopEnterReset",
+    "cards": 16,
+    "checked": 0,
+    "url": "https://chicagomounting.com/shop/"
+  },
+  {
+    "phase": "mobileFocus",
+    "focus": true,
+    "offset": "2.66667px",
+    "outline": "rgb(41, 43, 38) solid 2px",
+    "overflow": false,
+    "rect": {
+      "bottom": 1073.7917079925537,
+      "height": 31.83333396911621,
+      "left": 20,
+      "right": 97.02083587646484,
+      "top": 1041.9583740234375,
+      "width": 77.02083587646484,
+      "x": 20,
+      "y": 1041.9583740234375
+    }
+  },
+  {
+    "phase": "mobileIndividualChipRemoval",
+    "cards": 8,
+    "checked": 1,
+    "chips": "Reset all\nSamsung\n×",
+    "url": "https://chicagomounting.com/shop/product_brand-samsung/"
+  },
+  {
+    "phase": "mobileEnterReset",
+    "cards": 16,
+    "checked": 0,
+    "url": "https://chicagomounting.com/shop/"
+  },
+  {
+    "phase": "desktopIndividualChipRemoval",
+    "cards": 8,
+    "checked": 1,
+    "url": "https://chicagomounting.com/shop/product_brand-samsung/"
+  }
+]
